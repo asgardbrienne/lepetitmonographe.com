@@ -33,28 +33,28 @@ def page(fichier, titre, description, corps, noindex=False):
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@500;600&family=Source+Serif+4:ital,wght@0,500;0,600;1,500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
-  <div class="conteneur">
-    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="36" height="36"><span>Le Petit Monographe</span></a>
-    <div class="entete-actions">
-      <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
-        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-        <span>Rechercher</span>
-      </a>
-      <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
-        <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
-      </button>
-    </div>
-    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
-{nav}
-    </nav>
+  <div class="conteneur entete-haut">
+    <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
+      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      <span>Rechercher</span>
+    </a>
+    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="34" height="34"><span>Le Petit Monographe</span></a>
+    <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
+      <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
+    </button>
   </div>
+  <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+    <div class="conteneur nav-liens">
+{nav}
+    </div>
+  </nav>
 </header>
 
 <main id="contenu">
@@ -184,6 +184,8 @@ accueil = f'''  <section class="ouverture embleme">
     </div>
   </section>
 
+<!--DERNIERS-->
+
 {section(f"""      <h2>Trois portes d'entrée</h2>
       <p class="intro">Chaque dossier part des pièces disponibles et indique ce qui est établi, ce qui est débattu et ce qui reste incertain.</p>
       <div class="portes">
@@ -197,8 +199,6 @@ accueil = f'''  <section class="ouverture embleme">
       <p class="intro">Chaque type d'information est identifié, les sources sont données, les incertitudes sont conservées et les corrections sont publiées.</p>
       <a class="bouton" style="--couleur: var(--marque)" href="methode.html">Lire la méthode</a>""")}
   </div>
-
-<!--DERNIERS-->
 
 {section(f"""      <h2>Les monographies</h2>
       <p class="intro">Quand un article ne suffit plus, les livres approfondissent l'ensemble du dossier.</p>
@@ -673,7 +673,7 @@ for h, c, t, d in RUBRIQUES:
 
 # ---------- Sélection de dossiers sur la page d'accueil ----------
 A_LA_UNE = ["dossier-dette-publique.html", "dossier-chomage-emploi.html", "dossier-assemblee-sans-majorite.html",
-            "dossier-verifier-programmes.html", "dossier-outreau.html", "dossier-feminicides-chiffres.html"]
+            "dossier-verifier-programmes.html", "dossier-outreau.html"]
 _tous = {h: (c, t, d) for c, lst in DOSSIERS.items() for h, t, d in lst}
 _cartes = "\n".join(f'''        <a class="porte {_tous[h][0]}" href="{h}">
           <p class="surtitre">Dossier</p>
@@ -682,11 +682,11 @@ _cartes = "\n".join(f'''        <a class="porte {_tous[h][0]}" href="{h}">
           <span class="suite">Lire le dossier</span>
         </a>''' for h in A_LA_UNE if h in _tous)
 _idx = os.path.join(OUT, "index.html")
-_page_idx = open(_idx, encoding="utf-8").read().replace("<!--DERNIERS-->", section(f"""      <h2>Dossiers à la une</h2>
+_page_idx = open(_idx, encoding="utf-8").read().replace("<!--DERNIERS-->", section(f"""      <h2>À la une</h2>
       <p class="intro">{sum(len(v) for v in DOSSIERS.values())} dossiers publiés, classés par rubrique.</p>
       <div class="portes">
 {_cartes}
-      </div>"""))
+      </div>""", "a-la-une"))
 open(_idx, "w", encoding="utf-8").write(_page_idx)
 
 # ---------- Navigation : page « Tous les dossiers » et enrichissement des dossiers ----------

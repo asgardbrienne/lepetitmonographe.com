@@ -27,7 +27,7 @@
 
   // Sommaire : fermé par défaut sur petit écran
   var sommaire = document.querySelector('.sommaire');
-  if (sommaire && window.matchMedia('(max-width: 999px)').matches) sommaire.removeAttribute('open');
+  if (sommaire && window.matchMedia('(max-width: 1039px)').matches) sommaire.removeAttribute('open');
 
   var champ = document.getElementById('champ-recherche');
   var liste = document.getElementById('liste-dossiers');
