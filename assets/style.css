@@ -1,32 +1,19 @@
 :root {
-  --papier: #f7f3ea;
-  --papier-2: #eee8da;
-  --encre: #141a2b;
+  --papier: #fffbf3;
+  --papier-2: #f6efe0;
+  --encre: #0a1d34;
   --encre-douce: #4a5060;
   --filet: #d8d0bd;
-  --nuit: #14213d;
-  --pouvoirs: #1f3460;
+  --nuit: #0a1d34;
+  --pouvoirs: #1c3a66;
   --economie: #8a6a2c;
   --affaires: #8c2f39;
-  --marque: #a8823a;
+  --marque: #b29657;
+  --marque-texte: #8a6f33;
+  --display: "Playfair Display", "Didot", Georgia, serif;
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   --largeur: 1080px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --papier: #15171b;
-    --papier-2: #1d2026;
-    --encre: #ece8df;
-    --encre-douce: #a9adb5;
-    --filet: #343842;
-    --nuit: #0f1626;
-    --pouvoirs: #8fb0d9;
-    --economie: #d2b277;
-    --affaires: #d98f97;
-    --marque: #c9a96b;
-  }
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -68,10 +55,16 @@ a:hover { color: var(--marque); }
   min-height: 60px;
 }
 .logo {
-  font: 600 1.125rem/1 var(--serif);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font: 600 .95rem/1 var(--display);
+  text-transform: uppercase;
+  letter-spacing: .08em;
   text-decoration: none;
-  letter-spacing: .01em;
+  color: var(--encre);
 }
+.logo img { display: block; }
 .nav { display: flex; gap: 20px; font-size: .875rem; }
 .nav a { text-decoration: none; color: var(--encre-douce); }
 .nav a:hover { color: var(--encre); }
@@ -88,7 +81,7 @@ a:hover { color: var(--marque); }
   font: 600 .75rem/1.2 var(--sans);
   letter-spacing: .18em;
   text-transform: uppercase;
-  color: var(--marque);
+  color: var(--marque-texte);
   margin: 0 0 20px;
 }
 .devise {
@@ -315,3 +308,39 @@ a:hover { color: var(--marque); }
 .prose p, .prose li { max-width: 68ch; }
 .prose h2 { font: 500 1.6rem/1.25 var(--serif); margin: 48px 0 12px; }
 .prose h2:first-child { margin-top: 0; }
+
+/* Emblème de la page d'accueil (reprend le logo) */
+.embleme { text-align: center; padding: 64px 0 72px; }
+.embleme-monogramme { display: flex; align-items: center; justify-content: center; gap: 24px; }
+.embleme-monogramme::before, .embleme-monogramme::after {
+  content: ""; height: 1px; flex: 0 1 220px; background: var(--marque);
+}
+.embleme-monogramme img { width: clamp(84px, 14vw, 120px); height: auto; }
+.embleme-nom {
+  font: 500 clamp(1.9rem, 6.6vw, 4.4rem)/1.05 var(--display);
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  margin: 20px 0 12px;
+}
+.embleme-sous {
+  font: 400 clamp(1.1rem, 2.6vw, 1.75rem)/1.2 var(--display);
+  letter-spacing: .18em;
+  margin: 0;
+}
+.embleme-sous span { color: var(--marque); font-style: italic; }
+.embleme-domaines {
+  font: 500 clamp(.62rem, 1.5vw, .8rem)/1.6 var(--display);
+  letter-spacing: .24em;
+  text-transform: uppercase;
+  margin: 26px auto 36px;
+  padding-top: 22px;
+  position: relative;
+}
+.embleme-domaines::before {
+  content: ""; position: absolute; top: 0; left: 50%; width: 64px; height: 1px;
+  background: var(--marque); transform: translateX(-50%);
+}
+.embleme-domaines span { white-space: nowrap; }
+.embleme-domaines i { color: var(--marque); font-style: normal; margin: 0 .6em; }
+.embleme .chapeau { margin: 0 auto 28px; }
+.embleme .engagements { justify-content: center; }

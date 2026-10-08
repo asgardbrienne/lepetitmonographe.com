@@ -16,7 +16,7 @@ def A(t):  # élément à compléter avant publication
 def page(fichier, titre, description, corps, noindex=False):
     nav = "\n".join(
         f'      <a href="{h}"{" aria-current=\"page\"" if h == fichier else ""}>{l}</a>' for h, l in NAV)
-    titre_complet = "Le Petit Monographe · Comprendre avant de juger" if fichier == "index.html" else f"{titre} · Le Petit Monographe"
+    titre_complet = "Le Petit Monographe · Documents & enquêtes" if fichier == "index.html" else f"{titre} · Le Petit Monographe"
     robots = '\n  <meta name="robots" content="noindex">' if noindex else ""
     html = f'''<!doctype html>
 <html lang="fr">
@@ -25,17 +25,22 @@ def page(fichier, titre, description, corps, noindex=False):
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{titre_complet}</title>
   <meta name="description" content="{description}">{robots}
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta property="og:title" content="{titre_complet}">
+  <meta property="og:description" content="{description}">
+  <meta property="og:image" content="https://lepetitmonographe.com/assets/logo-partage.jpg">
+  <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Source+Serif+4:ital,wght@0,500;0,600;1,500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@500;600&family=Source+Serif+4:ital,wght@0,500;0,600;1,500&display=swap">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
 <header class="entete">
   <div class="conteneur">
-    <a class="logo" href="./">Le Petit Monographe</a>
+    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="36" height="36"><span>Le Petit Monographe</span></a>
     <nav class="nav" aria-label="Navigation principale">
 {nav}
     </nav>
@@ -120,11 +125,13 @@ portes = "\n".join(f'''        <a class="porte {c}" href="{h}">
           <span class="suite">Entrer dans la rubrique</span>
         </a>''' for h, c, t, d in RUBRIQUES)
 
-accueil = f'''  <section class="ouverture">
+accueil = f'''  <section class="ouverture embleme">
     <div class="conteneur">
-      <p class="surtitre">Le Petit Monographe</p>
-      <h1 class="devise"><span>Comprendre avant de juger.</span></h1>
-      <p class="chapeau">Politique, économie, société, affaires judiciaires. Des dossiers documentés qui distinguent les faits établis, les désaccords, les hypothèses et les zones d'incertitude.</p>
+      <div class="embleme-monogramme"><img src="assets/monogramme.png" alt="" width="120" height="120"></div>
+      <h1 class="embleme-nom">Le Petit Monographe</h1>
+      <p class="embleme-sous">Documents <span>&amp;</span> enquêtes</p>
+      <p class="embleme-domaines">Politique <i>•</i> Économie <i>•</i> Société <i>•</i> <span>Affaires judiciaires</span></p>
+      <p class="chapeau">Des dossiers documentés qui distinguent les faits établis, les désaccords, les hypothèses et les zones d'incertitude.</p>
       <ul class="engagements" aria-label="Engagements éditoriaux">
         <li>Sources datées</li>
         <li>Faits et opinions séparés</li>
