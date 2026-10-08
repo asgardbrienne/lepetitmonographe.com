@@ -1,0 +1,43 @@
+fichier: dossier-omar-raddad.html
+rubrique: affaires
+titre: Affaire Omar Raddad : pourquoi la révision a été refusée
+titre_court: L'affaire Omar Raddad
+chapeau: Condamné en 1994 pour le meurtre de son employeuse à Mougins, Omar Raddad a été partiellement gracié mais jamais innocenté. Sa deuxième demande de révision, fondée sur des traces ADN, a été rejetée en 2022.
+resume: Condamnation, grâce, traces ADN découvertes en 2015 et décision de la juridiction de révision. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- Ghislaine Marchal a été tuée à Mougins, dans les Alpes-Maritimes, le 2 juin 1991 [1].
+- Son jardinier, Omar Raddad, a été condamné en 1994 ; il a bénéficié d'une grâce partielle en 1996, qui ne l'a pas innocenté [1].
+- Des profils ADN masculins non identifiés, ne correspondant pas au sien, ont été découverts en 2015 sur des pièces du dossier [1].
+- Sa deuxième requête en révision a été rejetée le 13 octobre 2022 [2]. Ses avocats ont annoncé saisir la Cour européenne des droits de l'homme [1].
+
+## État de la procédure
+
+[État de la procédure] La condamnation de 1994 reste définitive. La juridiction de révision a rejeté la demande de révision déposée le 24 juin 2021 [2]. Une requête devant la Cour européenne des droits de l'homme a été annoncée ; nous n'avons pas trouvé de décision de cette Cour [1].
+
+## Les faits jugés
+
+[Fait établi] Le 2 juin 1991, Ghislaine Marchal est tuée de plusieurs coups de couteau à son domicile de Mougins. Son jardinier est condamné en 1994 pour ce meurtre [1].
+
+[Fait établi] En 1996, il bénéficie d'une grâce présidentielle partielle. Une grâce dispense de tout ou partie de la peine mais n'efface pas la condamnation [1].
+
+## La demande de révision
+
+[Élément matériel] En 2015, des analyses révèlent sur des pièces de la scène de crime quatre profils ADN masculins non identifiés, qui ne correspondent pas à celui du condamné [1].
+
+[Fait établi] Le 24 juin 2021, une deuxième requête en révision est déposée, en s'appuyant sur ces analyses et sur une loi qui a assoupli les critères de réouverture d'un procès. La juridiction de révision ordonne des investigations complémentaires, puis rejette la requête le 13 octobre 2022 [2][3].
+
+[Fait établi] La révision d'une condamnation suppose un fait nouveau ou un élément inconnu au jour du procès, de nature à faire naître un doute sur la culpabilité. La juridiction a jugé que la requête ne remplissait pas ces conditions [2]. Nous n'avons pas consulté la motivation détaillée de la décision.
+
+[Débat] Pour les défenseurs du condamné et une partie de l'opinion, l'affaire reste une erreur judiciaire probable, notamment depuis la découverte des profils ADN de tiers. Pour la famille de la victime, la décision devait clore définitivement une procédure vécue douloureusement [1]. La justice, à ce jour, a maintenu la condamnation.
+
+## Ce qu'on ne sait pas
+- **À qui appartiennent les profils ADN** retrouvés en 2015.
+- **L'issue d'une éventuelle procédure européenne.**
+
+## Sources
+- Source secondaire : CNews, « 30 ans après sa condamnation, que devient Omar Raddad ? », février 2024 ; Middle East Eye. | https://www.cnews.fr/faits-divers/2024-02-02/30-ans-apres-sa-condamnation-que-devient-omar-raddad-1448446
+- Le JDD, « Affaire Omar Raddad : la deuxième requête de révision rejetée par la justice », octobre 2022. | https://www.lejdd.fr/Societe/affaire-omar-raddad-la-deuxieme-requete-de-revision-rejetee-par-la-justice-4140608
+- France 3 Provence-Alpes-Côte d'Azur, « La requête en révision du procès Omar Raddad a été rejetée, retour sur les rares procès révisés en France ». | https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/la-requete-en-revision-du-proces-omar-raddad-a-ete-rejetee-retour-sur-les-rares-proces-revises-en-france-2613188.html

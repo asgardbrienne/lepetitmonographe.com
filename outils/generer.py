@@ -156,6 +156,8 @@ accueil = f'''  <section class="ouverture embleme">
       <a class="bouton" style="--couleur: var(--marque)" href="methode.html">Lire la méthode</a>""")}
   </div>
 
+<!--DERNIERS-->
+
 {section(f"""      <h2>Les monographies</h2>
       <p class="intro">Quand un article ne suffit plus, les livres approfondissent l'ensemble du dossier.</p>
 {grille_livres(["c-pouvoirs", "c-economie", "c-affaires"])}""")}
@@ -509,3 +511,133 @@ dossier = f'''  <section class="tete-page c-economie">
   </article>'''
 page("dossier-chomage-emploi.html", "Chômage et emploi",
      "Pourquoi le chômage remonte alors que le taux d'emploi est proche de son record : définitions, chiffres de l'Insee, explications et incertitudes.", dossier)
+
+# ---------- Dossiers écrits en format simple (outils/dossiers/*.txt) ----------
+# Format : en-tête « clé: valeur » jusqu'à une ligne « --- », puis le corps.
+# Corps : blocs séparés par une ligne vide.
+#   ## Titre              -> intertitre
+#   [Étiquette] texte     -> encadré étiqueté (Fait établi, Estimation, Débat...)
+#   - élément             -> liste (lignes consécutives)
+#   [n] dans le texte     -> appel de note vers la source n
+#   texte                 -> paragraphe
+# Sections spéciales : « ## Sources » (lignes « - texte | url ») et « ## Essentiel ».
+import glob, re, html as _html
+
+RUB_CLASSES = {"economie": "c-economie", "politique": "c-pouvoirs", "affaires": "c-affaires"}
+RUB_NOMS = {"economie": "Économie &amp; Société", "politique": "Politique &amp; Institutions", "affaires": "Affaires &amp; Enquêtes"}
+
+def _inline(t):
+    t = t.replace("&", "&amp;").replace("&amp;amp;", "&amp;")
+    t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
+    t = re.sub(r"\[(\d+)\]", lambda m: note(int(m.group(1))), t)
+    return t
+
+def _blocs(corps):
+    out = []
+    for bloc in [b.strip() for b in corps.strip().split("\n\n") if b.strip()]:
+        m = re.match(r"^\[([^\]\d][^\]]*)\]\s*(.*)$", bloc, re.S)
+        if bloc.startswith("## "):
+            out.append(f"        <h2>{_inline(bloc[3:])}</h2>")
+        elif m:
+            out.append(encadre(m.group(1), f"<p>{_inline(m.group(2))}</p>"))
+        elif bloc.startswith("- "):
+            items = "".join(f"<li>{_inline(l[2:])}</li>" for l in bloc.split("\n"))
+            out.append(f'        <ul class="liste-inconnues">{items}</ul>')
+        else:
+            out.append(f"        <p>{_inline(bloc)}</p>")
+    return "\n".join(out)
+
+def lire_dossier(chemin):
+    brut = open(chemin, encoding="utf-8").read()
+    tete_, corps = brut.split("\n---\n", 1)
+    meta = dict(l.split(": ", 1) for l in tete_.strip().split("\n"))
+    parties = re.split(r"^## (Essentiel|Sources|Ce qu'on ne sait pas)\s*$", corps, flags=re.M)
+    texte = parties[0]; speciales = {}
+    for i in range(1, len(parties), 2):
+        contenu = parties[i + 1]
+        if parties[i] == "Essentiel":
+            # la liste de l'essentiel s'arrête au premier bloc ; la suite est le corps du dossier
+            liste, _, suite = contenu.strip().partition("\n\n")
+            contenu = liste
+            texte += "\n\n" + suite
+        speciales[parties[i]] = contenu
+    # les sections normales peuvent suivre « Ce qu'on ne sait pas » : on les garde dans l'ordre
+    return meta, texte, speciales
+
+def rendre_dossier(chemin):
+    meta, texte, sp = lire_dossier(chemin)
+    c = RUB_CLASSES[meta["rubrique"]]
+    essentiel = "".join(f"<li>{_inline(l[2:])}</li>" for l in sp.get("Essentiel", "").strip().split("\n") if l.startswith("- "))
+    inconnues = sp.get("Ce qu'on ne sait pas", "").strip()
+    sources = []
+    for l in sp.get("Sources", "").strip().split("\n"):
+        if l.startswith("- "):
+            t, _, u = l[2:].partition(" | ")
+            t = t.rstrip(" |")
+            sources.append((t.strip(), u.strip()))
+    src_html = "\n".join(
+        f'          <li id="source-{i}">{_inline(t)}' + (f' <a href="{u}" rel="noopener">{u.replace("https://", "")}</a>' if u else "") + f' <a href="#appel-{i}" class="retour" aria-label="Retour au texte">↑</a></li>'
+        for i, (t, u) in enumerate(sources, 1))
+    corps = f'''  <section class="tete-page {c}">
+    <div class="conteneur">
+      <p class="surtitre">{RUB_NOMS[meta["rubrique"]]} · Dossier</p>
+      <h1>{_inline(meta["titre"])}</h1>
+      <p class="chapeau">{_inline(meta["chapeau"])}</p>
+      <p class="meta-dossier">Données arrêtées au {meta["arret"]} · Première publication le {meta["publication"]}</p>
+    </div>
+  </section>
+
+  <article class="section dossier">
+    <div class="conteneur">
+      <div class="prose">
+        <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d'origine avant mise en ligne.</p>
+        <aside class="essentiel">
+          <p class="surtitre">L'essentiel</p>
+          <ul>{essentiel}</ul>
+        </aside>
+{_blocs(texte)}
+        <h2>Ce qu'on ne sait pas</h2>
+{_blocs(inconnues)}
+        <h2>Sources</h2>
+        <ol class="sources">
+{src_html}
+        </ol>
+        <h2>Historique</h2>
+        <ul class="historique"><li>{meta["publication"]} : première publication.</li></ul>
+        <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
+      </div>
+    </div>
+  </article>'''
+    page(meta["fichier"], meta.get("titre_court", meta["titre"]), meta["resume"], corps)
+    return meta
+
+_dossiers_simples = [rendre_dossier(f) for f in sorted(glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), "dossiers", "*.txt")))]
+for m in _dossiers_simples:
+    DOSSIERS.setdefault(RUB_CLASSES[m["rubrique"]], []).append((m["fichier"], _inline(m["titre"]), _inline(m["resume"])))
+# Les pages de rubrique sont regénérées avec la liste complète
+for h, c, t, d in RUBRIQUES:
+    corps = tete("Rubrique", t, d, c) + "\n" + section(f"""      <h2>Les dossiers</h2>
+      <div class="portes">
+{cartes_dossiers(c)}
+      </div>""") + "\n" + section(f"""      <h2>Pour aller plus loin</h2>
+      <p class="intro">Les monographies liées à cette rubrique.</p>
+{grille_livres([c])}""")
+    page(h, t.replace("&amp;", "&"), f"{t.replace('&amp;', '&')} : {d}", corps)
+
+# ---------- Sélection de dossiers sur la page d'accueil ----------
+A_LA_UNE = ["dossier-dette-publique.html", "dossier-chomage-emploi.html", "dossier-assemblee-sans-majorite.html",
+            "dossier-verifier-programmes.html", "dossier-outreau.html", "dossier-feminicides-chiffres.html"]
+_tous = {h: (c, t, d) for c, lst in DOSSIERS.items() for h, t, d in lst}
+_cartes = "\n".join(f'''        <a class="porte {_tous[h][0]}" href="{h}">
+          <p class="surtitre">Dossier</p>
+          <h3>{_tous[h][1]}</h3>
+          <p>{_tous[h][2]}</p>
+          <span class="suite">Lire le dossier</span>
+        </a>''' for h in A_LA_UNE if h in _tous)
+_idx = os.path.join(OUT, "index.html")
+_html = open(_idx, encoding="utf-8").read().replace("<!--DERNIERS-->", section(f"""      <h2>Dossiers à la une</h2>
+      <p class="intro">{sum(len(v) for v in DOSSIERS.values())} dossiers publiés, classés par rubrique.</p>
+      <div class="portes">
+{_cartes}
+      </div>"""))
+open(_idx, "w", encoding="utf-8").write(_html)

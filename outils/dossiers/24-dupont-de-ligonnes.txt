@@ -1,0 +1,43 @@
+fichier: dossier-dupont-de-ligonnes.html
+rubrique: affaires
+titre: Affaire Dupont de Ligonnès : ce qui est établi quinze ans après
+titre_court: L'affaire Dupont de Ligonnès
+chapeau: En avril 2011, les corps d'une mère et de ses quatre enfants sont découverts sous la terrasse de leur maison à Nantes. Le père, recherché, n'a jamais été retrouvé. La plupart des « pistes » publiées depuis relèvent de l'hypothèse.
+resume: Faits établis, état de l'enquête, signalements et rumeurs : ce que l'on sait et ce que l'on ne sait pas. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- Le 21 avril 2011, les corps d'Agnès Dupont de Ligonnès et de ses quatre enfants sont découverts sous la terrasse de leur maison de Nantes [1].
+- Xavier Dupont de Ligonnès, le père, est recherché depuis mai 2011 ; il n'a jamais été retrouvé ni jugé, et reste présumé innocent [1].
+- Selon le parquet de Nantes, plus de 1 850 signalements ont été reçus ; aucun n'a permis d'établir une nouvelle trace certaine [2].
+- Une information judiciaire reste ouverte [2].
+
+## État de la procédure
+
+[État de la procédure] Une information judiciaire est ouverte à Nantes et un juge d'instruction reste saisi [2]. Faute d'avoir été retrouvé, le suspect n'a pas été jugé. La nature exacte des mandats de recherche en vigueur n'a pas pu être vérifiée dans des sources judiciaires ; en mai 2011, il était officiellement recherché et faisait l'objet d'une notice d'Interpol [1].
+
+## Les faits établis
+
+[Fait établi] Le 21 avril 2011, la police découvre sous la terrasse de la maison familiale, à Nantes, les corps de la mère et des quatre enfants du couple [1].
+
+[Fait établi] Le père a disparu. Il fait l'objet de recherches depuis mai 2011 [1].
+
+## Les pistes et les signalements
+
+[Fait établi] Le parquet de Nantes indiquait en juin 2026 avoir reçu plus de 1 850 signalements, sans qu'aucun ne permette d'établir une trace certaine [2].
+
+[Hypothèse] Plusieurs hypothèses circulent : fuite à l'étranger sous une fausse identité, défendue notamment par un ancien enquêteur dans un livre publié en 2026 ; décès après les faits. Aucune n'est établie [2][3].
+
+[Allégation] En mars 2026, un bureau de shérif au Texas a diffusé un appel à témoins évoquant une possible observation en 2020. Le parquet de Nantes a déclaré ne pas avoir été informé de cette diffusion [2]. Aucun élément publié ne confirme cette observation.
+
+[À noter] Depuis 2011, de nombreuses pistes présentées comme sérieuses se sont révélées fausses [3]. Une « piste » relayée par les médias ou les réseaux sociaux n'est pas un fait établi.
+
+## Ce qu'on ne sait pas
+- **Où se trouve le suspect, et s'il est vivant.**
+- **Le déroulement exact des faits**, qui n'a jamais été établi par un procès.
+
+## Sources
+- Source secondaire : Wikipédia, « Affaire Dupont de Ligonnès » ; franceinfo, dossier « Xavier Dupont de Ligonnès ». | https://fr.wikipedia.org/wiki/Affaire_Dupont_de_Ligonn%C3%A8s
+- Source secondaire : Actu Forces de l'ordre, « Xavier Dupont de Ligonnès reste introuvable depuis 15 ans : où en est l'enquête en 2026 », 17 août 2026, citant le parquet de Nantes. | https://actuforcesdelordre.fr/2026/08/17/xavier-dupont-de-ligonnes-reste-introuvable-depuis-15-ans-ou-en-est-reellement-lenquete-en-2026-et-quelles-pistes-sont-encore-etudiees/
+- ICI, « Affaire Xavier Dupont de Ligonnès : quinze ans de fausses pistes et de rumeurs ». | https://www.ici.fr/pays-de-la-loire/loire-atlantique-44/nantes/carte-affaire-xavier-dupont-de-ligonnes-quinze-ans-de-fausses-pistes-et-de-rumeurs-3110374

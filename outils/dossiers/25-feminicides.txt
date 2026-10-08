@@ -1,0 +1,42 @@
+fichier: dossier-feminicides-chiffres.html
+rubrique: affaires
+titre: Féminicides : ce que mesurent les chiffres officiels et associatifs
+titre_court: Les chiffres des féminicides
+chapeau: Pour 2024, le ministère de l'Intérieur compte 107 femmes tuées par leur conjoint ou ex-conjoint ; des collectifs avancent des chiffres plus élevés. Les deux décomptes ne mesurent pas la même chose.
+resume: Définitions, méthodes de comptage, séries officielles et associatives, et ce que les écarts signifient. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- Selon l'étude du ministère de l'Intérieur sur les morts violentes au sein du couple, publiée en octobre 2025, 107 femmes ont été tuées par leur conjoint ou ex-conjoint en 2024, soit 11 % de plus qu'en 2023 [1].
+- Les décomptes associatifs diffèrent : par exemple 141 féminicides pour 2024 selon #NousToutes, qui inclut des meurtres de femmes hors du couple [2].
+- Les écarts tiennent à la définition retenue et à la méthode de collecte, pas nécessairement à une erreur de l'une ou l'autre source.
+- Le chiffre officiel pour 2025 n'était pas publié à la date de ce dossier.
+
+## Ce que compte le ministère
+
+[Fait établi] Le ministère de l'Intérieur publie chaque année une étude sur les morts violentes au sein du couple, fondée sur les faits enregistrés par la police et la gendarmerie. Pour 2024, elle recense 107 femmes tuées par leur conjoint ou ex-conjoint, en hausse de 11 % par rapport à 2023 [1].
+
+[Fait établi] Une réponse à une question parlementaire donne la série suivante de féminicides conjugaux enregistrés : 146 en 2019, 122 en 2021, 118 en 2022 et 96 en 2023 [3]. Des écarts de quelques unités existent entre publications pour une même année, selon la date de la mise à jour.
+
+## Ce que comptent les collectifs
+
+[Fait établi] Le collectif « Féminicides par compagnons ou ex » recense, par une veille quotidienne de la presse nationale et locale, les femmes tuées par leur compagnon ou ex-compagnon ; il comptait au moins 98 cas pour 2025 lors de sa dernière mise à jour consultée [4].
+
+[Fait établi] #NousToutes, au sein de l'Inter Orga Féminicides, compte 141 féminicides pour 2024 et 164 au 31 décembre 2025, en incluant des féminicides conjugaux, familiaux et commis dans d'autres cadres sociaux, selon une définition fondée sur le meurtre d'une femme en raison de son genre [2].
+
+## Pourquoi les chiffres diffèrent
+
+[Fait établi] Le périmètre n'est pas le même : le ministère compte les meurtres au sein du couple, actuel ou passé ; certains collectifs incluent d'autres liens. La méthode diffère aussi : enregistrement administratif d'un côté, veille médiatique vérifiée de l'autre [2][3].
+
+[Interprétation] Un décompte par veille de presse peut inclure des cas encore non qualifiés par la justice, et en manquer d'autres non médiatisés. Un décompte administratif dépend de la qualification initiale des faits. Aucun des deux n'est « le vrai chiffre » ; ils répondent à des questions différentes.
+
+## Ce qu'on ne sait pas
+- **Le chiffre officiel pour 2025**, qui sera publié par le ministère.
+- **La part des victimes connues des services** avant les faits, renseignée seulement en partie par les études ministérielles.
+
+## Sources
+- Ministère de l'Intérieur, étude nationale sur les morts violentes au sein du couple 2024, octobre 2025, d'après sa reprise dans la lettre de l'Observatoire national des violences faites aux femmes. | https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf
+- #NousToutes, « Mur de femmages 2025 », et méthodologie de l'Inter Orga Féminicides. | https://www.noustoutes.org/comprendre-les-chiffres/mur-de-femmages-2025/
+- Assemblée nationale, question écrite n° 12232 (17e législature) et réponse. | https://questions.assemblee-nationale.fr/q17/17-12232QE.htm
+- Collectif « Féminicides par compagnons ou ex », statistiques 2025. | https://www.feminicides.fr/statistiques-2025

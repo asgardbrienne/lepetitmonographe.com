@@ -1,0 +1,44 @@
+fichier: dossier-assemblee-sans-majorite.html
+rubrique: politique
+titre: Une Assemblée sans majorité : de la dissolution de 2024 à aujourd'hui
+titre_court: Une Assemblée sans majorité
+chapeau: Depuis les élections législatives anticipées de 2024, aucun bloc ne dispose de la majorité absolue à l'Assemblée nationale. Quatre Premiers ministres se sont succédé en un peu plus d'un an.
+resume: Chronologie de la dissolution, des censures et des gouvernements successifs, et ce que prévoit la Constitution. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- Le président de la République a annoncé la dissolution de l'Assemblée nationale le 9 juin 2024, au soir des élections européennes [1].
+- Le 4 décembre 2024, le gouvernement de Michel Barnier a été renversé par une motion de censure adoptée par 331 députés, une première depuis 1962 [2].
+- Le gouvernement de François Bayrou est tombé le 8 septembre 2025 après un vote de confiance perdu ; Sébastien Lecornu a été nommé le lendemain, puis reconduit le 10 octobre 2025 après sa démission [1].
+- La majorité absolue à l'Assemblée est de 289 sièges sur 577 lorsque tous les sièges sont pourvus.
+
+## La chronologie
+
+[Fait établi] Le 9 juin 2024, le président de la République annonce la dissolution de l'Assemblée nationale. Les élections législatives ont lieu les 30 juin et 7 juillet 2024 [1]. Aucun bloc n'obtient la majorité absolue.
+
+[Fait établi] Michel Barnier est nommé Premier ministre en septembre 2024. Le 2 décembre 2024, il engage la responsabilité de son gouvernement sur le budget de la sécurité sociale en recourant à l'article 49, alinéa 3, de la Constitution. Le 4 décembre, la motion de censure déposée par la gauche est adoptée par 331 députés, avec les voix du Rassemblement national [2]. C'est la deuxième censure adoptée sous la Ve République, après celle d'octobre 1962 contre le gouvernement de Georges Pompidou [2].
+
+[Fait établi] François Bayrou est nommé Premier ministre le 13 décembre 2024. Le 8 septembre 2025, l'Assemblée lui refuse sa confiance et son gouvernement démissionne [1].
+
+[Fait établi] Sébastien Lecornu est nommé Premier ministre le 9 septembre 2025. Son premier gouvernement, nommé le 5 octobre 2025, démissionne le lendemain ; il est reconduit le 10 octobre 2025 [1]. Il a présenté le projet de budget pour 2027 le 1er octobre 2026.
+
+## Ce que prévoit la Constitution
+
+[Fait établi] Selon l'article 12 de la Constitution, « il ne peut être procédé à une nouvelle dissolution dans l'année qui suit ces élections », c'est-à-dire les élections organisées après une dissolution [3]. Les élections ayant eu lieu en juillet 2024, une nouvelle dissolution est juridiquement possible depuis juillet 2025.
+
+[Fait établi] L'article 49, alinéa 3, permet au Premier ministre, après délibération du conseil des ministres, d'engager la responsabilité du gouvernement sur le vote d'un texte. Le texte est considéré comme adopté sauf si une motion de censure, déposée dans les vingt-quatre heures, est votée à la majorité absolue des membres de l'Assemblée. Depuis la révision constitutionnelle de 2008, cette procédure est réservée aux lois de finances et de financement de la sécurité sociale, plus un autre texte par session [4].
+
+## Le débat
+
+[Débat] Pour les uns, la situation révèle l'inadaptation des institutions de la Ve République, conçues pour des majorités stables, et plaide pour la proportionnelle ou une culture de coalition. Pour d'autres, elle résulte d'abord de la décision de dissoudre et des choix des partis, et les institutions ont permis la continuité de l'État. Ces lectures portent sur des causes et des remèdes ; elles ne s'opposent pas sur les faits.
+
+## Ce qu'on ne sait pas
+- **La durée du gouvernement actuel**, qui dépend des votes sur le budget 2027.
+- **Une éventuelle nouvelle dissolution** avant l'élection présidentielle de 2027.
+
+## Sources
+- Source secondaire : chronologie publiée par CNews, « De la dissolution du 9 juin 2024 à la démission surprise de Sébastien Lecornu », 6 octobre 2025 ; Wikipédia, articles sur les gouvernements Barnier, Bayrou et Lecornu II. À vérifier sur les décrets publiés au Journal officiel. | https://www.cnews.fr/france/2025-10-06/de-la-dissolution-du-9-juin-2024-la-demission-surprise-de-sebastien-lecornu
+- LCP, « Le gouvernement de Michel Barnier censuré au terme d'une journée historique à l'Assemblée nationale », 4 décembre 2024. | https://lcp.fr/actualites/le-gouvernement-de-michel-barnier-censure-au-terme-d-une-journee-historique-a-l
+- Le Club des juristes, « À partir de quand Emmanuel Macron pourrait-il à nouveau dissoudre l'Assemblée ? » (article 12 de la Constitution). Texte à consulter sur Légifrance. | https://www.leclubdesjuristes.com/politique/a-partir-de-quel-jour-emmanuel-macron-pourrait-il-a-nouveau-dissoudre-10412/
+- Gouvernement, « L'article 49.3 : comment ça marche ? ». | https://www.info.gouv.fr/actualite/l-article-49-3-comment-ca-marche

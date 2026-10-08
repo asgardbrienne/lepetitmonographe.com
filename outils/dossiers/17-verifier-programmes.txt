@@ -1,0 +1,45 @@
+fichier: dossier-verifier-programmes.html
+rubrique: politique
+titre: Présidentielle 2027 : comment vérifier un programme économique
+titre_court: Vérifier un programme
+chapeau: Chaque campagne voit circuler des chiffrages contradictoires des mêmes propositions. Une grille commune permet de comprendre d'où viennent les écarts et de comparer les programmes avec les mêmes critères.
+resume: Coût brut, recettes, effets sur les comportements, faisabilité juridique : une méthode commune pour lire les chiffrages, appliquée à tous les candidats de la même façon. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- Un même programme peut recevoir des chiffrages très différents selon la méthode : coût immédiat ou à terme, avec ou sans effets sur les comportements.
+- Lors de la présidentielle de 2022, l'Institut Montaigne a jugé irréalistes les projections financières des cinq principaux candidats [1].
+- Le Petit Monographe appliquera la même grille à chaque candidat déclaré, sans exception, et publiera ses hypothèses.
+- À la date de ce dossier, les programmes pour 2027 ne sont pas encore publiés.
+
+## Pourquoi les chiffrages divergent
+
+[Fait établi] Il existe plusieurs façons de chiffrer une mesure, et chacune correspond à une manière d'analyser le problème, rappelle l'Institut Montaigne, qui chiffre les programmes depuis 2012 [2]. Ses évaluations portent d'abord sur l'effet immédiat sur les finances publiques, puis, lorsque c'est possible, sur certains effets économiques [3].
+
+[Interprétation] Les écarts entre chiffrages viennent le plus souvent de quatre choix : la période retenue (première année ou régime de croisière), le point de comparaison (situation actuelle ou évolution prévue sans la mesure), la prise en compte des réactions des ménages et des entreprises, et le traitement des recettes annoncées, souvent incertaines.
+
+## La grille que nous appliquerons
+
+- **Le coût brut** : ce que coûte la mesure la première année et en régime de croisière, avant tout effet sur l'économie.
+- **Les recettes annoncées** : sont-elles chiffrées, réalistes, déjà comptées par d'autres mesures ?
+- **Les effets sur les comportements** : la mesure modifie-t-elle l'emploi, la consommation, l'évasion fiscale ? Ces effets sont présentés séparément comme des estimations, avec leur incertitude.
+- **La faisabilité juridique** : la mesure est-elle compatible avec la Constitution, le droit européen et les engagements internationaux ?
+- **Le calendrier** : à quelle date la mesure produit-elle ses effets, et que se passe-t-il entre-temps ?
+
+[À noter] Chaque candidat sera évalué avec la même grille, sur ses mesures les plus importantes, avec les mêmes sources de référence. Avant publication, chaque évaluation passera le test d'inversion de notre méthode : appliquerions-nous exactement les mêmes critères si le candidat était d'un autre camp ?
+
+## Les précédents
+
+[Fait établi] En 2022, l'Institut Montaigne a estimé qu'aucun des programmes des principaux candidats ne prévoyait des financements à la hauteur des mesures annoncées [1]. Cette appréciation porte sur l'ensemble des candidats, pas sur un camp.
+
+[À noter] Les organismes qui chiffrent les programmes ont des orientations et des méthodes différentes. Un chiffrage doit être lu avec ses hypothèses, quel que soit son auteur.
+
+## Ce qu'on ne sait pas
+- **Les programmes eux-mêmes**, qui ne sont pas encore publiés.
+- **Les effets macroéconomiques des mesures**, qui reposent sur des modèles dont les résultats varient fortement.
+
+## Sources
+- Acteurs publics, entretien avec Victor Poirier (Institut Montaigne), « Aucun programme ne prévoit des financements à la hauteur », 2022. | https://acteurspublics.fr/articles/victor-poirier-aucun-programme-ne-prevoit-des-financements-a-la-hauteur
+- Institut Montaigne, « L'Institut Montaigne lance son site de chiffrages et de déchiffrages des propositions des candidats ». | https://institutmontaigne.org/expressions/linstitut-montaigne-lance-son-site-de-chiffrages-et-de-dechiffrages-des-propositions-des-candidats
+- Institut Montaigne, « Législatives 2024 : chiffrage global des programmes » (méthode). | https://institutmontaigne.org/communiques-de-presse/legislatives-2024-chiffrage-global-des-programmes

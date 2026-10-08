@@ -1,0 +1,39 @@
+fichier: dossier-deepfakes.html
+rubrique: economie
+titre: Deepfakes : ce que dit le droit et ce que permet la technique
+titre_court: Les deepfakes
+chapeau: Les vidéos et enregistrements fabriqués par intelligence artificielle sont de plus en plus réalistes. Le droit français punit leur diffusion trompeuse et le droit européen impose désormais leur signalement.
+resume: Infractions prévues par la loi SREN, obligations de transparence du règlement européen sur l'IA, limites de la détection. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- Depuis la loi du 21 mai 2024 dite SREN, diffuser sans le consentement de la personne un contenu fabriqué par algorithme la représentant, sans que son caractère artificiel soit évident ou mentionné, est un délit [1].
+- Les deepfakes à caractère sexuel font l'objet d'une infraction spécifique, plus sévèrement punie [1].
+- Depuis le 2 août 2026, le règlement européen sur l'IA impose de signaler les deepfakes et de marquer les contenus générés par IA [2].
+- La détection automatique reste imparfaite : aucun outil ne garantit de distinguer un contenu authentique d'un contenu fabriqué.
+
+## Le droit pénal français
+
+[Fait établi] La loi visant à sécuriser et réguler l'espace numérique (SREN) du 21 mai 2024 a modifié l'article 226-8 du code pénal pour couvrir les contenus générés par un traitement algorithmique, et plus seulement les montages. L'infraction suppose que le caractère artificiel du contenu ne soit ni évident ni expressément mentionné [1].
+
+[Fait établi] Selon les analyses juridiques consultées, la peine est d'un an d'emprisonnement et 15 000 euros d'amende, portée à deux ans et 45 000 euros en cas de diffusion en ligne. Les deepfakes à caractère sexuel relèvent de l'article 226-8-1, avec des peines plus lourdes [1]. Ces montants sont à vérifier sur Légifrance.
+
+[À noter] C'est la diffusion qui est punie, non la simple création. Un contenu clairement présenté comme fabriqué, par exemple dans un cadre parodique, n'entre pas dans l'infraction [1].
+
+## Le droit européen
+
+[Fait établi] L'article 50 du règlement européen sur l'intelligence artificielle impose deux obligations de transparence, applicables depuis le 2 août 2026 : les fournisseurs de systèmes d'IA doivent marquer les contenus générés dans un format détectable par machine, et ceux qui diffusent un deepfake doivent indiquer qu'il a été fabriqué [2]. Les œuvres manifestement artistiques, satiriques ou fictionnelles bénéficient d'un régime allégé [2]. Un délai court jusqu'au 2 décembre 2026 pour le marquage des systèmes déjà sur le marché, selon des analyses juridiques à vérifier.
+
+## Ce que permet la technique
+
+[Interprétation] Les outils de détection reposent sur la recherche d'artefacts ou sur des marquages intégrés au contenu. Les premiers perdent en efficacité à mesure que les générateurs progressent ; les seconds ne fonctionnent que si le créateur du contenu a respecté l'obligation de marquage. Pour un contenu donné, l'origine (qui l'a publié en premier, dans quel contexte) reste souvent l'indice le plus fiable.
+
+## Ce qu'on ne sait pas
+- **Le nombre de poursuites et de condamnations** fondées sur les nouvelles infractions : aucune statistique publique n'a été trouvée.
+- **L'effet réel des deepfakes sur les élections** : des cas sont documentés à l'étranger, leur influence mesurable sur les votes n'est pas établie.
+- **L'efficacité du marquage** imposé par le règlement européen, qui vient d'entrer en application.
+
+## Sources
+- Analyses juridiques de la loi SREN : Village de la Justice et cabinets d'avocats (sources secondaires ; texte à consulter sur Légifrance). | https://www.village-justice.com/articles/incrimination-des-deepfakes,56273.html
+- Commission européenne, « Transparency obligations under Article 50 of the AI Act ». | https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act

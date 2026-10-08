@@ -1,0 +1,41 @@
+fichier: dossier-gregory.html
+rubrique: affaires
+titre: Affaire Grégory : l'état de la procédure en octobre 2026
+titre_court: L'affaire Grégory
+chapeau: Le 16 octobre 1984, Grégory Villemin, 4 ans, est retrouvé mort dans la Vologne. Quarante-deux ans plus tard, personne n'a été jugé pour sa mort. Ce qui a été décidé par la justice, et ce qui reste ouvert.
+resume: Décisions de justice depuis 1984, annulations, prescription et investigations en cours. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- Personne n'a été jugé pour la mort de Grégory Villemin ; l'enquête reste ouverte sous le contrôle de la chambre de l'instruction de la cour d'appel de Dijon [1][2].
+- Sa mère a bénéficié d'un non-lieu le 3 février 1993 [1].
+- Les mises en examen prononcées en 2017 contre trois membres de la famille ont été annulées en 2018 pour un vice de procédure [3].
+- Le 15 juillet 2026, la chambre de l'instruction a déclaré prescrits les faits d'association de malfaiteurs reprochés à une grand-tante de l'enfant, mise en examen en octobre 2025 [2].
+
+## État de la procédure
+
+[État de la procédure] L'information judiciaire est toujours ouverte. Aucune personne n'est aujourd'hui renvoyée devant une juridiction pour la mort de l'enfant. Toutes les personnes mises en cause au fil de l'enquête et qui n'ont pas été condamnées pour ces faits sont présumées innocentes [2].
+
+## Les décisions de justice
+
+[Fait établi] Le 16 octobre 1984, Grégory Villemin disparaît ; son corps est retrouvé le soir même dans la Vologne, dans les Vosges. La famille était depuis plusieurs années la cible de lettres et d'appels anonymes [4].
+
+[Fait établi] Un cousin du père de l'enfant, visé par l'enquête, est tué par le père de l'enfant le 29 mars 1985. L'action publique à son égard s'éteint avec son décès [1]. Le 16 décembre 1993, le père est condamné à cinq ans d'emprisonnement, dont un avec sursis, pour ce meurtre [1].
+
+[Fait établi] Le 3 février 1993, la cour d'appel de Dijon rend un non-lieu en faveur de la mère de l'enfant, retenant l'absence de charges contre elle [1].
+
+[Fait établi] Le dossier est rouvert en 2008 à la demande des parents, pour permettre de nouvelles analyses [1]. En juin 2017, trois membres de la famille sont mis en examen. Le 16 mai 2018, la chambre de l'instruction de Dijon annule ces mises en examen pour un vice de procédure : elles avaient été prononcées par un seul magistrat alors que la loi exigeait une décision collégiale. Le parquet général a souligné que l'annulation portait sur la procédure et non sur le fond [3].
+
+[Fait établi] Le 24 octobre 2025, une grand-tante de l'enfant est de nouveau mise en examen, pour association de malfaiteurs criminelle. Le 15 juillet 2026, la chambre de l'instruction rejette sa demande d'annulation mais déclare les faits prescrits [2]. Cette décision pouvait faire l'objet d'un pourvoi en cassation dans un délai de dix jours ; nous n'avons pas trouvé d'information sur un éventuel pourvoi.
+
+## Ce qu'on ne sait pas
+- **Qui a tué Grégory Villemin.** Aucune décision de justice ne l'a établi.
+- **Les résultats des expertises récentes**, notamment génétiques et d'analyse d'écriture, dont l'état n'a pas pu être vérifié.
+- **L'issue de l'information judiciaire**, qui peut se conclure par un renvoi devant une juridiction ou par un non-lieu.
+
+## Sources
+- Source secondaire : Wikipédia, « Affaire Grégory », pour la chronologie judiciaire jusqu'en 2008. À vérifier sur les décisions publiées. | https://fr.wikipedia.org/wiki/Affaire_Gr%C3%A9gory
+- France 3 Bourgogne-Franche-Comté, « Affaire Grégory : la justice déclare prescrits les faits reprochés à la grand-tante », juillet 2026 ; franceinfo. | https://france3-regions.franceinfo.fr/bourgogne-franche-comte/cote-d-or/dijon/affaire-gregory-la-justice-declare-prescrits-les-faits-reproches-a-la-grand-tante-jacqueline-jacob-3386644.html
+- franceinfo, « Affaire Grégory : pourquoi les mises en examen ont été annulées », mai 2018. | https://www.franceinfo.fr/faits-divers/affaire-du-petit-gregory/affaire-gregory-pourquoi-les-mises-en-examen-de-murielle-bolle-et-des-epoux-jacob-ont-ete-annulees_2755023.html
+- INA, « Mort du petit Grégory : rappel en archives d'une affaire où tout le monde est suspect ». | https://www.ina.fr/ina-eclaire-actu/l-affaire-gregory-un-mystere-insondable

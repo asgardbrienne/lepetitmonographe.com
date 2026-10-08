@@ -1,0 +1,52 @@
+fichier: dossier-fraudes.html
+rubrique: economie
+titre: Fraude fiscale et fraude sociale : ce que l'on mesure et ce que l'on estime
+titre_court: Fraude fiscale et sociale
+chapeau: Plus de 20 milliards d'euros de fraudes ont été détectés et redressés en 2025. Ce chiffre ne mesure ni la fraude totale ni les sommes effectivement récupérées.
+resume: Montants détectés, montants estimés, sommes recouvrées : trois chiffres différents à ne pas confondre. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- En 2025, les montants de fraudes fiscales et sociales détectés et redressés ont dépassé 20 milliards d'euros, selon le ministère de l'Économie [1].
+- Le Haut Conseil du financement de la protection sociale estime la fraude sociale à environ 14 milliards d'euros en 2025, dont plus de la moitié liée au travail dissimulé [2].
+- Montant détecté, montant estimé et montant recouvré sont trois choses différentes ; les confondre fausse le débat.
+- Il n'existe pas d'estimation officielle récente et complète de la fraude fiscale totale.
+
+## Trois chiffres à ne pas confondre
+
+[Fait établi] Le **montant détecté ou redressé** est ce que les administrations réclament à la suite de leurs contrôles. Le **montant recouvré** est ce qui est effectivement encaissé, souvent bien plus tard et en partie seulement. Le **montant estimé** est une évaluation statistique de l'ensemble de la fraude, y compris celle qui n'est jamais détectée.
+
+## La fraude détectée
+
+[Fait établi] En 2025, les montants détectés et redressés au titre des fraudes fiscales et sociales ont franchi pour la première fois le seuil de 20 milliards d'euros, selon le ministère de l'Économie [1]. Côté fiscal, 17,1 milliards d'euros de droits et pénalités ont été réclamés [1].
+
+[Fait établi] Côté social, environ 3,1 milliards d'euros de fraudes ont été détectés, évités ou redressés en 2025, contre 2,9 milliards en 2024 [3]. Les redressements des Urssaf pour travail dissimulé dépassent 1,5 milliard d'euros [3].
+
+[Fait établi] L'Assurance maladie indique avoir stoppé environ 723 millions d'euros de fraudes en 2025, dont 49 millions liés aux arrêts de travail [5].
+
+## La fraude estimée
+
+[Estimation] Le Haut Conseil du financement de la protection sociale (HCFiPS) estime la fraude sociale à environ 14 milliards d'euros pour 2025, contre 13 milliards l'année précédente. Selon lui, la hausse vient surtout d'effets de méthode et de périmètre ; la fréquence de la fraude serait à peu près stable [2].
+
+[Estimation] Selon le HCFiPS, ce montant se répartit ainsi : 52 % liés au travail dissimulé (fraude aux cotisations par des employeurs ou des travailleurs), 12 % aux professionnels de santé et 36 % aux assurés sociaux [2]. Les micro-entrepreneurs sont exclus de l'estimation centrale ; leur manque à gagner est évalué à 1,6 milliard d'euros [2].
+
+[Estimation] Pour la seule branche maladie, la Cour des comptes estimait en 2023 la fraude aux prestations entre 3,8 et 4,5 milliards d'euros par an, par extrapolation de contrôles sur six domaines [4]. Ce chiffre porte sur un autre périmètre et une autre année que celui du HCFiPS et ne lui est pas directement comparable.
+
+[À noter] Une estimation de fraude repose sur des contrôles aléatoires extrapolés à l'ensemble des dossiers. Sa marge d'incertitude est importante et sa méthode change d'une année à l'autre.
+
+## Le débat
+
+[Débat] Une partie du débat public se concentre sur la fraude aux prestations sociales commise par des assurés. Une autre insiste sur la fraude fiscale des entreprises et des ménages aisés et sur le travail dissimulé. Les chiffres disponibles montrent que la fraude sociale estimée provient majoritairement des cotisations non versées et non des prestations [2] ; ils ne permettent pas de comparer avec précision fraude fiscale et fraude sociale, faute d'estimation officielle récente de la fraude fiscale totale.
+
+## Ce qu'on ne sait pas
+- **La fraude fiscale totale.** Les chiffres qui circulent, souvent plusieurs dizaines de milliards, proviennent d'estimations anciennes ou non officielles aux méthodes discutées.
+- **Les sommes réellement recouvrées.** Elles sont publiées de façon incomplète et les chiffres repris dans la presse divergent.
+- **La part de l'erreur et de la fraude.** Une partie des indus résulte d'erreurs sans intention de frauder ; la distinction est difficile à établir statistiquement.
+
+## Sources
+- Ministère de l'Économie, « Agir contre les fraudes aux finances publiques », bilan 2025. | https://www.economie.gouv.fr/agir-contre-les-fraudes
+- Haut Conseil du financement de la protection sociale, note sur la fraude sociale, 13 janvier 2026, d'après Public Sénat et la presse spécialisée. | https://www.planetecsca.fr/actualites/environnement-courtage-assurances/fraudes-sociales-hcfips-2025-evaluation/
+- Source secondaire : IFRAP, « Fraude sociale en 2025 : des fraudes détectées en hausse de 4 % ». | https://www.ifrap.org/emploi-et-politiques-sociales/fraude-sociale-en-2025-des-fraudes-detectees-en-hausse-de-4
+- Cour des comptes, rapport sur l'application des lois de financement de la sécurité sociale, mai 2023 (estimation de la fraude aux prestations maladie). |
+- Source secondaire : bilan 2025 de l'Assurance maladie repris par la presse spécialisée. | https://www.ifrap.org/emploi-et-politiques-sociales/alerte-sur-le-cout-des-arrets-maladies

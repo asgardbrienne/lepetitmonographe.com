@@ -1,0 +1,38 @@
+fichier: dossier-fiona.html
+rubrique: affaires
+titre: Affaire Fiona : trois procès pour établir les responsabilités
+titre_court: L'affaire Fiona
+chapeau: En 2013, la disparition signalée d'une fillette de 5 ans dans un parc de Clermont-Ferrand se révèle être un mensonge de sa mère et de son compagnon. Il a fallu trois procès d'assises pour fixer les responsabilités dans sa mort.
+resume: Procès successifs, cassation, peines prononcées et points restés incertains dans l'affaire Fiona. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- En 2013, la mère de Fiona et son compagnon signalent la disparition de l'enfant ; ils reconnaissent ensuite avoir menti [1].
+- En 2016, en première instance, la mère est acquittée des violences mortelles et condamnée à cinq ans pour ses mensonges ; son compagnon est condamné à vingt ans [2].
+- Après un procès en appel en 2018, cassé par la Cour de cassation, la cour d'assises du Rhône condamne en décembre 2020 la mère à vingt ans et son compagnon à dix-huit ans de réclusion [1][2].
+- Le pourvoi de la mère contre cette dernière décision a été rejeté : sa condamnation est définitive [3].
+
+## État de la procédure
+
+[État de la procédure] La condamnation de la mère à vingt ans de réclusion est définitive après le rejet de son pourvoi en cassation [3]. Pour son ancien compagnon, condamné à dix-huit ans, nous n'avons pas trouvé de confirmation explicite du caractère définitif de la décision.
+
+## Les procès
+
+[Fait établi] Le premier procès, en 2016, acquitte la mère des violences ayant entraîné la mort et la condamne à cinq ans d'emprisonnement ; son compagnon est condamné à vingt ans [2].
+
+[Fait établi] En appel, au Puy-en-Velay en 2018, la mère est condamnée à vingt ans de réclusion. Cette décision est cassée par la Cour de cassation, ce qui entraîne un nouveau procès devant la cour d'assises du Rhône, à Lyon [2].
+
+[Fait établi] En décembre 2020, après douze jours d'audience, la cour d'assises du Rhône condamne la mère à vingt ans et son ancien compagnon à dix-huit ans de réclusion criminelle [1][2].
+
+## Ce qui reste incertain
+
+[Fait établi] Les cours d'assises successives ont apprécié différemment le rôle de la mère : acquittée des violences mortelles en première instance, elle a été condamnée à vingt ans de réclusion lors des deux procès suivants [2].
+
+## Ce qu'on ne sait pas
+- **Le déroulement exact des faits**, établi par les cours d'assises à partir de déclarations contradictoires.
+
+## Sources
+- Source secondaire : Wikipédia, « Murder of Fiona Chafoulais » ; Gulf News, décembre 2020. | https://en.wikipedia.org/wiki/Murder_of_Fiona_Chafoulais
+- ICI, « Affaire Fiona : Cécile Bourgeon et Berkane Makhlouf coupables, condamnés à 20 ans et 18 ans de prison ». | https://www.ici.fr/infos/faits-divers-justice/affaire-fiona-le-verdict-pour-cecile-bourgeon-et-berkane-makhlouf-1608048902
+- Zoomdici, « Affaire Fiona : Cécile Bourgeon reste condamnée à 20 ans de prison ». | https://www.zoomdici.fr/actualite/affaire-fiona-cecile-bourgeon-reste-condamnee-20-ans-de-prison

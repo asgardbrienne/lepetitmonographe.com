@@ -1,0 +1,50 @@
+fichier: dossier-niches-fiscales.html
+rubrique: economie
+titre: Les niches fiscales : combien elles coûtent et ce que l'on sait de leur efficacité
+titre_court: Les niches fiscales
+chapeau: Près de 470 dispositifs dérogatoires réduisent chaque année les recettes de l'État d'environ 90 milliards d'euros. Leur coût est mal mesuré et leur efficacité rarement évaluée.
+resume: Nombre, coût, fiabilité des chiffrages et évaluations disponibles des dépenses fiscales. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- Le projet de loi de finances pour 2026 recense 465 dépenses fiscales pour un coût prévu de 88,3 milliards d'euros en 2026 [1].
+- Selon la Cour des comptes, le coût définitif atteint 89,4 milliards en 2024 et serait de 91,8 milliards en 2025, soit environ un quart des recettes fiscales nettes [2].
+- Seule une partie des dispositifs est chiffrée, et un changement de convention de calcul réduit le total affiché : avec l'ancienne méthode, le coût 2025 serait de 103,1 milliards [2].
+- Le projet de budget 2027 prévoit de réduire ces dépenses d'environ 4 milliards [3].
+
+## Ce qu'est une « niche fiscale »
+
+[Fait établi] Dans les documents budgétaires, une niche fiscale s'appelle une « dépense fiscale » : une disposition qui réduit l'impôt dû par rapport à une norme de référence. Il peut s'agir d'un crédit d'impôt, d'une réduction, d'un taux réduit ou d'une exonération. L'État ne dépense pas d'argent, il renonce à une recette.
+
+[Fait établi] La liste et le coût des dépenses fiscales sont publiés chaque année dans le tome II de l'annexe « Évaluation des voies et moyens » du projet de loi de finances [1].
+
+La frontière entre une niche et la « norme » est en partie conventionnelle. Changer la norme de référence peut faire entrer ou sortir un dispositif de la liste sans que rien ne change pour le contribuable.
+
+## Combien elles coûtent
+
+[Fait établi] Le projet de loi de finances pour 2026 recense 465 dépenses fiscales, dont 82 en cours d'extinction, pour un coût prévu de 88,3 milliards d'euros en 2026 [1].
+
+[Fait établi] La Cour des comptes établit le coût définitif à 89,4 milliards d'euros pour 2024 et l'estime à 91,8 milliards pour 2025, soit 25,8 % des recettes fiscales nettes et 3,1 % du PIB [2].
+
+[À noter] Les chiffrages initiaux sont régulièrement inférieurs aux coûts constatés : pour 2025, le budget prévoyait 85,1 milliards, le chiffrage a ensuite été porté à 91,8 milliards [2].
+
+[À noter] Selon la Cour des comptes, environ 55 % des dépenses fiscales font l'objet d'un chiffrage, et un coût définitif n'est connu que pour 42 % d'entre elles. Avec l'ancienne convention de chiffrage, abandonnée récemment, le coût 2025 atteindrait 103,1 milliards d'euros [2]. Le total publié est donc un ordre de grandeur, pas une mesure exacte.
+
+## Ce que l'on sait de leur efficacité
+
+[Fait établi] La plupart des dépenses fiscales ne font pas l'objet d'une évaluation régulière de leurs effets. La Cour des comptes recommande depuis plusieurs années de les évaluer et d'en supprimer une partie [2].
+
+[Débat] Les dispositifs les plus coûteux ont des objectifs différents : soutien à l'emploi à domicile, à la recherche, au logement, à certains secteurs ou aux ménages modestes. Leurs défenseurs font valoir qu'ils soutiennent l'activité ou corrigent des inégalités, et que les supprimer reviendrait à augmenter les impôts. Leurs critiques font valoir qu'ils compliquent la fiscalité, profitent souvent davantage aux ménages et entreprises les plus aisés et que leur effet n'est pas démontré. La réponse dépend de chaque dispositif : une appréciation globale n'a pas de sens.
+
+[Fait établi] Le projet de loi de finances pour 2027 prévoit de réduire les dépenses fiscales de 3,0 milliards d'euros pour l'État et de 1,0 milliard pour la sécurité sociale [3].
+
+## Ce qu'on ne sait pas
+- **Le coût exact.** Près de la moitié des dispositifs n'est pas chiffrée ou l'est mal.
+- **L'effet de la plupart des dispositifs** sur les comportements qu'ils visent : embauche, investissement, construction, dons.
+- **Le gain réel d'une suppression.** Supprimer une niche ne rapporte pas mécaniquement son coût affiché, car les contribuables modifient leurs comportements.
+
+## Sources
+- Projet de loi de finances pour 2026, annexe « Évaluation des voies et moyens », tome II (dépenses fiscales). Chiffres repris par plusieurs médias. | https://www.moneyvox.fr/votre-argent/actualites/110542/les-niches-fiscales-une-nebuleuse-de-pres-de-470-derogations-au-cout-eleve
+- Cour des comptes, note d'analyse de l'exécution budgétaire 2025 sur les dépenses fiscales, avril 2026, d'après les reprises de presse. Source primaire à consulter sur ccomptes.fr. |
+- Source secondaire : L'Esprit Français, « Niches fiscales : 88,3 milliards d'euros en 2026, le budget 2027 n'en récupère que 4 », 4 octobre 2026. | https://www.lespritfr.com/2026/10/04/budget-2027-niches-fiscales-88-milliards-reprise-4/

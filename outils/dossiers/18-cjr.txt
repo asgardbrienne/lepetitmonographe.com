@@ -1,0 +1,41 @@
+fichier: dossier-cour-justice-republique.html
+rubrique: politique
+titre: La Cour de justice de la République : bilan d'une juridiction contestée
+titre_court: La Cour de justice de la République
+chapeau: Créée en 1993 pour juger les ministres pour les infractions commises dans l'exercice de leurs fonctions, la Cour de justice de la République a rendu peu de décisions. Sa suppression est régulièrement proposée.
+resume: Fonctionnement, décisions rendues depuis 1993 et arguments pour et contre son maintien. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- La Cour de justice de la République (CJR) juge les membres du gouvernement pour les crimes et délits commis dans l'exercice de leurs fonctions.
+- Selon un décompte publié en 2023, elle a rendu quatorze jugements en trente ans : sept relaxes, deux condamnations avec dispense de peine et cinq condamnations à de la prison avec sursis, sans aucune peine de prison ferme [1].
+- Le 29 novembre 2023, elle a relaxé le garde des Sceaux en exercice, jugé pour prise illégale d'intérêts ; la décision est définitive [1][2].
+- Sa composition mêlant parlementaires et magistrats est au cœur des critiques.
+
+## Le fonctionnement
+
+[Fait établi] La CJR a été créée par la révision constitutionnelle de 1993. Elle reçoit les plaintes visant des ministres pour des faits commis dans l'exercice de leurs fonctions. Les plaintes sont filtrées avant toute instruction, et la formation de jugement mêle des parlementaires et des magistrats [4]. Le détail de sa composition est fixé par la Constitution et une loi organique.
+
+[Fait établi] Selon Anticor, la CJR a reçu plus de 22 000 requêtes depuis 1993, et 52 saisines de la commission d'instruction ont été ordonnées [3].
+
+## Les décisions
+
+[Fait établi] Selon France 24, la CJR a rendu quatorze jugements en trente ans : sept relaxes, deux condamnations assorties d'une dispense de peine et cinq condamnations à de la prison avec sursis [1]. Un autre décompte, qui compte les personnes et non les décisions, aboutit à des chiffres proches mais différents [4].
+
+[Fait établi] Parmi les décisions connues : en 1999, dans l'affaire du sang contaminé, deux anciens ministres ont été relaxés et un ancien secrétaire d'État reconnu coupable mais dispensé de peine ; en mars 2021, dans le volet financier de l'affaire Karachi, un ancien Premier ministre a été relaxé et un ancien ministre de la Défense condamné à du sursis [5]. Le 29 novembre 2023, le garde des Sceaux en exercice a été relaxé du chef de prise illégale d'intérêts : la Cour a jugé l'élément matériel établi mais non l'élément intentionnel [1]. Le procureur général n'ayant pas formé de pourvoi, la décision est définitive [2].
+
+## Le débat
+
+[Débat] Ses critiques estiment que la présence d'une majorité de parlementaires parmi les juges rend ses décisions suspectes de complaisance, et proposent de confier ces affaires aux juridictions ordinaires, avec un filtre. Ses défenseurs font valoir qu'elle protège les ministres contre des poursuites abusives liées à leurs décisions politiques et qu'elle a prononcé des condamnations. La suppression de la CJR a été proposée à plusieurs reprises, sans aboutir.
+
+## Ce qu'on ne sait pas
+- **Les procédures en cours** devant la commission d'instruction, couvertes par le secret de l'instruction.
+- **L'avenir de la juridiction**, qui suppose une révision de la Constitution.
+
+## Sources
+- France 24, « Cour de justice de la République : une juridiction d'exception très contestée », 16 novembre 2023. | https://www.france24.com/fr/france/20231116-cour-de-justice-de-la-r%C3%A9publique-une-juridiction-d-exception-tr%C3%A8s-contest%C3%A9e
+- Assemblée nationale, question au gouvernement n° 1411 (16e législature). | https://www.assemblee-nationale.fr/dyn/16/questions/QANR5L16QG1411.pdf
+- Anticor, « La Cour de justice de la République et le procès d'Éric Dupond-Moretti », juin 2024. | https://www.anticor.org/2024/06/30/la-cour-de-justice-de-la-republique-et-le-proces-deric-dupond-moretti/
+- INA, « C'est quoi la Cour de justice de la République ? ». | https://www.ina.fr/ina-eclaire-actu/cour-justice-republique-eric-dupont-moretti
+- Le Club des juristes, « Cour de justice de la République : dix ministres mis en cause dans le passé ». | https://www.leclubdesjuristes.com/justice/cour-de-justice-de-la-republique-dix-ministres-mis-en-cause-dans-le-passe-1430/

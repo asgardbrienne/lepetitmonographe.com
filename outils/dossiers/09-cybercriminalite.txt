@@ -1,0 +1,38 @@
+fichier: dossier-cybercriminalite.html
+rubrique: economie
+titre: Cybercriminalité : ce que mesurent les chiffres officiels
+titre_court: La cybercriminalité
+chapeau: Les infractions liées au numérique enregistrées par la police et la gendarmerie ont augmenté de 14 % en 2025. Le chiffre mélange des infractions très différentes et ne compte que ce qui est signalé.
+resume: Escroqueries en ligne, piratages, rançongiciels : les chiffres du ministère de l'Intérieur et leurs limites. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- 453 200 crimes et délits liés au numérique ont été enregistrés par la police et la gendarmerie en 2025, en hausse de 14 % sur un an [1].
+- Les atteintes aux biens, principalement des escroqueries, en représentent 280 500 [1].
+- Ces chiffres comptent les infractions enregistrées, pas les infractions commises : beaucoup de victimes ne portent pas plainte.
+- Le nombre de cyberattaques revendiquées contre des organisations françaises a augmenté, mais les rançongiciels ont reculé selon le ministère de l'Intérieur [2].
+
+## Ce que compte le ministère de l'Intérieur
+
+[Fait établi] Selon le service statistique du ministère de l'Intérieur (SSMSI), 453 200 crimes et délits liés au numérique ont été enregistrés en 2025, soit 14 % de plus qu'en 2024 [1]. Le ministère souligne que ces infractions sont très hétérogènes et doivent être analysées séparément [1].
+
+[Fait établi] Les atteintes aux biens commises avec un outil numérique, essentiellement des escroqueries, atteignent 280 500 en 2025 (+14 %). 58 300 d'entre elles ont été signalées par la plateforme de plainte en ligne Thésée [1]. Les atteintes aux personnes, comme le harcèlement ou les menaces en ligne, augmentent de 13 %, les atteintes aux institutions de 19 % [1].
+
+[Fait établi] Les atteintes aux systèmes de traitement automatisé de données, c'est-à-dire les piratages au sens strict, représentent une catégorie distincte d'environ 17 600 faits, en hausse de 4 % [3].
+
+[À noter] Une hausse des infractions enregistrées peut refléter une hausse des faits, mais aussi une plus grande facilité à porter plainte, par exemple grâce aux plateformes en ligne. Les deux effets ne peuvent pas être séparés avec ces seules données.
+
+## Les attaques contre les organisations
+
+[Fait établi] Le commandement du ministère de l'Intérieur dans le cyberespace recense 1 347 revendications ou annonces de cyberattaques visant la France en 2025, contre 1 062 en 2024. Les attaques par rançongiciel ont reculé, selon le même bilan repris par la presse [2].
+
+## Ce qu'on ne sait pas
+- **Le nombre réel de victimes.** Les enquêtes de victimation montrent généralement qu'une grande partie des escroqueries ne fait pas l'objet d'une plainte ; le taux exact pour 2025 n'est pas connu.
+- **Le coût total** pour les particuliers, les entreprises et les services publics : les estimations qui circulent ne reposent pas sur une méthode officielle.
+- **Le taux d'élucidation** de ces infractions, peu publié.
+
+## Sources
+- Ministère de l'Intérieur, « Les infractions liées au numérique enregistrées par les services de sécurité en 2025 en progression de 14 % sur un an », d'après le rapport du SSMSI du 19 février 2026. | https://www.interieur.gouv.fr/actualites/actualites-du-ministere/infractions-liees-au-numerique-enregistrees-par-services-de-securite-en-2025-en-progression-de-14
+- Source secondaire : bilan du commandement du ministère de l'Intérieur dans le cyberespace, repris par Actu Roubaix et L'Essor. | https://lessor.org/societe/hausse-des-infractions-liees-au-numerique/
+- Source secondaire : franceinfo, « Plus de 17 500 cyberattaques enregistrées en France en 2025, en hausse de 4 % ». | https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/plus-de-17-500-cyberattaques-enregistrees-en-france-en-2025-en-hausse-de-4-par-rapport-a-l-annee-2024_7816103.html

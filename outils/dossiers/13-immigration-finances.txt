@@ -1,0 +1,39 @@
+fichier: dossier-immigration-finances-publiques.html
+rubrique: politique
+titre: Immigration et finances publiques : ce que disent les études
+titre_court: Immigration et finances publiques
+chapeau: Des chiffres de plusieurs dizaines de milliards d'euros de « coût de l'immigration » circulent dans le débat public. Les études économiques publiées aboutissent à un impact budgétaire net faible, positif ou négatif selon les hypothèses.
+resume: Méthodes, résultats des études du CEPII et de l'OCDE, origine des chiffres contestés et limites des calculs. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- L'étude de référence du CEPII, portant sur 1979-2011, estime la contribution budgétaire nette des immigrés entre -0,5 % et +0,05 % du PIB selon les années [1].
+- L'OCDE estimait l'impact budgétaire de l'immigration en France légèrement négatif [2].
+- Le chiffre de « 35 à 40 milliards d'euros par an », attribué à l'OCDE et au CEPII par un observatoire, est contesté par les auteurs des travaux cités [3].
+- Le résultat dépend fortement des choix de méthode : qui compte comme immigré, quelles dépenses on attribue, inclusion ou non des enfants d'immigrés.
+
+## Comment on calcule un « coût net »
+
+[Fait établi] Le calcul consiste à comparer ce que les personnes immigrées versent aux administrations (impôts, cotisations, taxes) et ce qu'elles en reçoivent (prestations, services publics). Le résultat dépend de plusieurs choix : inclure ou non les dépenses publiques qui ne varient pas avec la population, comme la défense ; compter ou non les enfants nés en France de parents immigrés ; retenir l'année ou le cycle de vie complet.
+
+## Ce que disent les études publiées
+
+[Fait établi] Une étude du CEPII publiée en 2018, sur la période 1979-2011, estime la contribution nette des immigrés aux finances publiques entre -0,5 % et +0,05 % du PIB selon les années, et conclut que l'immigration n'a à aucun moment déterminé l'ampleur ou l'évolution du solde budgétaire primaire [1]. Selon le CEPII, cette quasi-neutralité se retrouve dans la plupart des pays de l'OCDE [1].
+
+[Fait établi] Selon une réponse ministérielle à une question parlementaire, l'OCDE estimait l'impact budgétaire de l'immigration en France légèrement négatif, avec une difficulté de périmètre : certaines personnes nées françaises à l'étranger étaient comptées comme immigrées [2].
+
+[Débat] L'Observatoire de l'immigration et de la démographie, qui défend une réduction de l'immigration, retient un « coût net » de 35 à 40 milliards d'euros par an en s'appuyant sur des travaux de l'OCDE et du CEPII. Il souligne que d'autres scénarios des mêmes auteurs, incluant les descendants d'immigrés ou toutes les dépenses publiques, donnent des montants nettement plus élevés que le scénario central [4]. Les économistes auteurs des travaux cités jugent cette interprétation fallacieuse, selon un article de vérification [3]. La divergence porte sur le choix du scénario et des dépenses attribuées, pas sur les données.
+
+[À noter] Plusieurs sources citées ici, dont l'observatoire et la Fondation Jean-Jaurès, ont une orientation politique connue. Le chiffre de référence reste celui des études académiques, avec ses hypothèses.
+
+## Ce qu'on ne sait pas
+- **Une estimation récente.** Les principales études portent sur des données antérieures à 2015 ; la composition de l'immigration a changé depuis.
+- **L'effet de long terme** sur la croissance, le marché du travail et le vieillissement, que les calculs annuels ne mesurent pas.
+- **L'immigration irrégulière**, mal prise en compte par les statistiques.
+
+## Sources
+- CEPII, « L'impact sur les finances publiques de 30 ans d'immigration en France », La Lettre du CEPII, 2018 ; billet de blog du CEPII. | https://www.cepii.fr/CEPII/fr/publications/lettre/abstract.asp?NoDoc=11997
+- Assemblée nationale, réponse ministérielle à la question écrite n° 4627 (14e législature). | https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE4627.pdf
+- Source secondaire : Defacto, « Coût de l'immigration : attention aux chiffres trompeurs de 35 à 40 milliards d'euros annuels ». | https://defacto-observatoire.fr/Medias/Factuel/Fact-checks/Cout-de-l-immigration-attention-aux-chiffres-trompeurs-de-35-a-40-milliards-d-euros-annuels/
+- Observatoire de l'immigration et de la démographie, « Le coût de l'immigration pour les finances publiques, partie I ». | https://observatoire-immigration.fr/le-cout-de-l-immigration-pour-les-finances-publiques-partie-1/

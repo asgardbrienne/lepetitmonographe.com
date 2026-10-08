@@ -1,0 +1,43 @@
+fichier: dossier-deserts-medicaux.html
+rubrique: economie
+titre: Déserts médicaux : pourquoi certains territoires manquent de médecins
+titre_court: Déserts médicaux
+chapeau: Le nombre total de médecins augmente, mais l'accès à un généraliste reste difficile pour une partie de la population. Les causes sont connues ; les remèdes font débat.
+resume: Accessibilité aux médecins généralistes, formation, liberté d'installation et proposition de loi Garot. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- Selon la Drees, environ 12,3 millions d'habitants, soit 18 % de la population, vivent dans une commune où l'offre de médecine générale est inférieure à 2,5 consultations par habitant et par an (données 2024) [1].
+- Le nombre de médecins a augmenté en 2025, mais celui des généralistes reste légèrement inférieur à son niveau de 2012, selon des reprises de données de la Drees [1].
+- Les effets de la hausse du nombre d'étudiants en médecine ne se feront sentir qu'après une dizaine d'années de formation.
+- La régulation de l'installation des médecins, prévue par la proposition de loi Garot, oppose les élus favorables et les organisations de médecins.
+
+## Comment on mesure un « désert médical »
+
+[Fait établi] La Drees mesure l'accès aux médecins par un indicateur appelé « accessibilité potentielle localisée » (APL). Il tient compte du nombre de médecins proches, de leur activité et des besoins de la population selon son âge. Selon l'APL 2024, environ 12,3 millions d'habitants vivent dans une commune où l'offre de médecine générale est inférieure à 2,5 consultations par habitant et par an [1].
+
+[À noter] Il n'existe pas de définition légale unique du désert médical. Des chiffres très différents circulent, par exemple « 87 % du territoire en zone sous-dotée », qui reposent sur d'autres définitions, notamment les zonages des agences régionales de santé. Ils ne sont pas comparables à l'APL.
+
+## Pourquoi il manque des médecins
+
+[Fait établi] Entre 1971 et 2020, le nombre d'étudiants admis en deuxième année de médecine était limité par un quota national, le numerus clausus, remplacé en 2020 par un « numerus apertus » fixé par les universités [2]. Une loi de juin 2025 prévoit sa suppression progressive [2]. Le nombre exact de places ouvertes en 2026 diffère selon les sources, autour de 11 000 à 12 000 [2].
+
+[Interprétation] Le faible nombre de médecins formés pendant plusieurs décennies, le départ à la retraite des médecins nés après-guerre, l'aspiration des nouveaux médecins à des horaires plus réguliers et au travail en groupe, et l'attractivité inégale des territoires sont les causes le plus souvent avancées. Leur poids respectif n'est pas établi.
+
+## Les solutions en débat
+
+[Fait établi] La proposition de loi dite Garot, adoptée par l'Assemblée nationale le 7 mai 2025, prévoit de soumettre l'installation des médecins à une autorisation de l'agence régionale de santé : elle serait de droit en zone sous-dotée et limitée, ailleurs, au remplacement d'un médecin qui part [3]. Le Sénat a examiné et modifié le texte en 2026 ; son état exact de la navette doit être vérifié sur le site du Sénat.
+
+[Débat] Les partisans de la régulation soulignent que les mesures incitatives, aides financières et maisons de santé, n'ont pas suffi à résorber les inégalités, et que d'autres professions de santé, comme les pharmaciens ou les infirmiers, sont déjà régulées. Les opposants, dont le Conseil national de l'Ordre des médecins, estiment que contraindre l'installation découragera les jeunes médecins d'exercer en libéral sans créer de médecins supplémentaires, puisque le problème est d'abord un manque global [4].
+
+## Ce qu'on ne sait pas
+- **L'effet de la régulation**, faute d'évaluation d'expériences comparables en France pour les médecins.
+- **Le délai réel d'amélioration** lié à la hausse du nombre d'étudiants, qui dépend aussi de leurs choix de spécialité et de lieu d'exercice.
+- **Le renoncement aux soins** qui en résulte, mal mesuré.
+
+## Sources
+- Drees, accessibilité potentielle localisée (APL) aux médecins généralistes, données 2024 publiées en 2026, d'après What's up doc et la presse spécialisée. | https://www.whatsupdoc-lemag.fr/article/densite-medicale-delais-dattente-renoncement-aux-soins-tous-les-chiffres-sur-les-deserts
+- Source secondaire : sites d'information sur les études de santé (numerus apertus 2026). Chiffres à vérifier auprès du ministère de l'Enseignement supérieur. | https://www.sante-orientation.fr/articles/numerus-apertus-explique
+- Source secondaire : Caducée, « Les députés votent la loi Garot ». | https://www.caducee.net/actualite-medicale/16582/les-deputes-votent-la-loi-garot-les-medecins-s-insurgent.html
+- Conseil national de l'Ordre des médecins, communiqué « PPL Garot : l'amélioration de l'accès aux soins ne passera pas par la coercition ». | https://www.conseil-national.medecin.fr/publications/communiques-presse/ppl-garot-lamelioration-lacces-soins-passera-coercition

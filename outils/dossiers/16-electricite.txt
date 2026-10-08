@@ -1,0 +1,38 @@
+fichier: dossier-prix-electricite.html
+rubrique: economie
+titre: Prix de l'électricité : ce qui a changé avec la fin de l'Arenh
+titre_court: Le prix de l'électricité
+chapeau: Depuis le 1er janvier 2026, le mécanisme qui permettait d'acheter l'électricité nucléaire d'EDF à prix fixe a disparu. Son remplaçant ne s'est pas déclenché en 2026.
+resume: Tarif réglementé, fin de l'Arenh, versement nucléaire universel et ce qui détermine la facture. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- Le tarif réglementé de l'électricité a baissé en moyenne de 0,83 % TTC au 1er février 2026, selon la Commission de régulation de l'énergie (CRE) [1].
+- L'Arenh, qui permettait aux fournisseurs d'acheter une partie de l'électricité nucléaire d'EDF à 42 euros le mégawattheure, a pris fin le 31 décembre 2025 [2].
+- Son remplaçant, le versement nucléaire universel, n'a rien reversé aux consommateurs en 2026 : les revenus du nucléaire sont restés sous le seuil de déclenchement [2].
+- La facture dépend aussi des coûts de réseau et des taxes, qui ont limité la baisse en 2026.
+
+## Le tarif réglementé
+
+[Fait établi] La CRE a proposé une baisse moyenne de 0,83 % TTC du tarif réglementé au 1er février 2026, soit environ 9 euros par an pour un ménage moyen. La baisse des coûts d'approvisionnement a été en partie compensée par la hausse d'autres composantes, dont l'accise sur l'électricité [1]. L'option Tempo a augmenté de 6,2 % TTC [1].
+
+## La fin de l'Arenh et le versement nucléaire universel
+
+[Fait établi] L'accès régulé à l'électricité nucléaire historique (Arenh) permettait aux fournisseurs d'acheter une partie de la production nucléaire d'EDF à 42 euros le mégawattheure. Il a pris fin le 31 décembre 2025 [2].
+
+[Fait établi] Le versement nucléaire universel (VNU), en vigueur depuis le 1er janvier 2026, ne fixe pas de prix. Il prévoit de taxer une partie des revenus d'EDF sur le nucléaire lorsque ceux-ci dépassent un seuil, autour de 78 euros le mégawattheure, avec un prélèvement plus fort au-delà d'environ 110 euros, et de reverser les sommes aux consommateurs [2]. Ces seuils sont à vérifier dans les textes.
+
+[Fait établi] Les revenus du nucléaire historique étant estimés autour de 66 euros le mégawattheure pour 2026, la CRE a fixé à zéro le montant reversé aux consommateurs [2].
+
+## Le débat
+
+[Débat] Pour ses défenseurs, le nouveau cadre protège les consommateurs en cas de flambée des prix de marché tout en permettant à EDF de financer ses investissements. Pour ses critiques, il ne protège qu'au-delà de prix déjà élevés et laisse les consommateurs exposés aux variations du marché en dessous du seuil.
+
+## Ce qu'on ne sait pas
+- **L'évolution du tarif en 2027**, qui sera proposée par la CRE au début de l'année.
+- **L'effet des tensions internationales** sur les prix de gros de l'énergie.
+
+## Sources
+- Commission de régulation de l'énergie, délibération n° 2026-06 du 14 janvier 2026 relative aux tarifs réglementés de vente d'électricité. | https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260114_2026-06_TRVE_2026.pdf
+- Source secondaire : Révolution énergétique, « Censé faire baisser nos factures, le versement nucléaire universel ne sera pas activé en 2026 ». | https://www.revolution-energetique.com/actus/cense-faire-baisser-nos-factures-le-versement-nucleaire-universel-ne-sera-pas-active-en-2026/

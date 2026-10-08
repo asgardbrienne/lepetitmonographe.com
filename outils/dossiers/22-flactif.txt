@@ -1,0 +1,35 @@
+fichier: dossier-flactif.html
+rubrique: affaires
+titre: Affaire Flactif : ce que la justice a établi
+titre_court: L'affaire Flactif
+chapeau: Le 11 avril 2003, une famille de cinq personnes est tuée au Grand-Bornand, en Haute-Savoie. Le meurtrier, un voisin, a été condamné à la réclusion criminelle à perpétuité en 2006.
+resume: Faits jugés, peines, complicités retenues et état de la procédure dans l'affaire de la tuerie du Grand-Bornand. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- Le 30 juin 2006, la cour d'assises de la Haute-Savoie a condamné David Hotyat à la réclusion criminelle à perpétuité, assortie d'une période de sûreté de 22 ans, pour le meurtre des cinq membres de la famille Flactif [1].
+- Il a fait appel puis s'est désisté ; la condamnation est définitive [1].
+- Trois autres personnes ont été condamnées pour complicité ou aide après les faits [1].
+- La Gendarmerie nationale présente l'affaire comme un cas d'école d'enquête criminelle [2].
+
+## État de la procédure
+
+[État de la procédure] La condamnation est définitive depuis le désistement d'appel de l'accusé. Les sources divergent sur la date de ce désistement, en 2007 [1].
+
+## Les faits jugés
+
+[Fait établi] Le 11 avril 2003, au Grand-Bornand, un couple et ses trois enfants sont tués. Le meurtrier, qui vivait dans un chalet voisin, a été condamné pour ces cinq meurtres [1].
+
+[Fait établi] Le procès s'est tenu du 12 au 30 juin 2006. La cour a prononcé la réclusion criminelle à perpétuité avec une période de sûreté de 22 ans [1].
+
+[Fait établi] La compagne du condamné et deux amis ont été condamnés à des peines de 7 à 15 ans de réclusion pour leur participation, et un proche à une peine d'emprisonnement avec sursis pour avoir fait disparaître une arme [1].
+
+[Interprétation] La jalousie à l'égard de la réussite de la famille et un conflit de voisinage sont présentés comme le mobile dans les comptes rendus du procès et dans la présentation de la Gendarmerie [2]. Le mobile retenu exactement par la cour est à vérifier dans l'arrêt.
+
+## Ce qu'on ne sait pas
+- **Les motivations précises**, qui reposent sur les déclarations des accusés.
+
+## Sources
+- Source secondaire : Wikipédia, « Affaire Flactif » ; ICI, « Affaire Flactif : il y a 20 ans, un Nordiste tuait une famille de cinq personnes en Haute-Savoie ». | https://fr.wikipedia.org/wiki/Affaire_Flactif
+- Gendarmerie nationale, Unité nationale de police judiciaire, « Grandes affaires criminelles : la tuerie du Grand-Bornand, l'affaire Flactif ». | https://www.gendarmerie.interieur.gouv.fr/unpj/nos-publications2/grandes-affaires-decryptage/grandes-affaires-criminelles-la-tuerie-du-grand-bornand-l-affaire-flactif

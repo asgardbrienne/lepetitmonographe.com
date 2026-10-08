@@ -1,0 +1,40 @@
+fichier: dossier-troadec.html
+rubrique: affaires
+titre: Affaire Troadec : ce que le procès a tranché
+titre_court: L'affaire Troadec
+chapeau: En février 2017, quatre membres d'une famille disparaissent de leur maison d'Orvault, près de Nantes. En juillet 2021, la cour d'assises condamne leur beau-frère. Ce que la justice a établi, et ce qui reste contesté.
+resume: Faits jugés, peine, mobile retenu et points restés contestés dans l'affaire du quadruple meurtre d'Orvault. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- Le 7 juillet 2021, la cour d'assises de Loire-Atlantique a condamné Hubert Caouissin à 30 ans de réclusion criminelle pour le meurtre de quatre membres de la famille Troadec en février 2017 [1].
+- Il n'a pas fait appel de sa condamnation pénale [2].
+- La cour a reconnu une altération de son discernement, ce qui l'a épargné de la réclusion à perpétuité requise par l'accusation [1].
+- Le mobile évoqué est un conflit familial autour d'un héritage supposé en or, dont l'existence n'a jamais été démontrée.
+
+## État de la procédure
+
+[État de la procédure] La condamnation pénale est définitive, l'accusé n'ayant pas fait appel [2]. Selon la presse, son avocat a contesté les dispositions civiles du jugement, qui fixent l'indemnisation des familles [2] ; l'issue de ce volet n'a pas été vérifiée.
+
+## Les faits jugés
+
+[Fait établi] En février 2017, un couple et leurs deux enfants disparaissent de leur domicile d'Orvault. La cour d'assises a jugé que leur beau-frère les avait tués [1].
+
+[Fait établi] La cour l'a condamné à 30 ans de réclusion criminelle. Elle n'a pas suivi les réquisitions de l'avocat général, qui demandait la peine maximale, et a reconnu une altération de son discernement [1]. Aucune période de sûreté spéciale n'a été prononcée [1].
+
+[Fait établi] Sa compagne, sœur de l'une des victimes, a été condamnée à trois ans d'emprisonnement, dont un avec sursis, pour recel de cadavres et modification de la scène de crime ; l'altération du discernement n'a pas été retenue pour elle [1].
+
+## Ce qui est resté contesté
+
+[Allégation] Depuis son arrestation, l'accusé conteste toute préméditation [1]. La qualification exacte retenue par la cour sur ce point n'a pas été vérifiée dans l'arrêt.
+
+[Fait établi] Le conflit familial portait sur des lingots d'or que la famille aurait hérités ; leur existence n'a jamais été établie [1].
+
+## Ce qu'on ne sait pas
+- **L'existence du « trésor »** au cœur du conflit familial.
+- **Le déroulement exact des faits**, qui repose en grande partie sur les déclarations de l'accusé.
+
+## Sources
+- Source secondaire : Linfo.re et franceinfo, compte rendu du verdict de la cour d'assises de Loire-Atlantique, 7 juillet 2021 ; Wikipédia, « Troadec family murders ». | https://www.linfo.re/france/faits-divers/meurtre-de-la-famille-troadec-30-ans-de-reclusion-criminelle-pour-hubert-caouissin
+- Source secondaire : franceinfo, « Procès Troadec : Hubert Caouissin ne fera pas appel de sa condamnation à 30 ans de réclusion criminelle », juillet 2021. | https://www.franceinfo.fr/faits-divers/disparition-d-une-famille-a-orvault/proces-troadec-hubert-caouissin-ne-fera-pas-appel-de-sa-condamnation-a-30-ans-de-reclusion-criminelle_4694775.html

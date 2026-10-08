@@ -1,0 +1,67 @@
+fichier: dossier-dette-publique.html
+rubrique: economie
+titre: La dette publique française : niveau, coût et risques
+titre_court: La dette publique
+chapeau: La dette publique a atteint 119 % du PIB à la mi-2026 et ses intérêts augmentent. Ce que mesurent ces chiffres, ce qui fait débat et ce qu'on ne sait pas.
+resume: Niveau, charge d'intérêts, taux d'emprunt, comparaisons européennes : les chiffres de la dette et leur contexte. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- Fin juin 2026, la dette publique au sens de Maastricht atteint 3 595,5 milliards d'euros, soit 119,0 % du PIB [1].
+- Les intérêts versés par l'ensemble des administrations publiques atteindraient 91,2 milliards d'euros en 2027, selon le projet de loi de finances ; la seule charge de la dette de l'État est estimée à 72,9 milliards [2].
+- Le taux d'emprunt à 10 ans de la France est d'environ 4,8 % début octobre 2026, avec un écart de plus d'un point avec l'Allemagne [4].
+- Aucun seuil de dette ne fait consensus au-delà duquel un pays ferait défaut : le risque dépend surtout du coût du refinancement et de la confiance des prêteurs.
+
+## Ce que mesure la dette « de Maastricht »
+
+[Fait établi] La dette au sens de Maastricht est la dette brute de l'ensemble des administrations publiques : l'État, les administrations de sécurité sociale et les collectivités locales. Elle est publiée chaque trimestre par l'Insee et sert aux comparaisons européennes. Fin juin 2026, elle s'établit à 3 595,5 milliards d'euros, soit 119,0 % du PIB, contre 117,5 % fin mars 2026 [1].
+
+[Fait établi] La dette a augmenté de 59,6 milliards d'euros au deuxième trimestre 2026, après 75,8 milliards au premier. L'État porte l'essentiel de la hausse du deuxième trimestre [1].
+
+[Fait établi] La dette nette, qui retranche certains actifs financiers des administrations, atteint 3 366,8 milliards d'euros, soit 111,4 % du PIB [1].
+
+Le ratio rapporte un stock (la dette accumulée) à un flux (la richesse produite en un an). Il augmente si la dette croît plus vite que le PIB en valeur. Un pays peut donc voir son ratio monter avec un déficit stable si sa croissance ralentit.
+
+## Ce que coûte la dette
+
+[Fait établi] Le projet de loi de finances pour 2027, déposé le 1er octobre 2026, chiffre la charge de la dette de l'État à 72,9 milliards d'euros en 2027, contre 62,6 milliards en 2026 [2].
+
+[Fait établi] En comptabilité nationale, qui couvre l'ensemble des administrations publiques, les intérêts atteindraient 91,2 milliards d'euros en 2027, contre 79,2 milliards en 2026 [2]. Les deux chiffres, 72,9 et 91,2 milliards, sont exacts : ils ne portent pas sur le même périmètre. Le chiffre de 91 milliards cité dans le débat public correspond au second.
+
+[Fait établi] L'Agence France Trésor prévoit un besoin de financement de l'État de 339,7 milliards d'euros en 2027, en hausse de 28 milliards par rapport à 2026 [3]. Ce besoin couvre le déficit de l'année et le remboursement des emprunts qui arrivent à échéance.
+
+[Interprétation] La charge d'intérêts augmente parce que la dette émise quand les taux étaient très bas, notamment pendant la crise sanitaire, est progressivement remplacée par de la dette émise à des taux plus élevés. Cet effet est progressif : fin mai 2026, la durée de vie moyenne de la dette négociable de l'État est de 8 ans et 200 jours [7]. Une hausse des taux ne se répercute donc que lentement sur l'ensemble du stock, mais elle continue de peser plusieurs années.
+
+## Les taux d'emprunt et l'écart avec l'Allemagne
+
+[Fait établi] Le 7 octobre 2026, le taux à 10 ans de la France s'établit à environ 4,83 %, contre 3,49 % pour l'Allemagne, soit un écart de 134 points de base. Mi-septembre 2026, cet écart avait franchi 100 points de base pour la première fois depuis 2012 [4]. Les valeurs exactes varient selon l'heure et le fournisseur de données : il s'agit de sources de presse financière, donc secondaires.
+
+L'écart avec l'Allemagne, souvent appelé « spread », mesure le supplément que les prêteurs exigent pour prêter à la France plutôt qu'à l'Allemagne. Il reflète la perception du risque, mais aussi d'autres facteurs comme la liquidité des titres.
+
+## La France en Europe
+
+[Fait établi] Au premier trimestre 2026, la dette publique représente 88,9 % du PIB en moyenne dans la zone euro. Elle atteint 138,9 % en Italie et 117,5 % en France. La Grèce, l'Italie et la France ont les ratios les plus élevés de la zone [5]. Ces chiffres proviennent de reprises du communiqué d'Eurostat et de la Banque de France.
+
+## Le débat : à partir de quand la dette devient-elle un problème ?
+
+[Débat] Il n'existe pas de seuil reconnu au-delà duquel une dette devient insoutenable. La dette brute du Japon dépasse 200 % du PIB selon les estimations disponibles, entre 230 % et 250 % selon les sources et les définitions [8], sans crise de financement, quand d'autres pays ont connu des crises avec des ratios bien plus bas. La différence tient notamment à la part de la dette détenue par les résidents et par la banque centrale.
+
+[Débat] Une première position souligne que la France emprunte sans difficulté, que sa dette est longue et que les prêteurs restent nombreux : le risque d'un défaut est jugé très faible. Une seconde position souligne que la charge d'intérêts croît plus vite que les autres dépenses et réduit les marges de l'État, que le ratio français a continué d'augmenter depuis la crise sanitaire alors que celui de la zone euro est resté bien plus bas [5], et qu'une hausse des taux peut devenir auto-entretenue. Les deux positions s'appuient sur des faits exacts ; elles diffèrent surtout sur l'horizon considéré et le poids donné au risque de perte de confiance.
+
+[Fait établi] Le Haut Conseil des finances publiques juge « très peu vraisemblable » le retour du déficit public sous 3 % du PIB en 2029, sauf amélioration nette de la conjoncture [6].
+
+## Ce qu'on ne sait pas
+- **L'évolution des taux.** Elle dépend de la conjoncture, de la politique de la Banque centrale européenne et de la confiance des prêteurs, notamment pendant la campagne présidentielle de 2027.
+- **Le niveau de dette fin 2026 et 2027.** Le projet de loi de finances prévoit 121,7 % du PIB [2] ; cette prévision dépend de la croissance et du déficit effectivement réalisés.
+- **Le seuil de rupture.** Aucune méthode ne permet de dire à quel niveau de dette ou de taux les prêteurs cesseraient de prêter à des conditions acceptables.
+
+## Sources
+- Insee, « À la fin du deuxième trimestre 2026, le ratio de dette publique s'établit à 119,0 % du PIB », Informations rapides n° 239, 29 septembre 2026. | https://www.insee.fr/fr/statistiques/9053525
+- Projet de loi de finances pour 2027, Assemblée nationale, déposé le 1er octobre 2026, et reprises de presse des chiffres de charge de la dette. | https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf
+- Agence France Trésor, communiqué du 29 septembre 2026 sur le financement de l'État en 2027. | https://www.aft.gouv.fr/en/publications/communiques-presse/29-september-2026-french-state-funding-2027-and-update-2026
+- Source secondaire : Boursorama, « Le spread entre le Bund et l'OAT à 10 ans atteint 100 pdb pour la première fois depuis 2012 », 18 septembre 2026, et données de marché du 7 octobre 2026. | https://www.boursorama.com/bourse/actualites/taux-le-spread-entre-le-bund-et-l-oat-a-10-ans-atteint-100-pdb-pour-la-premiere-fois-depuis-2012-e097e1724cc78bd4583e4db6d2030ad3
+- Banque de France, « Taux d'endettement des agents non financiers, comparaisons internationales, 2026-T1 », d'après Eurostat. | https://www.banque-france.fr/fr/statistiques/comptes-nationaux-financiers/taux-dendettement-des-agents-non-financiers-comparaisons-internationales-2026-q1
+- Haut Conseil des finances publiques, avis n° 2026-5 relatif aux projets de lois de finances et de financement de la sécurité sociale pour 2027, 1er octobre 2026. | https://www.hcfp.fr/liste-avis/avis-ndeg2026-5-lois-de-finances-2027
+- Agence France Trésor, bulletin mensuel de juin 2026 (durée de vie moyenne de la dette négociable fin mai 2026). | https://www.aft.gouv.fr/files/medias-aft/7_Publications/7.2_BM/433_Bulletin%20mensuel%20juin%202026.pdf
+- Sources secondaires : estimations du FMI reprises par BNP Paribas Economic Research (avril 2025) et Bpifrance (fiche pays Japon). Le chiffre varie selon la définition retenue. | https://economic-research.bnpparibas.com/pdf/fr-FR/Japon-Craintes-exterieures-pause-ajustement-monetaire-18/04/2025,51474

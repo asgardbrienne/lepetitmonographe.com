@@ -1,0 +1,47 @@
+fichier: dossier-outreau.html
+rubrique: affaires
+titre: Outreau : comment une erreur judiciaire collective s'est produite
+titre_court: L'affaire d'Outreau
+chapeau: Entre 2001 et 2005, dix-sept personnes ont été jugées pour des abus sexuels sur des enfants à Outreau. Treize ont finalement été acquittées. L'affaire a donné lieu à une commission d'enquête parlementaire sans précédent.
+resume: Chronologie, procès de Saint-Omer et de Paris, commission d'enquête parlementaire et réformes qui ont suivi. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- L'affaire a abouti à quatre condamnations définitives et à treize acquittements [1].
+- Au premier procès, à Saint-Omer en 2004, sept accusés ont été acquittés ; en appel, à Paris, les six autres appelants ont été acquittés le 1er décembre 2005 [1][2].
+- Un accusé est mort en détention provisoire en 2002, avant tout jugement [1].
+- Une commission d'enquête de l'Assemblée nationale a auditionné 221 personnes et formulé 80 propositions en juin 2006 [3].
+
+## État de la procédure
+
+[État de la procédure] L'affaire principale est définitivement jugée : quatre condamnations et treize acquittements sont définitifs [1]. Les personnes acquittées sont innocentes au regard de la loi. Une procédure ultérieure devant une cour d'assises pour mineurs, mentionnée par certaines sources, n'a pas pu être recoupée ici.
+
+## La chronologie
+
+[Fait établi] Les faits dénoncés, des agressions sexuelles sur des mineurs, auraient eu lieu entre 1997 et 2000 à Outreau, près de Boulogne-sur-Mer. L'enquête débute en 2001 et l'affaire est médiatisée à partir de novembre 2001 [1].
+
+[Fait établi] L'un des accusés meurt en détention provisoire le 9 juin 2002, avant le premier procès [1].
+
+[Fait établi] Le procès devant la cour d'assises du Pas-de-Calais, à Saint-Omer, se tient du 4 mai au 2 juillet 2004. Sur dix-sept accusés, dix sont condamnés et sept acquittés [1][2]. Six des condamnés font appel, possibilité ouverte depuis la loi du 15 juin 2000 sur la présomption d'innocence [1].
+
+[Témoignage] À l'ouverture du procès en appel, en novembre 2005 à Paris, la principale accusatrice, elle-même condamnée, déclare que les six appelants « n'ont strictement rien fait » et qu'elle a menti [1].
+
+[Fait établi] Le 1er décembre 2005, la cour d'assises d'appel de Paris acquitte les six appelants [1]. Le président de la République présente des excuses publiques aux acquittés [1].
+
+## Ce que l'affaire a révélé
+
+[Fait établi] Le 7 décembre 2005, l'Assemblée nationale crée à l'unanimité une commission d'enquête, présidée par André Vallini. Elle auditionne 221 personnes, dont les treize acquittés, et rend en juin 2006 un rapport comprenant 80 propositions [3].
+
+[Interprétation] Selon les travaux de la commission et les analyses ultérieures, l'erreur ne tient pas à une seule personne mais à une chaîne : recueil et interprétation de la parole des enfants, expertises psychologiques, place centrale du juge d'instruction, recours long à la détention provisoire et faiblesse des contrôles successifs. Le poids respectif de ces facteurs reste discuté.
+
+[Débat] Pour beaucoup de commentateurs, Outreau est le symbole d'une justice qui n'a pas su douter. D'autres, notamment des associations de protection de l'enfance, estiment que l'affaire a eu un effet pervers : rendre la parole des enfants suspecte dans les procédures suivantes. Une réforme de la justice pénale a été présentée en 2007 ; son effet réel est diversement apprécié [1].
+
+## Ce qu'on ne sait pas
+- **L'effet mesurable des réformes** sur la détention provisoire et le recueil de la parole des enfants.
+- **L'influence de l'affaire sur les signalements d'abus sur mineurs** dans les années suivantes, avancée par certains et non chiffrée.
+
+## Sources
+- Source secondaire : Wikipédia, « Affaire d'Outreau » ; La Déferlante, « Outreau : des enfants victimes condamné·es au silence ». Chronologie à vérifier sur les décisions de justice et le rapport parlementaire. | https://fr.wikipedia.org/wiki/Affaire_d'Outreau
+- Source secondaire : La Déferlante. | https://revueladeferlante.fr/outreau-des-enfants-victimes-condamne%C2%B7es-au-silence/
+- Assemblée nationale, bilan de la session 2005-2006 (commission d'enquête sur l'affaire d'Outreau) ; France 3 Régions, entretien avec André Vallini. | https://www.assemblee-nationale.fr/connaissance/bilan%202005-2006/page2425.pdf

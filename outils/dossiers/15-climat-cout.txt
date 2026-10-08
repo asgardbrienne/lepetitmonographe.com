@@ -1,0 +1,42 @@
+fichier: dossier-climat-cout.html
+rubrique: economie
+titre: Canicules et sécheresses : ce que l'on sait de leur coût pour la France
+titre_court: Le coût des événements climatiques
+chapeau: Surmortalité, récoltes perdues, sinistres assurés : les effets des épisodes climatiques extrêmes se mesurent poste par poste. Il n'existe pas de chiffrage global officiel.
+resume: Surmortalité liée aux canicules, sinistres climatiques assurés, pertes agricoles de 2026 et limites des chiffrages. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- Santé publique France estime à 5 764 le nombre de décès en excès pendant la canicule du 17 juin au 2 juillet 2026, une estimation préliminaire [1].
+- Les sinistres climatiques ont coûté 5,2 milliards d'euros aux assureurs en 2025, selon France Assureurs [2].
+- Les pertes agricoles liées à la sécheresse et aux canicules de 2026 ne sont pas encore consolidées.
+- Aucune estimation officielle ne chiffre le coût global du changement climatique pour la France ; attribuer un épisode précis au changement climatique relève d'études spécifiques.
+
+## La santé
+
+[Fait établi] Selon Santé publique France, la canicule du 17 juin au 2 juillet 2026, qui a exposé la quasi-totalité de la population, s'est accompagnée de 5 764 décès en excès toutes causes, sans atteindre le niveau de 2003. Ce chiffre préliminaire a été calculé trois semaines après la fin de l'épisode [1].
+
+[À noter] Les décès « en excès » sont ceux observés au-delà du nombre attendu. Ils ne sont pas tous directement causés par la chaleur ; l'agence publie ensuite une estimation de la mortalité attribuable à la chaleur.
+
+## Les sinistres assurés
+
+[Fait établi] Selon France Assureurs, les sinistres climatiques ont atteint 5,2 milliards d'euros en 2025, contre 3,9 milliards en 2024, dont 2,2 milliards pour la grêle [2]. La fédération estime que le coût des sinistres liés aux événements naturels pourrait doubler entre 2020 et 2050 [2].
+
+[Fait établi] Le régime d'indemnisation des catastrophes naturelles est déficitaire depuis 2015 selon les assureurs ; la surprime payée sur les contrats d'assurance a été relevée au 1er janvier 2025 [2].
+
+## L'agriculture en 2026
+
+[Fait établi] Le ministère de l'Agriculture indique que 111 demandes de reconnaissance de pertes de récoltes ont été déposées pour 83 départements et que plus de 95 % des pertes liées aux canicules et à la sécheresse de 2026 sont couvertes par ces reconnaissances [3].
+
+[Estimation] Les organisations agricoles évoquent des baisses de rendement de 25 % à 75 % selon les productions dans certaines régions et réclament un plan d'aide de plusieurs milliards d'euros. Le gouvernement a annoncé environ un milliard d'euros. Ces chiffres proviennent de sources professionnelles et de presse ; le bilan des pertes n'est pas consolidé.
+
+## Ce qu'on ne sait pas
+- **Le coût global** pour l'économie : santé, productivité du travail, infrastructures, biodiversité.
+- **La part attribuable au changement climatique** de chaque épisode, qui demande des études d'attribution au cas par cas.
+- **Le bilan définitif de l'été 2026**, en mortalité comme en pertes agricoles.
+
+## Sources
+- Santé publique France, « 5 764 excess deaths in France during the heat wave from June 17 to July 2 », 2026. | https://www.santepubliquefrance.fr/en/press/5764-excess-deaths-france-during-heat-wave-june-17-july-2
+- France Assureurs, « Risques climatiques et assurance ». | https://www.franceassureurs.fr/risques-climatiques-et-assurance/
+- Source secondaire : Pleinchamp, « Sécheresse 2026 : l'ISN opérationnelle pour 95 % des dégâts et pertes subis à l'échelle nationale ». | https://www.pleinchamp.com/actualite/secheresse-2026-l-isn-operationnelle-pour-95-des-degats-et-pertes-subis-a-l-echelle-nationale

@@ -1,0 +1,35 @@
+fichier: dossier-delais-justice-penale.html
+rubrique: affaires
+titre: Combien de temps faut-il pour être jugé en France ?
+titre_court: Les délais de la justice pénale
+chapeau: Neuf mois en moyenne devant le tribunal correctionnel, plus de quatre ans pour une affaire criminelle instruite. Les délais de la justice pénale varient fortement selon la procédure.
+resume: Délais moyens par type de procédure, engorgement des affaires criminelles et comparaisons européennes. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- En 2024, le délai moyen entre l'arrivée d'une affaire au tribunal et la première décision au fond est de 9,1 mois devant le tribunal correctionnel ou une juridiction pour mineurs, hors assises [1].
+- Pour les affaires criminelles instruites, le délai entre le début de l'instruction et le jugement dépasse quatre ans [2].
+- Le nombre de dossiers criminels en attente de jugement aurait doublé en moins de cinq ans, selon une analyse fondée sur les statistiques du ministère [3].
+- Une moyenne cache de fortes différences entre juridictions et entre types d'affaires.
+
+## Les délais par procédure
+
+[Fait établi] Selon les références statistiques du ministère de la Justice publiées en juillet 2025, le délai moyen entre l'arrivée de l'affaire et la première décision au fond est de 9,1 mois en 2024 devant le tribunal correctionnel ou une juridiction pour mineurs, hors assises, contre 8,9 mois en 2023. Il est de 6,0 mois pour une comparution sur reconnaissance préalable de culpabilité et de 21,4 mois pour les affaires impliquant des personnes morales [1].
+
+[Fait établi] Les affaires suivies par un juge d'instruction durent en moyenne 37,9 mois, et 44,5 mois lorsqu'elles se terminent par un non-lieu. Pour les affaires criminelles, le délai entre le début de l'instruction et le jugement dépasse quatre ans ; il atteint 51,7 mois pour les affaires correctionnelles instruites [2]. Ces chiffres proviennent des études du ministère reprises dans la presse spécialisée ; leur année de référence doit être vérifiée.
+
+## L'engorgement criminel
+
+[Fait établi] Selon une analyse publiée par la Revue politique et parlementaire à partir des statistiques du ministère pour 2023, le nombre de dossiers criminels en attente de jugement a doublé en moins de cinq ans [3].
+
+[Interprétation] Les causes avancées sont le manque de magistrats et de greffiers, la complexité croissante des procédures et l'allongement des audiences. La création des cours criminelles départementales, qui jugent certains crimes sans jury populaire, visait notamment à réduire ces délais ; son effet est débattu.
+
+## Ce qu'on ne sait pas
+- **Les délais d'audiencement devant les cours criminelles départementales**, pour lesquels nous n'avons pas trouvé de statistique nationale publiée.
+- **Le stock actuel d'affaires criminelles** en attente, à jour pour 2026.
+
+## Sources
+- Ministère de la Justice, Références statistiques Justice 2024, chapitre « Justice pénale », juillet 2025. | https://www.justice.gouv.fr/sites/default/files/2025-07/RSJ2024%2011_3.pdf
+- Ministère de la Justice, « Les durées de traitement des affaires pénales par la justice ». | https://www.justice.gouv.fr/documentation/etudes-et-statistiques/durees-traitement-affaires-penales-justice
+- Revue politique et parlementaire, « Le temps de la justice ». | https://www.revuepolitique.fr/le-temps-de-la-justice/
