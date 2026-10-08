@@ -54,9 +54,9 @@ Les défaillances des premiers mois de l'enquête sont reconnues par de nombreux
 
 [Fait établi] Pendant plusieurs années avant et après le crime, la famille de l'enfant a reçu des lettres et des appels anonymes, dont une partie a été enregistrée. Selon une expertise citée par la presse en 2026, au moins cinq auteurs différents seraient à l'origine de ces menaces [8].
 
-[Expertise] Une expertise en écriture a attribué à la grand-tante de l'enfant une lettre anonyme de menaces envoyée aux parents en 1983 [8]. Cette expertise a fondé en partie sa mise en examen d'octobre 2025. Elle est contestée par sa défense. Une expertise en écriture est une opinion technique : elle peut être discutée par une contre-expertise et ne vaut pas jugement.
+[Expertise] Une expertise en écriture a attribué à la grand-tante de l'enfant une lettre anonyme de menaces envoyée aux parents en 1983 [8]. Cette expertise a fondé en partie sa mise en examen d'octobre 2025. Elle est contestée par sa défense. Une contre-expertise stylométrique, qui analyse l'orthographe et les tournures de phrases, a été confiée à deux experts fin 2025 ; son résultat n'était pas connu à la date de ce dossier [11]. Une expertise en écriture est une opinion technique : elle peut être discutée par une contre-expertise et ne vaut pas jugement.
 
-[Expertise] Les enregistrements de la voix du corbeau ont été numérisés et comparés par l'Institut de recherche criminelle de la gendarmerie à des voix de protagonistes enregistrées à l'époque ; la mauvaise qualité des enregistrements limite la portée de l'exercice [9]. Des expertises vocales plus anciennes avaient retenu plusieurs voix possibles sans identifier l'auteur, puis avaient été annulées pour irrégularités de procédure [9]. Nous n'avons trouvé aucune publication établissant qu'une expertise récente aurait identifié la voix du corbeau.
+[Expertise] Les enregistrements de la voix du corbeau ont été numérisés et comparés par l'Institut de recherche criminelle de la gendarmerie à des voix de protagonistes enregistrées à l'époque ; la mauvaise qualité des enregistrements limite la portée de l'exercice [9]. Des expertises vocales plus anciennes avaient retenu plusieurs voix possibles sans identifier l'auteur, puis avaient été annulées pour irrégularités de procédure [9]. En mars 2024, la chambre de l'instruction de Dijon a ordonné, à la demande des parents, de nouvelles comparaisons génétiques et une étude de faisabilité d'expertises vocales sur ces enregistrements [10]. Nous n'avons trouvé, au 8 octobre 2026, aucune publication établissant qu'une expertise aurait identifié la voix du corbeau.
 
 [À noter] Selon les spécialistes cités, il n'existe pas d'« empreinte vocale » comparable à une empreinte digitale : même avec de bons enregistrements, l'identification certaine d'une voix est impossible [9].
 
@@ -70,7 +70,7 @@ Les défaillances des premiers mois de l'enquête sont reconnues par de nombreux
 - **Qui a tué Grégory Villemin.** Aucune décision de justice ne l'a établi.
 - **Qui était le corbeau.** Aucune décision de justice ne l'a établi, et les expertises vocales n'ont pas identifié son auteur.
 - **La portée de la décision de 2018** sur les déclarations recueillies en garde à vue en 1984.
-- **Les résultats des expertises récentes**, notamment génétiques et d'analyse d'écriture, dont l'état n'a pas pu être vérifié.
+- **Les résultats des expertises en cours** : contre-expertise stylométrique, comparaisons génétiques et éventuelle expertise vocale.
 - **L'issue de l'information judiciaire**, qui peut se conclure par un renvoi devant une juridiction ou par un non-lieu.
 
 ## Sources
@@ -83,3 +83,5 @@ Les défaillances des premiers mois de l'enquête sont reconnues par de nombreux
 - Conseil constitutionnel, décision QPC du 16 novembre 2018 sur la garde à vue des mineurs en 1984, d'après la chronique de QPC d'Actu-Juridique. Texte à consulter sur le site du Conseil constitutionnel. | https://www.actu-juridique.fr/constitutionnel/chronique-de-qpc-juillet-decembre-20181re-partie/
 - CNews, « Affaire Grégory : soupçonnée d'être le corbeau, la grand-tante du garçonnet demande l'annulation de sa mise en examen », 15 avril 2026. | https://www.cnews.fr/faits-divers/2026-04-15/affaire-gregory-la-grand-tante-du-garconnet-soupconnee-detre-le-corbeau
 - Source secondaire : Police scientifique, « Affaire Grégory : la voix du corbeau » et « Une expertise pour comparer des voix » ; France 3 Bourgogne-Franche-Comté. Articles antérieurs à 2026. | https://www.police-scientifique.com/affaire-gregory/la-voix-du-corbeau/
+- franceinfo, « Affaire Grégory : la justice ordonne de nouvelles expertises », mars 2024 ; France 3 Bourgogne-Franche-Comté. | https://www.franceinfo.fr/faits-divers/affaire-du-petit-gregory/affaire-gregory-la-justice-ordonne-de-nouvelles-expertises_6438661.html
+- CNews, « Affaire Grégory : une contre-expertise ordonnée pour vérifier si la grand-tante du garçonnet est bien le corbeau », 23 janvier 2026 ; France Bleu. | https://www.cnews.fr/faits-divers/2026-01-23/affaire-gregory-une-contre-expertise-ordonnee-pour-verifier-si-jacqueline
