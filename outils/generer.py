@@ -123,6 +123,7 @@ RUBRIQUES = [
 
 AMAZON_MACRON = "https://amzn.eu/d/01F1zk6T"
 AMAZON_COMPTES = "https://amzn.eu/d/05zZjSbI"
+AMAZON_GREGORY = "https://amzn.eu/d/08C94l0A"
 LIVRES = {
     "c-pouvoirs": [('<a href="livre-emmanuel-macron-le-bilan.html">Emmanuel Macron, le bilan</a>',
                     "Promesses, réformes, crises et affaires : la présidence passée au crible des faits (2017-2026).",
@@ -130,7 +131,9 @@ LIVRES = {
     "c-economie": [("Comment redresser les comptes de la France",
                     "Dette, déficit, retraites, dépenses publiques : 17 mesures chiffrées pour agir d'ici 2036. Faits, débats, calculs et propositions séparés.",
                     AMAZON_COMPTES, "assets/couverture-comptes.png")],
-    "c-affaires": [(A("Titre de la monographie"), A("Résumé en deux phrases"), None, None)],
+    "c-affaires": [("L'affaire Grégory " + A("titre exact à confirmer"),
+                    "Une monographie consacrée à l'affaire Grégory. " + A("Résumé à fournir"),
+                    AMAZON_GREGORY, None)],
 }
 COLLECTION = {"c-pouvoirs": "Pouvoirs &amp; Société", "c-economie": "Pouvoirs &amp; Société", "c-affaires": "Affaires &amp; Enquêtes"}
 
