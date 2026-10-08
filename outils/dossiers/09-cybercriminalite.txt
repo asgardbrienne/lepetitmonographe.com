@@ -6,6 +6,10 @@ chapeau: Les infractions liées au numérique enregistrées par la police et la 
 resume: Escroqueries en ligne, piratages, rançongiciels : les chiffres du ministère de l'Intérieur et leurs limites. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/cybercriminalite.jpg
+image_alt: Baies de serveurs informatiques
+image_credit: NeoSpire, CC BY 2.0, recadrée, Flickr
+image_lien: https://www.flickr.com/photos/39131599@N06/3595638270
 ---
 ## Essentiel
 - 453 200 crimes et délits liés au numérique ont été enregistrés par la police et la gendarmerie en 2025, en hausse de 14 % sur un an [1].

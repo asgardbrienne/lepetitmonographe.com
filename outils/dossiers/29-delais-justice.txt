@@ -6,6 +6,10 @@ chapeau: Neuf mois en moyenne devant le tribunal correctionnel, plus de quatre a
 resume: Délais moyens par type de procédure, engorgement des affaires criminelles et comparaisons européennes. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/delais-justice.jpg
+image_alt: Salle d'audience de la chambre criminelle de la Cour de cassation
+image_credit: Tiraden, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Palais_de_justice_de_Paris_-_salle_d%27audience_de_la_chambre_criminelle_de_la_Cour_de_cassation.jpg
 ---
 ## Essentiel
 - En 2024, le délai moyen entre l'arrivée d'une affaire au tribunal et la première décision au fond est de 9,1 mois devant le tribunal correctionnel ou une juridiction pour mineurs, hors assises [1].

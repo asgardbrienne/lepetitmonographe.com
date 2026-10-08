@@ -6,6 +6,10 @@ chapeau: Près de 470 dispositifs dérogatoires réduisent chaque année les rec
 resume: Nombre, coût, fiabilité des chiffrages et évaluations disponibles des dépenses fiscales. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/niches-fiscales.jpg
+image_alt: Une main remplit une déclaration fiscale au stylo
+image_credit: GoSimpleTax, CC BY 2.0, recadrée, Flickr
+image_lien: https://www.flickr.com/photos/143133125@N02/45041565075
 ---
 ## Essentiel
 - Le projet de loi de finances pour 2026 recense 465 dépenses fiscales pour un coût prévu de 88,3 milliards d'euros en 2026 [1].

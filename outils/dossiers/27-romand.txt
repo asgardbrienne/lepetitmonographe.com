@@ -6,6 +6,10 @@ chapeau: En janvier 1993, un homme qui se faisait passer depuis plus de quinze a
 resume: Faits jugés, expertises psychiatriques, peine et libération conditionnelle dans l'affaire Romand. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/romand.jpg
+image_alt: Fronton du palais de justice de Bourg-en-Bresse
+image_credit: Chabe01, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Palais_Justice_-_Bourg-en-Bresse_(FR01)_-_2024-03-21_-_3.jpg
 ---
 ## Essentiel
 - Jean-Claude Romand a été condamné en 1996 par la cour d'assises de l'Ain à la réclusion criminelle à perpétuité, assortie d'une période de sûreté de 22 ans [1][2].

@@ -6,6 +6,10 @@ chapeau: Le 11 avril 2003, une famille de cinq personnes est tuée au Grand-Born
 resume: Faits jugés, peines, complicités retenues et état de la procédure dans l'affaire de la tuerie du Grand-Bornand. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/flactif.jpg
+image_alt: Le village du Grand-Bornand et ses montagnes
+image_credit: Anthospace, CC BY-SA 3.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Le_Grand-Bornand_74.JPG
 ---
 ## Essentiel
 - Le 30 juin 2006, la cour d'assises de la Haute-Savoie a condamné David Hotyat à la réclusion criminelle à perpétuité, assortie d'une période de sûreté de 22 ans, pour le meurtre des cinq membres de la famille Flactif [1].

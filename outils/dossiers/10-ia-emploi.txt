@@ -6,6 +6,10 @@ chapeau: Des millions d'emplois seraient « menacés » par l'intelligence artif
 resume: Exposition des tâches, effets observés sur les offres d'emploi et les embauches de jeunes, chiffres qui circulent sans source. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/ia-emploi.jpg
+image_alt: Robots industriels sur une chaîne d'assemblage automobile
+image_credit: Mixabest, CC BY-SA 3.0, recadrée, Wikimedia
+image_lien: https://commons.wikimedia.org/w/index.php?curid=9820288
 ---
 ## Essentiel
 - Une étude citée par la CFE-CGC estime qu'environ 16 % des tâches seraient aujourd'hui exposées à l'automatisation en France ; exposition ne veut pas dire suppression [1].

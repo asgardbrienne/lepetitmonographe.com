@@ -371,3 +371,11 @@ h1, h2, h3, h4 { text-wrap: balance; }
 .illustration img { display: block; width: 100%; max-height: 560px; aspect-ratio: 16 / 9; object-fit: cover; }
 .illustration figcaption { font: 400 .75rem/1.5 var(--sans); color: var(--encre-pale); margin-top: 10px; text-align: right; }
 .illustration figcaption a { color: var(--encre-pale); }
+
+/* Vignettes des cartes */
+.porte-image { display: block; aspect-ratio: 16 / 9; overflow: hidden; margin: -1px 0 18px; background: var(--papier-2); }
+.porte-image img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .6s ease; }
+.porte:hover .porte-image img { transform: scale(1.03); }
+.porte:has(.porte-image) { border-top: 0; padding-top: 0; }
+#a-la-une .porte:first-child:has(.porte-image) { border-top: 0; padding-top: 0; }
+@media (prefers-reduced-motion: reduce) { .porte-image img { transition: none; } }

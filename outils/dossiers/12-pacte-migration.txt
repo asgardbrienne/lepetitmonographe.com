@@ -6,6 +6,10 @@ chapeau: Adopté en 2024, le pacte européen sur la migration et l'asile s'appli
 resume: Calendrier, filtrage, procédures à la frontière, Eurodac et adaptation du droit français. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/pacte-migration.jpg
+image_alt: Le Berlaymont, siège de la Commission européenne à Bruxelles
+image_credit: EmDee, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg
 ---
 ## Essentiel
 - Le pacte, approuvé par le Parlement européen le 10 avril 2024 et adopté par le Conseil le 14 mai 2024, s'applique depuis le 12 juin 2026 [1].

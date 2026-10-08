@@ -6,6 +6,10 @@ chapeau: À six mois du premier tour, plusieurs candidats peinent à obtenir un 
 resume: Ressources autorisées, remboursement public, réticence des banques et propositions en débat. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/financement-campagnes.jpg
+image_alt: Isoloirs dans un bureau de vote, photographie ancienne
+image_credit: Agence de presse Meurisse (Gallica, BnF), domaine public, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Int%C3%A9rieur_d%27un_bureau_de_vote_-_les_isoloirs_-_btv1b9033130j.jpg
 ---
 ## Essentiel
 - Le premier tour de l'élection présidentielle est fixé au 18 avril 2027 et le second au 2 mai 2027 [1].

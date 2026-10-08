@@ -6,6 +6,10 @@ chapeau: La dette publique a atteint 119 % du PIB à la mi-2026 et ses intérêt
 resume: Niveau, charge d'intérêts, taux d'emprunt, comparaisons européennes : les chiffres de la dette et leur contexte. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/dette-publique.jpg
+image_alt: Le viaduc du pont de Bercy à Paris, vu sous ses arches
+image_credit: Pierre Blaché from Paris, France, CC0, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Pont_de_Bercy,_Paris_23_December_2021.jpg
 ---
 ## Essentiel
 - Fin juin 2026, la dette publique au sens de Maastricht atteint 3 595,5 milliards d'euros, soit 119,0 % du PIB [1].

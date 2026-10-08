@@ -6,6 +6,10 @@ chapeau: Depuis le 1er janvier 2026, le mécanisme qui permettait d'acheter l'é
 resume: Tarif réglementé, fin de l'Arenh, versement nucléaire universel et ce qui détermine la facture. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/electricite.jpg
+image_alt: Pylônes et lignes à haute tension
+image_credit: St_A_Sh, CC BY 2.0, recadrée, Flickr
+image_lien: https://www.flickr.com/photos/51655688@N00/488399852
 ---
 ## Essentiel
 - Le tarif réglementé de l'électricité a baissé en moyenne de 0,83 % TTC au 1er février 2026, selon la Commission de régulation de l'énergie (CRE) [1].

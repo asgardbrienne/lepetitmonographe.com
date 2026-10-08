@@ -6,6 +6,10 @@ chapeau: Les pensions ne sont pas financées uniquement par les cotisations des 
 resume: Ressources, dépenses et solde du système de retraite selon le Conseil d'orientation des retraites. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/retraites.jpg
+image_alt: Un couple âgé vu de dos, marchant dans la rue
+image_credit: garryknight, CC BY 2.0, recadrée, Flickr
+image_lien: https://www.flickr.com/photos/8176740@N05/5836253352
 ---
 ## Essentiel
 - En 2024, le système de retraite a disposé d'environ 405 milliards d'euros de ressources, hors produits financiers, soit 13,9 % du PIB [1].

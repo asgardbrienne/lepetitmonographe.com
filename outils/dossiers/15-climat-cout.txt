@@ -6,6 +6,10 @@ chapeau: Surmortalité, récoltes perdues, sinistres assurés : les effets des �
 resume: Surmortalité liée aux canicules, sinistres climatiques assurés, pertes agricoles de 2026 et limites des chiffrages. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/climat-cout.jpg
+image_alt: Sol craquelé par la sécheresse
+image_credit: Derek T's Photos, CC BY 2.0, recadrée, Flickr
+image_lien: https://www.flickr.com/photos/40849443@N00/5834862318
 ---
 ## Essentiel
 - Santé publique France estime à 5 764 le nombre de décès en excès pendant la canicule du 17 juin au 2 juillet 2026, une estimation préliminaire [1].

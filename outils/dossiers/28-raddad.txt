@@ -6,6 +6,10 @@ chapeau: Condamné en 1994 pour le meurtre de son employeuse à Mougins, Omar Ra
 resume: Condamnation, grâce, traces ADN découvertes en 2015 et décision de la juridiction de révision. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/raddad.jpg
+image_alt: Le village de Mougins
+image_credit: Rinaldi, CC BY-SA 3.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Mougins_village_(06).JPG
 ---
 ## Essentiel
 - Ghislaine Marchal a été tuée à Mougins, dans les Alpes-Maritimes, le 2 juin 1991 [1].

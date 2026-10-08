@@ -6,6 +6,10 @@ chapeau: Le gouvernement vise un déficit public de 5,0 % du PIB en 2027. Le mon
 resume: Objectif de déficit, effort de 54 milliards, répartition entre dépenses et recettes, avis du Haut Conseil des finances publiques. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/budget-2027.jpg
+image_alt: Billets et pièces en euros
+image_credit: Janitors, CC BY 2.0, recadrée, Flickr
+image_lien: https://www.flickr.com/photos/65265630@N03/11816994903
 ---
 ## Essentiel
 - Le projet de loi de finances pour 2027, déposé le 1er octobre 2026, vise un déficit public de 5,0 % du PIB [1].

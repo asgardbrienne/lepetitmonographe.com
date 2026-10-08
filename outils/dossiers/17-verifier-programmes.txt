@@ -6,6 +6,10 @@ chapeau: Chaque campagne voit circuler des chiffrages contradictoires des mêmes
 resume: Coût brut, recettes, effets sur les comportements, faisabilité juridique : une méthode commune pour lire les chiffrages, appliquée à tous les candidats de la même façon. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/verifier-programmes.jpg
+image_alt: Panneau indiquant un bureau de vote
+image_credit: Benoît Prieur, CC0, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Panneau_%22Bureau_de_vote_num%C3%A9ro_22_%C3%A0_Courbevoie_(Hauts-de-Seine,_France).JPG
 ---
 ## Essentiel
 - Un même programme peut recevoir des chiffrages très différents selon la méthode : coût immédiat ou à terme, avec ou sans effets sur les comportements.

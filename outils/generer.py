@@ -121,9 +121,9 @@ RUBRIQUES = [
      "Chronologies judiciaires, pièces du dossier, expertises, faits établis et hypothèses."),
 ]
 
-AMAZON_MACRON = "https://amzn.eu/d/01F1zk6T"
-AMAZON_COMPTES = "https://amzn.eu/d/05zZjSbI"
-AMAZON_GREGORY = "https://amzn.eu/d/08C94l0A"
+AMAZON_MACRON = "https://www.amazon.fr/dp/B0HMC5NJ9V"
+AMAZON_COMPTES = "https://www.amazon.fr/dp/B0HMC3C84M"
+AMAZON_GREGORY = "https://www.amazon.fr/dp/B0GYQ8HRHG"
 LIVRES = {
     "c-pouvoirs": [('<a href="livre-emmanuel-macron-le-bilan.html">Emmanuel Macron, le bilan</a>',
                     "Promesses, réformes, crises et affaires : la présidence passée au crible des faits (2017-2026).",
@@ -344,6 +344,8 @@ mentions = tete("Informations légales", "Mentions légales", "") + "\n" + secti
         <p>Contact : voir la page <a href="contact.html">Contact</a>.</p>
         <h2>Hébergement</h2>
         <p>{A("Hébergeur : dépend de la solution technique retenue")}</p>
+        <h2>Crédits photographiques</h2>
+        <p>Les photographies proviennent de Wikimedia Commons et de Flickr, sous licence libre (domaine public, CC0, CC BY ou CC BY-SA). L'auteur, la licence et la source de chaque photo sont indiqués sous celle-ci, avec un lien vers sa page d'origine.</p>
         <h2>Liens vers Amazon</h2>
         <p>{A("Si les liens sont affiliés (Partenaires Amazon), l'indiquer ici")}</p>
       </div>""")
@@ -466,6 +468,12 @@ dossier = f'''  <section class="tete-page c-economie">
       <p class="meta-dossier">Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
     </div>
   </section>
+  <figure class="illustration">
+    <div class="conteneur">
+      <img src="assets/images/dossier-chomage-emploi.jpg" alt="Petites annonces d'emploi dans un journal, entourées au stylo" loading="eager">
+      <figcaption>Photo : <a href="https://www.flickr.com/photos/141761303@N08/38674829622" target="_blank" rel="noopener">amtec_photos, CC BY-SA 2.0, recadrée, Flickr</a></figcaption>
+    </div>
+  </figure>
 
   <article class="section dossier">
     <div class="conteneur">
@@ -809,3 +817,18 @@ for c, h, t, d, m in _liste:
       <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="{page_rub}">{nom}</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>''', s_, count=1)
     s_ = s_.replace('<p class="meta-dossier">', f'<p class="meta-dossier">Lecture : {m} min · ', 1)
     open(chemin, "w", encoding="utf-8").write(s_)
+
+# ---------- Vignettes photo dans les cartes de dossiers ----------
+_vignettes = {"dossier-chomage-emploi.html": ("assets/images/dossier-chomage-emploi.jpg", "")}
+for _m in _dossiers_simples:
+    if _m.get("image"):
+        _vignettes[_m["fichier"]] = (_m["image"], "")
+for _f in glob.glob(os.path.join(OUT, "*.html")):
+    _t = open(_f, encoding="utf-8").read()
+    def _ajout(mm):
+        h = mm.group(2)
+        if h not in _vignettes: return mm.group(0)
+        return mm.group(0) + f'<span class="porte-image"><img src="{_vignettes[h][0]}" alt="" loading="lazy"></span>'
+    _n = re.sub(r'(<a class="porte [^"]*" href="([^"]+)"[^>]*>)', _ajout, _t)
+    if _n != _t:
+        open(_f, "w", encoding="utf-8").write(_n)

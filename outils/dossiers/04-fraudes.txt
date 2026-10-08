@@ -6,6 +6,10 @@ chapeau: Plus de 20 milliards d'euros de fraudes ont été détectés et redress
 resume: Montants détectés, montants estimés, sommes recouvrées : trois chiffres différents à ne pas confondre. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/fraudes.jpg
+image_alt: Une loupe posée sur des billets et des documents
+image_credit: Images_of_Money, CC BY 2.0, recadrée, Flickr
+image_lien: https://www.flickr.com/photos/59937401@N07/5857993560
 ---
 ## Essentiel
 - En 2025, les montants de fraudes fiscales et sociales détectés et redressés ont dépassé 20 milliards d'euros, selon le ministère de l'Économie [1].

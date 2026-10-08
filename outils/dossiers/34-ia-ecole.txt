@@ -6,6 +6,10 @@ chapeau: Les élèves utilisent déjà les outils d'intelligence artificielle g�
 resume: Cadre d'usage du ministère, formation des élèves, résultats de l'OCDE et incertitudes. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/ia-ecole.jpg
+image_alt: Salle de classe vide
+image_credit: -Marlith-, CC BY 2.0, recadrée, Flickr
+image_lien: https://www.flickr.com/photos/22419112@N08/2533256880
 ---
 ## Essentiel
 - Le ministère de l'Éducation nationale a publié un cadre d'usage de l'IA en éducation, élaboré après une consultation menée de janvier à mai 2025 [1].

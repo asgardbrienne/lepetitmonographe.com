@@ -6,6 +6,10 @@ chapeau: Pour 2024, le ministère de l'Intérieur compte 107 femmes tuées par l
 resume: Définitions, méthodes de comptage, séries officielles et associatives, et ce que les écarts signifient. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/feminicides.jpg
+image_alt: Bougies de recueillement posées au sol
+image_credit: Anosmia, CC BY 2.0, recadrée, Flickr
+image_lien: https://www.flickr.com/photos/77846644@N00/6621501841
 ---
 ## Essentiel
 - Selon l'étude du ministère de l'Intérieur sur les morts violentes au sein du couple, publiée en octobre 2025, 107 femmes ont été tuées par leur conjoint ou ex-conjoint en 2024, soit 11 % de plus qu'en 2023 [1].

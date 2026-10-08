@@ -6,6 +6,10 @@ chapeau: Le 16 octobre 1984, Grégory Villemin, 4 ans, est retrouvé mort dans l
 resume: Décisions de justice depuis 1984, annulations, prescription et investigations en cours. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/gregory.jpg
+image_alt: La Vologne à Lépanges-sur-Vologne
+image_credit: Lionel Allorge, CC BY-SA 3.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:La_Vologne_%C3%A0_L%C3%A9panges-sur-Vologne_en_mai_2014_-_1.jpg
 ---
 ## Essentiel
 - Personne n'a été jugé pour la mort de Grégory Villemin ; l'enquête reste ouverte sous le contrôle de la chambre de l'instruction de la cour d'appel de Dijon [1][2].
@@ -64,7 +68,7 @@ Les défaillances des premiers mois de l'enquête sont reconnues par de nombreux
 
 ## Pour aller plus loin
 
-[Livre] « Grégory : pourquoi l'affaire n'a jamais été résolue » revient sur les premières 48 heures de l'enquête. Volume 4 de la collection « Affaires qui ont choqué la France ». <a href="https://amzn.eu/d/08C94l0A" target="_blank" rel="noopener">Voir le livre sur Amazon</a> · <a href="livres.html">Toutes les monographies</a>
+[Livre] « Grégory : pourquoi l'affaire n'a jamais été résolue » revient sur les premières 48 heures de l'enquête. Volume 4 de la collection « Affaires qui ont choqué la France ». <a href="https://www.amazon.fr/dp/B0GYQ8HRHG" target="_blank" rel="noopener">Voir le livre sur Amazon</a> · <a href="livres.html">Toutes les monographies</a>
 
 ## Ce qu'on ne sait pas
 - **Qui a tué Grégory Villemin.** Aucune décision de justice ne l'a établi.

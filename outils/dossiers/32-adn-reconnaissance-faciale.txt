@@ -6,6 +6,10 @@ chapeau: L'ADN est souvent présenté comme la « reine des preuves » et la rec
 resume: Contamination et transfert d'ADN, encadrement des fichiers, usage de la reconnaissance faciale par la police et décisions de justice récentes. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/adn-reconnaissance-faciale.jpg
+image_alt: Pipettes dans un laboratoire
+image_credit: n_sapiens, CC BY-SA 2.0, recadrée, Flickr
+image_lien: https://www.flickr.com/photos/27505428@N06/5418319146
 ---
 ## Essentiel
 - Une trace ADN prouve la présence d'un ADN sur un objet, pas la présence de la personne sur les lieux ni sa culpabilité : l'ADN peut être transféré indirectement ou contaminé [1].

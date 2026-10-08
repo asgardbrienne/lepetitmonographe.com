@@ -6,6 +6,10 @@ chapeau: L'Inspection générale de la police nationale publie chaque année le 
 resume: Enquêtes de l'IGPN sur l'usage de la force, tirs mortels, atteintes à la probité, et limites de ces statistiques. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/igpn.jpg
+image_alt: Une voiture de la police nationale à Paris
+image_credit: Mic V., CC BY 2.0, recadrée, Flickr
+image_lien: https://www.flickr.com/photos/33756577@N08/3298128897
 ---
 ## Essentiel
 - En 2025, l'IGPN a mené 1 007 enquêtes judiciaires, dont 322 portant sur l'usage de la force, contre 428 en 2024 [1].

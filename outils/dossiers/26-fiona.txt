@@ -6,6 +6,10 @@ chapeau: En 2013, la disparition signalée d'une fillette de 5 ans dans un parc 
 resume: Procès successifs, cassation, peines prononcées et points restés incertains dans l'affaire Fiona. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/fiona.jpg
+image_alt: Le palais de justice historique de Lyon, au bord de la Saône
+image_credit: ell brown, CC BY-SA 2.0, recadrée, Flickr
+image_lien: https://www.flickr.com/photos/39415781@N06/34544894454
 ---
 ## Essentiel
 - En 2013, la mère de Fiona et son compagnon signalent la disparition de l'enfant ; ils reconnaissent ensuite avoir menti [1].

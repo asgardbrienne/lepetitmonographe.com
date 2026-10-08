@@ -6,6 +6,10 @@ chapeau: Depuis les élections législatives anticipées de 2024, aucun bloc ne 
 resume: Chronologie de la dissolution, des censures et des gouvernements successifs, et ce que prévoit la Constitution. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/majorite.jpg
+image_alt: Le banc des ministres dans l'hémicycle de l'Assemblée nationale
+image_credit: Sunala, CC BY-SA 3.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Assembl%C3%A9e_Nationale_-_H%C3%A9micycle.JPG
 ---
 ## Essentiel
 - Le président de la République a annoncé la dissolution de l'Assemblée nationale le 9 juin 2024, au soir des élections européennes [1].

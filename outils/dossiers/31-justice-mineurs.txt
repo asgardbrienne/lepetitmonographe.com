@@ -6,6 +6,10 @@ chapeau: Depuis le 30 septembre 2021, les mineurs sont jugés en deux temps : d'
 resume: Procédure en deux temps, évolution des délais de jugement, évaluations disponibles et propositions de réforme. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/justice-mineurs.jpg
+image_alt: Salle d'audience du palais de justice de Briançon
+image_credit: Florian Pépellin, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Salle_d%27audience_Palais_de_justice_de_Brian%C3%A7on_(septembre_2024).JPG
 ---
 ## Essentiel
 - Le code de la justice pénale des mineurs est entré en vigueur le 30 septembre 2021 [1].

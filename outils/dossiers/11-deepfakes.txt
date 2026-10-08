@@ -6,6 +6,10 @@ chapeau: Les vidéos et enregistrements fabriqués par intelligence artificielle
 resume: Infractions prévues par la loi SREN, obligations de transparence du règlement européen sur l'IA, limites de la détection. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/deepfakes.jpg
+image_alt: Un smartphone filme une scène de concert
+image_credit: MyStockPhotos, CC0 1.0, Flickr
+image_lien: https://www.flickr.com/photos/136375272@N05/21773064491
 ---
 ## Essentiel
 - Depuis la loi du 21 mai 2024 dite SREN, diffuser sans le consentement de la personne un contenu fabriqué par algorithme la représentant, sans que son caractère artificiel soit évident ou mentionné, est un délit [1].

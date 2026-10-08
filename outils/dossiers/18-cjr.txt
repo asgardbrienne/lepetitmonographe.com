@@ -6,6 +6,10 @@ chapeau: Créée en 1993 pour juger les ministres pour les infractions commises 
 resume: Fonctionnement, décisions rendues depuis 1993 et arguments pour et contre son maintien. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/cjr.jpg
+image_alt: La Conciergerie et la Cour de cassation au bord de la Seine, à Paris
+image_credit: DXR, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Conciergerie_and_Cour_de_Cassation,_Paris_2_April_2014.jpg
 ---
 ## Essentiel
 - La Cour de justice de la République (CJR) juge les membres du gouvernement pour les crimes et délits commis dans l'exercice de leurs fonctions.

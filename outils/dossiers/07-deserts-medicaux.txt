@@ -6,6 +6,10 @@ chapeau: Le nombre total de médecins augmente, mais l'accès à un généralist
 resume: Accessibilité aux médecins généralistes, formation, liberté d'installation et proposition de loi Garot. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/deserts-medicaux.jpg
+image_alt: Paysage de campagne française avec un village au loin
+image_credit: nikoretro, CC BY-SA 2.0, recadrée, Flickr
+image_lien: https://www.flickr.com/photos/22768390@N00/168426022
 ---
 ## Essentiel
 - Selon la Drees, environ 12,3 millions d'habitants, soit 18 % de la population, vivent dans une commune où l'offre de médecine générale est inférieure à 2,5 consultations par habitant et par an (données 2024) [1].

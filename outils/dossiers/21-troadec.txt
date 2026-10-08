@@ -6,6 +6,10 @@ chapeau: En février 2017, quatre membres d'une famille disparaissent de leur ma
 resume: Faits jugés, peine, mobile retenu et points restés contestés dans l'affaire du quadruple meurtre d'Orvault. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/troadec.jpg
+image_alt: L'ancien palais de justice de Nantes
+image_credit: François de Dijon, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Nantes_Ancien_Palais_de_justice_01.jpg
 ---
 ## Essentiel
 - Le 7 juillet 2021, la cour d'assises de Loire-Atlantique a condamné Hubert Caouissin à 30 ans de réclusion criminelle pour le meurtre de quatre membres de la famille Troadec en février 2017 [1].

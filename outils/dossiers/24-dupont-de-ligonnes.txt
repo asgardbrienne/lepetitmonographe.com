@@ -6,6 +6,10 @@ chapeau: En avril 2011, les corps d'une mère et de ses quatre enfants sont déc
 resume: Faits établis, état de l'enquête, signalements et rumeurs : ce que l'on sait et ce que l'on ne sait pas. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/dupont-de-ligonnes.jpg
+image_alt: Le quai Turenne à Nantes
+image_credit: François de Dijon, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Nantes_-_Quai_Turenne_-_03.jpg
 ---
 ## Essentiel
 - Le 21 avril 2011, les corps d'Agnès Dupont de Ligonnès et de ses quatre enfants sont découverts sous la terrasse de leur maison de Nantes [1].

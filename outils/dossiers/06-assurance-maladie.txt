@@ -6,6 +6,10 @@ chapeau: Les dépenses d'assurance maladie dépassent 270 milliards d'euros par 
 resume: Répartition des dépenses entre ville, hôpital et médico-social, évolution des indemnités journalières, contrôles et économies prévues. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/assurance-maladie.jpg
+image_alt: Croix lumineuse d'une pharmacie
+image_credit: ell brown, CC BY 2.0, recadrée, Flickr
+image_lien: https://www.flickr.com/photos/39415781@N06/5773845034
 ---
 ## Essentiel
 - L'objectif national de dépenses d'assurance maladie (Ondam) est fixé à 278,7 milliards d'euros pour 2027 dans le projet de loi de financement de la sécurité sociale, en hausse de 2 % [1].

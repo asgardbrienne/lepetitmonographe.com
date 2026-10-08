@@ -6,6 +6,10 @@ chapeau: La collectivité consacre environ 1,5 % du PIB au logement. La construc
 resume: Aides publiques, construction, prix et loyers : les chiffres du logement et les explications en débat. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/logement.jpg
+image_alt: Façade d'un immeuble parisien
+image_credit: *rboed*, CC BY 2.0, recadrée, Flickr
+image_lien: https://www.flickr.com/photos/92082510@N04/10782901965
 ---
 ## Essentiel
 - Les aides publiques au logement atteignent 45,9 milliards d'euros en 2025, soit 1,5 % du PIB, selon le compte du logement [1].

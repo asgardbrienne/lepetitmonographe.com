@@ -6,6 +6,10 @@ chapeau: Entre 2001 et 2005, dix-sept personnes ont été jugées pour des abus 
 resume: Chronologie, procès de Saint-Omer et de Paris, commission d'enquête parlementaire et réformes qui ont suivi. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/outreau.jpg
+image_alt: La Grand-Place de Saint-Omer, de nuit
+image_credit: Steve-©-foto, CC BY 2.0, recadrée, Flickr
+image_lien: https://www.flickr.com/photos/70690537@N02/6822060134
 ---
 ## Essentiel
 - L'affaire a abouti à quatre condamnations définitives et à treize acquittements [1].

@@ -6,6 +6,10 @@ chapeau: Des chiffres de plusieurs dizaines de milliards d'euros de « coût de 
 resume: Méthodes, résultats des études du CEPII et de l'OCDE, origine des chiffres contestés et limites des calculs. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
+image: assets/images/immigration-finances.jpg
+image_alt: Liasses de billets de 20 et 50 euros
+image_credit: BrayLockBoy, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:20_and_50_Euro_banknote_straps_delivered_by_G4S.jpg
 ---
 ## Essentiel
 - L'étude de référence du CEPII, portant sur 1979-2011, estime la contribution budgétaire nette des immigrés entre -0,5 % et +0,05 % du PIB selon les années [1].
