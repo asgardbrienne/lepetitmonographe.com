@@ -53,7 +53,7 @@ def page(fichier, titre, description, corps, noindex=False):
 
 <footer class="pied">
   <div class="conteneur">
-    <span>© 2026 S. Enault · Le Petit Monographe</span>
+    <span>© 2026 Le Petit Monographe</span>
     <span><a href="contact.html">Contact</a> · <a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></span>
   </div>
 </footer>
@@ -161,7 +161,7 @@ accueil = f'''  <section class="ouverture embleme">
 {grille_livres(["c-pouvoirs", "c-economie", "c-affaires"])}""")}
 
 {section("""      <p class="signature" style="border:0;padding:0;margin:0">Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
-      <p style="margin:8px 0 0;color:var(--encre-douce)">S. Enault · <a href="a-propos.html">À propos de l'auteur</a></p>""")}'''
+      <p style="margin:8px 0 0;color:var(--encre-douce)"><a href="a-propos.html">À propos du Petit Monographe</a></p>""")}'''
 
 page("index.html", "Accueil",
      "Le Petit Monographe : dossiers documentés sur la politique, l'économie, la société et les affaires judiciaires. Faits établis, désaccords, hypothèses et incertitudes clairement séparés.",
@@ -193,7 +193,7 @@ livres = tete("Les monographies", "Le dossier complet, en un volume",
         </div>
 {grille_livres(["c-affaires"])}
       </div>""")
-page("livres.html", "Livres", "Les monographies de S. Enault : collections Pouvoirs & Société et Affaires & Enquêtes.", livres)
+page("livres.html", "Livres", "Les monographies du Petit Monographe : collections Pouvoirs & Société et Affaires & Enquêtes.", livres)
 
 # ---------- Méthode ----------
 ETIQ = [
@@ -231,14 +231,15 @@ methode = tete("Notre méthode", "Une méthode avant une opinion",
 page("methode.html", "Notre méthode", "Fait établi, témoignage, interprétation, hypothèse, proposition : comment Le Petit Monographe distingue chaque type d'information, cite ses sources et publie ses corrections.", methode)
 
 # ---------- À propos ----------
-apropos = tete("À propos", "S. Enault", "Auteur et éditeur du Petit Monographe.") + "\n" + section("""      <div class="prose">
-        <p>S. Enault est l'auteur de monographies documentaires consacrées aux grands dossiers politiques, économiques, sociaux et criminels contemporains.</p>
-        <p>Sa méthode repose sur un principe simple : distinguer ce qui est établi de ce qui relève de l'interprétation, du débat ou de l'hypothèse. Ses ouvrages s'appuient sur des sources identifiées et datées : données publiques, rapports officiels, décisions de justice, travaux parlementaires, archives, auditions et autres documents vérifiables. Lorsque les sources divergent ou qu'un élément demeure incertain, cette incertitude est signalée.</p>
+apropos = tete("À propos", "Le Petit Monographe", "Une publication indépendante, sans affiliation partisane.") + "\n" + section("""      <div class="prose">
+        <p>Le Petit Monographe publie des dossiers et des monographies documentaires consacrés aux grands sujets politiques, économiques, sociaux et judiciaires contemporains.</p>
+        <p>Il n'est lié à aucun parti, mouvement, syndicat ou candidat, et ne soutient aucune candidature. Traiter un sujet politique n'est pas prendre parti : les mêmes règles s'appliquent quel que soit le camp concerné.</p>
+        <p>La méthode repose sur un principe simple : distinguer ce qui est établi de ce qui relève de l'interprétation, du débat ou de l'hypothèse. Chaque dossier s'appuie sur des sources identifiées et datées : données publiques, rapports officiels, décisions de justice, travaux parlementaires, archives, auditions et autres documents vérifiables. Lorsque les sources divergent ou qu'un élément demeure incertain, cette incertitude est signalée.</p>
         <p>Dans les affaires judiciaires, les faits établis, les accusations, les témoignages, les expertises et les hypothèses sont présentés séparément, dans le respect de la présomption d'innocence et de l'état réel des procédures.</p>
         <p>L'objectif n'est pas de dire au lecteur ce qu'il doit penser, mais de lui donner les éléments nécessaires pour comprendre, vérifier et se forger sa propre opinion.</p>
         <p class="signature">Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
       </div>""")
-page("a-propos.html", "À propos", "S. Enault, auteur de monographies documentaires sur les grands dossiers politiques, économiques, sociaux et criminels.", apropos)
+page("a-propos.html", "À propos", "Le Petit Monographe, publication indépendante de dossiers documentaires sur la politique, l'économie, la société et les affaires judiciaires.", apropos)
 
 # ---------- Contact ----------
 contact = tete("Contact", "Écrire au Petit Monographe",
@@ -316,7 +317,7 @@ macron = f'''  <section class="tete-page c-pouvoirs">
       <p class="surtitre">Collection Pouvoirs &amp; Société</p>
       <h1>Emmanuel Macron, le bilan</h1>
       <p class="chapeau">Promesses, réformes, crises et affaires : la présidence passée au crible des faits (2017-2026).</p>
-      <p style="margin:24px 0 0;font-size:.875rem;color:var(--encre-douce)">S. Enault · Première édition, octobre 2026 · Faits et données arrêtés au 6 octobre 2026</p>
+      <p style="margin:24px 0 0;font-size:.875rem;color:var(--encre-douce)">Première édition, octobre 2026 · Faits et données arrêtés au 6 octobre 2026</p>
       <p style="margin:20px 0 0"><a class="bouton" href="#" rel="noopener">{A("Lien Amazon")}</a></p>
     </div>
   </section>
@@ -342,4 +343,4 @@ macron = f'''  <section class="tete-page c-pouvoirs">
 {parties}
       </div>""")
 page("livre-emmanuel-macron-le-bilan.html", "Emmanuel Macron, le bilan",
-     "Emmanuel Macron, le bilan, de S. Enault. Promesses, réformes, crises et affaires : la présidence passée au crible des faits (2017-2026).", macron)
+     "Emmanuel Macron, le bilan. Promesses, réformes, crises et affaires : la présidence passée au crible des faits (2017-2026).", macron)
