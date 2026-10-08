@@ -1,0 +1,42 @@
+fichier: dossier-ia-ecole.html
+rubrique: economie
+titre: L'intelligence artificielle à l'école : ce que dit le cadre officiel et ce que montrent les études
+titre_court: L'IA à l'école
+chapeau: Les élèves utilisent déjà les outils d'intelligence artificielle générative. Le ministère de l'Éducation nationale a publié un cadre d'usage ; les premières études internationales montrent des effets qui dépendent de la manière de s'en servir.
+resume: Cadre d'usage du ministère, formation des élèves, résultats de l'OCDE et incertitudes. Données arrêtées au 8 octobre 2026.
+arret: 8 octobre 2026
+publication: 8 octobre 2026
+---
+## Essentiel
+- Le ministère de l'Éducation nationale a publié un cadre d'usage de l'IA en éducation, élaboré après une consultation menée de janvier à mai 2025 [1].
+- Ce cadre insiste sur la valeur pédagogique ajoutée, la protection des données, l'esprit critique et l'impact environnemental ; l'IA peut assister les personnels sans les remplacer [1].
+- Selon une analyse de l'OCDE fondée sur PISA, l'effet moyen de l'usage de l'IA sur les résultats est négatif, mais des gains apparaissent quand l'outil soutient l'effort de l'élève au lieu de le remplacer [3].
+- Le calendrier de la formation obligatoire des élèves à l'IA varie selon les sources et doit être vérifié.
+
+## Le cadre officiel
+
+[Fait établi] Le cadre d'usage de l'IA en éducation couvre les usages administratifs et pédagogiques. Il demande de vérifier la valeur pédagogique ajoutée des outils, de protéger les données saisies dans les outils grand public, de sensibiliser à l'impact environnemental et de développer l'esprit critique face aux contenus produits. Il affirme que l'IA peut assister l'expertise des personnels sans jamais la remplacer [1].
+
+[Fait établi] Le ministère a publié une feuille de route sur l'IA pour 2026-2027, organisée autour de l'aide aux enseignants, de la simplification administrative et d'un système d'information souverain, avec un principe de contrôle humain [2].
+
+[À noter] Les sources divergent sur la formation des élèves : une formation obligatoire pour les élèves de 4e et de 2de a été annoncée pour la rentrée 2025, une fiche de juillet 2026 évoque un parcours obligatoire à la rentrée 2026, et un article de presse de juin 2026 annonce une heure hebdomadaire en 2de à partir de 2027. Le dispositif en vigueur doit être vérifié sur le site du ministère.
+
+## Ce que montrent les études
+
+[Fait établi] Selon une analyse des données PISA rapportée par la presse spécialisée, l'effet moyen de l'usage de l'IA sur les résultats des élèves est négatif. Les élèves qui l'utilisent chaque semaine pour apprendre obtiennent toutefois de meilleurs résultats que les non-utilisateurs, avec un écart limité, et le gain est plus marqué chez ceux qui sont invités à évaluer la qualité des réponses [3].
+
+[Interprétation] Selon Andreas Schleicher, directeur de l'éducation à l'OCDE, la technologie aide lorsqu'elle soutient l'effort cognitif et nuit lorsqu'elle le court-circuite [3]. Des études citées par l'OCDE observent des élèves qui réussissent mieux avec l'outil mais moins bien sans lui [4].
+
+## Le débat
+
+[Débat] Pour les uns, l'IA peut personnaliser l'apprentissage et soulager les enseignants ; l'école doit former les élèves à un outil qu'ils utilisent déjà. Pour les autres, son usage généralisé menace l'apprentissage de l'écriture et du raisonnement, rend l'évaluation des devoirs à la maison difficile et pose des questions de protection des données. Les études disponibles, encore récentes, ne permettent pas de trancher de manière générale.
+
+## Ce qu'on ne sait pas
+- **L'effet à long terme** sur les compétences des élèves.
+- **La proportion d'élèves français qui utilisent l'IA** pour leurs devoirs : les chiffres qui circulent proviennent de sources secondaires non vérifiées.
+
+## Sources
+- Ministère de l'Éducation nationale, « Publication du cadre d'usage de l'intelligence artificielle en éducation ». | https://www.education.gouv.fr/publication-du-cadre-d-usage-de-l-intelligence-artificielle-en-education-462936
+- Ministère de l'Éducation nationale, feuille de route 2026-2027. | https://www.education.gouv.fr/sites/default/files/document/feuille-de-route-2026/feuille-de-route-2026-2027-du-minist-re-de-l-ducation-nationale-520408.pdf
+- Source secondaire : BriefIA, « PISA : l'IA à l'école, effet moyen négatif mais gains sous conditions ». | https://www.briefia.fr/article/pisa-l-ia-a-l-ecole-effet-moyen-negatif-mais-gains-sous-conditions
+- Source secondaire : HETIC, « Ce que révèle le rapport OCDE 2026 sur les formations d'avenir ». | https://www.hetic.net/actualites/ecole-ia-ce-que-revele-le-rapport-ocde-2026-sur-les-formations-davenir
