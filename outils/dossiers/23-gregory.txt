@@ -11,6 +11,7 @@ publication: 8 octobre 2026
 - Personne n'a été jugé pour la mort de Grégory Villemin ; l'enquête reste ouverte sous le contrôle de la chambre de l'instruction de la cour d'appel de Dijon [1][2].
 - Sa mère a bénéficié d'un non-lieu le 3 février 1993 [1].
 - Les mises en examen prononcées en 2017 contre trois membres de la famille ont été annulées en 2018 pour un vice de procédure [3].
+- Les erreurs des premiers mois de l'enquête sont largement reconnues, à commencer par une autopsie que le premier juge d'instruction a lui-même qualifiée de « complètement ratée » [5][6].
 - Le 15 juillet 2026, la chambre de l'instruction a déclaré prescrits les faits d'association de malfaiteurs reprochés à une grand-tante de l'enfant, mise en examen en octobre 2025 [2].
 
 ## État de la procédure
@@ -29,12 +30,33 @@ publication: 8 octobre 2026
 
 [Fait établi] Le 24 octobre 2025, une grand-tante de l'enfant est de nouveau mise en examen, pour association de malfaiteurs criminelle. Le 15 juillet 2026, la chambre de l'instruction rejette sa demande d'annulation mais déclare les faits prescrits [2]. Cette décision pouvait faire l'objet d'un pourvoi en cassation dans un délai de dix jours ; nous n'avons pas trouvé d'information sur un éventuel pourvoi.
 
+## Les premières erreurs de l'enquête
+
+Les défaillances des premiers mois de l'enquête sont reconnues par de nombreux acteurs du dossier, y compris par le premier juge d'instruction. Elles portent sur la préservation des preuves, l'autopsie, l'organisation de l'enquête et le respect des droits d'une personne entendue.
+
+[Témoignage] Selon un ancien gendarme ayant participé à l'enquête, les lieux de la découverte du corps n'ont pas été protégés : magistrat, enquêteurs et témoins y sont arrivés sans contrôle, et des éléments ont été perdus [5].
+
+[Témoignage] Selon un policier ayant travaillé sur le dossier, l'autopsie a duré environ deux heures ; certains prélèvements demandés par le juge n'ont pas été réalisés, notamment ceux des viscères, et l'eau contenue dans les poumons n'a pas été analysée [6]. En 2000, le premier juge d'instruction a lui-même qualifié l'autopsie de « complètement ratée » dans un entretien à la presse [6].
+
+[Fait établi] L'heure et les circonstances exactes de la mort de l'enfant n'ont jamais été établies par la justice [6].
+
+[Fait établi] L'instruction a été confiée en 1984 à un juge de 32 ans, alors seul juge d'instruction à Épinal [5]. Les gendarmes, qui avaient orienté leurs soupçons vers un premier suspect, ont ensuite été dessaisis de l'enquête au profit de la police [5].
+
+[Témoignage] D'anciens gendarmes reprochent au premier juge d'instruction des fautes de procédure et estiment qu'il a été influencé par les partisans d'une autre piste, aujourd'hui abandonnée [5].
+
+[Fait établi] Le 16 novembre 2018, saisi d'une question prioritaire de constitutionnalité, le Conseil constitutionnel a jugé contraires à la Constitution les règles qui avaient permis, en 1984, la garde à vue d'une adolescente de 15 ans sans l'assistance d'un avocat [7]. La portée de cette décision sur les déclarations recueillies à l'époque n'a pas été vérifiée ici.
+
+[Interprétation] Selon la presse, l'affaire a contribué à la création en 1987 d'un service technique d'investigation criminelle dans la gendarmerie, ancêtre de l'actuel Institut de recherche criminelle [6].
+
+[Débat] Pour de nombreux enquêteurs et commentateurs, ces erreurs initiales ont compromis de façon irréversible la collecte des preuves et expliquent en grande partie que l'affaire n'ait jamais été résolue. D'autres facteurs sont aussi mis en avant : la rivalité entre gendarmerie et police, la médiatisation intense et le contexte familial. Les sources consultées ne permettent pas de mesurer le poids respectif de chacun.
+
 ## Pour aller plus loin
 
 [Livre] « Grégory : pourquoi l'affaire n'a jamais été résolue » revient sur les premières 48 heures de l'enquête. Volume 4 de la collection « Affaires qui ont choqué la France ». <a href="https://amzn.eu/d/08C94l0A" target="_blank" rel="noopener">Voir le livre sur Amazon</a> · <a href="livres.html">Toutes les monographies</a>
 
 ## Ce qu'on ne sait pas
 - **Qui a tué Grégory Villemin.** Aucune décision de justice ne l'a établi.
+- **La portée de la décision de 2018** sur les déclarations recueillies en garde à vue en 1984.
 - **Les résultats des expertises récentes**, notamment génétiques et d'analyse d'écriture, dont l'état n'a pas pu être vérifié.
 - **L'issue de l'information judiciaire**, qui peut se conclure par un renvoi devant une juridiction ou par un non-lieu.
 
@@ -43,3 +65,6 @@ publication: 8 octobre 2026
 - France 3 Bourgogne-Franche-Comté, « Affaire Grégory : la justice déclare prescrits les faits reprochés à la grand-tante », juillet 2026 ; franceinfo. | https://france3-regions.franceinfo.fr/bourgogne-franche-comte/cote-d-or/dijon/affaire-gregory-la-justice-declare-prescrits-les-faits-reproches-a-la-grand-tante-jacqueline-jacob-3386644.html
 - franceinfo, « Affaire Grégory : pourquoi les mises en examen ont été annulées », mai 2018. | https://www.franceinfo.fr/faits-divers/affaire-du-petit-gregory/affaire-gregory-pourquoi-les-mises-en-examen-de-murielle-bolle-et-des-epoux-jacob-ont-ete-annulees_2755023.html
 - INA, « Mort du petit Grégory : rappel en archives d'une affaire où tout le monde est suspect ». | https://www.ina.fr/ina-eclaire-actu/l-affaire-gregory-un-mystere-insondable
+- Source secondaire : L'Essor de la gendarmerie, « Mauvaises méthodes, procédure douteuse : comment l'affaire Grégory a déraillé ». | https://lessor.org/societe/mauvaises-methodes-procedure-douteuse--comment-laffaire-gregory-a-deraille/
+- Source secondaire : Le JDD, « Affaire Grégory : 5 erreurs qui ont freiné l'enquête » ; Planet.fr, sur l'autopsie. | https://www.lejdd.fr/societe/affaire-gregory-5-erreurs-qui-ont-freine-lenquete-124050
+- Conseil constitutionnel, décision QPC du 16 novembre 2018 sur la garde à vue des mineurs en 1984, d'après la chronique de QPC d'Actu-Juridique. Texte à consulter sur le site du Conseil constitutionnel. | https://www.actu-juridique.fr/constitutionnel/chronique-de-qpc-juillet-decembre-20181re-partie/
