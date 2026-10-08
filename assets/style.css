@@ -365,3 +365,9 @@ h1, h2, h3, h4 { text-wrap: balance; }
   html { scroll-behavior: auto; }
   .haut-de-page, .porte h3, .bouton { transition: none; }
 }
+
+/* Illustration d'un dossier */
+.illustration { margin: 0; padding: 48px 0 0; }
+.illustration img { display: block; width: 100%; max-height: 560px; aspect-ratio: 16 / 9; object-fit: cover; }
+.illustration figcaption { font: 400 .75rem/1.5 var(--sans); color: var(--encre-pale); margin-top: 10px; text-align: right; }
+.illustration figcaption a { color: var(--encre-pale); }

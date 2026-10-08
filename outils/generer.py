@@ -611,6 +611,23 @@ def lire_dossier(chemin):
     # les sections normales peuvent suivre « Ce qu'on ne sait pas » : on les garde dans l'ordre
     return meta, texte, speciales
 
+def figure_dossier(meta):
+    """Image d'illustration d'un dossier, avec son crédit obligatoire.
+    En-tête du fichier : image, image_alt, image_credit (auteur, licence, source), image_lien (page de la licence)."""
+    if not meta.get("image"):
+        return ""
+    credit = _inline(meta.get("image_credit", ""))
+    lien = meta.get("image_lien", "")
+    if lien:
+        credit = f'<a href="{lien}" target="_blank" rel="noopener">{credit}</a>'
+    return f'''
+  <figure class="illustration">
+    <div class="conteneur">
+      <img src="{meta["image"]}" alt="{_html.escape(meta.get("image_alt", ""))}" loading="eager">
+      <figcaption>Photo : {credit}</figcaption>
+    </div>
+  </figure>'''
+
 def rendre_dossier(chemin):
     meta, texte, sp = lire_dossier(chemin)
     c = RUB_CLASSES[meta["rubrique"]]
@@ -632,7 +649,7 @@ def rendre_dossier(chemin):
       <p class="chapeau">{_inline(meta["chapeau"])}</p>
       <p class="meta-dossier">Données arrêtées au {meta["arret"]} · Première publication le {meta["publication"]}</p>
     </div>
-  </section>
+  </section>{figure_dossier(meta)}
 
   <article class="section dossier">
     <div class="conteneur">

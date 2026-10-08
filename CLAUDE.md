@@ -28,3 +28,11 @@ Toute rédaction ou modification de contenu sur ce site applique ces règles san
 - Le site ne mentionne pas le nom de l'auteur.
 - Pas de tiret cadratin dans les textes.
 - Les pages sont générées par `outils/generer.py` (`python3 outils/generer.py .`).
+
+## Images
+
+- Chaque dossier reçoit une image d'illustration (champs `image`, `image_alt`, `image_credit`, `image_lien` en tête du fichier du dossier, image enregistrée dans `assets/images/`).
+- Licences acceptées uniquement : domaine public ou CC0, licence Unsplash, licence Pexels, CC BY et CC BY-SA. La licence est vérifiée sur la page de la photo elle-même avant tout usage. Pas de licence « NC » (non commerciale), pas de « ND », pas d'image trouvée sans licence explicite.
+- Crédit systématique, même quand il n'est pas obligatoire : « Photo : auteur, licence, source », avec un lien vers la page de la photo.
+- Aucune photo de victime, d'enfant, de personne mise en cause ou de particulier. Les dossiers judiciaires sont illustrés par des lieux, des bâtiments ou des objets, sans identifier de personne. Pas d'image racoleuse ni de mise en scène sanglante.
+- Pas d'image générée par IA présentée comme une photo.
