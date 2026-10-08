@@ -697,8 +697,8 @@ for h, c, t, d in RUBRIQUES:
     page(h, t.replace("&amp;", "&"), f"{t.replace('&amp;', '&')} : {d}", corps)
 
 # ---------- Sélection de dossiers sur la page d'accueil ----------
-A_LA_UNE = ["dossier-dette-publique.html", "dossier-chomage-emploi.html", "dossier-assemblee-sans-majorite.html",
-            "dossier-verifier-programmes.html", "dossier-outreau.html"]
+A_LA_UNE = ["dossier-budget-2027.html", "dossier-usage-force-police.html", "dossier-gregory.html",
+            "dossier-immigration-finances-publiques.html", "dossier-financement-campagnes.html"]
 _tous = {h: (c, t, d) for c, lst in DOSSIERS.items() for h, t, d in lst}
 _cartes = "\n".join(f'''        <a class="porte {_tous[h][0]}" href="{h}">
           <p class="surtitre">Dossier</p>

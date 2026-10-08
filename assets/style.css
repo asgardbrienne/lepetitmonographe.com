@@ -379,3 +379,12 @@ h1, h2, h3, h4 { text-wrap: balance; }
 .porte:has(.porte-image) { border-top: 0; padding-top: 0; }
 #a-la-une .porte:first-child:has(.porte-image) { border-top: 0; padding-top: 0; }
 @media (prefers-reduced-motion: reduce) { .porte-image img { transition: none; } }
+
+/* Ouverture resserrée : la une doit apparaître dès l'arrivée */
+.embleme { padding: 40px 0 36px; }
+.embleme-monogramme img { width: clamp(56px, 8vw, 76px); }
+.embleme-nom { font-size: clamp(1.8rem, 4.6vw, 3.4rem); margin: 14px 0 8px; }
+.embleme-domaines { margin-top: 18px; padding-top: 16px; }
+.embleme .chapeau { margin-top: 18px; font-size: 1.0625rem; }
+.embleme .engagements { display: none; }
+#a-la-une { padding-top: 48px; }
