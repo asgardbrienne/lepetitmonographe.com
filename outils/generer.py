@@ -131,9 +131,9 @@ LIVRES = {
     "c-economie": [("Comment redresser les comptes de la France",
                     "Dette, déficit, retraites, dépenses publiques : 17 mesures chiffrées pour agir d'ici 2036. Faits, débats, calculs et propositions séparés.",
                     AMAZON_COMPTES, "assets/couverture-comptes.png")],
-    "c-affaires": [("L'affaire Grégory " + A("titre exact à confirmer"),
-                    "Une monographie consacrée à l'affaire Grégory. " + A("Résumé à fournir"),
-                    AMAZON_GREGORY, None)],
+    "c-affaires": [("Grégory : pourquoi l'affaire n'a jamais été résolue",
+                    "Les erreurs des premières 48 heures qui ont tout fait échouer. Volume 4 de la collection « Affaires qui ont choqué la France », environ 60 minutes de lecture.",
+                    AMAZON_GREGORY, "assets/couverture-gregory.jpg")],
 }
 COLLECTION = {"c-pouvoirs": "Pouvoirs &amp; Société", "c-economie": "Pouvoirs &amp; Société", "c-affaires": "Affaires &amp; Enquêtes"}
 
