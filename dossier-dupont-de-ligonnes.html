@@ -18,50 +18,66 @@
 </head>
 <body>
 
+<a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur">
     <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="36" height="36"><span>Le Petit Monographe</span></a>
-    <nav class="nav" aria-label="Navigation principale">
+    <div class="entete-actions">
+      <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Rechercher</span>
+      </a>
+      <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
+      </button>
+    </div>
+    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+      <a href="dossiers.html">Dossiers</a>
       <a href="politique-institutions.html">Politique</a>
       <a href="economie-societe.html">Économie &amp; Société</a>
       <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
       <a href="livres.html">Livres</a>
-      <a href="methode.html">Notre méthode</a>
-      <a href="a-propos.html">À propos</a>
+      <a href="methode.html">Méthode</a>
     </nav>
   </div>
 </header>
 
-<main>
+<main id="contenu">
   <section class="tete-page c-affaires">
     <div class="conteneur">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
       <p class="surtitre">Affaires &amp; Enquêtes · Dossier</p>
       <h1>Affaire Dupont de Ligonnès : ce qui est établi quinze ans après</h1>
       <p class="chapeau">En avril 2011, les corps d'une mère et de ses quatre enfants sont découverts sous la terrasse de leur maison à Nantes. Le père, recherché, n'a jamais été retrouvé. La plupart des « pistes » publiées depuis relèvent de l'hypothèse.</p>
-      <p class="meta-dossier">Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
+      <p class="meta-dossier">Lecture : 3 min · Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
     </div>
   </section>
 
   <article class="section dossier">
     <div class="conteneur">
-      <div class="prose">
+      <div class="dossier-grille">
+        <aside class="dossier-cote"><details class="sommaire" open>
+          <summary>Sommaire</summary>
+          <ol><li><a href="#etat-de-la-procedure">État de la procédure</a></li><li><a href="#les-faits-etablis">Les faits établis</a></li><li><a href="#les-pistes-et-les-signalements">Les pistes et les signalements</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </details></aside>
+        <div class="prose">
         <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d'origine avant mise en ligne.</p>
         <aside class="essentiel">
           <p class="surtitre">L'essentiel</p>
           <ul><li>Le 21 avril 2011, les corps d'Agnès Dupont de Ligonnès et de ses quatre enfants sont découverts sous la terrasse de leur maison de Nantes <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Xavier Dupont de Ligonnès, le père, est recherché depuis mai 2011 ; il n'a jamais été retrouvé ni jugé, et reste présumé innocent <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Selon le parquet de Nantes, plus de 1 850 signalements ont été reçus ; aucun n'a permis d'établir une nouvelle trace certaine <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Une information judiciaire reste ouverte <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li></ul>
         </aside>
-        <h2>État de la procédure</h2>
+        <h2 id="etat-de-la-procedure">État de la procédure</h2>
         <aside class="encadre"><span class="etiquette">État de la procédure</span>
           <p>Une information judiciaire est ouverte à Nantes et un juge d'instruction reste saisi <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>. Faute d'avoir été retrouvé, le suspect n'a pas été jugé. La nature exacte des mandats de recherche en vigueur n'a pas pu être vérifiée dans des sources judiciaires ; en mai 2011, il était officiellement recherché et faisait l'objet d'une notice d'Interpol <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
-        <h2>Les faits établis</h2>
+        <h2 id="les-faits-etablis">Les faits établis</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le 21 avril 2011, la police découvre sous la terrasse de la maison familiale, à Nantes, les corps de la mère et des quatre enfants du couple <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le père a disparu. Il fait l'objet de recherches depuis mai 2011 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
-        <h2>Les pistes et les signalements</h2>
+        <h2 id="les-pistes-et-les-signalements">Les pistes et les signalements</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le parquet de Nantes indiquait en juin 2026 avoir reçu plus de 1 850 signalements, sans qu'aucun ne permette d'établir une trace certaine <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
         </aside>
@@ -74,28 +90,57 @@
         <aside class="encadre"><span class="etiquette">À noter</span>
           <p>Depuis 2011, de nombreuses pistes présentées comme sérieuses se sont révélées fausses <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>. Une « piste » relayée par les médias ou les réseaux sociaux n'est pas un fait établi.</p>
         </aside>
-        <h2>Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>Où se trouve le suspect, et s'il est vivant.</strong></li><li><strong>Le déroulement exact des faits</strong>, qui n'a jamais été établi par un procès.</li></ul>
-        <h2>Sources</h2>
+        <h2 id="sources">Sources</h2>
         <ol class="sources">
           <li id="source-1">Source secondaire : Wikipédia, « Affaire Dupont de Ligonnès » ; franceinfo, dossier « Xavier Dupont de Ligonnès ». <a href="https://fr.wikipedia.org/wiki/Affaire_Dupont_de_Ligonn%C3%A8s" rel="noopener">fr.wikipedia.org/wiki/Affaire_Dupont_de_Ligonn%C3%A8s</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Source secondaire : Actu Forces de l'ordre, « Xavier Dupont de Ligonnès reste introuvable depuis 15 ans : où en est l'enquête en 2026 », 17 août 2026, citant le parquet de Nantes. <a href="https://actuforcesdelordre.fr/2026/08/17/xavier-dupont-de-ligonnes-reste-introuvable-depuis-15-ans-ou-en-est-reellement-lenquete-en-2026-et-quelles-pistes-sont-encore-etudiees/" rel="noopener">actuforcesdelordre.fr/2026/08/17/xavier-dupont-de-ligonnes-reste-introuvable-depuis-15-ans-ou-en-est-reellement-lenquete-en-2026-et-quelles-pistes-sont-encore-etudiees/</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-3">ICI, « Affaire Xavier Dupont de Ligonnès : quinze ans de fausses pistes et de rumeurs ». <a href="https://www.ici.fr/pays-de-la-loire/loire-atlantique-44/nantes/carte-affaire-xavier-dupont-de-ligonnes-quinze-ans-de-fausses-pistes-et-de-rumeurs-3110374" rel="noopener">www.ici.fr/pays-de-la-loire/loire-atlantique-44/nantes/carte-affaire-xavier-dupont-de-ligonnes-quinze-ans-de-fausses-pistes-et-de-rumeurs-3110374</a> <a href="#appel-3" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2>Historique</h2>
+        <h2 id="historique">Historique</h2>
         <ul class="historique"><li>8 octobre 2026 : première publication.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
       </div>
+      </div>
     </div>
   </article>
+  <section class="section a-lire-aussi">
+    <div class="conteneur">
+      <h2>À lire aussi</h2>
+      <div class="portes"><a class="porte c-affaires" href="dossier-outreau.html"><p class="surtitre">Dossier</p><h3>Outreau : comment une erreur judiciaire collective s'est produite</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-troadec.html"><p class="surtitre">Dossier</p><h3>Affaire Troadec : ce que le procès a tranché</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-flactif.html"><p class="surtitre">Dossier</p><h3>Affaire Flactif : ce que la justice a établi</h3><span class="suite">Lire le dossier</span></a></div>
+      <p class="retour-rubrique"><a href="affaires-enquetes.html">Tous les dossiers de la rubrique Affaires &amp; Enquêtes</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+    </div>
+  </section>
 </main>
 
 <footer class="pied">
-  <div class="conteneur">
-    <span>© 2026 Le Petit Monographe</span>
-    <span><a href="contact.html">Contact</a> · <a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></span>
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Le Petit Monographe</p>
+      <p>Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
+    </div>
+    <nav aria-label="Rubriques">
+      <p class="pied-titre">Rubriques</p>
+      <a href="dossiers.html">Tous les dossiers</a>
+      <a href="politique-institutions.html">Politique &amp; Institutions</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+    </nav>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <a href="methode.html">Notre méthode</a>
+      <a href="methode.html#errata">Errata</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
   </div>
+  <div class="conteneur pied-bas">© 2026 Le Petit Monographe</div>
 </footer>
-
+<a class="haut-de-page" href="#contenu" aria-label="Revenir en haut de la page">↑</a>
+<script src="assets/site.js" defer></script>
 </body>
 </html>

@@ -222,7 +222,6 @@ a:hover { color: var(--marque); }
 
 /* Pied de page */
 .pied { padding: 40px 0 56px; font-size: .875rem; color: var(--encre-douce); }
-.pied .conteneur { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; }
 
 /* Page texte */
 .page-texte { padding: 64px 0 80px; }
@@ -400,3 +399,110 @@ a:hover { color: var(--marque); }
 .sources .retour { text-decoration: none; margin-left: 4px; }
 .historique { font-size: .875rem; color: var(--encre-douce); }
 .lien-correction { font-size: .875rem; color: var(--encre-douce); border-top: 1px solid var(--filet); padding-top: 16px; margin-top: 32px; }
+
+/* ---------- Navigation ---------- */
+.evitement { position: absolute; left: -9999px; top: 0; background: var(--nuit); color: #fff; padding: 10px 14px; z-index: 50; }
+.evitement:focus { left: 16px; top: 8px; }
+.entete .conteneur { flex-wrap: wrap; }
+.entete-actions { display: flex; align-items: center; gap: 8px; margin-left: auto; order: 2; }
+.nav { order: 3; }
+.bouton-recherche, .bouton-menu {
+  display: inline-flex; align-items: center; gap: 8px;
+  font: 600 .8125rem/1 var(--sans); color: var(--encre);
+  background: transparent; border: 1px solid var(--filet);
+  padding: 9px 12px; cursor: pointer; text-decoration: none;
+}
+.bouton-recherche:hover, .bouton-menu:hover { border-color: var(--encre); color: var(--encre); }
+.bouton-menu { display: none; }
+.bouton-menu-barres, .bouton-menu-barres::before, .bouton-menu-barres::after {
+  display: block; width: 16px; height: 2px; background: currentColor; position: relative; content: "";
+}
+.bouton-menu-barres::before { position: absolute; top: -5px; }
+.bouton-menu-barres::after { position: absolute; top: 5px; }
+
+@media (min-width: 1100px) {
+  .entete .conteneur { flex-wrap: nowrap; }
+  .nav { order: 2; margin-left: auto; }
+  .entete-actions { order: 3; margin-left: 20px; }
+}
+@media (max-width: 1099px) {
+  .entete .conteneur { flex-direction: row; align-items: center; padding-top: 0; gap: 12px; min-height: 60px; }
+  .js .bouton-menu { display: inline-flex; }
+  .bouton-recherche span { display: none; }
+  .nav { width: 100%; flex-wrap: wrap; overflow: visible; white-space: normal; padding: 0 0 12px; gap: 6px 18px; }
+  .js .nav { display: none; flex-direction: column; gap: 0; padding: 4px 0 14px; }
+  .js .nav.ouvert { display: flex; }
+  .js .nav a { padding: 12px 0; border-top: 1px solid var(--filet); font-size: 1rem; color: var(--encre); }
+}
+@media (max-width: 380px) { .logo span { font-size: .8rem; } }
+
+/* Fil d'Ariane */
+.ariane { font-size: .8125rem; color: var(--encre-douce); margin: 0 0 18px; display: flex; flex-wrap: wrap; gap: 6px; }
+.ariane a { color: var(--encre-douce); }
+
+/* Dossier : texte + sommaire */
+.dossier-grille { display: grid; gap: 32px; }
+.dossier-grille > * { min-width: 0; }
+@media (min-width: 1000px) {
+  .dossier-grille { grid-template-columns: minmax(0, 1fr) 250px; gap: 56px; }
+  .dossier-cote { order: 2; }
+  .sommaire { position: sticky; top: 84px; }
+}
+.sommaire { border: 1px solid var(--filet); background: var(--papier-2); padding: 14px 18px; font-size: .875rem; }
+.sommaire summary { font: 600 .75rem/1.2 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--marque-texte); cursor: pointer; }
+.sommaire ol { margin: 12px 0 0; padding-left: 1.2em; display: grid; gap: 8px; }
+.sommaire a { text-decoration: none; color: var(--encre-douce); }
+.sommaire a:hover { color: var(--encre); text-decoration: underline; }
+.prose h2[id] { scroll-margin-top: 84px; }
+.a-lire-aussi .portes { margin-top: 20px; }
+.retour-rubrique { margin: 28px 0 0; font-size: .9375rem; }
+
+/* Tous les dossiers : recherche et filtres */
+.barre-recherche { display: grid; gap: 14px; margin-bottom: 32px; }
+.barre-recherche input {
+  font: 400 1.0625rem/1.4 var(--sans); padding: 14px 16px; width: 100%;
+  border: 1px solid var(--encre-douce); background: #fff; color: var(--encre);
+}
+.barre-recherche input:focus { outline: 2px solid var(--marque); outline-offset: 1px; }
+.filtres { display: flex; flex-wrap: wrap; gap: 8px; }
+.filtre { font: 500 .8125rem/1 var(--sans); padding: 9px 14px; border: 1px solid var(--filet); background: var(--papier); color: var(--encre); cursor: pointer; border-radius: 999px; }
+.filtre[aria-pressed="true"] { background: var(--nuit); color: #fff; border-color: var(--nuit); }
+.compteur { margin: 0; font-size: .875rem; color: var(--encre-douce); }
+.porte[hidden] { display: none; }
+
+/* Pied de page */
+.pied { border-top: 1px solid var(--filet); padding: 48px 0 32px; }
+.pied-grille { display: grid; gap: 32px; }
+@media (min-width: 760px) { .pied-grille { grid-template-columns: 2fr 1fr 1fr; } }
+.pied-grille nav { display: grid; gap: 8px; align-content: start; }
+.pied-grille a { text-decoration: none; color: var(--encre-douce); }
+.pied-grille a:hover { color: var(--encre); text-decoration: underline; }
+.pied-marque { font: 600 1rem/1.2 var(--display); text-transform: uppercase; letter-spacing: .08em; color: var(--encre); margin: 0 0 8px; }
+.pied-titre { font: 600 .75rem/1.2 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--marque-texte); margin: 0 0 4px; }
+.pied-bas { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--filet); font-size: .8125rem; display: block !important; }
+
+/* Retour en haut */
+.haut-de-page {
+  position: fixed; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  width: 44px; height: 44px; display: grid; place-items: center;
+  background: var(--nuit); color: #fff; text-decoration: none; font-size: 1.1rem;
+  opacity: 0; pointer-events: none; transition: opacity .2s; z-index: 20;
+}
+.haut-de-page.visible { opacity: 1; pointer-events: auto; }
+.haut-de-page:hover { color: #fff; }
+@media (prefers-reduced-motion: reduce) { .haut-de-page { transition: none; } }
+
+/* Ajustements de l'en-tête */
+.nav a { white-space: nowrap; }
+@media (min-width: 1100px) { .nav { gap: 22px; } }
+@media (max-width: 1099px) {
+  .entete .conteneur { flex-wrap: wrap; }
+  .logo { flex: 1 1 auto; min-width: 0; }
+  .logo span { font-size: .8rem; letter-spacing: .06em; }
+  .entete-actions { margin-left: 0; flex: 0 0 auto; }
+}
+@media (max-width: 420px) {
+  .logo img { width: 30px; height: 30px; }
+  .logo span { font-size: .72rem; }
+  .bouton-recherche, .bouton-menu { padding: 8px 10px; }
+}

@@ -18,46 +18,62 @@
 </head>
 <body>
 
+<a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur">
     <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="36" height="36"><span>Le Petit Monographe</span></a>
-    <nav class="nav" aria-label="Navigation principale">
+    <div class="entete-actions">
+      <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Rechercher</span>
+      </a>
+      <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
+      </button>
+    </div>
+    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+      <a href="dossiers.html">Dossiers</a>
       <a href="politique-institutions.html">Politique</a>
       <a href="economie-societe.html">Économie &amp; Société</a>
       <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
       <a href="livres.html">Livres</a>
-      <a href="methode.html">Notre méthode</a>
-      <a href="a-propos.html">À propos</a>
+      <a href="methode.html">Méthode</a>
     </nav>
   </div>
 </header>
 
-<main>
+<main id="contenu">
   <section class="tete-page c-economie">
     <div class="conteneur">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="economie-societe.html">Économie &amp; Société</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
       <p class="surtitre">Économie &amp; Société · Dossier</p>
       <h1>Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</h1>
       <p class="chapeau">Le gouvernement vise un déficit public de 5,0 % du PIB en 2027. Le montant de l'effort annoncé, sa répartition et le réalisme des prévisions font débat.</p>
-      <p class="meta-dossier">Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
+      <p class="meta-dossier">Lecture : 4 min · Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
     </div>
   </section>
 
   <article class="section dossier">
     <div class="conteneur">
-      <div class="prose">
+      <div class="dossier-grille">
+        <aside class="dossier-cote"><details class="sommaire" open>
+          <summary>Sommaire</summary>
+          <ol><li><a href="#l-objectif">L'objectif</a></li><li><a href="#l-effort-annonce-et-sa-mesure">L'effort annoncé et sa mesure</a></li><li><a href="#les-previsions">Les prévisions</a></li><li><a href="#les-collectivites-locales">Les collectivités locales</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </details></aside>
+        <div class="prose">
         <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d'origine avant mise en ligne.</p>
         <aside class="essentiel">
           <p class="surtitre">L'essentiel</p>
           <ul><li>Le projet de loi de finances pour 2027, déposé le 1er octobre 2026, vise un déficit public de 5,0 % du PIB <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Le gouvernement présente un effort de redressement de 54 milliards d'euros, dont 43 milliards de mesures nouvelles <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</li><li>Le Haut Conseil des finances publiques juge la prévision de croissance du gouvernement supérieure au consensus des prévisionnistes <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Le montant de l'effort dépend de la méthode de calcul : le chiffre de 54 milliards est mesuré par rapport à un scénario sans mesures, pas par rapport aux dépenses de 2026.</li></ul>
         </aside>
-        <h2>L'objectif</h2>
+        <h2 id="l-objectif">L'objectif</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le projet de loi de finances pour 2027 a été présenté le 1er octobre 2026. Il vise un déficit public de 5,0 % du PIB en 2027 et une dette publique de 121,7 % du PIB <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le Haut Conseil des finances publiques (HCFP), organisme indépendant placé auprès de la Cour des comptes et créé par la loi organique du 17 décembre 2012, rend un avis sur le réalisme des prévisions macroéconomiques des lois de finances. Il a été saisi le 18 septembre 2026 et a rendu son avis le 1er octobre 2026 <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
         </aside>
-        <h2>L'effort annoncé et sa mesure</h2>
+        <h2 id="l-effort-annonce-et-sa-mesure">L'effort annoncé et sa mesure</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Selon le gouvernement, l'effort de redressement atteint 54 milliards d'euros, dont 43 milliards proviennent de mesures nouvelles. D'après la présentation reprise par la presse, 9 milliards portent sur l'État, 12 milliards sur la sphère sociale et 5,5 milliards sur les collectivités locales ; le reste repose sur les recettes <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>. Parmi les mesures sociales figurent 3 milliards d'économies sur les médicaments et 2 milliards sur les arrêts maladie <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</p>
         </aside>
@@ -70,7 +86,7 @@
         <aside class="encadre"><span class="etiquette">Débat</span>
           <p>Le chiffre de l'effort est contesté dans les deux sens. Des think tanks libéraux, comme l'IREF, estiment que l'effort repose surtout sur des hausses de prélèvements et que les économies réelles sont plus faibles qu'annoncé. D'autres critiques, notamment du côté des collectivités et des syndicats, jugent au contraire les économies demandées trop lourdes pour les services publics. Ces appréciations dépendent de la méthode retenue et des choix politiques de chacun.</p>
         </aside>
-        <h2>Les prévisions</h2>
+        <h2 id="les-previsions">Les prévisions</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le HCFP estime que le scénario du gouvernement suppose un enchaînement favorable : le resserrement budgétaire serait compensé par un rebond de la demande intérieure, et la reprise de l'investissement privé attendue est jugée volontariste <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
         </aside>
@@ -83,33 +99,62 @@
         <aside class="encadre"><span class="etiquette">À noter</span>
           <p>Le précédent budget visait un déficit de 5,0 % pour 2026. Selon des reprises de presse, il serait plutôt de 5,4 %. Ce chiffre n'est pas encore définitif : le déficit 2026 sera publié par l'Insee au printemps 2027.</p>
         </aside>
-        <h2>Les collectivités locales</h2>
+        <h2 id="les-collectivites-locales">Les collectivités locales</h2>
         <aside class="encadre"><span class="etiquette">Estimation</span>
           <p>L'effort direct demandé aux collectivités locales est de 5,5 milliards d'euros. Selon une fédération d'élus, il atteindrait 7 milliards en incluant la hausse des cotisations de retraite des agents (CNRACL) <sup class="appel"><a href="#source-4" id="appel-4">4</a></sup>. La différence tient au périmètre retenu.</p>
         </aside>
-        <h2>Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>Le budget qui sera voté.</strong> Le texte va être examiné et modifié par le Parlement ; sa forme finale et les conditions de son adoption ne sont pas connues.</li><li><strong>La croissance de 2027.</strong> Elle conditionne l'essentiel des recettes et donc le déficit réel.</li><li><strong>L'effet des mesures.</strong> Certaines économies, comme celles sur les arrêts maladie, dépendent de comportements difficiles à prévoir.</li></ul>
-        <h2>Sources</h2>
+        <h2 id="sources">Sources</h2>
         <ol class="sources">
           <li id="source-1">Projet de loi de finances pour 2027, Assemblée nationale, déposé le 1er octobre 2026. <a href="https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf" rel="noopener">www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Haut Conseil des finances publiques, avis n° 2026-5, 1er octobre 2026 ; reprises dans Public Sénat. <a href="https://www.hcfp.fr/liste-avis/avis-ndeg2026-5-lois-de-finances-2027" rel="noopener">www.hcfp.fr/liste-avis/avis-ndeg2026-5-lois-de-finances-2027</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-3">Source secondaire : Touteleurope.eu, « Budget 2027 : ce qu'il faut retenir des mesures annoncées », octobre 2026 ; IREF Europe, analyse du PLF 2027. <a href="https://www.touteleurope.eu/economie-et-social/budget-2027-ce-qu-il-faut-retenir-des-mesures-annoncees-par-le-gouvernement-lecornu/" rel="noopener">www.touteleurope.eu/economie-et-social/budget-2027-ce-qu-il-faut-retenir-des-mesures-annoncees-par-le-gouvernement-lecornu/</a> <a href="#appel-3" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-4">Source secondaire : FMPC, « PLF 2027 : 7 milliards d'effort pour les collectivités locales ». <a href="https://www.fmpc.fr/blog/plf-2027-un-choc-financier-de-7-milliards-pour-les-collectivites" rel="noopener">www.fmpc.fr/blog/plf-2027-un-choc-financier-de-7-milliards-pour-les-collectivites</a> <a href="#appel-4" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2>Historique</h2>
+        <h2 id="historique">Historique</h2>
         <ul class="historique"><li>8 octobre 2026 : première publication.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
       </div>
+      </div>
     </div>
   </article>
+  <section class="section a-lire-aussi">
+    <div class="conteneur">
+      <h2>À lire aussi</h2>
+      <div class="portes"><a class="porte c-economie" href="dossier-chomage-emploi.html"><p class="surtitre">Dossier</p><h3>Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-dette-publique.html"><p class="surtitre">Dossier</p><h3>La dette publique française : niveau, coût et risques</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-niches-fiscales.html"><p class="surtitre">Dossier</p><h3>Les niches fiscales : combien elles coûtent et ce que l'on sait de leur efficacité</h3><span class="suite">Lire le dossier</span></a></div>
+      <p class="retour-rubrique"><a href="economie-societe.html">Tous les dossiers de la rubrique Économie &amp; Société</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+    </div>
+  </section>
 </main>
 
 <footer class="pied">
-  <div class="conteneur">
-    <span>© 2026 Le Petit Monographe</span>
-    <span><a href="contact.html">Contact</a> · <a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></span>
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Le Petit Monographe</p>
+      <p>Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
+    </div>
+    <nav aria-label="Rubriques">
+      <p class="pied-titre">Rubriques</p>
+      <a href="dossiers.html">Tous les dossiers</a>
+      <a href="politique-institutions.html">Politique &amp; Institutions</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+    </nav>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <a href="methode.html">Notre méthode</a>
+      <a href="methode.html#errata">Errata</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
   </div>
+  <div class="conteneur pied-bas">© 2026 Le Petit Monographe</div>
 </footer>
-
+<a class="haut-de-page" href="#contenu" aria-label="Revenir en haut de la page">↑</a>
+<script src="assets/site.js" defer></script>
 </body>
 </html>

@@ -18,39 +18,55 @@
 </head>
 <body>
 
+<a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur">
     <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="36" height="36"><span>Le Petit Monographe</span></a>
-    <nav class="nav" aria-label="Navigation principale">
+    <div class="entete-actions">
+      <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Rechercher</span>
+      </a>
+      <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
+      </button>
+    </div>
+    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+      <a href="dossiers.html">Dossiers</a>
       <a href="politique-institutions.html">Politique</a>
       <a href="economie-societe.html">Économie &amp; Société</a>
       <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
       <a href="livres.html">Livres</a>
-      <a href="methode.html">Notre méthode</a>
-      <a href="a-propos.html">À propos</a>
+      <a href="methode.html">Méthode</a>
     </nav>
   </div>
 </header>
 
-<main>
+<main id="contenu">
   <section class="tete-page c-affaires">
     <div class="conteneur">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
       <p class="surtitre">Affaires &amp; Enquêtes · Dossier</p>
       <h1>Usage de la force par la police : ce que disent les chiffres de l'IGPN</h1>
       <p class="chapeau">L'Inspection générale de la police nationale publie chaque année le nombre d'enquêtes judiciaires qu'elle mène. Ces chiffres mesurent l'activité de l'inspection, pas le nombre de violences commises.</p>
-      <p class="meta-dossier">Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
+      <p class="meta-dossier">Lecture : 3 min · Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
     </div>
   </section>
 
   <article class="section dossier">
     <div class="conteneur">
-      <div class="prose">
+      <div class="dossier-grille">
+        <aside class="dossier-cote"><details class="sommaire" open>
+          <summary>Sommaire</summary>
+          <ol><li><a href="#ce-que-publie-l-igpn">Ce que publie l'IGPN</a></li><li><a href="#ce-que-ces-chiffres-ne-disent-pas">Ce que ces chiffres ne disent pas</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </details></aside>
+        <div class="prose">
         <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d'origine avant mise en ligne.</p>
         <aside class="essentiel">
           <p class="surtitre">L'essentiel</p>
           <ul><li>En 2025, l'IGPN a mené 1 007 enquêtes judiciaires, dont 322 portant sur l'usage de la force, contre 428 en 2024 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Douze personnes sont mortes à la suite de tirs policiers en 2025, contre seize en 2024 ; les blessures graves par arme à feu sont passées de 72 à 86 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Les enquêtes pour atteintes à la probité, dont la corruption, ont fortement augmenté <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Ces chiffres ne couvrent pas la gendarmerie et ne comptent que les faits ayant donné lieu à une enquête de l'IGPN.</li></ul>
         </aside>
-        <h2>Ce que publie l'IGPN</h2>
+        <h2 id="ce-que-publie-l-igpn">Ce que publie l'IGPN</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Selon son rapport annuel publié le 23 septembre 2026, l'IGPN a traité 1 007 enquêtes judiciaires en 2025, contre 914 en 2024. Parmi elles, 322 concernaient l'usage de la force, contre 428 l'année précédente <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
@@ -60,7 +76,7 @@
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>L'IGPN a relevé 341 atteintes à la probité en 2025, en hausse de 45 % sur un an <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
         </aside>
-        <h2>Ce que ces chiffres ne disent pas</h2>
+        <h2 id="ce-que-ces-chiffres-ne-disent-pas">Ce que ces chiffres ne disent pas</h2>
         <aside class="encadre"><span class="etiquette">À noter</span>
           <p>Une enquête de l'IGPN n'est ni une condamnation ni la preuve d'une faute : elle peut aboutir à un classement sans suite, à des poursuites ou à des sanctions administratives. Inversement, des faits peuvent ne jamais faire l'objet d'une enquête de l'IGPN, par exemple lorsqu'ils sont traités par les services locaux ou ne sont pas signalés. Ces chiffres ne portent que sur la police nationale, et non sur la gendarmerie.</p>
         </aside>
@@ -70,29 +86,58 @@
         <aside class="encadre"><span class="etiquette">Débat</span>
           <p>Le gouvernement s'appuie sur la baisse des enquêtes pour usage de la force sur cinq ans pour défendre un projet de texte sur l'usage des armes par les policiers <sup class="appel"><a href="#source-4" id="appel-4">4</a></sup>. Des associations et des chercheurs estiment au contraire que l'IGPN, rattachée au ministère de l'Intérieur, n'offre pas les garanties d'indépendance suffisantes et que ses statistiques sous-estiment les faits. Les données disponibles ne permettent pas de trancher.</p>
         </aside>
-        <h2>Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>Le nombre de condamnations</strong> de policiers pour violences, rarement publié de manière consolidée.</li><li><strong>Le nombre de réclamations adressées au Défenseur des droits</strong> pour 2025, que nous n'avons pas trouvé.</li></ul>
-        <h2>Sources</h2>
+        <h2 id="sources">Sources</h2>
         <ol class="sources">
           <li id="source-1">franceinfo, « Tirs mortels en baisse, affaires de corruption en hausse… Quatre infos à retenir du rapport annuel de l'IGPN », septembre 2026. <a href="https://www.franceinfo.fr/faits-divers/police/tirs-mortels-en-baisse-affaires-de-corruption-en-hausse-quatre-infos-a-retenir-du-rapport-annuel-de-l-igpn-la-police-des-polices_8206238.html" rel="noopener">www.franceinfo.fr/faits-divers/police/tirs-mortels-en-baisse-affaires-de-corruption-en-hausse-quatre-infos-a-retenir-du-rapport-annuel-de-l-igpn-la-police-des-polices_8206238.html</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Source secondaire : 20 Minutes, « Enquêtes sur la corruption policière en France : hausse record en 2025 ». <a href="https://www.20min.ch/fr/story/france-les-enquetes-visant-des-policiers-corrompus-explosent-103637864" rel="noopener">www.20min.ch/fr/story/france-les-enquetes-visant-des-policiers-corrompus-explosent-103637864</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-3">Assemblée nationale, question écrite n° 11781 (17e législature). <a href="https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE11781.pdf" rel="noopener">www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE11781.pdf</a> <a href="#appel-3" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-4">Source secondaire : Politique Matin, « IGPN 2025 : un rapport qui exacerbe les divisions politiques autour de la légitime défense ». <a href="https://www.politiquematin.fr/igpn-2025-rapport-exacerbe-divisions-politiques-autour-legitime-defense" rel="noopener">www.politiquematin.fr/igpn-2025-rapport-exacerbe-divisions-politiques-autour-legitime-defense</a> <a href="#appel-4" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2>Historique</h2>
+        <h2 id="historique">Historique</h2>
         <ul class="historique"><li>8 octobre 2026 : première publication.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
       </div>
+      </div>
     </div>
   </article>
+  <section class="section a-lire-aussi">
+    <div class="conteneur">
+      <h2>À lire aussi</h2>
+      <div class="portes"><a class="porte c-affaires" href="dossier-outreau.html"><p class="surtitre">Dossier</p><h3>Outreau : comment une erreur judiciaire collective s'est produite</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-troadec.html"><p class="surtitre">Dossier</p><h3>Affaire Troadec : ce que le procès a tranché</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-flactif.html"><p class="surtitre">Dossier</p><h3>Affaire Flactif : ce que la justice a établi</h3><span class="suite">Lire le dossier</span></a></div>
+      <p class="retour-rubrique"><a href="affaires-enquetes.html">Tous les dossiers de la rubrique Affaires &amp; Enquêtes</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+    </div>
+  </section>
 </main>
 
 <footer class="pied">
-  <div class="conteneur">
-    <span>© 2026 Le Petit Monographe</span>
-    <span><a href="contact.html">Contact</a> · <a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></span>
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Le Petit Monographe</p>
+      <p>Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
+    </div>
+    <nav aria-label="Rubriques">
+      <p class="pied-titre">Rubriques</p>
+      <a href="dossiers.html">Tous les dossiers</a>
+      <a href="politique-institutions.html">Politique &amp; Institutions</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+    </nav>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <a href="methode.html">Notre méthode</a>
+      <a href="methode.html#errata">Errata</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
   </div>
+  <div class="conteneur pied-bas">© 2026 Le Petit Monographe</div>
 </footer>
-
+<a class="haut-de-page" href="#contenu" aria-label="Revenir en haut de la page">↑</a>
+<script src="assets/site.js" defer></script>
 </body>
 </html>

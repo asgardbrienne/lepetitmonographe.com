@@ -18,43 +18,59 @@
 </head>
 <body>
 
+<a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur">
     <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="36" height="36"><span>Le Petit Monographe</span></a>
-    <nav class="nav" aria-label="Navigation principale">
+    <div class="entete-actions">
+      <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Rechercher</span>
+      </a>
+      <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
+      </button>
+    </div>
+    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+      <a href="dossiers.html">Dossiers</a>
       <a href="politique-institutions.html">Politique</a>
       <a href="economie-societe.html">Économie &amp; Société</a>
       <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
       <a href="livres.html">Livres</a>
-      <a href="methode.html">Notre méthode</a>
-      <a href="a-propos.html">À propos</a>
+      <a href="methode.html">Méthode</a>
     </nav>
   </div>
 </header>
 
-<main>
+<main id="contenu">
   <section class="tete-page c-affaires">
     <div class="conteneur">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
       <p class="surtitre">Affaires &amp; Enquêtes · Dossier</p>
       <h1>Outreau : comment une erreur judiciaire collective s'est produite</h1>
       <p class="chapeau">Entre 2001 et 2005, dix-sept personnes ont été jugées pour des abus sexuels sur des enfants à Outreau. Treize ont finalement été acquittées. L'affaire a donné lieu à une commission d'enquête parlementaire sans précédent.</p>
-      <p class="meta-dossier">Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
+      <p class="meta-dossier">Lecture : 3 min · Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
     </div>
   </section>
 
   <article class="section dossier">
     <div class="conteneur">
-      <div class="prose">
+      <div class="dossier-grille">
+        <aside class="dossier-cote"><details class="sommaire" open>
+          <summary>Sommaire</summary>
+          <ol><li><a href="#etat-de-la-procedure">État de la procédure</a></li><li><a href="#la-chronologie">La chronologie</a></li><li><a href="#ce-que-l-affaire-a-revele">Ce que l'affaire a révélé</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </details></aside>
+        <div class="prose">
         <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d'origine avant mise en ligne.</p>
         <aside class="essentiel">
           <p class="surtitre">L'essentiel</p>
           <ul><li>L'affaire a abouti à quatre condamnations définitives et à treize acquittements <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Au premier procès, à Saint-Omer en 2004, sept accusés ont été acquittés ; en appel, à Paris, les six autres appelants ont été acquittés le 1er décembre 2005 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Un accusé est mort en détention provisoire en 2002, avant tout jugement <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Une commission d'enquête de l'Assemblée nationale a auditionné 221 personnes et formulé 80 propositions en juin 2006 <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</li></ul>
         </aside>
-        <h2>État de la procédure</h2>
+        <h2 id="etat-de-la-procedure">État de la procédure</h2>
         <aside class="encadre"><span class="etiquette">État de la procédure</span>
           <p>L'affaire principale est définitivement jugée : quatre condamnations et treize acquittements sont définitifs <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>. Les personnes acquittées sont innocentes au regard de la loi. Une procédure ultérieure devant une cour d'assises pour mineurs, mentionnée par certaines sources, n'a pas pu être recoupée ici.</p>
         </aside>
-        <h2>La chronologie</h2>
+        <h2 id="la-chronologie">La chronologie</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Les faits dénoncés, des agressions sexuelles sur des mineurs, auraient eu lieu entre 1997 et 2000 à Outreau, près de Boulogne-sur-Mer. L'enquête débute en 2001 et l'affaire est médiatisée à partir de novembre 2001 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
@@ -70,7 +86,7 @@
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le 1er décembre 2005, la cour d'assises d'appel de Paris acquitte les six appelants <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>. Le président de la République présente des excuses publiques aux acquittés <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
-        <h2>Ce que l'affaire a révélé</h2>
+        <h2 id="ce-que-l-affaire-a-revele">Ce que l'affaire a révélé</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le 7 décembre 2005, l'Assemblée nationale crée à l'unanimité une commission d'enquête, présidée par André Vallini. Elle auditionne 221 personnes, dont les treize acquittés, et rend en juin 2006 un rapport comprenant 80 propositions <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</p>
         </aside>
@@ -80,28 +96,57 @@
         <aside class="encadre"><span class="etiquette">Débat</span>
           <p>Pour beaucoup de commentateurs, Outreau est le symbole d'une justice qui n'a pas su douter. D'autres, notamment des associations de protection de l'enfance, estiment que l'affaire a eu un effet pervers : rendre la parole des enfants suspecte dans les procédures suivantes. Une réforme de la justice pénale a été présentée en 2007 ; son effet réel est diversement apprécié <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
-        <h2>Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>L'effet mesurable des réformes</strong> sur la détention provisoire et le recueil de la parole des enfants.</li><li><strong>L'influence de l'affaire sur les signalements d'abus sur mineurs</strong> dans les années suivantes, avancée par certains et non chiffrée.</li></ul>
-        <h2>Sources</h2>
+        <h2 id="sources">Sources</h2>
         <ol class="sources">
           <li id="source-1">Source secondaire : Wikipédia, « Affaire d'Outreau » ; La Déferlante, « Outreau : des enfants victimes condamné·es au silence ». Chronologie à vérifier sur les décisions de justice et le rapport parlementaire. <a href="https://fr.wikipedia.org/wiki/Affaire_d'Outreau" rel="noopener">fr.wikipedia.org/wiki/Affaire_d'Outreau</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Source secondaire : La Déferlante. <a href="https://revueladeferlante.fr/outreau-des-enfants-victimes-condamne%C2%B7es-au-silence/" rel="noopener">revueladeferlante.fr/outreau-des-enfants-victimes-condamne%C2%B7es-au-silence/</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-3">Assemblée nationale, bilan de la session 2005-2006 (commission d'enquête sur l'affaire d'Outreau) ; France 3 Régions, entretien avec André Vallini. <a href="https://www.assemblee-nationale.fr/connaissance/bilan%202005-2006/page2425.pdf" rel="noopener">www.assemblee-nationale.fr/connaissance/bilan%202005-2006/page2425.pdf</a> <a href="#appel-3" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2>Historique</h2>
+        <h2 id="historique">Historique</h2>
         <ul class="historique"><li>8 octobre 2026 : première publication.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
       </div>
+      </div>
     </div>
   </article>
+  <section class="section a-lire-aussi">
+    <div class="conteneur">
+      <h2>À lire aussi</h2>
+      <div class="portes"><a class="porte c-affaires" href="dossier-troadec.html"><p class="surtitre">Dossier</p><h3>Affaire Troadec : ce que le procès a tranché</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-flactif.html"><p class="surtitre">Dossier</p><h3>Affaire Flactif : ce que la justice a établi</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-gregory.html"><p class="surtitre">Dossier</p><h3>Affaire Grégory : l'état de la procédure en octobre 2026</h3><span class="suite">Lire le dossier</span></a></div>
+      <p class="retour-rubrique"><a href="affaires-enquetes.html">Tous les dossiers de la rubrique Affaires &amp; Enquêtes</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+    </div>
+  </section>
 </main>
 
 <footer class="pied">
-  <div class="conteneur">
-    <span>© 2026 Le Petit Monographe</span>
-    <span><a href="contact.html">Contact</a> · <a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></span>
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Le Petit Monographe</p>
+      <p>Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
+    </div>
+    <nav aria-label="Rubriques">
+      <p class="pied-titre">Rubriques</p>
+      <a href="dossiers.html">Tous les dossiers</a>
+      <a href="politique-institutions.html">Politique &amp; Institutions</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+    </nav>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <a href="methode.html">Notre méthode</a>
+      <a href="methode.html#errata">Errata</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
   </div>
+  <div class="conteneur pied-bas">© 2026 Le Petit Monographe</div>
 </footer>
-
+<a class="haut-de-page" href="#contenu" aria-label="Revenir en haut de la page">↑</a>
+<script src="assets/site.js" defer></script>
 </body>
 </html>

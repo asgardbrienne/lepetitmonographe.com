@@ -18,82 +18,127 @@
 </head>
 <body>
 
+<a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur">
     <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="36" height="36"><span>Le Petit Monographe</span></a>
-    <nav class="nav" aria-label="Navigation principale">
+    <div class="entete-actions">
+      <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Rechercher</span>
+      </a>
+      <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
+      </button>
+    </div>
+    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+      <a href="dossiers.html">Dossiers</a>
       <a href="politique-institutions.html">Politique</a>
       <a href="economie-societe.html">Économie &amp; Société</a>
       <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
       <a href="livres.html">Livres</a>
-      <a href="methode.html">Notre méthode</a>
-      <a href="a-propos.html">À propos</a>
+      <a href="methode.html">Méthode</a>
     </nav>
   </div>
 </header>
 
-<main>
+<main id="contenu">
   <section class="tete-page c-economie">
     <div class="conteneur">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="economie-societe.html">Économie &amp; Société</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
       <p class="surtitre">Économie &amp; Société · Dossier</p>
       <h1>Déserts médicaux : pourquoi certains territoires manquent de médecins</h1>
       <p class="chapeau">Le nombre total de médecins augmente, mais l'accès à un généraliste reste difficile pour une partie de la population. Les causes sont connues ; les remèdes font débat.</p>
-      <p class="meta-dossier">Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
+      <p class="meta-dossier">Lecture : 3 min · Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
     </div>
   </section>
 
   <article class="section dossier">
     <div class="conteneur">
-      <div class="prose">
+      <div class="dossier-grille">
+        <aside class="dossier-cote"><details class="sommaire" open>
+          <summary>Sommaire</summary>
+          <ol><li><a href="#comment-on-mesure-un-desert-medical">Comment on mesure un « désert médical »</a></li><li><a href="#pourquoi-il-manque-des-medecins">Pourquoi il manque des médecins</a></li><li><a href="#les-solutions-en-debat">Les solutions en débat</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </details></aside>
+        <div class="prose">
         <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d'origine avant mise en ligne.</p>
         <aside class="essentiel">
           <p class="surtitre">L'essentiel</p>
           <ul><li>Selon la Drees, environ 12,3 millions d'habitants, soit 18 % de la population, vivent dans une commune où l'offre de médecine générale est inférieure à 2,5 consultations par habitant et par an (données 2024) <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Le nombre de médecins a augmenté en 2025, mais celui des généralistes reste légèrement inférieur à son niveau de 2012, selon des reprises de données de la Drees <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Les effets de la hausse du nombre d'étudiants en médecine ne se feront sentir qu'après une dizaine d'années de formation.</li><li>La régulation de l'installation des médecins, prévue par la proposition de loi Garot, oppose les élus favorables et les organisations de médecins.</li></ul>
         </aside>
-        <h2>Comment on mesure un « désert médical »</h2>
+        <h2 id="comment-on-mesure-un-desert-medical">Comment on mesure un « désert médical »</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>La Drees mesure l'accès aux médecins par un indicateur appelé « accessibilité potentielle localisée » (APL). Il tient compte du nombre de médecins proches, de leur activité et des besoins de la population selon son âge. Selon l'APL 2024, environ 12,3 millions d'habitants vivent dans une commune où l'offre de médecine générale est inférieure à 2,5 consultations par habitant et par an <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
         <aside class="encadre"><span class="etiquette">À noter</span>
           <p>Il n'existe pas de définition légale unique du désert médical. Des chiffres très différents circulent, par exemple « 87 % du territoire en zone sous-dotée », qui reposent sur d'autres définitions, notamment les zonages des agences régionales de santé. Ils ne sont pas comparables à l'APL.</p>
         </aside>
-        <h2>Pourquoi il manque des médecins</h2>
+        <h2 id="pourquoi-il-manque-des-medecins">Pourquoi il manque des médecins</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Entre 1971 et 2020, le nombre d'étudiants admis en deuxième année de médecine était limité par un quota national, le numerus clausus, remplacé en 2020 par un « numerus apertus » fixé par les universités <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>. Une loi de juin 2025 prévoit sa suppression progressive <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>. Le nombre exact de places ouvertes en 2026 diffère selon les sources, autour de 11 000 à 12 000 <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
         </aside>
         <aside class="encadre"><span class="etiquette">Interprétation</span>
           <p>Le faible nombre de médecins formés pendant plusieurs décennies, le départ à la retraite des médecins nés après-guerre, l'aspiration des nouveaux médecins à des horaires plus réguliers et au travail en groupe, et l'attractivité inégale des territoires sont les causes le plus souvent avancées. Leur poids respectif n'est pas établi.</p>
         </aside>
-        <h2>Les solutions en débat</h2>
+        <h2 id="les-solutions-en-debat">Les solutions en débat</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>La proposition de loi dite Garot, adoptée par l'Assemblée nationale le 7 mai 2025, prévoit de soumettre l'installation des médecins à une autorisation de l'agence régionale de santé : elle serait de droit en zone sous-dotée et limitée, ailleurs, au remplacement d'un médecin qui part <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>. Le Sénat a examiné et modifié le texte en 2026 ; son état exact de la navette doit être vérifié sur le site du Sénat.</p>
         </aside>
         <aside class="encadre"><span class="etiquette">Débat</span>
           <p>Les partisans de la régulation soulignent que les mesures incitatives, aides financières et maisons de santé, n'ont pas suffi à résorber les inégalités, et que d'autres professions de santé, comme les pharmaciens ou les infirmiers, sont déjà régulées. Les opposants, dont le Conseil national de l'Ordre des médecins, estiment que contraindre l'installation découragera les jeunes médecins d'exercer en libéral sans créer de médecins supplémentaires, puisque le problème est d'abord un manque global <sup class="appel"><a href="#source-4" id="appel-4">4</a></sup>.</p>
         </aside>
-        <h2>Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>L'effet de la régulation</strong>, faute d'évaluation d'expériences comparables en France pour les médecins.</li><li><strong>Le délai réel d'amélioration</strong> lié à la hausse du nombre d'étudiants, qui dépend aussi de leurs choix de spécialité et de lieu d'exercice.</li><li><strong>Le renoncement aux soins</strong> qui en résulte, mal mesuré.</li></ul>
-        <h2>Sources</h2>
+        <h2 id="sources">Sources</h2>
         <ol class="sources">
           <li id="source-1">Drees, accessibilité potentielle localisée (APL) aux médecins généralistes, données 2024 publiées en 2026, d'après What's up doc et la presse spécialisée. <a href="https://www.whatsupdoc-lemag.fr/article/densite-medicale-delais-dattente-renoncement-aux-soins-tous-les-chiffres-sur-les-deserts" rel="noopener">www.whatsupdoc-lemag.fr/article/densite-medicale-delais-dattente-renoncement-aux-soins-tous-les-chiffres-sur-les-deserts</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Source secondaire : sites d'information sur les études de santé (numerus apertus 2026). Chiffres à vérifier auprès du ministère de l'Enseignement supérieur. <a href="https://www.sante-orientation.fr/articles/numerus-apertus-explique" rel="noopener">www.sante-orientation.fr/articles/numerus-apertus-explique</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-3">Source secondaire : Caducée, « Les députés votent la loi Garot ». <a href="https://www.caducee.net/actualite-medicale/16582/les-deputes-votent-la-loi-garot-les-medecins-s-insurgent.html" rel="noopener">www.caducee.net/actualite-medicale/16582/les-deputes-votent-la-loi-garot-les-medecins-s-insurgent.html</a> <a href="#appel-3" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-4">Conseil national de l'Ordre des médecins, communiqué « PPL Garot : l'amélioration de l'accès aux soins ne passera pas par la coercition ». <a href="https://www.conseil-national.medecin.fr/publications/communiques-presse/ppl-garot-lamelioration-lacces-soins-passera-coercition" rel="noopener">www.conseil-national.medecin.fr/publications/communiques-presse/ppl-garot-lamelioration-lacces-soins-passera-coercition</a> <a href="#appel-4" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2>Historique</h2>
+        <h2 id="historique">Historique</h2>
         <ul class="historique"><li>8 octobre 2026 : première publication.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
       </div>
+      </div>
     </div>
   </article>
+  <section class="section a-lire-aussi">
+    <div class="conteneur">
+      <h2>À lire aussi</h2>
+      <div class="portes"><a class="porte c-economie" href="dossier-chomage-emploi.html"><p class="surtitre">Dossier</p><h3>Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-dette-publique.html"><p class="surtitre">Dossier</p><h3>La dette publique française : niveau, coût et risques</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-budget-2027.html"><p class="surtitre">Dossier</p><h3>Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</h3><span class="suite">Lire le dossier</span></a></div>
+      <p class="retour-rubrique"><a href="economie-societe.html">Tous les dossiers de la rubrique Économie &amp; Société</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+    </div>
+  </section>
 </main>
 
 <footer class="pied">
-  <div class="conteneur">
-    <span>© 2026 Le Petit Monographe</span>
-    <span><a href="contact.html">Contact</a> · <a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></span>
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Le Petit Monographe</p>
+      <p>Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
+    </div>
+    <nav aria-label="Rubriques">
+      <p class="pied-titre">Rubriques</p>
+      <a href="dossiers.html">Tous les dossiers</a>
+      <a href="politique-institutions.html">Politique &amp; Institutions</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+    </nav>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <a href="methode.html">Notre méthode</a>
+      <a href="methode.html#errata">Errata</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
   </div>
+  <div class="conteneur pied-bas">© 2026 Le Petit Monographe</div>
 </footer>
-
+<a class="haut-de-page" href="#contenu" aria-label="Revenir en haut de la page">↑</a>
+<script src="assets/site.js" defer></script>
 </body>
 </html>

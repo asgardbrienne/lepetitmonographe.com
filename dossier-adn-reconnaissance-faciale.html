@@ -18,39 +18,55 @@
 </head>
 <body>
 
+<a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur">
     <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="36" height="36"><span>Le Petit Monographe</span></a>
-    <nav class="nav" aria-label="Navigation principale">
+    <div class="entete-actions">
+      <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Rechercher</span>
+      </a>
+      <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
+      </button>
+    </div>
+    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+      <a href="dossiers.html">Dossiers</a>
       <a href="politique-institutions.html">Politique</a>
       <a href="economie-societe.html">Économie &amp; Société</a>
       <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
       <a href="livres.html">Livres</a>
-      <a href="methode.html">Notre méthode</a>
-      <a href="a-propos.html">À propos</a>
+      <a href="methode.html">Méthode</a>
     </nav>
   </div>
 </header>
 
-<main>
+<main id="contenu">
   <section class="tete-page c-affaires">
     <div class="conteneur">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
       <p class="surtitre">Affaires &amp; Enquêtes · Dossier</p>
       <h1>ADN et reconnaissance faciale : ce que ces preuves peuvent et ne peuvent pas établir</h1>
       <p class="chapeau">L'ADN est souvent présenté comme la « reine des preuves » et la reconnaissance faciale comme un outil d'identification fiable. Les deux peuvent se tromper, et leur usage est encadré par des règles que les tribunaux font respecter.</p>
-      <p class="meta-dossier">Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
+      <p class="meta-dossier">Lecture : 3 min · Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
     </div>
   </section>
 
   <article class="section dossier">
     <div class="conteneur">
-      <div class="prose">
+      <div class="dossier-grille">
+        <aside class="dossier-cote"><details class="sommaire" open>
+          <summary>Sommaire</summary>
+          <ol><li><a href="#l-adn-ce-qu-il-prouve">L'ADN : ce qu'il prouve</a></li><li><a href="#la-reconnaissance-faciale">La reconnaissance faciale</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </details></aside>
+        <div class="prose">
         <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d'origine avant mise en ligne.</p>
         <aside class="essentiel">
           <p class="surtitre">L'essentiel</p>
           <ul><li>Une trace ADN prouve la présence d'un ADN sur un objet, pas la présence de la personne sur les lieux ni sa culpabilité : l'ADN peut être transféré indirectement ou contaminé <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Les juridictions ont déjà écarté des analyses génétiques dont la traçabilité n'était pas établie <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>La Cour européenne des droits de l'homme a condamné la France en 2017 sur la conservation des profils génétiques <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>L'usage de la reconnaissance faciale par la police à partir du fichier des antécédents judiciaires fait l'objet d'allégations d'usages illégaux, de questions parlementaires et de contrôles de la CNIL <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup><sup class="appel"><a href="#source-4" id="appel-4">4</a></sup>.</li></ul>
         </aside>
-        <h2>L'ADN : ce qu'il prouve</h2>
+        <h2 id="l-adn-ce-qu-il-prouve">L'ADN : ce qu'il prouve</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Une trace ADN peut se déposer par contact direct, mais aussi par transfert indirect : une personne peut laisser son ADN sur un objet qu'une autre manipule ensuite. Des contaminations ont été documentées, sur les scènes de crime comme en laboratoire <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
@@ -60,7 +76,7 @@
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>En 2017, dans l'affaire Aycaguer contre France, la Cour européenne des droits de l'homme a condamné la France au sujet de la conservation des profils dans le fichier national automatisé des empreintes génétiques <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
         </aside>
-        <h2>La reconnaissance faciale</h2>
+        <h2 id="la-reconnaissance-faciale">La reconnaissance faciale</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le traitement des antécédents judiciaires (TAJ) comporte un module de comparaison faciale. Le Conseil d'État a jugé en 2022 que ce fichier comportait des garanties appropriées <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup>.</p>
         </aside>
@@ -73,9 +89,9 @@
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le 4 novembre 2025, la chambre criminelle de la Cour de cassation a jugé que la consultation du TAJ est réservée aux agents spécialement et individuellement habilités ; une habilitation technique générale ne suffit pas <sup class="appel"><a href="#source-6" id="appel-6">6</a></sup>.</p>
         </aside>
-        <h2>Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>Le nombre d'erreurs d'identification</strong> en France, qu'aucune statistique publique ne recense.</li><li><strong>L'usage réel de la reconnaissance faciale lors des contrôles</strong>, dans l'attente des résultats des contrôles annoncés.</li></ul>
-        <h2>Sources</h2>
+        <h2 id="sources">Sources</h2>
         <ol class="sources">
           <li id="source-1">Source secondaire : Actu-Juridique, « L'ADN est-il vraiment la reine des preuves ? » ; franceinfo, « L'ADN, pièce maîtresse ou traîtresse ? ». <a href="https://www.actu-juridique.fr/professions/ladn-est-il-vraiment-la-reine-des-preuves/" rel="noopener">www.actu-juridique.fr/professions/ladn-est-il-vraiment-la-reine-des-preuves/</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Source secondaire : Juridique Lab, « L'ADN devant les tribunaux : quand la preuve scientifique devient juridiquement irrecevable ». <a href="https://www.juridique-lab.fr/ladn-devant-les-tribunaux-quand-la-preuve-scientifique-devient-juridiquement-irrecevable/" rel="noopener">www.juridique-lab.fr/ladn-devant-les-tribunaux-quand-la-preuve-scientifique-devient-juridiquement-irrecevable/</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
@@ -84,20 +100,49 @@
           <li id="source-5">Source secondaire : Haas Avocats, « Reconnaissance faciale : le fichier TAJ validé par le Conseil d'État ». <a href="https://www.haas-avocats.com/protection-des-donnees/reconnaissance-faciale-le-fichier-taj-valide-par-le-conseil-detat/" rel="noopener">www.haas-avocats.com/protection-des-donnees/reconnaissance-faciale-le-fichier-taj-valide-par-le-conseil-detat/</a> <a href="#appel-5" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-6">Source secondaire : Village de la Justice, commentaire de Cass. crim., 4 novembre 2025, n° 25-81.899. <a href="https://www.village-justice.com/articles/taj-fpr-exigence-une-habilitation-speciale-indiviuelle,55203.html" rel="noopener">www.village-justice.com/articles/taj-fpr-exigence-une-habilitation-speciale-indiviuelle,55203.html</a> <a href="#appel-6" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2>Historique</h2>
+        <h2 id="historique">Historique</h2>
         <ul class="historique"><li>8 octobre 2026 : première publication.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
       </div>
+      </div>
     </div>
   </article>
+  <section class="section a-lire-aussi">
+    <div class="conteneur">
+      <h2>À lire aussi</h2>
+      <div class="portes"><a class="porte c-affaires" href="dossier-outreau.html"><p class="surtitre">Dossier</p><h3>Outreau : comment une erreur judiciaire collective s'est produite</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-troadec.html"><p class="surtitre">Dossier</p><h3>Affaire Troadec : ce que le procès a tranché</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-flactif.html"><p class="surtitre">Dossier</p><h3>Affaire Flactif : ce que la justice a établi</h3><span class="suite">Lire le dossier</span></a></div>
+      <p class="retour-rubrique"><a href="affaires-enquetes.html">Tous les dossiers de la rubrique Affaires &amp; Enquêtes</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+    </div>
+  </section>
 </main>
 
 <footer class="pied">
-  <div class="conteneur">
-    <span>© 2026 Le Petit Monographe</span>
-    <span><a href="contact.html">Contact</a> · <a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></span>
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Le Petit Monographe</p>
+      <p>Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
+    </div>
+    <nav aria-label="Rubriques">
+      <p class="pied-titre">Rubriques</p>
+      <a href="dossiers.html">Tous les dossiers</a>
+      <a href="politique-institutions.html">Politique &amp; Institutions</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+    </nav>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <a href="methode.html">Notre méthode</a>
+      <a href="methode.html#errata">Errata</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
   </div>
+  <div class="conteneur pied-bas">© 2026 Le Petit Monographe</div>
 </footer>
-
+<a class="haut-de-page" href="#contenu" aria-label="Revenir en haut de la page">↑</a>
+<script src="assets/site.js" defer></script>
 </body>
 </html>

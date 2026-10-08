@@ -18,81 +18,126 @@
 </head>
 <body>
 
+<a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur">
     <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="36" height="36"><span>Le Petit Monographe</span></a>
-    <nav class="nav" aria-label="Navigation principale">
+    <div class="entete-actions">
+      <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Rechercher</span>
+      </a>
+      <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
+      </button>
+    </div>
+    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+      <a href="dossiers.html">Dossiers</a>
       <a href="politique-institutions.html">Politique</a>
       <a href="economie-societe.html">Économie &amp; Société</a>
       <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
       <a href="livres.html">Livres</a>
-      <a href="methode.html">Notre méthode</a>
-      <a href="a-propos.html">À propos</a>
+      <a href="methode.html">Méthode</a>
     </nav>
   </div>
 </header>
 
-<main>
+<main id="contenu">
   <section class="tete-page c-economie">
     <div class="conteneur">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="economie-societe.html">Économie &amp; Société</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
       <p class="surtitre">Économie &amp; Société · Dossier</p>
       <h1>Canicules et sécheresses : ce que l'on sait de leur coût pour la France</h1>
       <p class="chapeau">Surmortalité, récoltes perdues, sinistres assurés : les effets des épisodes climatiques extrêmes se mesurent poste par poste. Il n'existe pas de chiffrage global officiel.</p>
-      <p class="meta-dossier">Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
+      <p class="meta-dossier">Lecture : 3 min · Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
     </div>
   </section>
 
   <article class="section dossier">
     <div class="conteneur">
-      <div class="prose">
+      <div class="dossier-grille">
+        <aside class="dossier-cote"><details class="sommaire" open>
+          <summary>Sommaire</summary>
+          <ol><li><a href="#la-sante">La santé</a></li><li><a href="#les-sinistres-assures">Les sinistres assurés</a></li><li><a href="#l-agriculture-en-2026">L'agriculture en 2026</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </details></aside>
+        <div class="prose">
         <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d'origine avant mise en ligne.</p>
         <aside class="essentiel">
           <p class="surtitre">L'essentiel</p>
           <ul><li>Santé publique France estime à 5 764 le nombre de décès en excès pendant la canicule du 17 juin au 2 juillet 2026, une estimation préliminaire <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Les sinistres climatiques ont coûté 5,2 milliards d'euros aux assureurs en 2025, selon France Assureurs <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Les pertes agricoles liées à la sécheresse et aux canicules de 2026 ne sont pas encore consolidées.</li><li>Aucune estimation officielle ne chiffre le coût global du changement climatique pour la France ; attribuer un épisode précis au changement climatique relève d'études spécifiques.</li></ul>
         </aside>
-        <h2>La santé</h2>
+        <h2 id="la-sante">La santé</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Selon Santé publique France, la canicule du 17 juin au 2 juillet 2026, qui a exposé la quasi-totalité de la population, s'est accompagnée de 5 764 décès en excès toutes causes, sans atteindre le niveau de 2003. Ce chiffre préliminaire a été calculé trois semaines après la fin de l'épisode <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
         <aside class="encadre"><span class="etiquette">À noter</span>
           <p>Les décès « en excès » sont ceux observés au-delà du nombre attendu. Ils ne sont pas tous directement causés par la chaleur ; l'agence publie ensuite une estimation de la mortalité attribuable à la chaleur.</p>
         </aside>
-        <h2>Les sinistres assurés</h2>
+        <h2 id="les-sinistres-assures">Les sinistres assurés</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Selon France Assureurs, les sinistres climatiques ont atteint 5,2 milliards d'euros en 2025, contre 3,9 milliards en 2024, dont 2,2 milliards pour la grêle <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>. La fédération estime que le coût des sinistres liés aux événements naturels pourrait doubler entre 2020 et 2050 <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
         </aside>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le régime d'indemnisation des catastrophes naturelles est déficitaire depuis 2015 selon les assureurs ; la surprime payée sur les contrats d'assurance a été relevée au 1er janvier 2025 <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
         </aside>
-        <h2>L'agriculture en 2026</h2>
+        <h2 id="l-agriculture-en-2026">L'agriculture en 2026</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le ministère de l'Agriculture indique que 111 demandes de reconnaissance de pertes de récoltes ont été déposées pour 83 départements et que plus de 95 % des pertes liées aux canicules et à la sécheresse de 2026 sont couvertes par ces reconnaissances <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</p>
         </aside>
         <aside class="encadre"><span class="etiquette">Estimation</span>
           <p>Les organisations agricoles évoquent des baisses de rendement de 25 % à 75 % selon les productions dans certaines régions et réclament un plan d'aide de plusieurs milliards d'euros. Le gouvernement a annoncé environ un milliard d'euros. Ces chiffres proviennent de sources professionnelles et de presse ; le bilan des pertes n'est pas consolidé.</p>
         </aside>
-        <h2>Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>Le coût global</strong> pour l'économie : santé, productivité du travail, infrastructures, biodiversité.</li><li><strong>La part attribuable au changement climatique</strong> de chaque épisode, qui demande des études d'attribution au cas par cas.</li><li><strong>Le bilan définitif de l'été 2026</strong>, en mortalité comme en pertes agricoles.</li></ul>
-        <h2>Sources</h2>
+        <h2 id="sources">Sources</h2>
         <ol class="sources">
           <li id="source-1">Santé publique France, « 5 764 excess deaths in France during the heat wave from June 17 to July 2 », 2026. <a href="https://www.santepubliquefrance.fr/en/press/5764-excess-deaths-france-during-heat-wave-june-17-july-2" rel="noopener">www.santepubliquefrance.fr/en/press/5764-excess-deaths-france-during-heat-wave-june-17-july-2</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">France Assureurs, « Risques climatiques et assurance ». <a href="https://www.franceassureurs.fr/risques-climatiques-et-assurance/" rel="noopener">www.franceassureurs.fr/risques-climatiques-et-assurance/</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-3">Source secondaire : Pleinchamp, « Sécheresse 2026 : l'ISN opérationnelle pour 95 % des dégâts et pertes subis à l'échelle nationale ». <a href="https://www.pleinchamp.com/actualite/secheresse-2026-l-isn-operationnelle-pour-95-des-degats-et-pertes-subis-a-l-echelle-nationale" rel="noopener">www.pleinchamp.com/actualite/secheresse-2026-l-isn-operationnelle-pour-95-des-degats-et-pertes-subis-a-l-echelle-nationale</a> <a href="#appel-3" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2>Historique</h2>
+        <h2 id="historique">Historique</h2>
         <ul class="historique"><li>8 octobre 2026 : première publication.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
       </div>
+      </div>
     </div>
   </article>
+  <section class="section a-lire-aussi">
+    <div class="conteneur">
+      <h2>À lire aussi</h2>
+      <div class="portes"><a class="porte c-economie" href="dossier-chomage-emploi.html"><p class="surtitre">Dossier</p><h3>Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-dette-publique.html"><p class="surtitre">Dossier</p><h3>La dette publique française : niveau, coût et risques</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-budget-2027.html"><p class="surtitre">Dossier</p><h3>Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</h3><span class="suite">Lire le dossier</span></a></div>
+      <p class="retour-rubrique"><a href="economie-societe.html">Tous les dossiers de la rubrique Économie &amp; Société</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+    </div>
+  </section>
 </main>
 
 <footer class="pied">
-  <div class="conteneur">
-    <span>© 2026 Le Petit Monographe</span>
-    <span><a href="contact.html">Contact</a> · <a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></span>
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Le Petit Monographe</p>
+      <p>Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
+    </div>
+    <nav aria-label="Rubriques">
+      <p class="pied-titre">Rubriques</p>
+      <a href="dossiers.html">Tous les dossiers</a>
+      <a href="politique-institutions.html">Politique &amp; Institutions</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+    </nav>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <a href="methode.html">Notre méthode</a>
+      <a href="methode.html#errata">Errata</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
   </div>
+  <div class="conteneur pied-bas">© 2026 Le Petit Monographe</div>
 </footer>
-
+<a class="haut-de-page" href="#contenu" aria-label="Revenir en haut de la page">↑</a>
+<script src="assets/site.js" defer></script>
 </body>
 </html>

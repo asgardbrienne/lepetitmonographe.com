@@ -18,39 +18,55 @@
 </head>
 <body>
 
+<a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur">
     <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="36" height="36"><span>Le Petit Monographe</span></a>
-    <nav class="nav" aria-label="Navigation principale">
+    <div class="entete-actions">
+      <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Rechercher</span>
+      </a>
+      <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
+      </button>
+    </div>
+    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+      <a href="dossiers.html">Dossiers</a>
       <a href="politique-institutions.html">Politique</a>
       <a href="economie-societe.html">Économie &amp; Société</a>
       <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
       <a href="livres.html">Livres</a>
-      <a href="methode.html">Notre méthode</a>
-      <a href="a-propos.html">À propos</a>
+      <a href="methode.html">Méthode</a>
     </nav>
   </div>
 </header>
 
-<main>
+<main id="contenu">
   <section class="tete-page c-economie">
     <div class="conteneur">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="economie-societe.html">Économie &amp; Société</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
       <p class="surtitre">Économie &amp; Société · Dossier</p>
       <h1>Cybercriminalité : ce que mesurent les chiffres officiels</h1>
       <p class="chapeau">Les infractions liées au numérique enregistrées par la police et la gendarmerie ont augmenté de 14 % en 2025. Le chiffre mélange des infractions très différentes et ne compte que ce qui est signalé.</p>
-      <p class="meta-dossier">Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
+      <p class="meta-dossier">Lecture : 3 min · Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
     </div>
   </section>
 
   <article class="section dossier">
     <div class="conteneur">
-      <div class="prose">
+      <div class="dossier-grille">
+        <aside class="dossier-cote"><details class="sommaire" open>
+          <summary>Sommaire</summary>
+          <ol><li><a href="#ce-que-compte-le-ministere-de-l-interieur">Ce que compte le ministère de l'Intérieur</a></li><li><a href="#les-attaques-contre-les-organisations">Les attaques contre les organisations</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </details></aside>
+        <div class="prose">
         <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d'origine avant mise en ligne.</p>
         <aside class="essentiel">
           <p class="surtitre">L'essentiel</p>
           <ul><li>453 200 crimes et délits liés au numérique ont été enregistrés par la police et la gendarmerie en 2025, en hausse de 14 % sur un an <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Les atteintes aux biens, principalement des escroqueries, en représentent 280 500 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Ces chiffres comptent les infractions enregistrées, pas les infractions commises : beaucoup de victimes ne portent pas plainte.</li><li>Le nombre de cyberattaques revendiquées contre des organisations françaises a augmenté, mais les rançongiciels ont reculé selon le ministère de l'Intérieur <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li></ul>
         </aside>
-        <h2>Ce que compte le ministère de l'Intérieur</h2>
+        <h2 id="ce-que-compte-le-ministere-de-l-interieur">Ce que compte le ministère de l'Intérieur</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Selon le service statistique du ministère de l'Intérieur (SSMSI), 453 200 crimes et délits liés au numérique ont été enregistrés en 2025, soit 14 % de plus qu'en 2024 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>. Le ministère souligne que ces infractions sont très hétérogènes et doivent être analysées séparément <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
@@ -63,32 +79,61 @@
         <aside class="encadre"><span class="etiquette">À noter</span>
           <p>Une hausse des infractions enregistrées peut refléter une hausse des faits, mais aussi une plus grande facilité à porter plainte, par exemple grâce aux plateformes en ligne. Les deux effets ne peuvent pas être séparés avec ces seules données.</p>
         </aside>
-        <h2>Les attaques contre les organisations</h2>
+        <h2 id="les-attaques-contre-les-organisations">Les attaques contre les organisations</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le commandement du ministère de l'Intérieur dans le cyberespace recense 1 347 revendications ou annonces de cyberattaques visant la France en 2025, contre 1 062 en 2024. Les attaques par rançongiciel ont reculé, selon le même bilan repris par la presse <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
         </aside>
-        <h2>Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>Le nombre réel de victimes.</strong> Les enquêtes de victimation montrent généralement qu'une grande partie des escroqueries ne fait pas l'objet d'une plainte ; le taux exact pour 2025 n'est pas connu.</li><li><strong>Le coût total</strong> pour les particuliers, les entreprises et les services publics : les estimations qui circulent ne reposent pas sur une méthode officielle.</li><li><strong>Le taux d'élucidation</strong> de ces infractions, peu publié.</li></ul>
-        <h2>Sources</h2>
+        <h2 id="sources">Sources</h2>
         <ol class="sources">
           <li id="source-1">Ministère de l'Intérieur, « Les infractions liées au numérique enregistrées par les services de sécurité en 2025 en progression de 14 % sur un an », d'après le rapport du SSMSI du 19 février 2026. <a href="https://www.interieur.gouv.fr/actualites/actualites-du-ministere/infractions-liees-au-numerique-enregistrees-par-services-de-securite-en-2025-en-progression-de-14" rel="noopener">www.interieur.gouv.fr/actualites/actualites-du-ministere/infractions-liees-au-numerique-enregistrees-par-services-de-securite-en-2025-en-progression-de-14</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Source secondaire : bilan du commandement du ministère de l'Intérieur dans le cyberespace, repris par Actu Roubaix et L'Essor. <a href="https://lessor.org/societe/hausse-des-infractions-liees-au-numerique/" rel="noopener">lessor.org/societe/hausse-des-infractions-liees-au-numerique/</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-3">Source secondaire : franceinfo, « Plus de 17 500 cyberattaques enregistrées en France en 2025, en hausse de 4 % ». <a href="https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/plus-de-17-500-cyberattaques-enregistrees-en-france-en-2025-en-hausse-de-4-par-rapport-a-l-annee-2024_7816103.html" rel="noopener">www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/plus-de-17-500-cyberattaques-enregistrees-en-france-en-2025-en-hausse-de-4-par-rapport-a-l-annee-2024_7816103.html</a> <a href="#appel-3" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2>Historique</h2>
+        <h2 id="historique">Historique</h2>
         <ul class="historique"><li>8 octobre 2026 : première publication.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
       </div>
+      </div>
     </div>
   </article>
+  <section class="section a-lire-aussi">
+    <div class="conteneur">
+      <h2>À lire aussi</h2>
+      <div class="portes"><a class="porte c-economie" href="dossier-chomage-emploi.html"><p class="surtitre">Dossier</p><h3>Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-dette-publique.html"><p class="surtitre">Dossier</p><h3>La dette publique française : niveau, coût et risques</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-budget-2027.html"><p class="surtitre">Dossier</p><h3>Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</h3><span class="suite">Lire le dossier</span></a></div>
+      <p class="retour-rubrique"><a href="economie-societe.html">Tous les dossiers de la rubrique Économie &amp; Société</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+    </div>
+  </section>
 </main>
 
 <footer class="pied">
-  <div class="conteneur">
-    <span>© 2026 Le Petit Monographe</span>
-    <span><a href="contact.html">Contact</a> · <a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></span>
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Le Petit Monographe</p>
+      <p>Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
+    </div>
+    <nav aria-label="Rubriques">
+      <p class="pied-titre">Rubriques</p>
+      <a href="dossiers.html">Tous les dossiers</a>
+      <a href="politique-institutions.html">Politique &amp; Institutions</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+    </nav>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <a href="methode.html">Notre méthode</a>
+      <a href="methode.html#errata">Errata</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
   </div>
+  <div class="conteneur pied-bas">© 2026 Le Petit Monographe</div>
 </footer>
-
+<a class="haut-de-page" href="#contenu" aria-label="Revenir en haut de la page">↑</a>
+<script src="assets/site.js" defer></script>
 </body>
 </html>

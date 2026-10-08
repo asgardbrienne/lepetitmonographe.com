@@ -2,12 +2,12 @@ import sys, os
 OUT = sys.argv[1]
 
 NAV = [
+    ("dossiers.html", "Dossiers"),
     ("politique-institutions.html", "Politique"),
     ("economie-societe.html", "Économie &amp; Société"),
     ("affaires-enquetes.html", "Affaires &amp; Enquêtes"),
     ("livres.html", "Livres"),
-    ("methode.html", "Notre méthode"),
-    ("a-propos.html", "À propos"),
+    ("methode.html", "Méthode"),
 ]
 
 def A(t):  # élément à compléter avant publication
@@ -38,26 +38,57 @@ def page(fichier, titre, description, corps, noindex=False):
 </head>
 <body>
 
+<a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur">
     <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="36" height="36"><span>Le Petit Monographe</span></a>
-    <nav class="nav" aria-label="Navigation principale">
+    <div class="entete-actions">
+      <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Rechercher</span>
+      </a>
+      <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
+      </button>
+    </div>
+    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
 {nav}
     </nav>
   </div>
 </header>
 
-<main>
+<main id="contenu">
 {corps}
 </main>
 
 <footer class="pied">
-  <div class="conteneur">
-    <span>© 2026 Le Petit Monographe</span>
-    <span><a href="contact.html">Contact</a> · <a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></span>
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Le Petit Monographe</p>
+      <p>Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
+    </div>
+    <nav aria-label="Rubriques">
+      <p class="pied-titre">Rubriques</p>
+      <a href="dossiers.html">Tous les dossiers</a>
+      <a href="politique-institutions.html">Politique &amp; Institutions</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+    </nav>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <a href="methode.html">Notre méthode</a>
+      <a href="methode.html#errata">Errata</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
   </div>
+  <div class="conteneur pied-bas">© 2026 Le Petit Monographe</div>
 </footer>
-
+<a class="haut-de-page" href="#contenu" aria-label="Revenir en haut de la page">↑</a>
+<script src="assets/site.js" defer></script>
 </body>
 </html>
 '''
@@ -635,9 +666,113 @@ _cartes = "\n".join(f'''        <a class="porte {_tous[h][0]}" href="{h}">
           <span class="suite">Lire le dossier</span>
         </a>''' for h in A_LA_UNE if h in _tous)
 _idx = os.path.join(OUT, "index.html")
-_html = open(_idx, encoding="utf-8").read().replace("<!--DERNIERS-->", section(f"""      <h2>Dossiers à la une</h2>
+_page_idx = open(_idx, encoding="utf-8").read().replace("<!--DERNIERS-->", section(f"""      <h2>Dossiers à la une</h2>
       <p class="intro">{sum(len(v) for v in DOSSIERS.values())} dossiers publiés, classés par rubrique.</p>
       <div class="portes">
 {_cartes}
       </div>"""))
-open(_idx, "w", encoding="utf-8").write(_html)
+open(_idx, "w", encoding="utf-8").write(_page_idx)
+
+# ---------- Navigation : page « Tous les dossiers » et enrichissement des dossiers ----------
+RUB_INFO = {  # classe -> (nom, page, clé de filtre)
+    "c-pouvoirs": ("Politique &amp; Institutions", "politique-institutions.html", "politique"),
+    "c-economie": ("Économie &amp; Société", "economie-societe.html", "economie"),
+    "c-affaires": ("Affaires &amp; Enquêtes", "affaires-enquetes.html", "affaires"),
+}
+
+def _texte_brut(h):
+    return _html.unescape(re.sub(r"<[^>]+>", " ", h))
+
+def _temps_lecture(fichier):
+    contenu = open(os.path.join(OUT, fichier), encoding="utf-8").read()
+    corps = contenu.split('<main id="contenu">', 1)[1].split("</main>", 1)[0]
+    mots = len(_texte_brut(corps).split())
+    return max(1, round(mots / 220))
+
+# Page « Tous les dossiers »
+_liste = []
+for c in ["c-pouvoirs", "c-economie", "c-affaires"]:
+    for h, t, d in DOSSIERS.get(c, []):
+        _liste.append((c, h, t, d, _temps_lecture(h)))
+
+def _texte_recherche(h, t, d):
+    # texte intégral du dossier, sans les sources ni l'historique
+    contenu = open(os.path.join(OUT, h), encoding="utf-8").read()
+    corps = contenu.split('<main id="contenu">', 1)[1].split("<h2>Sources</h2>", 1)[0]
+    brut = _texte_brut(t + " " + d + " " + corps).lower()
+    return _html.escape(re.sub(r"\s+", " ", brut))
+
+_cartes_toutes = "\n".join(f'''        <a class="porte {c}" href="{h}" data-rubrique="{RUB_INFO[c][2]}" data-texte="{_texte_recherche(h, t, d)}">
+          <p class="surtitre">{RUB_INFO[c][0]}</p>
+          <h3>{t}</h3>
+          <p>{d}</p>
+          <span class="suite">Lire · {m} min</span>
+        </a>''' for c, h, t, d, m in _liste)
+
+_filtres = "".join(f'<button type="button" class="filtre" data-filtre="{k}" aria-pressed="false">{n}</button>' for _, (n, _p, k) in RUB_INFO.items())
+dossiers_page = tete("Tous les dossiers", f"{len(_liste)} dossiers documentés",
+                     "Cherchez par mot-clé ou filtrez par rubrique. Chaque dossier sépare les faits établis, les débats et ce qu'on ne sait pas.") + "\n" + section(f"""      <div class="barre-recherche" id="recherche">
+        <label for="champ-recherche" class="surtitre">Rechercher</label>
+        <input type="search" id="champ-recherche" placeholder="Dette, Outreau, retraites, logement…" autocomplete="off">
+        <div class="filtres" role="group" aria-label="Filtrer par rubrique">
+          <button type="button" class="filtre" data-filtre="tous" aria-pressed="true">Toutes les rubriques</button>{_filtres}
+        </div>
+        <p class="compteur" aria-live="polite"><span id="nb-resultats">{len(_liste)}</span> dossiers</p>
+      </div>
+      <div class="portes" id="liste-dossiers">
+{_cartes_toutes}
+      </div>
+      <p class="vide-bloc" id="aucun-resultat" hidden>Aucun dossier ne correspond. Essayez un autre mot ou une autre rubrique.</p>""")
+page("dossiers.html", "Tous les dossiers", "Les dossiers du Petit Monographe : recherche par mot-clé et par rubrique.", dossiers_page)
+
+# Enrichissement de chaque dossier : fil d'Ariane, temps de lecture, sommaire, « À lire aussi »
+for c, h, t, d, m in _liste:
+    chemin = os.path.join(OUT, h)
+    s_ = open(chemin, encoding="utf-8").read()
+    nom, page_rub, _k = RUB_INFO[c]
+    # identifiants sur les intertitres de l'article
+    debut = s_.index('<article class="section dossier">')
+    fin = s_.index("</article>", debut)
+    art = s_[debut:fin]
+    titres = []
+    def _ancre(mt):
+        txt = _texte_brut(mt.group(1)).strip()
+        ident = re.sub(r"[^a-z0-9]+", "-", _html.unescape(txt).lower().translate(str.maketrans("àâäéèêëîïôöùûüçœ", "aaaeeeeiioouuuco"))).strip("-")
+        titres.append((ident, mt.group(1)))
+        return f'<h2 id="{ident}">{mt.group(1)}</h2>'
+    art = re.sub(r"<h2>(.*?)</h2>", _ancre, art)
+    sommaire_items = "".join(f'<li><a href="#{i}">{tx}</a></li>' for i, tx in titres)
+    sommaire = f'''<details class="sommaire" open>
+          <summary>Sommaire</summary>
+          <ol>{sommaire_items}</ol>
+        </details>'''
+    # mise en page en deux colonnes : texte + sommaire
+    art = art.replace('<div class="prose">', f'''<div class="dossier-grille">
+        <aside class="dossier-cote">{sommaire}</aside>
+        <div class="prose">''', 1)
+    art = art.rstrip()
+    art = art[: art.rfind("</div>")]  # ferme .conteneur plus tard
+    autres = [x for x in DOSSIERS.get(c, []) if x[0] != h][:3]
+    lire_aussi = "".join(f'''<a class="porte {c}" href="{ah}"><p class="surtitre">Dossier</p><h3>{at}</h3><span class="suite">Lire le dossier</span></a>''' for ah, at, _ad in autres)
+    art = art.rstrip()
+    if art.endswith("</div>"):
+        art = art[: art.rfind("</div>")]
+    art += f'''</div>
+      </div>
+    </div>
+  '''
+    s_ = s_[:debut] + art + s_[fin:]
+    s_ = s_.replace("</article>", f'''</article>
+  <section class="section a-lire-aussi">
+    <div class="conteneur">
+      <h2>À lire aussi</h2>
+      <div class="portes">{lire_aussi}</div>
+      <p class="retour-rubrique"><a href="{page_rub}">Tous les dossiers de la rubrique {nom}</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+    </div>
+  </section>''', 1)
+    # fil d'Ariane et temps de lecture dans l'en-tête
+    s_ = re.sub(r'(<section class="tete-page [^"]*">\s*<div class="conteneur">)',
+                lambda mm: mm.group(1) + f'''
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="{page_rub}">{nom}</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>''', s_, count=1)
+    s_ = s_.replace('<p class="meta-dossier">', f'<p class="meta-dossier">Lecture : {m} min · ', 1)
+    open(chemin, "w", encoding="utf-8").write(s_)

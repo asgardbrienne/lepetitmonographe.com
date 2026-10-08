@@ -18,43 +18,59 @@
 </head>
 <body>
 
+<a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur">
     <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="36" height="36"><span>Le Petit Monographe</span></a>
-    <nav class="nav" aria-label="Navigation principale">
+    <div class="entete-actions">
+      <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Rechercher</span>
+      </a>
+      <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
+      </button>
+    </div>
+    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+      <a href="dossiers.html">Dossiers</a>
       <a href="politique-institutions.html">Politique</a>
       <a href="economie-societe.html">Économie &amp; Société</a>
       <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
       <a href="livres.html">Livres</a>
-      <a href="methode.html">Notre méthode</a>
-      <a href="a-propos.html">À propos</a>
+      <a href="methode.html">Méthode</a>
     </nav>
   </div>
 </header>
 
-<main>
+<main id="contenu">
   <section class="tete-page c-economie">
     <div class="conteneur">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="economie-societe.html">Économie &amp; Société</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
       <p class="surtitre">Économie &amp; Société · Dossier</p>
       <h1>Fraude fiscale et fraude sociale : ce que l'on mesure et ce que l'on estime</h1>
       <p class="chapeau">Plus de 20 milliards d'euros de fraudes ont été détectés et redressés en 2025. Ce chiffre ne mesure ni la fraude totale ni les sommes effectivement récupérées.</p>
-      <p class="meta-dossier">Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
+      <p class="meta-dossier">Lecture : 4 min · Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
     </div>
   </section>
 
   <article class="section dossier">
     <div class="conteneur">
-      <div class="prose">
+      <div class="dossier-grille">
+        <aside class="dossier-cote"><details class="sommaire" open>
+          <summary>Sommaire</summary>
+          <ol><li><a href="#trois-chiffres-a-ne-pas-confondre">Trois chiffres à ne pas confondre</a></li><li><a href="#la-fraude-detectee">La fraude détectée</a></li><li><a href="#la-fraude-estimee">La fraude estimée</a></li><li><a href="#le-debat">Le débat</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </details></aside>
+        <div class="prose">
         <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d'origine avant mise en ligne.</p>
         <aside class="essentiel">
           <p class="surtitre">L'essentiel</p>
           <ul><li>En 2025, les montants de fraudes fiscales et sociales détectés et redressés ont dépassé 20 milliards d'euros, selon le ministère de l'Économie <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Le Haut Conseil du financement de la protection sociale estime la fraude sociale à environ 14 milliards d'euros en 2025, dont plus de la moitié liée au travail dissimulé <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Montant détecté, montant estimé et montant recouvré sont trois choses différentes ; les confondre fausse le débat.</li><li>Il n'existe pas d'estimation officielle récente et complète de la fraude fiscale totale.</li></ul>
         </aside>
-        <h2>Trois chiffres à ne pas confondre</h2>
+        <h2 id="trois-chiffres-a-ne-pas-confondre">Trois chiffres à ne pas confondre</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le <strong>montant détecté ou redressé</strong> est ce que les administrations réclament à la suite de leurs contrôles. Le <strong>montant recouvré</strong> est ce qui est effectivement encaissé, souvent bien plus tard et en partie seulement. Le <strong>montant estimé</strong> est une évaluation statistique de l'ensemble de la fraude, y compris celle qui n'est jamais détectée.</p>
         </aside>
-        <h2>La fraude détectée</h2>
+        <h2 id="la-fraude-detectee">La fraude détectée</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>En 2025, les montants détectés et redressés au titre des fraudes fiscales et sociales ont franchi pour la première fois le seuil de 20 milliards d'euros, selon le ministère de l'Économie <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>. Côté fiscal, 17,1 milliards d'euros de droits et pénalités ont été réclamés <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
@@ -64,7 +80,7 @@
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>L'Assurance maladie indique avoir stoppé environ 723 millions d'euros de fraudes en 2025, dont 49 millions liés aux arrêts de travail <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup>.</p>
         </aside>
-        <h2>La fraude estimée</h2>
+        <h2 id="la-fraude-estimee">La fraude estimée</h2>
         <aside class="encadre"><span class="etiquette">Estimation</span>
           <p>Le Haut Conseil du financement de la protection sociale (HCFiPS) estime la fraude sociale à environ 14 milliards d'euros pour 2025, contre 13 milliards l'année précédente. Selon lui, la hausse vient surtout d'effets de méthode et de périmètre ; la fréquence de la fraude serait à peu près stable <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
         </aside>
@@ -77,13 +93,13 @@
         <aside class="encadre"><span class="etiquette">À noter</span>
           <p>Une estimation de fraude repose sur des contrôles aléatoires extrapolés à l'ensemble des dossiers. Sa marge d'incertitude est importante et sa méthode change d'une année à l'autre.</p>
         </aside>
-        <h2>Le débat</h2>
+        <h2 id="le-debat">Le débat</h2>
         <aside class="encadre"><span class="etiquette">Débat</span>
           <p>Une partie du débat public se concentre sur la fraude aux prestations sociales commise par des assurés. Une autre insiste sur la fraude fiscale des entreprises et des ménages aisés et sur le travail dissimulé. Les chiffres disponibles montrent que la fraude sociale estimée provient majoritairement des cotisations non versées et non des prestations <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup> ; ils ne permettent pas de comparer avec précision fraude fiscale et fraude sociale, faute d'estimation officielle récente de la fraude fiscale totale.</p>
         </aside>
-        <h2>Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>La fraude fiscale totale.</strong> Les chiffres qui circulent, souvent plusieurs dizaines de milliards, proviennent d'estimations anciennes ou non officielles aux méthodes discutées.</li><li><strong>Les sommes réellement recouvrées.</strong> Elles sont publiées de façon incomplète et les chiffres repris dans la presse divergent.</li><li><strong>La part de l'erreur et de la fraude.</strong> Une partie des indus résulte d'erreurs sans intention de frauder ; la distinction est difficile à établir statistiquement.</li></ul>
-        <h2>Sources</h2>
+        <h2 id="sources">Sources</h2>
         <ol class="sources">
           <li id="source-1">Ministère de l'Économie, « Agir contre les fraudes aux finances publiques », bilan 2025. <a href="https://www.economie.gouv.fr/agir-contre-les-fraudes" rel="noopener">www.economie.gouv.fr/agir-contre-les-fraudes</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Haut Conseil du financement de la protection sociale, note sur la fraude sociale, 13 janvier 2026, d'après Public Sénat et la presse spécialisée. <a href="https://www.planetecsca.fr/actualites/environnement-courtage-assurances/fraudes-sociales-hcfips-2025-evaluation/" rel="noopener">www.planetecsca.fr/actualites/environnement-courtage-assurances/fraudes-sociales-hcfips-2025-evaluation/</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
@@ -91,20 +107,49 @@
           <li id="source-4">Cour des comptes, rapport sur l'application des lois de financement de la sécurité sociale, mai 2023 (estimation de la fraude aux prestations maladie). <a href="#appel-4" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-5">Source secondaire : bilan 2025 de l'Assurance maladie repris par la presse spécialisée. <a href="https://www.ifrap.org/emploi-et-politiques-sociales/alerte-sur-le-cout-des-arrets-maladies" rel="noopener">www.ifrap.org/emploi-et-politiques-sociales/alerte-sur-le-cout-des-arrets-maladies</a> <a href="#appel-5" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2>Historique</h2>
+        <h2 id="historique">Historique</h2>
         <ul class="historique"><li>8 octobre 2026 : première publication.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
       </div>
+      </div>
     </div>
   </article>
+  <section class="section a-lire-aussi">
+    <div class="conteneur">
+      <h2>À lire aussi</h2>
+      <div class="portes"><a class="porte c-economie" href="dossier-chomage-emploi.html"><p class="surtitre">Dossier</p><h3>Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-dette-publique.html"><p class="surtitre">Dossier</p><h3>La dette publique française : niveau, coût et risques</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-budget-2027.html"><p class="surtitre">Dossier</p><h3>Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</h3><span class="suite">Lire le dossier</span></a></div>
+      <p class="retour-rubrique"><a href="economie-societe.html">Tous les dossiers de la rubrique Économie &amp; Société</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+    </div>
+  </section>
 </main>
 
 <footer class="pied">
-  <div class="conteneur">
-    <span>© 2026 Le Petit Monographe</span>
-    <span><a href="contact.html">Contact</a> · <a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></span>
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Le Petit Monographe</p>
+      <p>Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
+    </div>
+    <nav aria-label="Rubriques">
+      <p class="pied-titre">Rubriques</p>
+      <a href="dossiers.html">Tous les dossiers</a>
+      <a href="politique-institutions.html">Politique &amp; Institutions</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+    </nav>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <a href="methode.html">Notre méthode</a>
+      <a href="methode.html#errata">Errata</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
   </div>
+  <div class="conteneur pied-bas">© 2026 Le Petit Monographe</div>
 </footer>
-
+<a class="haut-de-page" href="#contenu" aria-label="Revenir en haut de la page">↑</a>
+<script src="assets/site.js" defer></script>
 </body>
 </html>

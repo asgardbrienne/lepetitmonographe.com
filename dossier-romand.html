@@ -18,43 +18,59 @@
 </head>
 <body>
 
+<a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur">
     <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="36" height="36"><span>Le Petit Monographe</span></a>
-    <nav class="nav" aria-label="Navigation principale">
+    <div class="entete-actions">
+      <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Rechercher</span>
+      </a>
+      <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
+      </button>
+    </div>
+    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+      <a href="dossiers.html">Dossiers</a>
       <a href="politique-institutions.html">Politique</a>
       <a href="economie-societe.html">Économie &amp; Société</a>
       <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
       <a href="livres.html">Livres</a>
-      <a href="methode.html">Notre méthode</a>
-      <a href="a-propos.html">À propos</a>
+      <a href="methode.html">Méthode</a>
     </nav>
   </div>
 </header>
 
-<main>
+<main id="contenu">
   <section class="tete-page c-affaires">
     <div class="conteneur">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
       <p class="surtitre">Affaires &amp; Enquêtes · Dossier</p>
       <h1>Affaire Romand : ce que la justice a établi</h1>
       <p class="chapeau">En janvier 1993, un homme qui se faisait passer depuis plus de quinze ans pour un médecin de l'Organisation mondiale de la santé tue sa femme, ses deux enfants et ses parents. Condamné à perpétuité en 1996, il a obtenu une libération conditionnelle en 2019.</p>
-      <p class="meta-dossier">Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
+      <p class="meta-dossier">Lecture : 2 min · Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
     </div>
   </section>
 
   <article class="section dossier">
     <div class="conteneur">
-      <div class="prose">
+      <div class="dossier-grille">
+        <aside class="dossier-cote"><details class="sommaire" open>
+          <summary>Sommaire</summary>
+          <ol><li><a href="#etat-de-la-procedure">État de la procédure</a></li><li><a href="#les-faits-juges">Les faits jugés</a></li><li><a href="#l-execution-de-la-peine">L'exécution de la peine</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </details></aside>
+        <div class="prose">
         <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d'origine avant mise en ligne.</p>
         <aside class="essentiel">
           <p class="surtitre">L'essentiel</p>
           <ul><li>Jean-Claude Romand a été condamné en 1996 par la cour d'assises de l'Ain à la réclusion criminelle à perpétuité, assortie d'une période de sûreté de 22 ans <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Il a tué en janvier 1993 son épouse, ses deux enfants et ses parents, au moment où le mensonge sur sa vie professionnelle allait être découvert <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Les experts psychiatres n'ont pas retenu de trouble atténuant sa responsabilité <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Le 25 avril 2019, la cour d'appel de Bourges lui a accordé une libération conditionnelle, assortie d'obligations et d'interdictions <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li></ul>
         </aside>
-        <h2>État de la procédure</h2>
+        <h2 id="etat-de-la-procedure">État de la procédure</h2>
         <aside class="encadre"><span class="etiquette">État de la procédure</span>
           <p>La condamnation est définitive. Le condamné bénéficie depuis 2019 d'une libération conditionnelle, qui comporte notamment l'interdiction d'entrer en contact avec les parties civiles et de s'exprimer dans les médias sur ses crimes <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>. Ce dossier ne traite pas de sa vie depuis sa libération.</p>
         </aside>
-        <h2>Les faits jugés</h2>
+        <h2 id="les-faits-juges">Les faits jugés</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Pendant plus de quinze ans, il a fait croire à son entourage qu'il était médecin et chercheur à l'Organisation mondiale de la santé <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
@@ -64,31 +80,60 @@
         <aside class="encadre"><span class="etiquette">Expertise</span>
           <p>Les psychiatres l'ont décrit comme atteint d'une pathologie narcissique, sans trouble susceptible d'atténuer sa responsabilité pénale <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
-        <h2>L'exécution de la peine</h2>
+        <h2 id="l-execution-de-la-peine">L'exécution de la peine</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Libérable depuis 2015 à l'issue de la période de sûreté, il a vu une première demande de libération conditionnelle rejetée le 8 février 2019 par le tribunal de l'application des peines de Châteauroux <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>. La chambre de l'application des peines de la cour d'appel de Bourges a infirmé ce refus le 25 avril 2019. La mesure comprenait deux ans de surveillance électronique, puis dix ans de mesures de contrôle <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
-        <h2>Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>Les raisons profondes de son passage à l'acte</strong>, que le procès et les expertises n'ont pas permis d'expliquer entièrement.</li></ul>
-        <h2>Sources</h2>
+        <h2 id="sources">Sources</h2>
         <ol class="sources">
           <li id="source-1">Le Temps et Macommune.info, comptes rendus de la décision de la cour d'appel de Bourges, avril 2019, citant le parquet général. <a href="https://www.letemps.ch/monde/europe/jeanclaude-romand-obtient-liberte-conditionnelle-appel" rel="noopener">www.letemps.ch/monde/europe/jeanclaude-romand-obtient-liberte-conditionnelle-appel</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Le Quotidien du médecin, « Jean-Claude Romand, le faux médecin condamné à perpétuité, demande sa libération ». <a href="https://www.lequotidiendumedecin.fr/actus-medicales/sante-publique/jean-claude-romand-le-faux-medecin-condamne-perpetuite-demande-sa-liberation" rel="noopener">www.lequotidiendumedecin.fr/actus-medicales/sante-publique/jean-claude-romand-le-faux-medecin-condamne-perpetuite-demande-sa-liberation</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2>Historique</h2>
+        <h2 id="historique">Historique</h2>
         <ul class="historique"><li>8 octobre 2026 : première publication.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
       </div>
+      </div>
     </div>
   </article>
+  <section class="section a-lire-aussi">
+    <div class="conteneur">
+      <h2>À lire aussi</h2>
+      <div class="portes"><a class="porte c-affaires" href="dossier-outreau.html"><p class="surtitre">Dossier</p><h3>Outreau : comment une erreur judiciaire collective s'est produite</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-troadec.html"><p class="surtitre">Dossier</p><h3>Affaire Troadec : ce que le procès a tranché</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-flactif.html"><p class="surtitre">Dossier</p><h3>Affaire Flactif : ce que la justice a établi</h3><span class="suite">Lire le dossier</span></a></div>
+      <p class="retour-rubrique"><a href="affaires-enquetes.html">Tous les dossiers de la rubrique Affaires &amp; Enquêtes</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+    </div>
+  </section>
 </main>
 
 <footer class="pied">
-  <div class="conteneur">
-    <span>© 2026 Le Petit Monographe</span>
-    <span><a href="contact.html">Contact</a> · <a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></span>
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Le Petit Monographe</p>
+      <p>Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
+    </div>
+    <nav aria-label="Rubriques">
+      <p class="pied-titre">Rubriques</p>
+      <a href="dossiers.html">Tous les dossiers</a>
+      <a href="politique-institutions.html">Politique &amp; Institutions</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+    </nav>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <a href="methode.html">Notre méthode</a>
+      <a href="methode.html#errata">Errata</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
   </div>
+  <div class="conteneur pied-bas">© 2026 Le Petit Monographe</div>
 </footer>
-
+<a class="haut-de-page" href="#contenu" aria-label="Revenir en haut de la page">↑</a>
+<script src="assets/site.js" defer></script>
 </body>
 </html>

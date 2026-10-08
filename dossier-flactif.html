@@ -18,43 +18,59 @@
 </head>
 <body>
 
+<a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur">
     <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="36" height="36"><span>Le Petit Monographe</span></a>
-    <nav class="nav" aria-label="Navigation principale">
+    <div class="entete-actions">
+      <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Rechercher</span>
+      </a>
+      <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
+      </button>
+    </div>
+    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+      <a href="dossiers.html">Dossiers</a>
       <a href="politique-institutions.html">Politique</a>
       <a href="economie-societe.html">Économie &amp; Société</a>
       <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
       <a href="livres.html">Livres</a>
-      <a href="methode.html">Notre méthode</a>
-      <a href="a-propos.html">À propos</a>
+      <a href="methode.html">Méthode</a>
     </nav>
   </div>
 </header>
 
-<main>
+<main id="contenu">
   <section class="tete-page c-affaires">
     <div class="conteneur">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
       <p class="surtitre">Affaires &amp; Enquêtes · Dossier</p>
       <h1>Affaire Flactif : ce que la justice a établi</h1>
       <p class="chapeau">Le 11 avril 2003, une famille de cinq personnes est tuée au Grand-Bornand, en Haute-Savoie. Le meurtrier, un voisin, a été condamné à la réclusion criminelle à perpétuité en 2006.</p>
-      <p class="meta-dossier">Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
+      <p class="meta-dossier">Lecture : 2 min · Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
     </div>
   </section>
 
   <article class="section dossier">
     <div class="conteneur">
-      <div class="prose">
+      <div class="dossier-grille">
+        <aside class="dossier-cote"><details class="sommaire" open>
+          <summary>Sommaire</summary>
+          <ol><li><a href="#etat-de-la-procedure">État de la procédure</a></li><li><a href="#les-faits-juges">Les faits jugés</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </details></aside>
+        <div class="prose">
         <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d'origine avant mise en ligne.</p>
         <aside class="essentiel">
           <p class="surtitre">L'essentiel</p>
           <ul><li>Le 30 juin 2006, la cour d'assises de la Haute-Savoie a condamné David Hotyat à la réclusion criminelle à perpétuité, assortie d'une période de sûreté de 22 ans, pour le meurtre des cinq membres de la famille Flactif <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Il a fait appel puis s'est désisté ; la condamnation est définitive <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Trois autres personnes ont été condamnées pour complicité ou aide après les faits <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>La Gendarmerie nationale présente l'affaire comme un cas d'école d'enquête criminelle <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li></ul>
         </aside>
-        <h2>État de la procédure</h2>
+        <h2 id="etat-de-la-procedure">État de la procédure</h2>
         <aside class="encadre"><span class="etiquette">État de la procédure</span>
           <p>La condamnation est définitive depuis le désistement d'appel de l'accusé. Les sources divergent sur la date de ce désistement, en 2007 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
-        <h2>Les faits jugés</h2>
+        <h2 id="les-faits-juges">Les faits jugés</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le 11 avril 2003, au Grand-Bornand, un couple et ses trois enfants sont tués. Le meurtrier, qui vivait dans un chalet voisin, a été condamné pour ces cinq meurtres <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
@@ -67,27 +83,56 @@
         <aside class="encadre"><span class="etiquette">Interprétation</span>
           <p>La jalousie à l'égard de la réussite de la famille et un conflit de voisinage sont présentés comme le mobile dans les comptes rendus du procès et dans la présentation de la Gendarmerie <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>. Le mobile retenu exactement par la cour est à vérifier dans l'arrêt.</p>
         </aside>
-        <h2>Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>Les motivations précises</strong>, qui reposent sur les déclarations des accusés.</li></ul>
-        <h2>Sources</h2>
+        <h2 id="sources">Sources</h2>
         <ol class="sources">
           <li id="source-1">Source secondaire : Wikipédia, « Affaire Flactif » ; ICI, « Affaire Flactif : il y a 20 ans, un Nordiste tuait une famille de cinq personnes en Haute-Savoie ». <a href="https://fr.wikipedia.org/wiki/Affaire_Flactif" rel="noopener">fr.wikipedia.org/wiki/Affaire_Flactif</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Gendarmerie nationale, Unité nationale de police judiciaire, « Grandes affaires criminelles : la tuerie du Grand-Bornand, l'affaire Flactif ». <a href="https://www.gendarmerie.interieur.gouv.fr/unpj/nos-publications2/grandes-affaires-decryptage/grandes-affaires-criminelles-la-tuerie-du-grand-bornand-l-affaire-flactif" rel="noopener">www.gendarmerie.interieur.gouv.fr/unpj/nos-publications2/grandes-affaires-decryptage/grandes-affaires-criminelles-la-tuerie-du-grand-bornand-l-affaire-flactif</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2>Historique</h2>
+        <h2 id="historique">Historique</h2>
         <ul class="historique"><li>8 octobre 2026 : première publication.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
       </div>
+      </div>
     </div>
   </article>
+  <section class="section a-lire-aussi">
+    <div class="conteneur">
+      <h2>À lire aussi</h2>
+      <div class="portes"><a class="porte c-affaires" href="dossier-outreau.html"><p class="surtitre">Dossier</p><h3>Outreau : comment une erreur judiciaire collective s'est produite</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-troadec.html"><p class="surtitre">Dossier</p><h3>Affaire Troadec : ce que le procès a tranché</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-gregory.html"><p class="surtitre">Dossier</p><h3>Affaire Grégory : l'état de la procédure en octobre 2026</h3><span class="suite">Lire le dossier</span></a></div>
+      <p class="retour-rubrique"><a href="affaires-enquetes.html">Tous les dossiers de la rubrique Affaires &amp; Enquêtes</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+    </div>
+  </section>
 </main>
 
 <footer class="pied">
-  <div class="conteneur">
-    <span>© 2026 Le Petit Monographe</span>
-    <span><a href="contact.html">Contact</a> · <a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></span>
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Le Petit Monographe</p>
+      <p>Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
+    </div>
+    <nav aria-label="Rubriques">
+      <p class="pied-titre">Rubriques</p>
+      <a href="dossiers.html">Tous les dossiers</a>
+      <a href="politique-institutions.html">Politique &amp; Institutions</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+    </nav>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <a href="methode.html">Notre méthode</a>
+      <a href="methode.html#errata">Errata</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
   </div>
+  <div class="conteneur pied-bas">© 2026 Le Petit Monographe</div>
 </footer>
-
+<a class="haut-de-page" href="#contenu" aria-label="Revenir en haut de la page">↑</a>
+<script src="assets/site.js" defer></script>
 </body>
 </html>

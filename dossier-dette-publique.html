@@ -18,39 +18,55 @@
 </head>
 <body>
 
+<a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur">
     <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="36" height="36"><span>Le Petit Monographe</span></a>
-    <nav class="nav" aria-label="Navigation principale">
+    <div class="entete-actions">
+      <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Rechercher</span>
+      </a>
+      <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
+      </button>
+    </div>
+    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+      <a href="dossiers.html">Dossiers</a>
       <a href="politique-institutions.html">Politique</a>
       <a href="economie-societe.html">Économie &amp; Société</a>
       <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
       <a href="livres.html">Livres</a>
-      <a href="methode.html">Notre méthode</a>
-      <a href="a-propos.html">À propos</a>
+      <a href="methode.html">Méthode</a>
     </nav>
   </div>
 </header>
 
-<main>
+<main id="contenu">
   <section class="tete-page c-economie">
     <div class="conteneur">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="economie-societe.html">Économie &amp; Société</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
       <p class="surtitre">Économie &amp; Société · Dossier</p>
       <h1>La dette publique française : niveau, coût et risques</h1>
       <p class="chapeau">La dette publique a atteint 119 % du PIB à la mi-2026 et ses intérêts augmentent. Ce que mesurent ces chiffres, ce qui fait débat et ce qu'on ne sait pas.</p>
-      <p class="meta-dossier">Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
+      <p class="meta-dossier">Lecture : 6 min · Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
     </div>
   </section>
 
   <article class="section dossier">
     <div class="conteneur">
-      <div class="prose">
+      <div class="dossier-grille">
+        <aside class="dossier-cote"><details class="sommaire" open>
+          <summary>Sommaire</summary>
+          <ol><li><a href="#ce-que-mesure-la-dette-de-maastricht">Ce que mesure la dette « de Maastricht »</a></li><li><a href="#ce-que-coute-la-dette">Ce que coûte la dette</a></li><li><a href="#les-taux-d-emprunt-et-l-ecart-avec-l-allemagne">Les taux d'emprunt et l'écart avec l'Allemagne</a></li><li><a href="#la-france-en-europe">La France en Europe</a></li><li><a href="#le-debat-a-partir-de-quand-la-dette-devient-elle-un-probleme">Le débat : à partir de quand la dette devient-elle un problème ?</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </details></aside>
+        <div class="prose">
         <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d'origine avant mise en ligne.</p>
         <aside class="essentiel">
           <p class="surtitre">L'essentiel</p>
           <ul><li>Fin juin 2026, la dette publique au sens de Maastricht atteint 3 595,5 milliards d'euros, soit 119,0 % du PIB <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Les intérêts versés par l'ensemble des administrations publiques atteindraient 91,2 milliards d'euros en 2027, selon le projet de loi de finances ; la seule charge de la dette de l'État est estimée à 72,9 milliards <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Le taux d'emprunt à 10 ans de la France est d'environ 4,8 % début octobre 2026, avec un écart de plus d'un point avec l'Allemagne <sup class="appel"><a href="#source-4" id="appel-4">4</a></sup>.</li><li>Aucun seuil de dette ne fait consensus au-delà duquel un pays ferait défaut : le risque dépend surtout du coût du refinancement et de la confiance des prêteurs.</li></ul>
         </aside>
-        <h2>Ce que mesure la dette « de Maastricht »</h2>
+        <h2 id="ce-que-mesure-la-dette-de-maastricht">Ce que mesure la dette « de Maastricht »</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>La dette au sens de Maastricht est la dette brute de l'ensemble des administrations publiques : l'État, les administrations de sécurité sociale et les collectivités locales. Elle est publiée chaque trimestre par l'Insee et sert aux comparaisons européennes. Fin juin 2026, elle s'établit à 3 595,5 milliards d'euros, soit 119,0 % du PIB, contre 117,5 % fin mars 2026 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
@@ -61,7 +77,7 @@
           <p>La dette nette, qui retranche certains actifs financiers des administrations, atteint 3 366,8 milliards d'euros, soit 111,4 % du PIB <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
         <p>Le ratio rapporte un stock (la dette accumulée) à un flux (la richesse produite en un an). Il augmente si la dette croît plus vite que le PIB en valeur. Un pays peut donc voir son ratio monter avec un déficit stable si sa croissance ralentit.</p>
-        <h2>Ce que coûte la dette</h2>
+        <h2 id="ce-que-coute-la-dette">Ce que coûte la dette</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le projet de loi de finances pour 2027, déposé le 1er octobre 2026, chiffre la charge de la dette de l'État à 72,9 milliards d'euros en 2027, contre 62,6 milliards en 2026 <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
         </aside>
@@ -74,16 +90,16 @@
         <aside class="encadre"><span class="etiquette">Interprétation</span>
           <p>La charge d'intérêts augmente parce que la dette émise quand les taux étaient très bas, notamment pendant la crise sanitaire, est progressivement remplacée par de la dette émise à des taux plus élevés. Cet effet est progressif : fin mai 2026, la durée de vie moyenne de la dette négociable de l'État est de 8 ans et 200 jours <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>. Une hausse des taux ne se répercute donc que lentement sur l'ensemble du stock, mais elle continue de peser plusieurs années.</p>
         </aside>
-        <h2>Les taux d'emprunt et l'écart avec l'Allemagne</h2>
+        <h2 id="les-taux-d-emprunt-et-l-ecart-avec-l-allemagne">Les taux d'emprunt et l'écart avec l'Allemagne</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le 7 octobre 2026, le taux à 10 ans de la France s'établit à environ 4,83 %, contre 3,49 % pour l'Allemagne, soit un écart de 134 points de base. Mi-septembre 2026, cet écart avait franchi 100 points de base pour la première fois depuis 2012 <sup class="appel"><a href="#source-4" id="appel-4">4</a></sup>. Les valeurs exactes varient selon l'heure et le fournisseur de données : il s'agit de sources de presse financière, donc secondaires.</p>
         </aside>
         <p>L'écart avec l'Allemagne, souvent appelé « spread », mesure le supplément que les prêteurs exigent pour prêter à la France plutôt qu'à l'Allemagne. Il reflète la perception du risque, mais aussi d'autres facteurs comme la liquidité des titres.</p>
-        <h2>La France en Europe</h2>
+        <h2 id="la-france-en-europe">La France en Europe</h2>
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Au premier trimestre 2026, la dette publique représente 88,9 % du PIB en moyenne dans la zone euro. Elle atteint 138,9 % en Italie et 117,5 % en France. La Grèce, l'Italie et la France ont les ratios les plus élevés de la zone <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup>. Ces chiffres proviennent de reprises du communiqué d'Eurostat et de la Banque de France.</p>
         </aside>
-        <h2>Le débat : à partir de quand la dette devient-elle un problème ?</h2>
+        <h2 id="le-debat-a-partir-de-quand-la-dette-devient-elle-un-probleme">Le débat : à partir de quand la dette devient-elle un problème ?</h2>
         <aside class="encadre"><span class="etiquette">Débat</span>
           <p>Il n'existe pas de seuil reconnu au-delà duquel une dette devient insoutenable. La dette brute du Japon dépasse 200 % du PIB selon les estimations disponibles, entre 230 % et 250 % selon les sources et les définitions <sup class="appel"><a href="#source-8" id="appel-8">8</a></sup>, sans crise de financement, quand d'autres pays ont connu des crises avec des ratios bien plus bas. La différence tient notamment à la part de la dette détenue par les résidents et par la banque centrale.</p>
         </aside>
@@ -93,9 +109,9 @@
         <aside class="encadre"><span class="etiquette">Fait établi</span>
           <p>Le Haut Conseil des finances publiques juge « très peu vraisemblable » le retour du déficit public sous 3 % du PIB en 2029, sauf amélioration nette de la conjoncture <sup class="appel"><a href="#source-6" id="appel-6">6</a></sup>.</p>
         </aside>
-        <h2>Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>L'évolution des taux.</strong> Elle dépend de la conjoncture, de la politique de la Banque centrale européenne et de la confiance des prêteurs, notamment pendant la campagne présidentielle de 2027.</li><li><strong>Le niveau de dette fin 2026 et 2027.</strong> Le projet de loi de finances prévoit 121,7 % du PIB <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup> ; cette prévision dépend de la croissance et du déficit effectivement réalisés.</li><li><strong>Le seuil de rupture.</strong> Aucune méthode ne permet de dire à quel niveau de dette ou de taux les prêteurs cesseraient de prêter à des conditions acceptables.</li></ul>
-        <h2>Sources</h2>
+        <h2 id="sources">Sources</h2>
         <ol class="sources">
           <li id="source-1">Insee, « À la fin du deuxième trimestre 2026, le ratio de dette publique s'établit à 119,0 % du PIB », Informations rapides n° 239, 29 septembre 2026. <a href="https://www.insee.fr/fr/statistiques/9053525" rel="noopener">www.insee.fr/fr/statistiques/9053525</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Projet de loi de finances pour 2027, Assemblée nationale, déposé le 1er octobre 2026, et reprises de presse des chiffres de charge de la dette. <a href="https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf" rel="noopener">www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
@@ -106,20 +122,49 @@
           <li id="source-7">Agence France Trésor, bulletin mensuel de juin 2026 (durée de vie moyenne de la dette négociable fin mai 2026). <a href="https://www.aft.gouv.fr/files/medias-aft/7_Publications/7.2_BM/433_Bulletin%20mensuel%20juin%202026.pdf" rel="noopener">www.aft.gouv.fr/files/medias-aft/7_Publications/7.2_BM/433_Bulletin%20mensuel%20juin%202026.pdf</a> <a href="#appel-7" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-8">Sources secondaires : estimations du FMI reprises par BNP Paribas Economic Research (avril 2025) et Bpifrance (fiche pays Japon). Le chiffre varie selon la définition retenue. <a href="https://economic-research.bnpparibas.com/pdf/fr-FR/Japon-Craintes-exterieures-pause-ajustement-monetaire-18/04/2025,51474" rel="noopener">economic-research.bnpparibas.com/pdf/fr-FR/Japon-Craintes-exterieures-pause-ajustement-monetaire-18/04/2025,51474</a> <a href="#appel-8" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2>Historique</h2>
+        <h2 id="historique">Historique</h2>
         <ul class="historique"><li>8 octobre 2026 : première publication.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
       </div>
+      </div>
     </div>
   </article>
+  <section class="section a-lire-aussi">
+    <div class="conteneur">
+      <h2>À lire aussi</h2>
+      <div class="portes"><a class="porte c-economie" href="dossier-chomage-emploi.html"><p class="surtitre">Dossier</p><h3>Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-budget-2027.html"><p class="surtitre">Dossier</p><h3>Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-niches-fiscales.html"><p class="surtitre">Dossier</p><h3>Les niches fiscales : combien elles coûtent et ce que l'on sait de leur efficacité</h3><span class="suite">Lire le dossier</span></a></div>
+      <p class="retour-rubrique"><a href="economie-societe.html">Tous les dossiers de la rubrique Économie &amp; Société</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+    </div>
+  </section>
 </main>
 
 <footer class="pied">
-  <div class="conteneur">
-    <span>© 2026 Le Petit Monographe</span>
-    <span><a href="contact.html">Contact</a> · <a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></span>
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Le Petit Monographe</p>
+      <p>Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
+    </div>
+    <nav aria-label="Rubriques">
+      <p class="pied-titre">Rubriques</p>
+      <a href="dossiers.html">Tous les dossiers</a>
+      <a href="politique-institutions.html">Politique &amp; Institutions</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+    </nav>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <a href="methode.html">Notre méthode</a>
+      <a href="methode.html#errata">Errata</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
   </div>
+  <div class="conteneur pied-bas">© 2026 Le Petit Monographe</div>
 </footer>
-
+<a class="haut-de-page" href="#contenu" aria-label="Revenir en haut de la page">↑</a>
+<script src="assets/site.js" defer></script>
 </body>
 </html>
