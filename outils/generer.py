@@ -252,9 +252,8 @@ page("contact.html", "Contact", "Contacter Le Petit Monographe : presse, lecteur
 # ---------- Mentions légales ----------
 mentions = tete("Informations légales", "Mentions légales", "") + "\n" + section(f"""      <div class="prose">
         <h2>Éditeur du site</h2>
-        <p>{A("Identité de l'éditeur (nom ou dénomination, adresse, e-mail), ou, pour un particulier publiant à titre non professionnel, mention que ces informations ont été communiquées à l'hébergeur")}</p>
-        <h2>Directeur de la publication</h2>
-        <p>{A("Nom du directeur de la publication")}</p>
+        <p>Ce site est édité par une personne physique, à titre non professionnel. Conformément à la loi pour la confiance dans l'économie numérique, son identité a été communiquée à l'hébergeur et n'est pas rendue publique.</p>
+        <p>Contact : voir la page <a href="contact.html">Contact</a>.</p>
         <h2>Hébergement</h2>
         <p>{A("Hébergeur : dépend de la solution technique retenue")}</p>
         <h2>Liens vers Amazon</h2>
