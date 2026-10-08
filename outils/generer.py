@@ -121,27 +121,35 @@ RUBRIQUES = [
      "Chronologies judiciaires, pièces du dossier, expertises, faits établis et hypothèses."),
 ]
 
+AMAZON_MACRON = "https://amzn.eu/d/01F1zk6T"
+AMAZON_COMPTES = "https://amzn.eu/d/05zZjSbI"
 LIVRES = {
     "c-pouvoirs": [('<a href="livre-emmanuel-macron-le-bilan.html">Emmanuel Macron, le bilan</a>',
-                    "Promesses, réformes, crises et affaires : la présidence passée au crible des faits (2017-2026).")],
+                    "Promesses, réformes, crises et affaires : la présidence passée au crible des faits (2017-2026).",
+                    AMAZON_MACRON, "assets/couverture-macron.png")],
     "c-economie": [("Comment redresser les comptes de la France",
-                    "Faits, débats, calculs et propositions séparés, avec le degré de certitude de chaque élément. " + A("Titre exact et résumé à valider"))],
-    "c-affaires": [(A("Titre de la monographie"), A("Résumé en deux phrases"))],
+                    "Dette, déficit, retraites, dépenses publiques : 17 mesures chiffrées pour agir d'ici 2036. Faits, débats, calculs et propositions séparés.",
+                    AMAZON_COMPTES, "assets/couverture-comptes.png")],
+    "c-affaires": [(A("Titre de la monographie"), A("Résumé en deux phrases"), None, None)],
 }
 COLLECTION = {"c-pouvoirs": "Pouvoirs &amp; Société", "c-economie": "Pouvoirs &amp; Société", "c-affaires": "Affaires &amp; Enquêtes"}
 
-def carte_livre(classe, titre, resume):
+def carte_livre(classe, titre, resume, lien=None, couverture=None):
+    visuel = (f'<img src="{couverture}" alt="" width="142" height="231" loading="lazy">' if couverture
+              else COLLECTION[classe])
+    bouton = (f'<a class="bouton" href="{lien}" target="_blank" rel="noopener">Voir sur Amazon</a>' if lien
+              else f'<a class="bouton" href="#" rel="noopener">{A("Lien Amazon")}</a>')
     return f'''        <article class="livre {classe}">
-          <div class="couverture" aria-hidden="true">{COLLECTION[classe]}</div>
+          <div class="couverture" aria-hidden="true">{visuel}</div>
           <div>
             <h4>{titre}</h4>
             <p>{resume}</p>
-            <a class="bouton" href="#" rel="noopener">{A("Lien Amazon")}</a>
+            {bouton}
           </div>
         </article>'''
 
 def grille_livres(classes):
-    cartes = "\n".join(carte_livre(c, t, r) for c in classes for t, r in LIVRES[c])
+    cartes = "\n".join(carte_livre(c, *l) for c in classes for l in LIVRES[c])
     return f'      <div class="livres">\n{cartes}\n      </div>'
 
 TYPOLOGIE = '''      <p class="typologie" aria-label="Fait établi, différent de témoignage, différent d'interprétation, différent d'hypothèse, différent de proposition">
@@ -390,11 +398,16 @@ parties = "\n".join(parties)
 
 macron = f'''  <section class="tete-page c-pouvoirs">
     <div class="conteneur">
+      <div class="livre-entete">
+      <img class="couverture-grande" src="assets/couverture-macron.png" alt="Couverture du livre Emmanuel Macron, le bilan" width="142" height="231">
+      <div>
       <p class="surtitre">Collection Pouvoirs &amp; Société</p>
       <h1>Emmanuel Macron, le bilan</h1>
       <p class="chapeau">Promesses, réformes, crises et affaires : la présidence passée au crible des faits (2017-2026).</p>
       <p style="margin:24px 0 0;font-size:.875rem;color:var(--encre-douce)">Première édition, octobre 2026 · Faits et données arrêtés au 6 octobre 2026</p>
-      <p style="margin:20px 0 0"><a class="bouton" href="#" rel="noopener">{A("Lien Amazon")}</a></p>
+      <p style="margin:20px 0 0"><a class="bouton" href="{AMAZON_MACRON}" target="_blank" rel="noopener">Voir sur Amazon</a></p>
+      </div>
+      </div>
     </div>
   </section>
 ''' + section("""      <div class="prose">

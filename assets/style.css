@@ -479,7 +479,7 @@ a:hover { color: var(--marque); }
 .pied-grille a:hover { color: var(--encre); text-decoration: underline; }
 .pied-marque { font: 600 1rem/1.2 var(--display); text-transform: uppercase; letter-spacing: .08em; color: var(--encre); margin: 0 0 8px; }
 .pied-titre { font: 600 .75rem/1.2 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--marque-texte); margin: 0 0 4px; }
-.pied-bas { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--filet); font-size: .8125rem; display: block !important; }
+.pied-bas { margin-top: 32px; padding-top: 0; font-size: .8125rem; display: block !important; }
 
 /* Retour en haut */
 .haut-de-page {
@@ -506,3 +506,9 @@ a:hover { color: var(--marque); }
   .logo span { font-size: .72rem; }
   .bouton-recherche, .bouton-menu { padding: 8px 10px; }
 }
+
+/* Couvertures */
+.couverture img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.livre-entete { display: grid; gap: 24px; align-items: start; }
+@media (min-width: 640px) { .livre-entete { grid-template-columns: 142px minmax(0, 1fr); gap: 36px; } }
+.couverture-grande { width: 142px; height: auto; box-shadow: 0 6px 18px rgba(10, 29, 52, .18); }
