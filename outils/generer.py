@@ -65,7 +65,7 @@ def page(fichier, titre, description, corps, noindex=False):
   <div class="conteneur pied-grille">
     <div>
       <p class="pied-marque">Le Petit Monographe</p>
-      <p>Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
+      <p>Les faits d'abord. L'opinion reste au lecteur.</p>
     </div>
     <nav aria-label="Rubriques">
       <p class="pied-titre">Rubriques</p>
@@ -204,7 +204,7 @@ accueil = f'''  <section class="ouverture embleme">
       <p class="intro">Quand un article ne suffit plus, les livres approfondissent l'ensemble du dossier.</p>
 {grille_livres(["c-pouvoirs", "c-economie", "c-affaires"])}""")}
 
-{section("""      <p class="signature" style="border:0;padding:0;margin:0">Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
+{section("""      <p class="signature" style="border:0;padding:0;margin:0">Les faits d'abord. L'opinion reste au lecteur.</p>
       <p style="margin:8px 0 0;color:var(--encre-douce)"><a href="a-propos.html">À propos du Petit Monographe</a></p>""")}'''
 
 page("index.html", "Accueil",
@@ -325,7 +325,7 @@ apropos = tete("À propos", "Le Petit Monographe", "Une publication indépendant
         <p>La méthode repose sur un principe simple : distinguer ce qui est établi de ce qui relève de l'interprétation, du débat ou de l'hypothèse. Chaque dossier s'appuie sur des sources identifiées et datées : données publiques, rapports officiels, décisions de justice, travaux parlementaires, archives, auditions et autres documents vérifiables. Lorsque les sources divergent ou qu'un élément demeure incertain, cette incertitude est signalée.</p>
         <p>Dans les affaires judiciaires, les faits établis, les accusations, les témoignages, les expertises et les hypothèses sont présentés séparément, dans le respect de la présomption d'innocence et de l'état réel des procédures.</p>
         <p>L'objectif n'est pas de dire au lecteur ce qu'il doit penser, mais de lui donner les éléments nécessaires pour comprendre, vérifier et se forger sa propre opinion.</p>
-        <p class="signature">Les faits d'abord. Les désaccords ensuite. L'opinion reste au lecteur.</p>
+        <p class="signature">Les faits d'abord. L'opinion reste au lecteur.</p>
       </div>""")
 page("a-propos.html", "À propos", "Le Petit Monographe, publication indépendante de dossiers documentaires sur la politique, l'économie, la société et les affaires judiciaires.", apropos)
 
