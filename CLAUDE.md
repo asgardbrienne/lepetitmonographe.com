@@ -28,6 +28,8 @@ Toute rédaction ou modification de contenu sur ce site applique ces règles san
 - Le site ne mentionne pas le nom de l'auteur.
 - Pas de tiret cadratin dans les textes.
 - Les pages sont générées par `outils/generer.py` (`python3 outils/generer.py .`).
+- Charte graphique V1.1 (Dossier maître du 9 octobre 2026) : ivoire #F8F5EE, bleu nuit #142742, or mat #B69758 (filets, repères « Dossier » et « Collection », jamais de texte long), gris #59616D, blanc éditorial #FFFCF8, vert preuve #2A6654 réservé au statut Fait établi. Contrastes WCAG AA.
+- Affichage des étiquettes : cinq statuts (Fait établi, Témoignage, Interprétation, Hypothèse, Proposition). Les nuances de la règle 1 restent visibles en précision sous le statut : [Estimation] et [Débat] et [Expertise] s'affichent en Interprétation, [Allégation] en Témoignage, [Élément matériel] et [État de la procédure] en Fait établi.
 
 ## Images
 

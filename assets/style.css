@@ -1,25 +1,27 @@
 /* Le Petit Monographe : feuille de style
-   Direction : revue de presse haut de gamme. Ivoire, bleu nuit, or.
-   Titres en Playfair Display, texte en Source Serif, interface en petites capitales. */
+   Charte graphique V1.1 (9 octobre 2026) : ivoire dominant, bleu nuit structurant, or mat en accent.
+   Titres en Cormorant Garamond, lecture en Source Serif 4, interface en Source Sans 3. */
 
 :root {
-  --papier: #fbf8f1;
-  --papier-2: #f4efe4;
-  --encre: #0b1a2e;
-  --encre-douce: #555b66;
-  --encre-pale: #858a93;
-  --filet: #e3dccd;
-  --nuit: #0b1a2e;
-  --or: #b0915a;
-  --or-texte: #87692e;
-  --pouvoirs: #1c3a66;
-  --economie: #87692e;
-  --affaires: #6b4b3a;
+  --papier: #f8f5ee;      /* Ivoire : fond dominant */
+  --papier-2: #f0eadf;
+  --blanc: #fffcf8;       /* Blanc éditorial : cartes */
+  --encre: #142742;       /* Bleu nuit : titres, navigation, boutons */
+  --encre-douce: #59616d; /* Gris secondaire : descriptions, métadonnées */
+  --encre-pale: #59616d;
+  --filet: #e2dbcc;
+  --nuit: #142742;
+  --or: #b69758;          /* Or mat : filets, repères, jamais de texte long */
+  --or-texte: #7d6229;    /* Or assombri pour les petits repères écrits (contraste AA) */
+  --preuve: #2a6654;      /* Vert preuve : réservé au statut Fait établi */
+  --pouvoirs: #142742;
+  --economie: #7d6229;
+  --affaires: #4a3a33;
   --marque: var(--or);
   --marque-texte: var(--or-texte);
-  --display: "Playfair Display", "Didot", "Bodoni 72", Georgia, serif;
+  --display: "Cormorant Garamond", "Garamond", Georgia, serif;
   --serif: "Source Serif 4", "Iowan Old Style", Georgia, serif;
-  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --sans: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
   --largeur: 1180px;
   --texte: 680px;
   color-scheme: light;
@@ -388,3 +390,87 @@ h1, h2, h3, h4 { text-wrap: balance; }
 .embleme .chapeau { margin-top: 18px; font-size: 1.0625rem; }
 .embleme .engagements { display: none; }
 #a-la-une { padding-top: 48px; }
+
+/* =====================================================================
+   Charte graphique V1.1 : réglages de lecture, statuts, repères dorés
+   ===================================================================== */
+
+/* Titres : Cormorant demande un corps et une graisse un peu plus forts */
+h1, h2, h3, h4, .logo, .pied-marque { font-weight: 600 !important; }
+.tete-page h1 { font-size: clamp(2.375rem, 5.6vw, 4rem); line-height: 1.04; color: var(--encre); }
+.tete-dossier h1 { font-size: clamp(2rem, 4.4vw, 3.5rem); line-height: 1.08; max-width: 22ch; }
+.section > .conteneur > h2 { font-size: clamp(2rem, 3.8vw, 2.875rem); }
+.prose h2 { font-size: clamp(1.75rem, 2.8vw, 2.25rem); }
+.porte h3 { font-size: 1.6rem; line-height: 1.15; }
+#a-la-une .porte:first-child h3 { font-size: clamp(2rem, 3.6vw, 3rem); }
+.livre h4 { font-size: 1.45rem; }
+.collection-tete h3 { font-size: 2.25rem; }
+.regles h3, .grille-methode h3 { font-size: 1.375rem; }
+.deux-lectures h3 { font-size: 1.45rem; }
+.logo { font-size: 1.125rem; }
+.embleme-nom { font-size: clamp(2.375rem, 5.4vw, 3.8rem); letter-spacing: .05em; }
+.embleme-sous, .signature, .test-inversion .question, .typologie, .pied-grille > div p:not(.pied-marque) { font-weight: 500; }
+.embleme-sous { font-size: clamp(1.3rem, 2.6vw, 1.75rem); }
+.signature { font-size: 1.5rem; }
+.test-inversion .question { font-size: clamp(1.65rem, 3.6vw, 2.5rem); }
+.barre-recherche input { font-size: clamp(1.6rem, 3.2vw, 2.25rem); font-weight: 500; }
+@media (max-width: 899px) { .nav a { font-size: 1.4rem; font-weight: 600; } .logo { font-size: .875rem; } }
+
+/* Résumés 17 à 19 px ; longue lecture 19 px, interligne 1,6 */
+.tete-page .chapeau { font-size: clamp(1.0625rem, 1.8vw, 1.1875rem); line-height: 1.55; }
+.prose { font-size: 1.1875rem; line-height: 1.62; }
+
+/* Métadonnées et repères : 12 px minimum, contraste vérifié */
+.surtitre, .pied-titre, .sous-titre-etiq, .compteur, .meta-dossier, .ariane, .suite,
+.sommaire summary, .etiquette, .filtre, .bouton, .nav-liens a, .bouton-recherche, .bouton-menu,
+.tableau-donnees thead th, .tableau-errata th, .bandeau-verif { font-size: .75rem !important; letter-spacing: .12em; }
+@media (max-width: 899px) { .nav-liens a { font-size: 1.4rem !important; letter-spacing: 0; } }
+.meta-dossier { color: var(--encre-douce); }
+.tete-dossier .meta-dossier { margin: 0 0 22px; padding: 0 0 16px; border-top: 0; border-bottom: 1px solid var(--filet); }
+.illustration figcaption, .illustration figcaption a { color: var(--encre-douce); }
+.pied-bas { color: #a9a49a; }
+
+/* L'or : seulement « Dossier », « Collection », filets et repères */
+.surtitre { color: var(--encre-douce); }
+.surtitre .or { color: var(--or-texte); }
+.bandeau .surtitre, .bandeau .surtitre .or { color: var(--or); }
+.porte:hover h3, .livre h4 a:hover, a:hover { color: var(--encre); }
+.porte:hover h3 { text-decoration: underline; text-decoration-color: var(--or); text-decoration-thickness: 1px; text-underline-offset: 5px; }
+
+/* Cartes et encadrés en blanc éditorial */
+.essentiel { background: var(--blanc); padding: 22px 24px 10px; }
+.sommaire { background: var(--blanc); padding: 16px 18px 6px; }
+
+/* Cinq statuts : libellé toujours écrit, couleur en complément, repère de forme */
+.etiquette.statut { display: inline-flex; flex-direction: column; gap: 3px; font-weight: 700; color: var(--encre); }
+.etiquette.statut::before { content: ""; display: block; width: 22px; height: 3px; background: currentColor; margin-bottom: 5px; }
+.statut-fait { color: var(--preuve) !important; }
+.statut-temoignage { color: var(--encre) !important; }
+.statut-temoignage::before { background: repeating-linear-gradient(90deg, currentColor 0 4px, transparent 4px 7px) !important; }
+.statut-interpretation { color: var(--encre) !important; }
+.statut-interpretation::before { height: 1px !important; border-bottom: 1px solid currentColor; }
+.statut-hypothese { color: var(--encre-douce) !important; }
+.statut-hypothese::before { background: repeating-linear-gradient(90deg, currentColor 0 2px, transparent 2px 5px) !important; }
+.statut-proposition { color: var(--or-texte) !important; }
+.precision { font: italic 400 .8125rem/1.35 var(--serif); letter-spacing: 0; text-transform: none; color: var(--encre-douce); }
+.etiquette-note { color: var(--encre-douce) !important; }
+@media (min-width: 760px) {
+  .prose .encadre .etiquette.statut { align-items: flex-end; }
+}
+
+/* Accueil mobile : introduction raccourcie, les dossiers arrivent plus tôt */
+@media (max-width: 699px) {
+  .embleme { padding: 28px 0 26px; }
+  .embleme-monogramme img { width: 60px; }
+  .embleme-domaines { display: none; }
+  .embleme .chapeau { margin-top: 14px; font-size: 1.0625rem; }
+  #a-la-une { padding-top: 36px; }
+}
+
+/* Livres : présentation unifiée (échelle des couvertures, boutons) */
+.livre { grid-template-columns: 120px minmax(0, 1fr); background: var(--blanc); padding: 20px; border-top: 1px solid var(--or); }
+.couverture { aspect-ratio: 2 / 3; }
+.livre .bouton { background: var(--encre); color: var(--blanc); border-color: var(--encre); }
+.livre .bouton:hover { background: var(--blanc); color: var(--encre); }
+.livres { grid-template-columns: repeat(auto-fill, minmax(min(100%, 480px), 1fr)); gap: 32px; }
+@media (min-width: 640px) { .livre { grid-template-columns: 140px minmax(0, 1fr); gap: 28px; padding: 24px; } }

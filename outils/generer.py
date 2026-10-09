@@ -36,7 +36,7 @@ def page(fichier, titre, description, corps, noindex=False):
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Source+Sans+3:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -106,6 +106,29 @@ def tete(surtitre, h1, chapeau, classe=""):
       <p class="chapeau">{chapeau}</p>
     </div>
   </section>'''
+
+# Charte V1.1 : cinq statuts d'information. Les nuances de la méthode
+# (estimation, débat, allégation, expertise...) restent visibles en précision.
+STATUTS = {
+    "Fait établi": ("Fait établi", ""),
+    "Témoignage": ("Témoignage", ""),
+    "Interprétation": ("Interprétation", ""),
+    "Hypothèse": ("Hypothèse", ""),
+    "Proposition": ("Proposition", ""),
+    "Estimation": ("Interprétation", "estimation chiffrée"),
+    "Débat": ("Interprétation", "lectures divergentes"),
+    "Expertise": ("Interprétation", "expertise"),
+    "Allégation": ("Témoignage", "allégation non établie"),
+    "Élément matériel": ("Fait établi", "élément matériel"),
+    "État de la procédure": ("Fait établi", "état de la procédure"),
+}
+SLUG = {"Fait établi": "fait", "Témoignage": "temoignage", "Interprétation": "interpretation", "Hypothèse": "hypothese", "Proposition": "proposition"}
+def badge(etiquette):
+    if etiquette not in STATUTS:
+        return f'<span class="etiquette etiquette-note">{etiquette}</span>'
+    st, prec = STATUTS[etiquette]
+    pr = f'<span class="precision">{prec}</span>' if prec else ""
+    return f'<span class="etiquette statut statut-{SLUG[st]}">{st}{pr}</span>'
 
 def section(contenu, id_=""):
     i = f' id="{id_}"' if id_ else ""
@@ -261,19 +284,18 @@ page("livres.html", "Livres", "Les monographies du Petit Monographe : collection
 
 # ---------- Méthode ----------
 ETIQ = [
-    ("Fait établi", "Vérifiable dans une source identifiée et datée : donnée publique, décision de justice, texte officiel, rapport, archive."),
-    ("Estimation", "Un chiffre calculé ou extrapolé, et non mesuré directement. Sa méthode et sa marge d'incertitude sont indiquées."),
-    ("Interprétation", "Une lecture des faits, par l'auteur ou par un tiers. Toujours attribuée, et confrontée aux lectures concurrentes."),
-    ("Débat", "Une question où des positions sérieuses divergent, sans que les faits disponibles permettent de trancher."),
-    ("Hypothèse", "Une explication possible que les éléments disponibles ne permettent ni de confirmer ni d'écarter."),
-    ("Allégation", "Une affirmation portée par une personne ou une partie, qui n'a pas été établie. Attribuée et présentée comme telle."),
-    ("Proposition", "Une piste d'action. Présentée comme un choix discutable, avec ses coûts et ses objections."),
+    ("Fait établi", "Donnée ou événement vérifiable, avec sa source et ses limites : donnée publique, texte officiel, décision de justice, rapport, archive, pièce du dossier."),
+    ("Témoignage", "Parole attribuée, datée et contextualisée. Elle ne vaut pas preuve à elle seule. Une accusation non établie entre dans cette catégorie et est présentée comme telle."),
+    ("Interprétation", "Analyse argumentée, explicitement attribuée à son auteur : économiste, institution, expert, commentateur. Les lectures concurrentes sont exposées."),
+    ("Hypothèse", "Possibilité non confirmée, avec les conditions qui permettraient de la vérifier ou de l'écarter."),
+    ("Proposition", "Mesure ou scénario, distinct des constats documentaires. Présentée comme un choix discutable, avec ses coûts et ses objections."),
 ]
 ETIQ_JUDICIAIRE = [
-    ("Témoignage", "Ce qu'une personne déclare avoir vu, entendu ou vécu. Attribué, daté, et jamais présenté comme un fait établi."),
-    ("Expertise", "L'avis d'un expert désigné, avec sa méthode et ses limites. Une expertise peut être contestée par une contre-expertise."),
-    ("Élément matériel", "Une pièce du dossier : trace, document, relevé, objet. Ce qu'elle prouve et ce qu'elle ne prouve pas sont distingués."),
-    ("État de la procédure", "Enquête, mise en examen, renvoi, procès, appel, condamnation définitive : chaque étape est nommée exactement."),
+    ("Estimation chiffrée", "Un chiffre calculé ou extrapolé, et non mesuré directement. Classé en interprétation, avec sa méthode et son auteur."),
+    ("Lectures divergentes", "Une question où des positions sérieuses s'opposent. Classée en interprétation : chaque position est attribuée."),
+    ("Expertise", "L'avis d'un expert désigné, avec sa méthode et ses limites. Classée en interprétation : une expertise peut être contredite."),
+    ("Allégation non établie", "Une affirmation portée par une personne ou une partie. Classée en témoignage, jamais en fait."),
+    ("Élément matériel, état de la procédure", "Une pièce du dossier ou une étape judiciaire exactement nommée : enquête, mise en examen, renvoi, procès, appel, condamnation définitive. Classés en fait établi lorsqu'ils sont documentés."),
 ]
 REGLES = [
     ("Séparer les niveaux d'information", "Fait établi, estimation, interprétation, débat, hypothèse, allégation, proposition. Dans les affaires judiciaires, aussi témoignage, expertise, élément matériel et état de la procédure."),
@@ -290,7 +312,7 @@ REGLES = [
     ("Laisser le lecteur juger", "Notre rôle est d'expliquer et de documenter, pas de dire pour qui voter, qui croire ou quelle conclusion politique adopter."),
 ]
 def liste_etiq(items):
-    return "\n".join(f'''        <div><span class="etiquette">{e}</span><p>{d}</p></div>''' for e, d in items)
+    return "\n".join(f'''        <div>{badge(e) if e in STATUTS else f'<span class="etiquette etiquette-note">{e}</span>'}<p>{d}</p></div>''' for e, d in items)
 regles = "\n".join(f'''        <li><h3>{t}</h3><p>{d}</p></li>''' for t, d in REGLES)
 methode = tete("Notre méthode", "Une méthode avant une opinion",
                "Rigueur. Impartialité. Traçabilité. Contradiction. Transparence.") + "\n" + section(f"""      <h2>Douze règles</h2>
@@ -301,12 +323,12 @@ methode = tete("Notre méthode", "Une méthode avant une opinion",
         <p class="surtitre">Le test avant publication</p>
         <p class="question">« Si le nom ou le camp était inversé, appliquerions-nous exactement les mêmes critères ? »</p>
         <p>Si la réponse est non, l'article n'est pas prêt.</p>
-      </div>""") + "\n" + section(f"""      <h2>Chaque information porte son étiquette</h2>
-      <p class="intro">Dans chaque dossier, la nature de l'information est indiquée. Le lecteur sait ce qu'il lit : un fait, une estimation, une interprétation ou une hypothèse.</p>
+      </div>""") + "\n" + section(f"""      <h2>Cinq statuts d'information</h2>
+      <p class="intro">Dans chaque dossier, les passages décisifs portent leur statut, écrit en toutes lettres : la couleur ne suffit jamais. Un statut indique la nature d'une information, pas un tampon de vérité.</p>
       <div class="etiquettes">
 {liste_etiq(ETIQ)}
       </div>
-      <h3 class="sous-titre-etiq">Dans les affaires judiciaires</h3>
+      <h3 class="sous-titre-etiq">Les précisions qui accompagnent un statut</h3>
       <div class="etiquettes">
 {liste_etiq(ETIQ_JUDICIAIRE)}
       </div>""") + "\n" + section("""      <h2>Errata et mises à jour</h2>
@@ -444,7 +466,7 @@ page("livre-emmanuel-macron-le-bilan.html", "Emmanuel Macron, le bilan",
 
 # ---------- Dossier : chômage et emploi ----------
 def encadre(etiquette, contenu):
-    return f'''        <aside class="encadre"><span class="etiquette">{etiquette}</span>
+    return f'''        <aside class="encadre">{badge(etiquette)}
           {contenu}
         </aside>'''
 
@@ -463,12 +485,12 @@ SOURCES_CHOMAGE = [
 ]
 sources_html = "\n".join(f'          <li id="source-{i}">{t} <a href="{u}" rel="noopener">{u.replace("https://", "")}</a> <a href="#appel-{i}" class="retour" aria-label="Retour au texte">↑</a></li>' for i, (t, u) in enumerate(SOURCES_CHOMAGE, 1))
 
-dossier = f'''  <section class="tete-page c-economie">
+dossier = f'''  <section class="tete-page tete-dossier c-economie">
     <div class="conteneur">
-      <p class="surtitre">Économie &amp; Société · Dossier</p>
+      <p class="surtitre">Dossier · Économie &amp; Société</p>
       <h1>Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres</h1>
-      <p class="chapeau">Depuis 2023, le taux de chômage augmente alors que le taux d'emploi a atteint en 2025 son plus haut niveau depuis 1975. Les deux chiffres sont exacts. Ils ne mesurent pas la même chose.</p>
       <p class="meta-dossier">Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
+      <p class="chapeau">Depuis 2023, le taux de chômage augmente alors que le taux d'emploi a atteint en 2025 son plus haut niveau depuis 1975. Les deux chiffres sont exacts. Ils ne mesurent pas la même chose.</p>
     </div>
   </section>
   <figure class="illustration">
@@ -653,12 +675,12 @@ def rendre_dossier(chemin):
     src_html = "\n".join(
         f'          <li id="source-{i}">{_inline(t)}' + (f' <a href="{u}" rel="noopener">{u.replace("https://", "")}</a>' if u else "") + f' <a href="#appel-{i}" class="retour" aria-label="Retour au texte">↑</a></li>'
         for i, (t, u) in enumerate(sources, 1))
-    corps = f'''  <section class="tete-page {c}">
+    corps = f'''  <section class="tete-page tete-dossier {c}">
     <div class="conteneur">
-      <p class="surtitre">{RUB_NOMS[meta["rubrique"]]} · Dossier</p>
+      <p class="surtitre">Dossier · {RUB_NOMS[meta["rubrique"]]}</p>
       <h1>{_inline(meta["titre"])}</h1>
-      <p class="chapeau">{_inline(meta["chapeau"])}</p>
       <p class="meta-dossier">Données arrêtées au {meta["arret"]} · Première publication le {meta["publication"]}</p>
+      <p class="chapeau">{_inline(meta["chapeau"])}</p>
     </div>
   </section>{figure_dossier(meta)}
 
@@ -833,6 +855,15 @@ for _f in glob.glob(os.path.join(OUT, "*.html")):
         if h not in _vignettes: return mm.group(0)
         return mm.group(0) + f'<span class="porte-image"><img src="{_vignettes[h][0]}" alt="" loading="lazy"></span>'
     _n = re.sub(r'(<a class="porte [^"]*" href="([^"]+)"[^>]*>)', _ajout, _t)
+    if _n != _t:
+        open(_f, "w", encoding="utf-8").write(_n)
+
+# ---------- Charte V1.1 : l'or réservé aux repères « Dossier » et « Collection » ----------
+def _or(mm):
+    return re.sub(r"\b(Dossier|Collection)\b", r'<span class="or">\1</span>', mm.group(0), count=1)
+for _f in glob.glob(os.path.join(OUT, "*.html")):
+    _t = open(_f, encoding="utf-8").read()
+    _n = re.sub(r'<p class="surtitre"[^>]*>(?:(?!</p>).)*</p>', _or, _t)
     if _n != _t:
         open(_f, "w", encoding="utf-8").write(_n)
 
