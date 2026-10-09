@@ -18,6 +18,7 @@ def page(fichier, titre, description, corps, noindex=False):
         f'      <a href="{h}"{" aria-current=\"page\"" if h == fichier else ""}>{l}</a>' for h, l in NAV)
     titre_complet = "Le Petit Monographe · Documents & enquêtes" if fichier == "index.html" else f"{titre} · Le Petit Monographe"
     robots = '\n  <meta name="robots" content="noindex">' if noindex else ""
+    url = "https://lepetitmonographe.com/" + ("" if fichier == "index.html" else fichier)
     html = f'''<!doctype html>
 <html lang="fr">
 <head>
@@ -25,6 +26,8 @@ def page(fichier, titre, description, corps, noindex=False):
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{titre_complet}</title>
   <meta name="description" content="{description}">{robots}
+  <link rel="canonical" href="{url}">
+  <meta property="og:url" content="{url}">
   <link rel="icon" href="favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta property="og:title" content="{titre_complet}">
@@ -343,7 +346,7 @@ mentions = tete("Informations légales", "Mentions légales", "") + "\n" + secti
         <p>Ce site est édité par une personne physique, à titre non professionnel. Conformément à la loi pour la confiance dans l'économie numérique, son identité a été communiquée à l'hébergeur et n'est pas rendue publique.</p>
         <p>Contact : voir la page <a href="contact.html">Contact</a>.</p>
         <h2>Hébergement</h2>
-        <p>{A("Hébergeur : dépend de la solution technique retenue")}</p>
+        <p>GitHub, Inc. (service GitHub Pages), 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, États-Unis. Site : <a href="https://github.com">github.com</a>.</p>
         <h2>Crédits photographiques</h2>
         <p>Les photographies proviennent de Wikimedia Commons et de Flickr, sous licence libre (domaine public, CC0, CC BY ou CC BY-SA). L'auteur, la licence et la source de chaque photo sont indiqués sous celle-ci, avec un lien vers sa page d'origine.</p>
         <h2>Liens vers Amazon</h2>
@@ -832,3 +835,22 @@ for _f in glob.glob(os.path.join(OUT, "*.html")):
     _n = re.sub(r'(<a class="porte [^"]*" href="([^"]+)"[^>]*>)', _ajout, _t)
     if _n != _t:
         open(_f, "w", encoding="utf-8").write(_n)
+
+# ---------- Plan du site (sitemap.xml) et robots.txt ----------
+import datetime
+_jour = datetime.date.today().isoformat()
+_urls = []
+for _f in sorted(glob.glob(os.path.join(OUT, "*.html"))):
+    _t = open(_f, encoding="utf-8").read()
+    if 'name="robots" content="noindex"' in _t or os.path.basename(_f) == "404.html":
+        continue
+    _b = os.path.basename(_f)
+    _urls.append("https://lepetitmonographe.com/" + ("" if _b == "index.html" else _b))
+_urls.sort(key=lambda u: (u != "https://lepetitmonographe.com/", u))
+with open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8") as _s:
+    _s.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
+    for _u in _urls:
+        _s.write(f"  <url><loc>{_u}</loc><lastmod>{_jour}</lastmod></url>\n")
+    _s.write("</urlset>\n")
+with open(os.path.join(OUT, "robots.txt"), "w", encoding="utf-8") as _r:
+    _r.write("User-agent: *\nAllow: /\n\nSitemap: https://lepetitmonographe.com/sitemap.xml\n")
