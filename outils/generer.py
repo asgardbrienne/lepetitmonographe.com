@@ -687,7 +687,7 @@ def rendre_dossier(chemin):
   <article class="section dossier">
     <div class="conteneur">
       <div class="prose">
-        <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d'origine avant mise en ligne.</p>
+{"" if meta.get("verifie") else '        <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d\'origine avant mise en ligne.</p>'}
         <aside class="essentiel">
           <p class="surtitre">L'essentiel</p>
           <ul>{essentiel}</ul>
@@ -700,7 +700,7 @@ def rendre_dossier(chemin):
 {src_html}
         </ol>
         <h2>Historique</h2>
-        <ul class="historique"><li>{meta["publication"]} : première publication.</li></ul>
+        <ul class="historique"><li>{meta["publication"]} : première publication.</li>{f'<li>{meta["verifie"]} : chiffres, dates et décisions relus sur les sources d\'origine.{(" " + _inline(meta["corrections"])) if meta.get("corrections") else ""}</li>' if meta.get("verifie") else ""}</ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
       </div>
     </div>
