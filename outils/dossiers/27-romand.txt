@@ -10,32 +10,38 @@ image: assets/images/romand.jpg
 image_alt: Fronton du palais de justice de Bourg-en-Bresse
 image_credit: Chabe01, CC BY-SA 4.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Palais_Justice_-_Bourg-en-Bresse_(FR01)_-_2024-03-21_-_3.jpg
+verifie: 13 octobre 2026
+corrections: Le verdict de la cour d'assises de l'Ain date de juillet 1996, le procès s'étant ouvert le 25 juin 1996 : la mention d'une divergence entre juin et juillet a été retirée ; la sortie effective de prison, le 28 juin 2019, a été ajoutée et les renvois aux sources ont été corrigés.
 ---
 ## Essentiel
-- Jean-Claude Romand a été condamné en 1996 par la cour d'assises de l'Ain à la réclusion criminelle à perpétuité, assortie d'une période de sûreté de 22 ans [1][2].
+- Jean-Claude Romand a été condamné en juillet 1996 par la cour d'assises de l'Ain à la réclusion criminelle à perpétuité, assortie d'une période de sûreté de 22 ans [1][2].
 - Il a tué en janvier 1993 son épouse, ses deux enfants et ses parents, au moment où le mensonge sur sa vie professionnelle allait être découvert [1].
-- Les experts psychiatres n'ont pas retenu de trouble atténuant sa responsabilité [1].
-- Le 25 avril 2019, la cour d'appel de Bourges lui a accordé une libération conditionnelle, assortie d'obligations et d'interdictions [1].
+- Les experts psychiatres n'ont pas retenu de trouble atténuant sa responsabilité [2].
+- Le 25 avril 2019, la cour d'appel de Bourges lui a accordé une libération conditionnelle, assortie d'obligations et d'interdictions ; il est sorti de prison le 28 juin 2019 [1][3].
 
 ## État de la procédure
 
-[État de la procédure] La condamnation est définitive. Le condamné bénéficie depuis 2019 d'une libération conditionnelle, qui comporte notamment l'interdiction d'entrer en contact avec les parties civiles et de s'exprimer dans les médias sur ses crimes [1]. Ce dossier ne traite pas de sa vie depuis sa libération.
+[État de la procédure] La condamnation est définitive. Le condamné bénéficie depuis 2019 d'une libération conditionnelle, qui comporte notamment l'interdiction d'entrer en relation avec les victimes et les parties civiles et l'obligation de s'abstenir de toute communication médiatique relative à ses crimes [1]. Ce dossier ne traite pas de sa vie depuis sa libération.
 
 ## Les faits jugés
 
-[Fait établi] Pendant plus de quinze ans, il a fait croire à son entourage qu'il était médecin et chercheur à l'Organisation mondiale de la santé [1].
+[Fait établi] Pendant plus de quinze ans, il a fait croire à son entourage qu'il était médecin et chercheur à l'Organisation mondiale de la santé [1][2].
 
-[Fait établi] En janvier 1993, alors que la vérité allait être découverte, il tue son épouse, ses deux enfants et ses parents [1]. Il est jugé par la cour d'assises de l'Ain, à Bourg-en-Bresse, en 1996 ; les sources divergent sur le mois du verdict, juin ou juillet [1].
+[Fait établi] En janvier 1993, alors que la vérité allait être découverte, il tue son épouse, ses deux enfants et ses parents [1]. Il est jugé par la cour d'assises de l'Ain, à Bourg-en-Bresse ; le procès s'ouvre le 25 juin 1996 et le verdict est rendu en juillet 1996 [2][4].
 
-[Expertise] Les psychiatres l'ont décrit comme atteint d'une pathologie narcissique, sans trouble susceptible d'atténuer sa responsabilité pénale [1].
+[Expertise] Les psychiatres présents au procès l'ont décrit comme un « mythomane atteint d'une pathologie narcissique », sans trouble neuropsychique susceptible d'atténuer sa responsabilité pénale [2].
 
 ## L'exécution de la peine
 
-[Fait établi] Libérable depuis 2015 à l'issue de la période de sûreté, il a vu une première demande de libération conditionnelle rejetée le 8 février 2019 par le tribunal de l'application des peines de Châteauroux [1]. La chambre de l'application des peines de la cour d'appel de Bourges a infirmé ce refus le 25 avril 2019. La mesure comprenait deux ans de surveillance électronique, puis dix ans de mesures de contrôle [1].
+[Fait établi] Libérable depuis 2015 à l'issue de la période de sûreté, il a vu une première demande de libération conditionnelle rejetée le 8 février 2019 par le tribunal de l'application des peines de Châteauroux [1]. La chambre de l'application des peines de la cour d'appel de Bourges a infirmé ce refus le 25 avril 2019. Selon le communiqué du parquet général de Bourges, la mesure comprend une période probatoire de deux ans sous surveillance électronique, puis dix ans de mesures d'assistance et de contrôle, ainsi que l'interdiction de se rendre en Île-de-France, en Bourgogne-Franche-Comté et en Auvergne-Rhône-Alpes [1].
+
+[Fait établi] Il est sorti de la prison de Saint-Maur (Indre) le 28 juin 2019, date limite fixée par la cour d'appel, après 26 ans de détention [3].
 
 ## Ce qu'on ne sait pas
 - **Les raisons profondes de son passage à l'acte**, que le procès et les expertises n'ont pas permis d'expliquer entièrement.
 
 ## Sources
-- Le Temps et Macommune.info, comptes rendus de la décision de la cour d'appel de Bourges, avril 2019, citant le parquet général. | https://www.letemps.ch/monde/europe/jeanclaude-romand-obtient-liberte-conditionnelle-appel
-- Le Quotidien du médecin, « Jean-Claude Romand, le faux médecin condamné à perpétuité, demande sa libération ». | https://www.lequotidiendumedecin.fr/actus-medicales/sante-publique/jean-claude-romand-le-faux-medecin-condamne-perpetuite-demande-sa-liberation
+- Le Temps, avec AFP, « Jean-Claude Romand obtient la liberté conditionnelle en appel », 25 avril 2019, citant le communiqué du parquet général de Bourges. | https://www.letemps.ch/monde/europe/jeanclaude-romand-obtient-liberte-conditionnelle-appel
+- Le Quotidien du médecin, Marie Foult, « Jean-Claude Romand, le faux médecin condamné à perpétuité, demande sa libération », 10 septembre 2018. | https://www.lequotidiendumedecin.fr/actus-medicales/sante-publique/jean-claude-romand-le-faux-medecin-condamne-perpetuite-demande-sa-liberation
+- Le Temps, avec AFP, « Après 26 ans de détention, le faux docteur Romand est sorti de prison », 28 juin 2019. | https://www.letemps.ch/monde/apres-26-ans-detention-faux-docteur-romand-sorti-prison
+- Tendance Ouest, avec AFP, « Vingt-six ans après ses crimes, la justice libère le faux docteur Romand », 25 avril 2019 (photographie du procès datée du 25 juin 1996). | https://www.tendanceouest.com/actualite-319719-vingt-six-ans-apres-ses-crimes-la-justice-libere-le-faux-docteur-romand

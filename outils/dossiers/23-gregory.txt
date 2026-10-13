@@ -2,7 +2,7 @@ fichier: dossier-gregory.html
 rubrique: affaires
 titre: Affaire Grégory : l'état de la procédure en octobre 2026
 titre_court: L'affaire Grégory
-chapeau: Le 16 octobre 1984, Grégory Villemin, 4 ans, est retrouvé mort dans la Vologne. Quarante-deux ans plus tard, personne n'a été jugé pour sa mort. Ce qui a été décidé par la justice, et ce qui reste ouvert.
+chapeau: Le 16 octobre 1984, Grégory Villemin, 4 ans, est retrouvé mort dans la Vologne. Près de quarante-deux ans plus tard, personne n'a été jugé pour sa mort. Ce qui a été décidé par la justice, et ce qui reste ouvert.
 resume: Décisions de justice depuis 1984, annulations, prescription et investigations en cours. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
@@ -10,13 +10,15 @@ image: assets/images/gregory.jpg
 image_alt: La Vologne à Lépanges-sur-Vologne
 image_credit: Lionel Allorge, CC BY-SA 3.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:La_Vologne_%C3%A0_L%C3%A9panges-sur-Vologne_en_mai_2014_-_1.jpg
+verifie: 13 octobre 2026
+corrections: Les mises en examen de 2017 visaient trois personnes et non trois membres de la famille ; le récit de l'autopsie, des expertises vocales et de l'attribution des lettres a été réattribué à ses sources réelles ; la portée de la décision du Conseil constitutionnel de 2018 (annulation de la garde à vue de 1984 en 2020, déclarations antérieures et ultérieures maintenues) a été établie ; la mention d'un délai de pourvoi de dix jours, non vérifiée, a été retirée ; deux sources inaccessibles ont été remplacées par des articles de franceinfo.
 ---
 ## Essentiel
-- Personne n'a été jugé pour la mort de Grégory Villemin ; l'enquête reste ouverte sous le contrôle de la chambre de l'instruction de la cour d'appel de Dijon [1][2].
+- Personne n'a été jugé pour la mort de Grégory Villemin ; l'enquête reste ouverte sous le contrôle de la chambre de l'instruction de la cour d'appel de Dijon, qui supervise le dossier depuis sa réouverture en 2008 [2][4].
 - Sa mère a bénéficié d'un non-lieu le 3 février 1993 [1].
-- Les mises en examen prononcées en 2017 contre trois membres de la famille ont été annulées en 2018 pour un vice de procédure [3].
-- Les erreurs des premiers mois de l'enquête sont largement reconnues, à commencer par une autopsie que le premier juge d'instruction a lui-même qualifiée de « complètement ratée » [5][6].
-- Le 15 juillet 2026, la chambre de l'instruction a déclaré prescrits les faits d'association de malfaiteurs reprochés à une grand-tante de l'enfant, mise en examen en octobre 2025 [2].
+- Les mises en examen prononcées en 2017 contre trois personnes, dont le grand-oncle et la grand-tante de l'enfant, ont été annulées le 16 mai 2018 pour un vice de procédure [3].
+- Les erreurs des premiers mois de l'enquête sont largement reconnues, à commencer par une autopsie que le premier juge d'instruction a lui-même qualifiée de « complètement ratée » [6].
+- Le 15 juillet 2026, la chambre de l'instruction a déclaré prescrits les faits d'association de malfaiteurs reprochés à une grand-tante de l'enfant, mise en examen le 24 octobre 2025 [2][12].
 
 ## État de la procédure
 
@@ -26,45 +28,49 @@ image_lien: https://commons.wikimedia.org/wiki/File:La_Vologne_%C3%A0_L%C3%A9pan
 
 [Fait établi] Le 16 octobre 1984, Grégory Villemin disparaît ; son corps est retrouvé le soir même dans la Vologne, dans les Vosges. La famille était depuis plusieurs années la cible de lettres et d'appels anonymes [4].
 
-[Fait établi] Un cousin du père de l'enfant, visé par l'enquête, est tué par le père de l'enfant le 29 mars 1985. L'action publique à son égard s'éteint avec son décès [1]. Le 16 décembre 1993, le père est condamné à cinq ans d'emprisonnement, dont un avec sursis, pour ce meurtre [1].
+[Fait établi] Un cousin du père de l'enfant, visé par l'enquête, est tué par le père de l'enfant le 29 mars 1985. L'action publique à son égard s'éteint avec son décès [1]. Le 16 décembre 1993, la cour d'assises de la Côte-d'Or condamne le père à cinq ans d'emprisonnement, dont un avec sursis, pour ce meurtre [1][6].
 
 [Fait établi] Le 3 février 1993, la cour d'appel de Dijon rend un non-lieu en faveur de la mère de l'enfant, retenant l'absence de charges contre elle [1].
 
-[Fait établi] Le dossier est rouvert en 2008 à la demande des parents, pour permettre de nouvelles analyses [1]. En juin 2017, trois membres de la famille sont mis en examen. Le 16 mai 2018, la chambre de l'instruction de Dijon annule ces mises en examen pour un vice de procédure : elles avaient été prononcées par un seul magistrat alors que la loi exigeait une décision collégiale. Le parquet général a souligné que l'annulation portait sur la procédure et non sur le fond [3].
+[Fait établi] Le dossier est rouvert le 3 décembre 2008 par la cour d'appel de Dijon, à la demande des parents, pour permettre de nouvelles analyses [1]. En juin 2017, trois personnes sont mises en examen, dont le grand-oncle et la grand-tante de l'enfant. Le 16 mai 2018, la chambre de l'instruction de Dijon annule ces mises en examen pour un vice de procédure : elles avaient été prononcées par la seule présidente de la chambre de l'instruction alors que le code de procédure pénale prévoyait une décision collégiale. Le parquet général a souligné que l'annulation portait sur des points de procédure et non sur le fond [3].
 
-[Fait établi] Le 24 octobre 2025, une grand-tante de l'enfant est de nouveau mise en examen, pour association de malfaiteurs criminelle. Le 15 juillet 2026, la chambre de l'instruction rejette sa demande d'annulation mais déclare les faits prescrits [2]. Cette décision pouvait faire l'objet d'un pourvoi en cassation dans un délai de dix jours ; nous n'avons pas trouvé d'information sur un éventuel pourvoi.
+[Fait établi] Le 24 octobre 2025, la grand-tante de l'enfant est de nouveau mise en examen, pour association de malfaiteurs criminelle : selon le procureur général de Dijon, il lui est reproché d'avoir participé entre 1982 et 1984 à une entente en vue de la préparation de crimes ou délits ayant débouché sur l'enlèvement de l'enfant [8]. Elle conteste toute responsabilité [8]. Le 15 juillet 2026, la chambre de l'instruction déclare les faits prescrits ; selon son avocat, la chambre a retenu qu'il s'agissait de délits, et le procureur général avait lui-même estimé à l'audience que le délai de prescription était dépassé [2][12]. Toujours selon son avocat, cette décision n'est pas juridiquement une annulation de la mise en examen, mais la rend sans objet [12]. Nous n'avons trouvé, au 13 octobre 2026, aucune information publiée sur un pourvoi en cassation contre cette décision.
 
 ## Les premières erreurs de l'enquête
 
 Les défaillances des premiers mois de l'enquête sont reconnues par de nombreux acteurs du dossier, y compris par le premier juge d'instruction. Elles portent sur la préservation des preuves, l'autopsie, l'organisation de l'enquête et le respect des droits d'une personne entendue.
 
-[Témoignage] Selon un ancien gendarme ayant participé à l'enquête, les lieux de la découverte du corps n'ont pas été protégés : magistrat, enquêteurs et témoins y sont arrivés sans contrôle, et des éléments ont été perdus [5].
+[Témoignage] Selon un ancien gendarme ayant participé à l'enquête, cité par le JDD, les lieux de la découverte du corps n'ont pas été protégés : le procureur, des gendarmes et des témoins y sont arrivés, et des éléments ont été effacés [6].
 
-[Témoignage] Selon un policier ayant travaillé sur le dossier, l'autopsie a duré environ deux heures ; certains prélèvements demandés par le juge n'ont pas été réalisés, notamment ceux des viscères, et l'eau contenue dans les poumons n'a pas été analysée [6]. En 2000, le premier juge d'instruction a lui-même qualifié l'autopsie de « complètement ratée » dans un entretien à la presse [6].
+[Témoignage] Selon un policier ayant travaillé sur le dossier, l'autopsie a duré environ deux heures [6]. En 2000, dans un entretien à Paris Match, le premier juge d'instruction l'a lui-même qualifiée de « complètement ratée », évoquant du sang prélevé en trop faible quantité et l'absence de prélèvements de viscères, à l'exception des poumons [6].
 
-[Fait établi] L'heure et les circonstances exactes de la mort de l'enfant n'ont jamais été établies par la justice [6].
+[Témoignage] En 2002, l'avocate des parents déclarait qu'ils ne savaient toujours pas à quelle heure leur enfant était mort, ni dans quelle eau il avait été noyé [6]. Aucune décision de justice publiée que nous ayons consultée n'a établi ces circonstances.
 
-[Fait établi] L'instruction a été confiée en 1984 à un juge de 32 ans, alors seul juge d'instruction à Épinal [5]. Les gendarmes, qui avaient orienté leurs soupçons vers un premier suspect, ont ensuite été dessaisis de l'enquête au profit de la police [5].
+[Fait établi] L'instruction a été confiée le 17 octobre 1984 à un juge alors âgé de 32 ans [1]. Selon ses propres déclarations à la presse en 2014, il était le seul juge d'instruction d'Épinal et traitait cette année-là 229 dossiers [6]. En février 1985, les gendarmes, qui avaient orienté leurs soupçons vers un premier suspect, sont dessaisis de l'enquête au profit du service régional de police judiciaire de Nancy [5].
 
 [Témoignage] D'anciens gendarmes reprochent au premier juge d'instruction des fautes de procédure et estiment qu'il a été influencé par les partisans d'une autre piste, aujourd'hui abandonnée [5].
 
-[Fait établi] Le 16 novembre 2018, saisi d'une question prioritaire de constitutionnalité, le Conseil constitutionnel a jugé contraires à la Constitution les règles qui avaient permis, en 1984, la garde à vue d'une adolescente de 15 ans sans l'assistance d'un avocat [7]. La portée de cette décision sur les déclarations recueillies à l'époque n'a pas été vérifiée ici.
+[Fait établi] Le 16 novembre 2018, saisi d'une question prioritaire de constitutionnalité posée pour une personne placée en garde à vue en 1984 à l'âge de 15 ans, le Conseil constitutionnel a jugé contraires à la Constitution les règles qui permettaient alors de placer un mineur en garde à vue avec pour seul droit un examen médical en cas de prolongation [7]. Le 16 janvier 2020, la chambre de l'instruction de la cour d'appel de Paris en a tiré les conséquences : elle a annulé cette garde à vue de 1984, mais a maintenu dans le dossier les déclarations faites auparavant aux gendarmes et l'interrogatoire ultérieur devant le juge d'instruction [13].
 
-[Interprétation] Selon la presse, l'affaire a contribué à la création en 1987 d'un service technique d'investigation criminelle dans la gendarmerie, ancêtre de l'actuel Institut de recherche criminelle [6].
+[Interprétation] Selon la presse, l'affaire a contribué à la création en 1987 d'une section technique d'investigation criminelle dans la gendarmerie, ancêtre de l'actuel Institut de recherche criminelle [5][6].
 
-[Débat] Pour de nombreux enquêteurs et commentateurs, ces erreurs initiales ont compromis de façon irréversible la collecte des preuves et expliquent en grande partie que l'affaire n'ait jamais été résolue. D'autres facteurs sont aussi mis en avant : la rivalité entre gendarmerie et police, la médiatisation intense et le contexte familial. Les sources consultées ne permettent pas de mesurer le poids respectif de chacun.
+[Débat] Pour de nombreux enquêteurs et commentateurs, ces erreurs initiales ont compromis de façon irréversible la collecte des preuves et expliquent en grande partie que l'affaire n'ait jamais été résolue. D'autres facteurs sont aussi mis en avant : la rivalité entre gendarmerie et police, la médiatisation intense et le contexte familial [5]. Les sources consultées ne permettent pas de mesurer le poids respectif de chacun.
 
 ## Le « corbeau » : ce qu'ont dit les expertises
 
-[Fait établi] Pendant plusieurs années avant et après le crime, la famille de l'enfant a reçu des lettres et des appels anonymes, dont une partie a été enregistrée. Selon une expertise citée par la presse en 2026, au moins cinq auteurs différents seraient à l'origine de ces menaces [8].
+[Fait établi] Pendant plusieurs années avant et après le crime, la famille de l'enfant a reçu des lettres et des appels anonymes, dont une partie a été enregistrée [4][9].
 
-[Expertise] Une expertise en écriture a attribué à la grand-tante de l'enfant une lettre anonyme de menaces envoyée aux parents en 1983 [8]. Cette expertise a fondé en partie sa mise en examen d'octobre 2025. Elle est contestée par sa défense. Une contre-expertise stylométrique, qui analyse l'orthographe et les tournures de phrases, a été confiée à deux experts fin 2025 ; son résultat n'était pas connu à la date de ce dossier [11]. Une expertise en écriture est une opinion technique : elle peut être discutée par une contre-expertise et ne vaut pas jugement.
+[Expertise] Selon un rapport de stylométrie versé au dossier en 2021 et rapporté par la presse, ces lettres proviendraient de cinq auteurs différents [14]. Le contenu de ce rapport n'a pas été publié ; nous n'en connaissons que ce qu'en a dit la presse.
 
-[Expertise] Les enregistrements de la voix du corbeau ont été numérisés et comparés par l'Institut de recherche criminelle de la gendarmerie à des voix de protagonistes enregistrées à l'époque ; la mauvaise qualité des enregistrements limite la portée de l'exercice [9]. Des expertises vocales plus anciennes avaient retenu plusieurs voix possibles sans identifier l'auteur, puis avaient été annulées pour irrégularités de procédure [9]. En mars 2024, la chambre de l'instruction de Dijon a ordonné, à la demande des parents, de nouvelles comparaisons génétiques et une étude de faisabilité d'expertises vocales sur ces enregistrements [10]. Nous n'avons trouvé, au 8 octobre 2026, aucune publication établissant qu'une expertise aurait identifié la voix du corbeau.
+[Expertise] Selon la presse, des analyses en écriture et en stylométrie désignent la grand-tante de l'enfant comme l'autrice possible de plusieurs lettres, dont une lettre de menaces adressée aux parents en 1983 et la lettre revendiquant le crime [4][8]. Ces expertises ont précédé sa mise en examen d'octobre 2025 [11]. Elles sont contestées par sa défense. Une contre-expertise stylométrique, portant sur la lettre de revendication et d'autres courriers de 1984, a été confiée à deux experts français, a indiqué le procureur général le 23 janvier 2026 [11]. En juillet 2026, l'avocat des parents en attendait encore le résultat [12] ; nous n'en avons trouvé aucune publication au 13 octobre 2026. Une expertise en écriture est une opinion technique : elle peut être discutée par une contre-expertise et ne vaut pas jugement.
 
-[À noter] Selon les spécialistes cités, il n'existe pas d'« empreinte vocale » comparable à une empreinte digitale : même avec de bons enregistrements, l'identification certaine d'une voix est impossible [9].
+[Témoignage] Un proche de la grand-tante dit avoir reconnu sa voix parmi les appels anonymes [8]. Il s'agit d'un témoignage, non d'une expertise.
 
-[État de la procédure] Le 15 juillet 2026, les faits d'association de malfaiteurs reprochés à la grand-tante ont été déclarés prescrits [2]. Sauf pourvoi aboutissant à une autre décision, aucune juridiction ne jugera donc ces faits la concernant. Elle n'a jamais été jugée ni condamnée et reste présumée innocente.
+[Expertise] Des expertises vocales réalisées au début de l'enquête avaient retenu plusieurs voix possibles sans identifier l'auteur, puis avaient été annulées pour irrégularités de forme ; une autre expertise de 1985 avait conclu à une femme déguisant sa voix [9]. En octobre 2010, la cour d'appel de Dijon a accepté que les enregistrements soient comparés aux voix des protagonistes recueillies à l'époque par les journalistes ; la mauvaise qualité des enregistrements limite la portée de l'exercice [9]. En mars 2024, la chambre de l'instruction de Dijon a ordonné, à la demande des parents, de nouvelles comparaisons génétiques et une étude de faisabilité d'expertises vocales sur ces enregistrements [10]. En janvier 2026, le procureur général indiquait que les analyses ADN n'avaient pas apporté de nouvel élément [11]. Nous n'avons trouvé, au 13 octobre 2026, aucune publication établissant qu'une expertise aurait identifié la voix du corbeau.
+
+[À noter] Selon un spécialiste cité, il n'existe pas d'« empreinte vocale » comparable à une empreinte digitale : même avec de bons enregistrements, l'identification certaine d'une voix est impossible [9].
+
+[État de la procédure] Le 15 juillet 2026, les faits d'association de malfaiteurs reprochés à la grand-tante ont été déclarés prescrits [2][12]. Sauf décision contraire d'une juridiction supérieure, aucune juridiction ne jugera donc ces faits la concernant. Elle n'a jamais été jugée ni condamnée et reste présumée innocente.
 
 ## Pour aller plus loin
 
@@ -73,19 +79,21 @@ Les défaillances des premiers mois de l'enquête sont reconnues par de nombreux
 ## Ce qu'on ne sait pas
 - **Qui a tué Grégory Villemin.** Aucune décision de justice ne l'a établi.
 - **Qui était le corbeau.** Aucune décision de justice ne l'a établi, et les expertises vocales n'ont pas identifié son auteur.
-- **La portée de la décision de 2018** sur les déclarations recueillies en garde à vue en 1984.
 - **Les résultats des expertises en cours** : contre-expertise stylométrique, comparaisons génétiques et éventuelle expertise vocale.
 - **L'issue de l'information judiciaire**, qui peut se conclure par un renvoi devant une juridiction ou par un non-lieu.
 
 ## Sources
-- Source secondaire : Wikipédia, « Affaire Grégory », pour la chronologie judiciaire jusqu'en 2008. À vérifier sur les décisions publiées. | https://fr.wikipedia.org/wiki/Affaire_Gr%C3%A9gory
-- France 3 Bourgogne-Franche-Comté, « Affaire Grégory : la justice déclare prescrits les faits reprochés à la grand-tante », juillet 2026 ; franceinfo. | https://france3-regions.franceinfo.fr/bourgogne-franche-comte/cote-d-or/dijon/affaire-gregory-la-justice-declare-prescrits-les-faits-reproches-a-la-grand-tante-jacqueline-jacob-3386644.html
-- franceinfo, « Affaire Grégory : pourquoi les mises en examen ont été annulées », mai 2018. | https://www.franceinfo.fr/faits-divers/affaire-du-petit-gregory/affaire-gregory-pourquoi-les-mises-en-examen-de-murielle-bolle-et-des-epoux-jacob-ont-ete-annulees_2755023.html
-- INA, « Mort du petit Grégory : rappel en archives d'une affaire où tout le monde est suspect ». | https://www.ina.fr/ina-eclaire-actu/l-affaire-gregory-un-mystere-insondable
-- Source secondaire : L'Essor de la gendarmerie, « Mauvaises méthodes, procédure douteuse : comment l'affaire Grégory a déraillé ». | https://lessor.org/societe/mauvaises-methodes-procedure-douteuse--comment-laffaire-gregory-a-deraille/
-- Source secondaire : Le JDD, « Affaire Grégory : 5 erreurs qui ont freiné l'enquête » ; Planet.fr, sur l'autopsie. | https://www.lejdd.fr/societe/affaire-gregory-5-erreurs-qui-ont-freine-lenquete-124050
-- Conseil constitutionnel, décision QPC du 16 novembre 2018 sur la garde à vue des mineurs en 1984, d'après la chronique de QPC d'Actu-Juridique. Texte à consulter sur le site du Conseil constitutionnel. | https://www.actu-juridique.fr/constitutionnel/chronique-de-qpc-juillet-decembre-20181re-partie/
-- CNews, « Affaire Grégory : soupçonnée d'être le corbeau, la grand-tante du garçonnet demande l'annulation de sa mise en examen », 15 avril 2026. | https://www.cnews.fr/faits-divers/2026-04-15/affaire-gregory-la-grand-tante-du-garconnet-soupconnee-detre-le-corbeau
-- Source secondaire : Police scientifique, « Affaire Grégory : la voix du corbeau » et « Une expertise pour comparer des voix » ; France 3 Bourgogne-Franche-Comté. Articles antérieurs à 2026. | https://www.police-scientifique.com/affaire-gregory/la-voix-du-corbeau/
-- franceinfo, « Affaire Grégory : la justice ordonne de nouvelles expertises », mars 2024 ; France 3 Bourgogne-Franche-Comté. | https://www.franceinfo.fr/faits-divers/affaire-du-petit-gregory/affaire-gregory-la-justice-ordonne-de-nouvelles-expertises_6438661.html
-- CNews, « Affaire Grégory : une contre-expertise ordonnée pour vérifier si la grand-tante du garçonnet est bien le corbeau », 23 janvier 2026 ; France Bleu. | https://www.cnews.fr/faits-divers/2026-01-23/affaire-gregory-une-contre-expertise-ordonnee-pour-verifier-si-jacqueline
+- Source secondaire : Wikipédia, « Affaire Grégory », pour la chronologie judiciaire (consultée le 13 octobre 2026). À vérifier sur les décisions publiées. | https://fr.wikipedia.org/wiki/Affaire_Gr%C3%A9gory
+- France 3 Bourgogne-Franche-Comté, Guillaume Robin, avec AFP, « Affaire Grégory : la justice déclare prescrits les faits reprochés à la grand-tante […] », 15 juillet 2026. | https://france3-regions.franceinfo.fr/bourgogne-franche-comte/cote-d-or/dijon/affaire-gregory-la-justice-declare-prescrits-les-faits-reproches-a-la-grand-tante-jacqueline-jacob-3386644.html
+- franceinfo, « Affaire Grégory : pourquoi les mises en examen […] ont été annulées », 16 mai 2018. | https://www.franceinfo.fr/faits-divers/affaire-du-petit-gregory/affaire-gregory-pourquoi-les-mises-en-examen-de-murielle-bolle-et-des-epoux-jacob-ont-ete-annulees_2755023.html
+- INA, « Mort du petit Grégory : rappel en archives d'une affaire où tout le monde est suspect », mis à jour le 24 octobre 2025. | https://www.ina.fr/ina-eclaire-actu/l-affaire-gregory-un-mystere-insondable
+- Source secondaire : L'Essor de la gendarmerie, « Mauvaises méthodes, procédure douteuse : comment l'affaire Grégory a déraillé », 14 mars 2022. | https://lessor.org/societe/mauvaises-methodes-procedure-douteuse--comment-laffaire-gregory-a-deraille/
+- Source secondaire : Le JDD, Thomas Liabot, « Affaire Grégory : 5 erreurs qui ont freiné l'enquête », 17 mai 2018 (cite franceinfo, Paris Match et Libération). | https://www.lejdd.fr/societe/affaire-gregory-5-erreurs-qui-ont-freine-lenquete-124050
+- Conseil constitutionnel, décision n° 2018-744 QPC du 16 novembre 2018 (régime de la garde à vue des mineurs). | https://www.conseil-constitutionnel.fr/decision/2018/2018744QPC.htm
+- franceinfo, « Affaire Grégory : la grande-tante […] mise en examen », 25 octobre 2025. | https://www.franceinfo.fr/faits-divers/affaire-du-petit-gregory/affaire-gregory-la-grande-tante-jacqueline-jacob-mise-en-examen_7574635.html
+- Source secondaire : Police-Scientifique.com, « Affaire Grégory : la voix du corbeau », 11 novembre 2013. | https://www.police-scientifique.com/affaire-gregory/la-voix-du-corbeau/
+- franceinfo, « Affaire Grégory : la justice ordonne de nouvelles expertises », 21 mars 2024. | https://www.franceinfo.fr/faits-divers/affaire-du-petit-gregory/affaire-gregory-la-justice-ordonne-de-nouvelles-expertises_6438661.html
+- franceinfo, David Di Giacomo, « Affaire Grégory : une "contre-expertise stylométrique" diligentée pour déterminer si […] est l'autrice des lettres de menace », 23 janvier 2026. | https://www.franceinfo.fr/faits-divers/affaire-du-petit-gregory/affaire-gregory-une-contre-expertise-stylometrique-diligentee-pour-determiner-si-jacqueline-jacob-est-l-autrice-des-lettres-de-menace_7760531.html
+- ICI Bourgogne, Blandine Costentin et Clément Lhuillier, « Affaire Grégory : les faits reprochés à […], la grand-tante du petit garçon, sont prescrits », 15 juillet 2026. | https://www.ici.fr/bourgogne-franche-comte/cote-d-or-21/dijon/affaire-gregory-les-faits-reproches-a-jacqueline-jacob-la-grand-tante-du-petit-garcon-sont-prescrits-2888924
+- Tendance Ouest, avec AFP, « Affaire Grégory : la garde à vue de […] en 1984 annulée, mais pas ses accusations de l'époque », 16 janvier 2020. | https://www.tendanceouest.com/actualite-348267-affaire-gregory-la-garde-a-vue-de-murielle-bolle-en-1984-annulee-mais-pas-ses-accusations-de-l-epoque
+- La Libre Belgique, avec AFP, « Affaire Grégory : une nouvelle analyse aurait identifié […] comme le corbeau principal », 23 avril 2021. | https://www.lalibre.be/international/europe/affaire-gregory-une-nouvelle-analyse-aurait-identifie-jacqueline-jacob-comme-le-corbeau-principal-6082b1549978e21698e57948
