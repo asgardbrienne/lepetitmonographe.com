@@ -2,7 +2,7 @@ fichier: dossier-assurance-maladie.html
 rubrique: economie
 titre: Assurance maladie : où va l'argent, et ce que l'on sait des arrêts de travail
 titre_court: Assurance maladie et arrêts de travail
-chapeau: Les dépenses d'assurance maladie dépassent 270 milliards d'euros par an. Les arrêts de travail y pèsent moins qu'on ne le dit souvent, mais augmentent plus vite que la moyenne.
+chapeau: L'objectif de dépenses d'assurance maladie dépasse 270 milliards d'euros par an. Les indemnités journalières en représentent près de 18 milliards en 2025 et augmentent plus vite que l'ensemble des soins de ville.
 resume: Répartition des dépenses entre ville, hôpital et médico-social, évolution des indemnités journalières, contrôles et économies prévues. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
@@ -10,41 +10,47 @@ image: assets/images/assurance-maladie.jpg
 image_alt: Croix lumineuse d'une pharmacie
 image_credit: ell brown, CC BY 2.0, recadrée, Flickr
 image_lien: https://www.flickr.com/photos/39415781@N06/5773845034
+verifie: 13 octobre 2026
+corrections: Les économies prévues sur les indemnités journalières en 2027 sont de 1 milliard d'euros selon le projet de loi, et non 2 milliards ; la hausse de CSG sur les indemnités journalières figure dans le projet de loi de finances, et non dans le projet de loi de financement de la sécurité sociale, et a été supprimée en commission des finances le 7 octobre 2026.
 ---
 ## Essentiel
-- L'objectif national de dépenses d'assurance maladie (Ondam) est fixé à 278,7 milliards d'euros pour 2027 dans le projet de loi de financement de la sécurité sociale, en hausse de 2 % [1].
-- En 2025, les indemnités journalières représentent 17,9 milliards d'euros sur 113,7 milliards de dépenses de soins de ville [2].
-- La fraude détectée liée aux arrêts de travail est de 49 millions d'euros en 2025 selon l'Assurance maladie [4] ; la fraude totale sur ce poste n'est pas connue.
-- La hausse des arrêts de travail s'explique en partie par la hausse des salaires et en partie par des arrêts plus longs et plus fréquents, dont les causes sont débattues.
+- L'objectif national de dépenses d'assurance maladie (Ondam) est fixé à 278,7 milliards d'euros pour 2027 dans le projet de loi de financement de la sécurité sociale déposé le 1er octobre 2026, soit une hausse de 2,0 % à champ constant [1].
+- En 2025, les indemnités journalières représentent 17,9 milliards d'euros sur 113,7 milliards de dépenses de soins de ville, selon la Cour des comptes [2].
+- La fraude détectée liée aux arrêts de travail atteint près de 49 millions d'euros en 2025 selon le bilan de l'Assurance maladie [4] ; la fraude non détectée sur ce poste n'est pas chiffrée publiquement.
+- La hausse des dépenses d'arrêts de travail s'explique en partie par la hausse des salaires et en partie par des arrêts plus nombreux et plus longs, dont les causes sont débattues [3].
 
 ## Où va l'argent
 
-[Fait établi] L'Ondam fixe chaque année un plafond de dépenses pour l'assurance maladie. La loi de financement pour 2026 l'avait fixé à 274,4 milliards d'euros, dont 117,5 milliards pour les soins de ville, 112,8 milliards pour les établissements de santé, 18,3 milliards pour les établissements pour personnes âgées et 16 milliards pour le handicap [1]. Le projet de loi pour 2027 ramène l'objectif 2026 à 273,3 milliards [1].
+[Fait établi] L'Ondam fixe chaque année un plafond de dépenses pour l'assurance maladie. La loi de financement pour 2026 l'avait fixé à 274,4 milliards d'euros, dont 117,5 milliards pour les soins de ville, 112,8 milliards pour les établissements de santé, 18,3 milliards pour les établissements et services pour personnes âgées et 16 milliards pour ceux destinés aux personnes handicapées [5]. Le projet de loi pour 2027 ramène l'objectif 2026 à 273,3 milliards, soit 1,1 milliard de moins [1].
 
-[Fait établi] Pour 2027, le projet fixe l'Ondam à 278,7 milliards d'euros : 118,3 milliards pour les soins de ville, 116 milliards pour les établissements de santé, 18,8 milliards pour les personnes âgées et 16,3 milliards pour le handicap [1]. Il prévoit 5,1 milliards d'économies, dont 2,1 milliards sur les médicaments et dispositifs médicaux [1]. Ces chiffres proviennent de la presse spécialisée et doivent être vérifiés dans l'annexe du projet de loi.
+[Fait établi] Pour 2027, le projet fixe l'Ondam à 278,7 milliards d'euros : 118,3 milliards pour les soins de ville, 116,0 milliards pour les établissements de santé, 18,8 milliards pour les personnes âgées et 16,3 milliards pour le handicap [1]. Il prévoit 5,1 milliards d'euros d'économies nouvelles, dont 2,1 milliards sur les produits de santé et 1 milliard sur les indemnités journalières d'assurance maladie, pour financer 1,2 milliard de dépenses nouvelles [1]. Il s'agit d'un projet : le Parlement peut modifier ces montants.
 
-[Fait établi] Selon la Cour des comptes, les dépenses de soins de ville atteignent 113,7 milliards d'euros en 2025, dont 35,0 milliards de produits de santé et 17,9 milliards d'indemnités journalières [2]. Ce dernier montant inclut les arrêts maladie, mais aussi les accidents du travail et maladies professionnelles et la maternité, selon le périmètre retenu.
+[Fait établi] Selon la Cour des comptes, les dépenses de soins de ville atteignent 113,7 milliards d'euros en 2025 (montant provisoire), dont 35,0 milliards de produits de santé et 17,9 milliards d'indemnités journalières, ce dernier poste étant en hausse de 4,6 % sur un an, contre 3,5 % pour l'ensemble des soins de ville [2]. La Cour note une hausse marquée des arrêts liés aux accidents du travail et des arrêts maladie de plus de trois mois [2].
 
 ## Les arrêts de travail
 
-[Fait établi] Pour le seul régime général, les indemnités journalières de maladie représentent près de 11,3 milliards d'euros en 2025 [3]. Leur croissance a ralenti à 2,3 % en 2025, contre 6,4 % en 2024, après la baisse du plafond de revenu pris en compte, passé de 1,8 à 1,4 fois le Smic au 1er avril 2025 [3].
+[Fait établi] Pour le seul régime général (hors arrêts liés au Covid, à la grippe et hors professions libérales), les indemnités journalières de maladie représentent près de 11,3 milliards d'euros en 2025 [3]. Leur croissance a ralenti à 2,3 % en 2025, contre 6,4 % en 2024, principalement du fait de la baisse du plafond de revenu pris en compte, passé de 1,8 à 1,4 fois le Smic au 1er avril 2025 [3].
 
-[Fait établi] Entre 2019 et 2025, les arrêts de moins de trois mois ont augmenté de 4,4 % par an en moyenne et ceux de plus de trois mois de 6,7 % par an, contre respectivement 3,7 % et 4,1 % entre 2014 et 2019 [3].
+[Fait établi] Entre 2019 et 2025, les dépenses liées aux arrêts maladie de moins de trois mois ont augmenté de 4,4 % par an en moyenne et celles des arrêts de plus de trois mois de 6,7 % par an, contre respectivement 3,7 % et 4,1 % entre 2014 et 2019 [3].
 
-[Interprétation] Une partie de la hausse est un effet prix : quand les salaires augmentent, les indemnités, calculées sur le salaire, augmentent aussi. Une autre partie tient au nombre et à la durée des arrêts.
+[Interprétation] Une partie de la hausse est un effet prix : quand les salaires augmentent, les indemnités, calculées sur le salaire, augmentent aussi. Une autre partie tient au nombre et à la durée des arrêts. La Cour des comptes juge l'accélération depuis la crise sanitaire « pour partie inexpliquée », même si le vieillissement de la population active et la hausse des salaires y contribuent [2].
 
-[Débat] Pour les uns, la hausse traduit des abus et un recours trop facile aux arrêts, qu'il faut mieux contrôler. Pour les autres, elle reflète une dégradation de la santé au travail, la hausse des troubles psychiques et musculosquelettiques et le vieillissement des actifs. Les données disponibles montrent que la fraude détectée sur les arrêts de travail est faible au regard des montants en jeu (49 millions d'euros en 2025 [4]), mais la fraude non détectée n'est pas mesurée ; elles ne permettent pas de trancher.
+[Débat] Pour les uns, la hausse traduit des abus et un recours trop facile aux arrêts, qu'il faut mieux contrôler. Pour les autres, elle reflète une dégradation de la santé au travail, la hausse des troubles psychiques et musculosquelettiques et le vieillissement des actifs. La fraude détectée sur les arrêts de travail est faible au regard des montants en jeu (près de 49 millions d'euros en 2025 [4]), mais la fraude non détectée n'est pas mesurée publiquement pour ce poste ; les données disponibles ne permettent pas de trancher.
 
-[Fait établi] Le projet de loi de financement pour 2027 prévoit d'aligner le taux de CSG sur les indemnités journalières sur celui des compléments de salaire, soit 9,2 % au lieu de 6,2 % [3]. Le gouvernement attend environ 2 milliards d'euros d'économies sur les arrêts maladie en 2027 [5].
+[Fait établi] Le projet de loi de finances pour 2027 (article 2) prévoit de soumettre les indemnités journalières maladie et accidents du travail à la CSG au taux de 9,2 %, celui des revenus d'activité et du complément de salaire versé par l'employeur, au lieu du taux réduit de 6,2 % [6]. Le 7 octobre 2026, la commission des finances de l'Assemblée nationale a adopté un amendement supprimant cette hausse ainsi que la fiscalisation prévue des indemnités versées en cas d'affection de longue durée et d'accident du travail [7]. Ce vote en commission n'est pas définitif : le texte doit encore être examiné en séance.
+
+[Fait établi] Le projet de loi de financement pour 2027 prévoit aussi une concertation entre médecin traitant, médecin du travail et médecin-conseil pour les arrêts de plus de trente jours présentant un risque de désinsertion professionnelle [1].
 
 ## Ce qu'on ne sait pas
-- **La part des arrêts injustifiés.** Aucune estimation officielle récente ne la chiffre.
+- **La part des arrêts injustifiés.** Aucune estimation officielle publiée ne la chiffre à ce jour.
 - **Le poids respectif des causes** de la hausse : salaires, vieillissement, santé mentale, conditions de travail.
 - **L'effet des économies prévues**, qui dépend du vote du Parlement et des comportements des patients et des prescripteurs.
 
 ## Sources
-- Projet de loi de financement de la sécurité sociale pour 2027, présenté le 1er octobre 2026, d'après la presse spécialisée (Weka, Medscape, Le Moniteur des pharmacies). | https://www.weka.fr/actualite/sante/article/plfss-2027-les-mesures-d-economies-pour-reduire-de-50-le-deficit-220586/
+- Assemblée nationale, projet de loi de financement de la sécurité sociale pour 2027, n° 3211, déposé le 1er octobre 2026 (articles 2 et 43 et exposé des motifs). | https://www.assemblee-nationale.fr/dyn/opendata/PRJLANR5L17B3211.html
 - Cour des comptes, rapport sur l'application des lois de financement de la sécurité sociale, mai 2026, chapitre « Un Ondam tenu en 2025 mais une trajectoire qui reste à infléchir ». | https://www.ccomptes.fr/sites/default/files/2026-05/20260527-RALFSS-2026-2-Ondam-tenu-en-2025-mais-trajectoire-restant-a-inflechir.pdf
-- Sécurité sociale, rapport d'évaluation des politiques de sécurité sociale, « Dynamique des indemnités journalières versées par la branche maladie ». | https://evaluation.securite-sociale.fr/home/maladie/2121-dynamique-des-indemnites-jo.html
-- Source secondaire : bilan 2025 de la lutte contre la fraude de l'Assurance maladie, repris par la presse. | https://www.ifrap.org/emploi-et-politiques-sociales/alerte-sur-le-cout-des-arrets-maladies
-- Source secondaire : Touteleurope.eu, présentation des mesures du budget 2027. | https://www.touteleurope.eu/economie-et-social/budget-2027-ce-qu-il-faut-retenir-des-mesures-annoncees-par-le-gouvernement-lecornu/
+- Direction de la sécurité sociale, rapport d'évaluation des politiques de sécurité sociale (maladie), indicateur 2.13.1 « Dynamique des indemnités journalières versées par la branche maladie », édition 2026. | https://evaluation.securite-sociale.fr/home/maladie/2121-dynamique-des-indemnites-jo.html
+- Source secondaire : TF1 Info, « Fraude à l'Assurance maladie : 723 millions d'euros détectés et stoppés en 2025 », 16 avril 2026, d'après le bilan de l'Assurance maladie. | https://www.tf1info.fr/societe/securite-sociale-fraude-a-l-assurance-maladie-723-millions-d-euros-detectes-et-stoppes-en-2025-un-chiffre-en-hausse-2436432.html
+- Banque des Territoires, « Loi de financement de la sécurité sociale pour 2026 : quels crédits ? quelles nouveautés ? », 6 janvier 2026 (loi n° 2025-1403 du 30 décembre 2025). | https://www.banquedesterritoires.fr/loi-de-financement-de-la-securite-sociale-pour-2026-quels-credits-quelles-nouveautes
+- Légifiscal, Damien Péan, « PLF 2027 : la fiscalité des indemnités journalières durcie pour les arrêts de travail », 7 octobre 2026. | https://www.legifiscal.fr/actualites-fiscales/4675-plf-2027-fiscalite-indemnites-journalieres-durcie-arrets-travail.html
+- Assemblée nationale, commission des finances, amendement n° I-CF384 à l'article 2 du projet de loi de finances pour 2027 (n° 3210), adopté. | https://www.assemblee-nationale.fr/dyn/17/amendements/3210A/CION_FIN/CF384.pdf
