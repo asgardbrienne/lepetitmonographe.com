@@ -3,37 +3,47 @@ rubrique: affaires
 titre: Affaire Flactif : ce que la justice a établi
 titre_court: L'affaire Flactif
 chapeau: Le 11 avril 2003, une famille de cinq personnes est tuée au Grand-Bornand, en Haute-Savoie. Le meurtrier, un voisin, a été condamné à la réclusion criminelle à perpétuité en 2006.
-resume: Faits jugés, peines, complicités retenues et état de la procédure dans l'affaire de la tuerie du Grand-Bornand. Données arrêtées au 8 octobre 2026.
+resume: Faits jugés, peines, condamnations des coaccusés et état de la procédure, dont la demande de libération conditionnelle déposée en 2025, dans l'affaire de la tuerie du Grand-Bornand. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
 image: assets/images/flactif.jpg
 image_alt: Le village du Grand-Bornand et ses montagnes
 image_credit: Anthospace, CC BY-SA 3.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Le_Grand-Bornand_74.JPG
+verifie: 13 octobre 2026
+corrections: Le 13 octobre 2026, ajout de la demande de libération conditionnelle déposée le 12 septembre 2025 ; date du désistement d'appel précisée (10 décembre 2007, sans divergence) ; mention non sourcée de la peine d'un proche retirée ; Wikipédia remplacée par des sources de presse.
 ---
 ## Essentiel
-- Le 30 juin 2006, la cour d'assises de la Haute-Savoie a condamné David Hotyat à la réclusion criminelle à perpétuité, assortie d'une période de sûreté de 22 ans, pour le meurtre des cinq membres de la famille Flactif [1].
-- Il a fait appel puis s'est désisté ; la condamnation est définitive [1].
-- Trois autres personnes ont été condamnées pour complicité ou aide après les faits [1].
-- La Gendarmerie nationale présente l'affaire comme un cas d'école d'enquête criminelle [2].
+- Le 30 juin 2006, la cour d'assises de la Haute-Savoie a condamné David Hotyat à la réclusion criminelle à perpétuité, assortie d'une période de sûreté de 22 ans, pour avoir tué les cinq membres de la famille Flactif [1][2][3].
+- Il a fait appel, puis s'est désisté le premier jour de son procès en appel, en décembre 2007 ; sa condamnation n'a donc pas été rejugée [2][4].
+- Trois autres personnes ont été condamnées à 15, 10 et 7 ans pour leur participation après les faits [1][2].
+- Le 12 septembre 2025, il a déposé une demande de libération conditionnelle ; selon le parquet de Nancy, aucune date d'audience n'était fixée en mars 2026 [3].
 
 ## État de la procédure
 
-[État de la procédure] La condamnation est définitive depuis le désistement d'appel de l'accusé. Les sources divergent sur la date de ce désistement, en 2007 [1].
+[État de la procédure] La condamnation de David Hotyat n'a pas été rejugée : il s'est désisté de son appel le premier jour du procès en appel, le 10 décembre 2007 [2][4].
+
+[État de la procédure] Incarcéré depuis 2003, il a déposé le 12 septembre 2025, par l'intermédiaire de son avocat, une requête en aménagement de peine sollicitant une libération conditionnelle avec placement extérieur probatoire, a indiqué le parquet de Nancy le 3 mars 2026 [3]. Une expertise et une évaluation pluridisciplinaire de dangerosité par le Centre national d'évaluation sont obligatoires avant l'examen de la demande par le tribunal de l'application des peines ; à cette date, aucune audience n'était fixée [3]. Nous n'avons trouvé aucune décision publiée sur cette demande au 13 octobre 2026.
 
 ## Les faits jugés
 
-[Fait établi] Le 11 avril 2003, au Grand-Bornand, un couple et ses trois enfants sont tués. Le meurtrier, qui vivait dans un chalet voisin, a été condamné pour ces cinq meurtres [1].
+[Fait établi] Le 11 avril 2003, au Grand-Bornand (Haute-Savoie), Xavier Flactif, sa compagne Graziella Ortolano et leurs trois enfants, âgés de 7, 9 et 10 ans, sont tués dans leur chalet [1][3]. Le meurtrier, un voisin qui louait un chalet appartenant à la famille, a reconnu les faits en garde à vue, six mois plus tard, et avoir brûlé les corps en forêt [2][3].
 
-[Fait établi] Le procès s'est tenu du 12 au 30 juin 2006. La cour a prononcé la réclusion criminelle à perpétuité avec une période de sûreté de 22 ans [1].
+[Fait établi] Le procès s'est tenu en juin 2006 devant la cour d'assises de la Haute-Savoie. Le 30 juin 2006, la cour a prononcé la réclusion criminelle à perpétuité avec une période de sûreté de 22 ans [1][2][3]. La qualification exacte retenue (meurtres ou assassinats) n'a pas pu être vérifiée dans l'arrêt ; L'Express parle d'une condamnation « pour l'assassinat de la famille Flactif » [4].
 
-[Fait établi] La compagne du condamné et deux amis ont été condamnés à des peines de 7 à 15 ans de réclusion pour leur participation, et un proche à une peine d'emprisonnement avec sursis pour avoir fait disparaître une arme [1].
+[Fait établi] Sa compagne et un couple d'amis ont été condamnés pour leur aide après les faits : 15 ans de réclusion criminelle pour Stéphane Haremza, 10 ans pour Alexandra Lefèvre et 7 ans pour Isabelle Haremza [1][2]. Les comptes rendus de presse parlent de complicité ; la qualification exacte retenue pour chacun n'a pas été vérifiée dans l'arrêt [1][2].
 
-[Interprétation] La jalousie à l'égard de la réussite de la famille et un conflit de voisinage sont présentés comme le mobile dans les comptes rendus du procès et dans la présentation de la Gendarmerie [2]. Le mobile retenu exactement par la cour est à vérifier dans l'arrêt.
+[Interprétation] La haine et la jalousie à l'égard de la réussite de la famille sont présentées comme le mobile dans des comptes rendus de presse, avec réserve (« animé semble-t-il par la haine et la jalousie ») [2]. Le mobile retenu exactement par la cour n'a pas été vérifié dans l'arrêt.
+
+[À noter] La Gendarmerie nationale consacre à l'affaire une page de sa série « Grandes affaires criminelles », consacrée au travail d'enquête et de police technique et scientifique [5].
 
 ## Ce qu'on ne sait pas
 - **Les motivations précises**, qui reposent sur les déclarations des accusés.
+- **L'issue de la demande de libération conditionnelle**, qui n'avait pas été examinée à la dernière information publiée (mars 2026).
 
 ## Sources
-- Source secondaire : Wikipédia, « Affaire Flactif » ; ICI, « Affaire Flactif : il y a 20 ans, un Nordiste tuait une famille de cinq personnes en Haute-Savoie ». | https://fr.wikipedia.org/wiki/Affaire_Flactif
-- Gendarmerie nationale, Unité nationale de police judiciaire, « Grandes affaires criminelles : la tuerie du Grand-Bornand, l'affaire Flactif ». | https://www.gendarmerie.interieur.gouv.fr/unpj/nos-publications2/grandes-affaires-decryptage/grandes-affaires-criminelles-la-tuerie-du-grand-bornand-l-affaire-flactif
+- Source secondaire : France 3 Hauts-de-France, « Affaire Flactif : 20 ans après l'assassinat d'une famille dans son chalet du Grand Bornand, David Hotyat pourra demander sa remise en liberté », 11 avril 2023. | https://france3-regions.franceinfo.fr/hauts-de-france/pas-calais/affaire-flactif-20-ans-apres-l-assassinat-d-une-famille-dans-son-chalet-du-grand-bornand-david-hotyat-pourra-demander-sa-remise-en-liberte-2751118.html
+- Source secondaire : ICI (France Bleu Nord), « Affaire Flactif : il y a 20 ans, un Nordiste tuait une famille de cinq personnes en Haute-Savoie », 11 avril 2023. | https://www.ici.fr/infos/faits-divers-justice/affaire-flactif-il-y-a-20-ans-un-nordiste-tuait-une-famille-de-cinq-personnes-en-haute-savoie-3114554
+- Source secondaire : franceinfo (Radio France), « Incarcéré depuis 22 ans pour avoir tué la famille Flactif, David Hotyat demande sa libération conditionnelle », 3 mars 2026. | https://www.franceinfo.fr/faits-divers/justice-proces/incarcere-depuis-22-ans-pour-avoir-tue-la-famille-flactif-david-hotyat-demande-sa-liberation-conditionnelle_7843247.html
+- Source secondaire : L'Express, « Affaire Flactif : David Hotyat renonce à son appel », 10 décembre 2007. | https://www.lexpress.fr/politique/affaire-flactif-david-hotyat-renonce-a-son-appel_468514.html
+- Gendarmerie nationale, Unité nationale de police judiciaire, « Grandes affaires criminelles : la tuerie du Grand-Bornand, l'affaire Flactif », 2021, mis à jour en 2024. | https://www.gendarmerie.interieur.gouv.fr/unpj/nos-publications2/grandes-affaires-decryptage/grandes-affaires-criminelles-la-tuerie-du-grand-bornand-l-affaire-flactif

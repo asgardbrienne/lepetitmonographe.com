@@ -3,44 +3,59 @@ rubrique: economie
 titre: L'intelligence artificielle à l'école : ce que dit le cadre officiel et ce que montrent les études
 titre_court: L'IA à l'école
 chapeau: Les élèves utilisent déjà les outils d'intelligence artificielle générative. Le ministère de l'Éducation nationale a publié un cadre d'usage ; les premières études internationales montrent des effets qui dépendent de la manière de s'en servir.
-resume: Cadre d'usage du ministère, formation des élèves, résultats de l'OCDE et incertitudes. Données arrêtées au 8 octobre 2026.
+resume: Cadre d'usage du ministère, formation obligatoire des élèves, résultats de PISA 2025 et de l'OCDE, et incertitudes. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
 image: assets/images/ia-ecole.jpg
 image_alt: Salle de classe vide
 image_credit: -Marlith-, CC BY 2.0, recadrée, Flickr
 image_lien: https://www.flickr.com/photos/22419112@N08/2533256880
+verifie: 13 octobre 2026
+corrections: Le 13 octobre 2026, la formation des élèves a été précisée (parcours Pix IA rendus obligatoires en 4e, 2de et 1re année de CAP par le Bulletin officiel du 5 février 2026) ; les résultats PISA 2025 publiés en septembre 2026 ont été ajoutés, dont la part d'élèves français utilisant l'IA ; les sources secondaires faibles ont été remplacées.
 ---
 ## Essentiel
-- Le ministère de l'Éducation nationale a publié un cadre d'usage de l'IA en éducation, élaboré après une consultation menée de janvier à mai 2025 [1].
-- Ce cadre insiste sur la valeur pédagogique ajoutée, la protection des données, l'esprit critique et l'impact environnemental ; l'IA peut assister les personnels sans les remplacer [1].
-- Selon une analyse de l'OCDE fondée sur PISA, l'effet moyen de l'usage de l'IA sur les résultats est négatif, mais des gains apparaissent quand l'outil soutient l'effort de l'élève au lieu de le remplacer [3].
-- Le calendrier de la formation obligatoire des élèves à l'IA varie selon les sources et doit être vérifié.
+- Le ministère de l'Éducation nationale a publié le 14 juin 2025 un cadre d'usage de l'IA en éducation, élaboré après une consultation menée de janvier à mai 2025 [1][2].
+- Ce cadre réserve l'usage pédagogique de l'IA par les élèves à partir de la 4e, en classe et accompagné, insiste sur la plus-value pédagogique, la protection des données, l'esprit critique et l'impact environnemental, et assimile à une fraude les devoirs faits par IA sans autorisation [2].
+- Depuis une note de service publiée au Bulletin officiel du 5 février 2026, deux parcours Pix sur l'IA sont obligatoires pour les élèves de 4e, de 2de et de 1re année de CAP [4][5].
+- Selon l'enquête PISA 2025 de l'OCDE, les élèves qui n'utilisent pas l'IA obtiennent en moyenne de meilleurs résultats, une association qui n'établit pas de lien de cause à effet ; des gains apparaissent pour certains usages encadrés [6][7][8].
 
 ## Le cadre officiel
 
-[Fait établi] Le cadre d'usage de l'IA en éducation couvre les usages administratifs et pédagogiques. Il demande de vérifier la valeur pédagogique ajoutée des outils, de protéger les données saisies dans les outils grand public, de sensibiliser à l'impact environnemental et de développer l'esprit critique face aux contenus produits. Il affirme que l'IA peut assister l'expertise des personnels sans jamais la remplacer [1].
+[Fait établi] Le cadre d'usage de l'IA en éducation, publié le 14 juin 2025, couvre les usages pédagogiques et administratifs des IA génératives [1][2]. Il autorise leur utilisation dans le respect des valeurs de l'École, du RGPD et du règlement européen sur l'IA, privilégie un usage « frugal » réservé aux cas de plus-value avérée, recommande les outils libres et tolère les services grand public à condition de n'y saisir aucune donnée personnelle ni sensible [2]. Les élèves du premier degré sont sensibilisés sans manipuler directement d'IA générative ; l'usage pédagogique par les élèves est autorisé à partir de la 4e, en classe et avec l'enseignant [2]. Les personnels sont invités à la vigilance sur les biais, les réponses fausses, la propriété intellectuelle et l'impact environnemental [2].
 
-[Fait établi] Le ministère a publié une feuille de route sur l'IA pour 2026-2027, organisée autour de l'aide aux enseignants, de la simplification administrative et d'un système d'information souverain, avec un principe de contrôle humain [2].
+[Fait établi] Le ministère a publié une feuille de route sur l'IA pour 2026-2027, organisée en trois piliers : une IA du quotidien au service des enseignants et de la transmission du savoir, une administration simplifiée et équipée par l'IA, et un système d'information souverain. Elle se réclame d'un « principe affirmé de contrôle humain sur la machine » et prévoit notamment l'expérimentation d'un tuteur IA pour les élèves, avec de premières classes pilotes fin 2026 [3].
 
-[À noter] Les sources divergent sur la formation des élèves : une formation obligatoire pour les élèves de 4e et de 2de a été annoncée pour la rentrée 2025, une fiche de juillet 2026 évoque un parcours obligatoire à la rentrée 2026, et un article de presse de juin 2026 annonce une heure hebdomadaire en 2de à partir de 2027. Le dispositif en vigueur doit être vérifié sur le site du ministère.
+[Fait établi] Une note de service publiée au Bulletin officiel n° 6 du 5 février 2026 rend obligatoires deux parcours Pix consacrés à l'IA pour les élèves de 4e, de 2de et de 1re année de CAP [4]. Selon Pix, plus de 1,5 million d'élèves sont concernés chaque année à partir de 2026 [5]. Ces parcours portent sur le fonctionnement et les enjeux de l'IA et sur un usage éclairé de l'IA générative [5].
+
+[À noter] Certaines publications évoquent un enseignement hebdomadaire dédié à l'IA en 2de à partir de la rentrée 2027. Nous ne l'avons pas trouvé dans un texte officiel : cette mesure n'est pas établie ici.
 
 ## Ce que montrent les études
 
-[Fait établi] Selon une analyse des données PISA rapportée par la presse spécialisée, l'effet moyen de l'usage de l'IA sur les résultats des élèves est négatif. Les élèves qui l'utilisent chaque semaine pour apprendre obtiennent toutefois de meilleurs résultats que les non-utilisateurs, avec un écart limité, et le gain est plus marqué chez ceux qui sont invités à évaluer la qualité des réponses [3].
+[Fait établi] PISA 2025, dont les résultats ont été publiés par l'OCDE en septembre 2026, porte sur plus de 760 000 élèves de 15 ans dans 91 pays et économies [6][8]. En France, 37 % des élèves déclarent utiliser au moins une fois par semaine des chatbots d'IA pour les aider à apprendre (moyenne de l'OCDE : 46 %), et 15 % disent ne jamais ou presque jamais en utiliser pour les tâches scolaires étudiées (moyenne de l'OCDE : 14 %) [6].
 
-[Interprétation] Selon Andreas Schleicher, directeur de l'éducation à l'OCDE, la technologie aide lorsqu'elle soutient l'effort cognitif et nuit lorsqu'elle le court-circuite [3]. Des études citées par l'OCDE observent des élèves qui réussissent mieux avec l'outil mais moins bien sans lui [4].
+[Fait établi] Après prise en compte du milieu socio-économique, les élèves qui n'utilisent jamais l'IA obtiennent en moyenne de meilleurs résultats en sciences que les utilisateurs ; les usages consistant à résumer des textes ou rédiger des devoirs sont associés à des performances plus faibles [8]. L'OCDE souligne que cette association ne permet pas d'établir de relation causale : des élèves en difficulté peuvent, par exemple, recourir davantage à l'IA [7]. Les élèves qui utilisent l'IA chaque semaine pour apprendre devancent toutefois les non-utilisateurs, avec un écart limité, et l'avantage est plus net chez ceux qui sont régulièrement invités à évaluer la qualité des réponses de l'IA [8].
+
+[Interprétation] Selon Andreas Schleicher, directeur de l'éducation et des compétences de l'OCDE, cité par la presse spécialisée, la technologie aide lorsqu'elle soutient l'effort cognitif de l'élève et peut nuire lorsqu'elle le court-circuite [8].
+
+[Expertise] Le rapport de l'OCDE « Perspectives de l'éducation numérique 2026 » relève, dans les études qu'il passe en revue, que les élèves utilisant des outils d'IA généralistes produisent souvent de meilleurs travaux, mais que cet avantage tend à disparaître, voire à s'inverser, quand l'accès à l'outil est retiré, par exemple aux examens ; les outils conçus à des fins pédagogiques montrent des effets plus durables [9].
 
 ## Le débat
 
-[Débat] Pour les uns, l'IA peut personnaliser l'apprentissage et soulager les enseignants ; l'école doit former les élèves à un outil qu'ils utilisent déjà. Pour les autres, son usage généralisé menace l'apprentissage de l'écriture et du raisonnement, rend l'évaluation des devoirs à la maison difficile et pose des questions de protection des données. Les études disponibles, encore récentes, ne permettent pas de trancher de manière générale.
+[Débat] Pour les uns, l'IA peut personnaliser l'apprentissage et soulager les enseignants ; l'école doit former les élèves à un outil qu'ils utilisent déjà. Pour les autres, son usage généralisé menace l'apprentissage de l'écriture et du raisonnement, rend l'évaluation des devoirs à la maison difficile et pose des questions de protection des données et d'impact environnemental ; le syndicat SUD éducation a ainsi critiqué la formation des élèves par la plateforme Pix et jugé insuffisante la prise en compte des effets environnementaux [10]. Les études disponibles, encore récentes et en partie corrélationnelles, ne permettent pas de trancher de manière générale.
 
 ## Ce qu'on ne sait pas
 - **L'effet à long terme** sur les compétences des élèves.
-- **La proportion d'élèves français qui utilisent l'IA** pour leurs devoirs : les chiffres qui circulent proviennent de sources secondaires non vérifiées.
+- **Le sens de la relation** entre usage de l'IA et résultats observée par PISA, que l'enquête ne permet pas d'établir [7].
+- **Le bilan des parcours Pix obligatoires**, mis en place en 2026.
 
 ## Sources
-- Ministère de l'Éducation nationale, « Publication du cadre d'usage de l'intelligence artificielle en éducation ». | https://www.education.gouv.fr/publication-du-cadre-d-usage-de-l-intelligence-artificielle-en-education-462936
-- Ministère de l'Éducation nationale, feuille de route 2026-2027. | https://www.education.gouv.fr/sites/default/files/document/feuille-de-route-2026/feuille-de-route-2026-2027-du-minist-re-de-l-ducation-nationale-520408.pdf
-- Source secondaire : BriefIA, « PISA : l'IA à l'école, effet moyen négatif mais gains sous conditions ». | https://www.briefia.fr/article/pisa-l-ia-a-l-ecole-effet-moyen-negatif-mais-gains-sous-conditions
-- Source secondaire : HETIC, « Ce que révèle le rapport OCDE 2026 sur les formations d'avenir ». | https://www.hetic.net/actualites/ecole-ia-ce-que-revele-le-rapport-ocde-2026-sur-les-formations-davenir
+- Ministère de l'Éducation nationale, « Publication du cadre d'usage de l'intelligence artificielle en éducation », juin 2025. | https://www.education.gouv.fr/publication-du-cadre-d-usage-de-l-intelligence-artificielle-en-education-462936
+- Source secondaire : Banque des Territoires (Localtis), Virginie Fauvel, « IA en éducation : ce que prévoit le cadre d'usage pour la communauté éducative », 19 juin 2025. | https://www.banquedesterritoires.fr/ia-en-education-ce-que-prevoit-le-cadre-dusage-pour-la-communaute-educative
+- Ministère de l'Éducation nationale, « Une IA utile, humaine et souveraine pour les services publics : feuille de route 2026 / 2027 du ministère de l'Éducation nationale », 2026. | https://www.education.gouv.fr/sites/default/files/document/feuille-de-route-2026/feuille-de-route-2026-2027-du-minist-re-de-l-ducation-nationale-520408.pdf
+- Ministère de l'Éducation nationale, Bulletin officiel n° 6 du 5 février 2026, note de service NOR MENE2527173N sur les parcours Pix consacrés à l'intelligence artificielle. | https://www.education.gouv.fr/bo/2026/Hebdo6/MENE2527173N
+- Pix, « Ouverture des parcours Pix sur l'intelligence artificielle : 1,5 millions d'élèves accompagnés vers un usage éclairé et responsable de l'IA en 2026 », 2026. | https://pix.fr/actualites/intelligence-artificielle-parcours-apprenants-enseignement-scolaire-2026/
+- OCDE, « Résultats du PISA 2025 (Volume I) : France », note pays, septembre 2026. | https://www.oecd.org/content/dam/oecd/fr/publications/reports/2026/09/pisa-2025-results-volume-i-country-notes_88d1164e/france_69779694/9840dc6b-fr.pdf
+- Source secondaire : The Conversation, Margarida Romero, « PISA 2025 : l'IA est-elle responsable de la baisse des résultats ? », 10 septembre 2026. | https://theconversation.com/pisa-2025-lia-est-elle-responsable-de-la-baisse-des-resultats-291580
+- Source secondaire : Brief IA, Tom Levy, « PISA : l'IA à l'école, effet moyen négatif mais gains sous conditions », 9 septembre 2026. | https://www.briefia.fr/article/pisa-l-ia-a-l-ecole-effet-moyen-negatif-mais-gains-sous-conditions
+- Source secondaire : Commission européenne, Digital Skills and Jobs Platform, « OECD Digital Education Outlook 2026: how generative AI can support learning when used with purpose », 3 février 2026. | https://digital-skills-jobs.europa.eu/en/latest/news/oecd-digital-education-outlook-2026-how-generative-ai-can-support-learning-when-used
+- SUD éducation, communiqué « Cadre d'usage de l'intelligence artificielle en éducation », 20 juin 2025. | https://www.sudeducation.org/communiques/cadre-dusage-de-lintelligence-artificielle-en-education/

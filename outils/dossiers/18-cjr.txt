@@ -10,36 +10,41 @@ image: assets/images/cjr.jpg
 image_alt: La Conciergerie et la Cour de cassation au bord de la Seine, à Paris
 image_credit: DXR, CC BY-SA 4.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Conciergerie_and_Cour_de_Cassation,_Paris_2_April_2014.jpg
+verifie: 13 octobre 2026
+corrections: Le 13 octobre 2026, le chiffre de « plus de 22 000 requêtes » attribué à Anticor, dont la page est inaccessible, a été remplacé par les données publiées par le Sénat en 2017 ; les sources de la composition de la Cour et de l'affaire Karachi ont été précisées.
 ---
 ## Essentiel
 - La Cour de justice de la République (CJR) juge les membres du gouvernement pour les crimes et délits commis dans l'exercice de leurs fonctions.
-- Selon un décompte publié en 2023, elle a rendu quatorze jugements en trente ans : sept relaxes, deux condamnations avec dispense de peine et cinq condamnations à de la prison avec sursis, sans aucune peine de prison ferme [1].
-- Le 29 novembre 2023, elle a relaxé le garde des Sceaux en exercice, jugé pour prise illégale d'intérêts ; la décision est définitive [1][2].
+- Selon un décompte publié par France 24 en novembre 2023, elle a rendu quatorze jugements en trente ans : sept relaxes, deux condamnations avec dispense de peine et cinq condamnations à de la prison avec sursis, sans aucune peine de prison ferme [1].
+- Le 29 novembre 2023, elle a relaxé le garde des Sceaux en exercice, jugé pour prise illégale d'intérêts ; le procureur général n'ayant pas formé de pourvoi, la décision est définitive [2][4].
 - Sa composition mêlant parlementaires et magistrats est au cœur des critiques.
 
 ## Le fonctionnement
 
-[Fait établi] La CJR a été créée par la révision constitutionnelle de 1993. Elle reçoit les plaintes visant des ministres pour des faits commis dans l'exercice de leurs fonctions. Les plaintes sont filtrées avant toute instruction, et la formation de jugement mêle des parlementaires et des magistrats [4]. Le détail de sa composition est fixé par la Constitution et une loi organique.
+[Fait établi] La CJR a été instaurée par la révision constitutionnelle du 27 juillet 1993 [3]. Elle est composée de quinze juges : douze parlementaires (six députés et six sénateurs) et trois magistrats du siège de la Cour de cassation, dont l'un la préside [3]. Les plaintes de toute personne s'estimant lésée sont d'abord examinées par une commission des requêtes (trois magistrats de la Cour de cassation, deux conseillers d'État, deux conseillers maîtres à la Cour des comptes), qui peut les classer ou les transmettre au procureur général ; une commission d'instruction de trois conseillers à la Cour de cassation instruit ensuite les affaires retenues [3].
 
-[Fait établi] Selon Anticor, la CJR a reçu plus de 22 000 requêtes depuis 1993, et 52 saisines de la commission d'instruction ont été ordonnées [3].
+[Fait établi] Selon un avis du Sénat de novembre 2017, la commission des requêtes avait été saisie, entre la création de la Cour et le 1er novembre 2017, de 1 439 plaintes et avait émis 40 avis favorables à la saisine de la commission d'instruction, sans compter les requêtes déclarées irrecevables d'emblée par le secrétariat général [3]. Selon une professeure de droit public, la CJR est sollicitée de manière croissante depuis la pandémie de Covid-19 [7] ; mais nous n'avons pas trouvé de bilan chiffré récent publié sur une source accessible : ce total actualisé n'est donc pas établi ici.
 
 ## Les décisions
 
-[Fait établi] Selon France 24, la CJR a rendu quatorze jugements en trente ans : sept relaxes, deux condamnations assorties d'une dispense de peine et cinq condamnations à de la prison avec sursis [1]. Un autre décompte, qui compte les personnes et non les décisions, aboutit à des chiffres proches mais différents [4].
+[Fait établi] Selon France 24, la CJR a rendu quatorze jugements en trente ans : sept relaxes, deux condamnations assorties d'une dispense de peine et cinq condamnations à de la prison avec sursis [1]. Les décomptes varient selon qu'on compte les personnes ou les affaires : en 2010, par exemple, un même ancien ministre a été condamné dans une affaire et relaxé dans deux autres [5]. Un décompte par personne, publié par Le Club des juristes au début du procès de novembre 2023, recensait dix anciens membres du gouvernement jugés : quatre relaxes et six condamnations, dont deux avec dispense de peine [5].
 
-[Fait établi] Parmi les décisions connues : en 1999, dans l'affaire du sang contaminé, deux anciens ministres ont été relaxés et un ancien secrétaire d'État reconnu coupable mais dispensé de peine ; en mars 2021, dans le volet financier de l'affaire Karachi, un ancien Premier ministre a été relaxé et un ancien ministre de la Défense condamné à du sursis [5]. Le 29 novembre 2023, le garde des Sceaux en exercice a été relaxé du chef de prise illégale d'intérêts : la Cour a jugé l'élément matériel établi mais non l'élément intentionnel [1]. Le procureur général n'ayant pas formé de pourvoi, la décision est définitive [2].
+[Fait établi] Parmi les décisions connues : en 1999, dans l'affaire du sang contaminé, deux anciens ministres ont été relaxés et un ancien secrétaire d'État reconnu coupable mais dispensé de peine [5] ; le 4 mars 2021, dans le volet financier de l'affaire Karachi, un ancien Premier ministre a été relaxé et un ancien ministre de la Défense condamné à deux ans d'emprisonnement avec sursis et 100 000 euros d'amende pour complicité d'abus de biens sociaux [6]. Le 29 novembre 2023, le garde des Sceaux en exercice a été relaxé du chef de prise illégale d'intérêts : la Cour a jugé l'élément matériel établi, mais non l'élément intentionnel [2][4]. Le procureur général près la Cour de cassation ayant annoncé qu'il ne formerait pas de pourvoi, la décision est définitive [2].
 
 ## Le débat
 
-[Débat] Ses critiques estiment que la présence d'une majorité de parlementaires parmi les juges rend ses décisions suspectes de complaisance, et proposent de confier ces affaires aux juridictions ordinaires, avec un filtre. Ses défenseurs font valoir qu'elle protège les ministres contre des poursuites abusives liées à leurs décisions politiques et qu'elle a prononcé des condamnations. La suppression de la CJR a été proposée à plusieurs reprises, sans aboutir.
+[Débat] Ses critiques estiment que la présence d'une majorité de parlementaires parmi les juges rend ses décisions suspectes de complaisance, et relèvent la longueur des instructions et le risque de contradiction avec les juridictions ordinaires, qui jugent les éventuels coauteurs ou complices [7] ; certains proposent de confier ces affaires aux juridictions ordinaires, avec un filtre [2][7]. Ses défenseurs font valoir que le filtre de la commission des requêtes empêche que le droit de plainte devienne une arme politique contre l'action gouvernementale [3], et que sa suppression toucherait à la séparation des pouvoirs et supposerait un large consensus [2]. La suppression de la CJR a été promise ou proposée à plusieurs reprises, notamment dans le projet de réforme constitutionnelle de 2018, sans aboutir [4].
 
 ## Ce qu'on ne sait pas
 - **Les procédures en cours** devant la commission d'instruction, couvertes par le secret de l'instruction.
+- **Le nombre actuel de plaintes reçues**, faute de bilan récent publié sur une source accessible.
 - **L'avenir de la juridiction**, qui suppose une révision de la Constitution.
 
 ## Sources
-- France 24, « Cour de justice de la République : une juridiction d'exception très contestée », 16 novembre 2023. | https://www.france24.com/fr/france/20231116-cour-de-justice-de-la-r%C3%A9publique-une-juridiction-d-exception-tr%C3%A8s-contest%C3%A9e
-- Assemblée nationale, question au gouvernement n° 1411 (16e législature). | https://www.assemblee-nationale.fr/dyn/16/questions/QANR5L16QG1411.pdf
-- Anticor, « La Cour de justice de la République et le procès d'Éric Dupond-Moretti », juin 2024. | https://www.anticor.org/2024/06/30/la-cour-de-justice-de-la-republique-et-le-proces-deric-dupond-moretti/
-- INA, « C'est quoi la Cour de justice de la République ? ». | https://www.ina.fr/ina-eclaire-actu/cour-justice-republique-eric-dupont-moretti
-- Le Club des juristes, « Cour de justice de la République : dix ministres mis en cause dans le passé ». | https://www.leclubdesjuristes.com/justice/cour-de-justice-de-la-republique-dix-ministres-mis-en-cause-dans-le-passe-1430/
+- France 24, « Cour de justice de la République : une juridiction d'exception très contestée », 16 novembre 2023, mis à jour après le jugement du 29 novembre 2023. | https://www.france24.com/fr/france/20231116-cour-de-justice-de-la-r%C3%A9publique-une-juridiction-d-exception-tr%C3%A8s-contest%C3%A9e
+- Assemblée nationale, question au gouvernement n° 1411 de M. Ugo Bernalicis et réponse de M. Franck Riester, « Relaxe du garde des sceaux par la Cour de justice de la République », 16e législature, publiée le 6 décembre 2023. | https://www.assemblee-nationale.fr/dyn/16/questions/QANR5L16QG1411
+- Sénat, avis n° 114 (2017-2018), tome XI, « Projet de loi de finances pour 2018 : Pouvoirs publics », M. Jean-Pierre Sueur, commission des lois, 23 novembre 2017, partie IV sur la Cour de justice de la République. | https://www.senat.fr/rap/a17-114-11/a17-114-1111.html
+- INA, « C'est quoi la Cour de justice de la République ? », publié le 3 octobre 2022, mis à jour le 29 novembre 2023. | https://www.ina.fr/ina-eclaire-actu/cour-justice-republique-eric-dupont-moretti
+- Le Club des juristes, Daphnée Breytenbach, « Cour de justice de la République : dix ministres mis en cause dans le passé », 7 novembre 2023. | https://www.leclubdesjuristes.com/justice/cour-de-justice-de-la-republique-dix-ministres-mis-en-cause-dans-le-passe-1430/
+- Le Temps (avec AFP), « Procès Karachi : Edouard Balladur est relaxé, François Léotard est condamné avec sursis », 4 mars 2021. | https://www.letemps.ch/monde/europe/proces-karachi-edouard-balladur-relaxe-francois-leotard-condamne-sursis
+- Le Club des juristes, Cécile Guérin-Bargues, « De l'(in)utilité de la CJR », 29 novembre 2023. | https://www.leclubdesjuristes.com/justice/de-linutilite-de-la-cjr-3768/

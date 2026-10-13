@@ -10,35 +10,48 @@ image: assets/images/troadec.jpg
 image_alt: L'ancien palais de justice de Nantes
 image_credit: François de Dijon, CC BY-SA 4.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Nantes_Ancien_Palais_de_justice_01.jpg
+verifie: 13 octobre 2026
+corrections: Le 13 octobre 2026, le mobile a été reformulé (trésor supposé de lingots d'or, non un héritage), les qualifications retenues et l'état de la procédure ont été précisés, et les sources secondaires inaccessibles ont été remplacées par des comptes rendus de franceinfo et ICI (France Bleu).
 ---
 ## Essentiel
-- Le 7 juillet 2021, la cour d'assises de Loire-Atlantique a condamné Hubert Caouissin à 30 ans de réclusion criminelle pour le meurtre de quatre membres de la famille Troadec en février 2017 [1].
-- Il n'a pas fait appel de sa condamnation pénale [2].
-- La cour a reconnu une altération de son discernement, ce qui l'a épargné de la réclusion à perpétuité requise par l'accusation [1].
-- Le mobile évoqué est un conflit familial autour d'un héritage supposé en or, dont l'existence n'a jamais été démontrée.
+- Le 7 juillet 2021, la cour d'assises de Loire-Atlantique a condamné Hubert Caouissin à 30 ans de réclusion criminelle pour les meurtres de quatre membres de la famille Troadec, commis en février 2017 [1][2].
+- Il n'a pas fait appel de sa condamnation pénale [3][4].
+- La cour a reconnu une altération de son discernement, ce qui lui a valu une atténuation de peine : les avocats généraux avaient requis la réclusion criminelle à perpétuité [1][2].
+- Le mobile évoqué au procès est la conviction de l'accusé que son beau-frère s'était approprié un trésor familial de lingots d'or, dont l'existence n'a jamais été démontrée [1].
 
 ## État de la procédure
 
-[État de la procédure] La condamnation pénale est définitive, l'accusé n'ayant pas fait appel [2]. Selon la presse, son avocat a contesté les dispositions civiles du jugement, qui fixent l'indemnisation des familles [2] ; l'issue de ce volet n'a pas été vérifiée.
+[État de la procédure] L'accusé n'a pas fait appel de sa condamnation pénale [3][4]. Les sources consultées ne font état d'aucun appel du parquet ni d'aucun procès en appel, mais nous n'avons pas trouvé de document officiel attestant que la condamnation est définitive. Le 20 juillet 2021, son avocat a annoncé qu'il contestait l'arrêt civil, qui fixe l'indemnisation des familles des victimes, jugeant les montants « trop importants » [4] ; l'issue de ce volet civil n'a pas été trouvée dans une source publiée.
 
 ## Les faits jugés
 
-[Fait établi] En février 2017, un couple et leurs deux enfants disparaissent de leur domicile d'Orvault. La cour d'assises a jugé que leur beau-frère les avait tués [1].
+[Fait établi] En février 2017, un couple et leurs deux enfants disparaissent de leur domicile d'Orvault, près de Nantes. La cour d'assises a jugé que leur beau-frère les avait tués ; il a aussi été reconnu coupable d'atteinte à l'intégrité des cadavres et de modification de la scène de crime [2].
 
-[Fait établi] La cour l'a condamné à 30 ans de réclusion criminelle. Elle n'a pas suivi les réquisitions de l'avocat général, qui demandait la peine maximale, et a reconnu une altération de son discernement [1]. Aucune période de sûreté spéciale n'a été prononcée [1].
+[Fait établi] La cour l'a condamné à 30 ans de réclusion criminelle. Elle n'a pas suivi les réquisitions des avocats généraux, qui demandaient la réclusion criminelle à perpétuité assortie d'une période de sûreté de 22 ans, et a reconnu une altération de son discernement [2][5]. Aucune période de sûreté spéciale n'a été prononcée : selon ICI (France Bleu), c'est la période de sûreté légale, de 15 ans, qui s'applique [3].
 
-[Fait établi] Sa compagne, sœur de l'une des victimes, a été condamnée à trois ans d'emprisonnement, dont un avec sursis, pour recel de cadavres et modification de la scène de crime ; l'altération du discernement n'a pas été retenue pour elle [1].
+[Expertise] Les experts psychiatres et psychologues ont conclu unanimement à un « délire chronique de type paranoïaque », tout en le jugeant responsable de ses actes [1][8].
+
+[Fait établi] Sa compagne, sœur de l'une des victimes, a été condamnée à trois ans d'emprisonnement, dont un avec sursis probatoire, avec mandat de dépôt, pour atteinte à l'intégrité de cadavres (recel de cadavres selon franceinfo) et modification de la scène de crime ; l'altération du discernement n'a pas été retenue pour elle [1][2][6].
 
 ## Ce qui est resté contesté
 
-[Allégation] Depuis son arrestation, l'accusé conteste toute préméditation [1]. La qualification exacte retenue par la cour sur ce point n'a pas été vérifiée dans l'arrêt.
+[Allégation] Depuis son interpellation, l'accusé conteste toute préméditation et affirme avoir tué pour se défendre après avoir été « assailli » à son entrée dans la maison [1][8].
 
-[Fait établi] Le conflit familial portait sur des lingots d'or que la famille aurait hérités ; leur existence n'a jamais été établie [1].
+[État de la procédure] Mis en examen en mars 2017 pour « assassinats » [7], il a été condamné pour meurtres, qualification qui n'inclut pas la préméditation [2]. Nous n'avons pas eu accès à l'arrêt de mise en accusation ni à l'arrêt de la cour d'assises.
+
+[Fait établi] L'accusé était convaincu que son beau-frère avait subtilisé un trésor de lingots d'or découvert à Brest ; franceinfo le qualifie de « trésor imaginaire », et son existence n'a jamais été établie [1].
 
 ## Ce qu'on ne sait pas
 - **L'existence du « trésor »** au cœur du conflit familial.
-- **Le déroulement exact des faits**, qui repose en grande partie sur les déclarations de l'accusé.
+- **Le déroulement exact des faits** : l'avocat général a déclaré à l'audience qu'on ne savait « même pas de quoi ils sont morts », le récit reposant en grande partie sur les déclarations de l'accusé [5].
+- **L'issue de l'appel civil.**
 
 ## Sources
-- Source secondaire : Linfo.re et franceinfo, compte rendu du verdict de la cour d'assises de Loire-Atlantique, 7 juillet 2021 ; Wikipédia, « Troadec family murders ». | https://www.linfo.re/france/faits-divers/meurtre-de-la-famille-troadec-30-ans-de-reclusion-criminelle-pour-hubert-caouissin
-- Source secondaire : franceinfo, « Procès Troadec : Hubert Caouissin ne fera pas appel de sa condamnation à 30 ans de réclusion criminelle », juillet 2021. | https://www.franceinfo.fr/faits-divers/disparition-d-une-famille-a-orvault/proces-troadec-hubert-caouissin-ne-fera-pas-appel-de-sa-condamnation-a-30-ans-de-reclusion-criminelle_4694775.html
+- Source secondaire : franceinfo avec AFP, « Hubert Caouissin condamné à 30 ans de réclusion pour le quadruple meurtre de la famille Troadec », 7 juillet 2021. | https://www.franceinfo.fr/faits-divers/disparition-d-une-famille-a-orvault/hubert-caouissin-condamne-a-30-ans-de-reclusion-pour-le-quadruple-meurtre-de-la-famille-troadec_4693611.html
+- Source secondaire : ICI (France Bleu Loire Océan), Sarah Mansoura, « Affaire Troadec : Hubert Caouissin condamné à 30 ans de réclusion criminelle pour le quadruple meurtre », 7 juillet 2021. | https://www.ici.fr/infos/faits-divers-justice/affaire-troadec-hubert-caouissin-condamne-pour-le-quadruple-meurtre-de-sa-belle-famille-1625666868
+- Source secondaire : ICI (France Bleu Loire Océan), Sarah Mansoura, « Affaire Troadec : Hubert Caouissin ne fera pas appel de sa condamnation pour le meurtre de sa belle-famille », 8 juillet 2021. | https://www.ici.fr/infos/faits-divers-justice/affaire-troadec-hubert-caouissin-ne-fera-pas-appel-de-sa-condamnation-pour-le-meurtre-de-sa-belle-1625757210
+- Source secondaire : ICI (France Bleu Loire Océan), Manon Vautier-Chollet, « Affaire Troadec : Hubert Caouissin fait appel des indemnités à verser aux familles des victimes », 20 juillet 2021. | https://www.ici.fr/infos/faits-divers-justice/affaire-troadec-hubert-caouissin-fait-appel-des-indemnites-a-verser-aux-familles-des-victimes-1626805261
+- Source secondaire : ICI (France Bleu Loire Océan), « Affaire Troadec : la perpétuité requise contre Hubert Caouissin, 3 ans contre Lydie Troadec », 6 juillet 2021. | https://www.ici.fr/infos/faits-divers-justice/affaire-troadec-1625575068
+- Source secondaire : ICI (France Bleu Loire Océan), « Affaire Troadec : la condamnation d'Hubert Caouissin à 30 ans de prison, un verdict "juste" pour les avocats », 8 juillet 2021. | https://www.ici.fr/infos/faits-divers-justice/affaire-troadec-la-condamnation-d-hubert-caouissin-a-30-ans-de-prison-un-verdict-juste-pour-les-1625697326
+- Source secondaire : Sud Radio, « Affaire Troadec : le beau-frère mis en examen puis écroué pour "assassinats" », 6 mars 2017. | https://www.sudradio.fr/faits-divers/affaire-troadec-le-beau-frere-mis-en-examen-puis-ecroue-pour-assassinats
+- Source secondaire : franceinfo (Radio France), « Procès Troadec : Hubert Caouissin ne fera pas appel de sa condamnation à 30 ans de réclusion criminelle », 8 juillet 2021. | https://www.franceinfo.fr/faits-divers/disparition-d-une-famille-a-orvault/proces-troadec-hubert-caouissin-ne-fera-pas-appel-de-sa-condamnation-a-30-ans-de-reclusion-criminelle_4694775.html
