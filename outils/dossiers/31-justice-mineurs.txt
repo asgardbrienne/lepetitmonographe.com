@@ -2,49 +2,72 @@ fichier: dossier-justice-mineurs.html
 rubrique: affaires
 titre: Justice des mineurs : ce qu'a changé le code de 2021
 titre_court: La justice des mineurs
-chapeau: Depuis le 30 septembre 2021, les mineurs sont jugés en deux temps : d'abord sur leur culpabilité, puis, après une période éducative, sur leur sanction. Les délais ont baissé ; les effets sur la récidive ne sont pas encore évalués.
-resume: Procédure en deux temps, évolution des délais de jugement, évaluations disponibles et propositions de réforme. Données arrêtées au 8 octobre 2026.
+chapeau: Depuis le 30 septembre 2021, les mineurs sont en principe jugés en deux temps : d'abord sur leur culpabilité, puis, après une période éducative, sur leur sanction. Les délais ont baissé ; les effets sur la récidive ne sont pas encore évalués.
+resume: Procédure en deux temps, évolution des délais de jugement, évaluations disponibles, loi du 23 juin 2025 et remplacement des centres éducatifs fermés. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
 image: assets/images/justice-mineurs.jpg
 image_alt: Salle d'audience du palais de justice de Briançon
 image_credit: Florian Pépellin, CC BY-SA 4.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Salle_d%27audience_Palais_de_justice_de_Brian%C3%A7on_(septembre_2024).JPG
+verifie: 13 octobre 2026
+corrections: La proposition de loi présentée comme en cours est devenue la loi du 23 juin 2025, dont le Conseil constitutionnel a censuré la comparution immédiate des mineurs ; l'analyse de l'OIP, datée de 2019, portait sur le projet de réforme et non sur ses effets ; les dates de la Cour des comptes (septembre 2021 et septembre 2023) et les délais légaux sont précisés ; les délais 2024 et le remplacement des centres éducatifs fermés sont ajoutés.
 ---
 ## Essentiel
 - Le code de la justice pénale des mineurs est entré en vigueur le 30 septembre 2021 [1].
-- Il prévoit une audience sur la culpabilité, puis une audience sur la sanction six à neuf mois plus tard, après une mise à l'épreuve éducative [1].
-- Selon la Cour des comptes, le délai moyen de jugement est passé de 23 mois après les faits en 2021 à 9,4 mois en 2023 [2].
-- Les effets de la réforme sur la récidive et sur le suivi éducatif ne sont pas encore évalués [3].
+- Il prévoit en principe une audience sur la culpabilité, puis une audience sur la sanction six à neuf mois plus tard, après une mise à l'épreuve éducative [1][2].
+- Selon la Cour des comptes, le délai moyen de jugement des mineurs est passé de 23 mois après les faits en septembre 2021 à 9,4 mois en septembre 2023 [3].
+- Les effets de la réforme sur la récidive et sur le suivi éducatif ne sont pas encore évalués [5].
+- La loi du 23 juin 2025 sur la justice des mineurs a été promulguée après la censure de plusieurs articles par le Conseil constitutionnel, dont la comparution immédiate des mineurs [7][8].
 
 ## Ce que prévoit le code
 
-[Fait établi] Le juge des enfants ou le tribunal pour enfants statue d'abord sur la culpabilité du mineur, dans un délai de dix jours à trois mois après la décision de poursuite, puis sur la sanction six à neuf mois plus tard. Entre les deux audiences, une période de mise à l'épreuve éducative est exercée sous le contrôle du juge [1]. Le ministère présente ce dispositif comme un moyen de concilier la priorité donnée à l'éducation et l'indemnisation rapide des victimes [1].
+[Fait établi] Le juge des enfants ou le tribunal pour enfants statue en principe selon la procédure de mise à l'épreuve éducative : une audience d'examen de la culpabilité, une période de mise à l'épreuve éducative, puis une audience de prononcé de la sanction, fixée entre six et neuf mois après l'audience sur la culpabilité [2]. Selon le ministère de la Justice, l'audience sur la culpabilité doit se tenir dans un délai de trois mois au plus [1]. La juridiction peut, sous conditions, statuer en une audience unique sur la culpabilité et la sanction [2].
+
+[Fait établi] Le ministère présente la réforme comme un moyen de rendre la justice plus réactive et de mieux prendre en compte les victimes, qui peuvent demander une indemnisation dès le jugement sur la culpabilité [1].
 
 ## Les délais
 
-[Fait établi] Selon le bilan du ministère de la Justice, le délai moyen entre les poursuites et le jugement atteignait 15 mois en 2019, près de 18 mois en 2020, et 9,1 mois au 30 juin 2023 [1].
+[Fait établi] Selon le bilan du ministère de la Justice publié le 13 octobre 2023, le délai moyen entre les poursuites et le jugement atteignait 15 mois en 2019 et près de 18 mois en 2020 ; au 30 juin 2023, le délai entre les poursuites et le jugement prononçant la sanction était de 9,1 mois [1].
 
-[Fait établi] La Cour des comptes, dans son rapport public annuel 2025 consacré aux jeunes et à la justice pénale, constate que les délais de jugement des mineurs sont passés de 23 mois en moyenne après les faits en 2021 à 9,4 mois en 2023 [2]. Les deux séries ne mesurent pas le même intervalle : depuis les poursuites pour l'une, depuis les faits pour l'autre.
+[Fait établi] La Cour des comptes, dans son rapport public annuel 2025 consacré notamment aux jeunes et à la justice pénale, indique que les délais de jugement des mineurs sont passés de 23 mois en moyenne après les faits en septembre 2021 à 9,4 mois en septembre 2023 [3].
+
+[Fait établi] Selon les Références statistiques Justice publiées en juillet 2025, le délai moyen entre l'arrivée de l'affaire et le premier jugement au fond est de 8,5 mois pour les mineurs en 2024 ; ce délai est calculé jusqu'au premier jugement, hors période de mise à l'épreuve éducative. Le ministère indique que ce délai a diminué de plus de 200 jours depuis 2021 [4].
+
+[À noter] Ces trois séries ne mesurent pas le même intervalle : depuis les poursuites, depuis les faits ou depuis l'arrivée de l'affaire au parquet, et jusqu'à la sanction ou jusqu'au premier jugement. Elles ne sont pas directement comparables.
 
 ## Ce qui n'est pas évalué
 
-[Fait établi] Selon l'avis du Sénat sur le budget 2025 de la protection judiciaire de la jeunesse, les effets du code sur l'action éducative restent mal appréhendés ; une évaluation de ces effets en milieu ouvert était annoncée pour 2025 [3].
+[Fait établi] Selon l'avis de la commission des lois du Sénat sur le budget 2025 de la protection judiciaire de la jeunesse (21 novembre 2024), les effets du code sur l'action de la PJJ restent « mal appréhendés » ; le ministère a indiqué qu'il lancerait en 2025 une évaluation des effets du code en milieu ouvert [5]. Nous n'avons pas trouvé de publication de cette évaluation.
 
-[Fait établi] La Cour des comptes juge les centres éducatifs fermés et les établissements pénitentiaires pour mineurs insuffisamment évalués au regard des moyens qu'ils mobilisent [4].
+[Fait établi] La Cour des comptes a publié en octobre 2023 un rapport critique sur les centres éducatifs fermés et les établissements pénitentiaires pour mineurs [6]. Selon la rapporteure du Sénat, aucune évaluation de l'efficacité des centres éducatifs fermés n'était disponible fin 2024, alors que la Cour en avait souligné la nécessité [5].
+
+[Fait établi] Le garde des Sceaux a annoncé le 26 novembre 2025 la fermeture des centres éducatifs fermés, qui doivent être progressivement requalifiés en « unités judiciaires à priorité éducative » : d'abord les 19 centres du secteur public en septembre 2026, puis les 39 du secteur associatif, selon une circulaire présentée en février 2026 [9].
+
+## La loi du 23 juin 2025
+
+[Fait établi] La proposition de loi visant à renforcer l'autorité de la justice à l'égard des mineurs délinquants et de leurs parents, examinée au Sénat en mars 2025 [10], est devenue la loi n° 2025-568 du 23 juin 2025, publiée au Journal officiel du 24 juin 2025 [7][8].
+
+[Fait établi] Saisi par des députés et des sénateurs, le Conseil constitutionnel a déclaré contraires à la Constitution plusieurs articles, dont celui qui créait une procédure de comparution immédiate pour les mineurs d'au moins seize ans, celui qui étendait l'audience unique, celui qui assouplissait l'écartement de l'atténuation des peines pour les mineurs de plus de seize ans et celui qui permettait le placement en rétention d'un mineur (décision n° 2025-886 DC du 19 juin 2025) [7]. Les dispositions renforçant la responsabilité des parents ont été promulguées [8].
 
 ## Le débat
 
-[Débat] Pour ses défenseurs, la réforme a rendu la justice des mineurs plus rapide sans renoncer à la priorité éducative. Pour certains parlementaires, qui ont déposé en 2024 une proposition de loi pour « restaurer l'autorité de la justice » à l'égard des mineurs, elle reste insuffisamment ferme, et ils proposent notamment une comparution immédiate pour les mineurs [5]. Des associations, comme l'Observatoire international des prisons, estiment au contraire que l'accélération s'est faite au détriment du temps éducatif [6]. Le contenu définitif de cette proposition de loi n'a pas été vérifié ici.
+[Débat] Pour le ministère de la Justice, la réforme de 2021 a rendu la justice des mineurs plus rapide sans renoncer à la priorité éducative [1]. Les auteurs de la loi de 2025 la jugeaient insuffisamment ferme et proposaient notamment une comparution immédiate pour les mineurs, censurée par le Conseil constitutionnel [7][10]. Avant l'entrée en vigueur du code, l'Observatoire international des prisons estimait en 2019 que les délais prévus étaient irréalistes sans moyens supplémentaires et que l'accélération se ferait au détriment du travail éducatif [11]. Aucune évaluation publiée ne permet à ce jour de trancher entre ces positions.
 
 ## Ce qu'on ne sait pas
 - **L'effet de la réforme sur la récidive**, qui demande un recul de plusieurs années.
-- **Les délais en 2024 et 2025**, pour lesquels nous n'avons pas trouvé de bilan publié.
+- **Les délais jusqu'à la sanction en 2024 et 2025**, pour lesquels nous n'avons pas trouvé de bilan publié comparable à celui de 2023.
+- **Les résultats de l'évaluation du code en milieu ouvert** annoncée pour 2025.
 
 ## Sources
-- Ministère de la Justice, « Code de la justice pénale des mineurs : un bilan positif deux ans après son application ». | https://www.justice.gouv.fr/actualites/espace-presse/code-justice-penale-mineurs-bilan-positif-deux-ans-apres-son-application
-- Cour des comptes, « Les jeunes et la justice pénale », rapport public annuel 2025. | https://www.ccomptes.fr/fr/documents/74408
-- Sénat, avis sur le projet de loi de finances pour 2025, protection judiciaire de la jeunesse. | https://www.senat.fr/rap/a24-150-8/a24-150-8_mono.html
-- Source secondaire : Enfance Jeunesse Infos, « Justice des mineurs : la Cour des comptes dresse un bilan contrasté des centres éducatifs fermés ». | https://www.enfancejeunesseinfos.fr/justice-des-mineurs-la-cour-des-comptes-dresse-un-bilan-contraste-des-centres-educatifs-fermes/
-- Sénat, rapport sur la proposition de loi visant à restaurer l'autorité de la justice à l'égard des mineurs délinquants et de leurs parents. | https://www.senat.fr/rap/l24-463/l24-4631.html
-- Observatoire international des prisons, « Justice des mineurs : une réforme au détriment du temps éducatif ». | https://oip.org/analyse/justice-des-mineurs-une-reforme-au-detriment-du-temps-educatif/
+- Ministère de la Justice, « Code de la justice pénale des mineurs : un bilan positif deux ans après son application », 13 octobre 2023. | https://www.justice.gouv.fr/actualites/espace-presse/code-justice-penale-mineurs-bilan-positif-deux-ans-apres-son-application
+- Ministère de la Justice, direction de la protection judiciaire de la jeunesse, fiche technique « La procédure de mise à l'épreuve éducative (1) : l'audience d'examen de la culpabilité », 30 juin 2021. | https://www.justice.gouv.fr/sites/default/files/migrations/portail/art_pix/cjpm_ft_pmaee_1_audience_culpa.pdf
+- Cour des comptes, « Les jeunes et la justice pénale », rapport public annuel 2025, mars 2025. | https://www.ccomptes.fr/fr/documents/74408
+- Ministère de la Justice, SSER, Références statistiques Justice, édition 2025 (données 2024), chapitre 11.3 « Les durées de traitement des mis en cause dans les infractions pénales », juillet 2025. | https://www.justice.gouv.fr/sites/default/files/2025-07/RSJ2024%2011_3.pdf
+- Sénat, commission des lois, Laurence Harribey, avis n° 150 (2024-2025) sur le projet de loi de finances pour 2025, tome VIII, Protection judiciaire de la jeunesse, 21 novembre 2024. | https://www.senat.fr/rap/a24-150-8/a24-150-8_mono.html
+- Source secondaire : Enfance & Jeunesse Infos, Vincent Adenot, « Justice des mineurs : la Cour des comptes dresse un bilan contrasté des centres éducatifs fermés », 20 octobre 2023 (article réservé aux abonnés). | https://www.enfancejeunesseinfos.fr/justice-des-mineurs-la-cour-des-comptes-dresse-un-bilan-contraste-des-centres-educatifs-fermes/
+- Conseil constitutionnel, décision n° 2025-886 DC du 19 juin 2025, Loi visant à renforcer l'autorité de la justice à l'égard des mineurs délinquants et de leurs parents. | https://www.conseil-constitutionnel.fr/decision/2025/2025886DC.htm
+- Source secondaire : Banque des Territoires (Localtis), « Publication d'une loi "Attal" sur la justice des mineurs grandement amputée par le Conseil constitutionnel », 24 juin 2025. | https://www.banquedesterritoires.fr/publication-dune-loi-attal-sur-la-justice-des-mineurs-grandement-amputee-par-le-conseil
+- Source secondaire : Banque des Territoires (Localtis), Frédéric Fortin, « Mineurs : les "centres éducatifs fermés" sont morts, vive les "unités judiciaires à priorité éducative" », 11 février 2026. | https://www.banquedesterritoires.fr/mineurs-les-centres-educatifs-fermes-sont-morts-vive-les-unites-judiciaires-priorite-educative
+- Sénat, commission des lois, Francis Szpiner, rapport n° 463 (2024-2025) sur la proposition de loi visant à restaurer l'autorité de la justice à l'égard des mineurs délinquants et de leurs parents, 19 mars 2025. | https://www.senat.fr/rap/l24-463/l24-4631.html
+- Observatoire international des prisons, « Justice des mineurs : une réforme au détriment du temps éducatif », 15 novembre 2019. | https://oip.org/analyse/justice-des-mineurs-une-reforme-au-detriment-du-temps-educatif/

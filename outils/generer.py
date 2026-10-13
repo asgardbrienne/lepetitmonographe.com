@@ -498,13 +498,13 @@ def note(n):
 
 SOURCES_CHOMAGE = [
     ("Insee, « Au deuxième trimestre 2026, le taux de chômage augmente de 0,2 point et atteint 8,3 % », Informations rapides n° 192, 7 août 2026.", "https://www.insee.fr/fr/statistiques/9032359"),
-    ("Insee, « Une photographie du marché du travail en 2025 », Insee Première n° 2096, 2026.", "https://www.insee.fr/fr/statistiques/8901327"),
-    ("Insee, « Au deuxième trimestre 2026, l'emploi salarié est quasi stable (-0,1 %) », Informations rapides n° 214, août 2026.", "https://www.insee.fr/fr/statistiques/9039152"),
-    ("Insee, Note de conjoncture, juin 2026, fiche « Emploi ».", "https://www.insee.fr/fr/statistiques/fichier/9007912/ndc-juin-2026-emploi.pdf"),
-    ("Insee, « Au quatrième trimestre 2024, le taux de chômage est quasi stable (-0,1 point) à 7,3 % », Informations rapides n° 34, février 2025.", "https://www.insee.fr/fr/statistiques/fichier/version-html/8351234/IR34_Chomage_4T2024.pdf"),
+    ("Insee, « Une photographie du marché du travail en 2025 », Insee Première n° 2096, Émilie Pénicaud, 25 mars 2026.", "https://www.insee.fr/fr/statistiques/8901327"),
+    ("Insee, « Au deuxième trimestre 2026, l'emploi salarié est quasi stable (-0,1 %) », Informations rapides n° 214, 28 août 2026.", "https://www.insee.fr/fr/statistiques/9039152"),
+    ("Insee, Note de conjoncture, 17 juin 2026, fiche « Emploi ».", "https://www.insee.fr/fr/statistiques/fichier/9007912/ndc-juin-2026-emploi.pdf"),
+    ("Insee, « Au quatrième trimestre 2024, le taux de chômage est quasi stable (-0,1 point) à 7,3 % », Informations rapides n° 34, 11 février 2025.", "https://www.insee.fr/fr/statistiques/fichier/version-html/8351234/IR34_Chomage_4T2024.pdf"),
     ("Conseil d'orientation des retraites, Rapport annuel, juin 2026, partie 4, chapitre 1.", "https://www.cor-retraites.fr/sites/default/files/2026-06/RA_Part4_Chap1.pdf"),
-    ("Insee, « Les méthodes d'estimation de la précision de l'Enquête Emploi en continu ».", "https://www.insee.fr/fr/statistiques/2022151"),
-    ("Insee, « La situation sur le marché du travail des bénéficiaires du RSA à fin 2024 », Insee Analyses n° 108.", "https://www.insee.fr/fr/statistiques/8562837"),
+    ("Insee, Emmanuel Gros et Karim Moussallam, « Les méthodes d'estimation de la précision de l'Enquête Emploi en continu », Documents de travail n° M2016/02, 14 juin 2016.", "https://www.insee.fr/fr/statistiques/2022151"),
+    ("Insee, « La situation sur le marché du travail des bénéficiaires du RSA à fin 2024 », Eliette Castelain et Vivien Guérin, Insee Analyses n° 108, 24 avril 2025.", "https://www.insee.fr/fr/statistiques/8562837"),
 ]
 sources_html = "\n".join(f'          <li id="source-{i}">{t} <a href="{u}" rel="noopener">{u.replace("https://", "")}</a> <a href="#appel-{i}" class="retour" aria-label="Retour au texte">↑</a></li>' for i, (t, u) in enumerate(SOURCES_CHOMAGE, 1))
 
@@ -513,7 +513,7 @@ dossier = f'''  <section class="tete-page tete-dossier c-economie">
       <p class="surtitre">Dossier · Économie &amp; Société</p>
       <h1>Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres</h1>
       <p class="meta-dossier">Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
-      <p class="chapeau">Depuis 2023, le taux de chômage augmente alors que le taux d'emploi a atteint en 2025 son plus haut niveau depuis 1975. Les deux chiffres sont exacts. Ils ne mesurent pas la même chose.</p>
+      <p class="chapeau">Après trois années de quasi-stabilité, le taux de chômage augmente depuis début 2025 alors que le taux d'emploi a atteint en 2025 son plus haut niveau depuis 1975. Les deux chiffres sont exacts. Ils ne mesurent pas la même chose.</p>
     </div>
   </section>
   <figure class="illustration">
@@ -526,15 +526,14 @@ dossier = f'''  <section class="tete-page tete-dossier c-economie">
   <article class="section dossier">
     <div class="conteneur">
       <div class="prose">
-        <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d'origine avant mise en ligne.</p>
 
         <aside class="essentiel">
           <p class="surtitre">L'essentiel</p>
           <ul>
-            <li>Le taux de chômage est de 8,3 % au deuxième trimestre 2026, son plus haut niveau depuis 2020, après un point bas de 7,1 % début 2023.{note(1)}</li>
+            <li>Le taux de chômage est de 8,3 % au deuxième trimestre 2026, son plus haut niveau depuis le troisième trimestre 2020, après un point bas de 7,1 % début 2023 (champ hors Mayotte).{note(1)}{note(5)}</li>
             <li>Le taux d'emploi des 15-64 ans a atteint 69,3 % en moyenne en 2025, un niveau inédit depuis 1975. Il recule depuis : 69,0 % au deuxième trimestre 2026.{note(2)}{note(1)}</li>
             <li>Les deux chiffres n'ont pas le même dénominateur. Le chômage peut monter si davantage de personnes cherchent un emploi, même quand le nombre de personnes en emploi ne baisse pas.</li>
-            <li>La part exacte de chaque explication dans la hausse du chômage n'est pas établie.</li>
+            <li>Selon l'Insee, les bénéficiaires du RSA et les jeunes inscrits à France Travail, publics visés par la loi pour le plein emploi, contribuent pour près de la moitié de la hausse du chômage depuis fin 2024 (+0,44 point sur +0,98 point). Cette contribution comptable ne distingue pas l'effet de la loi de celui de la conjoncture.{note(1)}</li>
           </ul>
         </aside>
 
@@ -564,7 +563,7 @@ dossier = f'''  <section class="tete-page tete-dossier c-economie">
         <p>Au deuxième trimestre 2026, le chômage augmente de 0,2 point sur le trimestre et de 0,7 point sur un an, soit 261 000 chômeurs de plus en un an. C'est la sixième hausse trimestrielle consécutive. Le taux reste nettement inférieur à son pic de mi-2015 (2,2 points de moins).{note(1)} Le chômage des 15-24 ans atteint 21,6 %.{note(1)}</p>
         <p>Le taux d'emploi des 55-64 ans est passé de 41 % en 2010 à 61,7 % en 2025, selon le Conseil d'orientation des retraites.{note(6)}</p>
 {encadre("À noter", f"<p>À partir du deuxième trimestre 2026, l'Insee publie ses indicateurs sur le champ « France », qui inclut désormais Mayotte. Les séries ont été recalculées sur ce nouveau champ. L'inclusion de Mayotte relève le taux de chômage de 0,06 point et abaisse le taux d'emploi des 15-64 ans de 0,17 point.{note(1)} Les moyennes annuelles 2025 du tableau ont été publiées avant ce changement : les comparer directement aux chiffres de 2026 mélange deux champs. Les évolutions sur un an indiquées par l'Insee dans sa publication d'août 2026 sont, elles, calculées sur le même champ.</p>")}
-{encadre("À noter", f"<p>Le taux de chômage est estimé à partir d'une enquête, l'enquête Emploi, et non compté exhaustivement. L'Insee a longtemps indiqué une précision d'environ plus ou moins 0,3 point, sur le niveau comme sur la variation d'un trimestre à l'autre.{note(7)} Une hausse de 0,2 point en un trimestre est donc compatible avec une stabilité. C'est la succession de six hausses qui rend la tendance significative. Nous n'avons pas vérifié si cette marge a été révisée récemment.</p>")}
+{encadre("À noter", f"<p>Le taux de chômage est estimé à partir d'une enquête, l'enquête Emploi, et non compté exhaustivement. L'Insee indique une précision de plus ou moins 0,3 point, sur le niveau comme sur la variation d'un trimestre à l'autre.{note(1)}{note(7)} Une hausse de 0,2 point en un trimestre est donc compatible avec une stabilité. C'est la succession de six hausses qui rend la tendance significative.</p>")}
 
         <h2>L'emploi salarié et l'emploi non salarié</h2>
 {encadre("Fait établi", f"<p>L'emploi salarié recule de 23 500 postes (-0,1 %) au deuxième trimestre 2026. Dans le secteur privé, la baisse atteint 0,4 % sur un an, soit 80 900 emplois.{note(3)}</p>")}
@@ -573,7 +572,7 @@ dossier = f'''  <section class="tete-page tete-dossier c-economie">
 
         <h2>Pourquoi les deux chiffres divergent</h2>
 {encadre("Fait établi", f"<p>La population active a augmenté : le taux d'activité des 15-64 ans a atteint 75,1 % en 2025, son plus haut niveau depuis 1975.{note(2)} La hausse de l'emploi des seniors y contribue : 61,7 % des 55-64 ans étaient en emploi en 2025.{note(6)}</p>")}
-{encadre("Interprétation", "<p>Le recul de l'âge légal de départ à la retraite décidé en 2023 maintient sur le marché du travail des personnes qui seraient auparavant parties à la retraite. Cette lecture est avancée par la Dares et le COR pour expliquer la progression de l'emploi des 60-64 ans. Nous n'avons pas pu consulter directement l'étude de la Dares : ce point repose sur des sources secondaires et reste à confirmer sur la publication d'origine.</p>")}
+{encadre("Interprétation", f"<p>Selon le Conseil d'orientation des retraites, la hausse de l'emploi des seniors résulte en grande partie des réformes des retraites successives, dont celle de 2023, qui a reculé l'âge légal de départ : le taux d'emploi des 60-64 ans a progressé de 2,0 points en 2025, à 44,4 %. La loi de financement de la sécurité sociale pour 2026 a suspendu cette réforme : l'âge de 64 ans ne sera atteint qu'à partir de la génération 1969, au lieu de 1968.{note(6)}</p>")}
 {encadre("Interprétation", f"<p>Lorsque la population active augmente plus vite que le nombre d'emplois, le chômage monte même si l'emploi ne baisse pas. Plusieurs économistes cités dans la presse avancent cette explication. Elle ne suffit plus pour 2026 : l'emploi salarié privé recule aussi sur un an au deuxième trimestre 2026.{note(3)} La hausse du chômage ne vient donc plus seulement de la croissance de la population active.</p>")}
 
         <h2>Deux lectures de la situation</h2>
@@ -586,15 +585,15 @@ dossier = f'''  <section class="tete-page tete-dossier c-economie">
           <div>
             <p class="surtitre">Lecture 2</p>
             <h3>Une dégradation en cours</h3>
-            <p>Le chômage augmente depuis six trimestres consécutifs, le taux d'emploi recule depuis 2025 et l'emploi salarié privé baisse sur un an. Le chômage des jeunes dépasse 21 %. Les créations d'emplois non salariés ne compensent pas l'arrivée de nouveaux actifs.</p>
+            <p>Le chômage augmente depuis six trimestres consécutifs, le taux d'emploi recule depuis 2025 et l'emploi salarié privé baisse sur un an. Le chômage des jeunes dépasse 21 %. Sur un an, l'emploi total ne progresse que de 47 000 postes, quand le nombre de chômeurs augmente de 261 000.{note(3)}{note(1)}</p>
           </div>
         </div>
         <p>Les deux lectures s'appuient sur des chiffres exacts. Elles diffèrent surtout par la période retenue et l'indicateur mis en avant. La première regarde le niveau atteint, la seconde la tendance récente.</p>
 
         <h2>Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues">
-          <li><strong>La part de chaque cause dans la hausse du chômage.</strong> Aucune publication que nous avons consultée ne chiffre la contribution respective des seniors, des jeunes et du ralentissement de l'économie.</li>
-          <li><strong>L'effet de la loi pour le plein emploi.</strong> Depuis janvier 2025, les bénéficiaires du RSA sont inscrits automatiquement à France Travail. Avant la réforme, près d'un bénéficiaire sur deux l'était déjà.{note(8)} Cette inscription modifie les statistiques de France Travail ; son effet sur le chômage au sens du BIT, mesuré par enquête, est indirect et n'est pas chiffré dans les sources que nous avons consultées. Une affirmation selon laquelle elle expliquerait « la moitié » de la hausse circule dans la presse : nous n'en avons pas trouvé la source.</li>
+          <li><strong>La part de chaque cause dans la hausse du chômage.</strong> L'Insee chiffre la contribution comptable des publics de la loi pour le plein emploi (voir ci-dessous), mais aucune publication que nous avons consultée ne chiffre celle des seniors ni celle du ralentissement de l'économie.</li>
+          <li><strong>L'effet de la loi pour le plein emploi.</strong> Depuis début 2025, la loi prévoit l'inscription systématique des bénéficiaires du RSA à France Travail. Avant la réforme, près d'un bénéficiaire sur deux l'était déjà.{note(8)} L'Insee chiffre à +0,31 point la contribution des bénéficiaires du RSA à la hausse du chômage depuis fin 2024 (+0,98 point au total), et à +0,44 point celle de l'ensemble des publics visés par la loi, soit près de la moitié. Il précise que ces contributions, fragiles du fait des aléas d'enquête, ne permettent pas de distinguer l'effet de la loi de celui de la conjoncture.{note(1)}</li>
           <li><strong>La qualité des emplois non salariés créés</strong> : heures travaillées et revenus.</li>
           <li><strong>La suite.</strong> Les prévisions disponibles portent sur quelques trimestres et sont régulièrement révisées.</li>
         </ul>
@@ -607,6 +606,7 @@ dossier = f'''  <section class="tete-page tete-dossier c-economie">
         <h2>Historique</h2>
         <ul class="historique">
           <li>8 octobre 2026 : première publication.</li>
+          <li>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Contribution de la loi pour le plein emploi chiffrée par l'Insee, suspension de la réforme des retraites et dates des sources ajoutées.</li>
         </ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
       </div>
@@ -896,6 +896,15 @@ for _f in glob.glob(os.path.join(OUT, "*.html")):
     _n = re.sub(r'(<a class="porte [^"]*" href="([^"]+)"[^>]*>)', _ajout, _t)
     if _n != _t:
         open(_f, "w", encoding="utf-8").write(_n)
+
+# ---------- Errata : corrections datées, reprises de chaque dossier ----------
+_errata = [(m.get("verifie", ""), m["fichier"], m.get("titre_court") or m["titre"], m["corrections"]) for m in _dossiers_simples if m.get("corrections")]
+_errata.append(("13 octobre 2026", "dossier-chomage-emploi.html", "Chômage et emploi", "Contribution de la loi pour le plein emploi chiffrée par l'Insee, suspension de la réforme des retraites et dates des sources ajoutées."))
+_lignes = "\n".join(f'''          <tr><td>{d}</td><td><a href="{f}">{_inline(t)}</a></td><td>Vérification sur les sources d'origine</td><td>{_inline(c)}</td></tr>''' for d, f, t, c in sorted(_errata, key=lambda e: e[2]))
+_m = os.path.join(OUT, "methode.html")
+_t = open(_m, encoding="utf-8").read()
+_t = _t.replace('          <tr><td colspan="4" class="vide">Les corrections apparaîtront ici au fil des mises à jour.</td></tr>', _lignes)
+open(_m, "w", encoding="utf-8").write(_t)
 
 # ---------- Charte V1.1 : l'or réservé aux repères « Dossier » et « Collection » ----------
 def _or(mm):
