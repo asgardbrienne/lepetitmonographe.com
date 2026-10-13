@@ -10,42 +10,52 @@ image: assets/images/pacte-migration.jpg
 image_alt: Le Berlaymont, siège de la Commission européenne à Bruxelles
 image_credit: EmDee, CC BY-SA 4.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg
+verifie: 13 octobre 2026
+corrections: Le texte français en discussion est un projet de loi d'habilitation à légiférer par ordonnances, rejeté par la commission des lois de l'Assemblée nationale le 22 juillet 2026 ; les dates des décrets, de la circulaire et les chiffres de la réserve de solidarité 2026 ont été précisés, et des sources non vérifiables ont été remplacées.
 ---
 ## Essentiel
-- Le pacte, approuvé par le Parlement européen le 10 avril 2024 et adopté par le Conseil le 14 mai 2024, s'applique depuis le 12 juin 2026 [1].
-- Les règlements européens s'appliquent directement ; la France a adopté des décrets et une circulaire, et un projet de loi est encore en discussion [1][2].
-- Le pacte crée notamment un filtrage obligatoire des personnes arrivant irrégulièrement et une procédure d'asile à la frontière [1].
-- Son application concrète est inégale : la France fait partie des États ayant signalé des difficultés pour déployer le nouveau fichier Eurodac [2].
+- Le pacte, approuvé par le Parlement européen le 10 avril 2024 et adopté par le Conseil le 14 mai 2024, s'applique depuis le 12 juin 2026 [1][2].
+- Les règlements européens s'appliquent directement ; la France a publié des décrets et une circulaire. Le projet de loi autorisant le Gouvernement à adapter le droit par ordonnances, adopté par le Sénat le 20 mai 2026, a été rejeté par la commission des lois de l'Assemblée nationale le 22 juillet 2026 et n'est pas définitivement adopté [3][5].
+- Le pacte crée notamment un filtrage obligatoire des personnes arrivant irrégulièrement et une procédure d'asile à la frontière [1][2].
+- Son application concrète est inégale : selon un rapport du Sénat de mai 2026, la France fait partie des États ayant signalé des difficultés pour déployer le nouveau fichier Eurodac [2].
 
 ## Le calendrier
 
-[Fait établi] Le pacte est un ensemble de règlements et d'une directive. Il a été approuvé par le Parlement européen le 10 avril 2024 et adopté par le Conseil le 14 mai 2024. Il s'applique depuis le 12 juin 2026 [1].
+[Fait établi] Le pacte est un ensemble de neuf règlements et d'une directive. Il a été approuvé par le Parlement européen le 10 avril 2024 ; les textes adoptés par le Conseil portent la date du 14 mai 2024. Il s'applique, pour l'essentiel, depuis le 12 juin 2026 [1][2].
 
-[Fait établi] En France, des décrets publiés au Journal officiel du 7 juin 2026 et une circulaire du ministère de l'Intérieur entrée en vigueur le 12 juin adaptent le code de l'entrée et du séjour des étrangers et du droit d'asile [1][3]. Un projet de loi d'adaptation, adopté par le Sénat le 20 mai 2026, doit être examiné par l'Assemblée nationale à l'automne 2026 [1].
+[Fait établi] En France, plusieurs décrets datés des 3 et 6 juin 2026 adaptent la partie réglementaire du code de l'entrée et du séjour des étrangers et du droit d'asile (Ceseda) ; ils ont été publiés au Journal officiel du 7 juin 2026 selon le recensement du Gisti [6][7]. Le ministère de l'Intérieur a publié le 11 juin 2026 la circulaire INTV2615721C, qui précise le droit applicable à compter du 12 juin [3][7]. Le Conseil d'État, consulté, a rappelé qu'une circulaire peut interpréter le droit mais ne peut ni créer de règles nouvelles ni combler les lacunes qui relèvent de la loi [6].
+
+[État de la procédure] Le projet de loi n° 526, déposé au Sénat le 8 avril 2026, habilite le Gouvernement à prendre par ordonnances les adaptations nécessaires. Il a été adopté par le Sénat le 20 mai 2026, puis rejeté par la commission des lois de l'Assemblée nationale le 22 juillet 2026. À la date de vérification, aucune adoption définitive n'est enregistrée sur le dossier législatif [5].
 
 ## Ce qui change
 
-[Fait établi] Le règlement « filtrage » impose une procédure obligatoire pour les personnes qui franchissent irrégulièrement une frontière extérieure ou sont interceptées sans titre : identification, prise d'empreintes enregistrées dans le fichier Eurodac, contrôle sanitaire et de sécurité, puis orientation vers une demande d'asile ou une procédure de retour [1]. Les délais de ce filtrage, de quelques jours, sont à vérifier dans le texte du règlement.
+[Fait établi] Le règlement « filtrage » (UE) 2024/1356 impose une procédure pour les personnes qui franchissent irrégulièrement une frontière extérieure ou sont débarquées après une opération de sauvetage : identification, enregistrement des empreintes et données biométriques dans le fichier Eurodac, contrôle sanitaire et de sécurité, puis orientation vers une demande d'asile ou une procédure de retour [1][2]. Ce filtrage dure au maximum 7 jours à la frontière (3 jours lorsqu'il a lieu sur le territoire, 10 jours en cas de crise), selon le rapport du Sénat [2].
 
-[Fait établi] Le pacte prévoit une procédure d'asile à la frontière pour certaines catégories de demandeurs et remplace le règlement dit Dublin III, qui détermine l'État responsable d'une demande d'asile [1].
+[Fait établi] Le pacte prévoit une procédure d'asile à la frontière, d'une durée maximale de 12 semaines recours compris, pour certaines catégories de demandeurs, et remplace le règlement dit Dublin III, qui détermine l'État responsable d'une demande d'asile [2][6].
 
-[Fait établi] Le pacte instaure un mécanisme de solidarité obligatoire entre États membres. Chaque État contribue, au choix, en accueillant des demandeurs d'asile relocalisés, en versant une contribution financière ou en apportant un soutien opérationnel ; aucun État n'est obligé d'accepter des relocalisations. Le texte fixe un minimum annuel de 30 000 relocalisations et une contribution de référence de 20 000 euros par relocalisation non effectuée [4].
+[Fait établi] Le pacte instaure une solidarité obligatoire entre États membres, mais flexible : chaque État choisit sa contribution (accueil de demandeurs d'asile relocalisés, contribution financière ou soutien opérationnel), et la Commission européenne indique qu'aucune amende n'est prévue pour un État qui refuse les relocalisations [1][4]. Le texte retient une référence d'au moins 30 000 relocalisations par an et une contribution de 20 000 euros par demandeur non relocalisé [2]. Pour 2026, le Conseil a fixé en décembre 2025 une réserve de 21 000 relocalisations et 420 millions d'euros ; la France s'est engagée sur 3 361 relocalisations [2].
 
-[Débat] Certains responsables politiques ont présenté les 20 000 euros comme une « amende » infligée aux États qui refusent d'accueillir des migrants. D'autres, dont des médias de vérification, soulignent qu'il s'agit d'une contribution reversée aux États les plus exposés, choisie par l'État lui-même. Des associations jugent à l'inverse le volume de 30 000 relocalisations très faible au regard du nombre de demandes d'asile dans l'Union [4].
+[Débat] Certains responsables politiques, dont le Rassemblement national, présentent les 20 000 euros comme une « amende » infligée aux États qui refusent d'accueillir des migrants. La Commission européenne et des médias de vérification soulignent qu'il s'agit d'une contribution choisie par l'État lui-même et reversée aux États les plus exposés [1][4].
 
-[Fait établi] Selon un rapport du Sénat, 11 États pouvaient mettre en œuvre le nouvel Eurodac en juin 2026, et 16 autres, dont la France, ont signalé des difficultés persistantes [2].
+[Fait établi] Selon un tableau du rapport du Sénat établi au 8 mai 2026 à partir des données de la Commission européenne, 11 États pouvaient mettre en œuvre le nouvel Eurodac en juin 2026, et 16 autres, dont la France, avaient déclaré des difficultés persistantes [2].
+
+[Fait établi] Le 12 août 2026, douze organisations ont annoncé un recours contre les textes d'application français du pacte, selon le Gisti [7]. L'issue de ce recours n'est pas connue à la date de vérification.
 
 ## Le débat
 
-[Débat] Pour ses défenseurs, le pacte harmonise les règles, accélère le traitement des demandes manifestement infondées et répartit mieux la charge entre États. Pour une partie des associations de défense des étrangers, il généralise l'enfermement aux frontières et réduit les garanties des demandeurs. D'autres critiques, à l'inverse, jugent le pacte insuffisant pour réduire l'immigration irrégulière. Ces appréciations portent sur des objectifs différents ; l'effet réel du pacte ne pourra être évalué qu'après plusieurs années.
+[Débat] Pour ses défenseurs, le pacte harmonise les règles, accélère le traitement des demandes ayant peu de chances d'aboutir et répartit mieux la charge entre États. Pour une partie des associations de défense des étrangers, il généralise l'enfermement aux frontières et réduit les garanties des demandeurs. D'autres critiques, à l'inverse, jugent le pacte insuffisant pour réduire l'immigration irrégulière. Ces appréciations portent sur des objectifs différents ; l'effet réel du pacte ne pourra être évalué qu'après plusieurs années.
 
 ## Ce qu'on ne sait pas
-- **Le contenu final de la loi française d'adaptation**, encore en discussion.
+- **Le sort de l'habilitation à légiférer par ordonnances**, rejetée en commission à l'Assemblée nationale et non adoptée définitivement.
+- **L'issue des recours** engagés contre les textes d'application français.
 - **Les effets sur les délais et le nombre de demandes d'asile**, qui ne seront mesurables qu'à partir de 2027.
 - **Le fonctionnement réel du mécanisme de solidarité**, qui dépend des choix des États.
 
 ## Sources
-- Source secondaire : Forum réfugiés, guide sur le pacte européen sur la migration et l'asile, 11 juin 2026 ; analyses de cabinets d'avocats. | https://www.forumrefugies.org/images/Guide_Pacte_Migration_Asile_ForumRefugies-11062026.pdf
-- Sénat, rapport n° 606 (2025-2026), observations sur le projet de loi n° 526. | https://www.senat.fr/rap/r25-606/r25-606_mono.html
-- Ministère de l'Intérieur, circulaire INTV2615721C relative au pacte européen sur la migration et l'asile. | https://www.immigration.interieur.gouv.fr/documentation/guides-textes-et-brochures/circulaire-intv2615721c-relative-au-pacte-europeen-sur-migration-et-lasile.html
-- Conseil de l'Union européenne, communiqué du 8 juin 2023 sur l'accord relatif aux principales lois sur l'asile et la migration ; Euronews, 16 juin 2026. | https://fr.euronews.com/my-europe/2026/06/16/non-lue-ninfligera-pas-damendes-aux-etats-qui-refusent-daccueillir-des-migrants
+- Commission européenne, Représentation en France, « La politique migratoire de l'UE : ni passoire, ni forteresse », 10 juin 2026. | https://france.representation.ec.europa.eu/informations-et-evenements/informations/la-politique-migratoire-de-lue-ni-passoire-ni-forteresse-2026-06-10_fr
+- Sénat, commission des affaires européennes, Ronan Le Gleut et Audrey Linkenheld, rapport d'information n° 606 (2025-2026) portant observations sur le projet de loi n° 526, 7 mai 2026. | https://www.senat.fr/rap/r25-606/r25-606_mono.html
+- Ministère de l'Intérieur, circulaire INTV2615721C relative au pacte européen sur la migration et l'asile, 11 juin 2026. | https://www.immigration.interieur.gouv.fr/documentation/guides-textes-et-brochures/circulaire-intv2615721c-relative-au-pacte-europeen-sur-migration-et-lasile.html
+- Euronews, « Non, l'UE n'infligera pas d'amendes aux États qui refusent d'accueillir des migrants », 16 juin 2026. | https://fr.euronews.com/my-europe/2026/06/16/non-lue-ninfligera-pas-damendes-aux-etats-qui-refusent-daccueillir-des-migrants
+- Sénat, dossier législatif « Mise en oeuvre du Pacte sur la migration et l'asile » (projet de loi n° 526, 2025-2026), consulté le 13 octobre 2026. | https://www.senat.fr/dossier-legislatif/pjl25-526.html
+- Conseil d'État, « [Décryptage] Le Pacte européen sur la migration et l'asile et la justice administrative », 12 juin 2026. | https://conseil-etat.fr/publications-colloques/decryptages/decryptage-le-pacte-europeen-sur-la-migration-et-l-asile-et-la-justice-administrative
+- Source secondaire (association partie au débat) : Gisti, « Tout savoir sur le Nouveau Pacte sur la migration et l'asile », chronologie mise à jour en continu, consultée le 13 octobre 2026. | https://www.gisti.org/article7046

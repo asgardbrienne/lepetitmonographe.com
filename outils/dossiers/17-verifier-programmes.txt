@@ -10,16 +10,18 @@ image: assets/images/verifier-programmes.jpg
 image_alt: Panneau indiquant un bureau de vote
 image_credit: Benoît Prieur, CC0, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Panneau_%22Bureau_de_vote_num%C3%A9ro_22_%C3%A0_Courbevoie_(Hauts-de-Seine,_France).JPG
+verifie: 13 octobre 2026
+corrections: Citation attribuée à l'Institut Montaigne non retrouvée, remplacée par la description de sa méthode publiée en 2024 ; précision que l'institut distinguait en 2022 des degrés de risque selon les programmes ; dates et auteurs des sources ajoutés.
 ---
 ## Essentiel
 - Un même programme peut recevoir des chiffrages très différents selon la méthode : coût immédiat ou à terme, avec ou sans effets sur les comportements.
-- Lors de la présidentielle de 2022, l'Institut Montaigne a jugé irréalistes les projections financières des cinq principaux candidats [1].
+- Lors de la présidentielle de 2022, l'Institut Montaigne a jugé irréalistes les projections financières des cinq principaux candidats, tout en distinguant des degrés de risque pour les finances publiques selon les programmes [1].
 - Le Petit Monographe appliquera la même grille à chaque candidat déclaré, sans exception, et publiera ses hypothèses.
-- À la date de ce dossier, les programmes pour 2027 ne sont pas encore publiés.
+- À la date de ce dossier, les programmes complets et chiffrés des candidats pour 2027 ne sont pas connus.
 
 ## Pourquoi les chiffrages divergent
 
-[Fait établi] Il existe plusieurs façons de chiffrer une mesure, et chacune correspond à une manière d'analyser le problème, rappelle l'Institut Montaigne, qui chiffre les programmes depuis 2012 [2]. Ses évaluations portent d'abord sur l'effet immédiat sur les finances publiques, puis, lorsque c'est possible, sur certains effets économiques [3].
+[Fait établi] L'Institut Montaigne, un think tank qui chiffre les programmes électoraux depuis la campagne présidentielle de 2012 [2], indique que ses chiffrages pour les législatives de 2024 portaient prioritairement sur l'impact immédiat des mesures sur les finances publiques et, dans la mesure du possible, sur certains de leurs effets macroéconomiques [3].
 
 [Interprétation] Les écarts entre chiffrages viennent le plus souvent de quatre choix : la période retenue (première année ou régime de croisière), le point de comparaison (situation actuelle ou évolution prévue sans la mesure), la prise en compte des réactions des ménages et des entreprises, et le traitement des recettes annoncées, souvent incertaines.
 
@@ -35,15 +37,15 @@ image_lien: https://commons.wikimedia.org/wiki/File:Panneau_%22Bureau_de_vote_nu
 
 ## Les précédents
 
-[Fait établi] En 2022, l'Institut Montaigne a estimé qu'aucun des programmes des principaux candidats ne prévoyait des financements à la hauteur des mesures annoncées [1]. Cette appréciation porte sur l'ensemble des candidats, pas sur un camp.
+[Fait établi] En 2022, l'Institut Montaigne a estimé qu'aucun des programmes des cinq principaux candidats qu'il avait étudiés ne prévoyait des financements à la hauteur des mesures annoncées [1]. Cette appréciation visait l'ensemble de ces candidats. L'institut distinguait toutefois deux groupes : selon lui, les programmes d'Emmanuel Macron et de Valérie Pécresse ne permettaient pas d'améliorer les finances publiques, tandis que ceux de Marine Le Pen, Éric Zemmour et Jean-Luc Mélenchon mettaient plus sérieusement en danger la soutenabilité de la dette [1].
 
-[À noter] Les organismes qui chiffrent les programmes ont des orientations et des méthodes différentes. Un chiffrage doit être lu avec ses hypothèses, quel que soit son auteur.
+[À noter] Les organismes qui chiffrent les programmes ont des orientations et des méthodes différentes ; l'Institut Montaigne est un think tank privé, qui publie sa méthode. Un chiffrage doit être lu avec ses hypothèses, quel que soit son auteur.
 
 ## Ce qu'on ne sait pas
-- **Les programmes eux-mêmes**, qui ne sont pas encore publiés.
+- **Les programmes eux-mêmes**, qui ne sont pas encore connus dans leur version complète et chiffrée.
 - **Les effets macroéconomiques des mesures**, qui reposent sur des modèles dont les résultats varient fortement.
 
 ## Sources
-- Acteurs publics, entretien avec Victor Poirier (Institut Montaigne), « Aucun programme ne prévoit des financements à la hauteur », 2022. | https://acteurspublics.fr/articles/victor-poirier-aucun-programme-ne-prevoit-des-financements-a-la-hauteur
-- Institut Montaigne, « L'Institut Montaigne lance son site de chiffrages et de déchiffrages des propositions des candidats ». | https://institutmontaigne.org/expressions/linstitut-montaigne-lance-son-site-de-chiffrages-et-de-dechiffrages-des-propositions-des-candidats
-- Institut Montaigne, « Législatives 2024 : chiffrage global des programmes » (méthode). | https://institutmontaigne.org/communiques-de-presse/legislatives-2024-chiffrage-global-des-programmes
+- Acteurs publics, Sylvain Henry, « Victor Poirier : "Aucun programme ne prévoit des financements à la hauteur" », entretien avec le directeur des publications de l'Institut Montaigne, 8 avril 2022. | https://acteurspublics.fr/articles/victor-poirier-aucun-programme-ne-prevoit-des-financements-a-la-hauteur/
+- Institut Montaigne, « L'Institut Montaigne lance son site de chiffrages et de déchiffrages des propositions des candidats », 14 novembre 2011. | https://institutmontaigne.org/expressions/linstitut-montaigne-lance-son-site-de-chiffrages-et-de-dechiffrages-des-propositions-des-candidats
+- Institut Montaigne, communiqué « Législatives 2024 : chiffrage global des programmes », 5 juillet 2024. | https://institutmontaigne.org/communiques-de-presse/legislatives-2024-chiffrage-global-des-programmes
