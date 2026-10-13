@@ -10,10 +10,12 @@ image: assets/images/budget-2027.jpg
 image_alt: Billets et pièces en euros
 image_credit: Janitors, CC BY 2.0, recadrée, Flickr
 image_lien: https://www.flickr.com/photos/65265630@N03/11816994903
+verifie: 13 octobre 2026
+corrections: La date de l'avis du Haut Conseil des finances publiques est corrigée (25 septembre 2026, rendu public avec le projet de loi), la date de saisine non vérifiable est retirée, l'effort structurel mesuré par le Haut Conseil est précisé, l'analyse attribuée à l'IREF, introuvable, est remplacée par celle de la Fondation IFRAP, la source sur les collectivités est correctement identifiée, et les appréciations du Haut Conseil sont étiquetées comme expertise.
 ---
 ## Essentiel
 - Le projet de loi de finances pour 2027, déposé le 1er octobre 2026, vise un déficit public de 5,0 % du PIB [1].
-- Le gouvernement présente un effort de redressement de 54 milliards d'euros, dont 43 milliards de mesures nouvelles [3].
+- Le gouvernement présente un effort de redressement de 54 milliards d'euros, dont 43 milliards de mesures nouvelles [3][5].
 - Le Haut Conseil des finances publiques juge la prévision de croissance du gouvernement supérieure au consensus des prévisionnistes [2].
 - Le montant de l'effort dépend de la méthode de calcul : le chiffre de 54 milliards est mesuré par rapport à un scénario sans mesures, pas par rapport aux dépenses de 2026.
 
@@ -21,31 +23,31 @@ image_lien: https://www.flickr.com/photos/65265630@N03/11816994903
 
 [Fait établi] Le projet de loi de finances pour 2027 a été présenté le 1er octobre 2026. Il vise un déficit public de 5,0 % du PIB en 2027 et une dette publique de 121,7 % du PIB [1].
 
-[Fait établi] Le Haut Conseil des finances publiques (HCFP), organisme indépendant placé auprès de la Cour des comptes et créé par la loi organique du 17 décembre 2012, rend un avis sur le réalisme des prévisions macroéconomiques des lois de finances. Il a été saisi le 18 septembre 2026 et a rendu son avis le 1er octobre 2026 [2].
+[Fait établi] Le Haut Conseil des finances publiques (HCFP), organisme indépendant placé auprès de la Cour des comptes et créé par la loi organique du 17 décembre 2012 [7], rend un avis sur le réalisme des prévisions macroéconomiques des lois de finances. Son avis n° 2026-5 sur les projets de budget pour 2027 est daté du 25 septembre 2026 et a été rendu public avec le projet de loi [2][5].
 
 ## L'effort annoncé et sa mesure
 
-[Fait établi] Selon le gouvernement, l'effort de redressement atteint 54 milliards d'euros, dont 43 milliards proviennent de mesures nouvelles. D'après la présentation reprise par la presse, 9 milliards portent sur l'État, 12 milliards sur la sphère sociale et 5,5 milliards sur les collectivités locales ; le reste repose sur les recettes [3]. Parmi les mesures sociales figurent 3 milliards d'économies sur les médicaments et 2 milliards sur les arrêts maladie [3].
+[Fait établi] Selon le gouvernement, l'effort de redressement atteint 54 milliards d'euros, dont 43 milliards proviennent de mesures nouvelles, répartis en 18 milliards de recettes et 25 milliards de dépenses [5]. D'après la présentation reprise par la presse, 9 milliards portent sur l'État, 12 milliards sur la sphère sociale et 5,5 milliards sur les collectivités locales ; le reste repose sur les recettes [3]. Parmi les mesures sociales figurent 3 milliards d'économies sur les médicaments et 2 milliards sur les arrêts maladie [3].
 
 [Fait établi] Ces montants sont calculés par rapport à l'évolution qu'auraient suivie les dépenses et les recettes en l'absence de mesures, appelée « tendanciel ». Un effort de 54 milliards ne signifie donc pas que les administrations dépenseront 54 milliards de moins qu'en 2026.
 
-[Estimation] Selon des reprises de l'avis du HCFP, l'effort structurel serait d'environ 28 milliards d'euros, dont 17 milliards de recettes nouvelles et 11 milliards d'effort sur les dépenses [3]. Ce chiffre, qui suppose une autre méthode que celle du gouvernement, doit être vérifié dans le texte de l'avis.
+[Estimation] Le HCFP mesure l'effort autrement, en effort structurel. Devant le Sénat, sa présidente l'a chiffré à près de 40 milliards d'euros, dont 17 milliards de recettes nouvelles et 23 milliards d'économies sur les dépenses, en soulignant qu'une partie est absorbée par la hausse de la charge de la dette [6]. La Fondation IFRAP, qui s'appuie sur l'avis, en déduit un effort net d'environ 28 milliards (17 milliards de prélèvements et 11 milliards de dépenses) une fois retranchés les quelque 12 milliards de hausse des intérêts [5]. Ces deux chiffres ne se contredisent pas : ils diffèrent par la prise en compte de la charge de la dette.
 
-[Débat] Le chiffre de l'effort est contesté dans les deux sens. Des think tanks libéraux, comme l'IREF, estiment que l'effort repose surtout sur des hausses de prélèvements et que les économies réelles sont plus faibles qu'annoncé. D'autres critiques, notamment du côté des collectivités et des syndicats, jugent au contraire les économies demandées trop lourdes pour les services publics. Ces appréciations dépendent de la méthode retenue et des choix politiques de chacun.
+[Débat] Le chiffre de l'effort est contesté dans les deux sens. La Fondation IFRAP estime que le projet compte, charge de la dette incluse, plus de hausses de prélèvements obligatoires (17,2 milliards selon son calcul) que de baisses de dépenses, et qu'une partie des économies annoncées n'est pas documentée mesure par mesure [5]. Du côté des collectivités, le président du Comité des finances locales redoutait avant la présentation du budget « un choc beaucoup plus fort qu'au cours des années passées » et un impact sur les services publics locaux [8]. Ces appréciations dépendent de la méthode retenue et des choix politiques de chacun.
 
 ## Les prévisions
 
-[Fait établi] Le HCFP estime que le scénario du gouvernement suppose un enchaînement favorable : le resserrement budgétaire serait compensé par un rebond de la demande intérieure, et la reprise de l'investissement privé attendue est jugée volontariste [2].
+[Expertise] Le HCFP estime que le scénario du gouvernement suppose un enchaînement favorable, notamment une reprise de l'investissement privé jugée « de l'ordre du possible » mais « favorable au regard des incertitudes et des conditions de financement de la dette » [6].
 
-[Estimation] Selon des reprises de l'avis, si la croissance était conforme aux prévisions d'autres organismes, autour de 0,7 % à 0,9 %, le déficit 2027 serait plutôt de 5,2 % ou 5,3 % du PIB [2].
+[Expertise] Devant le Sénat le 7 octobre 2026, la présidente du HCFP a jugé la prévision de croissance de 1 % « optimiste » : avec les prévisions d'autres organismes, 0,7 % pour l'OFCE et Rexecode, 0,9 % pour la Banque de France, le déficit 2027 serait plutôt de 5,2 % ou 5,3 % du PIB [6].
 
-[Fait établi] Le HCFP juge « très peu vraisemblable » un retour du déficit sous 3 % du PIB en 2029 sans amélioration nette de la conjoncture [2].
+[Expertise] Le HCFP juge « très peu vraisemblable » un retour du déficit sous 3 % du PIB en 2029 sans amélioration nette de la conjoncture [2].
 
-[À noter] Le précédent budget visait un déficit de 5,0 % pour 2026. Selon des reprises de presse, il serait plutôt de 5,4 %. Ce chiffre n'est pas encore définitif : le déficit 2026 sera publié par l'Insee au printemps 2027.
+[À noter] Le précédent budget visait un déficit de 5,0 % pour 2026. Le projet de loi de finances pour 2027 le prévoit désormais à 5,4 % [1], une révision que le HCFP juge plausible [6]. Ce chiffre n'est pas encore définitif : le déficit 2026 sera publié par l'Insee au printemps 2027.
 
 ## Les collectivités locales
 
-[Estimation] L'effort direct demandé aux collectivités locales est de 5,5 milliards d'euros. Selon une fédération d'élus, il atteindrait 7 milliards en incluant la hausse des cotisations de retraite des agents (CNRACL) [4]. La différence tient au périmètre retenu.
+[Estimation] L'effort direct demandé aux collectivités locales est de 5,5 milliards d'euros selon le gouvernement [3]. Selon une analyse publiée par le blog FMPC, consacré à la gestion des collectivités, il atteindrait 7 milliards en incluant la hausse des cotisations de retraite des agents (CNRACL) [4] ; la Fondation IFRAP l'évalue pour sa part à 6,2 milliards [5]. La différence tient au périmètre retenu.
 
 ## Ce qu'on ne sait pas
 - **Le budget qui sera voté.** Le texte va être examiné et modifié par le Parlement ; sa forme finale et les conditions de son adoption ne sont pas connues.
@@ -53,7 +55,11 @@ image_lien: https://www.flickr.com/photos/65265630@N03/11816994903
 - **L'effet des mesures.** Certaines économies, comme celles sur les arrêts maladie, dépendent de comportements difficiles à prévoir.
 
 ## Sources
-- Projet de loi de finances pour 2027, Assemblée nationale, déposé le 1er octobre 2026. | https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf
-- Haut Conseil des finances publiques, avis n° 2026-5, 1er octobre 2026 ; reprises dans Public Sénat. | https://www.hcfp.fr/liste-avis/avis-ndeg2026-5-lois-de-finances-2027
-- Source secondaire : Touteleurope.eu, « Budget 2027 : ce qu'il faut retenir des mesures annoncées », octobre 2026 ; IREF Europe, analyse du PLF 2027. | https://www.touteleurope.eu/economie-et-social/budget-2027-ce-qu-il-faut-retenir-des-mesures-annoncees-par-le-gouvernement-lecornu/
-- Source secondaire : FMPC, « PLF 2027 : 7 milliards d'effort pour les collectivités locales ». | https://www.fmpc.fr/blog/plf-2027-un-choc-financier-de-7-milliards-pour-les-collectivites
+- Gouvernement, « Projet de loi de finances pour 2027 », Assemblée nationale, texte n° 3210 déposé le 1er octobre 2026. | https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf
+- Haut Conseil des finances publiques, avis n° 2026-5 relatif aux projets de lois de finances et de financement de la sécurité sociale pour 2027, 25 septembre 2026 ; citation sur 2029 reprise par Entrevue, 2 octobre 2026 (https://entrevue.fr/politique/budget-2027-le-haut-conseil-juge-tres-peu-vraisemblable-le-retour-sous-3-de-deficit-en-2029/). | https://www.hcfp.fr/liste-avis/avis-ndeg2026-5-lois-de-finances-2027
+- Source secondaire : Touteleurope.eu, « Budget 2027 : ce qu'il faut retenir des mesures annoncées par le gouvernement Lecornu », mis à jour le 2 octobre 2026. | https://www.touteleurope.eu/economie-et-social/budget-2027-ce-qu-il-faut-retenir-des-mesures-annoncees-par-le-gouvernement-lecornu/
+- Source secondaire : Blog FMPC, « PLF 2027 : 7 milliards d'effort pour les collectivités locales », octobre 2026 (s'appuie sur Maire-Info). | https://www.fmpc.fr/blog/plf-2027-un-choc-financier-de-7-milliards-pour-les-collectivites
+- Fondation IFRAP, « Dépenses, recettes : premier bilan du budget 2027 », 2 octobre 2026. | https://www.ifrap.org/budget-et-fiscalite/depenses-recettes-premier-bilan-du-budget-2027
+- Public Sénat, « Budget 2027 : le Haut Conseil des finances publiques pointe des prévisions « optimistes » du gouvernement », 7 octobre 2026. | https://www.publicsenat.fr/actualites/economie/budget-2027-le-haut-conseil-des-finances-publiques-pointe-des-previsions-optimistes-du-gouvernement
+- Sénat, avis sur le projet de loi de finances pour 2014, « Cour des comptes et autres juridictions financières », 21 novembre 2013 (création du HCFP par la loi organique n° 2012-1403 du 17 décembre 2012). | https://www.senat.fr/rap/a13-162-6/a13-162-60.html
+- Maire-Info, « Budget 2027 : le président du CFL redoute un choc beaucoup plus fort qu'au cours des années passées », 17 septembre 2026. | https://www.maire-info.com/budget-2027-le-president-du-cfl-redoute-un-choc-beaucoup-plus-fort-quau-cours-des-annees-passees-article2-31085
