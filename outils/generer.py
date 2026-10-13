@@ -3,11 +3,9 @@ OUT = sys.argv[1]
 
 NAV = [
     ("dossiers.html", "Dossiers"),
-    ("politique-institutions.html", "Politique"),
-    ("economie-societe.html", "Économie &amp; Société"),
-    ("affaires-enquetes.html", "Affaires &amp; Enquêtes"),
-    ("livres.html", "Livres"),
-    ("methode.html", "Méthode"),
+    ("methode.html", "Notre méthode"),
+    ("livres.html", "Monographies"),
+    ("index.html#lettre", "La lettre"),
 ]
 
 def A(t):  # élément à compléter avant publication
@@ -36,28 +34,28 @@ def page(fichier, titre, description, corps, noindex=False):
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Source+Sans+3:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
   <link rel="stylesheet" href="assets/style.css">
+  <script>try{{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}}catch(e){{}}</script>
 </head>
 <body>
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
+<div class="bandeau-haut">Documents &amp; enquêtes · Politique · Économie · Société · Affaires judiciaires</div>
 <header class="entete">
   <div class="conteneur entete-haut">
-    <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
-      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-      <span>Rechercher</span>
-    </a>
-    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="34" height="34"><span>Le Petit Monographe</span></a>
-    <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
-      <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
-    </button>
-  </div>
-  <nav class="nav" id="menu-principal" aria-label="Navigation principale">
-    <div class="conteneur nav-liens">
+    <a class="logo" href="./"><img src="assets/medaillon.png" alt="" width="46" height="46"><span>Le Petit Monographe</span></a>
+    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+      <div class="nav-liens">
 {nav}
+      </div>
+    </nav>
+    <div class="actions">
+      <a class="bouton-rond" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
+      <button class="bouton-rond bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg></button>
+      <button class="bouton-rond bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
     </div>
-  </nav>
+  </div>
 </header>
 
 <main id="contenu">
@@ -193,45 +191,70 @@ portes = "\n".join(f'''        <a class="porte {c}" href="{h}">
           <span class="suite">Entrer dans la rubrique</span>
         </a>''' for h, c, t, d in RUBRIQUES)
 
-accueil = f'''  <section class="ouverture embleme">
+STATUTS_ACCUEIL = [
+    ("fait", "Fait établi", "Donnée ou événement vérifiable, avec sa source et ses limites."),
+    ("temoignage", "Témoignage", "Parole attribuée, datée et contextualisée. Elle ne vaut pas preuve à elle seule."),
+    ("interpretation", "Interprétation", "Analyse argumentée, attribuée à son auteur et confrontée aux lectures concurrentes."),
+    ("hypothese", "Hypothèse", "Possibilité non confirmée, avec les conditions qui permettraient de la vérifier."),
+    ("proposition", "Proposition", "Mesure ou scénario, distinct des constats documentaires."),
+]
+_statuts_html = "\n".join(f'''        <div class="statut-carte statut-carte-{k}"><span class="statut-trait" aria-hidden="true"></span><h3>{t}</h3><p>{d}</p></div>''' for k, t, d in STATUTS_ACCUEIL)
+accueil = f'''  <section class="ouverture">
     <div class="conteneur">
-      <div class="embleme-monogramme"><img src="assets/monogramme.png" alt="" width="120" height="120"></div>
-      <h1 class="embleme-nom">Le Petit Monographe</h1>
-      <p class="embleme-sous">Documents <span>&amp;</span> enquêtes</p>
-      <p class="embleme-domaines">Politique <i>•</i> Économie <i>•</i> Société <i>•</i> <span>Affaires judiciaires</span></p>
-      <p class="chapeau">Des dossiers documentés qui distinguent les faits établis, les désaccords, les hypothèses et les zones d'incertitude.</p>
-      <ul class="engagements" aria-label="Engagements éditoriaux">
-        <li>Sources datées</li>
-        <li>Faits et opinions séparés</li>
-        <li>Arguments contradictoires</li>
-        <li>Incertitudes signalées</li>
-        <li>Corrections publiées</li>
+      <img class="ouverture-logo" src="assets/medaillon.png" alt="" width="104" height="104">
+      <p class="surtitre"><span class="or">Documents &amp; enquêtes</span></p>
+      <h1>Les faits d'abord.<br><em>L'opinion reste au lecteur.</em></h1>
+      <p class="ouverture-intro">Des enquêtes documentées pour comprendre la politique, l'économie, la société et les affaires judiciaires. Des sources vérifiables, des contradictions présentées et des incertitudes explicites.</p>
+      <div class="ouverture-boutons">
+        <a class="bouton bouton-plein" href="#a-la-une">Découvrir les enquêtes</a>
+        <a class="bouton" href="methode.html">Notre méthode</a>
+      </div>
+      <ul class="ouverture-engagements">
+        <li>Enquêtes sourcées</li>
+        <li>Points de vue confrontés</li>
+        <li>Corrections transparentes</li>
       </ul>
     </div>
   </section>
 
 <!--DERNIERS-->
 
-{section(f"""      <h2>Trois portes d'entrée</h2>
-      <p class="intro">Chaque dossier part des pièces disponibles et indique ce qui est établi, ce qui est débattu et ce qui reste incertain.</p>
-      <div class="portes">
-{portes}
-      </div>""")}
+  <section class="manifeste" id="methode-accueil">
+    <div class="conteneur">
+      <p class="surtitre">Notre méthode</p>
+      <h2>Une information utile est une information dont on peut examiner les preuves.</h2>
+      <p class="manifeste-texte">Le Petit Monographe classe les énoncés selon leur statut, indique ses sources, présente les contradictions et signale les incertitudes. Nous ne demandons pas au lecteur d'adopter une opinion : nous lui donnons des éléments pour construire la sienne.</p>
+      <div class="statuts-grille">
+{_statuts_html}
+      </div>
+      <a class="bouton bouton-clair" href="methode.html">Lire la méthode complète</a>
+    </div>
+  </section>
 
-  <div class="bandeau">
-{section(f"""      <p class="surtitre">Notre méthode</p>
-      <h2>Chaque information porte son étiquette</h2>
-{TYPOLOGIE}
-      <p class="intro">Chaque type d'information est identifié, les sources sont données, les incertitudes sont conservées et les corrections sont publiées.</p>
-      <a class="bouton" style="--couleur: var(--marque)" href="methode.html">Lire la méthode</a>""")}
-  </div>
+  <section class="section" id="monographies">
+    <div class="conteneur">
+      <div class="section-tete">
+        <div><p class="surtitre"><span class="or">Collection</span></p><h2>Les monographies</h2></div>
+        <p class="intro">Quand un article ne suffit plus, les livres permettent de parcourir l'ensemble du dossier avec davantage de profondeur.</p>
+      </div>
+{grille_livres(["c-pouvoirs", "c-economie", "c-affaires"])}
+    </div>
+  </section>
 
-{section(f"""      <h2>Les monographies</h2>
-      <p class="intro">Quand un article ne suffit plus, les livres approfondissent l'ensemble du dossier.</p>
-{grille_livres(["c-pouvoirs", "c-economie", "c-affaires"])}""")}
-
-{section("""      <p class="signature" style="border:0;padding:0;margin:0">Les faits d'abord. L'opinion reste au lecteur.</p>
-      <p style="margin:8px 0 0;color:var(--encre-douce)"><a href="a-propos.html">À propos du Petit Monographe</a></p>""")}'''
+  <section class="lettre" id="lettre">
+    <div class="conteneur lettre-grille">
+      <div>
+        <p class="surtitre">Garder le fil des faits</p>
+        <h2>La lettre du Petit Monographe</h2>
+        <p>Les nouvelles enquêtes, les mises à jour et une sélection de sources documentaires. Sans polémique ni surcharge.</p>
+      </div>
+      <div class="lettre-annonce">
+        <p class="lettre-statut">Lancement prochain</p>
+        <p>L'inscription ouvrira ici dès que la lettre sera prête. En attendant, tous les dossiers et leurs mises à jour sont sur le site.</p>
+        <a class="bouton" href="dossiers.html">Voir tous les dossiers</a>
+      </div>
+    </div>
+  </section>'''
 
 page("index.html", "Accueil",
      "Le Petit Monographe : dossiers documentés sur la politique, l'économie, la société et les affaires judiciaires. Faits établis, désaccords, hypothèses et incertitudes clairement séparés.",
@@ -722,21 +745,37 @@ for h, c, t, d in RUBRIQUES:
     page(h, t.replace("&amp;", "&"), f"{t.replace('&amp;', '&')} : {d}", corps)
 
 # ---------- Sélection de dossiers sur la page d'accueil ----------
-A_LA_UNE = ["dossier-budget-2027.html", "dossier-usage-force-police.html", "dossier-gregory.html",
-            "dossier-immigration-finances-publiques.html", "dossier-financement-campagnes.html"]
+A_LA_UNE = ["dossier-budget-2027.html", "dossier-usage-force-police.html", "dossier-financement-campagnes.html",
+            "dossier-gregory.html", "dossier-immigration-finances-publiques.html", "dossier-dette-publique.html"]
 _tous = {h: (c, t, d) for c, lst in DOSSIERS.items() for h, t, d in lst}
-_cartes = "\n".join(f'''        <a class="porte {_tous[h][0]}" href="{h}">
-          <p class="surtitre">Dossier</p>
+_images = {"dossier-chomage-emploi.html": "assets/images/dossier-chomage-emploi.jpg"}
+_images.update({m["fichier"]: m["image"] for m in _dossiers_simples if m.get("image")})
+_RUB_COURT = {"c-pouvoirs": ("politique", "Politique &amp; Institutions"), "c-economie": ("economie", "Économie &amp; Société"), "c-affaires": ("affaires", "Affaires &amp; Enquêtes")}
+_cartes = "\n".join(f'''        <a class="porte {_tous[h][0]}" href="{h}" data-rubrique="{_RUB_COURT[_tous[h][0]][0]}">
+          <p class="surtitre">Dossier · {_RUB_COURT[_tous[h][0]][1]}</p>
           <h3>{_tous[h][1]}</h3>
           <p>{_tous[h][2]}</p>
-          <span class="suite">Lire le dossier</span>
+          <span class="suite">Explorer le dossier</span>
         </a>''' for h in A_LA_UNE if h in _tous)
 _idx = os.path.join(OUT, "index.html")
-_page_idx = open(_idx, encoding="utf-8").read().replace("<!--DERNIERS-->", section(f"""      <h2>À la une</h2>
-      <p class="intro">{sum(len(v) for v in DOSSIERS.values())} dossiers publiés, classés par rubrique.</p>
-      <div class="portes">
+_page_idx = open(_idx, encoding="utf-8").read().replace("<!--DERNIERS-->", f"""  <section class="section" id="a-la-une">
+    <div class="conteneur">
+      <div class="section-tete">
+        <div><p class="surtitre">Une bibliothèque d'enquêtes</p><h2>À la une</h2></div>
+        <p class="intro">Une sélection parmi {sum(len(v) for v in DOSSIERS.values())} dossiers. Chaque publication distingue les faits établis des interprétations et des hypothèses.</p>
+      </div>
+      <div class="puces" role="group" aria-label="Filtrer par rubrique">
+        <button class="puce" type="button" data-puce="tous" aria-pressed="true">Tous les dossiers</button>
+        <button class="puce" type="button" data-puce="politique" aria-pressed="false">Politique</button>
+        <button class="puce" type="button" data-puce="economie" aria-pressed="false">Économie &amp; société</button>
+        <button class="puce" type="button" data-puce="affaires" aria-pressed="false">Affaires &amp; enquêtes</button>
+      </div>
+      <div class="portes" id="cartes-une">
 {_cartes}
-      </div>""", "a-la-une"))
+      </div>
+      <p class="voir-tout"><a class="bouton" href="dossiers.html">Tous les dossiers</a></p>
+    </div>
+  </section>""")
 open(_idx, "w", encoding="utf-8").write(_page_idx)
 
 # ---------- Navigation : page « Tous les dossiers » et enrichissement des dossiers ----------

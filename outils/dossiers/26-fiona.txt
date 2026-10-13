@@ -2,7 +2,7 @@ fichier: dossier-fiona.html
 rubrique: affaires
 titre: Affaire Fiona : trois procès pour établir les responsabilités
 titre_court: L'affaire Fiona
-chapeau: En 2013, la disparition signalée d'une fillette de 5 ans dans un parc de Clermont-Ferrand se révèle être un mensonge de sa mère et de son compagnon. Il a fallu trois procès d'assises pour fixer les responsabilités dans sa mort.
+chapeau: En mai 2013, la disparition signalée d'une fillette de 5 ans dans un parc de Clermont-Ferrand se révèle être un mensonge de sa mère et du compagnon de celle-ci. Il a fallu trois procès d'assises menés à leur terme, et un arrêt de cassation, pour fixer les responsabilités dans sa mort.
 resume: Procès successifs, cassation, peines prononcées et points restés incertains dans l'affaire Fiona. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
@@ -10,33 +10,38 @@ image: assets/images/fiona.jpg
 image_alt: Le palais de justice historique de Lyon, au bord de la Saône
 image_credit: ell brown, CC BY-SA 2.0, recadrée, Flickr
 image_lien: https://www.flickr.com/photos/39415781@N06/34544894454
+verifie: 11 octobre 2026
+corrections: Le procès en appel de 2018 avait aussi condamné le compagnon à vingt ans, ce que le dossier omettait ; les dates de l'arrêt de cassation (20 février 2019) et du rejet du dernier pourvoi (février 2022), ainsi que les juridictions et qualifications, ont été précisées.
 ---
 ## Essentiel
-- En 2013, la mère de Fiona et son compagnon signalent la disparition de l'enfant ; ils reconnaissent ensuite avoir menti [1].
-- En 2016, en première instance, la mère est acquittée des violences mortelles et condamnée à cinq ans pour ses mensonges ; son compagnon est condamné à vingt ans [2].
-- Après un procès en appel en 2018, cassé par la Cour de cassation, la cour d'assises du Rhône condamne en décembre 2020 la mère à vingt ans et son compagnon à dix-huit ans de réclusion [1][2].
-- Le pourvoi de la mère contre cette dernière décision a été rejeté : sa condamnation est définitive [3].
+- Le 12 mai 2013, la mère de Fiona et son compagnon signalent la disparition de l'enfant dans le parc Montjuzet, à Clermont-Ferrand. Placés en garde à vue le 24 septembre 2013, ils reconnaissent que l'enfant est morte au domicile et qu'ils ont dissimulé le corps, qui n'a jamais été retrouvé [1][2].
+- En novembre 2016, la cour d'assises du Puy-de-Dôme acquitte la mère des violences mortelles et la condamne à cinq ans d'emprisonnement pour d'autres délits, dont la non-assistance à personne en danger ; son compagnon est condamné à vingt ans de réclusion [1][3].
+- En février 2018, en appel, la cour d'assises de la Haute-Loire condamne les deux accusés à vingt ans de réclusion. La Cour de cassation annule cet arrêt le 20 février 2019 et renvoie l'affaire devant la cour d'assises du Rhône [3][4].
+- Le 16 décembre 2020, la cour d'assises du Rhône condamne la mère à vingt ans et son ancien compagnon à dix-huit ans de réclusion criminelle pour violences volontaires ayant entraîné la mort [2].
+- Le pourvoi de la mère contre cette dernière décision a été écarté par la Cour de cassation en février 2022 : sa condamnation est définitive [3].
 
 ## État de la procédure
 
-[État de la procédure] La condamnation de la mère à vingt ans de réclusion est définitive après le rejet de son pourvoi en cassation [3]. Pour son ancien compagnon, condamné à dix-huit ans, nous n'avons pas trouvé de confirmation explicite du caractère définitif de la décision.
+[État de la procédure] La condamnation de la mère à vingt ans de réclusion est définitive depuis que la Cour de cassation a écarté son pourvoi, en février 2022 [3]. Pour son ancien compagnon, condamné à dix-huit ans, l'encyclopédie Wikipédia indique que la condamnation est également définitive, mais nous n'avons pas trouvé de source primaire ou de presse le confirmant explicitement [1].
 
 ## Les procès
 
-[Fait établi] Le premier procès, en 2016, acquitte la mère des violences ayant entraîné la mort et la condamne à cinq ans d'emprisonnement ; son compagnon est condamné à vingt ans [2].
+[Fait établi] Le premier procès, devant la cour d'assises du Puy-de-Dôme à Riom, s'achève en novembre 2016. La mère est acquittée des violences ayant entraîné la mort et condamnée à cinq ans d'emprisonnement, notamment pour non-assistance à personne en danger et pour avoir faussement dénoncé un enlèvement ; son compagnon est condamné à vingt ans de réclusion. Le parquet fait appel [1][3].
 
-[Fait établi] En appel, au Puy-en-Velay en 2018, la mère est condamnée à vingt ans de réclusion. Cette décision est cassée par la Cour de cassation, ce qui entraîne un nouveau procès devant la cour d'assises du Rhône, à Lyon [2].
+[Fait établi] En appel, devant la cour d'assises de la Haute-Loire au Puy-en-Velay, les deux accusés sont condamnés le 10 février 2018 à vingt ans de réclusion pour violences volontaires ayant entraîné la mort [3]. La Cour de cassation casse cet arrêt le 20 février 2019, en retenant un seul des moyens soulevés par la défense : le rejet, non motivé, d'une demande de renvoi formulée par l'accusée. Elle renvoie l'affaire devant la cour d'assises du Rhône, à Lyon [4].
 
-[Fait établi] En décembre 2020, après douze jours d'audience, la cour d'assises du Rhône condamne la mère à vingt ans et son ancien compagnon à dix-huit ans de réclusion criminelle [1][2].
+[Fait établi] Après plusieurs reports, le procès devant la cour d'assises du Rhône se tient du 1er au 16 décembre 2020. Le 16 décembre, la cour condamne la mère à vingt ans et son ancien compagnon à dix-huit ans de réclusion criminelle ; l'avocat général avait requis trente ans contre chacun [2]. La presse parle parfois de « quatrième procès », en comptant une première session d'appel ouverte en octobre 2017 puis renvoyée [1][2].
 
 ## Ce qui reste incertain
 
-[Fait établi] Les cours d'assises successives ont apprécié différemment le rôle de la mère : acquittée des violences mortelles en première instance, elle a été condamnée à vingt ans de réclusion lors des deux procès suivants [2].
+[Fait établi] Les cours d'assises successives ont apprécié différemment le rôle de la mère : acquittée des violences mortelles en première instance, elle a été condamnée à vingt ans de réclusion lors des deux procès suivants [2][3].
 
 ## Ce qu'on ne sait pas
-- **Le déroulement exact des faits**, établi par les cours d'assises à partir de déclarations contradictoires.
+- **Le déroulement exact des faits**, établi par les cours d'assises à partir de déclarations contradictoires des deux accusés.
+- **Le lieu où se trouve le corps** de l'enfant, jamais retrouvé [2].
 
 ## Sources
-- Source secondaire : Wikipédia, « Murder of Fiona Chafoulais » ; Gulf News, décembre 2020. | https://en.wikipedia.org/wiki/Murder_of_Fiona_Chafoulais
-- ICI, « Affaire Fiona : Cécile Bourgeon et Berkane Makhlouf coupables, condamnés à 20 ans et 18 ans de prison ». | https://www.ici.fr/infos/faits-divers-justice/affaire-fiona-le-verdict-pour-cecile-bourgeon-et-berkane-makhlouf-1608048902
-- Zoomdici, « Affaire Fiona : Cécile Bourgeon reste condamnée à 20 ans de prison ». | https://www.zoomdici.fr/actualite/affaire-fiona-cecile-bourgeon-reste-condamnee-20-ans-de-prison
+- Source secondaire : Wikipédia, « Affaire Fiona », encyclopédie collaborative, consultée le 11 octobre 2026. | https://fr.wikipedia.org/wiki/Affaire_Fiona
+- ICI (ex-France Bleu), Olivier Vidal et Xavier Louvel, « Affaire Fiona : Cécile Bourgeon et Berkane Makhlouf coupables, condamnés à 20 ans et 18 ans de prison », 16 décembre 2020. | https://www.ici.fr/infos/faits-divers-justice/affaire-fiona-le-verdict-pour-cecile-bourgeon-et-berkane-makhlouf-1608048902
+- Zoomdici, « Affaire Fiona : Cécile Bourgeon reste condamnée à 20 ans de prison », 17 février 2022. | https://www.zoomdici.fr/actualite/affaire-fiona-cecile-bourgeon-reste-condamnee-20-ans-de-prison
+- Europe 1 avec AFP, « L'affaire Fiona sera rejugée à Lyon lors d'un quatrième procès », février 2019. | https://www.europe1.fr/societe/laffaire-fiona-sera-rejugee-a-lyon-lors-dun-quatrieme-proces-3862655

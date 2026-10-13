@@ -15,137 +15,128 @@
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Source+Sans+3:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
   <link rel="stylesheet" href="assets/style.css">
+  <script>try{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 </head>
 <body>
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
+<div class="bandeau-haut">Documents &amp; enquêtes · Politique · Économie · Société · Affaires judiciaires</div>
 <header class="entete">
   <div class="conteneur entete-haut">
-    <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
-      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-      <span>Rechercher</span>
-    </a>
-    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="34" height="34"><span>Le Petit Monographe</span></a>
-    <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
-      <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
-    </button>
-  </div>
-  <nav class="nav" id="menu-principal" aria-label="Navigation principale">
-    <div class="conteneur nav-liens">
+    <a class="logo" href="./"><img src="assets/medaillon.png" alt="" width="46" height="46"><span>Le Petit Monographe</span></a>
+    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+      <div class="nav-liens">
       <a href="dossiers.html">Dossiers</a>
-      <a href="politique-institutions.html">Politique</a>
-      <a href="economie-societe.html">Économie &amp; Société</a>
-      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
-      <a href="livres.html">Livres</a>
-      <a href="methode.html">Méthode</a>
+      <a href="methode.html">Notre méthode</a>
+      <a href="livres.html">Monographies</a>
+      <a href="index.html#lettre">La lettre</a>
+      </div>
+    </nav>
+    <div class="actions">
+      <a class="bouton-rond" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
+      <button class="bouton-rond bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg></button>
+      <button class="bouton-rond bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
     </div>
-  </nav>
+  </div>
 </header>
 
 <main id="contenu">
-  <section class="ouverture embleme">
+  <section class="ouverture">
     <div class="conteneur">
-      <div class="embleme-monogramme"><img src="assets/monogramme.png" alt="" width="120" height="120"></div>
-      <h1 class="embleme-nom">Le Petit Monographe</h1>
-      <p class="embleme-sous">Documents <span>&amp;</span> enquêtes</p>
-      <p class="embleme-domaines">Politique <i>•</i> Économie <i>•</i> Société <i>•</i> <span>Affaires judiciaires</span></p>
-      <p class="chapeau">Des dossiers documentés qui distinguent les faits établis, les désaccords, les hypothèses et les zones d'incertitude.</p>
-      <ul class="engagements" aria-label="Engagements éditoriaux">
-        <li>Sources datées</li>
-        <li>Faits et opinions séparés</li>
-        <li>Arguments contradictoires</li>
-        <li>Incertitudes signalées</li>
-        <li>Corrections publiées</li>
+      <img class="ouverture-logo" src="assets/medaillon.png" alt="" width="104" height="104">
+      <p class="surtitre"><span class="or">Documents &amp; enquêtes</span></p>
+      <h1>Les faits d'abord.<br><em>L'opinion reste au lecteur.</em></h1>
+      <p class="ouverture-intro">Des enquêtes documentées pour comprendre la politique, l'économie, la société et les affaires judiciaires. Des sources vérifiables, des contradictions présentées et des incertitudes explicites.</p>
+      <div class="ouverture-boutons">
+        <a class="bouton bouton-plein" href="#a-la-une">Découvrir les enquêtes</a>
+        <a class="bouton" href="methode.html">Notre méthode</a>
+      </div>
+      <ul class="ouverture-engagements">
+        <li>Enquêtes sourcées</li>
+        <li>Points de vue confrontés</li>
+        <li>Corrections transparentes</li>
       </ul>
     </div>
   </section>
 
   <section class="section" id="a-la-une">
     <div class="conteneur">
-      <h2>À la une</h2>
-      <p class="intro">34 dossiers publiés, classés par rubrique.</p>
-      <div class="portes">
-        <a class="porte c-economie" href="dossier-budget-2027.html"><span class="porte-image"><img src="assets/images/budget-2027.jpg" alt="" loading="lazy"></span>
-          <p class="surtitre"><span class="or">Dossier</span></p>
+      <div class="section-tete">
+        <div><p class="surtitre">Une bibliothèque d'enquêtes</p><h2>À la une</h2></div>
+        <p class="intro">Une sélection parmi 34 dossiers. Chaque publication distingue les faits établis des interprétations et des hypothèses.</p>
+      </div>
+      <div class="puces" role="group" aria-label="Filtrer par rubrique">
+        <button class="puce" type="button" data-puce="tous" aria-pressed="true">Tous les dossiers</button>
+        <button class="puce" type="button" data-puce="politique" aria-pressed="false">Politique</button>
+        <button class="puce" type="button" data-puce="economie" aria-pressed="false">Économie &amp; société</button>
+        <button class="puce" type="button" data-puce="affaires" aria-pressed="false">Affaires &amp; enquêtes</button>
+      </div>
+      <div class="portes" id="cartes-une">
+        <a class="porte c-economie" href="dossier-budget-2027.html" data-rubrique="economie"><span class="porte-image"><img src="assets/images/budget-2027.jpg" alt="" loading="lazy"></span>
+          <p class="surtitre"><span class="or">Dossier</span> · Économie &amp; Société</p>
           <h3>Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</h3>
           <p>Objectif de déficit, effort de 54 milliards, répartition entre dépenses et recettes, avis du Haut Conseil des finances publiques. Données arrêtées au 8 octobre 2026.</p>
-          <span class="suite">Lire le dossier</span>
+          <span class="suite">Explorer le dossier</span>
         </a>
-        <a class="porte c-affaires" href="dossier-usage-force-police.html"><span class="porte-image"><img src="assets/images/igpn.jpg" alt="" loading="lazy"></span>
-          <p class="surtitre"><span class="or">Dossier</span></p>
+        <a class="porte c-affaires" href="dossier-usage-force-police.html" data-rubrique="affaires"><span class="porte-image"><img src="assets/images/igpn.jpg" alt="" loading="lazy"></span>
+          <p class="surtitre"><span class="or">Dossier</span> · Affaires &amp; Enquêtes</p>
           <h3>Usage de la force par la police : ce que disent les chiffres de l'IGPN</h3>
           <p>Enquêtes de l'IGPN sur l'usage de la force, tirs mortels, atteintes à la probité, et limites de ces statistiques. Données arrêtées au 8 octobre 2026.</p>
-          <span class="suite">Lire le dossier</span>
+          <span class="suite">Explorer le dossier</span>
         </a>
-        <a class="porte c-affaires" href="dossier-gregory.html"><span class="porte-image"><img src="assets/images/gregory.jpg" alt="" loading="lazy"></span>
-          <p class="surtitre"><span class="or">Dossier</span></p>
-          <h3>Affaire Grégory : l'état de la procédure en octobre 2026</h3>
-          <p>Décisions de justice depuis 1984, annulations, prescription et investigations en cours. Données arrêtées au 8 octobre 2026.</p>
-          <span class="suite">Lire le dossier</span>
-        </a>
-        <a class="porte c-pouvoirs" href="dossier-immigration-finances-publiques.html"><span class="porte-image"><img src="assets/images/immigration-finances.jpg" alt="" loading="lazy"></span>
-          <p class="surtitre"><span class="or">Dossier</span></p>
-          <h3>Immigration et finances publiques : ce que disent les études</h3>
-          <p>Méthodes, résultats des études du CEPII et de l'OCDE, origine des chiffres contestés et limites des calculs. Données arrêtées au 8 octobre 2026.</p>
-          <span class="suite">Lire le dossier</span>
-        </a>
-        <a class="porte c-pouvoirs" href="dossier-financement-campagnes.html"><span class="porte-image"><img src="assets/images/financement-campagnes.jpg" alt="" loading="lazy"></span>
-          <p class="surtitre"><span class="or">Dossier</span></p>
+        <a class="porte c-pouvoirs" href="dossier-financement-campagnes.html" data-rubrique="politique"><span class="porte-image"><img src="assets/images/financement-campagnes.jpg" alt="" loading="lazy"></span>
+          <p class="surtitre"><span class="or">Dossier</span> · Politique &amp; Institutions</p>
           <h3>Présidentielle 2027 : comment se financent les campagnes, et pourquoi les banques hésitent</h3>
           <p>Ressources autorisées, remboursement public, réticence des banques et propositions en débat. Données arrêtées au 8 octobre 2026.</p>
-          <span class="suite">Lire le dossier</span>
+          <span class="suite">Explorer le dossier</span>
+        </a>
+        <a class="porte c-affaires" href="dossier-gregory.html" data-rubrique="affaires"><span class="porte-image"><img src="assets/images/gregory.jpg" alt="" loading="lazy"></span>
+          <p class="surtitre"><span class="or">Dossier</span> · Affaires &amp; Enquêtes</p>
+          <h3>Affaire Grégory : l'état de la procédure en octobre 2026</h3>
+          <p>Décisions de justice depuis 1984, annulations, prescription et investigations en cours. Données arrêtées au 8 octobre 2026.</p>
+          <span class="suite">Explorer le dossier</span>
+        </a>
+        <a class="porte c-pouvoirs" href="dossier-immigration-finances-publiques.html" data-rubrique="politique"><span class="porte-image"><img src="assets/images/immigration-finances.jpg" alt="" loading="lazy"></span>
+          <p class="surtitre"><span class="or">Dossier</span> · Politique &amp; Institutions</p>
+          <h3>Immigration et finances publiques : ce que disent les études</h3>
+          <p>Méthodes, résultats des études du CEPII et de l'OCDE, origine des chiffres contestés et limites des calculs. Données arrêtées au 8 octobre 2026.</p>
+          <span class="suite">Explorer le dossier</span>
+        </a>
+        <a class="porte c-economie" href="dossier-dette-publique.html" data-rubrique="economie"><span class="porte-image"><img src="assets/images/dette-publique.jpg" alt="" loading="lazy"></span>
+          <p class="surtitre"><span class="or">Dossier</span> · Économie &amp; Société</p>
+          <h3>La dette publique française : niveau, coût et risques</h3>
+          <p>Niveau, charge d'intérêts, taux d'emprunt, comparaisons européennes : les chiffres de la dette et leur contexte. Données arrêtées au 8 octobre 2026.</p>
+          <span class="suite">Explorer le dossier</span>
         </a>
       </div>
+      <p class="voir-tout"><a class="bouton" href="dossiers.html">Tous les dossiers</a></p>
     </div>
   </section>
 
-  <section class="section">
-    <div class="conteneur">
-      <h2>Trois portes d'entrée</h2>
-      <p class="intro">Chaque dossier part des pièces disponibles et indique ce qui est établi, ce qui est débattu et ce qui reste incertain.</p>
-      <div class="portes">
-        <a class="porte c-pouvoirs" href="politique-institutions.html">
-          <p class="surtitre">Rubrique</p>
-          <h3>Politique &amp; Institutions</h3>
-          <p>Pouvoir, décisions publiques, élections, réformes.</p>
-          <span class="suite">Entrer dans la rubrique</span>
-        </a>
-        <a class="porte c-economie" href="economie-societe.html">
-          <p class="surtitre">Rubrique</p>
-          <h3>Économie &amp; Société</h3>
-          <p>Dette, retraites, fiscalité, emploi, services publics.</p>
-          <span class="suite">Entrer dans la rubrique</span>
-        </a>
-        <a class="porte c-affaires" href="affaires-enquetes.html">
-          <p class="surtitre">Rubrique</p>
-          <h3>Affaires &amp; Enquêtes</h3>
-          <p>Chronologies judiciaires, pièces du dossier, expertises, faits établis et hypothèses.</p>
-          <span class="suite">Entrer dans la rubrique</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <div class="bandeau">
-  <section class="section">
+  <section class="manifeste" id="methode-accueil">
     <div class="conteneur">
       <p class="surtitre">Notre méthode</p>
-      <h2>Chaque information porte son étiquette</h2>
-      <p class="typologie" aria-label="Fait établi, différent de témoignage, différent d'interprétation, différent d'hypothèse, différent de proposition">
-        <span>Fait établi</span><span class="ne">≠</span><span>Témoignage</span><span class="ne">≠</span><span>Interprétation</span><span class="ne">≠</span><span>Hypothèse</span><span class="ne">≠</span><span>Proposition</span>
-      </p>
-      <p class="intro">Chaque type d'information est identifié, les sources sont données, les incertitudes sont conservées et les corrections sont publiées.</p>
-      <a class="bouton" style="--couleur: var(--marque)" href="methode.html">Lire la méthode</a>
+      <h2>Une information utile est une information dont on peut examiner les preuves.</h2>
+      <p class="manifeste-texte">Le Petit Monographe classe les énoncés selon leur statut, indique ses sources, présente les contradictions et signale les incertitudes. Nous ne demandons pas au lecteur d'adopter une opinion : nous lui donnons des éléments pour construire la sienne.</p>
+      <div class="statuts-grille">
+        <div class="statut-carte statut-carte-fait"><span class="statut-trait" aria-hidden="true"></span><h3>Fait établi</h3><p>Donnée ou événement vérifiable, avec sa source et ses limites.</p></div>
+        <div class="statut-carte statut-carte-temoignage"><span class="statut-trait" aria-hidden="true"></span><h3>Témoignage</h3><p>Parole attribuée, datée et contextualisée. Elle ne vaut pas preuve à elle seule.</p></div>
+        <div class="statut-carte statut-carte-interpretation"><span class="statut-trait" aria-hidden="true"></span><h3>Interprétation</h3><p>Analyse argumentée, attribuée à son auteur et confrontée aux lectures concurrentes.</p></div>
+        <div class="statut-carte statut-carte-hypothese"><span class="statut-trait" aria-hidden="true"></span><h3>Hypothèse</h3><p>Possibilité non confirmée, avec les conditions qui permettraient de la vérifier.</p></div>
+        <div class="statut-carte statut-carte-proposition"><span class="statut-trait" aria-hidden="true"></span><h3>Proposition</h3><p>Mesure ou scénario, distinct des constats documentaires.</p></div>
+      </div>
+      <a class="bouton bouton-clair" href="methode.html">Lire la méthode complète</a>
     </div>
   </section>
-  </div>
 
-  <section class="section">
+  <section class="section" id="monographies">
     <div class="conteneur">
-      <h2>Les monographies</h2>
-      <p class="intro">Quand un article ne suffit plus, les livres approfondissent l'ensemble du dossier.</p>
+      <div class="section-tete">
+        <div><p class="surtitre"><span class="or"><span class="or">Collection</span></span></p><h2>Les monographies</h2></div>
+        <p class="intro">Quand un article ne suffit plus, les livres permettent de parcourir l'ensemble du dossier avec davantage de profondeur.</p>
+      </div>
       <div class="livres">
         <article class="livre c-pouvoirs">
           <div class="couverture" aria-hidden="true"><img src="assets/couverture-macron.png" alt="" width="142" height="231" loading="lazy"></div>
@@ -175,10 +166,18 @@
     </div>
   </section>
 
-  <section class="section">
-    <div class="conteneur">
-      <p class="signature" style="border:0;padding:0;margin:0">Les faits d'abord. L'opinion reste au lecteur.</p>
-      <p style="margin:8px 0 0;color:var(--encre-douce)"><a href="a-propos.html">À propos du Petit Monographe</a></p>
+  <section class="lettre" id="lettre">
+    <div class="conteneur lettre-grille">
+      <div>
+        <p class="surtitre">Garder le fil des faits</p>
+        <h2>La lettre du Petit Monographe</h2>
+        <p>Les nouvelles enquêtes, les mises à jour et une sélection de sources documentaires. Sans polémique ni surcharge.</p>
+      </div>
+      <div class="lettre-annonce">
+        <p class="lettre-statut">Lancement prochain</p>
+        <p>L'inscription ouvrira ici dès que la lettre sera prête. En attendant, tous les dossiers et leurs mises à jour sont sur le site.</p>
+        <a class="bouton" href="dossiers.html">Voir tous les dossiers</a>
+      </div>
     </div>
   </section>
 </main>

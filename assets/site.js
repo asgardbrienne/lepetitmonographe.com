@@ -18,6 +18,34 @@
     });
   }
 
+  // Apparence claire ou sombre, mémorisée sur cet appareil
+  var theme = document.querySelector('.bouton-theme');
+  if (theme) {
+    theme.addEventListener('click', function () {
+      var racine = document.documentElement;
+      var sombre = racine.getAttribute('data-theme') === 'dark' ||
+        (!racine.getAttribute('data-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      var nouveau = sombre ? 'light' : 'dark';
+      racine.setAttribute('data-theme', nouveau);
+      try { localStorage.setItem('lpm-theme', nouveau); } catch (e) {}
+    });
+  }
+
+  // Filtres « À la une » sur l'accueil
+  var puces = Array.prototype.slice.call(document.querySelectorAll('.puce'));
+  var une = document.getElementById('cartes-une');
+  if (puces.length && une) {
+    puces.forEach(function (p) {
+      p.addEventListener('click', function () {
+        var r = p.getAttribute('data-puce');
+        puces.forEach(function (q) { q.setAttribute('aria-pressed', String(q === p)); });
+        Array.prototype.forEach.call(une.querySelectorAll('.porte'), function (c) {
+          c.hidden = r !== 'tous' && c.getAttribute('data-rubrique') !== r;
+        });
+      });
+    });
+  }
+
   var haut = document.querySelector('.haut-de-page');
   if (haut) {
     var maj = function () { haut.classList.toggle('visible', window.scrollY > 900); };

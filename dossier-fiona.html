@@ -15,33 +15,31 @@
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Source+Sans+3:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
   <link rel="stylesheet" href="assets/style.css">
+  <script>try{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 </head>
 <body>
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
+<div class="bandeau-haut">Documents &amp; enquêtes · Politique · Économie · Société · Affaires judiciaires</div>
 <header class="entete">
   <div class="conteneur entete-haut">
-    <a class="bouton-recherche" href="dossiers.html#recherche" aria-label="Rechercher un dossier">
-      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-      <span>Rechercher</span>
-    </a>
-    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="34" height="34"><span>Le Petit Monographe</span></a>
-    <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
-      <span class="bouton-menu-barres" aria-hidden="true"></span><span>Menu</span>
-    </button>
-  </div>
-  <nav class="nav" id="menu-principal" aria-label="Navigation principale">
-    <div class="conteneur nav-liens">
+    <a class="logo" href="./"><img src="assets/medaillon.png" alt="" width="46" height="46"><span>Le Petit Monographe</span></a>
+    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+      <div class="nav-liens">
       <a href="dossiers.html">Dossiers</a>
-      <a href="politique-institutions.html">Politique</a>
-      <a href="economie-societe.html">Économie &amp; Société</a>
-      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
-      <a href="livres.html">Livres</a>
-      <a href="methode.html">Méthode</a>
+      <a href="methode.html">Notre méthode</a>
+      <a href="livres.html">Monographies</a>
+      <a href="index.html#lettre">La lettre</a>
+      </div>
+    </nav>
+    <div class="actions">
+      <a class="bouton-rond" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
+      <button class="bouton-rond bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg></button>
+      <button class="bouton-rond bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
     </div>
-  </nav>
+  </div>
 </header>
 
 <main id="contenu">
@@ -50,8 +48,8 @@
       <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
       <p class="surtitre"><span class="or">Dossier</span> · Affaires &amp; Enquêtes</p>
       <h1>Affaire Fiona : trois procès pour établir les responsabilités</h1>
-      <p class="meta-dossier">Lecture : 2 min · Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
-      <p class="chapeau">En 2013, la disparition signalée d'une fillette de 5 ans dans un parc de Clermont-Ferrand se révèle être un mensonge de sa mère et de son compagnon. Il a fallu trois procès d'assises pour fixer les responsabilités dans sa mort.</p>
+      <p class="meta-dossier">Lecture : 4 min · Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
+      <p class="chapeau">En mai 2013, la disparition signalée d'une fillette de 5 ans dans un parc de Clermont-Ferrand se révèle être un mensonge de sa mère et du compagnon de celle-ci. Il a fallu trois procès d'assises menés à leur terme, et un arrêt de cassation, pour fixer les responsabilités dans sa mort.</p>
     </div>
   </section>
   <figure class="illustration">
@@ -69,39 +67,40 @@
           <ol><li><a href="#etat-de-la-procedure">État de la procédure</a></li><li><a href="#les-proces">Les procès</a></li><li><a href="#ce-qui-reste-incertain">Ce qui reste incertain</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
         </details></aside>
         <div class="prose">
-        <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d'origine avant mise en ligne.</p>
+
         <aside class="essentiel">
           <p class="surtitre">L'essentiel</p>
-          <ul><li>En 2013, la mère de Fiona et son compagnon signalent la disparition de l'enfant ; ils reconnaissent ensuite avoir menti <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>En 2016, en première instance, la mère est acquittée des violences mortelles et condamnée à cinq ans pour ses mensonges ; son compagnon est condamné à vingt ans <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Après un procès en appel en 2018, cassé par la Cour de cassation, la cour d'assises du Rhône condamne en décembre 2020 la mère à vingt ans et son compagnon à dix-huit ans de réclusion <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Le pourvoi de la mère contre cette dernière décision a été rejeté : sa condamnation est définitive <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</li></ul>
+          <ul><li>Le 12 mai 2013, la mère de Fiona et son compagnon signalent la disparition de l'enfant dans le parc Montjuzet, à Clermont-Ferrand. Placés en garde à vue le 24 septembre 2013, ils reconnaissent que l'enfant est morte au domicile et qu'ils ont dissimulé le corps, qui n'a jamais été retrouvé <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>En novembre 2016, la cour d'assises du Puy-de-Dôme acquitte la mère des violences mortelles et la condamne à cinq ans d'emprisonnement pour d'autres délits, dont la non-assistance à personne en danger ; son compagnon est condamné à vingt ans de réclusion <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</li><li>En février 2018, en appel, la cour d'assises de la Haute-Loire condamne les deux accusés à vingt ans de réclusion. La Cour de cassation annule cet arrêt le 20 février 2019 et renvoie l'affaire devant la cour d'assises du Rhône <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup><sup class="appel"><a href="#source-4" id="appel-4">4</a></sup>.</li><li>Le 16 décembre 2020, la cour d'assises du Rhône condamne la mère à vingt ans et son ancien compagnon à dix-huit ans de réclusion criminelle pour violences volontaires ayant entraîné la mort <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Le pourvoi de la mère contre cette dernière décision a été écarté par la Cour de cassation en février 2022 : sa condamnation est définitive <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</li></ul>
         </aside>
         <h2 id="etat-de-la-procedure">État de la procédure</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi<span class="precision">état de la procédure</span></span>
-          <p>La condamnation de la mère à vingt ans de réclusion est définitive après le rejet de son pourvoi en cassation <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>. Pour son ancien compagnon, condamné à dix-huit ans, nous n'avons pas trouvé de confirmation explicite du caractère définitif de la décision.</p>
+          <p>La condamnation de la mère à vingt ans de réclusion est définitive depuis que la Cour de cassation a écarté son pourvoi, en février 2022 <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>. Pour son ancien compagnon, condamné à dix-huit ans, l'encyclopédie Wikipédia indique que la condamnation est également définitive, mais nous n'avons pas trouvé de source primaire ou de presse le confirmant explicitement <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
         <h2 id="les-proces">Les procès</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
-          <p>Le premier procès, en 2016, acquitte la mère des violences ayant entraîné la mort et la condamne à cinq ans d'emprisonnement ; son compagnon est condamné à vingt ans <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
+          <p>Le premier procès, devant la cour d'assises du Puy-de-Dôme à Riom, s'achève en novembre 2016. La mère est acquittée des violences ayant entraîné la mort et condamnée à cinq ans d'emprisonnement, notamment pour non-assistance à personne en danger et pour avoir faussement dénoncé un enlèvement ; son compagnon est condamné à vingt ans de réclusion. Le parquet fait appel <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</p>
         </aside>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
-          <p>En appel, au Puy-en-Velay en 2018, la mère est condamnée à vingt ans de réclusion. Cette décision est cassée par la Cour de cassation, ce qui entraîne un nouveau procès devant la cour d'assises du Rhône, à Lyon <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
+          <p>En appel, devant la cour d'assises de la Haute-Loire au Puy-en-Velay, les deux accusés sont condamnés le 10 février 2018 à vingt ans de réclusion pour violences volontaires ayant entraîné la mort <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>. La Cour de cassation casse cet arrêt le 20 février 2019, en retenant un seul des moyens soulevés par la défense : le rejet, non motivé, d'une demande de renvoi formulée par l'accusée. Elle renvoie l'affaire devant la cour d'assises du Rhône, à Lyon <sup class="appel"><a href="#source-4" id="appel-4">4</a></sup>.</p>
         </aside>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
-          <p>En décembre 2020, après douze jours d'audience, la cour d'assises du Rhône condamne la mère à vingt ans et son ancien compagnon à dix-huit ans de réclusion criminelle <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
+          <p>Après plusieurs reports, le procès devant la cour d'assises du Rhône se tient du 1er au 16 décembre 2020. Le 16 décembre, la cour condamne la mère à vingt ans et son ancien compagnon à dix-huit ans de réclusion criminelle ; l'avocat général avait requis trente ans contre chacun <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>. La presse parle parfois de « quatrième procès », en comptant une première session d'appel ouverte en octobre 2017 puis renvoyée <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
         </aside>
         <h2 id="ce-qui-reste-incertain">Ce qui reste incertain</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
-          <p>Les cours d'assises successives ont apprécié différemment le rôle de la mère : acquittée des violences mortelles en première instance, elle a été condamnée à vingt ans de réclusion lors des deux procès suivants <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
+          <p>Les cours d'assises successives ont apprécié différemment le rôle de la mère : acquittée des violences mortelles en première instance, elle a été condamnée à vingt ans de réclusion lors des deux procès suivants <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup><sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</p>
         </aside>
         <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
-        <ul class="liste-inconnues"><li><strong>Le déroulement exact des faits</strong>, établi par les cours d'assises à partir de déclarations contradictoires.</li></ul>
+        <ul class="liste-inconnues"><li><strong>Le déroulement exact des faits</strong>, établi par les cours d'assises à partir de déclarations contradictoires des deux accusés.</li><li><strong>Le lieu où se trouve le corps</strong> de l'enfant, jamais retrouvé <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li></ul>
         <h2 id="sources">Sources</h2>
         <ol class="sources">
-          <li id="source-1">Source secondaire : Wikipédia, « Murder of Fiona Chafoulais » ; Gulf News, décembre 2020. <a href="https://en.wikipedia.org/wiki/Murder_of_Fiona_Chafoulais" rel="noopener">en.wikipedia.org/wiki/Murder_of_Fiona_Chafoulais</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
-          <li id="source-2">ICI, « Affaire Fiona : Cécile Bourgeon et Berkane Makhlouf coupables, condamnés à 20 ans et 18 ans de prison ». <a href="https://www.ici.fr/infos/faits-divers-justice/affaire-fiona-le-verdict-pour-cecile-bourgeon-et-berkane-makhlouf-1608048902" rel="noopener">www.ici.fr/infos/faits-divers-justice/affaire-fiona-le-verdict-pour-cecile-bourgeon-et-berkane-makhlouf-1608048902</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
-          <li id="source-3">Zoomdici, « Affaire Fiona : Cécile Bourgeon reste condamnée à 20 ans de prison ». <a href="https://www.zoomdici.fr/actualite/affaire-fiona-cecile-bourgeon-reste-condamnee-20-ans-de-prison" rel="noopener">www.zoomdici.fr/actualite/affaire-fiona-cecile-bourgeon-reste-condamnee-20-ans-de-prison</a> <a href="#appel-3" class="retour" aria-label="Retour au texte">↑</a></li>
+          <li id="source-1">Source secondaire : Wikipédia, « Affaire Fiona », encyclopédie collaborative, consultée le 11 octobre 2026. <a href="https://fr.wikipedia.org/wiki/Affaire_Fiona" rel="noopener">fr.wikipedia.org/wiki/Affaire_Fiona</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
+          <li id="source-2">ICI (ex-France Bleu), Olivier Vidal et Xavier Louvel, « Affaire Fiona : Cécile Bourgeon et Berkane Makhlouf coupables, condamnés à 20 ans et 18 ans de prison », 16 décembre 2020. <a href="https://www.ici.fr/infos/faits-divers-justice/affaire-fiona-le-verdict-pour-cecile-bourgeon-et-berkane-makhlouf-1608048902" rel="noopener">www.ici.fr/infos/faits-divers-justice/affaire-fiona-le-verdict-pour-cecile-bourgeon-et-berkane-makhlouf-1608048902</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
+          <li id="source-3">Zoomdici, « Affaire Fiona : Cécile Bourgeon reste condamnée à 20 ans de prison », 17 février 2022. <a href="https://www.zoomdici.fr/actualite/affaire-fiona-cecile-bourgeon-reste-condamnee-20-ans-de-prison" rel="noopener">www.zoomdici.fr/actualite/affaire-fiona-cecile-bourgeon-reste-condamnee-20-ans-de-prison</a> <a href="#appel-3" class="retour" aria-label="Retour au texte">↑</a></li>
+          <li id="source-4">Europe 1 avec AFP, « L'affaire Fiona sera rejugée à Lyon lors d'un quatrième procès », février 2019. <a href="https://www.europe1.fr/societe/laffaire-fiona-sera-rejugee-a-lyon-lors-dun-quatrieme-proces-3862655" rel="noopener">www.europe1.fr/societe/laffaire-fiona-sera-rejugee-a-lyon-lors-dun-quatrieme-proces-3862655</a> <a href="#appel-4" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
         <h2 id="historique">Historique</h2>
-        <ul class="historique"><li>8 octobre 2026 : première publication.</li></ul>
+        <ul class="historique"><li>8 octobre 2026 : première publication.</li><li>11 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Le procès en appel de 2018 avait aussi condamné le compagnon à vingt ans, ce que le dossier omettait ; les dates de l'arrêt de cassation (20 février 2019) et du rejet du dernier pourvoi (février 2022), ainsi que les juridictions et qualifications, ont été précisées.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
       </div>
       </div>

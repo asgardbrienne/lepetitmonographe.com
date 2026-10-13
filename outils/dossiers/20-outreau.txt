@@ -2,50 +2,58 @@ fichier: dossier-outreau.html
 rubrique: affaires
 titre: Outreau : comment une erreur judiciaire collective s'est produite
 titre_court: L'affaire d'Outreau
-chapeau: Entre 2001 et 2005, dix-sept personnes ont été jugées pour des abus sexuels sur des enfants à Outreau. Treize ont finalement été acquittées. L'affaire a donné lieu à une commission d'enquête parlementaire sans précédent.
-resume: Chronologie, procès de Saint-Omer et de Paris, commission d'enquête parlementaire et réformes qui ont suivi. Données arrêtées au 8 octobre 2026.
+chapeau: En 2004 puis en appel en 2005, dix-sept personnes ont été jugées par une cour d'assises pour des viols et agressions sexuelles sur des enfants à Outreau. Treize ont finalement été acquittées. L'affaire a donné lieu à la première commission d'enquête parlementaire de la Ve République consacrée au fonctionnement de la justice.
+resume: Chronologie, procès de Saint-Omer, de Paris et de Rennes, commission d'enquête parlementaire et réformes qui ont suivi. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
 image: assets/images/outreau.jpg
 image_alt: La Grand-Place de Saint-Omer, de nuit
 image_credit: Steve-©-foto, CC BY 2.0, recadrée, Flickr
 image_lien: https://www.flickr.com/photos/70690537@N02/6822060134
+verifie: 11 octobre 2026
+corrections: Ajout du procès de Rennes (acquittement du 5 juin 2015) et des douze enfants reconnus victimes, précision sur la lettre d'excuses présidentielle du 5 décembre 2005 et sur le début de l'enquête, suppression d'une affirmation non sourcée sur la loi du 15 juin 2000, sources primaires ajoutées (rapport parlementaire, dépêche AFP, ministère de la Justice).
 ---
 ## Essentiel
-- L'affaire a abouti à quatre condamnations définitives et à treize acquittements [1].
-- Au premier procès, à Saint-Omer en 2004, sept accusés ont été acquittés ; en appel, à Paris, les six autres appelants ont été acquittés le 1er décembre 2005 [1][2].
-- Un accusé est mort en détention provisoire en 2002, avant tout jugement [1].
-- Une commission d'enquête de l'Assemblée nationale a auditionné 221 personnes et formulé 80 propositions en juin 2006 [3].
+- L'affaire a abouti à quatre condamnations définitives et à treize acquittements [1][5].
+- Au premier procès, à Saint-Omer en 2004, sept accusés ont été acquittés ; en appel, à Paris, les six condamnés qui avaient fait appel ont été acquittés le 1er décembre 2005 [1][4].
+- Douze enfants ont été reconnus victimes de viols ou d'agressions sexuelles [1][2].
+- Une personne mise en examen est morte en détention provisoire en 2002, avant tout jugement [1].
+- Une commission d'enquête de l'Assemblée nationale a auditionné 221 personnes et formulé 80 propositions dans un rapport déposé le 6 juin 2006 [3][4].
 
 ## État de la procédure
 
-[État de la procédure] L'affaire principale est définitivement jugée : quatre condamnations et treize acquittements sont définitifs [1]. Les personnes acquittées sont innocentes au regard de la loi. Une procédure ultérieure devant une cour d'assises pour mineurs, mentionnée par certaines sources, n'a pas pu être recoupée ici.
+[État de la procédure] L'affaire principale est définitivement jugée : quatre condamnations et treize acquittements sont définitifs [1][5]. Les personnes acquittées sont innocentes au regard de la loi. Un dernier volet, portant sur des faits qu'un des acquittés de 2005 aurait commis alors qu'il était mineur, a été jugé en 2015 par la cour d'assises des mineurs d'Ille-et-Vilaine, à Rennes : l'accusé a été acquitté le 5 juin 2015, conformément aux réquisitions de l'avocat général [5].
 
 ## La chronologie
 
-[Fait établi] Les faits dénoncés, des agressions sexuelles sur des mineurs, auraient eu lieu entre 1997 et 2000 à Outreau, près de Boulogne-sur-Mer. L'enquête débute en 2001 et l'affaire est médiatisée à partir de novembre 2001 [1].
+[Fait établi] Les faits jugés, des viols et agressions sexuelles sur des mineurs, se situent entre 1997 et 2000 à Outreau, près de Boulogne-sur-Mer. L'information judiciaire est ouverte en février 2001 ; la couverture médiatique s'intensifie après une série d'interpellations à la mi-novembre 2001 [1][2].
 
-[Fait établi] L'un des accusés meurt en détention provisoire le 9 juin 2002, avant le premier procès [1].
+[Fait établi] L'une des personnes mises en examen meurt en détention provisoire le 9 juin 2002, avant le premier procès [1].
 
-[Fait établi] Le procès devant la cour d'assises du Pas-de-Calais, à Saint-Omer, se tient du 4 mai au 2 juillet 2004. Sur dix-sept accusés, dix sont condamnés et sept acquittés [1][2]. Six des condamnés font appel, possibilité ouverte depuis la loi du 15 juin 2000 sur la présomption d'innocence [1].
+[Fait établi] Le procès devant la cour d'assises du Pas-de-Calais, à Saint-Omer, se tient du 4 mai au 2 juillet 2004. Sur dix-sept accusés, dix sont condamnés et sept acquittés [1][2]. Six des condamnés font appel [1][2].
 
-[Témoignage] À l'ouverture du procès en appel, en novembre 2005 à Paris, la principale accusatrice, elle-même condamnée, déclare que les six appelants « n'ont strictement rien fait » et qu'elle a menti [1].
+[Témoignage] Au procès en appel, ouvert en novembre 2005 à Paris, la principale accusatrice, elle-même condamnée, déclare dès les premiers jours que les six appelants « n'ont strictement rien fait » et qu'elle a menti [1].
 
-[Fait établi] Le 1er décembre 2005, la cour d'assises d'appel de Paris acquitte les six appelants [1]. Le président de la République présente des excuses publiques aux acquittés [1].
+[Fait établi] Le 1er décembre 2005, la cour d'assises d'appel de Paris acquitte les six appelants, après que l'avocat général a requis l'acquittement [1][4]. Le ministre de la Justice présente le soir même ses excuses aux acquittés au nom de l'institution judiciaire. Le 5 décembre 2005, le président de la République fait savoir qu'il leur a écrit pour leur présenter « ses regrets et ses excuses » [1].
+
+[Fait établi] Le 5 juin 2015, la cour d'assises des mineurs d'Ille-et-Vilaine acquitte l'un des acquittés de 2005, rejugé pour des faits qu'il aurait commis avant sa majorité [5].
 
 ## Ce que l'affaire a révélé
 
-[Fait établi] Le 7 décembre 2005, l'Assemblée nationale crée à l'unanimité une commission d'enquête, présidée par André Vallini. Elle auditionne 221 personnes, dont les treize acquittés, et rend en juin 2006 un rapport comprenant 80 propositions [3].
+[Fait établi] Le 7 décembre 2005, l'Assemblée nationale crée à l'unanimité une commission d'enquête, présidée par André Vallini, avec Philippe Houillon pour rapporteur. Entre le 10 janvier et le 12 avril 2006, elle entend 221 personnes, dont des acquittés, et dépose le 6 juin 2006 un rapport comprenant 80 propositions [3][4].
 
-[Interprétation] Selon les travaux de la commission et les analyses ultérieures, l'erreur ne tient pas à une seule personne mais à une chaîne : recueil et interprétation de la parole des enfants, expertises psychologiques, place centrale du juge d'instruction, recours long à la détention provisoire et faiblesse des contrôles successifs. Le poids respectif de ces facteurs reste discuté.
+[Interprétation] Selon le rapport de la commission et les analyses ultérieures, l'erreur ne tient pas à une seule personne mais à une chaîne : recueil et interprétation de la parole des enfants, expertises psychologiques, place centrale du juge d'instruction, recours long à la détention provisoire et faiblesse des contrôles successifs [3][4]. Le poids respectif de ces facteurs reste discuté.
 
-[Débat] Pour beaucoup de commentateurs, Outreau est le symbole d'une justice qui n'a pas su douter. D'autres, notamment des associations de protection de l'enfance, estiment que l'affaire a eu un effet pervers : rendre la parole des enfants suspecte dans les procédures suivantes. Une réforme de la justice pénale a été présentée en 2007 ; son effet réel est diversement apprécié [1].
+[Débat] Pour beaucoup de commentateurs, Outreau est le symbole d'une justice qui n'a pas su douter. D'autres, notamment des associations de protection de l'enfance et d'anciens membres de la Commission indépendante sur l'inceste et les violences sexuelles faites aux enfants (Ciivise), estiment que l'affaire a eu un effet pervers : rendre la parole des enfants suspecte dans les procédures suivantes [2]. La loi du 5 mars 2007 tendant à renforcer l'équilibre de la procédure pénale a été adoptée dans la suite de l'affaire [1][6] ; son effet réel est diversement apprécié.
 
 ## Ce qu'on ne sait pas
 - **L'effet mesurable des réformes** sur la détention provisoire et le recueil de la parole des enfants.
 - **L'influence de l'affaire sur les signalements d'abus sur mineurs** dans les années suivantes, avancée par certains et non chiffrée.
 
 ## Sources
-- Source secondaire : Wikipédia, « Affaire d'Outreau » ; La Déferlante, « Outreau : des enfants victimes condamné·es au silence ». Chronologie à vérifier sur les décisions de justice et le rapport parlementaire. | https://fr.wikipedia.org/wiki/Affaire_d'Outreau
-- Source secondaire : La Déferlante. | https://revueladeferlante.fr/outreau-des-enfants-victimes-condamne%C2%B7es-au-silence/
-- Assemblée nationale, bilan de la session 2005-2006 (commission d'enquête sur l'affaire d'Outreau) ; France 3 Régions, entretien avec André Vallini. | https://www.assemblee-nationale.fr/connaissance/bilan%202005-2006/page2425.pdf
+- Source secondaire : Wikipédia, « Affaire d'Outreau », consulté le 11 octobre 2026. | https://fr.wikipedia.org/wiki/Affaire_d'Outreau
+- Source secondaire : Audrey Guiller, La Déferlante, « Outreau : des enfants victimes condamné·es au silence », 23 janvier 2026. | https://revueladeferlante.fr/outreau-des-enfants-victimes-condamne%C2%B7es-au-silence/
+- Assemblée nationale, bilan de la session 2005-2006, « Commission d'enquête chargée de rechercher les causes des dysfonctionnements de la justice dans l'affaire dite d'Outreau ». | https://www.assemblee-nationale.fr/connaissance/bilan%202005-2006/page2425.pdf
+- Assemblée nationale, André Vallini (président) et Philippe Houillon (rapporteur), rapport n° 3125 de la commission d'enquête sur l'affaire dite d'Outreau, 6 juin 2006. | https://www.assemblee-nationale.fr/12/rap-enq/r3125-t1.asp
+- AFP, via Tendance Ouest, « Outreau : Daniel Legrand acquitté pour la deuxième fois », 5 juin 2015. | https://www.tendanceouest.com/actualite-106559-rennes-afp-outreau-daniel-legrand-acquitte-pour-la-deuxieme-fois
+- Ministère de la Justice, circulaire de la DACG n° 2007-09 du 25 mai 2007 présentant les dispositions de la loi n° 2007-291 du 5 mars 2007 tendant à renforcer l'équilibre de la procédure pénale. | https://www.justice.gouv.fr/documentation/bulletin-officiel/circulaire-dacg-ndeg-2007-09-du-25-mai-2007-relative-presentation-dispositions-0

@@ -10,33 +10,43 @@ image: assets/images/electricite.jpg
 image_alt: Pylônes et lignes à haute tension
 image_credit: St_A_Sh, CC BY 2.0, recadrée, Flickr
 image_lien: https://www.flickr.com/photos/51655688@N00/488399852
+verifie: 11 octobre 2026
+corrections: Le détail des composantes de la baisse de février 2026 a été corrigé d'après la CRE, les seuils du versement nucléaire universel (78 et 110 euros le mégawattheure) et l'estimation de 66,08 euros sont désormais sourcés à la délibération de la CRE, et la hausse de 2,5 % TTC du 1er août 2026 a été ajoutée.
 ---
 ## Essentiel
-- Le tarif réglementé de l'électricité a baissé en moyenne de 0,83 % TTC au 1er février 2026, selon la Commission de régulation de l'énergie (CRE) [1].
-- L'Arenh, qui permettait aux fournisseurs d'acheter une partie de l'électricité nucléaire d'EDF à 42 euros le mégawattheure, a pris fin le 31 décembre 2025 [2].
-- Son remplaçant, le versement nucléaire universel, n'a rien reversé aux consommateurs en 2026 : les revenus du nucléaire sont restés sous le seuil de déclenchement [2].
-- La facture dépend aussi des coûts de réseau et des taxes, qui ont limité la baisse en 2026.
+- Le tarif réglementé de l'électricité a baissé en moyenne de 0,83 % TTC au 1er février 2026, conformément à la proposition de la Commission de régulation de l'énergie (CRE) [1][4].
+- Il a ensuite augmenté en moyenne de 2,5 % TTC au 1er août 2026, en raison surtout de la hausse du tarif de réseau et du nouveau mécanisme de capacité [5][6].
+- L'Arenh, qui permettait aux fournisseurs d'acheter une partie de l'électricité nucléaire d'EDF à 42 euros le mégawattheure, a pris fin le 31 décembre 2025 [1].
+- Son remplaçant, le versement nucléaire universel, ne reverse rien aux consommateurs en 2026 : les revenus estimés du nucléaire restent sous le seuil de déclenchement [2].
 
 ## Le tarif réglementé
 
-[Fait établi] La CRE a proposé une baisse moyenne de 0,83 % TTC du tarif réglementé au 1er février 2026, soit environ 9 euros par an pour un ménage moyen. La baisse des coûts d'approvisionnement a été en partie compensée par la hausse d'autres composantes, dont l'accise sur l'électricité [1]. L'option Tempo a augmenté de 6,2 % TTC [1].
+[Fait établi] Dans sa délibération du 14 janvier 2026, la CRE a proposé une baisse moyenne de 0,83 % TTC des tarifs réglementés « bleus » au 1er février 2026 [1]. Selon son communiqué, cela représente une baisse d'environ 9 euros TTC par an pour une consommation moyenne de 4,5 MWh, la facture passant de 1 051 à 1 042 euros [3]. Le ministre chargé de l'économie a fixé les tarifs conformément à cette proposition par des décisions du 28 janvier 2026 [4].
+
+[Fait établi] Selon la CRE, la baisse du coût d'approvisionnement en énergie a été en grande partie compensée par la hausse des coûts de commercialisation d'EDF, liée aux certificats d'économie d'énergie, et par la fin d'un rattrapage tarifaire. Côté taxes, l'accise est passée de 29,98 à 30,85 euros le mégawattheure, tandis que la contribution tarifaire d'acheminement baissait de 21,93 % à 15 % [1][3]. L'option Tempo a augmenté de 6,2 % TTC [1].
+
+[Fait établi] Le 15 juillet 2026, la CRE a proposé une hausse moyenne de 2,50 % TTC au 1er août 2026, due principalement à la hausse du tarif d'utilisation des réseaux (TURPE) et à l'intégration du nouveau mécanisme de capacité ; l'accise a légèrement baissé, de 30,85 à 30,62 euros le mégawattheure [5]. Cette hausse a été actée par une décision publiée au Journal officiel du 31 juillet 2026 [6].
 
 ## La fin de l'Arenh et le versement nucléaire universel
 
-[Fait établi] L'accès régulé à l'électricité nucléaire historique (Arenh) permettait aux fournisseurs d'acheter une partie de la production nucléaire d'EDF à 42 euros le mégawattheure. Il a pris fin le 31 décembre 2025 [2].
+[Fait établi] L'accès régulé à l'électricité nucléaire historique (Arenh) permettait aux fournisseurs d'acheter une partie de la production nucléaire d'EDF à 42 euros le mégawattheure, prix inchangé depuis 2012. En 2025, il couvrait 43,8 % de la consommation d'un client au tarif réglementé. Il a pris fin le 31 décembre 2025 ; depuis, les fournisseurs s'approvisionnent entièrement sur les marchés ou par leurs propres moyens de production [1].
 
-[Fait établi] Le versement nucléaire universel (VNU), en vigueur depuis le 1er janvier 2026, ne fixe pas de prix. Il prévoit de taxer une partie des revenus d'EDF sur le nucléaire lorsque ceux-ci dépassent un seuil, autour de 78 euros le mégawattheure, avec un prélèvement plus fort au-delà d'environ 110 euros, et de reverser les sommes aux consommateurs [2]. Ces seuils sont à vérifier dans les textes.
+[Fait établi] Le versement nucléaire universel (VNU), créé par l'article 17 de la loi de finances pour 2025, ne fixe pas de prix. Il repose sur une taxe sur l'utilisation du combustible nucléaire, qui ne s'applique que lorsque les revenus du nucléaire historique dépassent un tarif de taxation, avec un prélèvement plus fort au-delà d'un tarif d'écrêtement ; le produit de cette taxe est reversé aux consommateurs sous forme de réduction sur la facture. Un arrêté du 11 février 2026 a fixé ces deux tarifs à 78 et 110 euros le mégawattheure [2].
 
-[Fait établi] Les revenus du nucléaire historique étant estimés autour de 66 euros le mégawattheure pour 2026, la CRE a fixé à zéro le montant reversé aux consommateurs [2].
+[Fait établi] La CRE a estimé, le 1er décembre 2025, les revenus du nucléaire historique pour 2026 à 66,08 euros le mégawattheure. Ce niveau étant inférieur au tarif de taxation, elle a proposé le 26 février 2026 un montant de réduction nul pour 2026 [2].
 
 ## Le débat
 
 [Débat] Pour ses défenseurs, le nouveau cadre protège les consommateurs en cas de flambée des prix de marché tout en permettant à EDF de financer ses investissements. Pour ses critiques, il ne protège qu'au-delà de prix déjà élevés et laisse les consommateurs exposés aux variations du marché en dessous du seuil.
 
 ## Ce qu'on ne sait pas
-- **L'évolution du tarif en 2027**, qui sera proposée par la CRE au début de l'année.
-- **L'effet des tensions internationales** sur les prix de gros de l'énergie.
+- **L'évolution du tarif en 2027** : la CRE a annoncé qu'elle intégrerait au mouvement de février 2027 des rattrapages au titre de 2026 [5], mais le niveau n'est pas connu.
+- **L'effet des tensions internationales** sur les prix de gros de l'énergie, et donc sur un éventuel déclenchement du versement nucléaire universel.
 
 ## Sources
-- Commission de régulation de l'énergie, délibération n° 2026-06 du 14 janvier 2026 relative aux tarifs réglementés de vente d'électricité. | https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260114_2026-06_TRVE_2026.pdf
-- Source secondaire : Révolution énergétique, « Censé faire baisser nos factures, le versement nucléaire universel ne sera pas activé en 2026 ». | https://www.revolution-energetique.com/actus/cense-faire-baisser-nos-factures-le-versement-nucleaire-universel-ne-sera-pas-active-en-2026/
+- Commission de régulation de l'énergie, délibération n° 2026-06 du 14 janvier 2026 portant proposition des tarifs réglementés de vente d'électricité. | https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260114_2026-06_TRVE_2026.pdf
+- Commission de régulation de l'énergie, délibération n° 2026-52 du 26 février 2026 portant proposition de tarif unitaire de la minoration du versement nucléaire universel pour 2026. | https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260226_2026-52_Tarif_unitaire_minoration_du_vnu_2026.pdf
+- Commission de régulation de l'énergie, communiqué de presse sur les tarifs réglementés au 1er février 2026, 20 janvier 2026. | https://www.cre.fr/fileadmin/Documents/Communiques_de_presse/2026/260120_CP_CRE_TRVE_Fev26.pdf
+- Commission de régulation de l'énergie, « L'énergie du droit » n° 92, veille juridique, actualités de janvier 2026. | https://www.cre.fr/fileadmin/Documents/Actualites/2026/l-energie-du-droit-numero-92.pdf
+- Commission de régulation de l'énergie, délibération n° 2026-147 du 15 juillet 2026 portant proposition des tarifs réglementés de vente d'électricité. | https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260715_2026-147_TRVE.pdf
+- Source secondaire : Moneyvox, Mathilde Sire, « Électricité : 25 euros en plus sur la facture annuelle pour les abonnés au tarif réglementé EDF », 31 juillet 2026. | https://www.moneyvox.fr/energie/actualites/109712/electricite-25-euros-en-plus-sur-la-facture-annuelle-pour-les-abonnes-au-tarif-reglemente-edf
