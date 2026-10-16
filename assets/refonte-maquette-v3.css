@@ -1,0 +1,140 @@
+/* Le Petit Monographe — Maquette de référence, refonte V3
+   Éditorial presse, pas de simulacre de preuves ni de clichés fabriqués. */
+:root {
+  --lpm-bleu: #10253e;
+  --lpm-or: #b08a4e;
+  --lpm-ivoire: #f8f6f0;
+}
+.ouverture-magazine.ouverture { border: 0; padding: 0 0 24px; text-align: left; background: var(--papier); }
+.ouverture-magazine > .conteneur { max-width: 100%; padding-left: 0; padding-right: 0; }
+.ouverture-magazine .accueil-grand-dossier {
+  width: 100%; min-height: clamp(430px, 49vw, 650px);
+  display: flex; align-items: center; isolation: isolate;
+  border: 0; overflow: hidden; position: relative;
+  color: #fffdf7; text-decoration: none; background: #0d243c;
+}
+.ouverture-magazine .accueil-grand-dossier > img {
+  position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%;
+  object-fit: cover; object-position: center; filter: saturate(.66) contrast(1.04);
+}
+.ouverture-magazine .accueil-grand-dossier:before {
+  content: ""; position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(90deg,rgba(7,26,45,.97) 0%,rgba(8,29,49,.93) 28%,rgba(11,31,49,.7) 50%,rgba(7,25,42,.07) 100%);
+}
+.ouverture-magazine .accueil-grand-texte {
+  display: flex; flex-direction: column; align-items: start; text-align: left;
+  width: min(680px, 60%); max-width: none; gap: clamp(13px, 1.6vw, 22px);
+  padding: clamp(34px, 5.5vw, 98px) clamp(30px, 7.1vw, 106px);
+}
+.ouverture-magazine .categorie {
+  color: #e5c58a; text-transform: uppercase;
+  font: 700 .75rem/1.4 var(--sans); letter-spacing: .13em;
+}
+.ouverture-magazine .titre {
+  color: #fffdf7; font: 400 clamp(2.15rem, 4.3vw, 4.1rem)/1.16 var(--display);
+  letter-spacing: -.038em; text-wrap: balance;
+}
+.ouverture-magazine .description {
+  color: #eeeef0; max-width: 48ch;
+  font: 400 clamp(1.04rem, 1.25vw, 1.23rem)/1.7 var(--serif);
+}
+.ouverture-magazine .suite-grand {
+  background: #bfa064; color: #11243d; display: inline-block; padding: 14px 20px;
+  font: 700 .74rem/1.2 var(--sans); text-transform: uppercase;
+  letter-spacing: .08em; margin-top: 6px;
+}
+.ouverture-magazine .meta-grand {
+  color: #d7dfe5; font: 500 .69rem/1.5 var(--sans); letter-spacing: .07em;
+}
+.accueil-engagements {
+  padding: 32px max(30px,calc((100vw - 1190px)/2));
+  display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 26px;
+  border-bottom: 1px solid var(--filet);
+}
+.accueil-engagements > div { min-width: 0; padding: 1px 28px 1px 0; border-right: 1px solid var(--filet); }
+.accueil-engagements > div:last-child { border: 0; }
+.accueil-engagements strong {
+  display: block; margin: 0 0 7px; color: var(--encre);
+  font: 400 1.13rem/1.4 var(--display);
+}
+.accueil-engagements span { display: block; color: var(--encre-douce); font: 400 .88rem/1.58 var(--sans); }
+#a-la-une.section { padding-top: 37px; }
+#a-la-une .section-tete { margin-bottom: 27px; }
+#a-la-une .section-tete h2 { font-size: clamp(1.75rem, 3vw, 2.35rem); }
+#a-la-une .section-tete .intro { max-width: 40ch; }
+#a-la-une .puces { margin-bottom: 20px; }
+/* Traitement magazine: photographie de dossier + texte, sans cartes ombrées */
+#a-la-une .portes { grid-template-columns: repeat(4,minmax(0,1fr)); gap: 22px; }
+#a-la-une .portes .porte {
+  display: flex; flex-direction: column; gap: 0; background: transparent;
+  border: 0; border-top: 1px solid var(--filet); box-shadow: none;
+  transform: none; padding: 14px 0 0;
+}
+#a-la-une .porte > :not(.porte-image) { margin-left: 0; margin-right: 0; }
+#a-la-une .porte-image { aspect-ratio: 1.46; margin: 0 0 17px; }
+#a-la-une .porte h3 { font: 400 clamp(1.08rem,1.45vw,1.4rem)/1.36 var(--display); margin: 0 0 10px; }
+#a-la-une .porte .surtitre { font: 700 .67rem/1.4 var(--sans)!important; letter-spacing: .07em; margin: 0 0 9px; }
+#a-la-une .porte p:not(.surtitre) { font: 400 .91rem/1.66 var(--serif); margin-bottom: 16px; }
+#a-la-une .porte:hover h3 { text-decoration: underline; text-underline-offset: 3px; }
+#methode-accueil.manifeste { padding: 46px 0; }
+#methode-accueil .conteneur { display: grid; grid-template-columns: 1fr; }
+#methode-accueil h2 { font-size: clamp(1.7rem,2.3vw,2.4rem); }
+#methode-accueil .statuts-grille { margin-top: 25px; }
+/* Articles: grille et composantes distinctes, chiffres exclusivement sourcés. */
+.tete-dossier { background: var(--papier); }
+.tete-dossier h1 { max-width: 27ch; font-size: clamp(2.2rem,4.2vw,3.7rem); }
+.tete-dossier .chapeau { max-width: 64ch; color: var(--encre-douce); }
+.dossier-grille { grid-template-columns: minmax(0,710px) minmax(235px,295px)!important; gap: clamp(26px,5vw,76px)!important; }
+.dossier-grille .dossier-cote { order: 2; }
+.dossier-grille .prose { order: 1; }
+.dossier .sommaire { padding: 24px 21px; background: var(--blanc); border-top: 3px solid var(--or); box-shadow: none; }
+.dossier .sommaire summary { font-size: .79rem; }
+.dossier .essentiel { padding: 28px; background: var(--papier-2); border-top: 3px solid var(--or); }
+.dossier .prose { font-size: 1.125rem; line-height: 1.83; }
+.dossier .prose h2 { font-size: clamp(1.55rem,2.3vw,2rem); }
+.dossier .graphique { background: var(--blanc); border-top: 2px solid var(--or); }
+/* Liste de dossiers, rubriques, méthode, livres */
+main .section .portes:not(#cartes-une) { gap: 27px 25px; }
+main .section .portes:not(#cartes-une) .porte { background: transparent; box-shadow: none; }
+.barre-recherche { border-top-color: var(--or); }
+.regles li { border-top-color: var(--filet); }
+.collection-tete { border-bottom-color: var(--or); }
+.livre, .livre:has(img) { border-top-color: var(--or); }
+/* Grand écran */
+@media(min-width: 1180px) {
+  .ouverture-magazine .accueil-grand-texte { padding-left: max(62px,calc((100vw - 1190px)/2)); }
+}
+/* Tablette / téléphones */
+@media(max-width:1050px) {
+  #a-la-une .portes { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .dossier-grille { grid-template-columns: minmax(0,1fr)!important; }
+  .dossier-grille .dossier-cote { order: 0; }
+  .dossier-grille .prose { order: 1; }
+  .dossier .sommaire { position: static; }
+}
+@media(max-width:700px) {
+  .ouverture-magazine .accueil-grand-dossier { min-height: 535px; align-items: end; }
+  .ouverture-magazine .accueil-grand-dossier:before {
+    background: linear-gradient(0deg,rgba(7,26,45,.98) 0%,rgba(8,28,47,.88) 46%,rgba(7,26,45,.07) 100%);
+  }
+  .ouverture-magazine .accueil-grand-texte {
+    width: 100%; padding: 33px 25px 35px; gap: 15px;
+  }
+  .ouverture-magazine .titre { font-size: clamp(2rem,8.5vw,2.85rem); }
+  .ouverture-magazine .description { font-size: 1.05rem; line-height: 1.58; }
+  .accueil-engagements { padding: 27px 24px; grid-template-columns: 1fr; gap: 15px; }
+  .accueil-engagements > div { border-right: 0; border-bottom: 1px solid var(--filet); padding: 0 0 14px; }
+  .accueil-engagements > div:last-child { border: 0; padding: 0; }
+  #a-la-une .portes { grid-template-columns: 1fr; gap: 20px; }
+  #a-la-une .portes > .porte,
+  #a-la-une .portes > .porte:has(.porte-image) {
+    display: grid; grid-template-columns: 112px minmax(0,1fr);
+    grid-template-rows: auto auto auto 1fr; column-gap: 16px;
+    border-top: 1px solid var(--filet); align-items: start;
+  }
+  #a-la-une .porte-image { grid-column: 1; grid-row: 1/span 4; aspect-ratio: 1; margin: 0; }
+  #a-la-une .porte > :not(.porte-image) { grid-column: 2; }
+  #a-la-une .porte p:not(.surtitre) { display: none; }
+  .tete-dossier h1 { font-size: clamp(1.85rem,7.3vw,2.55rem); }
+  .dossier .prose { font-size: 1.07rem; }
+}
