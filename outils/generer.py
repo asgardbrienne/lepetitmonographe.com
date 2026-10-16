@@ -36,7 +36,6 @@ def page(fichier, titre, description, corps, noindex=False):
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
   <link rel="stylesheet" href="assets/style.css">
-{'  <link rel="stylesheet" href="assets/accueil-editorial.css">' if fichier == "index.html" else ""}
   <script>try{{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}}catch(e){{}}</script>
 </head>
 <body>
@@ -200,23 +199,23 @@ STATUTS_ACCUEIL = [
     ("proposition", "Proposition", "Mesure ou scénario, distinct des constats documentaires."),
 ]
 _statuts_html = "\n".join(f'''        <div class="statut-carte statut-carte-{k}"><span class="statut-trait" aria-hidden="true"></span><h3>{t}</h3><p>{d}</p></div>''' for k, t, d in STATUTS_ACCUEIL)
-accueil = f'''  <section class="ouverture ouverture-editoriale">
-    <div class="conteneur grille-une">
-      <div class="accueil-intro">
-        <p class="surtitre">Le Petit Monographe · Documents &amp; enquêtes</p>
-        <h1>Les faits d'abord.<br><em>L'opinion reste au lecteur.</em></h1>
-        <p class="ouverture-intro">Politique, économie, société et affaires judiciaires : des enquêtes documentées, des sources identifiables et des incertitudes expliquées avec clarté.</p>
-        <div class="ouverture-boutons"><a class="bouton bouton-plein" href="#a-la-une">Explorer les enquêtes</a><a class="bouton" href="methode.html">Notre méthode</a></div>
-        <nav class="raccourcis-rubriques" aria-label="Rubriques"><a href="politique-institutions.html">Politique</a><a href="economie-societe.html">Économie &amp; société</a><a href="affaires-enquetes.html">Affaires &amp; enquêtes</a></nav>
-      </div>
-      <a class="accueil-grand-dossier" href="dossier-budget-2027.html">
-        <img src="assets/images/budget-2027.jpg" alt="" width="900" height="560" fetchpriority="high">
-        <span class="accueil-grand-texte"><span class="categorie">À la une · Économie &amp; Société</span>
-          <span class="titre">Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</span>
-          <span class="description">Objectif de déficit, effort budgétaire et avis du Haut Conseil des finances publiques. Données arrêtées au 8 octobre 2026.</span>
-          <span class="suite-grand">Lire le dossier →</span>
+accueil = f'''  <section class="ouverture ouverture-editoriale ouverture-magazine">
+    <div class="conteneur">
+      <a class="accueil-grand-dossier" href="dossier-budget-2027.html" aria-label="Lire le dossier Budget 2027">
+        <img src="assets/images/budget-2027.jpg" alt="" width="1200" height="675" fetchpriority="high">
+        <span class="accueil-grand-texte">
+          <span class="categorie">Dossier à la une · Économie &amp; société</span>
+          <span class="titre">Budget 2027 : les arbitrages à l'épreuve des documents</span>
+          <span class="description">Que contient le projet, et que dit réellement le Haut Conseil des finances publiques ? Une analyse des textes, des chiffres et de leurs limites.</span>
+          <span class="suite-grand">Lire l'enquête <span aria-hidden="true">→</span></span>
+          <span class="meta-grand">Données arrêtées au 8 octobre 2026</span>
         </span>
       </a>
+      <div class="accueil-engagements" aria-label="Notre engagement éditorial">
+        <div><strong>Une méthode explicite</strong><span>Faits, témoignages et hypothèses clairement distingués.</span></div>
+        <div><strong>Des sources consultables</strong><span>Documents originaux et références à retrouver dans chaque dossier.</span></div>
+        <div><strong>Le lecteur reste libre</strong><span>Des contradictions présentées sans imposer de conclusion.</span></div>
+      </div>
     </div>
   </section>
 
@@ -225,7 +224,7 @@ accueil = f'''  <section class="ouverture ouverture-editoriale">
   <section class="manifeste" id="methode-accueil">
     <div class="conteneur">
       <p class="surtitre">Notre méthode</p>
-      <h2>Une information utile est une information dont on peut examiner les preuves.</h2>
+      <h2>Notre méthode, en cinq statuts.</h2>
       <p class="manifeste-texte">Le Petit Monographe classe les énoncés selon leur statut, indique ses sources, présente les contradictions et signale les incertitudes. Nous ne demandons pas au lecteur d'adopter une opinion : nous lui donnons des éléments pour construire la sienne.</p>
       <div class="statuts-grille">
 {_statuts_html}
@@ -786,7 +785,7 @@ _idx = os.path.join(OUT, "index.html")
 _page_idx = open(_idx, encoding="utf-8").read().replace("<!--DERNIERS-->", f"""  <section class="section" id="a-la-une">
     <div class="conteneur">
       <div class="section-tete">
-        <div><p class="surtitre">Les enquêtes</p><h2>À découvrir</h2></div>
+        <div><p class="surtitre">Documents &amp; enquêtes</p><h2>Les dernières enquêtes</h2></div>
         <p class="intro">Chaque dossier distingue les faits établis des interprétations et des hypothèses, et permet de retrouver ses sources.</p>
       </div>
       <div class="puces" role="group" aria-label="Filtrer par rubrique">
