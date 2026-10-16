@@ -1082,3 +1082,39 @@ body:has(.une-tete) #a-la-une .carte-une h3{font-size:1.16rem}
 .prose{font-size:1.12rem;line-height:1.8}
 .sommaire{border:1px solid #e1d9cd;background:#fbf8f1}
 .essentiel{border-left:3px solid #b39156;background:#f7f2e9}
+
+/* Les trois pages intérieures de la référence */
+.lpm-rubric-header{background:linear-gradient(90deg,#10253cf2,#10253ca0 53%,#10253c22),url('images/financement-campagnes.jpg') center/cover!important;color:#fff!important;min-height:220px;display:flex;align-items:center}
+.lpm-rubric-header h1,.lpm-rubric-header .chapeau,.lpm-rubric-header .surtitre{color:#fff!important}
+.lpm-rubric-header .conteneur{width:100%}
+body:has(.lpm-rubric-header) .portes{display:flex;flex-direction:column;gap:0}
+body:has(.lpm-rubric-header) .porte{display:grid;grid-template-columns:170px minmax(0,1fr);gap:4px 18px;align-items:start;padding:18px 0;border:0;border-bottom:1px solid #ded8cf;background:transparent;box-shadow:none}
+body:has(.lpm-rubric-header) .porte .porte-image{grid-column:1;grid-row:1/span 5;aspect-ratio:1.5;margin:0}
+body:has(.lpm-rubric-header) .porte>*:not(.porte-image){grid-column:2}
+body:has(.lpm-rubric-header) .porte h3{font-size:1.24rem;margin:0}
+body:has(.lpm-rubric-header) .porte p:not(.surtitre){margin:0}
+.lpm-books-header{background:#faf8f3!important}
+body:has(.lpm-books-header) .livres{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+body:has(.lpm-books-header) .livre{display:flex;flex-direction:column;align-items:flex-start;padding:18px;border:1px solid #e5dfd3;background:#fffdfa;min-width:0}
+body:has(.lpm-books-header) .livre .couverture{width:100%;height:210px;display:flex;align-items:center;justify-content:center}
+body:has(.lpm-books-header) .livre .couverture img{max-height:195px;max-width:140px;width:auto;height:auto;object-fit:contain}
+body:has(.lpm-books-header) .livre h4{font-size:1.2rem;line-height:1.3}
+.lpm-method-principles{padding:38px 0;background:#faf8f3}
+.lpm-method-principles h2{font-size:1.55rem;margin:0 0 25px}
+.lpm-principles-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;text-align:center}
+.lpm-principles-grid article{padding:10px 8px;border-right:1px solid #e5dfd3}
+.lpm-principles-grid article:last-child{border:0}
+.lpm-principles-grid article>span{display:grid;place-items:center;width:52px;height:52px;margin:0 auto 12px;border:1px solid #b39156;border-radius:50%;color:#142742;font:1.45rem Georgia,serif}
+.lpm-principles-grid h3{font:600 1rem Georgia,serif;margin:0 0 8px}
+.lpm-principles-grid p{font-size:.83rem;line-height:1.5;color:#555}
+@media(max-width:700px){
+.lpm-rubric-header{min-height:180px}
+body:has(.lpm-rubric-header) .porte{grid-template-columns:105px minmax(0,1fr);gap:5px 12px}
+body:has(.lpm-rubric-header) .porte p:not(.surtitre){display:none}
+body:has(.lpm-books-header) .livres{grid-template-columns:1fr 1fr;gap:12px}
+body:has(.lpm-books-header) .livre{padding:12px}
+body:has(.lpm-books-header) .livre .couverture{height:160px}
+body:has(.lpm-books-header) .livre .couverture img{max-height:150px;max-width:100px}
+.lpm-principles-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.lpm-principles-grid article:nth-child(2n){border-right:0}
+}
