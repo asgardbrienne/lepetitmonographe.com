@@ -1,0 +1,71 @@
+
+/* Le Petit Monographe — proposition d'accueil éditorial, octobre 2026.
+   Ce fichier est volontairement limité à la page d'accueil. */
+.ouverture.ouverture-editoriale{padding:clamp(28px,4vw,54px) 0 clamp(34px,4vw,58px);text-align:left}
+.ouverture-editoriale .grille-une{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);align-items:stretch;gap:clamp(26px,4vw,65px)}
+.ouverture-editoriale .accueil-intro{min-width:0;align-self:center}
+.ouverture-editoriale .surtitre{font:700 .7rem/1.55 var(--sans);letter-spacing:.15em;margin:0 0 22px}
+.ouverture-editoriale h1{font:400 clamp(2.1rem,3.8vw,3.6rem)/1.2 var(--display);letter-spacing:-.035em;margin:0 0 23px;text-wrap:balance;max-width:17ch}
+.ouverture-editoriale h1 em{font-style:normal;color:var(--encre)}
+.ouverture-editoriale .ouverture-intro{font:400 clamp(1.02rem,1.3vw,1.19rem)/1.72 var(--serif);margin:0 0 28px;color:var(--encre-douce);max-width:50ch}
+.ouverture-editoriale .ouverture-boutons{justify-content:flex-start;gap:10px}
+.ouverture-editoriale .ouverture-boutons .bouton{font-size:.7rem!important;padding:14px 15px;letter-spacing:.04em!important}
+.ouverture-editoriale .raccourcis-rubriques{display:flex;gap:12px 22px;flex-wrap:wrap;align-items:center;border-top:1px solid var(--filet);margin-top:30px;padding-top:18px}
+.raccourcis-rubriques a{font:600 .74rem/1.55 var(--sans);text-decoration:none;color:var(--encre-douce)}
+.raccourcis-rubriques a:hover{text-decoration:underline;color:var(--encre)}
+.accueil-grand-dossier{display:flex;position:relative;min-height:445px;align-items:end;isolation:isolate;overflow:hidden;background:#11243d;color:#fffdf9;text-decoration:none}
+.accueil-grand-dossier img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .25s}
+.accueil-grand-dossier:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,rgba(7,22,41,.97),rgba(7,22,41,.67) 53%,rgba(7,22,41,.06))}
+.accueil-grand-dossier:hover,.accueil-grand-dossier:focus-visible{color:#fffdf9}
+.accueil-grand-dossier:hover img{transform:scale(1.025)}
+.accueil-grand-dossier .accueil-grand-texte{padding:clamp(23px,3vw,41px);display:flex;flex-direction:column;gap:13px}
+.accueil-grand-dossier .categorie{font:700 .69rem/1.4 var(--sans);letter-spacing:.13em;text-transform:uppercase;color:#ead09a}
+.accueil-grand-dossier .titre{font:400 clamp(1.35rem,2vw,2.09rem)/1.31 var(--display);letter-spacing:-.02em;text-wrap:balance}
+.accueil-grand-dossier .description{font:400 .93rem/1.66 var(--serif);color:#edf0f3;max-width:60ch}
+.accueil-grand-dossier .suite-grand{font:700 .72rem/1.5 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:#ead09a;margin-top:6px}
+#a-la-une.section{padding:52px 0 65px}
+#a-la-une .section-tete h2{font-size:clamp(1.85rem,3vw,2.65rem)}
+#a-la-une .section-tete .intro{font-size:.98rem;line-height:1.7}
+#a-la-une .puce{border-radius:0}
+#a-la-une .portes{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+#a-la-une .porte,#a-la-une .porte:first-child,#a-la-une .porte:has(.porte-image){display:flex;flex-direction:column;background:transparent;box-shadow:none;transform:none;border:0;border-top:1px solid var(--filet);padding:14px 0 0;grid-row:auto}
+#a-la-une .porte>:not(.porte-image){margin-left:0;margin-right:0}
+#a-la-une .porte-image{display:block;aspect-ratio:1.5;overflow:hidden;margin:0 0 16px;width:100%}
+#a-la-une .porte-image img{width:100%;height:100%;object-fit:cover;display:block}
+#a-la-une .porte h3,#a-la-une .porte:first-child h3{font:400 clamp(1.01rem,1.3vw,1.27rem)/1.4 var(--display);letter-spacing:-.015em;margin:0 0 10px;overflow-wrap:anywhere}
+#a-la-une .porte p:not(.surtitre),#a-la-une .porte:first-child p:not(.surtitre){font:400 .87rem/1.66 var(--serif);margin:0 0 18px;color:var(--encre-douce)}
+#a-la-une .porte .surtitre{font:700 .63rem/1.4 var(--sans)!important;letter-spacing:.09em;margin:0 0 10px}
+#a-la-une .porte .suite{margin-top:auto;font-size:.7rem}
+#a-la-une .porte:hover h3{text-decoration:underline;text-underline-offset:3px}
+#methode-accueil.manifeste{background:var(--papier-2);color:var(--encre);padding:65px 0;border-top:1px solid var(--filet)}
+#methode-accueil .surtitre{color:var(--or-texte)}
+#methode-accueil h2{color:var(--encre);font-size:clamp(1.8rem,2.8vw,2.65rem)}
+#methode-accueil .manifeste-texte{color:var(--encre-douce)}
+#methode-accueil .statuts-grille{gap:0;margin-top:25px}
+#methode-accueil .statut-carte{border:0;border-left:1px solid var(--filet);min-height:0;padding:14px 16px}
+#methode-accueil .statut-carte h3{color:var(--encre)}
+#methode-accueil .statut-carte p{color:var(--encre-douce)}
+#methode-accueil .bouton-clair{color:var(--encre);border-color:var(--encre)}
+#methode-accueil .bouton-clair:hover{background:var(--encre);color:var(--papier)}
+@media(max-width:1100px){#a-la-une .portes{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:820px){.ouverture-editoriale .grille-une{grid-template-columns:1fr}.ouverture.ouverture-editoriale{padding:28px 0 38px}.ouverture-editoriale h1{font-size:clamp(2.08rem,5.2vw,3rem);max-width:24ch}.accueil-grand-dossier{min-height:385px}}
+@media(max-width:560px){.ouverture-editoriale h1{font-size:clamp(1.91rem,8vw,2.5rem)}.ouverture-editoriale .ouverture-intro{font-size:1.03rem;line-height:1.6}.ouverture-editoriale .ouverture-boutons .bouton{width:auto;max-width:none;padding:12px}.raccourcis-rubriques{margin-top:23px}.accueil-grand-dossier{min-height:350px}.accueil-grand-dossier .titre{font-size:1.37rem}#a-la-une.section{padding:35px 0 46px}#a-la-une .portes{grid-template-columns:1fr;gap:24px}#a-la-une .porte{display:grid;grid-template-columns:112px minmax(0,1fr);gap:4px 14px}#a-la-une .porte .porte-image{grid-column:1;grid-row:1/span 4;aspect-ratio:1;margin:0}#a-la-une .porte>:not(.porte-image){grid-column:2}#a-la-une .porte h3{font-size:1.06rem}#a-la-une .porte p:not(.surtitre){display:none}#methode-accueil .statuts-grille{grid-template-columns:1fr}#methode-accueil .statut-carte{border-left:0;border-top:1px solid var(--filet);padding:13px 4px}}
+@media(prefers-reduced-motion:reduce){.accueil-grand-dossier img{transition:none}.accueil-grand-dossier:hover img{transform:none}}
+
+/* Priorité de la grille mobile sur les cartes de la sélection. */
+@media (max-width: 560px) {
+  #a-la-une .portes > .porte,
+  #a-la-une .portes > .porte:first-child,
+  #a-la-une .portes > .porte:has(.porte-image) {
+    display: grid;
+    grid-template-columns: 112px minmax(0, 1fr);
+    grid-template-rows: auto auto auto 1fr;
+    column-gap: 14px;
+    row-gap: 5px;
+    align-items: start;
+  }
+  #a-la-une .porte > .porte-image { grid-column: 1; grid-row: 1 / span 4; }
+  #a-la-une .porte > :not(.porte-image) { grid-column: 2; }
+  #a-la-une .porte .surtitre { margin-bottom: 1px; }
+  #a-la-une .porte .suite { align-self: end; }
+}
