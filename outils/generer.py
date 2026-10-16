@@ -199,83 +199,27 @@ STATUTS_ACCUEIL = [
     ("proposition", "Proposition", "Mesure ou scénario, distinct des constats documentaires."),
 ]
 _statuts_html = "\n".join(f'''        <div class="statut-carte statut-carte-{k}"><span class="statut-trait" aria-hidden="true"></span><h3>{t}</h3><p>{d}</p></div>''' for k, t, d in STATUTS_ACCUEIL)
-accueil = f'''  <style id="lpm-une-mobile-correctif">
-    /* Correctif prioritaire : texte visible sur mobile, même avec cache CSS ancien */
-    .ouverture-magazine .accueil-grand-dossier {{
-      position: relative !important; display: flex !important; flex-direction: row !important;
-      align-items: center !important; isolation: isolate; overflow: hidden !important;
-      background: #10253e !important; min-height: 480px !important;
-    }}
-    .ouverture-magazine .accueil-grand-dossier > img {{
-      position: absolute !important; inset: 0 !important; display: block !important;
-      width: 100% !important; height: 100% !important; max-height: none !important;
-      object-fit: cover !important; object-position: center !important;
-      z-index: -2 !important; margin: 0 !important;
-    }}
-    .ouverture-magazine .accueil-grand-dossier::before {{
-      content: "" !important; display: block !important; position: absolute !important;
-      inset: 0 !important; z-index: -1 !important;
-      background: linear-gradient(90deg,rgba(8,27,47,.98),rgba(8,27,47,.88) 44%,rgba(8,27,47,.24)) !important;
-    }}
-    .ouverture-magazine .accueil-grand-dossier > .accueil-grand-texte {{
-      position: relative !important; z-index: 1 !important; display: flex !important;
-      flex-direction: column !important; align-items: flex-start !important;
-      width: min(680px, 70%) !important; padding: 35px 48px !important;
-      gap: 13px !important; margin: 0 !important; color: #fffdf8 !important;
-    }}
-    .ouverture-magazine .accueil-grand-texte > .titre {{ color: #fffdf8 !important; font-size: clamp(2rem,4vw,3.4rem) !important; line-height: 1.18 !important; }}
-    .ouverture-magazine .accueil-grand-texte > .description {{ color: #e9edf0 !important; }}
-    @media (max-width: 700px) {{
-      .ouverture-magazine.ouverture {{ padding: 0 0 18px !important; }}
-      .ouverture-magazine > .conteneur {{ padding: 0 !important; }}
-      .ouverture-magazine .accueil-grand-dossier {{
-        display: flex !important; flex-direction: column !important;
-        align-items: stretch !important; justify-content: flex-start !important;
-        min-height: 0 !important; height: auto !important; overflow: hidden !important;
-      }}
-      .ouverture-magazine .accueil-grand-dossier > img {{
-        position: relative !important; inset: auto !important; z-index: 0 !important;
-        width: 100% !important; height: 175px !important; min-height: 175px !important;
-        max-height: 175px !important; object-fit: cover !important;
-        object-position: center 55% !important; flex: 0 0 175px !important;
-      }}
-      .ouverture-magazine .accueil-grand-dossier::before {{ display: none !important; }}
-      .ouverture-magazine .accueil-grand-dossier > .accueil-grand-texte {{
-        display: flex !important; flex-direction: column !important; align-items: flex-start !important;
-        width: 100% !important; max-width: none !important;
-        padding: 23px 24px 27px !important; gap: 12px !important;
-        background: #10253e !important; margin: 0 !important;
-      }}
-      .ouverture-magazine .accueil-grand-texte > .categorie {{ font-size: .7rem !important; }}
-      .ouverture-magazine .accueil-grand-texte > .titre {{
-        display: block !important; font-size: clamp(1.65rem, 7vw, 2.15rem) !important;
-        line-height: 1.22 !important; letter-spacing: -.025em !important;
-      }}
-      .ouverture-magazine .accueil-grand-texte > .description {{
-        font-size: .98rem !important; line-height: 1.55 !important;
-      }}
-      .ouverture-magazine .accueil-grand-texte > .suite-grand {{ margin-top: 4px !important; }}
-      .ouverture-magazine .accueil-grand-texte > .meta-grand {{ font-size: .68rem !important; }}
-      .accueil-engagements {{ padding: 22px 24px !important; }}
-    }}
-  </style>
-  <section class="ouverture ouverture-editoriale ouverture-magazine">
-    <div class="conteneur">
-      <a class="accueil-grand-dossier" href="dossier-budget-2027.html" aria-label="Lire le dossier Budget 2027">
-        <img src="assets/images/budget-2027.jpg" alt="" width="1200" height="675" fetchpriority="high">
-        <span class="accueil-grand-texte">
-          <span class="categorie">Dossier à la une · Économie &amp; société</span>
-          <span class="titre">Budget 2027 : les arbitrages à l'épreuve des documents</span>
-          <span class="description">Que contient le projet, et que dit réellement le Haut Conseil des finances publiques ? Une analyse des textes, des chiffres et de leurs limites.</span>
-          <span class="suite-grand">Lire l'enquête <span aria-hidden="true">→</span></span>
-          <span class="meta-grand">Données arrêtées au 8 octobre 2026</span>
-        </span>
-      </a>
-      <div class="accueil-engagements" aria-label="Notre engagement éditorial">
-        <div><strong>Une méthode explicite</strong><span>Faits, témoignages et hypothèses clairement distingués.</span></div>
-        <div><strong>Des sources consultables</strong><span>Documents originaux et références à retrouver dans chaque dossier.</span></div>
-        <div><strong>Le lecteur reste libre</strong><span>Des contradictions présentées sans imposer de conclusion.</span></div>
+accueil = f'''  <section class="lpm-magazine-top" aria-label="Présentation et enquête à la une">
+    <div class="conteneur lpm-magazine-grid">
+      <div class="lpm-magazine-message">
+        <p class="surtitre">Documents &amp; enquêtes</p>
+        <h1>Les faits d'abord.<br>L'opinion reste au lecteur.</h1>
+        <p>Des dossiers documentés qui distinguent les faits établis, les désaccords, les hypothèses et les zones d'incertitude.</p>
+        <div class="lpm-magazine-rubriques">
+          <a href="politique-institutions.html">Politique</a>
+          <a href="economie-societe.html">Économie &amp; Société</a>
+          <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+        </div>
       </div>
+      <a class="lpm-magazine-feature" href="dossier-budget-2027.html">
+        <div class="lpm-magazine-feature-copy">
+          <span class="lpm-label">À la une · Économie &amp; Société</span>
+          <h2>Budget 2027 : ce que contient le projet</h2>
+          <p>Déficit, dépenses, recettes : analyse du budget et de l'avis du Haut Conseil des finances publiques.</p>
+          <span class="lpm-read">Lire le dossier →</span>
+        </div>
+        <img src="assets/images/budget-2027.jpg" width="800" height="520" alt="" fetchpriority="high">
+      </a>
     </div>
   </section>
 
