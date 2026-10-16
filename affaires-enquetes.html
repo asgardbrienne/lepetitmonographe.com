@@ -15,31 +15,37 @@
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
   <link rel="stylesheet" href="assets/style.css">
   <script>try{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 </head>
 <body>
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
-<div class="bandeau-haut">Documents &amp; enquêtes · Politique · Économie · Société · Affaires judiciaires</div>
 <header class="entete">
   <div class="conteneur entete-haut">
-    <a class="logo" href="./"><img src="assets/medaillon.png" alt="" width="46" height="46"><span>Le Petit Monographe</span></a>
-    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
-      <div class="nav-liens">
-      <a href="dossiers.html">Dossiers</a>
-      <a href="methode.html">Notre méthode</a>
-      <a href="livres.html">Monographies</a>
-      <a href="index.html#lettre">La lettre</a>
-      </div>
-    </nav>
+    <form class="recherche-entete" action="dossiers.html" method="get" role="search">
+      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="Rechercher un dossier, un sujet…" aria-label="Rechercher un dossier">
+    </form>
+    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="44" height="44"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-sous">Documents <em>&amp;</em> enquêtes</span></span></a>
     <div class="actions">
-      <a class="bouton-rond" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
-      <button class="bouton-rond bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg></button>
+      <a class="bouton-rond bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
+      <button class="bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><span class="theme-curseur" aria-hidden="true"></span><svg class="theme-lune" viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="currentColor"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+      <a class="bouton-abonner" href="index.html#lettre">S'abonner</a>
       <button class="bouton-rond bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
     </div>
   </div>
+  <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+    <div class="conteneur nav-liens">
+      <a href="./">À la une</a>
+      <a href="politique-institutions.html">Politique</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html" aria-current="page">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+      <a href="methode.html">Méthode</a>
+    </div>
+  </nav>
 </header>
 
 <main id="contenu">
@@ -57,79 +63,79 @@
       <a class="porte c-affaires" href="dossier-outreau.html"><span class="porte-image"><img src="assets/images/outreau.jpg" alt="" loading="lazy"></span>
         <p class="surtitre"><span class="or">Dossier</span></p>
         <h3>Outreau : comment une erreur judiciaire collective s'est produite</h3>
-        <p>Chronologie, procès de Saint-Omer, de Paris et de Rennes, commission d'enquête parlementaire et réformes qui ont suivi. Données arrêtées au 8 octobre 2026.</p>
+        <p>Procédure expliquée, chronologie, ce que la justice a établi et n'a pas établi, commission d'enquête parlementaire, débat sur la parole de l'enfant et réformes qui ont suivi (loi du 5 mars 2007, responsabilité des magistrats). Données arrêtées au 8 octobre 2026.</p>
         <span class="suite">Lire le dossier</span>
       </a>
       <a class="porte c-affaires" href="dossier-troadec.html"><span class="porte-image"><img src="assets/images/troadec.jpg" alt="" loading="lazy"></span>
         <p class="surtitre"><span class="or">Dossier</span></p>
         <h3>Affaire Troadec : ce que le procès a tranché</h3>
-        <p>Faits jugés, peine, mobile retenu et points restés contestés dans l'affaire du quadruple meurtre d'Orvault. Données arrêtées au 8 octobre 2026.</p>
+        <p>Enquête, procédure, faits jugés, expertises, peine et altération du discernement, points restés contestés et emballement médiatique initial dans l'affaire du quadruple meurtre d'Orvault. Données arrêtées au 8 octobre 2026.</p>
         <span class="suite">Lire le dossier</span>
       </a>
       <a class="porte c-affaires" href="dossier-flactif.html"><span class="porte-image"><img src="assets/images/flactif.jpg" alt="" loading="lazy"></span>
         <p class="surtitre"><span class="or">Dossier</span></p>
         <h3>Affaire Flactif : ce que la justice a établi</h3>
-        <p>Faits jugés, peines, condamnations des coaccusés et état de la procédure, dont la demande de libération conditionnelle déposée en 2025, dans l'affaire de la tuerie du Grand-Bornand. Données arrêtées au 8 octobre 2026.</p>
+        <p>Enquête scientifique, procédure, faits jugés, peines, désistement d'appel inédit de 2007 et demande de libération conditionnelle déposée en 2025, dans l'affaire de la tuerie du Grand-Bornand. Données arrêtées au 8 octobre 2026.</p>
         <span class="suite">Lire le dossier</span>
       </a>
       <a class="porte c-affaires" href="dossier-gregory.html"><span class="porte-image"><img src="assets/images/gregory.jpg" alt="" loading="lazy"></span>
         <p class="surtitre"><span class="or">Dossier</span></p>
         <h3>Affaire Grégory : l'état de la procédure en octobre 2026</h3>
-        <p>Décisions de justice depuis 1984, annulations, prescription et investigations en cours. Données arrêtées au 8 octobre 2026.</p>
+        <p>Procédure expliquée, décisions de justice depuis 1984, annulations, prescription, investigations en cours et ce que l'affaire a changé. Données arrêtées au 8 octobre 2026.</p>
         <span class="suite">Lire le dossier</span>
       </a>
       <a class="porte c-affaires" href="dossier-dupont-de-ligonnes.html"><span class="porte-image"><img src="assets/images/dupont-de-ligonnes.jpg" alt="" loading="lazy"></span>
         <p class="surtitre"><span class="or">Dossier</span></p>
         <h3>Affaire Dupont de Ligonnès : ce qui est établi quinze ans après</h3>
-        <p>Faits établis, état de l'enquête, signalements et rumeurs : ce que l'on sait et ce que l'on ne sait pas. Données arrêtées au 8 octobre 2026.</p>
+        <p>Faits établis, procédure expliquée, chronologie, éléments matériels, thèses en présence, fausses pistes dont l'erreur de Glasgow, et état de l'enquête en 2026 : ce que l'on sait et ce que l'on ne sait pas. Données arrêtées au 8 octobre 2026.</p>
         <span class="suite">Lire le dossier</span>
       </a>
       <a class="porte c-affaires" href="dossier-feminicides-chiffres.html"><span class="porte-image"><img src="assets/images/feminicides.jpg" alt="" loading="lazy"></span>
         <p class="surtitre"><span class="or">Dossier</span></p>
         <h3>Féminicides : ce que mesurent les chiffres officiels et associatifs</h3>
-        <p>Définitions, méthodes de comptage, séries officielles et associatives, et ce que les écarts signifient. Données arrêtées au 8 octobre 2026.</p>
+        <p>Définitions, cadre juridique, méthodes de comptage, séries officielles depuis 2014, tentatives et « suicides forcés », comparaisons internationales, débats sur l'inscription du féminicide et du contrôle coercitif dans la loi. Données arrêtées au 16 octobre 2026.</p>
         <span class="suite">Lire le dossier</span>
       </a>
       <a class="porte c-affaires" href="dossier-fiona.html"><span class="porte-image"><img src="assets/images/fiona.jpg" alt="" loading="lazy"></span>
         <p class="surtitre"><span class="or">Dossier</span></p>
         <h3>Affaire Fiona : trois procès pour établir les responsabilités</h3>
-        <p>Procès successifs, cassation, peines prononcées et points restés incertains dans l'affaire Fiona. Données arrêtées au 8 octobre 2026.</p>
+        <p>Enquête, instruction, procès successifs, cassation et peines définitives dans l'affaire Fiona ; ce que la justice a établi, ce qu'elle n'a pas pu établir et ce que l'affaire montre du fonctionnement de la cour d'assises. Données arrêtées au 16 octobre 2026.</p>
         <span class="suite">Lire le dossier</span>
       </a>
       <a class="porte c-affaires" href="dossier-romand.html"><span class="porte-image"><img src="assets/images/romand.jpg" alt="" loading="lazy"></span>
         <p class="surtitre"><span class="or">Dossier</span></p>
         <h3>Affaire Romand : ce que la justice a établi</h3>
-        <p>Faits jugés, expertises psychiatriques, peine et libération conditionnelle dans l'affaire Romand. Données arrêtées au 8 octobre 2026.</p>
+        <p>Mensonge de longue durée, faits jugés, procès de 1996 sans possibilité d'appel, expertises psychiatriques, peine de perpétuité et période de sûreté, règles de la libération conditionnelle des condamnés à perpétuité et décisions de 2019. Données arrêtées au 16 octobre 2026.</p>
         <span class="suite">Lire le dossier</span>
       </a>
       <a class="porte c-affaires" href="dossier-omar-raddad.html"><span class="porte-image"><img src="assets/images/raddad.jpg" alt="" loading="lazy"></span>
         <p class="surtitre"><span class="or">Dossier</span></p>
         <h3>Affaire Omar Raddad : pourquoi la révision a été refusée</h3>
-        <p>Condamnation, grâce, traces ADN découvertes en 2015 et décision de la juridiction de révision. Données arrêtées au 8 octobre 2026.</p>
+        <p>Condamnation sans appel possible, grâce, deux demandes de révision, traces ADN découvertes en 2001 et 2015, fonctionnement et statistiques de la procédure de révision, réforme de 2014 et débats sur le doute. Données arrêtées au 16 octobre 2026.</p>
         <span class="suite">Lire le dossier</span>
       </a>
       <a class="porte c-affaires" href="dossier-delais-justice-penale.html"><span class="porte-image"><img src="assets/images/delais-justice.jpg" alt="" loading="lazy"></span>
         <p class="surtitre"><span class="or">Dossier</span></p>
         <h3>Combien de temps faut-il pour être jugé en France ?</h3>
-        <p>Délais moyens par type de procédure, durée de l'instruction et engorgement des juridictions criminelles. Données arrêtées au 8 octobre 2026.</p>
+        <p>Délais moyens par type de procédure, durée de l'instruction, engorgement des juridictions criminelles, réformes successives des cours criminelles jusqu'à la loi du 23 juillet 2026, effectifs comparés à l'Europe et pistes débattues. Données arrêtées au 8 octobre 2026.</p>
         <span class="suite">Lire le dossier</span>
       </a>
       <a class="porte c-affaires" href="dossier-usage-force-police.html"><span class="porte-image"><img src="assets/images/igpn.jpg" alt="" loading="lazy"></span>
         <p class="surtitre"><span class="or">Dossier</span></p>
         <h3>Usage de la force par la police : ce que disent les chiffres de l'IGPN</h3>
-        <p>Enquêtes de l'IGPN sur l'usage de la force, tirs mortels, atteintes à la probité, et limites de ces statistiques. Données arrêtées au 8 octobre 2026.</p>
+        <p>Fonctionnement et saisine de l'IGPN, séries d'enquêtes depuis 2016, tirs mortels et tirs sur véhicules, suites disciplinaires, signalements des usagers, contrôle externe par le Défenseur des droits, débat sur la loi de 2017 et la présomption de légitime défense, et limites de ces statistiques. Données arrêtées au 8 octobre 2026.</p>
         <span class="suite">Lire le dossier</span>
       </a>
       <a class="porte c-affaires" href="dossier-justice-mineurs.html"><span class="porte-image"><img src="assets/images/justice-mineurs.jpg" alt="" loading="lazy"></span>
         <p class="surtitre"><span class="or">Dossier</span></p>
         <h3>Justice des mineurs : ce qu'a changé le code de 2021</h3>
-        <p>Procédure en deux temps, évolution des délais de jugement, évaluations disponibles, loi du 23 juin 2025 et remplacement des centres éducatifs fermés. Données arrêtées au 8 octobre 2026.</p>
+        <p>Principes historiques de la justice des mineurs, procédure en deux temps, séries de délais selon plusieurs mesures, évolution des mineurs mis en cause, évaluations disponibles, loi du 23 juin 2025, remplacement des centres éducatifs fermés par des unités à priorité éducative, débats et pistes. Données arrêtées au 8 octobre 2026.</p>
         <span class="suite">Lire le dossier</span>
       </a>
       <a class="porte c-affaires" href="dossier-adn-reconnaissance-faciale.html"><span class="porte-image"><img src="assets/images/adn-reconnaissance-faciale.jpg" alt="" loading="lazy"></span>
         <p class="surtitre"><span class="or">Dossier</span></p>
         <h3>ADN et reconnaissance faciale : ce que ces preuves peuvent et ne peuvent pas établir</h3>
-        <p>Contamination et transfert d'ADN, encadrement des fichiers, usage de la reconnaissance faciale par la police, loi du 23 juillet 2026 et décisions de justice récentes. Données arrêtées au 8 octobre 2026.</p>
+        <p>Contamination et transfert d'ADN, histoire et taille du fichier des empreintes génétiques, contrôle du Conseil constitutionnel et de la Cour européenne, fiabilité mesurée des algorithmes de reconnaissance faciale, usage par la police, règlement européen sur l'IA, loi du 23 juillet 2026 et décisions de justice récentes. Données arrêtées au 8 octobre 2026.</p>
         <span class="suite">Lire le dossier</span>
       </a>
       </div>

@@ -3,7 +3,7 @@ rubrique: affaires
 titre: Outreau : comment une erreur judiciaire collective s'est produite
 titre_court: L'affaire d'Outreau
 chapeau: En 2004 puis en appel en 2005, dix-sept personnes ont été jugées par une cour d'assises pour des viols et agressions sexuelles sur des enfants à Outreau. Treize ont finalement été acquittées. L'affaire a donné lieu à la première commission d'enquête parlementaire de la Ve République consacrée au fonctionnement de la justice.
-resume: Chronologie, procès de Saint-Omer, de Paris et de Rennes, commission d'enquête parlementaire et réformes qui ont suivi. Données arrêtées au 8 octobre 2026.
+resume: Procédure expliquée, chronologie, ce que la justice a établi et n'a pas établi, commission d'enquête parlementaire, débat sur la parole de l'enfant et réformes qui ont suivi (loi du 5 mars 2007, responsabilité des magistrats). Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
 image: assets/images/outreau.jpg
@@ -11,54 +11,131 @@ image_alt: La Grand-Place de Saint-Omer, de nuit
 image_credit: Steve-©-foto, CC BY 2.0, recadrée, Flickr
 image_lien: https://www.flickr.com/photos/70690537@N02/6822060134
 verifie: 11 octobre 2026
-corrections: Ajout du procès de Rennes (acquittement du 5 juin 2015) et des douze enfants reconnus victimes, précision sur la lettre d'excuses présidentielle du 5 décembre 2005 et sur le début de l'enquête, suppression d'une affirmation non sourcée sur la loi du 15 juin 2000, sources primaires ajoutées (rapport parlementaire, dépêche AFP, ministère de la Justice).
+corrections: Ajout du procès de Rennes (acquittement du 5 juin 2015) et des douze enfants reconnus victimes, précision sur la lettre d'excuses présidentielle du 5 décembre 2005 et sur le début de l'enquête, suppression d'une affirmation non sourcée sur la loi du 15 juin 2000, sources primaires ajoutées (rapport parlementaire, dépêche AFP, ministère de la Justice). Le 16 octobre 2026, le dossier a été approfondi : procédure expliquée, chronologie enrichie, bilan de ce que la justice a établi ou non, constats détaillés de la commission d'enquête, débat sur la parole de l'enfant et réformes adoptées ou abandonnées, avec quatre nouvelles sources et un graphique.
 ---
 ## Essentiel
 - L'affaire a abouti à quatre condamnations définitives et à treize acquittements [1][5].
 - Au premier procès, à Saint-Omer en 2004, sept accusés ont été acquittés ; en appel, à Paris, les six condamnés qui avaient fait appel ont été acquittés le 1er décembre 2005 [1][4].
 - Douze enfants ont été reconnus victimes de viols ou d'agressions sexuelles [1][2].
-- Une personne mise en examen est morte en détention provisoire en 2002, avant tout jugement [1].
+- Une personne mise en examen est morte en détention provisoire en 2002, avant tout jugement ; selon la commission d'enquête, douze des treize acquittés avaient accumulé près de vingt-six années de détention [1][4].
 - Une commission d'enquête de l'Assemblée nationale a auditionné 221 personnes et formulé 80 propositions dans un rapport déposé le 6 juin 2006 [3][4].
+- La loi du 5 mars 2007 a repris une partie de ces propositions (pôles de l'instruction, enregistrement des interrogatoires) ; la collégialité de l'instruction qu'elle prévoyait n'est jamais entrée en vigueur [7][8].
 
 ## État de la procédure
 
 [État de la procédure] L'affaire principale est définitivement jugée : quatre condamnations et treize acquittements sont définitifs [1][5]. Les personnes acquittées sont innocentes au regard de la loi. Un dernier volet, portant sur des faits qu'un des acquittés de 2005 aurait commis alors qu'il était mineur, a été jugé en 2015 par la cour d'assises des mineurs d'Ille-et-Vilaine, à Rennes : l'accusé a été acquitté le 5 juin 2015, conformément aux réquisitions de l'avocat général [5].
+
+## La procédure expliquée
+
+[À noter] Une information judiciaire est l'enquête confiée à un juge d'instruction, saisi par le procureur de la République. La mise en examen signifie qu'il existe contre une personne des indices graves ou concordants ; ce n'est pas une déclaration de culpabilité. La détention provisoire est l'incarcération d'une personne avant son jugement, décidée par le juge des libertés et de la détention (JLD). La chambre de l'instruction est la formation de la cour d'appel qui contrôle le travail du juge d'instruction. L'ordonnance de mise en accusation renvoie les accusés devant la cour d'assises, qui juge les crimes avec des jurés.
+
+[Fait établi] Le point de départ est un signalement des services sociaux au parquet de Boulogne-sur-Mer, après des confidences d'enfants à leurs assistantes maternelles en décembre 2000. Les parents de ces enfants sont placés en garde à vue le 20 février 2001 par les policiers du commissariat de Boulogne-sur-Mer ; le service régional de police judiciaire (SRPJ) de Lille intervient ensuite dans l'enquête [1][4].
+
+[Fait établi] Le procureur de la République ouvre une information judiciaire en février 2001. Elle est confiée à un juge d'instruction arrivé à Boulogne-sur-Mer à sa sortie de l'École nationale de la magistrature, en septembre 2000. Selon la commission d'enquête, l'autre juge d'instruction du tribunal, doyen dans la fonction, n'avait qu'un an d'ancienneté [4].
+
+[Fait établi] Au fil des déclarations d'enfants et d'adultes qui s'accusent mutuellement, dix-huit personnes sont mises en examen, la plupart placées en détention provisoire par le JLD. Le procureur ajoute des faits nouveaux au dossier par des réquisitoires supplétifs. L'information est close par l'ordonnance de mise en accusation du 13 mars 2003, qui suit de près le réquisitoire définitif du procureur du 6 mars 2003 [1][4]. La chambre de l'instruction de la cour d'appel de Douai confirme ensuite le renvoi de dix-sept accusés devant la cour d'assises du Pas-de-Calais [1].
+
+[Fait établi] Les condamnés de Saint-Omer qui contestent leur culpabilité font appel. L'affaire est rejugée par une autre cour d'assises, celle de Paris, statuant en appel, qui acquitte les six appelants. Les quatre accusés condamnés qui n'ont pas fait appel voient leur condamnation devenir définitive [1][4]. Les faits reprochés à l'un des acquittés pour la période où il était mineur relevaient d'une autre juridiction, la cour d'assises des mineurs, ce qui explique le troisième procès, à Rennes, en 2015 [1][5].
 
 ## La chronologie
 
 [Figure] frise
 titre: Les étapes judiciaires de l'affaire
 donnees:
+- 20 février 2001 | Garde à vue des parents des premiers enfants qui ont parlé [4]. | Procédure
 - Février 2001 | Ouverture de l'information judiciaire [1][2]. | Procédure
+- 4 janvier 2002 | Un mis en examen écrit au juge pour dénoncer le meurtre d'une fillette en Belgique ; aucune trace n'en sera trouvée [4]. | Fait établi
 - 9 juin 2002 | Une personne mise en examen meurt en détention provisoire [1]. | Fait établi
+- 13 mars 2003 | Ordonnance de mise en accusation [4]. | Procédure
 - 2 juillet 2004 | Fin du procès de Saint-Omer : dix condamnations, sept acquittements [1][2]. | Décision de justice
 - 1er décembre 2005 | La cour d'assises d'appel de Paris acquitte les six appelants [1][4]. | Décision de justice
+- 7 décembre 2005 | L'Assemblée nationale crée une commission d'enquête [3]. | Fait établi
+- 6 juin 2006 | Dépôt du rapport de la commission d'enquête [4]. | Fait établi
+- 5 mars 2007 | Loi tendant à renforcer l'équilibre de la procédure pénale [6][7]. | Fait établi
+- Avril 2009 | Le Conseil supérieur de la magistrature inflige une réprimande au juge d'instruction [9][10]. | Décision
 - 5 juin 2015 | Acquittement, à Rennes, d'un des acquittés de 2005, rejugé pour des faits commis quand il était mineur [5]. | Décision de justice
-source: Décisions de justice et rapport parlementaire ; voir les sources du dossier
+source: Décisions de justice, rapport parlementaire, travaux de l'Assemblée nationale et presse ; voir les sources du dossier
 
 [Fait établi] Les faits jugés, des viols et agressions sexuelles sur des mineurs, se situent entre 1997 et 2000 à Outreau, près de Boulogne-sur-Mer. L'information judiciaire est ouverte en février 2001 ; la couverture médiatique s'intensifie après une série d'interpellations à la mi-novembre 2001 [1][2].
+
+[Fait établi] Le 4 janvier 2002, l'un des mis en examen, plus tard acquitté, écrit au juge d'instruction pour dénoncer le viol et le meurtre d'une fillette en Belgique, et adresse la même lettre à la rédaction de France 3, qui la rend publique. Selon le rapport parlementaire, les recherches menées pour retrouver un corps restent infructueuses malgré d'importants moyens, et l'auteur de la lettre explique rapidement au juge qu'il a inventé cette histoire. Le commissaire du SRPJ chargé de l'enquête y voit, devant la commission, le « basculement » de l'affaire [4].
 
 [Fait établi] L'une des personnes mises en examen meurt en détention provisoire le 9 juin 2002, avant le premier procès [1].
 
 [Fait établi] Le procès devant la cour d'assises du Pas-de-Calais, à Saint-Omer, se tient du 4 mai au 2 juillet 2004. Sur dix-sept accusés, dix sont condamnés et sept acquittés [1][2]. Six des condamnés font appel [1][2].
 
-[Témoignage] Au procès en appel, ouvert en novembre 2005 à Paris, la principale accusatrice, elle-même condamnée, déclare dès les premiers jours que les six appelants « n'ont strictement rien fait » et qu'elle a menti [1].
+[Témoignage] Au procès de Saint-Omer, la principale accusatrice déclare au quinzième jour d'audience que « rien n'est vrai » et met hors de cause treize accusés, avant de revenir sur ses dires deux jours plus tard [2]. Au procès en appel, ouvert en novembre 2005 à Paris, elle déclare dès les premiers jours que les six appelants « n'ont strictement rien fait » et qu'elle a menti [1].
 
-[Fait établi] Le 1er décembre 2005, la cour d'assises d'appel de Paris acquitte les six appelants, après que l'avocat général a requis l'acquittement [1][4]. Le ministre de la Justice présente le soir même ses excuses aux acquittés au nom de l'institution judiciaire. Le 5 décembre 2005, le président de la République fait savoir qu'il leur a écrit pour leur présenter « ses regrets et ses excuses » [1].
+[Fait établi] Le 1er décembre 2005, la cour d'assises d'appel de Paris acquitte les six appelants, après que l'avocat général a requis l'acquittement [1][4]. Le ministre de la Justice présente le soir même ses excuses aux acquittés au nom de l'institution judiciaire. Le Premier ministre reconnaît le même jour, « au nom de l'État, la faute qui avait été commise » [4]. Le 5 décembre 2005, le président de la République fait savoir qu'il leur a écrit pour leur présenter « ses regrets et ses excuses » [1]. La commission d'enquête relève que c'est la première fois que les plus hautes autorités de l'État présentent de telles excuses [4].
 
 [Fait établi] Le 5 juin 2015, la cour d'assises des mineurs d'Ille-et-Vilaine acquitte l'un des acquittés de 2005, rejugé pour des faits qu'il aurait commis avant sa majorité [5].
 
+## Ce que la justice a établi, et ce qu'elle n'a pas établi
+
+[Figure] barres-h
+titre: Issue judiciaire pour les dix-sept accusés
+unite: Nombre d'accusés, procès de 2004 et 2005
+donnees:
+- Condamnés à Saint-Omer, sans appel | 4
+- Acquittés à Saint-Omer (2004) | 7
+- Condamnés à Saint-Omer puis acquittés en appel (2005) | 6
+lecture: Sur dix-sept accusés, quatre ont été définitivement condamnés et treize acquittés, dont six après avoir été condamnés en première instance.
+note: L'un des six acquittés de 2005 a été rejugé en 2015 pour des faits commis quand il était mineur, et de nouveau acquitté.
+source: Rapport de la commission d'enquête, 6 juin 2006, et décisions de justice [1][4][5]
+
+[Fait établi] La justice a établi que des enfants ont été victimes de viols et d'agressions sexuelles : douze enfants sont reconnus victimes [1][2]. Les deux parents des premiers enfants qui ont parlé sont condamnés à vingt et quinze ans de réclusion criminelle, et un couple de voisins à six et quatre ans d'emprisonnement. Ces quatre condamnés n'ont pas fait appel et leur condamnation est définitive [4].
+
+[Fait établi] La justice n'a pas établi la culpabilité des treize autres accusés, qui sont acquittés. Elle n'a pas non plus établi l'existence du réseau international évoqué pendant l'instruction ni le meurtre d'une fillette en Belgique : aucun corps ni aucune trace n'a été trouvé [1][4].
+
+[Élément matériel] Lors de la perquisition chez les parents, en février 2001, les enquêteurs saisissent plus de trois cents cassettes vidéo, dont cent soixante-trois cassettes pornographiques [4].
+
+[Expertise] Plusieurs psychologues et psychiatres ont été désignés pour examiner les enfants ; selon La Déferlante, sept experts au total ont conclu à la crédibilité de leur parole [2]. Au procès en appel, de nouveaux experts ont été désignés par la présidente de la cour d'assises [1]. Le rapport parlementaire consacre un chapitre entier à ce qu'il appelle « une valorisation excessive du rôle des experts » [4]. Une expertise reste un avis, que la cour d'assises apprécie librement.
+
+[Témoignage] Les accusations reposaient en grande partie sur des déclarations : celles des enfants, recueillies à plusieurs reprises, et celles d'adultes mis en examen qui se sont mis en cause mutuellement avant, pour plusieurs d'entre eux, de se rétracter [1][4].
+
 ## Ce que l'affaire a révélé
 
-[Fait établi] Le 7 décembre 2005, l'Assemblée nationale crée à l'unanimité une commission d'enquête, présidée par André Vallini, avec Philippe Houillon pour rapporteur. Entre le 10 janvier et le 12 avril 2006, elle entend 221 personnes, dont des acquittés, et dépose le 6 juin 2006 un rapport comprenant 80 propositions [3][4].
+[Fait établi] Le 7 décembre 2005, l'Assemblée nationale crée à l'unanimité une commission d'enquête, présidée par André Vallini, avec Philippe Houillon pour rapporteur. Entre le 10 janvier et le 12 avril 2006, elle entend 221 personnes, dont des acquittés, et dépose le 6 juin 2006 un rapport comprenant 80 propositions [3][4]. Le rapporteur a disposé de l'ensemble du dossier, soit 28 tomes de procédure et plus de 6 800 cotes [4].
+
+[Fait établi] Sur la centaine d'auditions de mineurs réalisées, seules sept ont fait l'objet de l'enregistrement audiovisuel prévu par l'article 706-52 du code de procédure pénale ; selon les procès-verbaux, les mineurs auraient refusé leur consentement [4]. Le 6 mars 2001, seize enfants sont convoqués en même temps au commissariat [2].
+
+[Fait établi] Les futurs acquittés, et la personne morte en détention, ont présenté au total 363 demandes de mise en liberté. Plus de la moitié, 165, l'ont été après la clôture de l'information, quand les intéressés avaient déjà passé de longs mois en détention [4].
+
+[Interprétation] La commission décrit une instruction « univoque » : confrontations organisées collectivement plutôt qu'individuellement, vérifications « parcellaires », éléments à décharge « parfois écartés », ordonnance de mise en accusation très proche du réquisitoire du parquet [4]. Elle parle aussi d'un « juge seul et pressé » et conclut que la solitude du juge d'instruction et du JLD a compté « pour une part substantielle » dans les dysfonctionnements [4].
+
+[Témoignage] Devant la commission, le juge d'instruction déclare que personne ne lui a dit à l'époque qu'il faisait « fausse route » : ni le procureur, ni le procureur général, ni la chambre de l'instruction [4]. Le président de la chambre de l'instruction de Douai explique que sa formation, composée d'un président et de quatre assesseurs, rendait plus de 2 600 arrêts par an [4].
 
 [Interprétation] Selon le rapport de la commission et les analyses ultérieures, l'erreur ne tient pas à une seule personne mais à une chaîne : recueil et interprétation de la parole des enfants, expertises psychologiques, place centrale du juge d'instruction, recours long à la détention provisoire et faiblesse des contrôles successifs [3][4]. Le poids respectif de ces facteurs reste discuté.
 
+## Le débat sur la parole de l'enfant
+
 [Débat] Pour beaucoup de commentateurs, Outreau est le symbole d'une justice qui n'a pas su douter. D'autres, notamment des associations de protection de l'enfance et d'anciens membres de la Commission indépendante sur l'inceste et les violences sexuelles faites aux enfants (Ciivise), estiment que l'affaire a eu un effet pervers : rendre la parole des enfants suspecte dans les procédures suivantes [2]. La loi du 5 mars 2007 tendant à renforcer l'équilibre de la procédure pénale a été adoptée dans la suite de l'affaire [1][6] ; son effet réel est diversement apprécié.
+
+[Débat] Le meilleur argument des avocats de la défense est que le dossier reposait sur des déclarations insuffisamment vérifiées, dont certaines se sont révélées fausses (le meurtre en Belgique, des accusations contre des personnes ensuite acquittées), et que treize personnes ont été détenues ou jugées sur cette base [2][4]. Plusieurs d'entre eux estiment, en 2026, que les procès ont rendu l'écoute plus « équilibrée » entre plaignants et accusés [2]. Sa limite, relevée par les associations : douze enfants ont bien été reconnus victimes, et un acquittement ne signifie pas que les enfants ont menti volontairement [2].
+
+[Débat] Le meilleur argument des associations de protection de l'enfance et d'anciennes responsables de la Ciivise est que l'opinion a retenu l'idée d'une parole d'enfant « empoisonnée », et que la méfiance envers les enfants victimes s'est installée durablement [2]. Sa limite : cet effet est avancé à partir de témoignages de professionnels, sans mesure statistique qui l'isole des autres facteurs (voir « Ce qu'on ne sait pas »).
+
+[Interprétation] Les deux camps se rejoignent sur un point établi par la commission : les conditions de recueil de la parole des enfants étaient défaillantes, faute d'enregistrement, de formation et de locaux adaptés [2][4]. Depuis, des salles d'audition adaptées dites « salles Mélanie » et des protocoles d'entretien structurés comme le protocole NICHD se sont diffusés ; selon des professionnels cités par La Déferlante, ils restent insuffisamment répandus [2].
+
+## Ce que l'affaire a changé
+
+[Fait établi] La loi du 5 mars 2007 tendant à renforcer l'équilibre de la procédure pénale crée des pôles de l'instruction dans de nombreuses juridictions, pour mettre fin à la solitude du juge d'instruction. Elle rend obligatoire la présence d'un avocat lors du débat devant le JLD, impose l'enregistrement audiovisuel des interrogatoires, permet de contester sa mise en examen au moins tous les six mois et entoure de précautions le recueil de la parole des mineurs [6][7]. Selon son rapporteur, Guy Geoffroy, plus des deux tiers des propositions législatives de la commission d'enquête ont été transcrites dans le droit [7].
+
+[Fait établi] La même loi prévoyait de remplacer le juge d'instruction par un collège de trois juges pour les principaux actes de l'instruction. Son entrée en vigueur a été reportée à plusieurs reprises, jusqu'au 1er janvier 2017, faute notamment des plus de trois cents postes de juges d'instruction nécessaires. En mai 2016, l'Assemblée nationale adopte, lors de l'examen du projet de loi sur la justice du XXIe siècle, un amendement qui abroge ces dispositions [8].
+
+[Fait établi] Sur la responsabilité des magistrats, la loi n° 2007-287 du 5 mars 2007 crée une nouvelle sanction disciplinaire, l'interdiction d'exercer les fonctions de juge unique pendant cinq ans au plus, mais ses dates d'entrée en vigueur ne permettaient pas de l'appliquer aux magistrats mis en cause dans l'affaire. La révision constitutionnelle du 23 juillet 2008 prévoit que les justiciables pourront saisir eux-mêmes le Conseil supérieur de la magistrature (CSM) en matière disciplinaire, dans des conditions fixées par une loi organique alors en discussion [10].
+
+[Fait établi] Le CSM inflige au juge d'instruction une « réprimande avec inscription au dossier », sanction bien inférieure à la suspension d'un an demandée par le ministère de la Justice. La décision est datée du 24 avril 2009 par la presse et du 25 avril par une question écrite parlementaire [9][10].
+
+[Débat] La sanction est jugée très douce par la presse et contestée par des acquittés et des parlementaires [1][9]. Le même article note que l'affaire est « autant l'échec d'un système que celui d'un homme », ce que rejoint l'analyse de la commission d'enquête [4][9]. Le projet de supprimer le juge d'instruction, présenté en 2009 en référence à l'affaire, a été abandonné en 2010 [1].
+
+[À noter] Le rapport parlementaire rappelle que le montant des indemnisations versées aux acquittés n'est pas public : il relève d'accords dont une clause prévoit la confidentialité [4].
 
 ## Ce qu'on ne sait pas
 - **L'effet mesurable des réformes** sur la détention provisoire et le recueil de la parole des enfants.
-- **L'influence de l'affaire sur les signalements d'abus sur mineurs** dans les années suivantes, avancée par certains et non chiffrée.
+- **L'influence de l'affaire sur les signalements d'abus sur mineurs** et sur les condamnations pour violences sexuelles dans les années suivantes, avancée par certains et non chiffrée de façon qui l'isole d'autres causes.
+- **Le montant des indemnisations** versées aux acquittés, couvert par une clause de confidentialité [4].
+- **La version finale de la suppression de la collégialité** : les travaux parlementaires de 2016 la prévoient, mais le texte définitif n'a pas été consulté pour ce dossier.
 
 ## Sources
 - Source secondaire : Wikipédia, « Affaire d'Outreau », consulté le 11 octobre 2026. | https://fr.wikipedia.org/wiki/Affaire_d'Outreau
@@ -67,3 +144,7 @@ source: Décisions de justice et rapport parlementaire ; voir les sources du dos
 - Assemblée nationale, André Vallini (président) et Philippe Houillon (rapporteur), rapport n° 3125 de la commission d'enquête sur l'affaire dite d'Outreau, 6 juin 2006. | https://www.assemblee-nationale.fr/12/rap-enq/r3125-t1.asp
 - AFP, via Tendance Ouest, « Outreau : Daniel Legrand acquitté pour la deuxième fois », 5 juin 2015. | https://www.tendanceouest.com/actualite-106559-rennes-afp-outreau-daniel-legrand-acquitte-pour-la-deuxieme-fois
 - Ministère de la Justice, circulaire de la DACG n° 2007-09 du 25 mai 2007 présentant les dispositions de la loi n° 2007-291 du 5 mars 2007 tendant à renforcer l'équilibre de la procédure pénale. | https://www.justice.gouv.fr/documentation/bulletin-officiel/circulaire-dacg-ndeg-2007-09-du-25-mai-2007-relative-presentation-dispositions-0
+- Assemblée nationale, rapport d'activité 2007, « La loi tire les leçons d'Outreau », p. 30-31, février 2008. | https://www.assemblee-nationale.fr/connaissance/rapactiv2007/rapactiv2007-30-31.pdf
+- Assemblée nationale, amendement n° 392 de MM. Raimbourg, Le Bouillonnec et Clément au projet de loi Justice du XXIe siècle (n° 3726), 12 mai 2016. | https://www.assemblee-nationale.fr/14/amendements/3726/AN/392.pdf
+- Sylvain Besson, Le Temps, « Le juge Burgaud sanctionné pour le fiasco d'Outreau », 24 avril 2009. | https://www.letemps.ch/monde/juge-burgaud-sanctionne-fiasco-doutreau
+- Assemblée nationale, question écrite n° 48840 de Michel Hunault et réponse du ministère de la Justice, publiées les 12 mai 2009 et 19 janvier 2010. | https://www.assemblee-nationale.fr/dyn/13/questions/QANR5L13QE48840

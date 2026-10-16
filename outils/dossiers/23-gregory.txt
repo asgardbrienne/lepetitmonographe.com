@@ -3,7 +3,7 @@ rubrique: affaires
 titre: Affaire Grégory : l'état de la procédure en octobre 2026
 titre_court: L'affaire Grégory
 chapeau: Le 16 octobre 1984, Grégory Villemin, 4 ans, est retrouvé mort dans la Vologne. Près de quarante-deux ans plus tard, personne n'a été jugé pour sa mort. Ce qui a été décidé par la justice, et ce qui reste ouvert.
-resume: Décisions de justice depuis 1984, annulations, prescription et investigations en cours. Données arrêtées au 8 octobre 2026.
+resume: Procédure expliquée, décisions de justice depuis 1984, annulations, prescription, investigations en cours et ce que l'affaire a changé. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
 image: assets/images/gregory.jpg
@@ -11,7 +11,7 @@ image_alt: La Vologne à Lépanges-sur-Vologne
 image_credit: Lionel Allorge, CC BY-SA 3.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:La_Vologne_%C3%A0_L%C3%A9panges-sur-Vologne_en_mai_2014_-_1.jpg
 verifie: 13 octobre 2026
-corrections: Les mises en examen de 2017 visaient trois personnes et non trois membres de la famille ; le récit de l'autopsie, des expertises vocales et de l'attribution des lettres a été réattribué à ses sources réelles ; la portée de la décision du Conseil constitutionnel de 2018 (annulation de la garde à vue de 1984 en 2020, déclarations antérieures et ultérieures maintenues) a été établie ; la mention d'un délai de pourvoi de dix jours, non vérifiée, a été retirée ; deux sources inaccessibles ont été remplacées par des articles de franceinfo.
+corrections: Les mises en examen de 2017 visaient trois personnes et non trois membres de la famille ; le récit de l'autopsie, des expertises vocales et de l'attribution des lettres a été réattribué à ses sources réelles ; la portée de la décision du Conseil constitutionnel de 2018 (annulation de la garde à vue de 1984 en 2020, déclarations antérieures et ultérieures maintenues) a été établie ; la mention d'un délai de pourvoi de dix jours, non vérifiée, a été retirée ; deux sources inaccessibles ont été remplacées par des articles de franceinfo. Le 16 octobre 2026, le dossier a été approfondi : procédure expliquée (Épinal, dépaysement à Dijon, rôle de la chambre de l'instruction, prescription et connexité), chronologie enrichie, renonciation des parents au pourvoi et section sur ce que l'affaire a changé (police scientifique, outils d'analyse, responsabilité de l'État), avec cinq nouvelles sources.
 ---
 ## Essentiel
 - Personne n'a été jugé pour la mort de Grégory Villemin ; l'enquête reste ouverte sous le contrôle de la chambre de l'instruction de la cour d'appel de Dijon, qui supervise le dossier depuis sa réouverture en 2008 [2][4].
@@ -19,10 +19,27 @@ corrections: Les mises en examen de 2017 visaient trois personnes et non trois m
 - Les mises en examen prononcées en 2017 contre trois personnes, dont le grand-oncle et la grand-tante de l'enfant, ont été annulées le 16 mai 2018 pour un vice de procédure [3].
 - Les erreurs des premiers mois de l'enquête sont largement reconnues, à commencer par une autopsie que le premier juge d'instruction a lui-même qualifiée de « complètement ratée » [6].
 - Le 15 juillet 2026, la chambre de l'instruction a déclaré prescrits les faits d'association de malfaiteurs reprochés à une grand-tante de l'enfant, mise en examen le 24 octobre 2025 [2][12].
+- Les parents ne se sont pas pourvus en cassation ; selon leur avocat, les crimes d'enlèvement et d'assassinat ne sont pas couverts par cette prescription [15].
 
 ## État de la procédure
 
 [État de la procédure] L'information judiciaire est toujours ouverte. Aucune personne n'est aujourd'hui renvoyée devant une juridiction pour la mort de l'enfant. Toutes les personnes mises en cause au fil de l'enquête et qui n'ont pas été condamnées pour ces faits sont présumées innocentes [2].
+
+## La procédure expliquée
+
+[À noter] L'inculpation est l'ancien nom de la mise en examen : elle signifie qu'il existe des indices contre une personne, pas qu'elle est coupable. La chambre d'accusation, aujourd'hui chambre de l'instruction, est la formation de la cour d'appel qui contrôle les juges d'instruction et peut elle-même conduire une enquête. Le dépaysement consiste à confier un dossier à une autre juridiction que celle normalement compétente. Un non-lieu met fin aux poursuites contre une personne ; il peut être remis en cause si des charges nouvelles apparaissent. La prescription est le délai au-delà duquel des faits ne peuvent plus être poursuivis ; certains actes d'enquête l'interrompent et font repartir le délai. Deux infractions sont dites connexes lorsqu'elles sont liées, par exemple commises par des personnes ayant agi selon un « concert formé à l'avance » (article 203 du code de procédure pénale) [16].
+
+[Fait établi] De 1984 à 1986, l'instruction est conduite à Épinal par un juge d'instruction, sous le contrôle de la chambre d'accusation de la cour d'appel de Nancy [1][18]. Le 5 juillet 1985, ce juge inculpe la mère de l'enfant d'assassinat et elle est placée en détention ; la chambre d'accusation de Nancy la remet en liberté le 16 juillet 1985 [17][18]. Le juge est dessaisi du dossier en septembre 1986 [17].
+
+[Fait établi] En mars 1987, la Cour de cassation annule le renvoi de la mère devant la cour d'assises et l'affaire est dépaysée à Dijon [17][18]. L'instruction est alors confiée à un magistrat de Dijon qui choisit de ne pas communiquer avec la presse ; il est remplacé après un accident vasculaire cérébral en 1990 [17]. Le 3 février 1993, la mère bénéficie d'un non-lieu pour « absence totale de charges », une formule présentée par la presse comme une première [17][18].
+
+[Fait établi] Depuis, le dossier relève de la chambre de l'instruction de Dijon. Elle l'a rouvert à plusieurs reprises à la demande des parents ou du parquet général : en 2000 pour des analyses ADN sur le timbre d'une lettre, sans résultat, puis le 3 décembre 2008 [1][17][18]. En 2025, c'est le président de la chambre de l'instruction qui dirige l'enquête et qui a prononcé la mise en examen d'octobre 2025 [16]. En 2018, l'annulation des mises en examen de 2017 tenait précisément à cette organisation particulière : elles avaient été décidées par la seule présidente, alors que le code exigeait une décision collégiale [3].
+
+[Fait établi] La prescription explique la décision du 15 juillet 2026. Selon le parquet général, cité par l'AFP, la qualification d'association de malfaiteurs retenue en 2025 était « de nature délictuelle » et le délai de prescription de ce délit était de trois ans au moment des faits [15]. Le procureur général avait expliqué dès novembre 2025 qu'il existait dans la procédure « un trou » sans acte interruptif entre 1993 et 2000, et qu'une prescription criminelle ne pourrait s'appliquer que si l'association de malfaiteurs était jugée connexe aux crimes [16].
+
+[Débat] Sur cette connexité, des universitaires cités par Le Club des juristes rappelaient une jurisprudence ancienne de la Cour de cassation admettant un lien entre une association de malfaiteurs et les crimes commis en exécution de l'entente ; la défense soutenait au contraire que les faits étaient prescrits [16]. La chambre de l'instruction a donné raison à la défense, avec l'accord du parquet général [15]. Selon l'avocat des parents, les crimes d'enlèvement et d'assassinat ne sont pas couverts par cette décision de prescription [15].
+
+[État de la procédure] Les parents ont décidé de ne pas se pourvoir en cassation contre la décision du 15 juillet 2026, afin de ne pas « rallonger la procédure », selon leur avocat [15]. Ils attendent les résultats d'expertises génétiques et stylométriques en cours [12][15].
 
 ## Les décisions de justice
 
@@ -33,8 +50,11 @@ donnees:
 - 17 octobre 1984 | L'instruction est confiée à un juge d'Épinal [1]. | Fait établi
 - Février 1985 | Les gendarmes sont dessaisis de l'enquête au profit de la police judiciaire de Nancy [5]. | Fait établi
 - 29 mars 1985 | Un cousin du père, visé par l'enquête, est tué par le père de l'enfant [1]. | Fait établi
+- 5 juillet 1985 | La mère de l'enfant est inculpée et détenue ; elle est libérée le 16 juillet [17][18]. | Procédure
+- Mars 1987 | La Cour de cassation annule le renvoi de la mère devant les assises ; dossier dépaysé à Dijon [17][18]. | Décision de justice
 - 3 février 1993 | Non-lieu en faveur de la mère de l'enfant [1]. | Décision de justice
 - 16 décembre 1993 | Le père est condamné à cinq ans d'emprisonnement, dont un avec sursis, pour ce meurtre [1]. | Décision de justice
+- Avril 2000 | Réouverture pour des analyses ADN sur un timbre, sans résultat [17][18]. | Procédure
 - 3 décembre 2008 | Réouverture du dossier par la cour d'appel de Dijon [1]. | Procédure
 - Juin 2017 | Trois mises en examen, annulées le 16 mai 2018 pour vice de procédure [3]. | Procédure
 - 16 janvier 2020 | Annulation de la garde à vue de 1984, après une décision du Conseil constitutionnel de 2018 [7][13]. | Décision de justice
@@ -50,7 +70,7 @@ source: Décisions et communiqués judiciaires rapportés par la presse ; voir l
 
 [Fait établi] Le dossier est rouvert le 3 décembre 2008 par la cour d'appel de Dijon, à la demande des parents, pour permettre de nouvelles analyses [1]. En juin 2017, trois personnes sont mises en examen, dont le grand-oncle et la grand-tante de l'enfant. Le 16 mai 2018, la chambre de l'instruction de Dijon annule ces mises en examen pour un vice de procédure : elles avaient été prononcées par la seule présidente de la chambre de l'instruction alors que le code de procédure pénale prévoyait une décision collégiale. Le parquet général a souligné que l'annulation portait sur des points de procédure et non sur le fond [3].
 
-[Fait établi] Le 24 octobre 2025, la grand-tante de l'enfant est de nouveau mise en examen, pour association de malfaiteurs criminelle : selon le procureur général de Dijon, il lui est reproché d'avoir participé entre 1982 et 1984 à une entente en vue de la préparation de crimes ou délits ayant débouché sur l'enlèvement de l'enfant [8]. Elle conteste toute responsabilité [8]. Le 15 juillet 2026, la chambre de l'instruction déclare les faits prescrits ; selon son avocat, la chambre a retenu qu'il s'agissait de délits, et le procureur général avait lui-même estimé à l'audience que le délai de prescription était dépassé [2][12]. Toujours selon son avocat, cette décision n'est pas juridiquement une annulation de la mise en examen, mais la rend sans objet [12]. Nous n'avons trouvé, au 13 octobre 2026, aucune information publiée sur un pourvoi en cassation contre cette décision.
+[Fait établi] Le 24 octobre 2025, la grand-tante de l'enfant est de nouveau mise en examen, pour association de malfaiteurs criminelle : selon le procureur général de Dijon, il lui est reproché d'avoir participé entre 1982 et 1984 à une entente en vue de la préparation de crimes ou délits ayant débouché sur l'enlèvement de l'enfant [8]. Elle conteste toute responsabilité [8]. Le 15 juillet 2026, la chambre de l'instruction déclare les faits prescrits ; selon son avocat, la chambre a retenu qu'il s'agissait de délits, et le procureur général avait lui-même estimé à l'audience que le délai de prescription était dépassé [2][12]. Toujours selon son avocat, cette décision n'est pas juridiquement une annulation de la mise en examen, mais la rend sans objet [12]. Selon leur avocat, les parents ont décidé de ne pas former de pourvoi en cassation ; le parquet général avait rejoint la défense sur la prescription [15].
 
 ## Les premières erreurs de l'enquête
 
@@ -88,6 +108,20 @@ Les défaillances des premiers mois de l'enquête sont reconnues par de nombreux
 
 [État de la procédure] Le 15 juillet 2026, les faits d'association de malfaiteurs reprochés à la grand-tante ont été déclarés prescrits [2][12]. Sauf décision contraire d'une juridiction supérieure, aucune juridiction ne jugera donc ces faits la concernant. Elle n'a jamais été jugée ni condamnée et reste présumée innocente.
 
+## Ce que l'affaire a changé
+
+[Fait établi] La gendarmerie présente elle-même l'affaire comme « un tournant majeur pour les sciences forensiques ». Selon le directeur de l'IRCGN cité en 2011, la scène de crime avait été piétinée par les intervenants, des badauds et des journalistes, et « la notion de gel des lieux n'existait pas » [19].
+
+[Fait établi] Selon la gendarmerie, la réforme de la police scientifique devient alors une priorité du ministre de l'Intérieur : budgets accrus et création en 1987 d'un laboratoire de la gendarmerie, devenu l'Institut de recherche criminelle de la gendarmerie nationale. Les équipes sont dotées de combinaisons stériles et de mallettes de prélèvement, et le gel des lieux devient une étape essentielle de toute scène de crime [19]. Le lien de cause à effet est celui que fait l'institution ; d'autres facteurs ont pu jouer.
+
+[Fait établi] L'affaire a aussi servi de terrain à de nouveaux outils. En 2017, selon le procureur général de Dijon, les mises en examen se sont appuyées sur des analyses en écriture et sur le logiciel d'analyse criminelle Anacrim, dans lequel ont été saisies les 20 000 pages du dossier [17]. En janvier 2021, la chambre de l'instruction a autorisé des recherches d'ADN « de parentèle » dans le fichier national des empreintes génétiques, sur neuf traces inconnues, et des prélèvements sur 37 personnes [17].
+
+[Fait établi] La responsabilité de l'État a été engagée. Selon ICI, l'État a été condamné en 2002 à indemniser la veuve du cousin tué en 1985, qui n'avait pas obtenu la protection qu'il réclamait [17]. Selon Lyon Capitale, l'État a été condamné le 30 juin 2004 à verser 35 000 euros à chacun des parents pour dysfonctionnement de la justice [18]. Nous n'avons pas consulté ces décisions.
+
+[Interprétation] La décision du Conseil constitutionnel de 2018 sur la garde à vue des mineurs, rendue à l'occasion de ce dossier, a montré qu'une procédure ancienne peut être remise en cause au regard de garanties reconnues plus tard [7][13].
+
+[Interprétation] L'affaire est enfin citée comme un cas d'école sur les rapports entre justice et médias : selon ICI, le premier juge d'instruction répondait aux interviews pendant l'enquête, quand son successeur à Dijon a choisi le silence [17]. L'effet de cette médiatisation sur l'enquête n'a pas été mesuré.
+
 ## Pour aller plus loin
 
 [Livre] « Grégory : pourquoi l'affaire n'a jamais été résolue » revient sur les premières 48 heures de l'enquête. Volume 4 de la collection « Affaires qui ont choqué la France ». <a href="https://www.amazon.fr/dp/B0GYQ8HRHG" target="_blank" rel="noopener">Voir le livre sur Amazon</a> · <a href="livres.html">Toutes les monographies</a>
@@ -96,6 +130,7 @@ Les défaillances des premiers mois de l'enquête sont reconnues par de nombreux
 - **Qui a tué Grégory Villemin.** Aucune décision de justice ne l'a établi.
 - **Qui était le corbeau.** Aucune décision de justice ne l'a établi, et les expertises vocales n'ont pas identifié son auteur.
 - **Les résultats des expertises en cours** : contre-expertise stylométrique, comparaisons génétiques et éventuelle expertise vocale.
+- **Si des actes postérieurs à 2026 pourraient viser d'autres qualifications**, criminelles cette fois, comme l'envisage l'avocat des parents [15].
 - **L'issue de l'information judiciaire**, qui peut se conclure par un renvoi devant une juridiction ou par un non-lieu.
 
 ## Sources
@@ -113,3 +148,8 @@ Les défaillances des premiers mois de l'enquête sont reconnues par de nombreux
 - ICI Bourgogne, Blandine Costentin et Clément Lhuillier, « Affaire Grégory : les faits reprochés à […], la grand-tante du petit garçon, sont prescrits », 15 juillet 2026. | https://www.ici.fr/bourgogne-franche-comte/cote-d-or-21/dijon/affaire-gregory-les-faits-reproches-a-jacqueline-jacob-la-grand-tante-du-petit-garcon-sont-prescrits-2888924
 - Tendance Ouest, avec AFP, « Affaire Grégory : la garde à vue de […] en 1984 annulée, mais pas ses accusations de l'époque », 16 janvier 2020. | https://www.tendanceouest.com/actualite-348267-affaire-gregory-la-garde-a-vue-de-murielle-bolle-en-1984-annulee-mais-pas-ses-accusations-de-l-epoque
 - La Libre Belgique, avec AFP, « Affaire Grégory : une nouvelle analyse aurait identifié […] comme le corbeau principal », 23 avril 2021. | https://www.lalibre.be/international/europe/affaire-gregory-une-nouvelle-analyse-aurait-identifie-jacqueline-jacob-comme-le-corbeau-principal-6082b1549978e21698e57948
+- Source secondaire : Le Temps avec l'AFP, « Affaire Grégory : la grand-tante bénéficie de la prescription, les parents restent "sereins" », 15 juillet 2026. | https://www.letemps.ch/articles/affaire-gregory-la-grand-tante-beneficie-de-la-prescription-les-parents-restent-sereins
+- Source secondaire : Le Club des juristes (la rédaction), « Affaire Grégory : la grand-tante de l'enfant de nouveau mise en examen », 4 novembre 2025. | https://www.leclubdesjuristes.com/justice/affaire-gregory-la-grand-tante-de-lenfant-de-nouveau-mise-en-examen-12790/
+- Source secondaire : Rachel Noël et Blandine Costentin, ICI, « Affaire Grégory : les dates clés du plus emblématique des dossiers judiciaires français », 26 janvier 2021, mis à jour le 15 juillet 2026. | https://www.ici.fr/infos/faits-divers-justice/affaire-gregory-les-dates-cles-du-plus-emblematique-des-dossiers-judiciaires-francais-1608893973
+- Source secondaire : Lyon Capitale, « L'affaire du petit Grégory en 18 dates clefs », 24 avril 2013. | https://www.lyoncapitale.fr/?p=77644
+- Gendarmerie nationale, Institut de recherche criminelle de la gendarmerie nationale, « 1984 : l'affaire Grégory, un tournant majeur pour les sciences forensiques », 21 août 2017. | https://www.gendarmerie.interieur.gouv.fr/unpj/l-unpj/institut-de-recherche-criminelle-de-la-gendarmerie-nationale/evenements-cles/1984-l-affaire-gregory-un-tournant-majeur-pour-les-sciences-forensiques

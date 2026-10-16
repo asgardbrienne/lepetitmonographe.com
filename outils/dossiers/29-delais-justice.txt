@@ -3,7 +3,7 @@ rubrique: affaires
 titre: Combien de temps faut-il pour être jugé en France ?
 titre_court: Les délais de la justice pénale
 chapeau: Un peu plus de neuf mois en moyenne pour une affaire correctionnelle, plus de quatre ans quand elle passe par un juge d'instruction. Les délais de la justice pénale varient fortement selon la procédure.
-resume: Délais moyens par type de procédure, durée de l'instruction et engorgement des juridictions criminelles. Données arrêtées au 8 octobre 2026.
+resume: Délais moyens par type de procédure, durée de l'instruction, engorgement des juridictions criminelles, réformes successives des cours criminelles jusqu'à la loi du 23 juillet 2026, effectifs comparés à l'Europe et pistes débattues. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
 image: assets/images/delais-justice.jpg
@@ -11,13 +11,24 @@ image_alt: Salle d'audience de la chambre criminelle de la Cour de cassation
 image_credit: Tiraden, CC BY-SA 4.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Palais_de_justice_de_Paris_-_salle_d%27audience_de_la_chambre_criminelle_de_la_Cour_de_cassation.jpg
 verifie: 13 octobre 2026
-corrections: Les durées d'instruction sont désormais rattachées à leur source primaire (Références statistiques Justice, données 2023 et 2024), le chiffre non retrouvé sur les affaires criminelles instruites (plus de quatre ans) est retiré, le stock d'affaires criminelles en attente est sourcé par le rapport de l'Assemblée nationale du 10 juin 2026, et la loi du 23 juillet 2026 sur la justice criminelle est mentionnée.
+corrections: Les durées d'instruction sont désormais rattachées à leur source primaire (Références statistiques Justice, données 2023 et 2024), le chiffre non retrouvé sur les affaires criminelles instruites (plus de quatre ans) est retiré, le stock d'affaires criminelles en attente est sourcé par le rapport de l'Assemblée nationale du 10 juin 2026, et la loi du 23 juillet 2026 sur la justice criminelle est mentionnée. Le 16 octobre 2026, le dossier a été approfondi : cadre juridique du délai raisonnable, chronologie des réformes des cours criminelles, contenu détaillé de la loi du 23 juillet 2026, comparaison européenne des effectifs, recrutements prévus, arguments en présence et pistes discutées, avec trois graphiques et neuf sources nouvelles.
 ---
 ## Essentiel
 - En 2024, le délai moyen entre l'arrivée d'une affaire au parquet et la première décision au fond est de 9,1 mois devant le tribunal correctionnel ou une juridiction pour mineurs, hors assises et cours criminelles départementales [1].
 - Quand l'affaire est renvoyée devant le tribunal correctionnel par un juge d'instruction, ce délai moyen atteint 53,5 mois en 2024, soit près de quatre ans et demi [1].
-- Près de 6 000 dossiers criminels étaient en attente de jugement en 2025, contre 2 200 en 2019, selon le rapport de la commission des lois de l'Assemblée nationale du 10 juin 2026 [3].
-- Une moyenne cache de fortes différences entre juridictions et entre types d'affaires : en 2024, le délai médian est de 4,9 mois, contre 9,1 mois en moyenne [1].
+- Près de 6 000 dossiers criminels étaient en attente de jugement en 2025, contre 2 200 en 2019, selon le rapport de la commission des lois de l'Assemblée nationale du 10 juin 2026 [3] ; les chiffres publiés pour 2019 diffèrent légèrement selon les sources [7].
+- La France compte 11,3 juges professionnels et 3,2 procureurs pour 100 000 habitants en 2022, contre des médianes européennes de 17,6 et 11,2, selon le Conseil de l'Europe [5][6].
+- La loi du 23 juillet 2026 étend la compétence des cours criminelles départementales et modifie les délais d'audiencement ; le « plaider-coupable » criminel envisagé par le gouvernement a été retiré avant l'adoption [9][10].
+
+## Ce que dit le droit : le « délai raisonnable »
+
+[Fait établi] L'article 6 § 1 de la Convention européenne des droits de l'homme prévoit que toute personne a droit à ce que sa cause soit entendue « dans un délai raisonnable ». En droit interne, l'article préliminaire du code de procédure pénale, introduit par la loi du 15 juin 2000, dispose qu'il « doit être définitivement statué sur l'accusation dont [la] personne fait l'objet dans un délai raisonnable » [11].
+
+[Fait établi] Aucun texte ne fixe en mois ce qu'est un délai raisonnable. Dans un arrêt du 24 avril 2013 (n° 12-82.863), la chambre criminelle de la Cour de cassation a jugé que « si la méconnaissance du délai raisonnable peut ouvrir droit à réparation, elle est sans incidence sur la validité des procédures » : une procédure trop longue n'est pas annulée pour cette raison, mais peut ouvrir droit à une indemnisation [11].
+
+[Fait établi] Le droit fixe en revanche des délais précis pour les personnes en détention provisoire. Avant la loi du 23 juillet 2026, un accusé détenu renvoyé devant une cour criminelle départementale devait être jugé dans un délai de six mois, prolongeable une fois de six mois ; la loi revient au délai initial d'un an prévu par le droit commun de l'article 181 du code de procédure pénale, en maintenant une seule prolongation exceptionnelle de six mois [9]. Faute de jugement dans ces délais, la personne doit en principe être remise en liberté.
+
+[À noter] Le juge d'instruction mène une information judiciaire avant un éventuel renvoi de l'affaire devant une juridiction de jugement [1]. La comparution sur reconnaissance préalable de culpabilité (CRPC), qui existe en matière correctionnelle, suppose un accord sur la peine et l'assistance obligatoire d'un avocat [3]. La cour d'assises juge les crimes avec un jury populaire ; la cour criminelle départementale juge sans jury, avec cinq magistrats professionnels, les majeurs accusés de crimes punis de quinze ou vingt ans de réclusion [4][8]. L'audiencement est la fixation de la date du procès. La durée d'écoulement du stock, indicateur du Conseil de l'Europe, est le nombre d'affaires pendantes en fin d'année divisé par le nombre d'affaires résolues dans l'année, multiplié par 365 [13].
 
 ## Les délais par procédure
 
@@ -38,9 +49,11 @@ source: Ministère de la Justice, Références statistiques Justice, édition 20
 
 [Fait établi] Toujours en 2024, les affaires renvoyées devant le tribunal correctionnel par un juge d'instruction ou par la chambre de l'instruction sont jugées en moyenne 53,5 mois après leur arrivée au parquet : 7,4 mois pour l'orientation, puis 46,1 mois jusqu'au jugement, « essentiellement pour mener à bien l'instruction », selon le ministère [1].
 
-[Fait établi] Selon l'édition précédente des Références statistiques Justice (données 2023), la durée de l'instruction pour les personnes dont l'information judiciaire s'est terminée en 2023 a été de 37,9 mois en moyenne, de 34,2 mois pour les mineurs et de 44,5 mois pour les personnes ayant bénéficié d'un non-lieu [2].
+[Fait établi] Selon l'édition précédente des Références statistiques Justice (données 2023), la durée de l'instruction pour les personnes dont l'information judiciaire s'est terminée en 2023 a été de 37,9 mois en moyenne, de 34,2 mois pour les mineurs et de 44,5 mois pour les personnes ayant bénéficié d'un non-lieu [2]. Devant la commission des lois de l'Assemblée nationale, en juin 2026, le garde des Sceaux a évoqué une durée moyenne d'instruction de 2,9 années, sans en préciser la source ni le périmètre [3] ; ce chiffre est inférieur à celui des statistiques ministérielles de 2023, et nous n'avons pas pu établir à quoi tient l'écart.
 
 [À noter] Ces délais sont calculés par le ministère en jours calendaires convertis en mois de 30 jours. Ils ne couvrent pas les cours d'assises ni les cours criminelles départementales [1].
+
+[Interprétation] Les écarts entre procédures tiennent probablement en partie à la nature des affaires orientées vers chacune : les dossiers confiés à un juge d'instruction sont, par construction, ceux qui demandent des investigations. Une moyenne d'ensemble mêle donc des dossiers très différents, ce que montre l'écart entre le délai moyen (9,1 mois) et le délai médian (4,9 mois) en 2024 [1].
 
 ## L'engorgement criminel
 
@@ -57,21 +70,116 @@ lecture: Les juridictions criminelles ont rendu plus de décisions en 2025 qu'en
 note: Le chiffre de 2025 pour les dossiers en attente est donné comme « près de 6 000 » : il s'agit d'un ordre de grandeur.
 source: Assemblée nationale, rapport de la commission des lois du 10 juin 2026, d'après les réponses du ministère de la Justice [3]
 
-[Estimation] Le même rapport indique qu'il faut « désormais six ans en moyenne pour juger un viol et huit ans pour un homicide ». Le rapport ne précise pas le mode de calcul de ces durées, et nous n'avons pas trouvé de série statistique publiée par le ministère qui les détaille [3].
+[Fait établi] D'autres chiffres publics vont dans le même sens, avec des écarts. Lors de l'examen du budget 2026 en commission des lois du Sénat, en novembre 2025, une sénatrice a indiqué que 4 593 dossiers criminels étaient en attente de jugement en 2024, contre 2 368 en 2019, et que le délai d'écoulement du stock était passé de 12 à 17 mois [7]. Un article universitaire citant un rapport de l'Inspection générale de la justice de mars 2024 fait état d'un passage de 2 200 à 4 400 dossiers entre 2019 et 2023 [12]. Le point de départ de 2019 diffère donc selon les sources (2 200 ou 2 368), sans que les documents consultés expliquent cet écart.
 
-[Interprétation] Selon les rapporteures, l'engorgement ne vient pas d'une baisse de la capacité de jugement mais d'un afflux de dossiers criminels : le garde des Sceaux a indiqué au Sénat, le 7 avril 2026, que le nombre de personnes mises en cause dans une procédure criminelle était passé de 10 000 à 30 000 depuis 2016, une hausse que le rapport relie principalement à l'augmentation des plaintes pour viol [3]. D'autres facteurs, comme les effectifs de magistrats et de greffiers, sont régulièrement avancés dans le débat public ; leur poids respectif n'est pas établi.
+[Estimation] Le même rapport de l'Assemblée nationale indique qu'il faut « désormais six ans en moyenne pour juger un viol et huit ans pour un homicide ». Le rapport ne précise pas le mode de calcul de ces durées, et nous n'avons pas trouvé de série statistique publiée par le ministère qui les détaille [3].
 
-[Débat] La création des cours criminelles départementales, qui jugent sans jury populaire certains crimes punis de quinze ou vingt ans de réclusion, visait notamment à réduire les délais de jugement ; leur effet sur les délais reste discuté [3].
+[Fait établi] Lors de l'examen du texte en commission, la rapporteure Laure Miller a indiqué qu'en 2026, dix-neuf personnes accusées de crimes graves devraient être remises en liberté faute d'avoir été jugées dans les délais légaux [3]. Le compte rendu ne précise pas la source de ce chiffre. Le garde des Sceaux a indiqué, à la même occasion, que 23 000 personnes étaient en détention provisoire en France, et que la Cour européenne des droits de l'homme avait jugé à deux reprises en 2025 que des délais d'audiencement criminels étaient déraisonnables [3] ; nous n'avons pas retrouvé ces deux arrêts.
+
+[Interprétation] Selon les rapporteures, l'engorgement ne vient pas d'une baisse de la capacité de jugement mais d'un afflux de dossiers criminels : le garde des Sceaux a indiqué au Sénat, le 7 avril 2026, que le nombre de personnes mises en cause dans une procédure criminelle était passé de 10 000 à 30 000 depuis 2016, une hausse que le rapport relie principalement à l'augmentation des plaintes pour viol [3]. Devant les députés, le ministre a aussi cité l'ouverture d'informations judiciaires pour viol, passée selon lui de 10 000 en 2017 à 32 000, et la hausse des affaires de criminalité organisée [3]. D'autres facteurs, comme les effectifs de magistrats et de greffiers, sont régulièrement avancés dans le débat public ; leur poids respectif n'est pas établi.
+
+## Des cours criminelles à la loi de 2026
+
+[Fait établi] La loi de programmation pour la justice du 23 mars 2019 a créé à titre expérimental la cour criminelle départementale, à compter du 5 septembre 2019 dans quinze départements pilotes, avec un double objectif selon le ministère de la Justice : juger plus vite et limiter la « correctionnalisation », c'est-à-dire le renvoi de faits criminels, notamment des viols, devant le tribunal correctionnel sous une qualification de délit. L'article 9 de la loi du 22 décembre 2021 pour la confiance dans l'institution judiciaire l'a généralisée à tout le territoire, sauf Mayotte, à compter du 1er janvier 2023 [8].
+
+[Fait établi] Selon le comité d'évaluation et de suivi cité par le ministère, 387 affaires concernant 455 accusés ont été jugées par ces cours entre le 5 septembre 2019 et le 14 juin 2022 ; 81 % des accusés l'étaient pour viol. Dans les huit premiers départements expérimentateurs, 269 décisions criminelles ont été rendues en 2022 (118 de cours d'assises et 151 de cours criminelles), contre 182 arrêts de cours d'assises en 2019 [8]. En novembre 2025, le garde des Sceaux a indiqué devant le Sénat que 85 % des affaires traitées par les cours criminelles étaient des viols [7].
+
+[Fait établi] Le projet de loi sur la justice criminelle et le respect des victimes a été déposé au Sénat le 18 mars 2026 [4]. Il comprenait une « procédure de jugement des crimes reconnus », présentée comme un plaider-coupable en matière criminelle [4]. L'Assemblée nationale a adopté le texte le 7 juillet 2026 par 357 voix contre 177, sans cette procédure, à laquelle le garde des Sceaux avait renoncé, selon LCP [10]. La loi n° 2026-651 a été promulguée le 23 juillet 2026, après la décision du Conseil constitutionnel du même jour [4][9].
+
+[Figure] frise
+titre: Les étapes des réformes de la justice criminelle
+donnees:
+- 15 juin 2000 | Le principe du délai raisonnable entre dans l'article préliminaire du code de procédure pénale [11]. | Fait établi
+- 23 mars 2019 | La loi de programmation pour la justice crée la cour criminelle départementale à titre expérimental [8]. | Fait établi
+- 5 septembre 2019 | Premier arrêt d'une cour criminelle départementale [8]. | Fait établi
+- 22 décembre 2021 | La loi pour la confiance dans l'institution judiciaire généralise ces cours [8]. | Fait établi
+- 1er janvier 2023 | Les cours criminelles fonctionnent dans tous les départements, sauf Mayotte [8]. | Fait établi
+- 18 mars 2026 | Dépôt au Sénat du projet de loi sur la justice criminelle et le respect des victimes [4]. | Fait établi
+- 7 juillet 2026 | Adoption par l'Assemblée nationale, sans le plaider-coupable criminel [10]. | Fait établi
+- 23 juillet 2026 | Décision du Conseil constitutionnel et promulgation de la loi n° 2026-651 [4][9]. | Fait établi
+source: Assemblée nationale, Conseil constitutionnel, Conseil national des barreaux, LCP ; voir les sources du dossier
+
+[Fait établi] Selon la présentation qu'en fait le Conseil national des barreaux, la loi du 23 juillet 2026 rend la cour criminelle départementale compétente pour les crimes commis en état de récidive légale qui entrent dans son champ, ouvre l'assessorat aux avocats honoraires à compter du 1er janvier 2027, permet au premier président de la cour d'appel de renvoyer une affaire à une autre cour d'assises du ressort lorsqu'elle ne peut être audiencée dans un délai raisonnable, rend contraignant l'accord trouvé en réunion préparatoire sur la liste des témoins et la durée de l'audience, et crée un appel limité aux peines complémentaires [9]. Elle réduit aussi de six à quatre mois le délai pour déposer des requêtes en nullité pendant l'instruction, à compter du 23 octobre 2026 [9].
+
+[Fait établi] La loi prévoit enfin, lorsque la chambre de l'instruction n'a pas statué à temps sur une demande de mise en liberté, un débat contradictoire de rattrapage puis, à titre exceptionnel, un maintien en détention de cinq jours ouvrables au plus décidé par le premier président de la cour d'appel, avant toute remise en liberté d'office [9]. Le Conseil constitutionnel a jugé ce mécanisme conforme à la Constitution (décision n° 2026-909 DC) [4].
 
 [Fait établi] La loi n° 2026-651 du 23 juillet 2026 sur la justice criminelle et le respect des victimes modifie notamment la compétence et la composition des cours criminelles départementales. Saisi par des députés, le Conseil constitutionnel a jugé conformes à la Constitution les dispositions contestées sur la cour criminelle départementale et a censuré d'autres dispositions, relatives notamment aux analyses génétiques et au statut de psychologue de police judiciaire (décision n° 2026-909 DC du 23 juillet 2026) [4]. Ses effets sur les délais ne peuvent pas encore être mesurés.
 
+## Les moyens en perspective
+
+[Fait établi] Selon le rapport d'évaluation de la Commission européenne pour l'efficacité de la justice (CEPEJ) du Conseil de l'Europe, publié le 16 octobre 2024 sur des données de 2022, la France compte 11,3 juges professionnels pour 100 000 habitants, contre une médiane de 17,6 dans les États étudiés [5]. Elle compte 3,2 procureurs pour 100 000 habitants, contre une médiane de 11,2, soit le niveau le plus bas avec l'Irlande ; chaque procureur français reçoit en moyenne 2 027 affaires, contre une médiane européenne de 204, d'après la synthèse qu'en fait l'Union syndicale des magistrats [5][6].
+
+[Figure] groupes
+titre: Juges et procureurs pour 100 000 habitants : la France et la médiane européenne
+unite: Nombre pour 100 000 habitants, données 2022
+series: France | Médiane des États étudiés
+donnees:
+- Juges professionnels | 11,3 | 17,6
+- Procureurs | 3,2 | 11,2
+lecture: En 2022, la France compte 3,2 procureurs pour 100 000 habitants, contre une médiane de 11,2 dans les États étudiés par le Conseil de l'Europe.
+note: 44 États membres du Conseil de l'Europe et deux observateurs. Les attributions des juges et des procureurs varient selon les pays ; la CEPEJ invite à tenir compte de ces différences et des effets de la pandémie dans les comparaisons.
+source: CEPEJ, rapport d'évaluation 2024 (données 2022), repris par le Club des juristes et l'Union syndicale des magistrats (sources secondaires) [5][6]
+
+[Fait établi] Toujours selon ce rapport, une affaire pénale en deuxième instance demande en France 366 jours pour être résolue, contre une médiane de 110 jours dans les autres États ; il s'agit de la « durée d'écoulement », un indicateur théorique calculé à partir du stock d'affaires pendantes et du nombre d'affaires résolues dans l'année [5][13].
+
+[À noter] Les comparaisons européennes ont des limites : les fonctions confiées aux procureurs français (alternatives aux poursuites, orientation de toutes les procédures) sont plus larges que dans beaucoup d'États, et la France reçoit beaucoup d'affaires pénales de première instance par habitant (6,4 pour 100 habitants contre une médiane de 2,3 selon la synthèse syndicale) [6]. Un faible nombre de magistrats par habitant ne suffit donc pas à expliquer à lui seul les délais.
+
+[Fait établi] La loi d'orientation et de programmation du ministère de la Justice pour 2023-2027 prévoit 1 500 recrutements de magistrats et 1 800 de greffiers sur la période. Selon les données transmises par la direction des services judiciaires au Sénat en novembre 2025, 199 magistrats ont été recrutés en 2023 et 391 en 2024 ; 348 étaient prévus en 2025, 286 en 2026 et 276 en 2027 [7]. Les rapporteures relèvent que l'objectif pour les greffiers repose en partie sur la requalification d'adjoints administratifs déjà en poste [7].
+
+[Figure] barres
+titre: Recrutements de magistrats prévus par la programmation 2023-2027
+unite: Nombre de magistrats recrutés par an (2025 à 2027 : prévisions)
+donnees:
+- 2023 | 199
+- 2024 | 391
+- 2025 | 348*
+- 2026 | 286*
+- 2027 | 276*
+lecture: Sur les 1 500 recrutements de magistrats prévus entre 2023 et 2027, 590 avaient été effectués en 2023 et 2024.
+note: Données de la direction des services judiciaires transmises en novembre 2025 ; les années 2025 à 2027 sont des prévisions (hachurées). Il s'agit de recrutements, pas de créations nettes de postes.
+source: Sénat, avis n° 145 de la commission des lois sur le projet de loi de finances pour 2026, 24 novembre 2025 [7]
+
+[Fait établi] Le garde des Sceaux a indiqué devant les députés en juin 2026 que 441 nouveaux magistrats devaient arriver en juridiction en septembre 2026, et que la cour criminelle départementale mobilise cinq magistrats professionnels là où la cour d'assises en mobilisait trois aux côtés des jurés, ce qui absorbe selon lui une partie des renforts [3].
+
+## Ce qui fait débat
+
+[Débat] Sur les cours criminelles départementales, le ministère de la Justice soutient qu'elles ont permis de rendre davantage de décisions criminelles sans prononcer de peines plus clémentes que les cours d'assises : en matière de viol, une peine ferme a été prononcée dans 99,2 % des condamnations, pour une durée moyenne de 9,6 ans, « très proche » de celle des assises sur le même champ [8]. Leurs critiques, dont l'Union syndicale des magistrats citée dans une question parlementaire, estiment que les délais n'ont pas été significativement réduits et que la suppression du jury éloigne les citoyens du jugement des crimes, en particulier des viols [8][12]. Le ministère jugeait en 2023 prématurée toute comparaison des taux d'appel avec les cours d'assises [8]. Les données publiques ne permettent pas de mesurer l'effet propre de ces cours sur les délais.
+
+[Débat] La création de la cour criminelle départementale visait notamment à réduire les délais de jugement ; leur effet sur les délais reste discuté [3]. Selon un article universitaire citant l'Inspection générale de la justice, le délai maximal pour juger un accusé détenu était d'un an devant ces cours, contre deux ans devant la cour d'assises [12]. La loi de 2026 a depuis aligné le délai initial d'audiencement des cours criminelles sur celui des assises [9].
+
+[Débat] Sur le plaider-coupable criminel, ses partisans, dont le garde des Sceaux, faisaient valoir qu'il existe sous diverses formes en Espagne, en Allemagne, en Belgique, aux Pays-Bas ou en Italie, que la Cour européenne des droits de l'homme l'a jugé compatible avec la Convention, et qu'il éviterait aux victimes un long procès lorsque l'accusé reconnaît les faits [3]. Ses opposants, députés de plusieurs groupes, avocats, Défenseure des droits et Commission nationale consultative des droits de l'homme selon les débats parlementaires, objectaient qu'il refait de l'aveu la « reine des preuves », prive la victime et la société d'un procès public et pèserait sur les accusés les plus vulnérables ; un député estimait qu'il ne concernerait qu'environ soixante-quinze dossiers par an [3]. Le dispositif a été retiré avant l'adoption de la loi [10].
+
+[Débat] Plus largement, deux lectures s'opposent. Pour le gouvernement, la hausse des affaires criminelles, liée aux violences sexuelles et au narcotrafic, est un mouvement de fond qui impose de modifier les procédures en plus d'augmenter les effectifs [3]. Pour plusieurs parlementaires de l'opposition, adapter la procédure revient à « adapter la justice criminelle à ses moyens » plutôt que l'inverse, et la priorité devrait aller aux moyens humains [3]. Les deux constats ne s'excluent pas, et aucune étude publiée ne mesure la part de chaque facteur dans l'allongement des délais.
+
+## Les pistes discutées
+
+[Proposition] Multiplier les cours criminelles dans un même département : le garde des Sceaux a demandé aux députés, en juin 2026, de pouvoir créer soixante-quatre cours criminelles supplémentaires dans des tribunaux existants, la loi n'en prévoyant qu'une par département [3]. Le texte examiné par l'Assemblée nationale assouplissait les règles de fixation du siège de l'audience [3] ; nous n'avons pas vérifié la rédaction définitive de cette disposition ni trouvé de bilan du nombre de cours effectivement créées.
+
+[Proposition] Rétablir une procédure de jugement des crimes reconnus : défendue par le gouvernement et une partie de la majorité, elle a été retirée en juin 2026 face à l'opposition des avocats et d'une partie des magistrats [10]. Lors de l'examen du budget au Sénat, une sénatrice a estimé qu'un tel dispositif ne permettrait de traiter qu'environ 10 % des affaires criminelles [7].
+
+[Proposition] Créer une juridiction spécialisée dans les violences sexuelles et sexistes : la piste a été évoquée au Sénat en novembre 2025 en référence au modèle espagnol, et le garde des Sceaux a jugé la question « ouverte » [7]. Son coût et son effet sur les délais n'ont pas été chiffrés publiquement.
+
+[Proposition] Revoir la place du jury : un article universitaire publié en janvier 2025 évoque un jury mixte associant un petit nombre de citoyens à des magistrats, ou des jurés formés aux violences sexuelles, à côté d'une hausse des moyens humains [12]. La loi de 2026 ouvre déjà la possibilité de désigner des avocats honoraires comme assesseurs [9].
+
 ## Ce qu'on ne sait pas
 - **Les délais d'audiencement devant les cours d'assises et les cours criminelles départementales**, absents des tableaux de délais des Références statistiques Justice [1].
-- **Le stock d'affaires criminelles en attente à jour pour 2026** : le dernier chiffre public trouvé porte sur 2025 [3].
+- **Le stock d'affaires criminelles en attente à jour pour 2026** : le dernier chiffre public trouvé porte sur 2025 [3], et le chiffre de 2019 varie selon les sources (2 200 ou 2 368) [3][7].
 - **Les durées d'instruction pour 2024** : nous n'avons pas trouvé la mise à jour de ce chapitre des Références statistiques Justice.
+- **Le mode de calcul des durées de six ans pour un viol et huit ans pour un homicide**, citées sans méthode publiée [3].
+- **L'effet de la loi du 23 juillet 2026 sur les délais**, qui ne pourra être mesuré qu'après plusieurs mois d'application.
+- **Les deux arrêts de 2025 de la Cour européenne des droits de l'homme** évoqués par le garde des Sceaux, que nous n'avons pas retrouvés [3].
 
 ## Sources
 - Ministère de la Justice, SSER, Références statistiques Justice, édition 2025 (données 2024), chapitre 11.3 « Les durées de traitement des mis en cause dans les infractions pénales », juillet 2025. | https://www.justice.gouv.fr/sites/default/files/2025-07/RSJ2024%2011_3.pdf
 - Ministère de la Justice, SSER, Références statistiques Justice, édition 2024 (données 2023), chapitre 10.4 « Le juge d'instruction », juin 2024. | https://www.justice.gouv.fr/sites/default/files/2024-06/RSJ2023_10_4_0.pdf
 - Assemblée nationale, commission des lois, Anne Bergantz et Laure Miller, rapport n° 2904 et 2908 sur le projet de loi sur la justice criminelle et le respect des victimes, 10 juin 2026. | https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2904.html
 - Conseil constitutionnel, décision n° 2026-909 DC du 23 juillet 2026, Loi sur la justice criminelle et le respect des victimes. | https://www.conseil-constitutionnel.fr/decision/2026/2026909DC.htm
+- Source secondaire : Le Club des juristes, « Rapport de la CEPEJ : quelle efficacité de la justice en France ? », 16 octobre 2024. | https://www.leclubdesjuristes.com/en-bref/rapport-de-la-cepej-quelle-efficacite-de-la-justice-en-france-7312/
+- Source secondaire : Union syndicale des magistrats, « Note sur le rapport CEPEJ 2024 », 18 octobre 2024. | https://union-syndicale-magistrats.org/wp-content/uploads/2024/10/2024.10.18_note-USM-sur-rapport-CEPEJ-2024.pdf
+- Sénat, commission des lois, Lauriane Josende et Dominique Vérien, avis n° 145 (2025-2026) sur le projet de loi de finances pour 2026, tome VII, Justice judiciaire et accès au droit, 24 novembre 2025. | https://www.senat.fr/rap/a25-145-7/a25-145-71.pdf
+- Assemblée nationale, question écrite n° 4594 (16e législature) de Mme Angélique Ranc, « Inquiétude sur une justice au rabais pour les victimes de viols », réponse du ministère de la Justice publiée au JO le 1er août 2023. | https://questions.assemblee-nationale.fr/dyn/16/questions/QANR5L16QE4594.pdf
+- Source secondaire : Conseil national des barreaux, « Tout savoir sur la Loi Justice criminelle », 11 août 2026. | https://cnb.avocat.fr/actualite/tout-savoir-sur-la-loi-justice-criminelle
+- LCP, Maxence Kagni, « Justice criminelle : l'Assemblée nationale adopte le projet de loi sans la mesure de plaider-coupable », 7 juillet 2026. | https://lcp.fr/actualites/justice-criminelle-l-assemblee-nationale-adopte-le-projet-de-loi-sans-la-mesure-de
+- Source secondaire : Dalloz Actu Étudiant, « Des conséquences attachées à la méconnaissance du délai raisonnable », commentaire de Cass. crim., 24 avril 2013, n° 12-82.863. | https://actu.dalloz-etudiant.fr/fileadmin/actualites/pdfs/NOVEMBRE_2014/Crim24mai2013.pdf
+- Source secondaire : Université de Rouen Normandie, reprise d'un article de The Conversation, « Procès Le Scouarnec : les cours criminelles, sans jury populaire, sont-elles plus rapides et plus justes ? », 23 janvier 2025. | https://www.univ-rouen.fr/actualites/les-cours-criminelles-sans-jury-populaire-sont-elles-plus-rapides-et-plus-justes/
+- Conseil de l'Europe, CEPEJ, « Glossaire de la CEPEJ », CEPEJ(2020)Rev1, 3 février 2020. | https://rm.coe.int/cepej-2019-5final-glossaire-fr-version-10-decembre-as/1680993c4d

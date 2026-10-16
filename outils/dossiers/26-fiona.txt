@@ -3,45 +3,128 @@ rubrique: affaires
 titre: Affaire Fiona : trois procès pour établir les responsabilités
 titre_court: L'affaire Fiona
 chapeau: En mai 2013, la disparition signalée d'une fillette de 5 ans dans un parc de Clermont-Ferrand se révèle être un mensonge de sa mère et du compagnon de celle-ci. Il a fallu trois procès d'assises menés à leur terme, et un arrêt de cassation, pour fixer les responsabilités dans sa mort.
-resume: Procès successifs, cassation, peines prononcées et points restés incertains dans l'affaire Fiona. Données arrêtées au 8 octobre 2026.
-arret: 8 octobre 2026
+resume: Enquête, instruction, procès successifs, cassation et peines définitives dans l'affaire Fiona ; ce que la justice a établi, ce qu'elle n'a pas pu établir et ce que l'affaire montre du fonctionnement de la cour d'assises. Données arrêtées au 16 octobre 2026.
+arret: 16 octobre 2026
 publication: 8 octobre 2026
 image: assets/images/fiona.jpg
 image_alt: Le palais de justice historique de Lyon, au bord de la Saône
 image_credit: ell brown, CC BY-SA 2.0, recadrée, Flickr
 image_lien: https://www.flickr.com/photos/39415781@N06/34544894454
 verifie: 11 octobre 2026
-corrections: Le procès en appel de 2018 avait aussi condamné le compagnon à vingt ans, ce que le dossier omettait ; les dates de l'arrêt de cassation (20 février 2019) et du rejet du dernier pourvoi (février 2022), ainsi que les juridictions et qualifications, ont été précisées.
+corrections: Le procès en appel de 2018 avait aussi condamné le compagnon à vingt ans, ce que le dossier omettait ; les dates de l'arrêt de cassation (20 février 2019) et du rejet du dernier pourvoi (février 2022), ainsi que les juridictions et qualifications, ont été précisées. Le 16 octobre 2026, le dossier a été approfondi : procédure expliquée (appel criminel, motivation, cassation), chronologie détaillée, distinction entre déclarations, expertise et éléments matériels, motifs de la cassation de 2019, débats sur le déroulement des procès et questions ouvertes ; la date du verdict d'appel de 2018 est précisée (nuit du 10 au 11 février) et la date de mise en examen, divergente selon les sources, est signalée.
 ---
 ## Essentiel
 - Le 12 mai 2013, la mère de Fiona et son compagnon signalent la disparition de l'enfant dans le parc Montjuzet, à Clermont-Ferrand. Placés en garde à vue le 24 septembre 2013, ils reconnaissent que l'enfant est morte au domicile et qu'ils ont dissimulé le corps, qui n'a jamais été retrouvé [1][2].
 - En novembre 2016, la cour d'assises du Puy-de-Dôme acquitte la mère des violences mortelles et la condamne à cinq ans d'emprisonnement pour d'autres délits, dont la non-assistance à personne en danger ; son compagnon est condamné à vingt ans de réclusion [1][3].
-- En février 2018, en appel, la cour d'assises de la Haute-Loire condamne les deux accusés à vingt ans de réclusion. La Cour de cassation annule cet arrêt le 20 février 2019 et renvoie l'affaire devant la cour d'assises du Rhône [3][4].
+- En février 2018, en appel, la cour d'assises de la Haute-Loire condamne les deux accusés à vingt ans de réclusion. La Cour de cassation annule cet arrêt le 20 février 2019, faute de motivation du rejet d'une demande de renvoi, et renvoie l'affaire devant la cour d'assises du Rhône [3][4].
 - Le 16 décembre 2020, la cour d'assises du Rhône condamne la mère à vingt ans et son ancien compagnon à dix-huit ans de réclusion criminelle pour violences volontaires ayant entraîné la mort [2].
-- Le pourvoi de la mère contre cette dernière décision a été écarté par la Cour de cassation en février 2022 : sa condamnation est définitive [3].
+- Le pourvoi de la mère contre cette dernière décision a été déclaré non admis par la Cour de cassation le 16 février 2022 : sa condamnation est définitive. Les circonstances exactes du décès et le lieu où se trouve le corps restent inconnus [3][8].
+
+[À noter] Juge d'instruction : magistrat chargé de conduire l'enquête dans une information judiciaire. Mise en examen : le juge ne peut y procéder qu'à l'encontre d'une personne contre laquelle existent « des indices graves ou concordants rendant vraisemblable » sa participation aux faits (article 80-1 du code de procédure pénale) ; ce ne sont pas des preuves de culpabilité. Cour d'assises : juridiction qui juge les crimes, composée de trois magistrats et de jurés tirés au sort. Appel criminel : possible depuis la loi du 15 juin 2000 ; une autre cour d'assises rejuge entièrement l'affaire. Cassation : la Cour de cassation est « le juge du droit » et ne réexamine pas les faits ; si elle annule, l'affaire est rejugée par une autre juridiction [11][15][16].
 
 ## État de la procédure
 
-[État de la procédure] La condamnation de la mère à vingt ans de réclusion est définitive depuis que la Cour de cassation a écarté son pourvoi, en février 2022 [3]. Pour son ancien compagnon, condamné à dix-huit ans, l'encyclopédie Wikipédia indique que la condamnation est également définitive, mais nous n'avons pas trouvé de source primaire ou de presse le confirmant explicitement [1].
+[État de la procédure] La condamnation de la mère à vingt ans de réclusion est définitive depuis que la Cour de cassation a déclaré son pourvoi non admis, le 16 février 2022 [3][8]. Pour son ancien compagnon, condamné à dix-huit ans, Ouest-France écrit qu'avec ce rejet « ces condamnations deviennent donc définitives » ; l'encyclopédie Wikipédia indique la même chose. Nous n'avons pas trouvé de source précisant s'il avait lui-même formé un pourvoi ni la date exacte à laquelle sa condamnation est devenue définitive [1][8].
+
+## Comment fonctionne la procédure dans une affaire de ce type
+
+[Fait établi] Dans l'affaire Fiona, l'enquête a été menée par la police judiciaire puis confiée à des juges d'instruction de Clermont-Ferrand, qui ont entendu la mère pendant quatre heures en octobre 2013 ; des fouilles ont été organisées en sa présence, sous l'autorité du parquet [14]. La mise en examen suppose des indices graves ou concordants ; elle ne vaut pas déclaration de culpabilité, qui relève de la seule cour d'assises [16].
+
+[Fait établi] Depuis la loi du 15 juin 2000, un verdict de cour d'assises peut faire l'objet d'un appel. Il ne s'agit pas d'une cour d'appel qui confirme ou infirme le premier arrêt, mais d'une autre cour d'assises désignée pour rejuger l'affaire dans sa totalité, dans une composition élargie [11]. C'est ce qui explique qu'une même accusée ait pu être acquittée des violences mortelles en première instance puis condamnée pour ces faits en appel.
+
+[Fait établi] Jusqu'en 2011, les arrêts de cour d'assises n'étaient pas motivés : la cour répondait par oui ou par non à une liste de questions. Le Conseil constitutionnel a jugé ce système conforme à la Constitution le 1er avril 2011 [11]. La loi du 10 août 2011 a ensuite imposé une motivation, appliquée depuis le 1er janvier 2012 au moyen d'une « feuille de motivation » qui énonce les principaux éléments ayant convaincu la cour. Le ministère de la Justice soulignait en 2012 qu'elle permet à l'accusé d'apprécier s'il doit faire appel et aux victimes de connaître les raisons d'un acquittement [12]. Les procès de l'affaire Fiona, tous postérieurs à 2012, relevaient de ce régime ; nous n'avons pas eu accès au texte des feuilles de motivation.
+
+[Fait établi] La Cour de cassation, saisie d'un pourvoi, ne réexamine pas les faits : elle contrôle l'application du droit [15]. Lorsqu'elle annule un arrêt de cour d'assises, l'affaire est renvoyée devant une autre cour d'assises, qui la rejuge entièrement, comme ce fut le cas en 2019 avec le renvoi devant la cour d'assises du Rhône [4][6].
+
+## Chronologie détaillée
+
+[Figure] frise
+titre: Les principales étapes de l'affaire Fiona
+donnees:
+- 12 mai 2013 | La mère signale la disparition de l'enfant dans le parc Montjuzet, à Clermont-Ferrand ; d'importantes recherches sont lancées [5][7]. | Fait établi
+- 16 mai 2013 | La mère lance un appel devant les caméras pour qu'on lui rende sa fille [7]. | Fait établi
+- 24 septembre 2013 | Le couple, installé à Perpignan, est placé en garde à vue par la police judiciaire ; tous deux reconnaissent que l'enfant est morte [5][7]. | Procédure
+- Fin septembre 2013 | Mise en examen et placement en détention provisoire des deux suspects ; premières fouilles sans résultat près du lac d'Aydat [13][14]. | Procédure
+- 13 mai 2014 | Dernière recherche du corps rapportée par la presse, sans résultat [5]. | Fait établi
+- Novembre 2016 | Cour d'assises du Puy-de-Dôme à Riom : la mère est acquittée des violences mortelles et condamnée à cinq ans pour quatre délits ; son compagnon est condamné à vingt ans. Le parquet fait appel [3][5][7]. | Décision de justice
+- 9 octobre 2017 | Ouverture du procès en appel au Puy-en-Velay, renvoyé à janvier 2018 après un incident entre avocats [5][7]. | Procédure
+- 10-11 février 2018 | Cour d'assises de la Haute-Loire : les deux accusés sont condamnés à vingt ans de réclusion [3][9]. | Décision de justice
+- 20 février 2019 | La Cour de cassation annule l'arrêt ; la mère, qui avait purgé la peine de première instance, est libérée [4][6]. | Décision de justice
+- 1er-16 décembre 2020 | Cour d'assises du Rhône à Lyon, après deux reports : vingt ans pour la mère, dix-huit ans pour son ancien compagnon [2][10]. | Décision de justice
+- 16 février 2022 | La Cour de cassation déclare non admis le pourvoi de la mère ; sa condamnation devient définitive [3][8]. | Décision de justice
+source: Décisions judiciaires rapportées par la presse ; voir les sources du dossier
+
+[Fait établi] Les sources divergent sur la date de la mise en examen. Une dépêche de l'AFP reprise par la DH le 28 septembre 2013 indique que le couple a été « mis en examen et écroué jeudi soir », soit le 26 septembre 2013 [13]. Lyon Capitale et 20 Minutes, dans des articles rétrospectifs de 2020 et 2023, datent la mise en examen du 22 octobre 2013, pour violences aggravées ayant entraîné la mort, non-assistance à personne en danger et recel ou dissimulation de cadavre [5][7]. Nous n'avons pas pu établir si la seconde date correspond à une mise en examen supplémentaire.
 
 ## Les procès
 
-[Fait établi] Le premier procès, devant la cour d'assises du Puy-de-Dôme à Riom, s'achève en novembre 2016. La mère est acquittée des violences ayant entraîné la mort et condamnée à cinq ans d'emprisonnement, notamment pour non-assistance à personne en danger et pour avoir faussement dénoncé un enlèvement ; son compagnon est condamné à vingt ans de réclusion. Le parquet fait appel [1][3].
+[Fait établi] Le premier procès, devant la cour d'assises du Puy-de-Dôme à Riom, s'ouvre le 14 novembre 2016 et s'achève fin novembre, après deux semaines de débats. La mère est acquittée des violences ayant entraîné la mort et condamnée à cinq ans d'emprisonnement pour non-assistance à personne en danger, recel ou dissimulation de cadavre, modification de l'état des lieux d'un crime et dénonciation mensongère d'un crime ; son compagnon est condamné à vingt ans de réclusion. Trois jours plus tard, le parquet de Clermont-Ferrand fait appel [1][3][5][7].
 
-[Fait établi] En appel, devant la cour d'assises de la Haute-Loire au Puy-en-Velay, les deux accusés sont condamnés le 10 février 2018 à vingt ans de réclusion pour violences volontaires ayant entraîné la mort [3]. La Cour de cassation casse cet arrêt le 20 février 2019, en retenant un seul des moyens soulevés par la défense : le rejet, non motivé, d'une demande de renvoi formulée par l'accusée. Elle renvoie l'affaire devant la cour d'assises du Rhône, à Lyon [4].
+[Fait établi] Le premier procès en appel s'ouvre le 9 octobre 2017 devant la cour d'assises de la Haute-Loire, au Puy-en-Velay. Il tourne court : les avocats de la défense quittent l'audience en s'estimant mis en cause par des parties civiles, sur fond d'accusation de subornation de témoin, et le procès est renvoyé à janvier 2018 [5][7][8]. La presse parle parfois de « quatrième procès » pour celui de Lyon, en comptant cette session interrompue [1][2].
 
-[Fait établi] Après plusieurs reports, le procès devant la cour d'assises du Rhône se tient du 1er au 16 décembre 2020. Le 16 décembre, la cour condamne la mère à vingt ans et son ancien compagnon à dix-huit ans de réclusion criminelle ; l'avocat général avait requis trente ans contre chacun [2]. La presse parle parfois de « quatrième procès », en comptant une première session d'appel ouverte en octobre 2017 puis renvoyée [1][2].
+[Fait établi] En appel, devant la même cour d'assises de la Haute-Loire, les deux accusés sont condamnés à vingt ans de réclusion pour violences volontaires ayant entraîné la mort, au terme d'un procès ouvert le 29 janvier 2018. Le verdict est rendu dans la nuit du samedi 10 au dimanche 11 février 2018 ; l'avocat général avait requis trente ans. Selon Lyon Capitale, la cour a retenu la thèse de l'accusation selon laquelle les deux accusés avaient agi de concert [3][9].
+
+[Fait établi] La Cour de cassation casse cet arrêt le 20 février 2019, en retenant un seul des quatre moyens soulevés par la défense de la mère : le rejet, non motivé, d'une demande de renvoi formulée par l'accusée. Cette demande avait été présentée après qu'il eut été rapporté que le président de la cour d'assises avait pris un apéritif avec des avocats de parties civiles ; l'accusée avait alors refusé de comparaître. La Cour ne s'est pas prononcée sur les trois autres moyens et renvoie l'affaire devant la cour d'assises du Rhône, à Lyon [4].
+
+[Fait établi] L'avocate générale à la Cour de cassation avait proposé la cassation pour quatre raisons : la défense n'avait pas eu la parole en dernier lors de la demande de renvoi, cette demande avait été rejetée sans motivation, l'accusée avait été condamnée pour deux infractions jugées incompatibles (violences mortelles et non-assistance à personne en danger), et un expert avait été entendu sans prêter serment [6]. Ayant fini de purger en septembre 2018 la peine de cinq ans prononcée en première instance, la mère est libérée le soir même de l'arrêt et comparaît libre au procès suivant [4][6].
+
+[Fait établi] Initialement prévu en janvier 2020, le procès de Lyon est reporté une première fois en raison de la grossesse de l'accusée, puis à cause de la crise sanitaire. Il se tient du 1er au 16 décembre 2020 [1][5]. Le 16 décembre, après près de six heures de délibéré, la cour condamne la mère à vingt ans et son ancien compagnon à dix-huit ans de réclusion criminelle ; l'avocat général avait requis trente ans contre chacun, ainsi qu'un suivi socio-judiciaire [2][10]. Arrivée libre, la mère retourne en détention [2].
+
+[Fait établi] À l'issue du verdict, l'avocat de la mère qualifie la peine d'« absurde, juridiquement » et annonce un pourvoi [2]. Ce pourvoi est déclaré non admis le 16 février 2022 ; il n'y a donc pas de cinquième procès [8].
+
+## Ce que la justice a établi et ce qu'elle n'a pas établi
+
+[État de la procédure] Ce qui est juridiquement établi, de façon définitive : la mère et son ancien compagnon ont été reconnus coupables de violences volontaires ayant entraîné la mort de l'enfant, la première condamnée à vingt ans, le second à dix-huit ans de réclusion criminelle [2][8]. Le procès de 2018, qui avait qualifié les faits de violences sur mineur de moins de 15 ans, en réunion, a été annulé et ne produit plus d'effet [1][4].
+
+[Fait établi] Ce qui a été reconnu par les deux intéressés dès septembre 2013 : la disparition dans le parc était un mensonge, l'enfant était morte et son corps avait été dissimulé [5][7][13].
+
+[Témoignage] Les déclarations des deux accusés sur la cause de la mort ont toujours divergé. Selon les comptes rendus de presse, la mère a affirmé que son compagnon avait porté les coups mortels et qu'elle avait menti pour le protéger, en disant elle-même subir sa violence ; le compagnon a contesté être l'auteur de violences mortelles et donné une autre version du décès. Ces déclarations, contradictoires et variables, ne constituent pas à elles seules une preuve des faits [5][7].
+
+[Expertise] En l'absence de corps, aucune autopsie n'a été possible. Une experte légiste a été entendue lors du procès de 2018 ; selon les comptes rendus disponibles, elle ne pouvait se prononcer avec certitude sur la cause exacte de la mort. Nous n'avons pas eu accès à une source primaire détaillant ses conclusions [1].
+
+[Élément matériel] Aucun élément matériel décisif sur le lieu de la sépulture n'a été produit : selon l'ancien directeur régional de la police judiciaire de Clermont-Ferrand, entendu en 2020, les recherches ont couvert un espace de 300 kilomètres carrés, avec des équipes cynophiles et des militaires, sans retrouver le corps [7]. Les deux accusés ont dit l'avoir enterré près du lac d'Aydat, sans pouvoir localiser l'endroit [13][14].
+
+[Interprétation] Après le verdict de 2018, le président de la cour d'assises de la Haute-Loire avait résumé la difficulté du dossier : « Les mensonges, les incohérences, la variabilité n'ont pas permis d'appréhender le contexte exact du décès » [9]. Les condamnations reposent donc sur l'appréciation globale des déclarations et des circonstances par trois cours d'assises successives, qui en ont tiré des conclusions différentes pour la mère.
 
 ## Ce qui reste incertain
 
 [Fait établi] Les cours d'assises successives ont apprécié différemment le rôle de la mère : acquittée des violences mortelles en première instance, elle a été condamnée à vingt ans de réclusion lors des deux procès suivants [2][3].
 
+[Fait établi] À Lyon, la mère a été condamnée à une peine plus lourde que son ancien compagnon. L'avocat général avait soutenu que les deux accusés avaient tué l'enfant « en agissant de manière différente mais complémentaire » ; l'avocat du père de l'enfant, partie civile, s'est félicité que la « co-action » ait été retenue par les jurés [2][10]. Les raisons précises de l'écart de peine figurent dans la feuille de motivation, que nous n'avons pas consultée.
+
+## Ce qui fait débat
+
+[Débat] Sur la cassation de 2019, les avocats de la mère y ont vu « la victoire du droit et des principes cardinaux de notre procédure pénale, sur les a priori et fantasmes véhiculés par l'opinion publique » [6]. L'argument repose sur un principe général : une demande de renvoi touchant à l'impartialité de la juridiction doit recevoir une réponse motivée, quelle que soit la gravité des faits jugés. C'est le seul moyen retenu par la Cour de cassation [4].
+
+[Débat] Du côté des parties civiles, le père de l'enfant a exprimé sa colère après la libération de la mère, en estimant que le fait de comparaître libre aurait une incidence sur le jury [6]. Le verdict de Lyon, plus sévère pour la mère que pour son ancien compagnon, ne confirme pas cette crainte, sans qu'on puisse en tirer de conclusion générale [2].
+
+[Interprétation] L'affaire illustre une tension propre au procès d'assises fortement médiatisé : l'émotion publique, née d'un appel à témoins qui s'est révélé mensonger, a pesé sur le climat des audiences, au point que des incidents entre avocats ou entre le président et des parties ont conduit à un renvoi en 2017 puis à une cassation en 2019 [5][6][7]. L'écrivaine Dalie Farah, autrice d'un livre sur l'affaire, estime que celle-ci a touché « les tabous de la maternité et de l'infanticide » [7]. Il s'agit d'une analyse d'autrice, non d'un constat judiciaire.
+
+## Ce que l'affaire a changé
+
+[Fait établi] Nous n'avons trouvé aucune source attribuant à l'affaire Fiona une réforme législative ou une modification des pratiques judiciaires. Les règles qui ont structuré son parcours, l'appel criminel de 2000 et la motivation des arrêts d'assises de 2011, lui sont antérieures [11][12].
+
 ## Ce qu'on ne sait pas
 - **Le déroulement exact des faits**, établi par les cours d'assises à partir de déclarations contradictoires des deux accusés.
-- **Le lieu où se trouve le corps** de l'enfant, jamais retrouvé [2].
+- **Le lieu où se trouve le corps** de l'enfant, jamais retrouvé [2][7].
+- **La cause médicale précise du décès**, faute d'autopsie [1].
+- **Le contenu des feuilles de motivation** des cours d'assises, qui expliqueraient les écarts entre verdicts ; nous ne les avons pas trouvées publiées.
+- **La date exacte de la mise en examen** (26 septembre ou 22 octobre 2013 selon les sources) et le caractère définitif, à une date précise, de la condamnation de l'ancien compagnon [5][8][13].
 
 ## Sources
 - Source secondaire : Wikipédia, « Affaire Fiona », encyclopédie collaborative, consultée le 11 octobre 2026. | https://fr.wikipedia.org/wiki/Affaire_Fiona
 - ICI (ex-France Bleu), Olivier Vidal et Xavier Louvel, « Affaire Fiona : Cécile Bourgeon et Berkane Makhlouf coupables, condamnés à 20 ans et 18 ans de prison », 16 décembre 2020. | https://www.ici.fr/infos/faits-divers-justice/affaire-fiona-le-verdict-pour-cecile-bourgeon-et-berkane-makhlouf-1608048902
 - Zoomdici, « Affaire Fiona : Cécile Bourgeon reste condamnée à 20 ans de prison », 17 février 2022. | https://www.zoomdici.fr/actualite/affaire-fiona-cecile-bourgeon-reste-condamnee-20-ans-de-prison
 - Europe 1 avec AFP, « L'affaire Fiona sera rejugée à Lyon lors d'un quatrième procès », février 2019. | https://www.europe1.fr/societe/laffaire-fiona-sera-rejugee-a-lyon-lors-dun-quatrieme-proces-3862655
+- Lyon Capitale, « Lyon : le 4e procès de l'affaire Fiona débute ce mardi », 1er décembre 2020. | https://www.lyoncapitale.fr/actualite/lyon-le-4e-proces-de-l-affaire-fiona-debute-ce-mardi
+- Tendance Ouest avec AFP, « Affaire Fiona : la mère de la fillette sort de prison, avant un nouveau procès », 20 février 2019. | https://www.tendanceouest.com/actualite-312373-affaire-fiona-la-mere-de-la-fillette-sort-de-prison-avant-un-nouveau-proces.html
+- 20 Minutes, « Affaire Fiona : Retour sur dix ans de mensonges, de "tabous" et de procès qui ont marqué la France », 12 mai 2023. | https://www.20minutes.fr/societe/4036682-20230512-affaire-fiona-retour-dix-ans-mensonges-tabous-proces
+- Ouest-France, Solange Esteves avec l'AFP, « Affaire Fiona. Cécile Bourgeon définitivement condamnée, la fin d'un long feuilleton judiciaire », 16 février 2022. | https://www.ouest-france.fr/societe/justice/affaire-fiona/affaire-fiona-cecile-bourgeon-definitivement-condamnee-apres-le-rejet-de-son-pourvoi-en-cassation-48d027cc-8f2f-11ec-8945-7a2e11a276ac
+- Lyon Capitale, « Fiona : en appel, la mère et l'ex-amant condamnés à 20 ans de réclusion », 12 février 2018. | https://www.lyoncapitale.fr/?p=120924
+- Lyon Capitale, « Affaire Fiona : Cécile Bourgeon condamnée à 20 ans d'emprisonnement, Berkane Makhlouf à 18 ans », 16 décembre 2020. | https://www.lyoncapitale.fr/?p=227335
+- Conseil constitutionnel, commentaire de la décision n° 2011-113/115 QPC du 1er avril 2011 (motivation des arrêts de cour d'assises). | https://webview-ccfr.sites.prod.conseilconstitutionnel.aquaray.com/sites/default/files/as/root/bank_mm/decisions/2011113qpc/ccc_113qpc.pdf
+- Assemblée nationale, question écrite n° 4084 de Gérald Darmanin sur la motivation des verdicts d'assises et réponse du ministère de la Justice (JO du 4 décembre 2012). | https://questions.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE4084.pdf
+- DH avec AFP, « Fiona : les recherches sont suspendues », 28 septembre 2013. | https://www.dhnet.be/actu/monde/2013/09/28/fiona-les-recherches-sont-suspendues-D3LT2YAYX5B57I6YCWXRDSFXBQ/
+- DH avec AFP, « Les fouilles reprennent pour tenter de retrouver le corps de Fiona », 10 octobre 2013. | https://www.dhnet.be/actu/monde/2013/10/10/les-fouilles-reprennent-pour-tenter-de-retrouver-le-corps-de-fiona-ZBIAO3MWKRGCDFZNUUJUTTDI6Q/
+- data.gouv.fr, « Cour de cassation », page de présentation de l'organisation, consultée le 16 octobre 2026. | https://www.data.gouv.fr/organizations/cour-de-cassation/information
+- Actu-Juridique, « Le juge du non-lieu et le juge de la nullité apprécient souverainement à leur niveau les indices graves ou concordants pouvant justifier une mise en examen », 13 décembre 2016. | https://www.actu-juridique.fr/civil/le-juge-du-non-lieu-et-le-juge-de-la-nullite-apprecient-souverainement-a-leur-niveau-les-indices-graves-ou-concordants-pouvant-justifier-une-mise-en-examen/

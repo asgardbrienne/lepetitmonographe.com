@@ -28,7 +28,7 @@ Toute rédaction ou modification de contenu sur ce site applique ces règles san
 - Le site ne mentionne pas le nom de l'auteur.
 - Pas de tiret cadratin dans les textes.
 - Les pages sont générées par `outils/generer.py` (`python3 outils/generer.py .`).
-- Aspect du site : maquette validée par l'autrice (octobre 2026), dans l'esprit de la charte V1.1. Ivoire #F8F5EF, bleu nuit #152840 / #11243D, or #A78346 (décor et grands titres ; #8C6A2E pour les petits textes dorés), gris #626773, blanc éditorial #FFFDF9, vert preuve #2A6654 réservé au statut Fait établi. Titres en Libre Baskerville, interface en DM Sans, lecture longue en Source Serif 4. Mode sombre disponible. Contrastes WCAG AA.
+- Aspect du site : maquette « édition » validée par l'autrice le 16 octobre 2026 (en-tête centré, accueil en une, page dossier avec colonne latérale « Dans ce dossier », sources, corrections), dans l'esprit de la charte V1.1. Les visuels de maquette générés par IA ne sont jamais repris : photos libres et créditées uniquement. Ivoire #F8F5EF, bleu nuit #152840 / #11243D, or #A78346 (décor et grands titres ; #8C6A2E pour les petits textes dorés), gris #626773, blanc éditorial #FFFDF9, vert preuve #2A6654 réservé au statut Fait établi. Titres en Playfair Display, interface en DM Sans, lecture longue en Source Serif 4. Mode sombre disponible. Contrastes WCAG AA.
 - Affichage des étiquettes : cinq statuts (Fait établi, Témoignage, Interprétation, Hypothèse, Proposition). Les nuances de la règle 1 restent visibles en précision sous le statut : [Estimation] et [Débat] et [Expertise] s'affichent en Interprétation, [Allégation] en Témoignage, [Élément matériel] et [État de la procédure] en Fait établi.
 
 ## Graphiques et chronologies

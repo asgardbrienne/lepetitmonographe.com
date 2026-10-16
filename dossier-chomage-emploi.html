@@ -15,31 +15,37 @@
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
   <link rel="stylesheet" href="assets/style.css">
   <script>try{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 </head>
 <body>
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
-<div class="bandeau-haut">Documents &amp; enquêtes · Politique · Économie · Société · Affaires judiciaires</div>
 <header class="entete">
   <div class="conteneur entete-haut">
-    <a class="logo" href="./"><img src="assets/medaillon.png" alt="" width="46" height="46"><span>Le Petit Monographe</span></a>
-    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
-      <div class="nav-liens">
-      <a href="dossiers.html">Dossiers</a>
-      <a href="methode.html">Notre méthode</a>
-      <a href="livres.html">Monographies</a>
-      <a href="index.html#lettre">La lettre</a>
-      </div>
-    </nav>
+    <form class="recherche-entete" action="dossiers.html" method="get" role="search">
+      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="Rechercher un dossier, un sujet…" aria-label="Rechercher un dossier">
+    </form>
+    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="44" height="44"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-sous">Documents <em>&amp;</em> enquêtes</span></span></a>
     <div class="actions">
-      <a class="bouton-rond" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
-      <button class="bouton-rond bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg></button>
+      <a class="bouton-rond bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
+      <button class="bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><span class="theme-curseur" aria-hidden="true"></span><svg class="theme-lune" viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="currentColor"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+      <a class="bouton-abonner" href="index.html#lettre">S'abonner</a>
       <button class="bouton-rond bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
     </div>
   </div>
+  <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+    <div class="conteneur nav-liens">
+      <a href="./">À la une</a>
+      <a href="politique-institutions.html">Politique</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+      <a href="methode.html">Méthode</a>
+    </div>
+  </nav>
 </header>
 
 <main id="contenu">
@@ -61,11 +67,24 @@
 
   <article class="section dossier">
     <div class="conteneur">
+      <nav class="puces-dossier" aria-label="Accès rapide"><a href="#synthese">Synthèse</a><a href="#sources">Sources</a><a href="#corrections">Corrections</a></nav>
       <div class="dossier-grille">
         <aside class="dossier-cote"><details class="sommaire" open>
-          <summary>Sommaire</summary>
+          <summary>Dans ce dossier</summary>
           <ol><li><a href="#deux-chiffres-deux-denominateurs">Deux chiffres, deux dénominateurs</a></li><li><a href="#ce-que-disent-les-chiffres">Ce que disent les chiffres</a></li><li><a href="#l-emploi-salarie-et-l-emploi-non-salarie">L'emploi salarié et l'emploi non salarié</a></li><li><a href="#pourquoi-les-deux-chiffres-divergent">Pourquoi les deux chiffres divergent</a></li><li><a href="#deux-lectures-de-la-situation">Deux lectures de la situation</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
-        </details></aside>
+        </details>
+        <div class="cote-actions">
+          <button type="button" class="bouton-cote" data-action="imprimer"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Enregistrer en PDF<small>ou imprimer le dossier</small></span></button>
+          <button type="button" class="bouton-cote" data-action="partager"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.6"/></svg><span>Partager ce dossier</span></button>
+        </div>
+        <section class="cote-encart">
+          <div class="cote-encart-tete"><h2>Nos sources (8)</h2><a href="#sources">Voir toutes les sources</a></div>
+          <ol class="cote-sources"><li>Insee, « Au deuxième trimestre 2026, le taux de chômage augmente de 0,2 point et atteint 8,3 % », Informations…</li><li>Insee, « Une photographie du marché du travail en 2025 », Insee Première n° 2096, Émilie Pénicaud, 25 mars 202…</li><li>Insee, « Au deuxième trimestre 2026, l'emploi salarié est quasi stable (-0,1 %) », Informations rapides n° 214…</li><li>Insee, Note de conjoncture, 17 juin 2026, fiche « Emploi ».</li></ol>
+        </section>
+        <section class="cote-encart">
+          <div class="cote-encart-tete"><h2>Corrections</h2><a href="contact.html">Signaler une erreur</a></div>
+          <p>Aucune correction pour le moment. Si vous signalez une erreur, elle sera examinée et, le cas échéant, corrigée publiquement.</p>
+        </section></aside>
         <div class="prose">
 
         <aside class="essentiel">

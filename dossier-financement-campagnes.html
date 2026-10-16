@@ -15,61 +15,81 @@
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
   <link rel="stylesheet" href="assets/style.css">
   <script>try{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 </head>
 <body>
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
-<div class="bandeau-haut">Documents &amp; enquêtes · Politique · Économie · Société · Affaires judiciaires</div>
 <header class="entete">
   <div class="conteneur entete-haut">
-    <a class="logo" href="./"><img src="assets/medaillon.png" alt="" width="46" height="46"><span>Le Petit Monographe</span></a>
-    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
-      <div class="nav-liens">
-      <a href="dossiers.html">Dossiers</a>
-      <a href="methode.html">Notre méthode</a>
-      <a href="livres.html">Monographies</a>
-      <a href="index.html#lettre">La lettre</a>
-      </div>
-    </nav>
+    <form class="recherche-entete" action="dossiers.html" method="get" role="search">
+      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="Rechercher un dossier, un sujet…" aria-label="Rechercher un dossier">
+    </form>
+    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="44" height="44"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-sous">Documents <em>&amp;</em> enquêtes</span></span></a>
     <div class="actions">
-      <a class="bouton-rond" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
-      <button class="bouton-rond bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg></button>
+      <a class="bouton-rond bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
+      <button class="bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><span class="theme-curseur" aria-hidden="true"></span><svg class="theme-lune" viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="currentColor"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+      <a class="bouton-abonner" href="index.html#lettre">S'abonner</a>
       <button class="bouton-rond bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
     </div>
   </div>
+  <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+    <div class="conteneur nav-liens">
+      <a href="./">À la une</a>
+      <a href="politique-institutions.html">Politique</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+      <a href="methode.html">Méthode</a>
+    </div>
+  </nav>
 </header>
 
 <main id="contenu">
   <section class="tete-page tete-dossier c-pouvoirs">
     <div class="conteneur">
       <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="politique-institutions.html">Politique &amp; Institutions</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
-      <p class="surtitre"><span class="or">Dossier</span> · Politique &amp; Institutions</p>
-      <h1>Présidentielle 2027 : comment se financent les campagnes, et pourquoi les banques hésitent</h1>
-      <p class="meta-dossier">Lecture : 5 min · Données arrêtées au 8 octobre 2026 · Première publication le 8 octobre 2026</p>
-      <p class="chapeau">À un peu plus de six mois du premier tour, plusieurs candidats peinent à obtenir un prêt bancaire. Les règles de financement des campagnes sont strictes et le niveau du remboursement public dépend du score obtenu.</p>
+      <div class="tete-dossier-grille">
+        <div class="tete-dossier-texte">
+          <p class="surtitre"><span class="or">Dossier</span> · Politique &amp; Institutions</p>
+          <h1>Présidentielle 2027 : comment se financent les campagnes, et pourquoi les banques hésitent</h1>
+          <span class="filet-or" aria-hidden="true"></span>
+          <p class="chapeau">À un peu plus de six mois du premier tour, plusieurs candidats peinent à obtenir un prêt bancaire. Les règles de financement des campagnes sont strictes et le niveau du remboursement public dépend du score obtenu.</p>
+          <p class="meta-dossier">Lecture : 6 min · Publié le 8 octobre 2026 · 6 sources · Vérifié le 13 octobre 2026</p>
+        </div>
+        <figure class="tete-dossier-image"><img src="assets/images/financement-campagnes.jpg" alt="Isoloirs dans un bureau de vote, photographie ancienne" loading="eager"><figcaption>Photo : <a href="https://commons.wikimedia.org/wiki/File:Int%C3%A9rieur_d%27un_bureau_de_vote_-_les_isoloirs_-_btv1b9033130j.jpg" target="_blank" rel="noopener">Agence de presse Meurisse (Gallica, BnF), domaine public, Wikimedia Commons</a></figcaption></figure>
+      </div>
+      <ul class="garanties"><li class="garantie garantie-verifie"><strong>Faits vérifiés</strong><span>Chiffres, dates et décisions relus sur les sources le 13 octobre 2026.</span></li><li class="garantie garantie-sources"><strong>Sources citées</strong><span>6 documents identifiés, avec leur lien.</span></li><li class="garantie garantie-independant"><strong>Analyse indépendante</strong><span>Aucune affiliation partisane ; arguments contraires présentés.</span></li><li class="garantie garantie-maj"><strong>Données arrêtées</strong><span>Au 8 octobre 2026.</span></li></ul>
     </div>
   </section>
-  <figure class="illustration">
-    <div class="conteneur">
-      <img src="assets/images/financement-campagnes.jpg" alt="Isoloirs dans un bureau de vote, photographie ancienne" loading="eager">
-      <figcaption>Photo : <a href="https://commons.wikimedia.org/wiki/File:Int%C3%A9rieur_d%27un_bureau_de_vote_-_les_isoloirs_-_btv1b9033130j.jpg" target="_blank" rel="noopener">Agence de presse Meurisse (Gallica, BnF), domaine public, Wikimedia Commons</a></figcaption>
-    </div>
-  </figure>
 
   <article class="section dossier">
     <div class="conteneur">
+      <nav class="puces-dossier" aria-label="Accès rapide"><a href="#synthese">Synthèse</a><a href="#sources">Sources</a><a href="#corrections">Corrections</a></nav>
       <div class="dossier-grille">
         <aside class="dossier-cote"><details class="sommaire" open>
-          <summary>Sommaire</summary>
+          <summary>Dans ce dossier</summary>
           <ol><li><a href="#les-regles">Les règles</a></li><li><a href="#la-reticence-des-banques">La réticence des banques</a></li><li><a href="#le-debat">Le débat</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
-        </details></aside>
+        </details>
+        <div class="cote-actions">
+          <button type="button" class="bouton-cote" data-action="imprimer"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Enregistrer en PDF<small>ou imprimer le dossier</small></span></button>
+          <button type="button" class="bouton-cote" data-action="partager"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.6"/></svg><span>Partager ce dossier</span></button>
+        </div>
+        <section class="cote-encart">
+          <div class="cote-encart-tete"><h2>Nos sources (6)</h2><a href="#sources">Voir toutes les sources</a></div>
+          <ol class="cote-sources"><li>Service-public.fr (Direction de l'information légale et administrative), « Les dates de l'élection présidentie…</li><li>CNCCFP, « Guide à l'usage des candidats à l'élection du Président de la République et de leur mandataire », éd…</li><li>Source secondaire : La Libre Belgique, Laure de Charette, « Présidentielle 2027 en France : pourquoi tant de c…</li><li>Reuters, via Boursorama, « Les banques veulent des garanties pour les prêts aux candidats à la présidentielle …</li></ol>
+        </section>
+        <section class="cote-encart">
+          <div class="cote-encart-tete"><h2>Corrections</h2><a href="contact.html">Signaler une erreur</a></div>
+          <p>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Le 13 octobre 2026, correction du remboursement public : les candidats sous 5 % ne sont pas privés de remboursement, mais celui-ci est plafo…</p>
+        </section></aside>
         <div class="prose">
 
-        <aside class="essentiel">
-          <p class="surtitre">L'essentiel</p>
+        <aside class="essentiel" id="synthese">
+          <p class="surtitre">Synthèse</p>
           <ul><li>Le premier tour de l'élection présidentielle est fixé au dimanche 18 avril 2027 et le second au dimanche 2 mai 2027, selon le calendrier arrêté en Conseil des ministres le 1er juillet 2026 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Un candidat ne peut financer sa campagne que par son apport personnel, les dons de personnes physiques, les contributions des partis et des prêts de partis ou d'établissements de crédit ; les prêts de particuliers lui sont interdits <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Le remboursement public est plafonné à 47,5 % du plafond des dépenses pour les candidats ayant obtenu au moins 5 % des suffrages exprimés, et à 4,75 % pour les autres, à condition que le compte de campagne ne soit pas rejeté <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Plusieurs banques se montrent réticentes à prêter ; selon Reuters, la Fédération bancaire française a demandé au Premier ministre une garantie de l'État <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup><sup class="appel"><a href="#source-4" id="appel-4">4</a></sup>.</li></ul>
         </aside>
         <h2 id="les-regles">Les règles</h2>
@@ -105,7 +125,7 @@
           <li id="source-6">Source secondaire : Le Journal de l'économie, « Marine Le Pen recalée par toutes les banques veut changer la loi pour emprunter aux Français », 10 octobre 2026. <a href="https://www.journaldeleconomie.fr/marine-le-pen-recalee-par-toutes-les-banques-veut-changer-la-loi-pour-emprunter-aux-francais-je-nai-plus-le-choix/" rel="noopener">www.journaldeleconomie.fr/marine-le-pen-recalee-par-toutes-les-banques-veut-changer-la-loi-pour-emprunter-aux-francais-je-nai-plus-le-choix/</a> <a href="#appel-6" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
         <h2 id="historique">Historique</h2>
-        <ul class="historique"><li>8 octobre 2026 : première publication.</li><li>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Le 13 octobre 2026, correction du remboursement public : les candidats sous 5 % ne sont pas privés de remboursement, mais celui-ci est plafonné à 4,75 % du plafond des dépenses (47,5 % au-delà) ; ajout des contributions des partis parmi les ressources ; retrait d'une position prêtée au médiateur du crédit, non sourcée ; sources primaires (CNCCFP, Service-public.fr) ajoutées.</li></ul>
+        <ul class="historique" id="corrections"><li>8 octobre 2026 : première publication.</li><li>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Le 13 octobre 2026, correction du remboursement public : les candidats sous 5 % ne sont pas privés de remboursement, mais celui-ci est plafonné à 4,75 % du plafond des dépenses (47,5 % au-delà) ; ajout des contributions des partis parmi les ressources ; retrait d'une position prêtée au médiateur du crédit, non sourcée ; sources primaires (CNCCFP, Service-public.fr) ajoutées.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
       </div>
       </div>

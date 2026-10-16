@@ -1,11 +1,13 @@
-import sys, os
+import sys, os, re
 OUT = sys.argv[1]
 
 NAV = [
-    ("dossiers.html", "Dossiers"),
-    ("methode.html", "Notre méthode"),
-    ("livres.html", "Monographies"),
-    ("index.html#lettre", "La lettre"),
+    ("index.html", "À la une"),
+    ("politique-institutions.html", "Politique"),
+    ("economie-societe.html", "Économie &amp; Société"),
+    ("affaires-enquetes.html", "Affaires &amp; Enquêtes"),
+    ("livres.html", "Livres"),
+    ("methode.html", "Méthode"),
 ]
 
 def A(t):  # élément à compléter avant publication
@@ -13,7 +15,7 @@ def A(t):  # élément à compléter avant publication
 
 def page(fichier, titre, description, corps, noindex=False):
     nav = "\n".join(
-        f'      <a href="{h}"{" aria-current=\"page\"" if h == fichier else ""}>{l}</a>' for h, l in NAV)
+        f'      <a href="{"./" if h == "index.html" else h}"{" aria-current=\"page\"" if h == fichier else ""}>{l}</a>' for h, l in NAV)
     titre_complet = "Le Petit Monographe · Documents & enquêtes" if fichier == "index.html" else f"{titre} · Le Petit Monographe"
     robots = '\n  <meta name="robots" content="noindex">' if noindex else ""
     url = "https://lepetitmonographe.com/" + ("" if fichier == "index.html" else fichier)
@@ -34,28 +36,32 @@ def page(fichier, titre, description, corps, noindex=False):
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
   <link rel="stylesheet" href="assets/style.css">
   <script>try{{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}}catch(e){{}}</script>
 </head>
 <body>
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
-<div class="bandeau-haut">Documents &amp; enquêtes · Politique · Économie · Société · Affaires judiciaires</div>
 <header class="entete">
   <div class="conteneur entete-haut">
-    <a class="logo" href="./"><img src="assets/medaillon.png" alt="" width="46" height="46"><span>Le Petit Monographe</span></a>
-    <nav class="nav" id="menu-principal" aria-label="Navigation principale">
-      <div class="nav-liens">
-{nav}
-      </div>
-    </nav>
+    <form class="recherche-entete" action="dossiers.html" method="get" role="search">
+      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="Rechercher un dossier, un sujet…" aria-label="Rechercher un dossier">
+    </form>
+    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="44" height="44"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-sous">Documents <em>&amp;</em> enquêtes</span></span></a>
     <div class="actions">
-      <a class="bouton-rond" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
-      <button class="bouton-rond bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></svg></button>
+      <a class="bouton-rond bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
+      <button class="bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><span class="theme-curseur" aria-hidden="true"></span><svg class="theme-lune" viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="currentColor"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+      <a class="bouton-abonner" href="index.html#lettre">S'abonner</a>
       <button class="bouton-rond bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
     </div>
   </div>
+  <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+    <div class="conteneur nav-liens">
+{nav}
+    </div>
+  </nav>
 </header>
 
 <main id="contenu">
@@ -191,68 +197,80 @@ portes = "\n".join(f'''        <a class="porte {c}" href="{h}">
           <span class="suite">Entrer dans la rubrique</span>
         </a>''' for h, c, t, d in RUBRIQUES)
 
+ICONES_STATUTS = {
+    "fait": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l4 4v14H7z M14 3v4h4 M9.5 12h6 M9.5 15h6 M9.5 18h4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>',
+    "temoignage": '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8.5" r="3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="16.5" cy="9.5" r="2.4" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3.5 19c.6-3.3 2.8-5 5.5-5s4.9 1.7 5.5 5 M14.5 14.6c.6-.3 1.3-.4 2-.4 2.3 0 3.9 1.5 4.4 4.3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>',
+    "interpretation": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 19V12 M11 19V6 M16 19v-9 M3.5 19.5h17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+    "hypothese": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 9.2a3 3 0 1 1 4.4 2.6c-.9.5-1.4 1.1-1.4 2.2v.6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="18" r="1" fill="currentColor"/></svg>',
+    "proposition": '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 14.5a5.5 5.5 0 1 1 7 0c-.7.6-1 1.3-1 2.1V17h-5v-.4c0-.8-.3-1.5-1-2.1z M10 20h4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+}
 STATUTS_ACCUEIL = [
-    ("fait", "Fait établi", "Donnée ou événement vérifiable, avec sa source et ses limites."),
-    ("temoignage", "Témoignage", "Parole attribuée, datée et contextualisée. Elle ne vaut pas preuve à elle seule."),
-    ("interpretation", "Interprétation", "Analyse argumentée, attribuée à son auteur et confrontée aux lectures concurrentes."),
-    ("hypothese", "Hypothèse", "Possibilité non confirmée, avec les conditions qui permettraient de la vérifier."),
-    ("proposition", "Proposition", "Mesure ou scénario, distinct des constats documentaires."),
+    ("fait", "Fait établi", "Éléments vérifiés et sourcés."),
+    ("temoignage", "Témoignage", "Paroles attribuées et datées."),
+    ("interpretation", "Interprétation", "Analyses attribuées à leur auteur."),
+    ("hypothese", "Hypothèse", "Pistes plausibles, non démontrées."),
+    ("proposition", "Proposition", "Pistes d'action, distinctes des constats."),
 ]
-_statuts_html = "\n".join(f'''        <div class="statut-carte statut-carte-{k}"><span class="statut-trait" aria-hidden="true"></span><h3>{t}</h3><p>{d}</p></div>''' for k, t, d in STATUTS_ACCUEIL)
-accueil = f'''  <section class="ouverture">
-    <div class="conteneur">
-      <img class="ouverture-logo" src="assets/medaillon.png" alt="" width="104" height="104">
-      <p class="surtitre"><span class="or">Documents &amp; enquêtes</span></p>
-      <h1>Les faits d'abord.<br><em>L'opinion reste au lecteur.</em></h1>
-      <p class="ouverture-intro">Des enquêtes documentées pour comprendre la politique, l'économie, la société et les affaires judiciaires. Des sources vérifiables, des contradictions présentées et des incertitudes explicites.</p>
-      <div class="ouverture-boutons">
-        <a class="bouton bouton-plein" href="#a-la-une">Découvrir les enquêtes</a>
-        <a class="bouton" href="methode.html">Notre méthode</a>
+_statuts_html = "\n".join(f'''          <li><span class="statut-icone">{ICONES_STATUTS[k]}</span><strong>{t}</strong><span>{d}</span></li>''' for k, t, d in STATUTS_ACCUEIL)
+_livres_accueil = "\n".join(f'''          <article class="livre-ligne"><img src="{couv}" alt="" width="96" height="144" loading="lazy"><div><h3>{re.sub(r"<[^>]+>", "", titre)}</h3><p>{resume}</p><a class="bouton bouton-fin" href="{lien}" target="_blank" rel="noopener">Voir sur Amazon</a></div></article>'''
+                            for c in ["c-pouvoirs", "c-economie", "c-affaires"] for titre, resume, lien, couv in LIVRES[c])
+
+accueil = f'''  <section class="une-tete">
+    <div class="conteneur une-tete-grille">
+      <div class="une-accroche">
+        <h1>Les faits d'abord.<br>L'opinion reste au lecteur.</h1>
+        <span class="filet-or" aria-hidden="true"></span>
+        <p>Des dossiers documentés qui distinguent les faits établis, les désaccords, les hypothèses et les zones d'incertitude.</p>
+        <ul class="une-rubriques">
+          <li><a href="politique-institutions.html">Politique</a></li>
+          <li><a href="economie-societe.html">Économie &amp; Société</a></li>
+          <li><a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a></li>
+          <li><a href="livres.html">Livres</a></li>
+          <li><a href="methode.html">Méthode</a></li>
+        </ul>
       </div>
-      <ul class="ouverture-engagements">
-        <li>Enquêtes sourcées</li>
-        <li>Points de vue confrontés</li>
-        <li>Corrections transparentes</li>
-      </ul>
+<!--VEDETTE-->
     </div>
   </section>
 
 <!--DERNIERS-->
 
-  <section class="manifeste" id="methode-accueil">
-    <div class="conteneur">
-      <p class="surtitre">Notre méthode</p>
-      <h2>Une information utile est une information dont on peut examiner les preuves.</h2>
-      <p class="manifeste-texte">Le Petit Monographe classe les énoncés selon leur statut, indique ses sources, présente les contradictions et signale les incertitudes. Nous ne demandons pas au lecteur d'adopter une opinion : nous lui donnons des éléments pour construire la sienne.</p>
-      <div class="statuts-grille">
+  <section class="section accueil-methode">
+    <div class="conteneur methode-grille">
+      <div class="methode-boite">
+        <div class="methode-intro">
+          <h2>Notre méthode</h2>
+          <span class="filet-or" aria-hidden="true"></span>
+          <p>Une information rigoureuse, claire et sourcée. Nos dossiers distinguent cinq niveaux de lecture pour mieux comprendre les débats publics.</p>
+          <a class="lien-fleche" href="methode.html">En savoir plus</a>
+        </div>
+        <ul class="statuts-icones">
 {_statuts_html}
+        </ul>
       </div>
-      <a class="bouton bouton-clair" href="methode.html">Lire la méthode complète</a>
+<!--GRAPHIQUE-->
     </div>
   </section>
 
-  <section class="section" id="monographies">
-    <div class="conteneur">
-      <div class="section-tete">
-        <div><p class="surtitre"><span class="or">Collection</span></p><h2>Les monographies</h2></div>
-        <p class="intro">Quand un article ne suffit plus, les livres permettent de parcourir l'ensemble du dossier avec davantage de profondeur.</p>
+  <section class="section accueil-livres" id="monographies">
+    <div class="conteneur livres-grille">
+      <div class="livres-intro">
+        <h2>Monographies</h2>
+        <span class="filet-or" aria-hidden="true"></span>
+        <p>Des ouvrages de référence pour comprendre en profondeur les grands enjeux français.</p>
+        <a class="lien-fleche" href="livres.html">Voir toutes les monographies</a>
       </div>
-{grille_livres(["c-pouvoirs", "c-economie", "c-affaires"])}
+{_livres_accueil}
     </div>
   </section>
 
-  <section class="lettre" id="lettre">
-    <div class="conteneur lettre-grille">
+  <section class="lettre-bande" id="lettre">
+    <div class="conteneur lettre-bande-grille">
       <div>
-        <p class="surtitre">Garder le fil des faits</p>
-        <h2>La lettre du Petit Monographe</h2>
-        <p>Les nouvelles enquêtes, les mises à jour et une sélection de sources documentaires. Sans polémique ni surcharge.</p>
+        <h2>La Lettre du Petit Monographe</h2>
+        <p>Les nouveaux dossiers, les mises à jour et une sélection de sources documentaires. Sans polémique ni surcharge.</p>
       </div>
-      <div class="lettre-annonce">
-        <p class="lettre-statut">Lancement prochain</p>
-        <p>L'inscription ouvrira ici dès que la lettre sera prête. En attendant, tous les dossiers et leurs mises à jour sont sur le site.</p>
-        <a class="bouton" href="dossiers.html">Voir tous les dossiers</a>
-      </div>
+      <p class="lettre-statut">Lancement prochain : l'inscription ouvrira ici.</p>
     </div>
   </section>'''
 
@@ -708,21 +726,40 @@ def rendre_dossier(chemin):
     src_html = "\n".join(
         f'          <li id="source-{i}">{_inline(t)}' + (f' <a href="{u}" rel="noopener">{u.replace("https://", "")}</a>' if u else "") + f' <a href="#appel-{i}" class="retour" aria-label="Retour au texte">↑</a></li>'
         for i, (t, u) in enumerate(sources, 1))
+    credit = _inline(meta.get("image_credit", ""))
+    if meta.get("image_lien"):
+        credit = f'<a href="{meta["image_lien"]}" target="_blank" rel="noopener">{credit}</a>'
+    image = (f'''<figure class="tete-dossier-image"><img src="{meta["image"]}" alt="{_html.escape(meta.get("image_alt", ""))}" loading="eager"><figcaption>Photo : {credit}</figcaption></figure>'''
+             if meta.get("image") else "")
+    garanties = [
+        ("verifie", "Faits vérifiés", f"Chiffres, dates et décisions relus sur les sources le {meta['verifie']}.") if meta.get("verifie") else None,
+        ("sources", "Sources citées", f"{len(sources)} documents identifiés, avec leur lien."),
+        ("independant", "Analyse indépendante", "Aucune affiliation partisane ; arguments contraires présentés."),
+        ("maj", "Données arrêtées", f"Au {meta['arret']}."),
+    ]
+    garanties_html = "".join(f'''<li class="garantie garantie-{k}"><strong>{t}</strong><span>{d}</span></li>''' for k, t, d in [g for g in garanties if g])
     corps = f'''  <section class="tete-page tete-dossier {c}">
     <div class="conteneur">
-      <p class="surtitre">Dossier · {RUB_NOMS[meta["rubrique"]]}</p>
-      <h1>{_inline(meta["titre"])}</h1>
-      <p class="meta-dossier">Données arrêtées au {meta["arret"]} · Première publication le {meta["publication"]}</p>
-      <p class="chapeau">{_inline(meta["chapeau"])}</p>
+      <div class="tete-dossier-grille">
+        <div class="tete-dossier-texte">
+          <p class="surtitre">Dossier · {RUB_NOMS[meta["rubrique"]]}</p>
+          <h1>{_inline(meta["titre"])}</h1>
+          <span class="filet-or" aria-hidden="true"></span>
+          <p class="chapeau">{_inline(meta["chapeau"])}</p>
+          <p class="meta-dossier">Publié le {meta["publication"]} · {len(sources)} sources · {"Vérifié le " + meta["verifie"] if meta.get("verifie") else "Données arrêtées au " + meta["arret"]}</p>
+        </div>
+        {image}
+      </div>
+      <ul class="garanties">{garanties_html}</ul>
     </div>
-  </section>{figure_dossier(meta)}
+  </section>
 
   <article class="section dossier">
     <div class="conteneur">
       <div class="prose">
 {"" if meta.get("verifie") else '        <p class="a-completer bandeau-verif">Version de travail : chaque chiffre doit être relu sur la publication d\'origine avant mise en ligne.</p>'}
-        <aside class="essentiel">
-          <p class="surtitre">L'essentiel</p>
+        <aside class="essentiel" id="synthese">
+          <p class="surtitre">Synthèse</p>
           <ul>{essentiel}</ul>
         </aside>
 {_blocs(texte)}
@@ -733,7 +770,7 @@ def rendre_dossier(chemin):
 {src_html}
         </ol>
         <h2>Historique</h2>
-        <ul class="historique"><li>{meta["publication"]} : première publication.</li>{f'<li>{meta["verifie"]} : chiffres, dates et décisions relus sur les sources d\'origine.{(" " + _inline(meta["corrections"])) if meta.get("corrections") else ""}</li>' if meta.get("verifie") else ""}</ul>
+        <ul class="historique" id="corrections"><li>{meta["publication"]} : première publication.</li>{f'<li>{meta["verifie"]} : chiffres, dates et décisions relus sur les sources d\'origine.{(" " + _inline(meta["corrections"])) if meta.get("corrections") else ""}</li>' if meta.get("verifie") else ""}</ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
       </div>
     </div>
@@ -741,7 +778,7 @@ def rendre_dossier(chemin):
     page(meta["fichier"], meta.get("titre_court", meta["titre"]), meta["resume"], corps)
     return meta
 
-_dossiers_simples = [rendre_dossier(f) for f in sorted(glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), "dossiers", "*.txt")))]
+_dossiers_simples = [rendre_dossier(f) for f in sorted(glob.glob(os.path.join(os.environ.get("LPM_DOSSIERS") or os.path.join(os.path.dirname(os.path.abspath(__file__)), "dossiers"), "*.txt")))]
 for m in _dossiers_simples:
     DOSSIERS.setdefault(RUB_CLASSES[m["rubrique"]], []).append((m["fichier"], _inline(m["titre"]), _inline(m["resume"])))
 # Les pages de rubrique sont regénérées avec la liste complète
@@ -760,30 +797,41 @@ A_LA_UNE = ["dossier-budget-2027.html", "dossier-usage-force-police.html", "doss
 _tous = {h: (c, t, d) for c, lst in DOSSIERS.items() for h, t, d in lst}
 _images = {"dossier-chomage-emploi.html": "assets/images/dossier-chomage-emploi.jpg"}
 _images.update({m["fichier"]: m["image"] for m in _dossiers_simples if m.get("image")})
-_RUB_COURT = {"c-pouvoirs": ("politique", "Politique &amp; Institutions"), "c-economie": ("economie", "Économie &amp; Société"), "c-affaires": ("affaires", "Affaires &amp; Enquêtes")}
-_cartes = "\n".join(f'''        <a class="porte {_tous[h][0]}" href="{h}" data-rubrique="{_RUB_COURT[_tous[h][0]][0]}">
-          <p class="surtitre">Dossier · {_RUB_COURT[_tous[h][0]][1]}</p>
+_RUB_COURT = {"c-pouvoirs": ("politique", "Politique"), "c-economie": ("economie", "Économie &amp; Société"), "c-affaires": ("affaires", "Affaires &amp; Enquêtes")}
+VEDETTE = "dossier-budget-2027.html"
+A_LA_UNE = ["dossier-usage-force-police.html", "dossier-immigration-finances-publiques.html",
+            "dossier-financement-campagnes.html", "dossier-gregory.html"]
+_vc, _vt, _vd = _tous[VEDETTE]
+_vedette = f'''      <a class="vedette" href="{VEDETTE}">
+        <div class="vedette-texte">
+          <p class="surtitre"><span class="or">Dossier</span></p>
+          <h2>{_vt}</h2>
+          <p>{_vd}</p>
+          <span class="lien-fleche">Lire le dossier</span>
+        </div>
+        <img src="{_images.get(VEDETTE, "")}" alt="" loading="eager">
+      </a>'''
+_cartes = "\n".join(f'''        <a class="carte-une" href="{h}">
+          <img src="{_images.get(h, "")}" alt="" loading="lazy">
+          <p class="surtitre">{_RUB_COURT[_tous[h][0]][1]}</p>
           <h3>{_tous[h][1]}</h3>
           <p>{_tous[h][2]}</p>
-          <span class="suite">Explorer le dossier</span>
+          <span class="lien-fleche">Lire le dossier</span>
         </a>''' for h in A_LA_UNE if h in _tous)
+_graph = _figures.rendre({"type": "barres", "titre": "Charge de la dette de l'État",
+    "unite": "Milliards d'euros, y compris la dette reprise de SNCF Réseau",
+    "donnees": [["2025", "51,6"], ["2026", "63,4*"], ["2027", "72,9*"]],
+    "source": "Projet de loi de finances pour 2027, 1er octobre 2026"}, 1, _inline)
+_graph = re.sub(r'<span class="graphique-num">Figure 01</span>', '<span class="graphique-num">Le graphique de la semaine</span>', _graph)
+_graph = re.sub(r'\s*<details class="graphique-donnees">.*?</details>', "", _graph, flags=re.S)
+_graph = _graph.replace('<figure class="graphique">', '<figure class="graphique graphique-accueil">', 1).replace("</figure>", '<a class="lien-fleche" href="dossier-dette-publique.html">Voir l\'analyse complète</a>\n        </figure>', 1)
 _idx = os.path.join(OUT, "index.html")
-_page_idx = open(_idx, encoding="utf-8").read().replace("<!--DERNIERS-->", f"""  <section class="section" id="a-la-une">
+_page_idx = open(_idx, encoding="utf-8").read().replace("<!--VEDETTE-->", _vedette).replace("<!--GRAPHIQUE-->", _graph).replace("<!--DERNIERS-->", f"""  <section class="section" id="a-la-une">
     <div class="conteneur">
-      <div class="section-tete">
-        <div><p class="surtitre">Une bibliothèque d'enquêtes</p><h2>À la une</h2></div>
-        <p class="intro">Une sélection parmi {sum(len(v) for v in DOSSIERS.values())} dossiers. Chaque publication distingue les faits établis des interprétations et des hypothèses.</p>
-      </div>
-      <div class="puces" role="group" aria-label="Filtrer par rubrique">
-        <button class="puce" type="button" data-puce="tous" aria-pressed="true">Tous les dossiers</button>
-        <button class="puce" type="button" data-puce="politique" aria-pressed="false">Politique</button>
-        <button class="puce" type="button" data-puce="economie" aria-pressed="false">Économie &amp; société</button>
-        <button class="puce" type="button" data-puce="affaires" aria-pressed="false">Affaires &amp; enquêtes</button>
-      </div>
-      <div class="portes" id="cartes-une">
+      <div class="titre-filet"><h2>À la une</h2><a class="lien-fleche" href="dossiers.html">Tous les dossiers</a></div>
+      <div class="cartes-une">
 {_cartes}
       </div>
-      <p class="voir-tout"><a class="bouton" href="dossiers.html">Tous les dossiers</a></p>
     </div>
   </section>""")
 open(_idx, "w", encoding="utf-8").write(_page_idx)
@@ -858,12 +906,36 @@ for c, h, t, d, m in _liste:
     art = re.sub(r"<h2>(.*?)</h2>", _ancre, art)
     sommaire_items = "".join(f'<li><a href="#{i}">{tx}</a></li>' for i, tx in titres)
     sommaire = f'''<details class="sommaire" open>
-          <summary>Sommaire</summary>
+          <summary>Dans ce dossier</summary>
           <ol>{sommaire_items}</ol>
         </details>'''
-    # mise en page en deux colonnes : texte + sommaire
-    art = art.replace('<div class="prose">', f'''<div class="dossier-grille">
-        <aside class="dossier-cote">{sommaire}</aside>
+    _src = re.findall(r'<li id="source-\d+">(.*?)(?: <a href="https?://| <a href="#appel)', art, flags=re.S)
+    _apercu = "".join(f'<li>{_texte_brut(x).strip()[:110]}{"…" if len(_texte_brut(x).strip()) > 110 else ""}</li>' for x in _src[:4])
+    _corr = re.search(r'<ul class="historique"[^>]*>.*?<li>.*?</li><li>(.*?)</li>', art, flags=re.S)
+    _corr_txt = _texte_brut(_corr.group(1)).strip() if _corr else ""
+    _corr_txt = (_corr_txt[:220] + "…") if len(_corr_txt) > 220 else _corr_txt
+    _a_frise = 'graphique-frise' in art
+    if _a_frise:
+        art = art.replace('<figure class="graphique graphique-frise">', '<figure class="graphique graphique-frise" id="chronologie">', 1)
+    actions = '''<div class="cote-actions">
+          <button type="button" class="bouton-cote" data-action="imprimer"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Enregistrer en PDF<small>ou imprimer le dossier</small></span></button>
+          <button type="button" class="bouton-cote" data-action="partager"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.6"/></svg><span>Partager ce dossier</span></button>
+        </div>'''
+    encarts = f'''<section class="cote-encart">
+          <div class="cote-encart-tete"><h2>Nos sources ({len(_src)})</h2><a href="#sources">Voir toutes les sources</a></div>
+          <ol class="cote-sources">{_apercu}</ol>
+        </section>
+        <section class="cote-encart">
+          <div class="cote-encart-tete"><h2>Corrections</h2><a href="contact.html">Signaler une erreur</a></div>
+          <p>{_corr_txt or "Aucune correction pour le moment. Si vous signalez une erreur, elle sera examinée et, le cas échéant, corrigée publiquement."}</p>
+        </section>'''
+    puces = "".join(f'<a href="#{a}">{t}</a>' for a, t in [("synthese", "Synthèse")] + ([("chronologie", "Chronologie")] if _a_frise else []) + [("sources", "Sources"), ("corrections", "Corrections")])
+    # mise en page en deux colonnes : texte + colonne latérale
+    art = art.replace('<div class="prose">', f'''<nav class="puces-dossier" aria-label="Accès rapide">{puces}</nav>
+      <div class="dossier-grille">
+        <aside class="dossier-cote">{sommaire}
+        {actions}
+        {encarts}</aside>
         <div class="prose">''', 1)
     art = art.rstrip()
     art = art[: art.rfind("</div>")]  # ferme .conteneur plus tard

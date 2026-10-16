@@ -3,45 +3,127 @@ rubrique: affaires
 titre: Affaire Romand : ce que la justice a établi
 titre_court: L'affaire Romand
 chapeau: En janvier 1993, un homme qui se faisait passer depuis plus de quinze ans pour un médecin de l'Organisation mondiale de la santé tue sa femme, ses deux enfants et ses parents. Condamné à perpétuité en 1996, il a obtenu une libération conditionnelle en 2019.
-resume: Faits jugés, expertises psychiatriques, peine et libération conditionnelle dans l'affaire Romand. Données arrêtées au 8 octobre 2026.
-arret: 8 octobre 2026
+resume: Mensonge de longue durée, faits jugés, procès de 1996 sans possibilité d'appel, expertises psychiatriques, peine de perpétuité et période de sûreté, règles de la libération conditionnelle des condamnés à perpétuité et décisions de 2019. Données arrêtées au 16 octobre 2026.
+arret: 16 octobre 2026
 publication: 8 octobre 2026
 image: assets/images/romand.jpg
 image_alt: Fronton du palais de justice de Bourg-en-Bresse
 image_credit: Chabe01, CC BY-SA 4.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Palais_Justice_-_Bourg-en-Bresse_(FR01)_-_2024-03-21_-_3.jpg
 verifie: 13 octobre 2026
-corrections: Le verdict de la cour d'assises de l'Ain date de juillet 1996, le procès s'étant ouvert le 25 juin 1996 : la mention d'une divergence entre juin et juillet a été retirée ; la sortie effective de prison, le 28 juin 2019, a été ajoutée et les renvois aux sources ont été corrigés.
+corrections: Le verdict de la cour d'assises de l'Ain date de juillet 1996, le procès s'étant ouvert le 25 juin 1996 : la mention d'une divergence entre juin et juillet a été retirée ; la sortie effective de prison, le 28 juin 2019, a été ajoutée et les renvois aux sources ont été corrigés. Le 16 octobre 2026, le dossier a été approfondi : genèse du mensonge, chronologie détaillée, procédure de 1996 (absence d'appel criminel à l'époque), thèses de l'accusation et de la défense, expertises, règles de la libération conditionnelle des condamnés à perpétuité, motifs des décisions de 2019 et débat sur la fin de peine, avec la date du verdict (2 juillet 1996).
 ---
 ## Essentiel
-- Jean-Claude Romand a été condamné en juillet 1996 par la cour d'assises de l'Ain à la réclusion criminelle à perpétuité, assortie d'une période de sûreté de 22 ans [1][2].
-- Il a tué en janvier 1993 son épouse, ses deux enfants et ses parents, au moment où le mensonge sur sa vie professionnelle allait être découvert [1].
+- Jean-Claude Romand a été condamné le 2 juillet 1996 par la cour d'assises de l'Ain à la réclusion criminelle à perpétuité, assortie d'une période de sûreté de 22 ans [1][2][5].
+- Il a tué en janvier 1993 son épouse, ses deux enfants et ses parents, au moment où le mensonge sur sa vie professionnelle allait être découvert ; il a aussi tenté de tuer sa maîtresse de l'époque, avant de l'épargner [1][5][10].
 - Les experts psychiatres n'ont pas retenu de trouble atténuant sa responsabilité [2].
-- Le 25 avril 2019, la cour d'appel de Bourges lui a accordé une libération conditionnelle, assortie d'obligations et d'interdictions ; il est sorti de prison le 28 juin 2019 [1][3].
+- En 1996, l'appel des verdicts de cour d'assises n'existait pas encore : il n'a été créé qu'en 2000 [12].
+- Le 25 avril 2019, la cour d'appel de Bourges lui a accordé une libération conditionnelle, assortie d'obligations et d'interdictions, après un refus en première instance ; il est sorti de prison le 28 juin 2019 [1][3][9].
+
+[À noter] Réclusion criminelle à perpétuité : peine la plus lourde du droit pénal français, qui n'exclut pas une libération. Période de sûreté : durée pendant laquelle le condamné ne peut pas être libéré ; à son terme, il devient « libérable », sans que sa sortie soit automatique ; dans cette affaire, 22 ans, présentée par la presse comme « la peine maximum » [6][7]. Libération conditionnelle : sortie de prison avant la fin de la peine, assortie d'obligations et de mesures de contrôle fixées par la juridiction [1][7]. Tribunal et chambre de l'application des peines : juridictions qui statuent sur ces demandes en première instance et en appel. Centre national d'évaluation (CNE) : service spécialisé dans l'observation des détenus et l'évaluation de leur dangerosité [1][11].
 
 ## État de la procédure
 
 [État de la procédure] La condamnation est définitive. Le condamné bénéficie depuis 2019 d'une libération conditionnelle, qui comporte notamment l'interdiction d'entrer en relation avec les victimes et les parties civiles et l'obligation de s'abstenir de toute communication médiatique relative à ses crimes [1]. Ce dossier ne traite pas de sa vie depuis sa libération.
 
+## Un mensonge de dix-huit ans
+
+[Fait établi] Selon les récits de presse fondés sur l'enquête et le procès, il échoue en 1975 à la dernière épreuve de sa deuxième année de médecine à Lyon, n'en dit rien à ses proches et se réinscrit chaque année en deuxième année jusqu'en 1985, sans passer les examens [8]. Les enquêteurs constateront qu'il n'était inscrit ni à l'Ordre des médecins ni dans les effectifs de l'OMS ou de l'Inserm, et qu'il n'avait jamais obtenu de diplôme de médecine [6].
+
+[Fait établi] Pendant plus de quinze ans, il a fait croire à son entourage qu'il était médecin et chercheur à l'Organisation mondiale de la santé, à Genève [1][2]. Il vivait de l'argent confié par ses proches, qu'il prétendait placer en Suisse, selon Le Temps [5]. Europe 1 évalue à un peu plus de 3 millions d'euros les sommes ainsi obtenues dans les huit années précédant les faits [6] ; nous n'avons pas trouvé de décision de justice confirmant ce montant.
+
+[Interprétation] Selon les mêmes sources, la crainte d'être découvert s'est accrue dans les mois précédant les faits : son épouse aurait commencé à avoir des soupçons, et sa maîtresse demandait le remboursement de ses économies [5][6]. Le moment précis où il a décidé de passer à l'acte « n'a jamais été complètement élucidé », écrit Le Temps [5].
+
+## Chronologie détaillée
+
+[Figure] frise
+titre: Les principales étapes de l'affaire Romand
+donnees:
+- 1975 | Échec à la fin de la deuxième année de médecine, dissimulé à ses proches [8]. | Fait établi
+- 1975-1985 | Réinscriptions annuelles en deuxième année sans passer les examens [8]. | Fait établi
+- 9-11 janvier 1993 | Il tue son épouse, ses deux enfants puis ses parents, tente de tuer sa maîtresse, puis est retrouvé inconscient dans sa maison incendiée de Prévessin-Moëns (Ain) [5][6][8]. | Fait établi
+- Janvier 1993 | Hospitalisé à Genève dans le coma, il est arrêté ; il nie d'abord, puis reconnaît les faits devant le juge [5][6]. | Procédure
+- 25 juin 1996 | Ouverture du procès devant la cour d'assises de l'Ain, à Bourg-en-Bresse [4][10]. | Procédure
+- 2 juillet 1996 | Réclusion criminelle à perpétuité, avec une période de sûreté de 22 ans [5][6]. | Décision de justice
+- 2015 | Fin de la période de sûreté : il devient « libérable » [1][7]. | Fait établi
+- Septembre 2018 | Dépôt de sa demande de libération conditionnelle [2][8]. | Procédure
+- 8 février 2019 | Le tribunal de l'application des peines de Châteauroux rejette la demande [7][9]. | Décision de justice
+- 25 avril 2019 | La chambre de l'application des peines de la cour d'appel de Bourges accorde la libération conditionnelle [1][13]. | Décision de justice
+- 28 juin 2019 | Sortie de la maison centrale de Saint-Maur (Indre), après 26 ans de détention [3][5]. | Fait établi
+source: Décisions et communiqués judiciaires rapportés par la presse ; voir les sources du dossier
+
+[Fait établi] Les dates des crimes varient selon les sources. Le Temps et Slate situent le passage à l'acte au 9 janvier 1993, Slate datant du lendemain le meurtre de ses parents ; Europe 1 retient le 11 janvier 1993, jour où l'incendie de la maison est découvert vers 4 heures du matin et où il avait rendez-vous avec sa maîtresse [5][6][8]. Nous retenons donc la période du 9 au 11 janvier 1993.
+
 ## Les faits jugés
 
-[Fait établi] Pendant plus de quinze ans, il a fait croire à son entourage qu'il était médecin et chercheur à l'Organisation mondiale de la santé [1][2].
+[Fait établi] En janvier 1993, alors que la vérité allait être découverte, il tue son épouse, ses deux enfants et ses parents [1]. Il est jugé par la cour d'assises de l'Ain, à Bourg-en-Bresse ; le procès s'ouvre le 25 juin 1996 et le verdict est rendu le 2 juillet 1996 [2][4][5]. Un reportage de l'INA consacré à l'ouverture du procès indique qu'il comparaît pour ces cinq meurtres et pour une tentative d'assassinat sur sa maîtresse [10]. Nous n'avons pas trouvé le texte de l'arrêt précisant les qualifications retenues.
 
-[Fait établi] En janvier 1993, alors que la vérité allait être découverte, il tue son épouse, ses deux enfants et ses parents [1]. Il est jugé par la cour d'assises de l'Ain, à Bourg-en-Bresse ; le procès s'ouvre le 25 juin 1996 et le verdict est rendu en juillet 1996 [2][4].
+[Fait établi] Les faits n'étaient pas contestés à l'audience : selon Europe 1, il « ne nie pas » à la barre et demande pardon le dernier jour du procès [6]. Le débat a porté sur le sens de ses actes et sur sa responsabilité, non sur leur matérialité.
 
-[Expertise] Les psychiatres présents au procès l'ont décrit comme un « mythomane atteint d'une pathologie narcissique », sans trouble neuropsychique susceptible d'atténuer sa responsabilité pénale [2].
+## La procédure de 1996 expliquée
+
+[Fait établi] En 1996, un verdict de cour d'assises ne pouvait pas faire l'objet d'un appel. Ce n'est que depuis la loi du 15 juin 2000 qu'une autre cour d'assises peut rejuger entièrement une affaire [12]. Le seul recours ouvert était le pourvoi en cassation, limité au contrôle du droit ; nous n'avons pas trouvé de source indiquant si un pourvoi a été formé dans cette affaire.
+
+[Fait établi] Les arrêts de cour d'assises n'étaient pas non plus motivés à l'époque : la cour répondait par oui ou par non à une liste de questions, le système ayant été jugé conforme à la Constitution en 2011 avant d'être réformé la même année [12]. Il n'existe donc pas de « feuille de motivation » expliquant le verdict de 1996.
+
+[Fait établi] Après quatre heures de délibéré, selon Europe 1, la cour prononce la réclusion criminelle à perpétuité assortie d'une période de sûreté de 22 ans, que le média présente comme « la peine maximum » [6].
+
+## Accusation, défense, expertises
+
+[Débat] L'avocat général, Jean-Olivier Viout, soutenait la préméditation, en invoquant des achats préalables (somnifères, munitions, bombes lacrymogènes, bidons d'essence), et contestait la sincérité de la tentative de suicide finale, en relevant les précautions prises pour être secouru [6]. Dans son réquisitoire, il s'était exclamé : « C'est à devenir fou ! » [8]. La défense plaidait au contraire l'engrenage d'un homme pris au piège de ses mensonges ; la thèse du suicide sincère était aussi soutenue, selon Europe 1, par des experts psychiatres [6]. La cour a prononcé la peine la plus lourde, sans que l'on puisse, faute de motivation écrite, savoir précisément quels arguments elle a retenus [6][12].
+
+[Expertise] Les psychiatres présents au procès l'ont décrit comme un « mythomane atteint d'une pathologie narcissique », sans trouble neuropsychique susceptible d'atténuer sa responsabilité pénale [2]. D'autres formulations d'experts, rapportées par Slate, évoquent une « rage narcissique » ou une « béance narcissique » [8]. Pour les experts, selon Europe 1, il était responsable de ses actes [6].
+
+[Témoignage] Interrogé par la présidente de la cour sur ses raisons, il répond, selon le récit qu'en donne l'écrivain Emmanuel Carrère : « Je me suis posé tous les jours la question pendant vingt ans. Je n'ai pas de réponse » [8]. Cette déclaration de l'accusé n'est pas une explication établie par la justice.
+
+[Interprétation] Le procès a établi les faits et la responsabilité pénale ; il n'a pas fourni d'explication complète du passage à l'acte. Emmanuel Carrère, qui a assisté au procès et correspondu avec lui, en a tiré le livre L'Adversaire (2000), adapté au cinéma en 2002, sans avoir, selon Le Temps, réussi à « dénouer les fils de sa dérive mythomane » [5][8].
 
 ## L'exécution de la peine
 
-[Fait établi] Libérable depuis 2015 à l'issue de la période de sûreté, il a vu une première demande de libération conditionnelle rejetée le 8 février 2019 par le tribunal de l'application des peines de Châteauroux [1]. La chambre de l'application des peines de la cour d'appel de Bourges a infirmé ce refus le 25 avril 2019. Selon le communiqué du parquet général de Bourges, la mesure comprend une période probatoire de deux ans sous surveillance électronique, puis dix ans de mesures d'assistance et de contrôle, ainsi que l'interdiction de se rendre en Île-de-France, en Bourgogne-Franche-Comté et en Auvergne-Rhône-Alpes [1].
+[Fait établi] En détention, il est décrit par la presse comme un détenu modèle : il s'occupait de l'alphabétisation d'autres détenus et d'un atelier de numérisation d'archives de l'INA [5][8].
+
+[Fait établi] Libérable depuis 2015 à l'issue de la période de sûreté, il ne dépose sa demande de libération conditionnelle qu'en septembre 2018 [2][8]. Une première demande est rejetée le 8 février 2019 par le tribunal de l'application des peines de Châteauroux [1]. Selon le communiqué du parquet de Châteauroux, le tribunal a estimé qu'« en dépit de son parcours d'exécution de peine satisfaisant, les éléments du projet présenté et de sa personnalité ne permettent pas, en l'état, d'assurer un juste équilibre entre le respect des intérêts de la société, des droits des victimes et de la réinsertion du condamné » [9]. Selon Europe 1, le changement de projet de sortie, d'un emploi chez Emmaüs vers l'accueil dans une communauté religieuse, avait fait douter le tribunal [7].
+
+[Fait établi] La chambre de l'application des peines de la cour d'appel de Bourges a infirmé ce refus le 25 avril 2019. Selon le communiqué du parquet général de Bourges, la mesure comprend une période probatoire de deux ans sous surveillance électronique, puis dix ans de mesures d'assistance et de contrôle, ainsi que l'interdiction de se rendre en Île-de-France, en Bourgogne-Franche-Comté et en Auvergne-Rhône-Alpes [1]. Il doit aussi réparer en tout ou partie les dommages causés et se soumettre à des mesures d'examen médical, de traitement ou de soins [7].
 
 [Fait établi] Il est sorti de la prison de Saint-Maur (Indre) le 28 juin 2019, date limite fixée par la cour d'appel, après 26 ans de détention [3].
 
+## Comment un condamné à perpétuité peut être libéré
+
+[Fait établi] Selon une réponse du ministère de la Justice publiée le 21 mai 2019, les lois du 25 février 2008 et du 10 août 2011 ont rendu obligatoire, avant toute libération conditionnelle d'un condamné à la réclusion criminelle à perpétuité, l'avis d'une commission pluridisciplinaire des mesures de sûreté, qui devait faire placer le condamné au centre national d'évaluation pour une évaluation pluridisciplinaire de dangerosité assortie d'une expertise médicale. La loi du 23 mars 2019 a supprimé l'avis de la commission, jugé redondant : le tribunal de l'application des peines peut désormais statuer directement après l'évaluation, qui reste exigée [11].
+
+[Fait établi] La même réponse rappelle que les juridictions de l'application des peines doivent prendre en considération les intérêts de la victime ou de la partie civile, et que l'avocat de la partie civile peut assister au débat contradictoire et présenter ses observations lorsque la demande concerne une longue peine [11]. Dans l'affaire Romand, les frères de l'épouse tuée étaient représentés lors de l'audience de janvier 2019 [9].
+
+[Fait établi] Les sources consultées ne précisent pas les conclusions de l'évaluation de dangerosité dont il a fait l'objet, ni la version de la procédure appliquée à sa demande, déposée avant la loi du 23 mars 2019 [2][11].
+
+## Ce qui fait débat : la fin de peine d'un crime de cette gravité
+
+[Débat] Contre la libération, l'avocate des frères de l'épouse estimait en 2019 que le dossier ne permettait « pas d'envisager sérieusement la libération » [9]. Un ancien beau-frère rappelait en 2018 : « Tout le monde dit qu'il est un détenu modèle. Mais il y a vingt-cinq ans aussi, c'était un gendre modèle, un mari modèle, un beau-frère modèle » [8]. L'argument de fond est que le comportement en détention d'un homme qui a trompé ses proches pendant des années ne suffit pas à garantir l'absence de danger.
+
+[Débat] Pour la libération, la cour d'appel a jugé que les conditions étaient réunies, en encadrant strictement la mesure [1][7]. La maire de Prévessin-Moëns déclarait en 2019 : « Pour ma part, il a purgé sa peine », tout en souhaitant qu'il ne revienne pas dans la région [7]. L'argument juridique général, rappelé par Slate, est que la Cour européenne des droits de l'homme a rappelé en 2014 qu'il ne pouvait y avoir de peine incompressible [8]. Le droit français prévoit ce réexamen sous conditions ; le débat porte sur son application à un cas donné, non sur son principe.
+
+## Ce que l'affaire a changé
+
+[Fait établi] Nous n'avons trouvé aucune source attribuant à l'affaire Romand une réforme législative. L'appel criminel, créé en 2000, et la motivation des arrêts d'assises, imposée en 2011, sont des réformes générales qui ne s'appliquaient pas à son procès [12]. L'affaire a en revanche nourri une importante production littéraire et cinématographique, dont L'Adversaire d'Emmanuel Carrère [5][8].
+
 ## Ce qu'on ne sait pas
 - **Les raisons profondes de son passage à l'acte**, que le procès et les expertises n'ont pas permis d'expliquer entièrement.
+- **Les qualifications pénales exactes retenues par l'arrêt de 1996**, dont nous n'avons pas trouvé le texte.
+- **Le montant des sommes détournées** tel qu'établi par la justice, la presse avançant des estimations sans source judiciaire citée [6].
+- **Les conclusions de l'évaluation de dangerosité** réalisée avant la décision de 2019 [11].
+- **La date exacte de chacun des crimes**, entre le 9 et le 11 janvier 1993, les sources divergeant [5][6][8].
 
 ## Sources
 - Le Temps, avec AFP, « Jean-Claude Romand obtient la liberté conditionnelle en appel », 25 avril 2019, citant le communiqué du parquet général de Bourges. | https://www.letemps.ch/monde/europe/jeanclaude-romand-obtient-liberte-conditionnelle-appel
 - Le Quotidien du médecin, Marie Foult, « Jean-Claude Romand, le faux médecin condamné à perpétuité, demande sa libération », 10 septembre 2018. | https://www.lequotidiendumedecin.fr/actus-medicales/sante-publique/jean-claude-romand-le-faux-medecin-condamne-perpetuite-demande-sa-liberation
 - Le Temps, avec AFP, « Après 26 ans de détention, le faux docteur Romand est sorti de prison », 28 juin 2019. | https://www.letemps.ch/monde/apres-26-ans-detention-faux-docteur-romand-sorti-prison
 - Tendance Ouest, avec AFP, « Vingt-six ans après ses crimes, la justice libère le faux docteur Romand », 25 avril 2019 (photographie du procès datée du 25 juin 1996). | https://www.tendanceouest.com/actualite-319719-vingt-six-ans-apres-ses-crimes-la-justice-libere-le-faux-docteur-romand
+- Le Temps, « Jean-Claude Romand, libéré de prison, pas de ses fantômes », 28 juin 2019. | https://www.letemps.ch/monde/europe/jeanclaude-romand-libere-prison-fantomes
+- Europe 1, « L'affaire Jean-Claude Romand : quinze ans de mensonges, cinq meurtres », 13 mai 2019. | https://www.europe1.fr/societe/laffaire-jean-claude-romand-cinq-meurtres-et-quinze-ans-de-mensonges-3898354
+- Europe 1, « Procédure, délai, conditions : trois questions sur la libération de Jean-Claude Romand », 25 avril 2019. | https://www.europe1.fr/societe/procedure-delai-conditions-trois-questions-sur-la-liberation-de-jean-claude-romand-3895060
+- Slate, « Jean-Claude Romand, l'impossible explication », 21 novembre 2018. | https://www.slate.fr/story/170148/justice-jean-claude-romand-demande-remise-en-liberte
+- Tendance Ouest, avec AFP, « Affaire Romand : la demande de libération conditionnelle rejetée », 8 février 2019. | https://www.tendanceouest.com/actualite-310873-affaire-romand-la-demande-de-liberation-conditionnelle-rejetee
+- INA, « Start of the trial of Jean-Claude Romand » (ouverture du procès de Jean-Claude Romand), reportage du 25 juin 1996. | https://mediaclip.ina.fr/en/cab96036512-start-of-the-trial-of-jean-claude-romand.html
+- Assemblée nationale, question écrite n° 19156 d'Éric Ciotti sur l'article 730-2 du code de procédure pénale et réponse du ministère de la Justice (JO du 21 mai 2019). | https://questions.assemblee-nationale.fr/dyn/15/questions/QANR5L15QE19156.pdf
+- Conseil constitutionnel, commentaire de la décision n° 2011-113/115 QPC du 1er avril 2011 (motivation des arrêts de cour d'assises et appel criminel). | https://webview-ccfr.sites.prod.conseilconstitutionnel.aquaray.com/sites/default/files/as/root/bank_mm/decisions/2011113qpc/ccc_113qpc.pdf
+- Le Quotidien du médecin, « Le faux médecin Jean-Claude Romand bientôt en liberté conditionnelle », 25 avril 2019. | https://www.lequotidiendumedecin.fr/actu-medicale/sante-publique/le-faux-medecin-jean-claude-romand-bientot-en-liberte-conditionnelle

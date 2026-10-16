@@ -31,6 +31,21 @@
     });
   }
 
+  // Dossier : enregistrer en PDF (impression) et partager
+  Array.prototype.forEach.call(document.querySelectorAll('[data-action]'), function (b) {
+    b.addEventListener('click', function () {
+      if (b.getAttribute('data-action') === 'imprimer') { window.print(); return; }
+      var url = window.location.href.split('#')[0];
+      if (navigator.share) { navigator.share({ title: document.title, url: url }).catch(function () {}); return; }
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(url).then(function () {
+          var t = b.querySelector('span'); var avant = t.innerHTML; t.textContent = 'Lien copié';
+          setTimeout(function () { t.innerHTML = avant; }, 2000);
+        });
+      }
+    });
+  });
+
   // Filtres « À la une » sur l'accueil
   var puces = Array.prototype.slice.call(document.querySelectorAll('.puce'));
   var une = document.getElementById('cartes-une');
@@ -83,6 +98,8 @@
     vide.hidden = n !== 0;
   }
   champ.addEventListener('input', appliquer);
+  var q = new URLSearchParams(window.location.search).get('q');
+  if (q) { champ.value = q; appliquer(); }
   filtres.forEach(function (f) {
     f.addEventListener('click', function () {
       rubrique = f.getAttribute('data-filtre');

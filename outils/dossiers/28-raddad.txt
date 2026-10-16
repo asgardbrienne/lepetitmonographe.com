@@ -3,25 +3,28 @@ rubrique: affaires
 titre: Affaire Omar Raddad : pourquoi la révision a été refusée
 titre_court: L'affaire Omar Raddad
 chapeau: Condamné en 1994 pour le meurtre de son employeuse à Mougins, Omar Raddad a été partiellement gracié mais jamais innocenté. Sa deuxième demande de révision, fondée sur des traces ADN, a été rejetée en 2022 par la commission d'instruction de la Cour de révision.
-resume: Condamnation, grâce, traces ADN découvertes en 2015 et décision de la juridiction de révision. Données arrêtées au 8 octobre 2026.
-arret: 8 octobre 2026
+resume: Condamnation sans appel possible, grâce, deux demandes de révision, traces ADN découvertes en 2001 et 2015, fonctionnement et statistiques de la procédure de révision, réforme de 2014 et débats sur le doute. Données arrêtées au 16 octobre 2026.
+arret: 16 octobre 2026
 publication: 8 octobre 2026
 image: assets/images/raddad.jpg
 image_alt: Le village de Mougins
 image_credit: Rinaldi, CC BY-SA 3.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Mougins_village_(06).JPG
 verifie: 13 octobre 2026
-corrections: Ghislaine Marchal a été tuée en juin 1991 (corps découvert le 24 juin), et non le 2 juin 1991 ; la peine (dix-huit ans de réclusion criminelle), la date de la grâce (10 mai 1996), la libération conditionnelle de 1998, le rejet de la première révision en 2002 et la loi du 20 juin 2014 ont été précisés ; le rejet de 2022 est attribué à la commission d'instruction de la Cour de révision, avec son motif ; une source inaccessible a été remplacée par des dépêches AFP.
+corrections: Ghislaine Marchal a été tuée en juin 1991 (corps découvert le 24 juin), et non le 2 juin 1991 ; la peine (dix-huit ans de réclusion criminelle), la date de la grâce (10 mai 1996), la libération conditionnelle de 1998, le rejet de la première révision en 2002 et la loi du 20 juin 2014 ont été précisés ; le rejet de 2022 est attribué à la commission d'instruction de la Cour de révision, avec son motif ; une source inaccessible a été remplacée par des dépêches AFP. Le 16 octobre 2026, le dossier a été approfondi : procédure de révision expliquée et chiffrée, réforme de 2014, chronologie enrichie (2000, 2001, 2011, 2021), éléments du procès de 1994 séparés entre éléments matériels, expertises et témoignages, motifs des deux rejets, divergence des sources sur l'inscription portant l'ADN, positions des parties et questions ouvertes.
 ---
 ## Essentiel
 - Ghislaine Marchal a été retrouvée morte le 24 juin 1991 dans sa propriété de Mougins, dans les Alpes-Maritimes [5].
-- Son jardinier, Omar Raddad, a été condamné le 2 février 1994 à dix-huit ans de réclusion criminelle ; il a bénéficié d'une grâce partielle en 1996, qui ne l'a pas innocenté [1][2].
-- Quatre profils ADN masculins non identifiés, ne correspondant pas au sien, ont été découverts en 2015 sur des scellés de la scène de crime [2][3].
+- Son jardinier, Omar Raddad, a été condamné le 2 février 1994 à dix-huit ans de réclusion criminelle, sans possibilité d'appel à l'époque ; il a bénéficié d'une grâce partielle en 1996, qui ne l'a pas innocenté [1][2][6].
+- Des ADN masculins ne correspondant pas au sien ont été mis en évidence sur des scellés en 2001, puis quatre profils non identifiés en 2015 ; la justice a estimé, en 2002 comme en 2022, qu'on ne pouvait pas dater leur dépôt par rapport au meurtre [1][2][3][6].
 - Sa deuxième requête en révision a été rejetée le 13 octobre 2022 par la commission d'instruction de la Cour de révision [3][5]. Son avocate a annoncé son intention de saisir la Cour européenne des droits de l'homme [3][5].
+- La révision est rarissime : de 1989 à 2013, 84 demandes sur 3 358 ont atteint la Cour de révision, et 8 condamnations criminelles ont été révisées, selon un rapport de l'Assemblée nationale [10].
+
+[À noter] Condamnation définitive : décision qui ne peut plus faire l'objet d'un recours ordinaire. Grâce : mesure du président de la République qui dispense de tout ou partie de la peine, sans effacer la condamnation [2][6]. Révision : recours exceptionnel contre une condamnation définitive, ouvert notamment lorsqu'un fait nouveau ou un élément inconnu de la juridiction au jour du procès est de nature à établir l'innocence du condamné ou à faire naître un doute sur sa culpabilité [10][11]. Commission d'instruction : formation qui instruit la demande et décide de saisir ou non la formation de jugement de la Cour de révision ; elle peut ordonner des investigations [6][10]. Recherche en parentèle : comparaison d'un ADN inconnu avec des fichiers génétiques pour identifier des membres de la famille de son porteur [3].
 
 ## État de la procédure
 
-[État de la procédure] La condamnation de 1994 reste définitive. La commission d'instruction de la Cour de révision a rejeté le 13 octobre 2022 la requête en révision déposée le 24 juin 2021 [3][5]. Une requête devant la Cour européenne des droits de l'homme a été annoncée ; nous n'avons trouvé, au 13 octobre 2026, ni décision de cette Cour ni nouvelle requête en révision rendue publique.
+[État de la procédure] La condamnation de 1994 reste définitive. La commission d'instruction de la Cour de révision a rejeté le 13 octobre 2022 la requête en révision déposée le 24 juin 2021 [3][5]. Une requête devant la Cour européenne des droits de l'homme a été annoncée ; nous n'avons trouvé, au 16 octobre 2026, ni décision de cette Cour ni nouvelle requête en révision rendue publique.
 
 ## Les faits jugés
 
@@ -32,35 +35,93 @@ donnees:
 - 2 février 1994 | Condamnation du jardinier à dix-huit ans de réclusion criminelle, sans appel possible à l'époque [1][2]. | Décision de justice
 - 10 mai 1996 | Grâce présidentielle partielle, qui n'efface pas la condamnation [1][2]. | Fait établi
 - Septembre 1998 | Libération conditionnelle [1][2]. | Fait établi
+- 2 février 2000 | La commission de révision ordonne de nouvelles investigations, dont une expertise d'écriture [1]. | Procédure
+- 2001 | Des ADN masculins ne correspondant pas au condamné sont mis en évidence ; la commission saisit la Cour de révision le 25 juin 2001 [1][6]. | Procédure
 - 20 novembre 2002 | Rejet d'une première demande de révision [1][2]. | Décision de justice
+- 20 juin 2014 | Loi réformant la révision, publiée au Journal officiel le 21 juin 2014 [12]. | Fait établi
 - Novembre 2015 | Quatre empreintes génétiques masculines non identifiées relevées sur des scellés [2][3]. | Élément matériel
 - 24 juin 2021 | Dépôt d'une deuxième requête en révision [2][3]. | Procédure
+- 16 décembre 2021 | La commission d'instruction ordonne un complément d'information [6]. | Procédure
 - 13 octobre 2022 | Rejet de la requête : la condamnation reste définitive [3][5]. | Décision de justice
 source: Décisions de justice rapportées par la presse ; voir les sources du dossier
 
-[Fait établi] Ghislaine Marchal, 65 ans, a été tuée dans sa propriété de Mougins en juin 1991 ; son corps a été découvert le 24 juin 1991 dans la cave, où figuraient deux inscriptions tracées avec son sang, « Omar m'a tuer » et « Omar m'a t » [2][5]. Selon la chronologie de l'enquête, elle a été tuée la veille, le dimanche 23 juin [1] ; certaines dépêches datent la découverte du 23 juin [2].
+[Fait établi] Ghislaine Marchal, 65 ans, a été tuée dans sa propriété de Mougins en juin 1991 ; son corps a été découvert le 24 juin 1991 dans la cave, où figuraient deux inscriptions tracées avec son sang, « Omar m'a tuer » et « Omar m'a t » [2][5]. Selon la chronologie de l'enquête, elle a été tuée la veille, le dimanche 23 juin [1][7] ; certaines dépêches datent la découverte du 23 juin [2].
 
-[Fait établi] Son jardinier est condamné pour ce meurtre le 2 février 1994 par la cour d'assises des Alpes-Maritimes, à dix-huit ans de réclusion criminelle, sans possibilité d'appel à l'époque [1][2].
+[Fait établi] Son jardinier est condamné pour ce meurtre le 2 février 1994 par la cour d'assises des Alpes-Maritimes, à Nice, à dix-huit ans de réclusion criminelle, sans possibilité d'appel à l'époque [1][2][9]. L'appel des verdicts de cour d'assises n'a été créé que par la loi du 15 juin 2000 [15].
 
-[Fait établi] Le 10 mai 1996, il bénéficie d'une grâce présidentielle partielle, puis d'une libération conditionnelle en septembre 1998 [1][2]. Une grâce dispense de tout ou partie de la peine mais n'efface pas la condamnation [2].
+[Fait établi] Le 10 mai 1996, il bénéficie d'une grâce présidentielle partielle, puis d'une libération conditionnelle en septembre 1998 [1][2]. Selon Wikipédia, qui cite Libération du 11 mai 1996, la grâce réduisait sa peine de quatre ans et huit mois et répondait notamment à une demande du roi du Maroc [1]. Une grâce dispense de tout ou partie de la peine mais n'efface pas la condamnation [2][6].
 
-## La demande de révision
+## Le procès de 1994 : ce qui a été débattu
 
-[Fait établi] Une première demande de révision a été rejetée par la Cour de révision le 20 novembre 2002 [1][2].
+[Élément matériel] L'élément central de l'accusation était la double inscription désignant « Omar », tracée avec le sang de la victime dans la cave dont l'accès était bloqué de l'intérieur [1][9]. Le Journal de l'année Larousse 1995 relevait que le procès n'avait apporté de certitude « ni sur la nature de l'arme blanche », ni sur l'auteur des inscriptions, ni sur la culpabilité de l'accusé [9].
 
-[Élément matériel] En novembre 2015, des analyses révèlent sur des scellés de la scène de crime quatre empreintes génétiques correspondant à quatre hommes non identifiés, qui ne correspondent pas à celle du condamné [2][3].
+[Expertise] Lors de l'instruction, un premier expert en écritures et une contre-expertise ont attribué les inscriptions à la victime ; selon Wikipédia, le premier expert a reconnu à l'audience une part d'incertitude. Une expertise présentée par la défense en 1999 a conclu que l'écriture n'était pas celle de la victime, et deux expertes désignées ensuite par la commission de révision ont estimé qu'on ne pouvait pas « raisonnablement comparer » des écrits produits dans des conditions aussi différentes [1]. Ces expertises divergentes n'ont pas permis d'établir avec certitude l'auteur des inscriptions [1][10].
 
-[Expertise] Dans des notes de 2019 et 2020, un expert en génétique sollicité par la défense relève la présence répétée de l'un de ces ADN, notamment sur l'inscription « Omar m'a tuer », et privilégie l'hypothèse d'un dépôt au moment des faits plutôt que d'une pollution ultérieure [2][3].
+[Fait établi] La date et l'heure du crime ont été disputées : l'accusation retenait le dimanche 23 juin à la mi-journée, moment pour lequel l'emploi du temps donné par l'accusé n'a pas été confirmé par les personnes interrogées ; une erreur de date dans un rapport, relevée par la défense, a nourri la controverse [1]. Dans le cadre de la première demande de révision, la commission a désigné trois experts pour déterminer la date de la mort, selon le rapport de l'Assemblée nationale de 2013 [10].
 
-[Fait établi] Le 24 juin 2021, une deuxième requête en révision est déposée, en s'appuyant sur ces analyses et sur la loi du 20 juin 2014, qui a assoupli les conditions de révision d'une condamnation pénale définitive [2][3]. En décembre 2021, la commission d'instruction de la Cour de révision ordonne des investigations complémentaires, puis rejette la requête le 13 octobre 2022 [3][4][5].
+[Fait établi] Selon Wikipédia, les premières analyses n'ont relevé aucune trace de l'accusé sur la scène du crime, ni de trace de la victime sur ses vêtements, et aucune empreinte digitale exploitable [1]. La condamnation repose donc sur l'appréciation de l'ensemble des éléments par la cour d'assises, dont l'arrêt n'était pas motivé à l'époque [15].
 
-[Fait établi] La révision d'une condamnation suppose un fait nouveau ou un élément inconnu au jour du procès, de nature à faire naître un doute sur la culpabilité. La commission d'instruction a estimé que « la découverte de nouvelles empreintes ne suffit pas, à elle seule, à établir leur rapport avec les faits, ces traces ayant pu être laissées antérieurement ou postérieurement au meurtre » [3]. Elle n'a pas jugé justifié le recours à un portrait-robot génétique ou à des recherches en parentèle [1]. Nous n'avons pas consulté le texte intégral de la décision.
+[Débat] À l'audience, l'avocat de la défense, Jacques Vergès, soutenait que les inscriptions étaient l'œuvre du meurtrier : « Ce procès est celui du doute. Si vous condamnez, il sera celui de la honte » [9]. La partie civile, représentée par Henri Leclerc, défendait la thèse d'une dénonciation par la victime elle-même ; la cour l'a suivie en condamnant l'accusé [9].
 
-[Débat] Pour les défenseurs du condamné et une partie de l'opinion, l'affaire reste une erreur judiciaire probable, notamment depuis la découverte des profils ADN de tiers. Pour la famille de la victime, la décision de 2022 devait « mettre un terme définitif à une affaire douloureusement vécue » [5]. La justice, à ce jour, a maintenu la condamnation.
+## Comment fonctionne la révision
+
+[Fait établi] La révision n'est pas un appel : elle ne remet en cause une condamnation définitive que si un élément nouveau apparaît. Depuis la loi du 23 juin 1989, l'article 622 du code de procédure pénale permet la révision lorsqu'un fait nouveau ou un élément inconnu de la juridiction au jour du procès est « de nature à faire naître un doute sur la culpabilité du condamné ». En 1989, le législateur a volontairement écarté la notion de « doute sérieux » ; selon le rapport de l'Assemblée nationale de 2013, la pratique a pourtant continué d'exiger, dans les faits, un doute sérieux [10].
+
+[Fait établi] La demande passe d'abord par une commission qui l'instruit et peut ordonner des recherches, auditions et expertises, puis, si elle l'estime fondée, la transmet à la Cour de révision, qui statue. Le rapport de 2013 cite l'affaire Raddad comme exemple d'investigations « extrêmement poussées » de la commission : experts sur la date de la mort, auditions, experts en écritures, analyses génétiques [10].
+
+[Fait établi] La loi du 20 juin 2014, publiée au Journal officiel du 21 juin 2014, a réformé la procédure [12]. Le texte voté par le Sénat le 29 avril 2014, puis adopté sans modification par l'Assemblée nationale le 11 juin 2014, crée une Cour de révision et de réexamen, prévoit qu'un élément nouveau puisse être « de nature à établir l'innocence du condamné ou à faire naître un doute sur sa culpabilité », impose au parquet, avant toute destruction des scellés d'une affaire jugée par une cour d'assises, d'en avertir le condamné, qui peut s'y opposer, et de réexaminer la question tous les cinq ans, et rend obligatoire l'enregistrement sonore des débats de cour d'assises [11][13].
+
+[Débat] Pendant les travaux parlementaires, les auteurs de la proposition de loi voulaient viser le « moindre doute », pour inciter les magistrats à moins de sévérité. La commission des lois du Sénat a supprimé cet adjectif, estimant « préférable de ne pas tenter de qualifier le doute » et de laisser les magistrats l'apprécier [14]. La version finale ne retient pas le « moindre doute » [11][13].
+
+## La révision en chiffres
+
+[Fait établi] Selon le rapport d'information des députés Alain Tourret et Georges Fenech, enregistré le 4 décembre 2013, 3 358 demandes de révision ont été présentées à la commission de révision depuis 1989. Sur 3 171 décisions rendues, 2 122 demandes ont été jugées irrecevables, 965 rejetées et 84 transmises à la Cour de révision, qui a prononcé 51 annulations et 33 rejets. En matière criminelle, seules 8 condamnations ont été révisées depuis 1989 [10].
+
+[Figure] barres-h
+titre: Sort des demandes de révision examinées par la commission de révision, 1989-2013
+unite: Nombre de décisions de la commission, France, de 1989 à la fin 2013
+donnees:
+- Irrecevables | 2122
+- Rejetées | 965
+- Transmises à la Cour de révision | 84
+lecture: Sur 3 171 décisions rendues par la commission de révision depuis 1989, 84 demandes ont été transmises à la Cour de révision, qui en a annulé 51.
+note: Toutes condamnations confondues, délits et crimes. La période couverte s'arrête à la date du rapport (décembre 2013), avant la réforme de 2014. Les annulations ne signifient pas toutes un acquittement ultérieur.
+source: Assemblée nationale, rapport d'information n° 1598 sur la révision des condamnations pénales, 4 décembre 2013 [10]
+
+[Interprétation] Le rapport souligne lui-même que ces chiffres peuvent se lire de deux façons opposées : comme le signe d'un faible taux d'erreur judiciaire, ou comme celui d'une procédure trop restrictive pour réparer toutes les erreurs [10]. Nous n'avons pas trouvé de statistiques officielles comparables pour la période postérieure à la réforme de 2014.
+
+## Les deux demandes de révision
+
+[Fait établi] Une première demande, portée par Jacques Vergès, a conduit la commission à ordonner de nouvelles investigations en février 2000. En 2001, des analyses ont mis en évidence des ADN masculins « en très faible proportion » différents de celui du condamné, et la commission a saisi la Cour de révision le 25 juin 2001 [1][6]. La Cour de révision a rejeté la demande le 20 novembre 2002, en jugeant « impossible de déterminer à quel moment, antérieur, concomitant ou postérieur au meurtre, ces traces ont été laissées » [1][6].
+
+[Fait établi] En 2011, le parquet de Grasse a indiqué ne pas pouvoir établir de profil génétique à partir des traces de 2001, les prélèvements ayant déjà été utilisés, selon Wikipédia [1]. En novembre 2015, de nouvelles analyses révèlent sur des scellés de la scène de crime quatre empreintes génétiques correspondant à quatre hommes non identifiés, dont deux parfaitement exploitables, qui ne correspondent pas à celle du condamné ; elles ont été comparées sans résultat avec une liste de proches de la victime [2][3][8].
+
+[Expertise] Dans des notes de 2019 et 2020, un expert en génétique sollicité par la défense relève la présence répétée de l'un de ces ADN, une trentaine de traces selon l'AFP, et privilégie l'hypothèse d'un dépôt au moment des faits plutôt que d'une pollution ultérieure [2][3][6]. Les sources divergent sur l'emplacement : le JDD le situe « notamment sur l'inscription Omar m'a tuer », Le Monde dans l'inscription « Omar m'a t » [3][6]. Il s'agit d'une expertise de partie, non d'une expertise judiciaire.
+
+[Fait établi] Le 24 juin 2021, une deuxième requête en révision est déposée, en s'appuyant sur ces analyses et sur la loi du 20 juin 2014 [2][3]. Le 16 décembre 2021, la commission d'instruction ordonne un complément d'information sur la portée de ces conclusions [6]. En mai 2022, l'avocate du condamné présente aussi des éléments issus d'une enquête de gendarmerie menée entre 2002 et 2004 après les confidences d'une informatrice, et demande une recherche en parentèle [3]. La commission rejette la requête le 13 octobre 2022 [3][4][5].
+
+[Fait établi] La commission d'instruction a estimé que « la découverte de nouvelles empreintes ne suffit pas, à elle seule, à établir leur rapport avec les faits, ces traces ayant pu être laissées antérieurement ou postérieurement au meurtre » ; elle a jugé qu'il en allait de même pour les éléments de l'enquête de gendarmerie [3]. Elle n'a pas jugé justifié le recours à un portrait-robot génétique ou à des recherches en parentèle [1]. Nous n'avons pas consulté le texte intégral de la décision.
+
+[Interprétation] Les deux rejets reposent sur le même raisonnement : une trace génétique étrangère n'est un élément nouveau utile que si l'on peut la rattacher au moment du crime. Or les scellés ont été manipulés pendant des années par des enquêteurs, experts et autres intervenants, ce qui rend la datation impossible selon la juridiction. La défense estime au contraire que la localisation et la répétition des traces dans le sang suffisent à faire naître un doute [3][6][7].
+
+## Ce qui fait débat
+
+[Débat] Pour les défenseurs du condamné et une partie de l'opinion, l'affaire reste une erreur judiciaire probable, notamment depuis la découverte des profils ADN de tiers. Son avocate s'est dite « scandalisée » par la décision de 2022 [3][5]. Pour la famille de la victime, la décision de 2022 devait « mettre un terme définitif à une affaire douloureusement vécue » ; une nièce de la victime estimait en 2021 que l'affaire n'aurait pas pris une telle ampleur « si le meurtrier avait été français avec un nom français » [5][7]. La justice, à ce jour, a maintenu la condamnation.
+
+[Débat] Au-delà du cas, les députés Alain Tourret et Georges Fenech citaient en 2013 l'affaire Raddad, avec les affaires Seznec et Dominici, parmi celles où la justice s'est prononcée contre la révision, pour illustrer l'arbitrage entre sécurité juridique et réparation de l'erreur judiciaire [10]. Ce constat sur la procédure ne vaut pas jugement sur la culpabilité dans cette affaire.
+
+[Fait établi] Comme dans toute demande de révision, la question n'est pas de désigner un autre auteur, mais de savoir si un élément nouveau fait naître un doute sur la culpabilité du condamné. Les sources consultées ne font état d'aucune poursuite engagée contre une autre personne [3][6].
+
+## Ce que l'affaire a changé
+
+[Interprétation] Le Journal de l'année Larousse 1995 relevait que le procès avait provoqué une « remise en cause de la vieille et classique cour d'assises » [9]. L'appel criminel a été créé en 2000 et la révision réformée en 2014 [11][15] ; l'affaire a été citée dans les travaux préparatoires de 2013 [10]. Nous n'avons pas trouvé de source établissant que l'une de ces réformes ait été adoptée à cause de cette affaire en particulier.
 
 ## Ce qu'on ne sait pas
 - **À qui appartiennent les profils ADN** retrouvés en 2015, et à quel moment ils ont été déposés.
-- **L'issue d'une éventuelle procédure européenne.**
+- **Sur quelle inscription exactement** se trouvent les traces relevées par l'expert de la défense, les sources de presse divergeant [3][6].
+- **L'issue d'une éventuelle procédure européenne**, aucune décision n'ayant été trouvée au 16 octobre 2026.
+- **Le texte intégral des décisions de 2002 et de 2022**, que nous n'avons pas consulté.
+- **Le nombre de révisions accordées depuis la réforme de 2014**, faute de statistique officielle trouvée.
 
 ## Sources
 - Source secondaire : Wikipédia, « Affaire Omar Raddad », consultée le 13 octobre 2026 (dates de la condamnation, de la grâce, de la libération et du rejet de 2002). | https://fr.wikipedia.org/wiki/Affaire_Omar_Raddad
@@ -68,3 +129,13 @@ source: Décisions de justice rapportées par la presse ; voir les sources du do
 - Le JDD, Guillaume Dosda avec AFP, « Affaire Omar Raddad : la deuxième requête de révision rejetée par la justice », 13 octobre 2022. | https://www.lejdd.fr/Societe/affaire-omar-raddad-la-deuxieme-requete-de-revision-rejetee-par-la-justice-4140608
 - France 3 Provence-Alpes-Côte d'Azur, Laurent Verdi, « La requête en révision du procès Omar Raddad a été rejetée, retour sur les rares procès révisés en France », 13 octobre 2022. | https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/alpes-maritimes/la-requete-en-revision-du-proces-omar-raddad-a-ete-rejetee-retour-sur-les-rares-proces-revises-en-france-2613188.html
 - ICI, Anne Jocteur Monrozier, « Affaire Omar Raddad : la justice rejette sa deuxième requête en révision », 13 octobre 2022. | https://www.ici.fr/infos/faits-divers-justice/affaire-omar-raddad-rejet-de-sa-deuxieme-requete-en-revision-1665664366
+- Le Monde avec AFP, « Condamnation d'Omar Raddad : la justice décide de rouvrir le dossier », 16 décembre 2021. | https://www.lemonde.fr/societe/article/2021/12/16/condamnation-d-omar-raddad-la-justice-decide-de-rouvrir-le-dossier_6106311_3224.html
+- Le Monde, « L'affaire Omar Raddad, une enquête sans fin qui divise encore », 21 juin 2021. | https://www.lemonde.fr/societe/article/2021/06/21/l-affaire-omar-raddad-une-enquete-sans-fin-qui-divise-encore_6085068_3224.html
+- L'Humanité, « Le procès Raddad attend sa révision », 9 novembre 2015. | https://www.humanite.fr/le-proces-raddad-attend-sa-revision-589134
+- Larousse, Journal de l'année, édition 1995, « Chronique judiciaire : le procès des assises. L'affaire Omar ». | https://www.larousse.fr/archives/journaux_annee/1995/121/les_objets_94
+- Assemblée nationale, Alain Tourret et Georges Fenech, « Rapport d'information sur la révision des condamnations pénales », n° 1598, 4 décembre 2013. | https://www.assemblee-nationale.fr/14/pdf/rap-info/i1598.pdf
+- Sénat, proposition de loi relative à la réforme des procédures de révision et de réexamen d'une condamnation pénale définitive, texte adopté n° 103, 29 avril 2014. | https://www.senat.fr/leg/tas13-103.pdf
+- Le Monde du droit, « Procédures de révision et de réexamen d'une condamnation pénale définitive : publication de la loi », juin 2014. | https://www.lemondedudroit.fr/judiciaire/324-organisation-judiciaire/45904-procedures-de-revision-et-de-reexamen-dune-condamnation-penale-definitive-publication-de-la-loi.html
+- Le Monde du droit, « Procédures de révision et de réexamen d'une condamnation pénale définitive : adoption en 2ème lecture à l'AN », juin 2014. | https://www.lemondedudroit.fr/judiciaire/324-organisation-judiciaire/45909-procedures-de-revision-et-de-reexamen-dune-condamnation-penale-definitive-adoption-en-2eme-lecture-a-lan.html
+- Sénat, Nicolas Alfonsi, rapport n° 467 de la commission des lois sur la proposition de loi relative à la réforme des procédures de révision et de réexamen, 16 avril 2014. | https://www.senat.fr/rap/l13-467/l13-4671.pdf
+- Conseil constitutionnel, commentaire de la décision n° 2011-113/115 QPC du 1er avril 2011 (appel criminel et motivation des arrêts de cour d'assises). | https://webview-ccfr.sites.prod.conseilconstitutionnel.aquaray.com/sites/default/files/as/root/bank_mm/decisions/2011113qpc/ccc_113qpc.pdf

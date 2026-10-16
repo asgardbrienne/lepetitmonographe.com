@@ -3,7 +3,7 @@ rubrique: affaires
 titre: ADN et reconnaissance faciale : ce que ces preuves peuvent et ne peuvent pas établir
 titre_court: ADN et reconnaissance faciale
 chapeau: L'ADN est souvent présenté comme la « reine des preuves » et la reconnaissance faciale comme un outil d'identification fiable. Les deux peuvent se tromper, et leur usage est encadré par des règles dont les juridictions contrôlent le respect.
-resume: Contamination et transfert d'ADN, encadrement des fichiers, usage de la reconnaissance faciale par la police, loi du 23 juillet 2026 et décisions de justice récentes. Données arrêtées au 8 octobre 2026.
+resume: Contamination et transfert d'ADN, histoire et taille du fichier des empreintes génétiques, contrôle du Conseil constitutionnel et de la Cour européenne, fiabilité mesurée des algorithmes de reconnaissance faciale, usage par la police, règlement européen sur l'IA, loi du 23 juillet 2026 et décisions de justice récentes. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
 image: assets/images/adn-reconnaissance-faciale.jpg
@@ -11,12 +11,14 @@ image_alt: Pipettes dans un laboratoire
 image_credit: n_sapiens, CC BY-SA 2.0, recadrée, Flickr
 image_lien: https://www.flickr.com/photos/27505428@N06/5418319146
 verifie: 13 octobre 2026
-corrections: Les décisions de 2012 et 2013 attribuées par une source secondaire non fiable à la cour d'appel de Paris et à la Cour de cassation ont été retirées, faute de vérification possible ; l'annonce de contrôles par la CNIL, absente de l'enquête de Disclose, a été retirée ; l'arrêt Aycaguer est précisé ; la loi du 23 juillet 2026 et la décision du Conseil constitutionnel sur les analyses génétiques et l'habilitation à consulter les fichiers sont ajoutées.
+corrections: Les décisions de 2012 et 2013 attribuées par une source secondaire non fiable à la cour d'appel de Paris et à la Cour de cassation ont été retirées, faute de vérification possible ; l'annonce de contrôles par la CNIL, absente de l'enquête de Disclose, a été retirée ; l'arrêt Aycaguer est précisé ; la loi du 23 juillet 2026 et la décision du Conseil constitutionnel sur les analyses génétiques et l'habilitation à consulter les fichiers sont ajoutées. Le 16 octobre 2026, le dossier a été approfondi : histoire et volume du fichier des empreintes génétiques, décision du Conseil constitutionnel de 2010, évaluation de la fiabilité des algorithmes de reconnaissance faciale par le NIST, cadre européen et français de la biométrie, sanction de Clearview AI, débats et pistes, avec une chronologie et sept sources nouvelles.
 ---
 ## Essentiel
 - Une trace ADN prouve la présence d'un ADN sur un objet, pas la présence de la personne sur les lieux ni sa culpabilité : l'ADN peut être transféré indirectement ou provenir d'une contamination [1][2].
-- La Cour européenne des droits de l'homme a condamné la France le 22 juin 2017 (Aycaguer contre France) en raison du régime de conservation des profils dans le fichier national automatisé des empreintes génétiques [3].
+- Le fichier national automatisé des empreintes génétiques comptait 7,39 millions de profils et 4,37 millions de personnes identifiées au 1er janvier 2025, selon un rapport du ministère de la Justice cité par Next [10].
+- La Cour européenne des droits de l'homme a condamné la France le 22 juin 2017 (Aycaguer contre France) en raison du régime de conservation des profils dans ce fichier [3].
 - Le 23 juillet 2026, le Conseil constitutionnel a censuré deux nouvelles techniques d'analyse génétique prévues par la loi sur la justice criminelle : la recherche des caractères morphologiques apparents et la comparaison avec des bases génétiques étrangères [9].
+- La fiabilité de la reconnaissance faciale dépend de l'algorithme : une étude de l'agence américaine NIST a mesuré, pour la majorité des 189 algorithmes testés, des taux d'erreur différents selon l'origine, le sexe et l'âge [12].
 - L'usage de la reconnaissance faciale à partir du fichier des antécédents judiciaires lors de contrôles d'identité fait l'objet d'accusations d'usages illégaux, publiées par le média Disclose, et de questions parlementaires [4][5][6].
 
 ## L'ADN : ce qu'il prouve
@@ -27,13 +29,31 @@ corrections: Les décisions de 2012 et 2013 attribuées par une source secondair
 
 [Expertise] Pour des enseignants-chercheurs en droit pénal de l'université de Rennes 1, toutes les preuves, matérielles ou testimoniales, sont faillibles, et le mythe d'une preuve parfaite peut conduire à des erreurs judiciaires [2].
 
+[À noter] Une empreinte génétique est un profil établi à partir de quelques segments d'ADN ; la loi ne permettait de l'établir qu'à partir de segments « non codants », à l'exception du marqueur du sexe, selon le texte de l'article 706-54 du code de procédure pénale cité par le Conseil constitutionnel en 2010 [11]. Un « rapprochement » est la correspondance trouvée entre deux profils, par exemple entre une trace relevée sur une scène et une personne enregistrée. Une « personne mise en cause » est une personne soupçonnée, qui n'est pas nécessairement poursuivie ni condamnée.
+
+[Interprétation] Une correspondance génétique répond à la question « à qui appartient cet ADN ? », pas à la question « comment et quand est-il arrivé là ? ». C'est cette seconde question, qui relève de l'enquête et du débat contradictoire, que les cas de transfert et de contamination rendent décisive [1][2].
+
+## Le fichier national des empreintes génétiques
+
+[Fait établi] Le fichier national automatisé des empreintes génétiques (FNAEG) a été créé en 1998 pour les auteurs d'infractions sexuelles, puis étendu en 2001 aux crimes d'atteinte aux personnes et aux biens et en 2003 à « de nombreux délits d'atteintes aux personnes et aux biens », selon un rapport d'inspection du ministère de la Justice cité par Next [10]. Au 1er janvier 2025, il comptait 7 391 995 profils génétiques et 4 368 268 personnes enregistrées, selon ce même rapport [10].
+
+[Fait établi] Dans sa décision n° 2010-25 QPC du 16 septembre 2010, le Conseil constitutionnel a jugé conforme à la Constitution l'enregistrement au fichier des personnes condamnées et de celles contre lesquelles existent « des indices graves ou concordants », en réservant toutefois au pouvoir réglementaire le soin de « proportionner la durée de conservation » des données à la nature ou à la gravité des infractions et aux spécificités de la délinquance des mineurs [11]. Il a aussi rappelé que les prélèvements sont accomplis sous le contrôle du procureur de la République ou du juge d'instruction [11].
+
 [Fait établi] Dans l'arrêt Aycaguer contre France du 22 juin 2017, la Cour européenne des droits de l'homme a jugé que la condamnation d'un homme pour refus de prélèvement biologique violait l'article 8 de la Convention (respect de la vie privée), en raison de la durée de conservation des données et de l'absence de procédure d'effacement adaptée au fichier national automatisé des empreintes génétiques (FNAEG). Selon le gouvernement, la loi du 23 mars 2019 a modifié le dispositif d'effacement anticipé, et un décret modulant les durées de conservation selon la gravité de l'infraction était en préparation en octobre 2019 [3].
 
-[Fait établi] La loi n° 2026-651 du 23 juillet 2026 sur la justice criminelle et le respect des victimes prévoyait d'autoriser l'analyse d'une trace biologique d'une personne inconnue pour révéler ses caractères morphologiques apparents, ainsi que la comparaison de son empreinte génétique avec des bases de données établies à l'étranger. Le Conseil constitutionnel a censuré ces deux dispositions, jugeant que le législateur n'avait pas prévu de garanties suffisantes pour protéger le droit au respect de la vie privée (décision n° 2026-909 DC du 23 juillet 2026) [9].
+[Fait établi] Le même rapport d'inspection, cité par Next, relève des risques dans la transmission des rapports de rapprochement entre le service de police scientifique chargé du fichier et les juridictions, envoyés par courrier ; il recommande leur transmission dématérialisée et leur intégration dans la procédure pénale numérique [10]. Une correspondance trouvée par le fichier peut donc rester sans suite si l'information n'arrive pas au magistrat.
+
+[Fait établi] La loi n° 2026-651 du 23 juillet 2026 sur la justice criminelle et le respect des victimes prévoyait d'autoriser l'analyse d'une trace biologique d'une personne inconnue pour révéler ses caractères morphologiques apparents, ainsi que la comparaison de son empreinte génétique avec des bases de données établies à l'étranger. Le Conseil constitutionnel a censuré ces deux dispositions, jugeant que le législateur n'avait pas prévu de garanties suffisantes pour protéger le droit au respect de la vie privée (décision n° 2026-909 DC du 23 juillet 2026) [9]. Selon LCP, cette seconde mesure visait à permettre de consulter les données génétiques recueillies par des entreprises américaines de tests ADN dits « récréatifs », afin de résoudre des affaires non élucidées [16].
 
 ## La reconnaissance faciale
 
 [Fait établi] Le traitement des antécédents judiciaires (TAJ) comporte un dispositif de comparaison faciale. Saisi par l'association La Quadrature du Net, le Conseil d'État a jugé le 26 avril 2022 que ce dispositif comportait des garanties appropriées et n'était pas disproportionné, selon le commentaire d'un cabinet d'avocats [7].
+
+[Fait établi] L'Institut national des normes et de la technologie des États-Unis (NIST) a évalué en décembre 2019 189 algorithmes de reconnaissance faciale de 99 développeurs. Il a constaté des écarts de performance selon les groupes démographiques pour la majorité d'entre eux : en comparaison « un à un », les taux de faux positifs étaient souvent 10 à 100 fois plus élevés pour des visages asiatiques ou afro-américains que pour des visages caucasiens, selon l'algorithme ; en recherche « un à plusieurs » dans une base de photos d'identité judiciaire, les faux positifs étaient plus fréquents pour les femmes afro-américaines [12]. Le NIST souligne aussi que les algorithmes les plus équitables figurent parmi les plus précis, et que tous ne présentent pas ces écarts [12].
+
+[À noter] Un faux positif est une correspondance erronée entre deux personnes différentes ; un faux négatif est une correspondance manquée. Dans une recherche « un à plusieurs », un faux positif peut placer une personne innocente sur une liste de candidats, ce que le NIST décrit comme un risque de fausse accusation [12]. L'identification biométrique « en temps réel » compare des visages filmés en direct ; la comparaison avec le TAJ porte sur une photo soumise à un fichier.
+
+[Expertise] L'étude du NIST porte sur des algorithmes testés aux États-Unis en 2019 ; elle ne dit rien des performances de l'outil utilisé par la police française, qui n'ont pas été publiées à notre connaissance [12].
 
 [Allégation] Selon une enquête du média Disclose publiée le 16 mars 2026, policiers et gendarmes utiliseraient la reconnaissance faciale reliée au TAJ depuis leurs téléphones de service lors de contrôles d'identité, alors qu'une instruction du ministère de l'Intérieur de février 2022, que Disclose dit s'être procurée, l'interdit [4]. Disclose s'appuie sur des témoignages ; selon le média, le ministère de l'Intérieur, la police et la gendarmerie n'ont pas répondu à ses questions [4].
 
@@ -41,16 +61,56 @@ corrections: Les décisions de 2012 et 2013 attribuées par une source secondair
 
 [Fait établi] Un député a adressé une question écrite au ministre de l'Intérieur sur ces pratiques, publiée au Journal officiel le 7 avril 2026 [5]. Dans une seconde question publiée le 14 juillet 2026, le même député indique que le ministre a affirmé en avril 2026 que cette pratique était interdite et que des consignes avaient été données pour y mettre fin, et fait état d'une nouvelle enquête de Disclose du 7 juillet 2026 selon laquelle elle se poursuivrait [6]. Aucune de ces deux questions n'avait reçu de réponse publiée à la date de vérification.
 
+## Le cadre européen et français de la biométrie
+
+[Fait établi] Le règlement (UE) 2024/1689 du 13 juin 2024 sur l'intelligence artificielle interdit l'utilisation de systèmes d'identification biométrique à distance « en temps réel » dans des espaces accessibles au public à des fins répressives, sauf si elle est strictement nécessaire à l'un de trois objectifs : la recherche ciblée de victimes d'enlèvement, de traite ou d'exploitation sexuelle et de personnes disparues ; la prévention d'une menace spécifique, substantielle et imminente pour la vie ou d'une attaque terroriste ; la localisation ou l'identification d'un suspect d'infractions graves punies d'au moins quatre ans d'emprisonnement [13]. Ces interdictions s'appliquent depuis le 2 février 2025 [13].
+
+[Fait établi] En France, la loi relative aux Jeux olympiques et paralympiques de 2024 a autorisé, à titre expérimental jusqu'au 31 mars 2025, des traitements algorithmiques des images de vidéoprotection pour détecter certains événements. Le Conseil constitutionnel a relevé, en la jugeant conforme (décision n° 2023-850 DC du 17 mai 2023), que ces traitements ne mettent en œuvre « aucune technique de reconnaissance faciale » et n'utilisent aucun système d'identification biométrique [14].
+
+[Fait établi] Dans le secteur privé, la CNIL a infligé le 17 octobre 2022 une amende de 20 millions d'euros à la société américaine Clearview AI, qui avait collecté plus de 20 milliards de photographies sur internet pour commercialiser un moteur de recherche par reconnaissance faciale, sans base légale pour les personnes se trouvant en France ; elle lui a enjoint de supprimer ces données sous deux mois, sous astreinte de 100 000 euros par jour de retard [15].
+
 ## L'habilitation à consulter les fichiers
 
 [Fait établi] Le 4 novembre 2025, la chambre criminelle de la Cour de cassation (pourvoi n° 25-81.899) a jugé que la consultation du TAJ et du fichier des personnes recherchées est réservée aux agents spécialement et individuellement habilités, et qu'un simple accès au portail informatique sécurisé ne suffit pas à établir cette habilitation, selon le commentaire d'une avocate [8].
 
 [Fait établi] La loi du 23 juillet 2026 modifie l'article 15-5 du code de procédure pénale : par dérogation, certains officiers et agents de police judiciaire sont désormais habilités par la loi à consulter une liste de fichiers fixée par voie réglementaire. Le Conseil constitutionnel a jugé cette disposition conforme à la Constitution, en relevant que les règles propres à chaque fichier et la traçabilité des accès restent applicables [9]. La portée de ce changement sur la jurisprudence de 2025 n'est pas encore établie.
 
+[Figure] frise
+titre: Repères sur l'ADN et la reconnaissance faciale en justice
+donnees:
+- 1998 | Création du fichier national automatisé des empreintes génétiques, pour les infractions sexuelles [10]. | Fait établi
+- 2001 et 2003 | Extensions du fichier à de nombreux crimes et délits [10]. | Fait établi
+- 16 septembre 2010 | Le Conseil constitutionnel valide le fichier sous réserve de durées de conservation proportionnées [11]. | Fait établi
+- 22 juin 2017 | Arrêt Aycaguer contre France de la Cour européenne des droits de l'homme [3]. | Fait établi
+- 26 avril 2022 | Le Conseil d'État valide la comparaison faciale dans le TAJ [7]. | Fait établi
+- 17 octobre 2022 | Amende de 20 millions d'euros de la CNIL contre Clearview AI [15]. | Fait établi
+- 2 février 2025 | Entrée en application des interdictions du règlement européen sur l'IA [13]. | Fait établi
+- 4 novembre 2025 | La Cour de cassation exige une habilitation individuelle pour consulter le TAJ [8]. | Fait établi
+- 16 mars 2026 | Enquête de Disclose sur la reconnaissance faciale lors de contrôles [4]. | Allégation
+- 23 juillet 2026 | Censure des nouvelles analyses génétiques par le Conseil constitutionnel [9]. | Fait établi
+source: Conseil constitutionnel, CEDH, Conseil d'État, Cour de cassation, CNIL, Union européenne, presse ; voir les sources du dossier
+
+## Ce qui fait débat
+
+[Débat] Sur la taille du fichier génétique, l'argument en faveur d'un enregistrement large est celui retenu par le Conseil constitutionnel en 2010 : il est « nécessaire à l'identification et à la recherche des auteurs » d'infractions [11]. L'argument contraire est celui de la Cour européenne en 2017 : une conservation longue, sans distinction suffisante selon la gravité des faits ni possibilité réelle d'effacement, porte une atteinte disproportionnée à la vie privée [3]. Next relève que les chiffres publiés ne disent pas combien des personnes enregistrées ont été condamnées et combien sont seulement mises en cause [10].
+
+[Débat] Sur les nouvelles techniques génétiques, l'argument de leurs promoteurs est, selon LCP, de permettre la résolution d'affaires anciennes non élucidées [16]. Le Conseil constitutionnel n'a pas jugé ces techniques contraires à la Constitution par principe, mais a estimé que les garanties prévues étaient insuffisantes au regard de la « particulière vigilance » qu'exige le traitement des données génétiques [9]. En principe, une nouvelle loi pourrait donc les réintroduire avec d'autres garanties, sans préjuger de la décision que rendrait alors le Conseil.
+
+[Débat] Sur la reconnaissance faciale, le Conseil d'État a jugé en 2022 que la comparaison avec le TAJ était encadrée par des garanties appropriées [7]. Les critiques portent moins sur ce cadre que sur son respect : l'enquête de Disclose et les questions parlementaires de 2026 évoquent des usages non autorisés, que le ministre a, selon un député, déclarés interdits [4][6]. Faute de données publiques sur les usages et sur les erreurs, ni la fréquence des usages irréguliers ni leurs conséquences ne peuvent être établies.
+
+## Les pistes discutées
+
+[Proposition] Réintroduire l'analyse des caractères morphologiques apparents et la comparaison avec des bases génétiques étrangères, avec des garanties supplémentaires : c'est la voie ouverte par la décision du Conseil constitutionnel, qui n'a censuré ces dispositions que pour insuffisance de garanties [9]. Aucun nouveau texte n'avait été déposé à notre connaissance à la date d'arrêt des données.
+
+[Proposition] Dématérialiser la transmission des rapports de rapprochement génétique entre la police scientifique et les juridictions et les intégrer à la procédure pénale numérique : recommandation du rapport d'inspection du ministère de la Justice cité par Next [10]. Son coût n'est pas public.
+
 ## Ce qu'on ne sait pas
 - **Le nombre d'erreurs d'identification** par ADN ou par reconnaissance faciale en France, qu'aucune statistique publique ne recense à notre connaissance.
 - **L'usage de la reconnaissance faciale lors des contrôles d'identité**, que les documents publiés ne permettent pas de mesurer.
 - **La réponse du ministère de l'Intérieur** aux questions écrites des 7 avril et 14 juillet 2026.
+- **La part des personnes condamnées et des personnes seulement mises en cause** parmi les 4,4 millions de personnes enregistrées au fichier génétique [10].
+- **La fiabilité de l'algorithme de comparaison faciale utilisé avec le TAJ**, dont aucune évaluation publique n'a été trouvée.
+- **Le texte intégral du rapport d'inspection sur l'exploitation des empreintes génétiques**, que nous n'avons pu consulter que par l'intermédiaire de Next [10].
 
 ## Sources
 - Futura Sciences, Marie-Céline Ray, « Criminologie : un test ADN peut-il faire accuser un innocent ? », 4 novembre 2015. | https://www.futura-sciences.com/sante/actualites/genetique-criminologie-test-adn-peut-il-faire-accuser-innocent-60328/
@@ -62,3 +122,10 @@ corrections: Les décisions de 2012 et 2013 attribuées par une source secondair
 - Source secondaire : Haas Avocats, « Reconnaissance faciale : le fichier TAJ validé par le Conseil d'État », 21 juin 2022. | https://www.haas-avocats.com/protection-des-donnees/reconnaissance-faciale-le-fichier-taj-valide-par-le-conseil-detat/
 - Source secondaire : Village de la Justice, Aurore Le Guyon, « Traitement des antécédents judiciaires (TAJ) et le fichier des personnes recherchées (FPR) : l'exigence d'une habilitation spéciale et individuelle », 19 novembre 2025, commentaire de Cass. crim., 4 novembre 2025, n° 25-81.899. | https://www.village-justice.com/articles/taj-fpr-exigence-une-habilitation-speciale-indiviuelle,55203.html
 - Conseil constitutionnel, décision n° 2026-909 DC du 23 juillet 2026, Loi sur la justice criminelle et le respect des victimes. | https://www.conseil-constitutionnel.fr/decision/2026/2026909DC.htm
+- Source secondaire : Next, Jean-Marc Manach, « Avec 7,4 millions de profils génétiques, le fichier FNAEG a presque doublé en deux ans », 23 janvier 2026 (article en partie réservé aux abonnés). | https://next.ink/220267/avec-74-millions-de-profils-genetiques-le-fichier-fnaeg-a-presque-double-en-deux-ans/
+- Conseil constitutionnel, décision n° 2010-25 QPC du 16 septembre 2010, M. Jean-Victor C. (Fichier empreintes génétiques). | https://www.conseil-constitutionnel.fr/decision/2010/201025QPC.htm
+- National Institute of Standards and Technology (NIST), « NIST Study Evaluates Effects of Race, Age, Sex on Face Recognition Software », 19 décembre 2019, présentant le rapport NISTIR 8280. | https://www.nist.gov/news-events/news/2019/12/nist-study-evaluates-effects-race-age-sex-face-recognition-software
+- Union européenne, règlement (UE) 2024/1689 du Parlement européen et du Conseil du 13 juin 2024 établissant des règles harmonisées concernant l'intelligence artificielle, Journal officiel de l'Union européenne. | https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=OJ:L_202401689
+- Conseil constitutionnel, décision n° 2023-850 DC du 17 mai 2023, Loi relative aux jeux Olympiques et Paralympiques de 2024 et portant diverses autres dispositions. | https://www.conseil-constitutionnel.fr/decision/2023/2023850DC.htm
+- Source secondaire : Lefebvre Dalloz Formation, « Logiciel de reconnaissance faciale : la CNIL sanctionne Clearview AI », 5 janvier 2023. | https://formation.lefebvre-dalloz.fr/actualite/logiciel-de-reconnaissance-faciale-la-cnil-sanctionne-clearview-ai
+- LCP, Maxence Kagni, « Justice criminelle : l'Assemblée nationale adopte le projet de loi sans la mesure de plaider-coupable », 7 juillet 2026. | https://lcp.fr/actualites/justice-criminelle-l-assemblee-nationale-adopte-le-projet-de-loi-sans-la-mesure-de
