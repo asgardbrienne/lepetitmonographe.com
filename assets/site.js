@@ -1,5 +1,27 @@
 // Menu mobile, retour en haut de page, recherche et filtres de la page « Tous les dossiers ».
 (function () {
+  // La navigation est identique sur toutes les pages sans modifier les 46 HTML générés.
+  var liensNavigation = document.querySelector('.nav-liens');
+  if (liensNavigation) {
+    var itemsNavigation = [
+      ['À la une', './'],
+      ['Politique', 'politique-institutions.html'],
+      ['Économie & Société', 'economie-societe.html'],
+      ['Affaires & Enquêtes', 'affaires-enquetes.html'],
+      ['Monographies', 'livres.html'],
+      ['Méthode', 'methode.html']
+    ];
+    var cheminActuel = window.location.pathname.split('/').pop() || 'index.html';
+    liensNavigation.textContent = '';
+    itemsNavigation.forEach(function (item) {
+      var lien = document.createElement('a');
+      lien.textContent = item[0];
+      lien.href = item[1];
+      if ((item[1] === './' && cheminActuel === 'index.html') ||
+          item[1] === cheminActuel) lien.setAttribute('aria-current', 'page');
+      liensNavigation.appendChild(lien);
+    });
+  }
   var bouton = document.querySelector('.bouton-menu');
   var nav = document.getElementById('menu-principal');
   if (bouton && nav) {
