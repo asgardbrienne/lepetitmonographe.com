@@ -1129,3 +1129,18 @@ main > .section > .conteneur > .prose p { line-height: 1.82; }
   .dossier .prose { font-size: 11pt; line-height: 1.5; }
   .dossier .prose > .encadre { break-inside: avoid; }
 }
+
+
+/* Les trois monographies d'accueil tiennent en une ligne sur grand écran. */
+@media (min-width: 1120px) {
+  #monographies .livres { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  #monographies .livre,
+  #monographies .livre:has(img) {
+    grid-template-columns: minmax(84px, 105px) minmax(0, 1fr);
+    gap: 16px;
+    padding: 18px;
+  }
+  #monographies .livre .couverture { height: 170px; }
+  #monographies .livre h4 { font-size: 1.06rem; }
+  #monographies .livre p { font-size: .87rem; }
+}
