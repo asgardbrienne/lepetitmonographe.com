@@ -635,11 +635,20 @@ def _inline(t):
     t = re.sub(r"\[(\d+)\]", lambda m: note(int(m.group(1))), t)
     return t
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import figures as _figures
+_NUM_FIG = {"frise": 0, "fig": 0}
+
 def _blocs(corps):
     out = []
     for bloc in [b.strip() for b in corps.strip().split("\n\n") if b.strip()]:
         m = re.match(r"^\[([^\]\d][^\]]*)\]\s*(.*)$", bloc, re.S)
-        if bloc.startswith("## "):
+        if bloc.startswith("[Figure]"):
+            f = _figures.lire(bloc)
+            k = "frise" if f["type"] == "frise" else "fig"
+            _NUM_FIG[k] += 1
+            out.append(_figures.rendre(f, _NUM_FIG[k], _inline))
+        elif bloc.startswith("## "):
             out.append(f"        <h2>{_inline(bloc[3:])}</h2>")
         elif m:
             out.append(encadre(m.group(1), f"<p>{_inline(m.group(2))}</p>"))
@@ -685,6 +694,7 @@ def figure_dossier(meta):
   </figure>'''
 
 def rendre_dossier(chemin):
+    _NUM_FIG.update(frise=0, fig=0)
     meta, texte, sp = lire_dossier(chemin)
     c = RUB_CLASSES[meta["rubrique"]]
     essentiel = "".join(f"<li>{_inline(l[2:])}</li>" for l in sp.get("Essentiel", "").strip().split("\n") if l.startswith("- "))

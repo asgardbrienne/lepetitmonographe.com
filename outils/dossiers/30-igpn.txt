@@ -23,11 +23,35 @@ corrections: Le constat sur les cellules locales de déontologie était attribu�
 
 [Fait établi] Le rapport annuel 2025 de l'IGPN a été présenté le 23 septembre 2026 par son directeur, Stéphane Hardouin. Selon les comptes rendus de franceinfo et de l'AFP, l'IGPN a mené 1 007 enquêtes judiciaires en 2025, contre 914 en 2024. Parmi elles, 322 visaient l'usage de la force, contre 428 en 2024, 519 en 2023 et 868 en 2019, le niveau le plus bas depuis 2015 selon franceinfo [1][2]. Nous n'avons pas trouvé le rapport lui-même en ligne : ces chiffres sont repris de la presse.
 
+[Figure] barres
+titre: Enquêtes de l'IGPN portant sur l'usage de la force
+unite: Nombre d'enquêtes judiciaires par an, police nationale (années disponibles)
+donnees:
+- 2019 | 868
+- 2023 | 519
+- 2024 | 428
+- 2025 | 322
+lecture: En 2025, 322 enquêtes judiciaires de l'IGPN portaient sur l'usage de la force, contre 868 en 2019.
+note: Les années 2020 à 2022 ne figurent pas dans les comptes rendus consultés : l'axe n'est pas continu. Seules les affaires confiées à l'IGPN sont comptées.
+source: Rapport annuel 2025 de l'IGPN, présenté le 23 septembre 2026, repris par franceinfo et l'AFP (sources secondaires) [1][2]
+
 [Fait établi] Selon les mêmes comptes rendus, douze personnes sont mortes en 2025 à la suite de l'usage d'une arme à feu par des policiers, contre seize en 2024. L'IGPN a été saisie de dix de ces cas ; six enquêtes avaient été clôturées et classées au moment de la présentation du rapport, quatre étaient en cours. Le nombre de blessés graves recensés en lien avec des interventions de police est passé de 72 en 2024 à 86 en 2025 (108 en 2023) [1].
 
 [Interprétation] Selon le directeur de l'IGPN, la baisse des saisines pour usage de la force s'explique en partie par l'absence, en 2025, de grandes mobilisations comparables à celles des gilets jaunes en 2019 ou aux violences urbaines de 2023 [1].
 
 [Fait établi] L'IGPN a été saisie de 341 atteintes à la probité en 2025 (corruption, trafic d'influence, prise illégale d'intérêts, favoritisme, détournement de fonds publics, concussion, ainsi que détournements de fichiers et violations du secret professionnel), contre 234 en 2024. Ces faits ont donné lieu à 235 enquêtes, une enquête pouvant porter sur plusieurs infractions [1][2].
+
+[Figure] groupes
+titre: Activité de l'IGPN en 2024 et en 2025
+unite: Nombre d'enquêtes ou de saisines
+series: 2024 | 2025
+donnees:
+- Enquêtes judiciaires (total) | 914 | 1007
+- dont usage de la force | 428 | 322
+- Saisines pour atteinte à la probité | 234 | 341
+lecture: Les saisines pour atteinte à la probité passent de 234 en 2024 à 341 en 2025, soit une hausse de 45 %.
+note: Les saisines pour probité comptent des infractions ; elles ont donné lieu à 235 enquêtes en 2025, une enquête pouvant porter sur plusieurs infractions.
+source: Rapport annuel 2025 de l'IGPN, repris par franceinfo et l'AFP (sources secondaires) [1][2]
 
 ## Ce que ces chiffres ne disent pas
 

@@ -33,6 +33,17 @@ corrections: La date de l'avis du Haut Conseil des finances publiques est corrig
 
 [Estimation] Le HCFP mesure l'effort autrement, en effort structurel. Devant le Sénat, sa présidente l'a chiffré à près de 40 milliards d'euros, dont 17 milliards de recettes nouvelles et 23 milliards d'économies sur les dépenses, en soulignant qu'une partie est absorbée par la hausse de la charge de la dette [6]. La Fondation IFRAP, qui s'appuie sur l'avis, en déduit un effort net d'environ 28 milliards (17 milliards de prélèvements et 11 milliards de dépenses) une fois retranchés les quelque 12 milliards de hausse des intérêts [5]. Ces deux chiffres ne se contredisent pas : ils diffèrent par la prise en compte de la charge de la dette.
 
+[Figure] groupes
+titre: L'effort budgétaire 2027 selon deux méthodes de mesure
+unite: Milliards d'euros
+series: Gouvernement : mesures nouvelles | HCFP : effort structurel
+donnees:
+- Recettes | 18 | 17
+- Dépenses | 25 | 23
+lecture: Le gouvernement chiffre ses mesures nouvelles à 43 milliards d'euros (18 de recettes, 25 de dépenses) ; la présidente du HCFP chiffre l'effort structurel à près de 40 milliards.
+note: Les deux chiffres reposent sur des méthodes différentes et ne se comparent pas terme à terme. Les mesures du gouvernement sont calculées par rapport à un scénario sans mesures (tendanciel). Une partie de l'effort est absorbée par la hausse de la charge de la dette.
+source: Présentation du gouvernement, reprise par la Fondation IFRAP ; audition de la présidente du HCFP devant le Sénat, 7 octobre 2026 [5][6]
+
 [Débat] Le chiffre de l'effort est contesté dans les deux sens. La Fondation IFRAP estime que le projet compte, charge de la dette incluse, plus de hausses de prélèvements obligatoires (17,2 milliards selon son calcul) que de baisses de dépenses, et qu'une partie des économies annoncées n'est pas documentée mesure par mesure [5]. Du côté des collectivités, le président du Comité des finances locales redoutait avant la présentation du budget « un choc beaucoup plus fort qu'au cours des années passées » et un impact sur les services publics locaux [8]. Ces appréciations dépendent de la méthode retenue et des choix politiques de chacun.
 
 ## Les prévisions

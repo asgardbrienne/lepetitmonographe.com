@@ -665,3 +665,75 @@ h1, h2, h3, h4, .logo, .pied-marque { font-weight: 400 !important; }
   .actions { gap: 6px; }
   .bouton-rond { width: 34px; height: 34px; }
 }
+
+/* =====================================================================
+   Graphiques et chronologies des dossiers (charte : barres depuis zéro,
+   une seule échelle, étiquettes directes, source et lecture visibles)
+   ===================================================================== */
+:root { --serie-1: #152840; --serie-2: #a78346; --piste: #efebe3; }
+:root[data-theme="dark"] { --serie-1: #7fa8dc; --serie-2: #e0bd78; --piste: #203550; }
+.graphique { margin: 2.2em 0; padding: 24px 22px 18px; background: var(--blanc); border: 1px solid var(--filet); font-family: var(--sans); }
+.prose .graphique { font-size: 1rem; line-height: 1.5; }
+.graphique-tete { display: grid; gap: 6px; margin-bottom: 20px; }
+.graphique-num { font: 700 .6875rem/1 var(--sans); letter-spacing: .16em; text-transform: uppercase; color: var(--or-texte); }
+.graphique-titre { font: 400 1.25rem/1.3 var(--display); color: var(--encre); letter-spacing: -.01em; }
+.graphique-unite { font-size: .8125rem; color: var(--encre-douce); }
+.graphique-legende { list-style: none; padding: 0 !important; margin: -6px 0 16px; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: .8125rem; color: var(--encre-douce); }
+.graphique-legende li { display: flex; align-items: center; gap: 7px; margin: 0; }
+.cle { display: inline-block; width: 14px; height: 10px; border-radius: 2px; background: var(--serie-1); }
+.cle.serie-2 { background: var(--serie-2); }
+.cle.prevision, .barre.prevision { background: repeating-linear-gradient(135deg, var(--serie-1) 0 3px, transparent 3px 6px); box-shadow: inset 0 0 0 1.5px var(--serie-1); }
+.barre { display: block; background: var(--serie-1); }
+.barre.serie-2 { background: var(--serie-2); }
+.barre.serie-2.prevision { background: repeating-linear-gradient(135deg, var(--serie-2) 0 3px, transparent 3px 6px); box-shadow: inset 0 0 0 1.5px var(--serie-2); }
+
+/* Barres verticales */
+.barres-v { display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); gap: 2px 10px; align-items: end; height: 230px; border-bottom: 1px solid var(--encre-douce); }
+.col { display: grid; grid-template-rows: auto 1fr; height: 100%; text-align: center; position: relative; }
+.col-valeur { font-size: .8125rem; font-weight: 700; color: var(--encre); font-variant-numeric: tabular-nums; padding-bottom: 4px; align-self: end; }
+.col-piste { display: flex; align-items: flex-end; justify-content: center; height: 170px; }
+.col-piste .barre { width: min(100%, 56px); border-radius: 4px 4px 0 0; }
+.col-label { position: absolute; bottom: -24px; left: 0; right: 0; font-size: .75rem; color: var(--encre-douce); font-variant-numeric: tabular-nums; }
+.barres-v { margin-bottom: 30px; }
+
+/* Barres horizontales et groupes */
+.barres-h { display: grid; gap: 14px; }
+.h-groupe { display: grid; grid-template-columns: minmax(0, 13rem) minmax(0, 1fr); gap: 4px 16px; align-items: center; }
+.h-label { font-size: .875rem; color: var(--encre); line-height: 1.35; }
+.h-barres { display: grid; gap: 4px; }
+.h-ligne { display: grid; grid-template-columns: minmax(0, 1fr) 4.2rem; gap: 10px; align-items: center; }
+.h-piste { display: block; height: 18px; position: relative; }
+.h-piste .barre { height: 100%; border-radius: 0 4px 4px 0; min-width: 2px; }
+.h-piste .barre.negative { border-radius: 4px 0 0 4px; }
+.h-centre::before { content: ""; position: absolute; left: 50%; top: -4px; bottom: -4px; width: 1px; background: var(--encre-douce); }
+.h-valeur { font-size: .8125rem; font-weight: 700; color: var(--encre); font-variant-numeric: tabular-nums; text-align: right; }
+@media (max-width: 560px) {
+  .h-groupe { grid-template-columns: 1fr; }
+  .barres-v { gap: 2px 6px; }
+  .col-valeur { font-size: .75rem; }
+}
+
+/* Pied, données */
+.graphique-pied { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--filet); display: grid; gap: 6px; }
+.graphique-pied p { margin: 0 !important; font-size: .8125rem; line-height: 1.55; color: var(--encre-douce); }
+.graphique-pied strong { color: var(--encre); font-weight: 600; }
+.graphique-donnees { margin-top: 12px; font-size: .8125rem; }
+.graphique-donnees summary { cursor: pointer; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: .6875rem; color: var(--encre); }
+.graphique-donnees .tableau-donnees { font-size: .8125rem; }
+.graphique-donnees .tableau-donnees td { white-space: nowrap; }
+
+/* Chronologie */
+.frise { list-style: none; padding: 0 !important; margin: 0; position: relative; }
+.frise::before { content: ""; position: absolute; left: 7px; top: 6px; bottom: 6px; width: 1px; background: var(--or); }
+.frise li { position: relative; padding: 0 0 18px 30px; margin: 0; display: grid; gap: 3px; }
+.frise li::before { content: ""; position: absolute; left: 2px; top: 5px; width: 11px; height: 11px; border-radius: 50%; background: var(--blanc); border: 2px solid var(--encre); }
+.frise li:last-child { padding-bottom: 0; }
+.frise-date { font-weight: 700; font-size: .8125rem; letter-spacing: .04em; color: var(--encre); }
+.frise-texte { font-size: .9375rem; line-height: 1.5; color: var(--encre); }
+.frise-statut { display: inline-block; margin-left: 8px; padding: 1px 7px; border: 1px solid var(--filet); font-size: .6875rem; letter-spacing: .06em; text-transform: uppercase; color: var(--encre-douce); vertical-align: 1px; white-space: nowrap; }
+@media print { .graphique { break-inside: avoid; } }
+.barres-v { height: auto; border-bottom: 0; margin-bottom: 0; }
+.col { display: flex; flex-direction: column; height: auto; }
+.col-piste { flex-direction: column; align-items: center; justify-content: flex-end; height: 190px; border-bottom: 1px solid var(--encre-douce); }
+.col-valeur { align-self: auto; padding-bottom: 6px; }
+.col-label { position: static; padding-top: 8px; }

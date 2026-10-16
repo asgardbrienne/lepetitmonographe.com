@@ -37,6 +37,17 @@ corrections: Les chiffres de l'Assurance maladie sont précisés (723 millions d
 
 [Estimation] Selon le HCFiPS, ce montant se répartit ainsi : 52 % liés au travail dissimulé (fraude aux cotisations par des employeurs ou des travailleurs), 12 % aux professionnels de santé et 36 % aux assurés sociaux [2]. Les micro-entrepreneurs sont exclus de l'estimation centrale ; leur manque à gagner est évalué à 1,6 milliard d'euros [2].
 
+[Figure] barres-h
+titre: Répartition de la fraude sociale estimée par le HCFiPS
+unite: Part de la fraude sociale estimée (environ 14 milliards d'euros), en %, 2025
+donnees:
+- Travail dissimulé (cotisations) | 52
+- Assurés sociaux | 36
+- Professionnels de santé | 12
+lecture: Selon le HCFiPS, un peu plus de la moitié de la fraude sociale estimée provient du travail dissimulé, c'est-à-dire de cotisations non versées.
+note: Il s'agit d'une estimation, et non de fraudes constatées. Les micro-entrepreneurs sont exclus de l'estimation centrale.
+source: Haut Conseil du financement de la protection sociale, note du 13 janvier 2026 [2]
+
 [Estimation] Pour la seule branche maladie, la Cour des comptes a estimé la fraude aux prestations entre 3,8 et 4,5 milliards d'euros par an, selon la Fondation IFRAP, qui renvoie aux rapports de la Cour de mai 2024 [4]. Ce chiffre porte sur un autre périmètre et une autre année que celui du HCFiPS et ne lui est pas directement comparable.
 
 [À noter] Une estimation de fraude repose sur des contrôles aléatoires extrapolés à l'ensemble des dossiers. Sa marge d'incertitude est importante et sa méthode change d'une année à l'autre.

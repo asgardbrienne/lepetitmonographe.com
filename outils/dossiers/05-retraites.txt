@@ -35,6 +35,17 @@ corrections: Les ressources sont actualisées avec le rapport du COR de juin 202
 
 [Estimation] Dans le scénario de référence du COR, le déficit atteindrait 0,2 % du PIB en 2030 (6,8 milliards d'euros), 0,9 % en 2045 et 2,4 % en 2070 [2]. Jusqu'en 2045, cette trajectoire est comparable à celle du rapport précédent : les nouvelles hypothèses de migrations et d'espérance de vie compensent le coût de la suspension de la réforme de 2023 (1,8 milliard d'euros par an en moyenne jusqu'en 2032). Au-delà, elle est plus dégradée, principalement en raison de la baisse de l'hypothèse de fécondité (1,45 enfant par femme contre 1,8) [2].
 
+[Figure] barres
+titre: Déficit projeté du système de retraite, scénario de référence du COR
+unite: Déficit, en % du PIB
+donnees:
+- 2030 | 0,2*
+- 2045 | 0,9*
+- 2070 | 2,4*
+lecture: Dans son scénario de référence, le COR projette un déficit de 0,2 % du PIB en 2030 et de 2,4 % en 2070.
+note: Projections : elles dépendent d'hypothèses de productivité, de chômage, de fécondité et de solde migratoire. Le déficit constaté en 2025 est de 5,1 milliards d'euros, hors charges et produits financiers.
+source: Conseil d'orientation des retraites, rapport annuel de juin 2026 [2]
+
 [Débat] Le niveau du déficit dépend du traitement des produits financiers et de la contribution de l'État au régime de ses fonctionnaires, qui est par construction à l'équilibre. Le COR relève lui-même que ce cadre comptable « tend à masquer la fragilité persistante du régime des fonctionnaires de l'État », qui comptait 1,29 cotisant par retraité en 2020 [2] ; certains économistes en concluent que le déficit réel est plus important. À l'inverse, l'UNSA Retraités juge que « le système des retraites français est solide » et dénonce « l'alarmisme » qui a entouré la réforme de 2023 [4]. Ces lectures ne s'opposent pas sur les chiffres mais sur la convention retenue et l'horizon considéré.
 
 ## Ce qu'on ne sait pas

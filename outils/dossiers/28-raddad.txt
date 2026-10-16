@@ -25,6 +25,19 @@ corrections: Ghislaine Marchal a été tuée en juin 1991 (corps découvert le 2
 
 ## Les faits jugés
 
+[Figure] frise
+titre: Les étapes judiciaires de l'affaire
+donnees:
+- 24 juin 1991 | Découverte du corps dans la cave de la propriété de Mougins [2][5]. | Fait établi
+- 2 février 1994 | Condamnation du jardinier à dix-huit ans de réclusion criminelle, sans appel possible à l'époque [1][2]. | Décision de justice
+- 10 mai 1996 | Grâce présidentielle partielle, qui n'efface pas la condamnation [1][2]. | Fait établi
+- Septembre 1998 | Libération conditionnelle [1][2]. | Fait établi
+- 20 novembre 2002 | Rejet d'une première demande de révision [1][2]. | Décision de justice
+- Novembre 2015 | Quatre empreintes génétiques masculines non identifiées relevées sur des scellés [2][3]. | Élément matériel
+- 24 juin 2021 | Dépôt d'une deuxième requête en révision [2][3]. | Procédure
+- 13 octobre 2022 | Rejet de la requête : la condamnation reste définitive [3][5]. | Décision de justice
+source: Décisions de justice rapportées par la presse ; voir les sources du dossier
+
 [Fait établi] Ghislaine Marchal, 65 ans, a été tuée dans sa propriété de Mougins en juin 1991 ; son corps a été découvert le 24 juin 1991 dans la cave, où figuraient deux inscriptions tracées avec son sang, « Omar m'a tuer » et « Omar m'a t » [2][5]. Selon la chronologie de l'enquête, elle a été tuée la veille, le dimanche 23 juin [1] ; certaines dépêches datent la découverte du 23 juin [2].
 
 [Fait établi] Son jardinier est condamné pour ce meurtre le 2 février 1994 par la cour d'assises des Alpes-Maritimes, à dix-huit ans de réclusion criminelle, sans possibilité d'appel à l'époque [1][2].

@@ -26,6 +26,22 @@ corrections: Les mises en examen de 2017 visaient trois personnes et non trois m
 
 ## Les décisions de justice
 
+[Figure] frise
+titre: Les principales étapes judiciaires de l'affaire
+donnees:
+- 16 octobre 1984 | L'enfant disparaît ; son corps est retrouvé le soir même dans la Vologne [4]. | Fait établi
+- 17 octobre 1984 | L'instruction est confiée à un juge d'Épinal [1]. | Fait établi
+- Février 1985 | Les gendarmes sont dessaisis de l'enquête au profit de la police judiciaire de Nancy [5]. | Fait établi
+- 29 mars 1985 | Un cousin du père, visé par l'enquête, est tué par le père de l'enfant [1]. | Fait établi
+- 3 février 1993 | Non-lieu en faveur de la mère de l'enfant [1]. | Décision de justice
+- 16 décembre 1993 | Le père est condamné à cinq ans d'emprisonnement, dont un avec sursis, pour ce meurtre [1]. | Décision de justice
+- 3 décembre 2008 | Réouverture du dossier par la cour d'appel de Dijon [1]. | Procédure
+- Juin 2017 | Trois mises en examen, annulées le 16 mai 2018 pour vice de procédure [3]. | Procédure
+- 16 janvier 2020 | Annulation de la garde à vue de 1984, après une décision du Conseil constitutionnel de 2018 [7][13]. | Décision de justice
+- 24 octobre 2025 | Mise en examen d'une grand-tante de l'enfant pour association de malfaiteurs [8]. | Procédure
+- 15 juillet 2026 | Ces faits sont déclarés prescrits ; l'information judiciaire reste ouverte [2][12]. | Décision de justice
+source: Décisions et communiqués judiciaires rapportés par la presse ; voir les sources du dossier
+
 [Fait établi] Le 16 octobre 1984, Grégory Villemin disparaît ; son corps est retrouvé le soir même dans la Vologne, dans les Vosges. La famille était depuis plusieurs années la cible de lettres et d'appels anonymes [4].
 
 [Fait établi] Un cousin du père de l'enfant, visé par l'enquête, est tué par le père de l'enfant le 29 mars 1985. L'action publique à son égard s'éteint avec son décès [1]. Le 16 décembre 1993, la cour d'assises de la Côte-d'Or condamne le père à cinq ans d'emprisonnement, dont un avec sursis, pour ce meurtre [1][6].

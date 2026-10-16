@@ -25,6 +25,20 @@ corrections: La série 2019-2023 était attribuée à une réponse parlementaire
 
 [Fait établi] La même étude donne la série suivante de féminicides directs au sein du couple : 146 en 2019, 102 en 2020, 122 en 2021, 118 en 2022, 96 en 2023 et 107 en 2024 [1]. Des écarts de quelques unités peuvent exister entre publications pour une même année, selon la date de la mise à jour.
 
+[Figure] barres
+titre: Femmes tuées par leur conjoint ou ex-conjoint, selon le ministère de l'Intérieur
+unite: Nombre de victimes par an, France (outre-mer compris), 2019-2024
+donnees:
+- 2019 | 146
+- 2020 | 102
+- 2021 | 122
+- 2022 | 118
+- 2023 | 96
+- 2024 | 107
+lecture: En 2024, 107 femmes ont été tuées par leur conjoint ou ex-conjoint, contre 96 en 2023 et 146 en 2019.
+note: Décompte officiel des féminicides au sein du couple. Les décomptes associatifs, qui retiennent d'autres liens entre victime et auteur, ne sont pas comparables à cette série.
+source: Ministère de l'Intérieur, délégation aux victimes, étude nationale sur les morts violentes au sein du couple, octobre 2025 [1]
+
 [Fait établi] Le ministère de la Justice tient un recensement distinct, par sa direction des affaires criminelles et des grâces. Pour 2025, il dénombre 113 homicides conjugaux, dont 96 commis par des hommes sur des femmes, selon sa réponse à une question écrite publiée le 23 juin 2026 [3]. Ce chiffre ne provient pas de l'étude du ministère de l'Intérieur et ne doit pas être comparé terme à terme avec elle.
 
 ## Ce que comptent les collectifs

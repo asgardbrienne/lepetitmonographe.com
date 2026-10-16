@@ -33,6 +33,17 @@ Le ratio rapporte un stock (la dette accumulée) à un flux (la richesse produit
 
 [Estimation] Le projet de loi de finances pour 2027, déposé le 1er octobre 2026, chiffre la charge de la dette de l'État (y compris la dette reprise de SNCF Réseau) à 72,9 milliards d'euros en 2027, contre 63,4 milliards en prévision révisée pour 2026 et 51,6 milliards exécutés en 2025 [2]. Il s'agit de prévisions.
 
+[Figure] barres
+titre: Charge de la dette de l'État
+unite: Milliards d'euros, y compris la dette reprise de SNCF Réseau
+donnees:
+- 2025 | 51,6
+- 2026 | 63,4*
+- 2027 | 72,9*
+lecture: La charge de la dette de l'État passerait de 51,6 milliards d'euros exécutés en 2025 à 72,9 milliards prévus en 2027.
+note: 2026 : prévision révisée ; 2027 : prévision du projet de loi de finances. Ne pas confondre avec les intérêts de l'ensemble des administrations publiques (91,2 milliards prévus en 2027), qui couvrent un périmètre plus large.
+source: Projet de loi de finances pour 2027, déposé le 1er octobre 2026 [2]
+
 [Estimation] En comptabilité nationale, qui couvre l'ensemble des administrations publiques, les intérêts atteindraient 91,2 milliards d'euros en 2027, contre 79,2 milliards en 2026, selon le dossier de presse du Gouvernement repris par la presse spécialisée [9]. Le rapport sur la dette des administrations publiques exprime la même prévision en part de richesse produite : 2,6 % du PIB en 2026, 2,9 % en 2027 et 3,7 % en 2030 [7]. Les deux chiffres, 72,9 et 91,2 milliards, sont exacts : ils ne portent pas sur le même périmètre. Le chiffre de 91 milliards cité dans le débat public correspond au second.
 
 [Estimation] Le tableau de financement du projet de loi de finances prévoit un besoin de financement de l'État de 339,7 milliards d'euros en 2027 [2]. Selon l'Agence France Trésor, citée par l'AFP, c'est 28 milliards de plus que le besoin de financement 2026 actualisé [3]. Ce besoin couvre le déficit de l'année et le remboursement des emprunts qui arrivent à échéance.
@@ -48,6 +59,18 @@ L'écart avec l'Allemagne, souvent appelé « spread », mesure le supplément q
 ## La France en Europe
 
 [Fait établi] Au premier trimestre 2026, la dette publique représente 88,9 % du PIB en moyenne dans la zone euro. Elle atteint 143,5 % en Grèce, 138,9 % en Italie et 117,6 % en France : ce sont les trois ratios les plus élevés de l'Union européenne [5]. L'Insee a depuis révisé le chiffre français du premier trimestre à 117,5 % [1].
+
+[Figure] barres-h
+titre: Dette publique au premier trimestre 2026, comparaison européenne
+unite: % du PIB, dette au sens de Maastricht
+donnees:
+- Grèce | 143,5
+- Italie | 138,9
+- France | 117,6
+- Zone euro (moyenne) | 88,9
+lecture: Au premier trimestre 2026, la dette publique française représente 117,6 % du PIB selon Eurostat, contre 88,9 % en moyenne dans la zone euro.
+note: L'Insee a depuis révisé le chiffre français du premier trimestre à 117,5 %.
+source: Eurostat, communiqué du 21 juillet 2026 [5]
 
 ## Le débat : à partir de quand la dette devient-elle un problème ?
 

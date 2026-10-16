@@ -26,6 +26,16 @@ corrections: Ajout du procès de Rennes (acquittement du 5 juin 2015) et des dou
 
 ## La chronologie
 
+[Figure] frise
+titre: Les étapes judiciaires de l'affaire
+donnees:
+- Février 2001 | Ouverture de l'information judiciaire [1][2]. | Procédure
+- 9 juin 2002 | Une personne mise en examen meurt en détention provisoire [1]. | Fait établi
+- 2 juillet 2004 | Fin du procès de Saint-Omer : dix condamnations, sept acquittements [1][2]. | Décision de justice
+- 1er décembre 2005 | La cour d'assises d'appel de Paris acquitte les six appelants [1][4]. | Décision de justice
+- 5 juin 2015 | Acquittement, à Rennes, d'un des acquittés de 2005, rejugé pour des faits commis quand il était mineur [5]. | Décision de justice
+source: Décisions de justice et rapport parlementaire ; voir les sources du dossier
+
 [Fait établi] Les faits jugés, des viols et agressions sexuelles sur des mineurs, se situent entre 1997 et 2000 à Outreau, près de Boulogne-sur-Mer. L'information judiciaire est ouverte en février 2001 ; la couverture médiatique s'intensifie après une série d'interpellations à la mi-novembre 2001 [1][2].
 
 [Fait établi] L'une des personnes mises en examen meurt en détention provisoire le 9 juin 2002, avant le premier procès [1].

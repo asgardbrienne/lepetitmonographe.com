@@ -31,6 +31,13 @@ Toute rédaction ou modification de contenu sur ce site applique ces règles san
 - Aspect du site : maquette validée par l'autrice (octobre 2026), dans l'esprit de la charte V1.1. Ivoire #F8F5EF, bleu nuit #152840 / #11243D, or #A78346 (décor et grands titres ; #8C6A2E pour les petits textes dorés), gris #626773, blanc éditorial #FFFDF9, vert preuve #2A6654 réservé au statut Fait établi. Titres en Libre Baskerville, interface en DM Sans, lecture longue en Source Serif 4. Mode sombre disponible. Contrastes WCAG AA.
 - Affichage des étiquettes : cinq statuts (Fait établi, Témoignage, Interprétation, Hypothèse, Proposition). Les nuances de la règle 1 restent visibles en précision sous le statut : [Estimation] et [Débat] et [Expertise] s'affichent en Interprétation, [Allégation] en Témoignage, [Élément matériel] et [État de la procédure] en Fait établi.
 
+## Graphiques et chronologies
+
+- Les graphiques s'écrivent dans le fichier du dossier avec un bloc `[Figure] barres`, `barres-h`, `groupes` ou `frise` (syntaxe détaillée en tête de `outils/figures.py`).
+- Une figure ne reprend que des chiffres déjà vérifiés et sourcés dans le texte du dossier, avec les mêmes appels de note. Elle porte un titre informatif, son unité, son champ et sa période, une phrase de lecture, sa source datée et, si besoin, une note de limite.
+- Barres partant de zéro, une seule échelle, pas d'effet 3D. Les prévisions sont hachurées et signalées en légende. Un axe non continu (années manquantes) est signalé en note.
+- Ne pas mettre côte à côte des chiffres de méthodes ou de périmètres différents sans le dire dans la note.
+
 ## Images
 
 - Chaque dossier reçoit une image d'illustration (champs `image`, `image_alt`, `image_credit`, `image_lien` en tête du fichier du dossier, image enregistrée dans `assets/images/`).

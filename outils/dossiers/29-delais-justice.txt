@@ -23,6 +23,19 @@ corrections: Les durées d'instruction sont désormais rattachées à leur sourc
 
 [Fait établi] Selon les Références statistiques Justice publiées par le ministère de la Justice en juillet 2025 (édition 2025, données 2024), le délai moyen entre l'arrivée de l'affaire et la première décision au fond est de 9,1 mois en 2024 devant le tribunal correctionnel ou une juridiction pour mineurs, hors cours d'assises et cours criminelles départementales, contre 8,9 mois en 2023. Il est de 6,0 mois pour une comparution sur reconnaissance préalable de culpabilité, de 1,2 mois pour une comparution immédiate, de 30,5 mois pour une citation directe et de 21,4 mois pour les affaires impliquant des personnes morales [1].
 
+[Figure] barres-h
+titre: Délai moyen avant la première décision au fond, selon la procédure
+unite: Mois, entre l'arrivée de l'affaire au parquet et le jugement, 2024
+donnees:
+- Comparution immédiate | 1,2
+- Reconnaissance préalable de culpabilité | 6,0
+- Ensemble des affaires | 9,1
+- Citation directe | 30,5
+- Renvoi par un juge d'instruction | 53,5
+lecture: En 2024, une affaire renvoyée devant le tribunal correctionnel par un juge d'instruction est jugée en moyenne 53,5 mois après son arrivée au parquet.
+note: Tribunal correctionnel et juridictions pour mineurs, hors cours d'assises et cours criminelles départementales. Mois de 30 jours.
+source: Ministère de la Justice, Références statistiques Justice, édition 2025 (données 2024) [1]
+
 [Fait établi] Toujours en 2024, les affaires renvoyées devant le tribunal correctionnel par un juge d'instruction ou par la chambre de l'instruction sont jugées en moyenne 53,5 mois après leur arrivée au parquet : 7,4 mois pour l'orientation, puis 46,1 mois jusqu'au jugement, « essentiellement pour mener à bien l'instruction », selon le ministère [1].
 
 [Fait établi] Selon l'édition précédente des Références statistiques Justice (données 2023), la durée de l'instruction pour les personnes dont l'information judiciaire s'est terminée en 2023 a été de 37,9 mois en moyenne, de 34,2 mois pour les mineurs et de 44,5 mois pour les personnes ayant bénéficié d'un non-lieu [2].
@@ -32,6 +45,17 @@ corrections: Les durées d'instruction sont désormais rattachées à leur sourc
 ## L'engorgement criminel
 
 [Fait établi] Selon le rapport de la commission des lois de l'Assemblée nationale sur le projet de loi relatif à la justice criminelle et au respect des victimes, enregistré le 10 juin 2026, près de 6 000 dossiers criminels étaient en attente de jugement en 2025, contre 2 200 en 2019, alors que les juridictions criminelles ont rendu 3 267 décisions en 2025, contre 2 136 en 2019 ; ces chiffres proviennent des réponses du ministère de la Justice aux rapporteures [3].
+
+[Figure] groupes
+titre: Dossiers criminels en attente et décisions rendues
+unite: Nombre de dossiers, 2019 et 2025
+series: 2019 | 2025
+donnees:
+- Dossiers criminels en attente de jugement | 2200 | 6000
+- Décisions rendues par les juridictions criminelles | 2136 | 3267
+lecture: Les juridictions criminelles ont rendu plus de décisions en 2025 qu'en 2019, mais le nombre de dossiers en attente a presque triplé.
+note: Le chiffre de 2025 pour les dossiers en attente est donné comme « près de 6 000 » : il s'agit d'un ordre de grandeur.
+source: Assemblée nationale, rapport de la commission des lois du 10 juin 2026, d'après les réponses du ministère de la Justice [3]
 
 [Estimation] Le même rapport indique qu'il faut « désormais six ans en moyenne pour juger un viol et huit ans pour un homicide ». Le rapport ne précise pas le mode de calcul de ces durées, et nous n'avons pas trouvé de série statistique publiée par le ministère qui les détaille [3].
 
