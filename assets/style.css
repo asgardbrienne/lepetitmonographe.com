@@ -1084,7 +1084,7 @@ body:has(.une-tete) #a-la-une .carte-une h3{font-size:1.16rem}
 .essentiel{border-left:3px solid #b39156;background:#f7f2e9}
 
 /* Les trois pages intérieures de la référence */
-.lpm-rubric-header{background:linear-gradient(90deg,#10253cf2,#10253ca0 53%,#10253c22),url('images/financement-campagnes.jpg') center/cover!important;color:#fff!important;min-height:220px;display:flex;align-items:center}
+.lpm-rubric-header{background:linear-gradient(90deg,#10253cf2,#10253ca0 53%,#10253c22),url('images/pacte-migration.jpg') center/cover!important;color:#fff!important;min-height:220px;display:flex;align-items:center}
 .lpm-rubric-header h1,.lpm-rubric-header .chapeau,.lpm-rubric-header .surtitre{color:#fff!important}
 .lpm-rubric-header .conteneur{width:100%}
 body:has(.lpm-rubric-header) .portes{display:flex;flex-direction:column;gap:0}
@@ -1117,4 +1117,41 @@ body:has(.lpm-books-header) .livre .couverture{height:160px}
 body:has(.lpm-books-header) .livre .couverture img{max-height:150px;max-width:100px}
 .lpm-principles-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 .lpm-principles-grid article:nth-child(2n){border-right:0}
+}
+
+
+/* Article : maquette de lecture bureau et téléphone. Le texte et les sources
+   restent inchangés ; seules leur hiérarchie et leur mise en page évoluent. */
+body:has(.tete-dossier) .tete-page.tete-dossier{background:#faf8f3;border:0;padding:32px 0 12px}
+body:has(.tete-dossier) .tete-dossier-grille{display:flex;flex-direction:column;gap:22px;max-width:880px;margin:0 auto}
+body:has(.tete-dossier) .tete-dossier-texte{max-width:800px}
+body:has(.tete-dossier) .tete-dossier h1{font-family:var(--display);font-size:clamp(2.25rem,4.4vw,3.85rem);line-height:1.12;letter-spacing:-.028em;max-width:22ch;margin:8px 0 16px}
+body:has(.tete-dossier) .tete-dossier .chapeau{font:400 1.14rem/1.6 var(--serif);max-width:68ch;margin:0 0 15px}
+body:has(.tete-dossier) .tete-dossier .meta-dossier{font-size:.7rem;letter-spacing:.055em}
+body:has(.tete-dossier) .tete-dossier-image{width:100%;margin:0}
+body:has(.tete-dossier) .tete-dossier-image img{display:block;width:100%;height:clamp(260px,34vw,440px);object-fit:cover;aspect-ratio:auto}
+body:has(.tete-dossier) .tete-dossier-image figcaption{font-size:.71rem;line-height:1.5;color:var(--encre-douce);margin-top:7px}
+body:has(.tete-dossier) .garanties{max-width:880px;margin:16px auto 0}
+body:has(.tete-dossier) .dossier{padding-top:10px}
+body:has(.tete-dossier) .dossier-grille{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+body:has(.tete-dossier) .dossier-cote{order:0;width:100%;display:block}
+body:has(.tete-dossier) .dossier-cote .sommaire{position:static;max-width:none;border:1px solid #e2dbcc;background:#f5f1e9;padding:16px 22px;margin:0 0 16px}
+body:has(.tete-dossier) .dossier-cote .sommaire ol{columns:2;column-gap:42px}
+body:has(.tete-dossier) .dossier-cote .sommaire li{break-inside:avoid;padding-bottom:4px}
+body:has(.tete-dossier) .dossier-cote .cote-aide{display:none}
+body:has(.tete-dossier) .dossier .prose{order:1;max-width:880px;width:100%;font-size:1.12rem;line-height:1.78}
+body:has(.tete-dossier) .dossier .essentiel{background:#f7f2e9;border-left:3px solid #b39156;padding:23px 25px;margin:0 0 30px}
+body:has(.tete-dossier) .dossier .prose>section{max-width:760px}
+body:has(.tete-dossier) .puces-dossier{max-width:880px;margin:0 auto 18px}
+@media(max-width:650px){
+ body:has(.tete-dossier) .tete-page.tete-dossier{padding:20px 0 4px}
+ body:has(.tete-dossier) .tete-dossier h1{font-size:clamp(1.9rem,7.5vw,2.55rem);line-height:1.17}
+ body:has(.tete-dossier) .tete-dossier .chapeau{font-size:1rem;line-height:1.55}
+ body:has(.tete-dossier) .tete-dossier-image img{height:190px;min-height:0;max-height:190px}
+ body:has(.tete-dossier) .tete-dossier-grille{gap:16px}
+ body:has(.tete-dossier) .garanties{display:none}
+ body:has(.tete-dossier) .dossier-cote .sommaire ol{columns:1}
+ body:has(.tete-dossier) .dossier-cote .sommaire{padding:15px 18px}
+ body:has(.tete-dossier) .dossier .prose{font-size:1.045rem;line-height:1.72}
+ body:has(.tete-dossier) .dossier .essentiel{padding:18px 19px}
 }
