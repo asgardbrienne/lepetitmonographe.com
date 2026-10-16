@@ -9,6 +9,12 @@
       bouton.setAttribute('aria-expanded', String(!ouvert));
       nav.classList.toggle('ouvert', !ouvert);
     });
+    nav.addEventListener('click', function (e) {
+      if (e.target.closest('a')) {
+        bouton.setAttribute('aria-expanded', 'false');
+        nav.classList.remove('ouvert');
+      }
+    });
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape' && nav.classList.contains('ouvert')) {
         bouton.setAttribute('aria-expanded', 'false');
@@ -21,12 +27,17 @@
   // Apparence claire ou sombre, mémorisée sur cet appareil
   var theme = document.querySelector('.bouton-theme');
   if (theme) {
+    var racineTheme = document.documentElement;
+    var initialementSombre = racineTheme.getAttribute('data-theme') === 'dark' ||
+      (!racineTheme.getAttribute('data-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    theme.setAttribute('aria-pressed', String(initialementSombre));
     theme.addEventListener('click', function () {
       var racine = document.documentElement;
       var sombre = racine.getAttribute('data-theme') === 'dark' ||
         (!racine.getAttribute('data-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
       var nouveau = sombre ? 'light' : 'dark';
       racine.setAttribute('data-theme', nouveau);
+      theme.setAttribute('aria-pressed', String(nouveau === 'dark'));
       try { localStorage.setItem('lpm-theme', nouveau); } catch (e) {}
     });
   }
@@ -56,6 +67,40 @@
   // Sommaire : fermé par défaut sur petit écran
   var sommaire = document.querySelector('.sommaire');
   if (sommaire && window.matchMedia('(max-width: 1039px)').matches) sommaire.removeAttribute('open');
+
+  // Repère de lecture : suivre la section actuellement parcourue.
+  // Les liens et identifiants sont ceux des sommaires déjà présents dans chaque dossier.
+  var liensSommaire = Array.prototype.slice.call(
+    document.querySelectorAll('.dossier .sommaire a[href^="#"]')
+  );
+  if (liensSommaire.length) {
+    var etapesSommaire = liensSommaire.map(function (lien) {
+      var identifiant = lien.getAttribute('href').slice(1);
+      return { lien: lien, section: document.getElementById(identifiant) };
+    }).filter(function (etape) { return !!etape.section; });
+    if (etapesSommaire.length) {
+      var defilementEnCours = false;
+      function repererSection() {
+        var active = etapesSommaire[0];
+        etapesSommaire.forEach(function (etape) {
+          if (etape.section.getBoundingClientRect().top <= 158) active = etape;
+        });
+        etapesSommaire.forEach(function (etape) {
+          if (etape === active) etape.lien.setAttribute('aria-current', 'location');
+          else etape.lien.removeAttribute('aria-current');
+        });
+        defilementEnCours = false;
+      }
+      window.addEventListener('scroll', function () {
+        if (!defilementEnCours) {
+          defilementEnCours = true;
+          window.requestAnimationFrame(repererSection);
+        }
+      }, { passive: true });
+      window.addEventListener('resize', repererSection);
+      repererSection();
+    }
+  }
 
   var champ = document.getElementById('champ-recherche');
   var liste = document.getElementById('liste-dossiers');
