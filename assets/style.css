@@ -1034,3 +1034,124 @@ body{background:#faf8f3}
 .carte-une h3{font-size:1.05rem}
 .carte-une>p:not(.surtitre){display:none}
 }
+
+
+/* LPM — reproduction des 7 vues de référence, branche de prévisualisation uniquement.
+   Pas de changement de contenus ni de chiffres. */
+@media(min-width:981px){
+  body:has(.une-tete) .une-tete{padding:0!important;margin:0!important}
+  body:has(.une-tete) .une-tete-grille{display:block!important;max-width:100%!important;padding:0!important}
+  body:has(.une-tete) .une-accroche{display:none!important}
+  body:has(.une-tete) .vedette{display:block!important;min-height:390px!important;max-width:none!important;border:0!important;background:#10253c!important;color:#fff!important}
+  body:has(.une-tete) .vedette img{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;min-height:0!important;max-height:none!important;object-fit:cover!important;z-index:0!important}
+  body:has(.une-tete) .vedette:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#10253cf5 0%,#10253ce8 26%,#10253c90 53%,transparent 85%);z-index:1}
+  body:has(.une-tete) .vedette-texte{position:relative!important;z-index:2!important;max-width:570px!important;min-height:390px!important;padding:52px max(42px,calc((100vw - 1160px)/2))!important;width:65%!important;display:flex!important;align-items:flex-start!important;justify-content:center!important}
+  body:has(.une-tete) .vedette h2{font-size:clamp(2rem,3.2vw,3.45rem)!important;line-height:1.15!important;color:#fff!important}
+  body:has(.une-tete) .vedette p:not(.surtitre){font-size:1.04rem!important;color:#f3eee5!important}
+  body:has(.une-tete) .vedette .lien-fleche{display:inline-block;background:#d2a864;color:#142742!important;padding:12px 17px;text-decoration:none}
+}
+@media(max-width:980px){
+  body:has(.une-tete) .une-tete{padding:0!important}
+  body:has(.une-tete) .une-tete-grille{padding:0!important;display:block!important}
+  body:has(.une-tete) .une-accroche{display:none!important}
+  body:has(.une-tete) .vedette{display:flex!important;flex-direction:column!important;border:0!important;min-height:0!important;background:#10253c!important}
+  body:has(.une-tete) .vedette img{order:0!important;position:static!important;display:block!important;width:100%!important;height:200px!important;min-height:200px!important;max-height:200px!important;object-fit:cover!important}
+  body:has(.une-tete) .vedette-texte{order:1!important;display:flex!important;flex-direction:column!important;align-items:flex-start!important;padding:24px!important;gap:12px!important;background:#10253c!important;color:#fff!important}
+  body:has(.une-tete) .vedette h2{font-size:clamp(1.75rem,6.5vw,2.5rem)!important;line-height:1.2!important;color:#fff!important}
+  body:has(.une-tete) .vedette p:not(.surtitre){color:#f3eee5!important;font-size:1rem!important;line-height:1.5!important}
+  body:has(.une-tete) .vedette .lien-fleche{display:inline-block!important;background:#d2a864!important;color:#142742!important;padding:12px 17px!important}
+}
+body:has(.une-tete) #a-la-une .cartes-une{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+body:has(.une-tete) #a-la-une .carte-une{border:1px solid #e5dfd3;padding:0 0 15px;display:flex;flex-direction:column;align-items:stretch;background:#fffdfa}
+body:has(.une-tete) #a-la-une .carte-une img{width:100%;aspect-ratio:1.5;object-fit:cover}
+body:has(.une-tete) #a-la-une .carte-une>*:not(img){margin-left:12px;margin-right:12px}
+body:has(.une-tete) #a-la-une .carte-une h3{font-size:1.16rem}
+@media(max-width:980px){body:has(.une-tete) #a-la-une .cartes-une{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){
+  body:has(.une-tete) #a-la-une .cartes-une{grid-template-columns:1fr;gap:0}
+  body:has(.une-tete) #a-la-une .carte-une{display:grid;grid-template-columns:100px minmax(0,1fr);column-gap:12px;padding:12px 0;margin:0;border:0;border-bottom:1px solid #ddd8cf;background:transparent}
+  body:has(.une-tete) #a-la-une .carte-une img{grid-column:1;grid-row:1/span 4;aspect-ratio:1;width:100px;height:100px;margin:0}
+  body:has(.une-tete) #a-la-une .carte-une>*:not(img){grid-column:2;margin:0}
+  body:has(.une-tete) #a-la-une .carte-une h3{font-size:1rem}
+  body:has(.une-tete) #a-la-une .carte-une>p:not(.surtitre){display:none}
+}
+/* Pages intérieures : une hiérarchie sobre, sans modifier les documents. */
+.tete-page{background:#faf8f3;border-bottom:1px solid #e5dfd3}
+.tete-page h1{font-size:clamp(2rem,4vw,3.4rem);line-height:1.2;letter-spacing:-.025em}
+.tete-page .chapeau{max-width:67ch}
+.prose{font-size:1.12rem;line-height:1.8}
+.sommaire{border:1px solid #e1d9cd;background:#fbf8f1}
+.essentiel{border-left:3px solid #b39156;background:#f7f2e9}
+
+/* Les trois pages intérieures de la référence */
+.lpm-rubric-header{background:linear-gradient(90deg,#10253cf2,#10253ca0 53%,#10253c22),url('images/pacte-migration.jpg') center/cover!important;color:#fff!important;min-height:220px;display:flex;align-items:center}
+.lpm-rubric-header h1,.lpm-rubric-header .chapeau,.lpm-rubric-header .surtitre{color:#fff!important}
+.lpm-rubric-header .conteneur{width:100%}
+body:has(.lpm-rubric-header) .portes{display:flex;flex-direction:column;gap:0}
+body:has(.lpm-rubric-header) .porte{display:grid;grid-template-columns:170px minmax(0,1fr);gap:4px 18px;align-items:start;padding:18px 0;border:0;border-bottom:1px solid #ded8cf;background:transparent;box-shadow:none}
+body:has(.lpm-rubric-header) .porte .porte-image{grid-column:1;grid-row:1/span 5;aspect-ratio:1.5;margin:0}
+body:has(.lpm-rubric-header) .porte>*:not(.porte-image){grid-column:2}
+body:has(.lpm-rubric-header) .porte h3{font-size:1.24rem;margin:0}
+body:has(.lpm-rubric-header) .porte p:not(.surtitre){margin:0}
+.lpm-books-header{background:#faf8f3!important}
+body:has(.lpm-books-header) .livres{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+body:has(.lpm-books-header) .livre{display:flex;flex-direction:column;align-items:flex-start;padding:18px;border:1px solid #e5dfd3;background:#fffdfa;min-width:0}
+body:has(.lpm-books-header) .livre .couverture{width:100%;height:210px;display:flex;align-items:center;justify-content:center}
+body:has(.lpm-books-header) .livre .couverture img{max-height:195px;max-width:140px;width:auto;height:auto;object-fit:contain}
+body:has(.lpm-books-header) .livre h4{font-size:1.2rem;line-height:1.3}
+.lpm-method-principles{padding:38px 0;background:#faf8f3}
+.lpm-method-principles h2{font-size:1.55rem;margin:0 0 25px}
+.lpm-principles-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;text-align:center}
+.lpm-principles-grid article{padding:10px 8px;border-right:1px solid #e5dfd3}
+.lpm-principles-grid article:last-child{border:0}
+.lpm-principles-grid article>span{display:grid;place-items:center;width:52px;height:52px;margin:0 auto 12px;border:1px solid #b39156;border-radius:50%;color:#142742;font:1.45rem Georgia,serif}
+.lpm-principles-grid h3{font:600 1rem Georgia,serif;margin:0 0 8px}
+.lpm-principles-grid p{font-size:.83rem;line-height:1.5;color:#555}
+@media(max-width:700px){
+.lpm-rubric-header{min-height:180px}
+body:has(.lpm-rubric-header) .porte{grid-template-columns:105px minmax(0,1fr);gap:5px 12px}
+body:has(.lpm-rubric-header) .porte p:not(.surtitre){display:none}
+body:has(.lpm-books-header) .livres{grid-template-columns:1fr 1fr;gap:12px}
+body:has(.lpm-books-header) .livre{padding:12px}
+body:has(.lpm-books-header) .livre .couverture{height:160px}
+body:has(.lpm-books-header) .livre .couverture img{max-height:150px;max-width:100px}
+.lpm-principles-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.lpm-principles-grid article:nth-child(2n){border-right:0}
+}
+
+
+/* Article : maquette de lecture bureau et téléphone. Le texte et les sources
+   restent inchangés ; seules leur hiérarchie et leur mise en page évoluent. */
+body:has(.tete-dossier) .tete-page.tete-dossier{background:#faf8f3;border:0;padding:32px 0 12px}
+body:has(.tete-dossier) .tete-dossier-grille{display:flex;flex-direction:column;gap:22px;max-width:880px;margin:0 auto}
+body:has(.tete-dossier) .tete-dossier-texte{max-width:800px}
+body:has(.tete-dossier) .tete-dossier h1{font-family:var(--display);font-size:clamp(2.25rem,4.4vw,3.85rem);line-height:1.12;letter-spacing:-.028em;max-width:22ch;margin:8px 0 16px}
+body:has(.tete-dossier) .tete-dossier .chapeau{font:400 1.14rem/1.6 var(--serif);max-width:68ch;margin:0 0 15px}
+body:has(.tete-dossier) .tete-dossier .meta-dossier{font-size:.7rem;letter-spacing:.055em}
+body:has(.tete-dossier) .tete-dossier-image{width:100%;margin:0}
+body:has(.tete-dossier) .tete-dossier-image img{display:block;width:100%;height:clamp(260px,34vw,440px);object-fit:cover;aspect-ratio:auto}
+body:has(.tete-dossier) .tete-dossier-image figcaption{font-size:.71rem;line-height:1.5;color:var(--encre-douce);margin-top:7px}
+body:has(.tete-dossier) .garanties{max-width:880px;margin:16px auto 0}
+body:has(.tete-dossier) .dossier{padding-top:10px}
+body:has(.tete-dossier) .dossier-grille{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+body:has(.tete-dossier) .dossier-cote{order:0;width:100%;display:block}
+body:has(.tete-dossier) .dossier-cote .sommaire{position:static;max-width:none;border:1px solid #e2dbcc;background:#f5f1e9;padding:16px 22px;margin:0 0 16px}
+body:has(.tete-dossier) .dossier-cote .sommaire ol{columns:2;column-gap:42px}
+body:has(.tete-dossier) .dossier-cote .sommaire li{break-inside:avoid;padding-bottom:4px}
+body:has(.tete-dossier) .dossier-cote .cote-aide{display:none}
+body:has(.tete-dossier) .dossier .prose{order:1;max-width:880px;width:100%;font-size:1.12rem;line-height:1.78}
+body:has(.tete-dossier) .dossier .essentiel{background:#f7f2e9;border-left:3px solid #b39156;padding:23px 25px;margin:0 0 30px}
+body:has(.tete-dossier) .dossier .prose>section{max-width:760px}
+body:has(.tete-dossier) .puces-dossier{max-width:880px;margin:0 auto 18px}
+@media(max-width:650px){
+ body:has(.tete-dossier) .tete-page.tete-dossier{padding:20px 0 4px}
+ body:has(.tete-dossier) .tete-dossier h1{font-size:clamp(1.9rem,7.5vw,2.55rem);line-height:1.17}
+ body:has(.tete-dossier) .tete-dossier .chapeau{font-size:1rem;line-height:1.55}
+ body:has(.tete-dossier) .tete-dossier-image img{height:190px;min-height:0;max-height:190px}
+ body:has(.tete-dossier) .tete-dossier-grille{gap:16px}
+ body:has(.tete-dossier) .garanties{display:none}
+ body:has(.tete-dossier) .dossier-cote .sommaire ol{columns:1}
+ body:has(.tete-dossier) .dossier-cote .sommaire{padding:15px 18px}
+ body:has(.tete-dossier) .dossier .prose{font-size:1.045rem;line-height:1.72}
+ body:has(.tete-dossier) .dossier .essentiel{padding:18px 19px}
+}
