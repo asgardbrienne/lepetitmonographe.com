@@ -43,35 +43,29 @@
 </header>
 
 <main id="contenu">
-  <section class="lpm-magazine-top" aria-label="Présentation et enquête à la une">
-    <div class="conteneur lpm-magazine-grid">
-      <div class="lpm-magazine-message">
-        <p class="surtitre">Documents &amp; enquêtes</p>
-        <h1>Les faits d'abord.<br>L'opinion reste au lecteur.</h1>
-        <p>Des dossiers documentés qui distinguent les faits établis, les désaccords, les hypothèses et les zones d'incertitude.</p>
-        <div class="lpm-magazine-rubriques">
-          <a href="politique-institutions.html">Politique</a>
-          <a href="economie-societe.html">Économie &amp; Société</a>
-          <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
-        </div>
+  <section class="ouverture">
+    <div class="conteneur">
+      <img class="ouverture-logo" src="assets/medaillon.png" alt="" width="104" height="104">
+      <p class="surtitre"><span class="or">Documents &amp; enquêtes</span></p>
+      <h1>Les faits d'abord.<br><em>L'opinion reste au lecteur.</em></h1>
+      <p class="ouverture-intro">Des enquêtes documentées pour comprendre la politique, l'économie, la société et les affaires judiciaires. Des sources vérifiables, des contradictions présentées et des incertitudes explicites.</p>
+      <div class="ouverture-boutons">
+        <a class="bouton bouton-plein" href="#a-la-une">Découvrir les enquêtes</a>
+        <a class="bouton" href="methode.html">Notre méthode</a>
       </div>
-      <a class="lpm-magazine-feature" href="dossier-budget-2027.html">
-        <div class="lpm-magazine-feature-copy">
-          <span class="lpm-label">À la une · Économie &amp; Société</span>
-          <h2>Budget 2027 : ce que contient le projet</h2>
-          <p>Déficit, dépenses, recettes : analyse du budget et de l'avis du Haut Conseil des finances publiques.</p>
-          <span class="lpm-read">Lire le dossier →</span>
-        </div>
-        <img src="assets/images/budget-2027.jpg" width="800" height="520" alt="" fetchpriority="high">
-      </a>
+      <ul class="ouverture-engagements">
+        <li>Enquêtes sourcées</li>
+        <li>Points de vue confrontés</li>
+        <li>Corrections transparentes</li>
+      </ul>
     </div>
   </section>
 
   <section class="section" id="a-la-une">
     <div class="conteneur">
       <div class="section-tete">
-        <div><p class="surtitre">Documents &amp; enquêtes</p><h2>Les dernières enquêtes</h2></div>
-        <p class="intro">Chaque dossier distingue les faits établis des interprétations et des hypothèses, et permet de retrouver ses sources.</p>
+        <div><p class="surtitre">Une bibliothèque d'enquêtes</p><h2>À la une</h2></div>
+        <p class="intro">Une sélection parmi 34 dossiers. Chaque publication distingue les faits établis des interprétations et des hypothèses.</p>
       </div>
       <div class="puces" role="group" aria-label="Filtrer par rubrique">
         <button class="puce" type="button" data-puce="tous" aria-pressed="true">Tous les dossiers</button>
@@ -80,6 +74,12 @@
         <button class="puce" type="button" data-puce="affaires" aria-pressed="false">Affaires &amp; enquêtes</button>
       </div>
       <div class="portes" id="cartes-une">
+        <a class="porte c-economie" href="dossier-budget-2027.html" data-rubrique="economie"><span class="porte-image"><img src="assets/images/budget-2027.jpg" alt="" loading="lazy"></span>
+          <p class="surtitre"><span class="or">Dossier</span> · Économie &amp; Société</p>
+          <h3>Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</h3>
+          <p>Objectif de déficit, effort de 54 milliards, répartition entre dépenses et recettes, avis du Haut Conseil des finances publiques. Données arrêtées au 8 octobre 2026.</p>
+          <span class="suite">Explorer le dossier</span>
+        </a>
         <a class="porte c-affaires" href="dossier-usage-force-police.html" data-rubrique="affaires"><span class="porte-image"><img src="assets/images/igpn.jpg" alt="" loading="lazy"></span>
           <p class="surtitre"><span class="or">Dossier</span> · Affaires &amp; Enquêtes</p>
           <h3>Usage de la force par la police : ce que disent les chiffres de l'IGPN</h3>
@@ -104,6 +104,12 @@
           <p>Méthodes, résultats des études du CEPII et de l'OCDE, origine des chiffres contestés et limites des calculs. Données arrêtées au 8 octobre 2026.</p>
           <span class="suite">Explorer le dossier</span>
         </a>
+        <a class="porte c-economie" href="dossier-dette-publique.html" data-rubrique="economie"><span class="porte-image"><img src="assets/images/dette-publique.jpg" alt="" loading="lazy"></span>
+          <p class="surtitre"><span class="or">Dossier</span> · Économie &amp; Société</p>
+          <h3>La dette publique française : niveau, coût et risques</h3>
+          <p>Niveau, charge d'intérêts, taux d'emprunt, comparaisons européennes : les chiffres de la dette et leur contexte. Données arrêtées au 8 octobre 2026.</p>
+          <span class="suite">Explorer le dossier</span>
+        </a>
       </div>
       <p class="voir-tout"><a class="bouton" href="dossiers.html">Tous les dossiers</a></p>
     </div>
@@ -112,7 +118,7 @@
   <section class="manifeste" id="methode-accueil">
     <div class="conteneur">
       <p class="surtitre">Notre méthode</p>
-      <h2>Notre méthode, en cinq statuts.</h2>
+      <h2>Une information utile est une information dont on peut examiner les preuves.</h2>
       <p class="manifeste-texte">Le Petit Monographe classe les énoncés selon leur statut, indique ses sources, présente les contradictions et signale les incertitudes. Nous ne demandons pas au lecteur d'adopter une opinion : nous lui donnons des éléments pour construire la sienne.</p>
       <div class="statuts-grille">
         <div class="statut-carte statut-carte-fait"><span class="statut-trait" aria-hidden="true"></span><h3>Fait établi</h3><p>Donnée ou événement vérifiable, avec sa source et ses limites.</p></div>

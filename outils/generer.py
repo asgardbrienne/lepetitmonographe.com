@@ -199,27 +199,21 @@ STATUTS_ACCUEIL = [
     ("proposition", "Proposition", "Mesure ou scénario, distinct des constats documentaires."),
 ]
 _statuts_html = "\n".join(f'''        <div class="statut-carte statut-carte-{k}"><span class="statut-trait" aria-hidden="true"></span><h3>{t}</h3><p>{d}</p></div>''' for k, t, d in STATUTS_ACCUEIL)
-accueil = f'''  <section class="lpm-magazine-top" aria-label="Présentation et enquête à la une">
-    <div class="conteneur lpm-magazine-grid">
-      <div class="lpm-magazine-message">
-        <p class="surtitre">Documents &amp; enquêtes</p>
-        <h1>Les faits d'abord.<br>L'opinion reste au lecteur.</h1>
-        <p>Des dossiers documentés qui distinguent les faits établis, les désaccords, les hypothèses et les zones d'incertitude.</p>
-        <div class="lpm-magazine-rubriques">
-          <a href="politique-institutions.html">Politique</a>
-          <a href="economie-societe.html">Économie &amp; Société</a>
-          <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
-        </div>
+accueil = f'''  <section class="ouverture">
+    <div class="conteneur">
+      <img class="ouverture-logo" src="assets/medaillon.png" alt="" width="104" height="104">
+      <p class="surtitre"><span class="or">Documents &amp; enquêtes</span></p>
+      <h1>Les faits d'abord.<br><em>L'opinion reste au lecteur.</em></h1>
+      <p class="ouverture-intro">Des enquêtes documentées pour comprendre la politique, l'économie, la société et les affaires judiciaires. Des sources vérifiables, des contradictions présentées et des incertitudes explicites.</p>
+      <div class="ouverture-boutons">
+        <a class="bouton bouton-plein" href="#a-la-une">Découvrir les enquêtes</a>
+        <a class="bouton" href="methode.html">Notre méthode</a>
       </div>
-      <a class="lpm-magazine-feature" href="dossier-budget-2027.html">
-        <div class="lpm-magazine-feature-copy">
-          <span class="lpm-label">À la une · Économie &amp; Société</span>
-          <h2>Budget 2027 : ce que contient le projet</h2>
-          <p>Déficit, dépenses, recettes : analyse du budget et de l'avis du Haut Conseil des finances publiques.</p>
-          <span class="lpm-read">Lire le dossier →</span>
-        </div>
-        <img src="assets/images/budget-2027.jpg" width="800" height="520" alt="" fetchpriority="high">
-      </a>
+      <ul class="ouverture-engagements">
+        <li>Enquêtes sourcées</li>
+        <li>Points de vue confrontés</li>
+        <li>Corrections transparentes</li>
+      </ul>
     </div>
   </section>
 
@@ -228,7 +222,7 @@ accueil = f'''  <section class="lpm-magazine-top" aria-label="Présentation et e
   <section class="manifeste" id="methode-accueil">
     <div class="conteneur">
       <p class="surtitre">Notre méthode</p>
-      <h2>Notre méthode, en cinq statuts.</h2>
+      <h2>Une information utile est une information dont on peut examiner les preuves.</h2>
       <p class="manifeste-texte">Le Petit Monographe classe les énoncés selon leur statut, indique ses sources, présente les contradictions et signale les incertitudes. Nous ne demandons pas au lecteur d'adopter une opinion : nous lui donnons des éléments pour construire la sienne.</p>
       <div class="statuts-grille">
 {_statuts_html}
@@ -767,30 +761,18 @@ _tous = {h: (c, t, d) for c, lst in DOSSIERS.items() for h, t, d in lst}
 _images = {"dossier-chomage-emploi.html": "assets/images/dossier-chomage-emploi.jpg"}
 _images.update({m["fichier"]: m["image"] for m in _dossiers_simples if m.get("image")})
 _RUB_COURT = {"c-pouvoirs": ("politique", "Politique &amp; Institutions"), "c-economie": ("economie", "Économie &amp; Société"), "c-affaires": ("affaires", "Affaires &amp; Enquêtes")}
-_IMAGES_ACCUEIL = {
-    "dossier-usage-force-police.html": "assets/images/igpn.jpg",
-    "dossier-financement-campagnes.html": "assets/images/financement-campagnes.jpg",
-    "dossier-gregory.html": "assets/images/gregory.jpg",
-    "dossier-immigration-finances-publiques.html": "assets/images/immigration-finances.jpg",
-}
-def _carte_accueil(h):
-    c, titre, desc = _tous[h]
-    img = _IMAGES_ACCUEIL.get(h)
-    visuel = f'<span class="porte-image"><img src="{img}" alt="" loading="lazy"></span>' if img else ""
-    return f'''        <a class="porte {c}" href="{h}" data-rubrique="{_RUB_COURT[c][0]}">
-          {visuel}
-          <p class="surtitre">Dossier · {_RUB_COURT[c][1]}</p>
-          <h3>{titre}</h3>
-          <p>{desc}</p>
+_cartes = "\n".join(f'''        <a class="porte {_tous[h][0]}" href="{h}" data-rubrique="{_RUB_COURT[_tous[h][0]][0]}">
+          <p class="surtitre">Dossier · {_RUB_COURT[_tous[h][0]][1]}</p>
+          <h3>{_tous[h][1]}</h3>
+          <p>{_tous[h][2]}</p>
           <span class="suite">Explorer le dossier</span>
-        </a>'''
-_cartes = "\n".join(_carte_accueil(h) for h in A_LA_UNE[1:5] if h in _tous)
+        </a>''' for h in A_LA_UNE if h in _tous)
 _idx = os.path.join(OUT, "index.html")
 _page_idx = open(_idx, encoding="utf-8").read().replace("<!--DERNIERS-->", f"""  <section class="section" id="a-la-une">
     <div class="conteneur">
       <div class="section-tete">
-        <div><p class="surtitre">Documents &amp; enquêtes</p><h2>Les dernières enquêtes</h2></div>
-        <p class="intro">Chaque dossier distingue les faits établis des interprétations et des hypothèses, et permet de retrouver ses sources.</p>
+        <div><p class="surtitre">Une bibliothèque d'enquêtes</p><h2>À la une</h2></div>
+        <p class="intro">Une sélection parmi {sum(len(v) for v in DOSSIERS.values())} dossiers. Chaque publication distingue les faits établis des interprétations et des hypothèses.</p>
       </div>
       <div class="puces" role="group" aria-label="Filtrer par rubrique">
         <button class="puce" type="button" data-puce="tous" aria-pressed="true">Tous les dossiers</button>
