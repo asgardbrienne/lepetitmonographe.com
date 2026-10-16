@@ -1034,3 +1034,51 @@ body{background:#faf8f3}
 .carte-une h3{font-size:1.05rem}
 .carte-une>p:not(.surtitre){display:none}
 }
+
+
+/* LPM — reproduction des 7 vues de référence, branche de prévisualisation uniquement.
+   Pas de changement de contenus ni de chiffres. */
+@media(min-width:981px){
+  body:has(.une-tete) .une-tete{padding:0!important;margin:0!important}
+  body:has(.une-tete) .une-tete-grille{display:block!important;max-width:100%!important;padding:0!important}
+  body:has(.une-tete) .une-accroche{display:none!important}
+  body:has(.une-tete) .vedette{display:block!important;min-height:390px!important;max-width:none!important;border:0!important;background:#10253c!important;color:#fff!important}
+  body:has(.une-tete) .vedette img{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;min-height:0!important;max-height:none!important;object-fit:cover!important;z-index:0!important}
+  body:has(.une-tete) .vedette:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#10253cf5 0%,#10253ce8 26%,#10253c90 53%,transparent 85%);z-index:1}
+  body:has(.une-tete) .vedette-texte{position:relative!important;z-index:2!important;max-width:570px!important;min-height:390px!important;padding:52px max(42px,calc((100vw - 1160px)/2))!important;width:65%!important;display:flex!important;align-items:flex-start!important;justify-content:center!important}
+  body:has(.une-tete) .vedette h2{font-size:clamp(2rem,3.2vw,3.45rem)!important;line-height:1.15!important;color:#fff!important}
+  body:has(.une-tete) .vedette p:not(.surtitre){font-size:1.04rem!important;color:#f3eee5!important}
+  body:has(.une-tete) .vedette .lien-fleche{display:inline-block;background:#d2a864;color:#142742!important;padding:12px 17px;text-decoration:none}
+}
+@media(max-width:980px){
+  body:has(.une-tete) .une-tete{padding:0!important}
+  body:has(.une-tete) .une-tete-grille{padding:0!important;display:block!important}
+  body:has(.une-tete) .une-accroche{display:none!important}
+  body:has(.une-tete) .vedette{display:flex!important;flex-direction:column!important;border:0!important;min-height:0!important;background:#10253c!important}
+  body:has(.une-tete) .vedette img{order:0!important;position:static!important;display:block!important;width:100%!important;height:200px!important;min-height:200px!important;max-height:200px!important;object-fit:cover!important}
+  body:has(.une-tete) .vedette-texte{order:1!important;display:flex!important;flex-direction:column!important;align-items:flex-start!important;padding:24px!important;gap:12px!important;background:#10253c!important;color:#fff!important}
+  body:has(.une-tete) .vedette h2{font-size:clamp(1.75rem,6.5vw,2.5rem)!important;line-height:1.2!important;color:#fff!important}
+  body:has(.une-tete) .vedette p:not(.surtitre){color:#f3eee5!important;font-size:1rem!important;line-height:1.5!important}
+  body:has(.une-tete) .vedette .lien-fleche{display:inline-block!important;background:#d2a864!important;color:#142742!important;padding:12px 17px!important}
+}
+body:has(.une-tete) #a-la-une .cartes-une{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+body:has(.une-tete) #a-la-une .carte-une{border:1px solid #e5dfd3;padding:0 0 15px;display:flex;flex-direction:column;align-items:stretch;background:#fffdfa}
+body:has(.une-tete) #a-la-une .carte-une img{width:100%;aspect-ratio:1.5;object-fit:cover}
+body:has(.une-tete) #a-la-une .carte-une>*:not(img){margin-left:12px;margin-right:12px}
+body:has(.une-tete) #a-la-une .carte-une h3{font-size:1.16rem}
+@media(max-width:980px){body:has(.une-tete) #a-la-une .cartes-une{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){
+  body:has(.une-tete) #a-la-une .cartes-une{grid-template-columns:1fr;gap:0}
+  body:has(.une-tete) #a-la-une .carte-une{display:grid;grid-template-columns:100px minmax(0,1fr);column-gap:12px;padding:12px 0;margin:0;border:0;border-bottom:1px solid #ddd8cf;background:transparent}
+  body:has(.une-tete) #a-la-une .carte-une img{grid-column:1;grid-row:1/span 4;aspect-ratio:1;width:100px;height:100px;margin:0}
+  body:has(.une-tete) #a-la-une .carte-une>*:not(img){grid-column:2;margin:0}
+  body:has(.une-tete) #a-la-une .carte-une h3{font-size:1rem}
+  body:has(.une-tete) #a-la-une .carte-une>p:not(.surtitre){display:none}
+}
+/* Pages intérieures : une hiérarchie sobre, sans modifier les documents. */
+.tete-page{background:#faf8f3;border-bottom:1px solid #e5dfd3}
+.tete-page h1{font-size:clamp(2rem,4vw,3.4rem);line-height:1.2;letter-spacing:-.025em}
+.tete-page .chapeau{max-width:67ch}
+.prose{font-size:1.12rem;line-height:1.8}
+.sommaire{border:1px solid #e1d9cd;background:#fbf8f1}
+.essentiel{border-left:3px solid #b39156;background:#f7f2e9}
