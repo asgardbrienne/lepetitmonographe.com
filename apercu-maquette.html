@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prévisualisation · Le Petit Monographe</title>
+  <meta name="description" content="Le Petit Monographe : dossiers documentés sur la politique, l'économie, la société et les affaires judiciaires. Faits établis, désaccords, hypothèses et incertitudes clairement séparés.">
+  <meta name="robots" content="noindex,nofollow">
+  <meta property="og:url" content="https://lepetitmonographe.com/">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta property="og:title" content="Le Petit Monographe · Documents & enquêtes">
+  <meta property="og:description" content="Le Petit Monographe : dossiers documentés sur la politique, l'économie, la société et les affaires judiciaires. Faits établis, désaccords, hypothèses et incertitudes clairement séparés.">
+  <meta property="og:image" content="https://lepetitmonographe.com/assets/logo-partage.jpg">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="assets/style.css">
+  <script>try{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<style id="lpm-preview-reference">
+/* Prototype isolé : n'affecte aucune page publique. */
+:root{--papier:#faf8f3;--papier-2:#f4f0e8;--encre:#142742;--or:#b39156}
+body{background:#faf8f3}
+.entete{background:#faf8f3;border-bottom:1px solid #e6e0d5;box-shadow:none}
+.une-tete{padding-top:28px;padding-bottom:24px}
+.une-tete-grille{display:grid;grid-template-columns: minmax(0,.96fr) minmax(0,1.04fr);gap:36px;align-items:center}
+.une-accroche h1{font-size:clamp(2.25rem,3.65vw,3.9rem);line-height:1.15;letter-spacing:-.03em}
+.une-accroche>p{font-size:1.14rem;line-height:1.62}
+.vedette{min-height:315px;display:grid;grid-template-columns:53% 47%;background:#fffdf9;border:1px solid #e6e0d5;position:relative;overflow:hidden;text-decoration:none}
+.vedette-texte{position:relative;z-index:2;padding:24px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:11px}
+.vedette h2{font-size:clamp(1.28rem,1.75vw,1.9rem);line-height:1.28;letter-spacing:-.02em}
+.vedette p:not(.surtitre){font-size:.96rem;line-height:1.5}
+.vedette img{position:relative;width:100%;height:100%;min-height:315px;max-height:none;object-fit:cover;display:block}
+.titre-filet h2{font-size:2rem}
+.cartes-une{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.carte-une{border:0;border-bottom:1px solid #ded8cf;background:transparent;box-shadow:none;padding:0 0 18px}
+.carte-une img{width:100%;aspect-ratio:1.5;object-fit:cover;margin-bottom:13px}
+.carte-une h3{font-size:1.25rem;line-height:1.32}
+.carte-une>p:not(.surtitre){display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+@media(max-width:980px){.une-tete-grille{grid-template-columns:1fr}.cartes-une{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){
+.une-tete{padding-top:16px}
+.une-tete-grille{display:flex;flex-direction:column;gap:19px;align-items:stretch}
+.une-accroche h1{font-size:clamp(1.85rem,7.2vw,2.35rem);line-height:1.18}
+.une-accroche>p{font-size:1rem;line-height:1.5}
+.une-rubriques{display:none}
+.vedette{display:flex;flex-direction:column-reverse;min-height:0;width:100%}
+.vedette img{position:static;display:block;width:100%;height:155px;min-height:155px;max-height:155px;object-fit:cover}
+.vedette-texte{padding:19px 20px 23px;gap:9px;background:#142742;color:#fffdf8}
+.vedette-texte h2{color:#fffdf8;font-size:1.4rem;line-height:1.28}
+.vedette-texte p{color:#f0e9dd;font-size:.91rem}
+.vedette-texte .lien-fleche{color:#e7c385}
+.cartes-une{grid-template-columns:1fr;gap:13px}
+.carte-une{display:grid;grid-template-columns:112px 1fr;column-gap:14px}
+.carte-une img{grid-row:1/span 5;grid-column:1;aspect-ratio:1;margin:0}
+.carte-une>*:not(img){grid-column:2}
+.carte-une h3{font-size:1.05rem}
+.carte-une>p:not(.surtitre){display:none}
+}
+</style>
+</head>
+<body>
+
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header class="entete">
+  <div class="conteneur entete-haut">
+    <form class="recherche-entete" action="dossiers.html" method="get" role="search">
+      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="Rechercher un dossier, un sujet…" aria-label="Rechercher un dossier">
+    </form>
+    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="44" height="44"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-sous">Documents <em>&amp;</em> enquêtes</span></span></a>
+    <div class="actions">
+      <a class="bouton-rond bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
+      <button class="bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><span class="theme-curseur" aria-hidden="true"></span><svg class="theme-lune" viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="currentColor"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+      <a class="bouton-abonner" href="index.html#lettre">S'abonner</a>
+      <button class="bouton-rond bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    </div>
+  </div>
+  <nav class="nav" id="menu-principal" aria-label="Navigation principale">
+    <div class="conteneur nav-liens">
+      <a href="./" aria-current="page">À la une</a>
+      <a href="politique-institutions.html">Politique</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+      <a href="methode.html">Méthode</a>
+    </div>
+  </nav>
+</header>
+
+<main id="contenu">
+  <section class="une-tete">
+    <div class="conteneur une-tete-grille">
+      <div class="une-accroche">
+        <h1>Les faits d'abord.<br>L'opinion reste au lecteur.</h1>
+        <span class="filet-or" aria-hidden="true"></span>
+        <p>Des dossiers documentés qui distinguent les faits établis, les désaccords, les hypothèses et les zones d'incertitude.</p>
+        <ul class="une-rubriques">
+          <li><a href="politique-institutions.html">Politique</a></li>
+          <li><a href="economie-societe.html">Économie &amp; Société</a></li>
+          <li><a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a></li>
+          <li><a href="livres.html">Livres</a></li>
+          <li><a href="methode.html">Méthode</a></li>
+        </ul>
+      </div>
+      <a class="vedette" href="dossier-budget-2027.html">
+        <div class="vedette-texte">
+          <p class="surtitre"><span class="or"><span class="or">Dossier</span></span></p>
+          <h2>Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</h2>
+          <p>Objectif de déficit, effort de 54 milliards, répartition entre dépenses et recettes, avis du Haut Conseil des finances publiques. Données arrêtées au 8 octobre 2026.</p>
+          <span class="lien-fleche">Lire le dossier</span>
+        </div>
+        <img src="assets/images/budget-2027.jpg" alt="" loading="eager">
+      </a>
+    </div>
+  </section>
+
+  <section class="section" id="a-la-une">
+    <div class="conteneur">
+      <div class="titre-filet"><h2>À la une</h2><a class="lien-fleche" href="dossiers.html">Tous les dossiers</a></div>
+      <div class="cartes-une">
+        <a class="carte-une" href="dossier-usage-force-police.html">
+          <img src="assets/images/igpn.jpg" alt="" loading="lazy">
+          <p class="surtitre">Affaires &amp; Enquêtes</p>
+          <h3>Usage de la force par la police : ce que disent les chiffres de l'IGPN</h3>
+          <p>Fonctionnement et saisine de l'IGPN, séries d'enquêtes depuis 2016, tirs mortels et tirs sur véhicules, suites disciplinaires, signalements des usagers, contrôle externe par le Défenseur des droits, débat sur la loi de 2017 et la présomption de légitime défense, et limites de ces statistiques. Données arrêtées au 8 octobre 2026.</p>
+          <span class="lien-fleche">Lire le dossier</span>
+        </a>
+        <a class="carte-une" href="dossier-immigration-finances-publiques.html">
+          <img src="assets/images/immigration-finances.jpg" alt="" loading="lazy">
+          <p class="surtitre">Politique</p>
+          <h3>Immigration et finances publiques : ce que disent les études</h3>
+          <p>Méthodes, résultats des études du CEPII et de l'OCDE, origine des chiffres contestés et limites des calculs. Données arrêtées au 8 octobre 2026.</p>
+          <span class="lien-fleche">Lire le dossier</span>
+        </a>
+        <a class="carte-une" href="dossier-financement-campagnes.html">
+          <img src="assets/images/financement-campagnes.jpg" alt="" loading="lazy">
+          <p class="surtitre">Politique</p>
+          <h3>Présidentielle 2027 : comment se financent les campagnes, et pourquoi les banques hésitent</h3>
+          <p>Ressources autorisées, remboursement public, réticence des banques et propositions en débat. Données arrêtées au 8 octobre 2026.</p>
+          <span class="lien-fleche">Lire le dossier</span>
+        </a>
+        <a class="carte-une" href="dossier-gregory.html">
+          <img src="assets/images/gregory.jpg" alt="" loading="lazy">
+          <p class="surtitre">Affaires &amp; Enquêtes</p>
+          <h3>Affaire Grégory : l'état de la procédure en octobre 2026</h3>
+          <p>Procédure expliquée, décisions de justice depuis 1984, annulations, prescription, investigations en cours et ce que l'affaire a changé. Données arrêtées au 8 octobre 2026.</p>
+          <span class="lien-fleche">Lire le dossier</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section accueil-methode">
+    <div class="conteneur methode-grille">
+      <div class="methode-boite">
+        <div class="methode-intro">
+          <h2>Notre méthode</h2>
+          <span class="filet-or" aria-hidden="true"></span>
+          <p>Une information rigoureuse, claire et sourcée. Nos dossiers distinguent cinq niveaux de lecture pour mieux comprendre les débats publics.</p>
+          <a class="lien-fleche" href="methode.html">En savoir plus</a>
+        </div>
+        <ul class="statuts-icones">
+          <li><span class="statut-icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l4 4v14H7z M14 3v4h4 M9.5 12h6 M9.5 15h6 M9.5 18h4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></span><strong>Fait établi</strong><span>Éléments vérifiés et sourcés.</span></li>
+          <li><span class="statut-icone"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8.5" r="3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="16.5" cy="9.5" r="2.4" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3.5 19c.6-3.3 2.8-5 5.5-5s4.9 1.7 5.5 5 M14.5 14.6c.6-.3 1.3-.4 2-.4 2.3 0 3.9 1.5 4.4 4.3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span><strong>Témoignage</strong><span>Paroles attribuées et datées.</span></li>
+          <li><span class="statut-icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 19V12 M11 19V6 M16 19v-9 M3.5 19.5h17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><strong>Interprétation</strong><span>Analyses attribuées à leur auteur.</span></li>
+          <li><span class="statut-icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 9.2a3 3 0 1 1 4.4 2.6c-.9.5-1.4 1.1-1.4 2.2v.6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="18" r="1" fill="currentColor"/></svg></span><strong>Hypothèse</strong><span>Pistes plausibles, non démontrées.</span></li>
+          <li><span class="statut-icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 14.5a5.5 5.5 0 1 1 7 0c-.7.6-1 1.3-1 2.1V17h-5v-.4c0-.8-.3-1.5-1-2.1z M10 20h4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span><strong>Proposition</strong><span>Pistes d'action, distinctes des constats.</span></li>
+        </ul>
+      </div>
+        <figure class="graphique graphique-accueil">
+          <figcaption class="graphique-tete"><span class="graphique-num">Le graphique de la semaine</span><span class="graphique-titre">Charge de la dette de l'État</span><span class="graphique-unite">Milliards d'euros, y compris la dette reprise de SNCF Réseau</span></figcaption>
+          <ul class="graphique-legende"><li><span class="cle prevision"></span>Prévision</li></ul><div class="barres-v" style="--n:3"><div class="col" title="2025 : 51,6"><span class="col-piste"><span class="col-valeur">51,6</span><span class="barre serie-1" style="height:113px"></span></span><span class="col-label">2025</span></div><div class="col" title="2026 : 63,4"><span class="col-piste"><span class="col-valeur">63,4</span><span class="barre serie-1 prevision" style="height:139px"></span></span><span class="col-label">2026</span></div><div class="col" title="2027 : 72,9"><span class="col-piste"><span class="col-valeur">72,9</span><span class="barre serie-1 prevision" style="height:160px"></span></span><span class="col-label">2027</span></div></div>
+          <div class="graphique-pied"><p><strong>Source :</strong> Projet de loi de finances pour 2027, 1er octobre 2026</p></div>
+        <a class="lien-fleche" href="dossier-dette-publique.html">Voir l'analyse complète</a>
+        </figure>
+    </div>
+  </section>
+
+  <section class="section accueil-livres" id="monographies">
+    <div class="conteneur livres-grille">
+      <div class="livres-intro">
+        <h2>Monographies</h2>
+        <span class="filet-or" aria-hidden="true"></span>
+        <p>Des ouvrages de référence pour comprendre en profondeur les grands enjeux français.</p>
+        <a class="lien-fleche" href="livres.html">Voir toutes les monographies</a>
+      </div>
+          <article class="livre-ligne"><img src="assets/couverture-macron.png" alt="" width="96" height="144" loading="lazy"><div><h3>Emmanuel Macron, le bilan</h3><p>Promesses, réformes, crises et affaires : la présidence passée au crible des faits (2017-2026).</p><a class="bouton bouton-fin" href="https://www.amazon.fr/dp/B0HMC5NJ9V" target="_blank" rel="noopener">Voir sur Amazon</a></div></article>
+          <article class="livre-ligne"><img src="assets/couverture-comptes.png" alt="" width="96" height="144" loading="lazy"><div><h3>Comment redresser les comptes de la France</h3><p>Dette, déficit, retraites, dépenses publiques : 17 mesures chiffrées pour agir d'ici 2036. Faits, débats, calculs et propositions séparés.</p><a class="bouton bouton-fin" href="https://www.amazon.fr/dp/B0HMC3C84M" target="_blank" rel="noopener">Voir sur Amazon</a></div></article>
+          <article class="livre-ligne"><img src="assets/couverture-gregory.jpg" alt="" width="96" height="144" loading="lazy"><div><h3>Grégory : pourquoi l'affaire n'a jamais été résolue</h3><p>Les erreurs des premières 48 heures qui ont tout fait échouer. Volume 4 de la collection « Affaires qui ont choqué la France », environ 60 minutes de lecture.</p><a class="bouton bouton-fin" href="https://www.amazon.fr/dp/B0GYQ8HRHG" target="_blank" rel="noopener">Voir sur Amazon</a></div></article>
+    </div>
+  </section>
+
+  <section class="lettre-bande" id="lettre">
+    <div class="conteneur lettre-bande-grille">
+      <div>
+        <h2>La Lettre du Petit Monographe</h2>
+        <p>Les nouveaux dossiers, les mises à jour et une sélection de sources documentaires. Sans polémique ni surcharge.</p>
+      </div>
+      <p class="lettre-statut">Lancement prochain : l'inscription ouvrira ici.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="pied">
+  <div class="conteneur pied-grille">
+    <div>
+      <p class="pied-marque">Le Petit Monographe</p>
+      <p>Les faits d'abord. L'opinion reste au lecteur.</p>
+    </div>
+    <nav aria-label="Rubriques">
+      <p class="pied-titre">Rubriques</p>
+      <a href="dossiers.html">Tous les dossiers</a>
+      <a href="politique-institutions.html">Politique &amp; Institutions</a>
+      <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
+      <a href="livres.html">Livres</a>
+    </nav>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <a href="methode.html">Notre méthode</a>
+      <a href="methode.html#errata">Errata</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </nav>
+  </div>
+  <div class="conteneur pied-bas">© 2026 Le Petit Monographe</div>
+</footer>
+<a class="haut-de-page" href="#contenu" aria-label="Revenir en haut de la page">↑</a>
+<script src="assets/site.js" defer></script>
+</body>
+</html>
