@@ -737,3 +737,410 @@ h1, h2, h3, h4, .logo, .pied-marque { font-weight: 400 !important; }
 .col-piste { flex-direction: column; align-items: center; justify-content: flex-end; height: 190px; border-bottom: 1px solid var(--encre-douce); }
 .col-valeur { align-self: auto; padding-bottom: 6px; }
 .col-label { position: static; padding-top: 8px; }
+
+
+/* === Direction éditoriale globale : octobre 2026 ===
+   Charte ivoire/bleu nuit/or, lecture et navigation documentaire.
+   Couleurs et lisibilité identiques pour tous les dossiers.
+   Aucun statut ne représente un score de fiabilité. */
+:root {
+  --texte: 710px;
+  --largeur: 1190px;
+  --repere: var(--or-texte);
+}
+html { scroll-padding-top: 122px; }
+body { font-family: var(--serif); line-height: 1.7; }
+main { min-width: 0; }
+p, li { overflow-wrap: break-word; }
+a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible {
+  outline: 2px solid var(--or-texte);
+  outline-offset: 4px;
+}
+.nav a { font-size: .75rem !important; line-height: 1.45 !important; letter-spacing: .055em !important; }
+.logo { letter-spacing: .055em; }
+.bandeau-haut { letter-spacing: .1em; font-size: .67rem; }
+.bouton { letter-spacing: .055em !important; line-height: 1.3 !important; }
+.bouton-rond { flex-shrink: 0; }
+main > .tete-page {
+  padding: clamp(42px, 6vw, 84px) 0 clamp(34px, 4vw, 56px);
+  border-bottom: 1px solid var(--filet);
+  background: var(--papier);
+}
+main > .tete-page > .conteneur { max-width: var(--largeur); }
+main > .tete-page .surtitre {
+  font: 700 .71rem/1.5 var(--sans);
+  letter-spacing: .14em;
+  margin-bottom: 18px;
+}
+main > .tete-page h1 {
+  font: 400 clamp(2.18rem, 4.3vw, 3.5rem)/1.17 var(--display);
+  letter-spacing: -.03em;
+  text-wrap: balance;
+  max-width: 24ch;
+  margin: 0 0 20px;
+}
+main > .tete-page .chapeau {
+  max-width: 63ch;
+  font: 400 clamp(1.08rem, 1.45vw, 1.25rem)/1.73 var(--serif);
+  color: var(--encre-douce);
+}
+main > .tete-dossier {
+  padding-top: clamp(30px, 4vw, 54px);
+  padding-bottom: clamp(28px, 3.8vw, 48px);
+}
+main > .tete-dossier h1 {
+  max-width: 31ch;
+  font-size: clamp(2rem, 3.65vw, 3.18rem);
+  line-height: 1.22;
+}
+main > .tete-dossier .ariane { font-size: .74rem; line-height: 1.7; margin-bottom: 28px; letter-spacing: .045em; }
+main > .tete-dossier .ariane a { text-decoration: underline; text-decoration-color: var(--filet); text-underline-offset: 4px; }
+main > .tete-dossier .meta-dossier {
+  max-width: 74ch;
+  font: 500 .72rem/1.75 var(--sans);
+  letter-spacing: .045em;
+  text-transform: none;
+  margin: 22px 0 19px;
+  padding: 12px 0 0;
+}
+main > .tete-dossier .chapeau { font-size: clamp(1.12rem, 1.5vw, 1.3rem); }
+main > .section:not(#a-la-une) { padding: clamp(48px, 5vw, 76px) 0; }
+main > .section > .conteneur > h2 {
+  font: 400 clamp(1.75rem, 2.85vw, 2.5rem)/1.23 var(--display);
+  letter-spacing: -.022em;
+  margin-bottom: 22px;
+}
+main > .section > .conteneur > .intro {
+  font: 400 1.06rem/1.7 var(--serif);
+  max-width: 65ch;
+  margin-bottom: 28px;
+}
+/* Reportage : image d'archive/documentaire, avec crédit toujours visible. */
+.illustration { padding-top: clamp(22px, 3vw, 42px); }
+.illustration > .conteneur { max-width: 1070px; }
+.illustration img { aspect-ratio: 16 / 8.5; max-height: 480px; width: 100%; object-fit: cover; background: var(--papier-2); }
+.illustration figcaption { margin: 11px 0 0; font: 400 .75rem/1.6 var(--sans); color: var(--encre-douce); }
+.illustration figcaption a { text-underline-offset: 3px; text-decoration-color: var(--or-texte); }
+/* Dossiers : une colonne de lecture et un vrai sommaire de navigation. */
+article.dossier.section { padding-top: clamp(26px, 4vw, 52px); }
+.dossier .dossier-grille {
+  display: grid;
+  grid-template-columns: minmax(0, var(--texte)) minmax(190px, 238px);
+  justify-content: space-between;
+  column-gap: clamp(28px, 5vw, 76px);
+  align-items: start;
+}
+.dossier .dossier-cote { order: 2; align-self: start; }
+.dossier .prose { order: 1; max-width: var(--texte); font: 400 1.125rem/1.82 var(--serif); letter-spacing: .002em; }
+.dossier .prose p { margin-bottom: 1.25em; }
+.dossier .prose h2 {
+  font: 400 clamp(1.48rem, 2.2vw, 1.88rem)/1.34 var(--display);
+  letter-spacing: -.016em;
+  margin: 2.25em 0 .9em;
+  scroll-margin-top: 126px;
+}
+.dossier .prose h2:before { width: 40px; margin-bottom: 18px; background: var(--or); }
+.dossier .prose h3 { line-height: 1.32; }
+.dossier .prose > .encadre {
+  margin-left: 0 !important;
+  margin-right: 0;
+  border: 1px solid var(--filet);
+  border-left: 3px solid var(--encre-douce);
+  background: var(--blanc);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 8px;
+  padding: 21px clamp(18px, 2.2vw, 28px) 18px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  font-size: 1.02rem;
+  line-height: 1.75;
+}
+.dossier .prose .encadre .etiquette {
+  justify-self: start;
+  text-align: left;
+  padding: 0;
+  letter-spacing: .08em;
+  line-height: 1.5;
+}
+.dossier .encadre p { margin: 0 !important; }
+.dossier .encadre:has(.statut-fait) { border-left-color: var(--preuve); }
+.dossier .encadre:has(.statut-temoignage) { border-left-color: var(--encre); }
+.dossier .encadre:has(.statut-interpretation) { border-left-color: var(--or-texte); }
+.dossier .encadre:has(.statut-hypothese) { border-left-color: var(--or-texte); border-left-style: dashed; }
+.dossier .encadre:has(.statut-proposition) { border-left-color: var(--encre-douce); }
+.dossier .prose .essentiel {
+  background: var(--papier-2);
+  padding: clamp(22px, 3vw, 32px);
+  border: 0;
+  border-top: 3px solid var(--encre);
+  margin-bottom: 44px;
+}
+.dossier .essentiel .surtitre { font: 700 .7rem/1.45 var(--sans); letter-spacing: .12em; }
+.dossier .essentiel ul { list-style: none; padding: 0; margin: 0; }
+.dossier .essentiel li { padding: 11px 0; border-bottom: 1px solid var(--filet); font-size: 1.045rem; line-height: 1.68; }
+.dossier .essentiel li:last-child { border: 0; }
+.dossier .sommaire {
+  position: sticky;
+  top: 118px;
+  padding: 19px 19px 18px;
+  border: 1px solid var(--filet);
+  border-top: 3px solid var(--encre);
+  background: var(--blanc);
+}
+.dossier .sommaire summary {
+  font: 700 .73rem/1.4 var(--sans);
+  letter-spacing: .115em;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.dossier .sommaire ol { max-height: min(60vh, 480px); overflow-y: auto; scrollbar-width: thin; }
+.dossier .sommaire li { margin-bottom: 0; line-height: 1.46; }
+.dossier .sommaire a {
+  display: block; padding: 8px 3px;
+  font: 500 .83rem/1.45 var(--sans);
+  text-decoration: none;
+  color: var(--encre-douce);
+  border-left: 2px solid transparent;
+  padding-left: 10px;
+}
+.dossier .sommaire a:hover,
+.dossier .sommaire a[aria-current="location"] {
+  color: var(--encre);
+  border-left-color: var(--or-texte);
+  background: var(--papier-2);
+}
+.dossier .prose > h2:target { scroll-margin-top: 124px; }
+.dossier .sources {
+  display: grid;
+  gap: 15px;
+  padding-left: 1.5em;
+  font: 400 .925rem/1.63 var(--sans);
+  color: var(--encre-douce);
+}
+.dossier .sources li { padding-bottom: 12px; border-bottom: 1px solid var(--filet); overflow-wrap: anywhere; }
+.dossier .sources a { color: var(--encre); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.dossier .sources li:target { background: var(--papier-2); outline: 0; }
+.dossier .historique { line-height: 1.7; color: var(--encre-douce); }
+.dossier .lien-correction { font-size: .85rem; line-height: 1.6; }
+.dossier .prose a:not(.bouton) { text-underline-offset: 3px; }
+/* Graphiques et frises : aucune donnée ni légende inventée. */
+.dossier .graphique {
+  border: 1px solid var(--filet);
+  border-top: 2px solid var(--encre);
+  padding: clamp(17px, 3vw, 28px);
+  background: var(--blanc);
+  margin: 32px 0;
+}
+.dossier .graphique-titre { font: 400 1.24rem/1.4 var(--display); color: var(--encre); }
+.dossier .graphique-unite, .dossier .graphique-pied p { font-size: .86rem; line-height: 1.62; }
+.dossier .frise li { padding-bottom: 20px; }
+.dossier .frise-date { font-size: .85rem; }
+.dossier .frise-texte { font-size: .975rem; line-height: 1.6; }
+/* Catalogue et pages de rubriques : grille magazine, sans ombres artificielles. */
+main .section .portes:not(#cartes-une) {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 26px 24px;
+}
+main .section .portes:not(#cartes-une) > .porte,
+main .section .portes:not(#cartes-une) > .porte:has(.porte-image) {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border: 0;
+  border-top: 1px solid var(--filet);
+  padding: 14px 0 0;
+  background: transparent;
+  box-shadow: none;
+  transform: none;
+}
+main .section .portes:not(#cartes-une) > .porte > :not(.porte-image) { margin-left: 0; margin-right: 0; }
+main .section .portes:not(#cartes-une) > .porte .porte-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1.58;
+  margin: 0 0 16px;
+}
+main .section .portes:not(#cartes-une) > .porte h3 {
+  font: 400 clamp(1.15rem, 1.55vw, 1.43rem)/1.4 var(--display);
+  letter-spacing: -.02em;
+  margin-bottom: 10px;
+}
+main .section .portes:not(#cartes-une) > .porte p:not(.surtitre) {
+  font: 400 .945rem/1.7 var(--serif);
+  color: var(--encre-douce);
+  margin-bottom: 18px;
+}
+main .section .portes:not(#cartes-une) > .porte .surtitre {
+  font-size: .68rem !important;
+  line-height: 1.55;
+  letter-spacing: .1em;
+}
+main .section .portes:not(#cartes-une) > .porte .suite { margin-top: auto; font-size: .68rem; }
+main .section .portes:not(#cartes-une) > .porte:hover h3 {
+  color: var(--encre); text-decoration: underline; text-underline-offset: 3px;
+}
+/* Catalogue : recherche clairement identifiée et filtres accessibles. */
+.barre-recherche {
+  padding: clamp(18px, 3vw, 30px);
+  background: var(--papier-2);
+  border-top: 2px solid var(--encre);
+  border-bottom: 1px solid var(--filet);
+  margin: 0 0 34px;
+  gap: 16px;
+  scroll-margin-top: 120px;
+}
+.barre-recherche input {
+  background: var(--blanc);
+  border: 1px solid var(--filet);
+  border-radius: 0;
+  padding: 12px 15px;
+  font: 400 1.2rem/1.45 var(--sans);
+}
+.barre-recherche input:focus {
+  border-color: var(--or-texte);
+  outline: 2px solid var(--or-texte);
+  outline-offset: 2px;
+}
+.barre-recherche input::placeholder { font: 400 1.06rem/1.45 var(--sans); font-style: normal; }
+.barre-recherche .filtres { gap: 8px; }
+.barre-recherche .filtre {
+  border: 1px solid var(--filet);
+  padding: 10px 12px;
+  background: var(--blanc);
+  font: 600 .75rem/1.2 var(--sans);
+  cursor: pointer;
+}
+.barre-recherche .filtre[aria-pressed="true"] {
+  background: var(--encre);
+  color: var(--papier);
+  border-color: var(--encre);
+  box-shadow: none;
+}
+.barre-recherche .compteur { font-size: .75rem; letter-spacing: .065em; }
+/* Monographies : la couverture est une preuve éditoriale, pas un décor. */
+.collection { margin-top: 60px; }
+.collection-tete {
+  padding: 0 0 20px;
+  border-bottom: 1px solid var(--filet);
+  margin-bottom: 27px;
+}
+.collection-tete h3 { font: 400 clamp(1.7rem, 3vw, 2.35rem)/1.27 var(--display); }
+.collection-tete p { font: 400 1.02rem/1.65 var(--serif); }
+.livres { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 23px; }
+.livre, .livre:has(img) {
+  display: grid;
+  grid-template-columns: minmax(95px, 34%) minmax(0, 1fr);
+  align-items: start;
+  gap: clamp(14px, 2vw, 23px);
+  border: 1px solid var(--filet);
+  border-top: 2px solid var(--encre);
+  background: var(--blanc);
+  padding: clamp(18px, 2vw, 25px);
+  min-width: 0;
+}
+.livre .couverture {
+  width: 100%; height: 205px;
+  display: flex; align-items: center; justify-content: center;
+  padding: 10px;
+  margin: 0; background: var(--papier-2);
+}
+.livre .couverture img { max-width: 100%; max-height: 100%; height: auto; width: auto; object-fit: contain; }
+.livre h4 { font: 400 clamp(1.08rem, 1.55vw, 1.32rem)/1.4 var(--display); margin: 0 0 13px; }
+.livre p { font: 400 .925rem/1.68 var(--serif); margin-bottom: 22px; color: var(--encre-douce); }
+.livre .bouton { font-size: .71rem !important; padding: 12px 14px; }
+/* Méthode : information hiérarchisée et cinq statuts, sans fausse notation. */
+.regles { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px 28px; }
+.regles li { border-top: 1px solid var(--filet); padding: 19px 0 25px; }
+.regles li::before { font-size: 1.8rem; margin-bottom: 14px; color: var(--or-texte); }
+.regles h3 { font: 400 1.16rem/1.45 var(--display); }
+.regles p { font: 400 .94rem/1.7 var(--serif); color: var(--encre-douce); }
+.etiquettes { gap: 0; }
+.etiquettes div { padding: 22px 0; gap: 12px 27px; }
+.etiquettes p { font: 400 1.02rem/1.67 var(--serif); }
+.test-inversion {
+  max-width: 860px; margin: 0 auto;
+  background: var(--papier-2);
+  border-top: 2px solid var(--encre);
+  text-align: left; padding: clamp(24px, 4vw, 44px);
+}
+.test-inversion .question { font: 400 clamp(1.3rem, 2.5vw, 1.86rem)/1.48 var(--display); }
+/* Pages institutionnelles : même confort de lecture que les enquêtes. */
+main > .section > .conteneur > .prose { max-width: min(100%, 760px); }
+main > .section > .conteneur > .prose p { line-height: 1.82; }
+.pied { padding-top: 55px; }
+.pied a { text-underline-offset: 3px; }
+.pied-grille { gap: 32px; }
+/* Le logo original conserve son fond clair en mode sombre : pas de recoloration approximative. */
+:root[data-theme="dark"] .logo img,
+:root[data-theme="dark"] .ouverture-logo {
+  background: #f8f5ef;
+  border: 1px solid #d8c7a7;
+  border-radius: 50%;
+}
+:root[data-theme="dark"] .dossier .encadre:has(.statut-fait) { border-left-color: var(--preuve); }
+:root[data-theme="dark"] .dossier .encadre:has(.statut-interpretation),
+:root[data-theme="dark"] .dossier .encadre:has(.statut-hypothese) { border-left-color: var(--or-texte); }
+@media (max-width: 1050px) {
+  .dossier .dossier-grille { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .dossier .dossier-cote { order: 0; }
+  .dossier .prose { order: 1; max-width: min(100%, 760px); }
+  .dossier .sommaire { position: static; }
+  .dossier .sommaire ol { max-height: none; }
+  main .section .portes:not(#cartes-une) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .regles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .livres { grid-template-columns: 1fr; }
+}
+@media (max-width: 700px) {
+  html { scroll-padding-top: 82px; }
+  .bandeau-haut { font-size: .58rem; letter-spacing: .04em; padding: 8px 10px; }
+  main > .tete-page { padding: 33px 0 28px; }
+  main > .tete-page h1 { font-size: clamp(1.85rem, 7vw, 2.5rem); line-height: 1.25; }
+  main > .tete-page .chapeau { font-size: 1.075rem; line-height: 1.7; }
+  main > .tete-dossier h1 { font-size: clamp(1.79rem, 6.9vw, 2.48rem); }
+  main > .tete-dossier .meta-dossier { font-size: .7rem; line-height: 1.7; }
+  .illustration { padding: 18px 0 0; }
+  .illustration img { aspect-ratio: 16 / 10; }
+  .dossier .prose { font-size: 1.07rem; line-height: 1.78; }
+  .dossier .prose h2 { font-size: 1.48rem; margin-top: 1.9em; }
+  .dossier .prose > .encadre { padding: 19px 17px 16px; }
+  .dossier .essentiel li { font-size: 1rem; }
+  .dossier .sommaire { padding: 16px; }
+  main > .section:not(#a-la-une) { padding: 42px 0; }
+  main .section .portes:not(#cartes-une) { grid-template-columns: 1fr; gap: 22px; }
+  .regles { grid-template-columns: 1fr; }
+  .etiquettes div { grid-template-columns: 1fr; }
+  .barre-recherche { padding: 19px 15px; }
+  .livre, .livre:has(img) { grid-template-columns: 110px minmax(0, 1fr); }
+  .livre .couverture { height: 174px; }
+}
+@media (max-width: 380px) {
+  .livre, .livre:has(img) { grid-template-columns: 90px minmax(0, 1fr); gap: 12px; padding: 13px; }
+  .livre .couverture { height: 145px; }
+  .livre h4 { font-size: 1.05rem; }
+  .barre-recherche .filtre { font-size: .7rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0s !important; }
+}
+@media print {
+  .entete, .bandeau-haut, .pied, .haut-de-page, .dossier-cote { display: none !important; }
+  .dossier .dossier-grille { display: block; }
+  .dossier .prose { font-size: 11pt; line-height: 1.5; }
+  .dossier .prose > .encadre { break-inside: avoid; }
+}
+
+
+/* Les trois monographies d'accueil tiennent en une ligne sur grand écran. */
+@media (min-width: 1120px) {
+  #monographies .livres { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  #monographies .livre,
+  #monographies .livre:has(img) {
+    grid-template-columns: minmax(84px, 105px) minmax(0, 1fr);
+    gap: 16px;
+    padding: 18px;
+  }
+  #monographies .livre .couverture { height: 170px; }
+  #monographies .livre h4 { font-size: 1.06rem; }
+  #monographies .livre p { font-size: .87rem; }
+}
