@@ -19,80 +19,69 @@
   <link rel="stylesheet" href="assets/style.css">
   <script>try{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 </head>
-<body>
+<body class="page-article">
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur entete-haut">
-    <form class="recherche-entete" action="dossiers.html" method="get" role="search">
-      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="Rechercher un dossier, un sujet…" aria-label="Rechercher un dossier">
-    </form>
-    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="44" height="44"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-sous">Documents <em>&amp;</em> enquêtes</span></span></a>
-    <div class="actions">
-      <a class="bouton-rond bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
-      <button class="bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><span class="theme-curseur" aria-hidden="true"></span><svg class="theme-lune" viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="currentColor"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
-      <a class="bouton-abonner" href="index.html#lettre">S'abonner</a>
-      <button class="bouton-rond bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <button class="bouton-icone bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <a class="logo" href="./"><img class="logo-img" src="assets/monogramme.png" alt="" width="48" height="48"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="48" height="48"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-devise">Les faits d'abord. L'opinion reste au lecteur.</span></span></a>
+    <div class="entete-droite">
+      <form class="recherche-entete" action="dossiers.html" method="get" role="search">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <input type="search" name="q" placeholder="Rechercher…" aria-label="Rechercher un dossier">
+      </form>
+      <button class="bouton-icone bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><svg class="theme-lune" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+      <a class="bouton-icone bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
     </div>
   </div>
   <nav class="nav" id="menu-principal" aria-label="Navigation principale">
-    <div class="conteneur nav-liens">
-      <a href="./">À la une</a>
-      <a href="politique-institutions.html">Politique</a>
-      <a href="economie-societe.html">Économie &amp; Société</a>
-      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
-      <a href="livres.html">Livres</a>
-      <a href="methode.html">Méthode</a>
+    <div class="conteneur nav-barre">
+      <ul class="nav-liens">
+        <li><a href="./">Accueil</a></li>
+        <li><a href="dossiers.html" aria-current="page">Enquêtes</a></li>
+        <li><a href="livres.html">Monographies</a></li>
+        <li class="nav-deroulant"><details><summary>Rubriques<svg viewBox="0 0 10 6" width="9" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></summary><ul><li><a href="politique-institutions.html">Politique &amp; Institutions</a></li><li><a href="economie-societe.html">Économie &amp; Société</a></li><li><a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a></li></ul></details></li>
+        <li><a href="methode.html">Méthode</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+      </ul>
+      <button class="bouton-theme nav-theme lien-fleche" type="button">Changer l'apparence (clair ou sombre)</button>
+      <a class="bouton-lettre" href="./#lettre">Newsletter</a>
     </div>
   </nav>
 </header>
 
 <main id="contenu">
-  <section class="tete-page tete-dossier c-affaires">
-    <div class="conteneur">
-      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
-      <div class="tete-dossier-grille">
-        <div class="tete-dossier-texte">
-          <p class="surtitre"><span class="or">Dossier</span> · Affaires &amp; Enquêtes</p>
-          <h1>Usage de la force par la police : ce que disent les chiffres de l'IGPN</h1>
-          <span class="filet-or" aria-hidden="true"></span>
-          <p class="chapeau">L'Inspection générale de la police nationale publie chaque année le nombre d'enquêtes judiciaires qu'elle mène. Ces chiffres mesurent l'activité de l'inspection, pas le nombre de violences commises.</p>
-          <p class="meta-dossier">Lecture : 21 min · Publié le 8 octobre 2026 · 13 sources · Vérifié le 13 octobre 2026</p>
+  <article class="article c-affaires">
+    <header class="article-tete conteneur-article">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a><span aria-hidden="true">›</span><a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a><span aria-hidden="true">›</span><span aria-current="page">L'usage de la force par la police</span></nav>
+      <p class="article-meta"><a class="article-rubrique" href="affaires-enquetes.html">Affaires &amp; Enquêtes</a><time datetime="2026-10-08">8 oct. 2026</time><span>21 min<span class="mobile-cache"> de lecture</span></span></p>
+      <h1>Usage de la force par la police : ce que disent les chiffres de l'IGPN</h1>
+      <p class="article-chapeau">L'Inspection générale de la police nationale publie chaque année le nombre d'enquêtes judiciaires qu'elle mène. Ces chiffres mesurent l'activité de l'inspection, pas le nombre de violences commises.</p>
+      <div class="article-signature">
+        <span class="avatar" aria-hidden="true"><img class="logo-img" src="assets/monogramme.png" alt="" width="40" height="40"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="40" height="40"></span>
+        <p><strong>Par Le Petit Monographe</strong><span>Mis à jour : 13 octobre 2026 · Données arrêtées au 8 octobre 2026 · 13 sources</span></p>
+        <div class="article-outils">
+          <button type="button" class="bouton-icone" data-action="imprimer" aria-label="Imprimer ou enregistrer en PDF" title="Imprimer ou enregistrer en PDF"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="copier" aria-label="Copier le lien du dossier" title="Copier le lien"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3.5-3.5a4 4 0 0 0-5.7-5.7l-1.2 1.2M14 10a4 4 0 0 0-5.7 0l-3.5 3.5a4 4 0 0 0 5.7 5.7l1.2-1.2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="partager" aria-label="Partager ce dossier" title="Partager"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.5"/></svg></button>
         </div>
-        <figure class="tete-dossier-image"><img src="assets/images/igpn.jpg" alt="Une voiture de la police nationale à Paris" loading="eager"><figcaption>Photo : <a href="https://www.flickr.com/photos/33756577@N08/3298128897" target="_blank" rel="noopener">Mic V., CC BY 2.0, recadrée, Flickr</a></figcaption></figure>
       </div>
-      <ul class="garanties"><li class="garantie garantie-verifie"><strong>Faits vérifiés</strong><span>Chiffres, dates et décisions relus sur les sources le 13 octobre 2026.</span></li><li class="garantie garantie-sources"><strong>Sources citées</strong><span>13 documents identifiés, avec leur lien.</span></li><li class="garantie garantie-independant"><strong>Analyse indépendante</strong><span>Aucune affiliation partisane ; arguments contraires présentés.</span></li><li class="garantie garantie-maj"><strong>Données arrêtées</strong><span>Au 8 octobre 2026.</span></li></ul>
-    </div>
-  </section>
-
-  <article class="section dossier">
-    <div class="conteneur">
-      <nav class="puces-dossier" aria-label="Accès rapide"><a href="#synthese">Synthèse</a><a href="#sources">Sources</a><a href="#corrections">Corrections</a></nav>
-      <div class="dossier-grille">
-        <aside class="dossier-cote"><details class="sommaire" open>
-          <summary>Dans ce dossier</summary>
-          <ol><li><a href="#comment-fonctionne-l-igpn">Comment fonctionne l'IGPN</a></li><li><a href="#ce-que-publie-l-igpn">Ce que publie l'IGPN</a></li><li><a href="#des-enquetes-aux-sanctions">Des enquêtes aux sanctions</a></li><li><a href="#ce-que-signalent-les-usagers">Ce que signalent les usagers</a></li><li><a href="#le-controle-exterieur-a-la-police">Le contrôle extérieur à la police</a></li><li><a href="#tirs-sur-vehicules-et-loi-de-2017">Tirs sur véhicules et loi de 2017</a></li><li><a href="#ce-qui-fait-debat">Ce qui fait débat</a></li><li><a href="#ce-que-ces-chiffres-ne-disent-pas">Ce que ces chiffres ne disent pas</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
-        </details>
-        <div class="cote-actions">
-          <button type="button" class="bouton-cote" data-action="imprimer"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Enregistrer en PDF<small>ou imprimer le dossier</small></span></button>
-          <button type="button" class="bouton-cote" data-action="partager"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.6"/></svg><span>Partager ce dossier</span></button>
-        </div>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Nos sources (13)</h2><a href="#sources">Voir toutes les sources</a></div>
-          <ol class="cote-sources"><li>franceinfo, « Tirs mortels en baisse, affaires de corruption en hausse... Quatre infos à retenir du rapport an…</li><li>Source secondaire : AFP, repris par 20 minutes (Suisse), « France : les enquêtes visant des policiers corrompu…</li><li>Assemblée nationale, question écrite n° 11781 de M. Abdelkader Lahmar, « Police des polices : à quand une réel…</li><li>Assemblée nationale, texte adopté n° 328, proposition de loi visant à reconnaître une présomption de légitime …</li></ol>
-        </section>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Corrections</h2><a href="contact.html">Signaler une erreur</a></div>
-          <p>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Le constat sur les cellules locales de déontologie était attribué à tort à la réponse du gouvernement : il figure dans la question du député…</p>
-        </section></aside>
-        <div class="prose">
-
-        <aside class="essentiel" id="synthese">
-          <p class="surtitre">Synthèse</p>
+      <figure class="article-image">
+        <img src="assets/images/igpn.jpg" alt="Une voiture de la police nationale à Paris" width="1200" height="600" loading="eager">
+        <figcaption>Une voiture de la police nationale à Paris. Photo : <a href="https://www.flickr.com/photos/33756577@N08/3298128897" target="_blank" rel="noopener">Mic V., CC BY 2.0, recadrée, Flickr</a></figcaption>
+      </figure>
+    </header>
+    <div class="conteneur-article article-corps prose">
+        <nav class="sommaire" aria-labelledby="sommaire-titre">
+          <p class="sommaire-titre" id="sommaire-titre"><svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>Sommaire</p>
+          <ol style="--lignes:6"><li><a href="#en-resume">En résumé</a></li><li><a href="#comment-fonctionne-l-igpn">Comment fonctionne l'IGPN</a></li><li><a href="#ce-que-publie-l-igpn">Ce que publie l'IGPN</a></li><li><a href="#des-enquetes-aux-sanctions">Des enquêtes aux sanctions</a></li><li><a href="#ce-que-signalent-les-usagers">Ce que signalent les usagers</a></li><li><a href="#le-controle-exterieur-a-la-police">Le contrôle extérieur à la police</a></li><li><a href="#tirs-sur-vehicules-et-loi-de-2017">Tirs sur véhicules et loi de 2017</a></li><li><a href="#ce-qui-fait-debat">Ce qui fait débat</a></li><li><a href="#ce-que-ces-chiffres-ne-disent-pas">Ce que ces chiffres ne disent pas</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </nav>
+        <aside class="en-resume" id="en-resume">
+          <h2 class="en-resume-titre">En résumé</h2>
           <ul><li>En 2025, l'IGPN a mené 1 007 enquêtes judiciaires, contre 914 en 2024 ; 322 portaient sur l'usage de la force, contre 428 en 2024, 519 en 2023 et 868 en 2019 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-2" id="appel-2">2</a></sup><sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.</li><li>Douze personnes sont mortes à la suite de tirs policiers en 2025, contre seize en 2024 ; le nombre de blessés graves recensés est passé de 72 à 86 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>L'IGPN a été saisie de 341 atteintes à la probité en 2025, contre 234 en 2024, soit une hausse de 45 % <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>L'IGPN ne prononce aucune sanction : elle enquête, puis propose ; en 2024, elle a proposé un classement pour 34 % des agents visés par ses enquêtes administratives et un conseil de discipline pour 32 % <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.</li><li>Ces chiffres ne couvrent pas la gendarmerie et ne comptent que les affaires confiées à l'IGPN, qui n'est saisie que des cas les plus graves selon son directeur <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.</li></ul>
         </aside>
-        <h2 id="comment-fonctionne-l-igpn">Comment fonctionne l'IGPN</h2>
+        <h2 id="comment-fonctionne-l-igpn"><span class="h2-num">2.</span> Comment fonctionne l'IGPN</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>L'Inspection générale de la police nationale, surnommée la « police des polices », est un service du ministère de l'Intérieur. Dans sa forme actuelle, elle est issue de la réunion de deux inspections, l'IGPN et l'Inspection générale des services (IGS), compétente auparavant pour la préfecture de police de Paris ; 2014 a été sa première année pleine d'exercice, selon son rapport annuel <sup class="appel"><a href="#source-8" id="appel-8">8</a></sup>. La même réforme a créé des délégations à Rennes, Lille, Metz, Fort-de-France et un bureau à Nice, et ouvert le 2 septembre 2013 une plateforme de signalement en ligne pour les particuliers <sup class="appel"><a href="#source-8" id="appel-8">8</a></sup>.</p>
         </aside>
@@ -108,7 +97,7 @@
         <aside class="encadre"><span class="etiquette etiquette-note">À noter</span>
           <p>Une enquête judiciaire porte sur une infraction pénale et peut aboutir à un classement sans suite, à des alternatives aux poursuites ou à un procès. Une enquête administrative pré-disciplinaire porte sur un manquement aux obligations professionnelles et peut aboutir à une sanction disciplinaire, indépendamment de la suite pénale. Un « usage de la force » enquêté n'est pas, par définition, un usage illégal de la force : l'enquête sert précisément à le déterminer.</p>
         </aside>
-        <h2 id="ce-que-publie-l-igpn">Ce que publie l'IGPN</h2>
+        <h2 id="ce-que-publie-l-igpn"><span class="h2-num">3.</span> Ce que publie l'IGPN</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Le rapport annuel 2025 de l'IGPN a été présenté le 23 septembre 2026 par son directeur, Stéphane Hardouin. Selon les comptes rendus de franceinfo et de l'AFP, l'IGPN a mené 1 007 enquêtes judiciaires en 2025, contre 914 en 2024. Parmi elles, 322 visaient l'usage de la force, contre 428 en 2024, 519 en 2023 et 868 en 2019, le niveau le plus bas depuis 2015 selon franceinfo <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>. Nous n'avons pas trouvé le rapport lui-même en ligne : ces chiffres sont repris de la presse.</p>
         </aside>
@@ -142,7 +131,7 @@
           <div class="graphique-pied"><p><strong>Lecture :</strong> Les saisines pour atteinte à la probité passent de 234 en 2024 à 341 en 2025, soit une hausse de 45 %.</p><p><strong>Note :</strong> Les saisines pour probité comptent des infractions ; elles ont donné lieu à 235 enquêtes en 2025, une enquête pouvant porter sur plusieurs infractions.</p><p><strong>Source :</strong> Rapport annuel 2025 de l'IGPN, repris par franceinfo et l'AFP (sources secondaires) <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-2" id="appel-2">2</a></sup></p></div>
           <details class="graphique-donnees"><summary>Voir les données</summary><div class="tableau-defilant"><table class="tableau-donnees"><thead><tr><th></th><th>2024</th><th>2025</th></tr></thead><tbody><tr><th scope="row">Enquêtes judiciaires (total)</th><td>914</td><td>1 007</td></tr><tr><th scope="row">dont usage de la force</th><td>428</td><td>322</td></tr><tr><th scope="row">Saisines pour atteinte à la probité</th><td>234</td><td>341</td></tr></tbody></table></div></details>
         </figure>
-        <h2 id="des-enquetes-aux-sanctions">Des enquêtes aux sanctions</h2>
+        <h2 id="des-enquetes-aux-sanctions"><span class="h2-num">4.</span> Des enquêtes aux sanctions</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>En 2024, l'IGPN a ouvert 168 enquêtes administratives pré-disciplinaires, autant qu'en 2023, contre 192 en 2022 et 288 en 2018 <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>. Elle a relevé 405 manquements, contre 533 en 2023 et 565 en 2022. Sur les 161 enquêtes transmises, 107 ont établi des manquements commis par 175 agents, et 54 n'en ont relevé aucun (89 agents) <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.</p>
         </aside>
@@ -155,7 +144,7 @@
         <aside class="encadre"><span class="etiquette etiquette-note">À noter</span>
           <p>Ces chiffres décrivent les propositions de l'IGPN, pas les sanctions finalement prononcées par l'administration, ni les décisions des tribunaux. Le rapport ne publie pas le nombre de condamnations pénales de policiers à l'issue de ses enquêtes, et la loi limite la communication à l'administration d'informations sur une enquête pénale tant qu'aucune poursuite n'est engagée <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.</p>
         </aside>
-        <h2 id="ce-que-signalent-les-usagers">Ce que signalent les usagers</h2>
+        <h2 id="ce-que-signalent-les-usagers"><span class="h2-num">5.</span> Ce que signalent les usagers</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>La plateforme de signalement de la police nationale, accessible sur le portail masecurite.gouv.fr, permet à toute personne de signaler un comportement d'agent ; elle n'est ni un service de plainte ni un service d'enquête <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>. Elle a reçu 6 080 signalements en 2024, en baisse pour la deuxième année consécutive, après un maximum de 6 843 en 2022 <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>. Environ 80 % entraient dans le champ de la police nationale ; 1 279 ont été orientés vers une enquête administrative pré-disciplinaire. Le premier motif était l'usage de la force (1 063 signalements), devant les comportements jugés inappropriés (788) et les pratiques jugées inadaptées (691) <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.</p>
         </aside>
@@ -168,7 +157,7 @@
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation</span>
           <p>La hausse des signalements jusqu'en 2022 peut traduire une meilleure connaissance de la plateforme autant qu'une évolution des comportements ; le rapport ne permet pas de distinguer ces deux effets.</p>
         </aside>
-        <h2 id="le-controle-exterieur-a-la-police">Le contrôle extérieur à la police</h2>
+        <h2 id="le-controle-exterieur-a-la-police"><span class="h2-num">6.</span> Le contrôle extérieur à la police</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Le Défenseur des droits, autorité indépendante consacrée par la Constitution, est chargé du contrôle externe de la déontologie des forces de sécurité. Il a reçu 2 434 réclamations dans ce domaine en 2024, dont 43 % visaient la police nationale et 17 % la gendarmerie nationale <sup class="appel"><a href="#source-11" id="appel-11">11</a></sup>. Il peut formuler des recommandations et saisir l'autorité disciplinaire, mais ne prononce pas de sanction <sup class="appel"><a href="#source-11" id="appel-11">11</a></sup>.</p>
         </aside>
@@ -178,7 +167,7 @@
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>La gendarmerie a sa propre inspection, l'IGGN. En 2025, celle-ci a reçu 5 193 signalements externes (+23 % sur un an) et a ouvert 58 enquêtes judiciaires et 34 enquêtes administratives, contre 85 et 35 en 2024, soit 5,4 % et 15,8 % des enquêtes internes ouvertes par la gendarmerie sur ses personnels <sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>. Ses chiffres ne sont pas directement comparables à ceux de l'IGPN, les deux inspections ne retenant pas les mêmes catégories.</p>
         </aside>
-        <h2 id="tirs-sur-vehicules-et-loi-de-2017">Tirs sur véhicules et loi de 2017</h2>
+        <h2 id="tirs-sur-vehicules-et-loi-de-2017"><span class="h2-num">7.</span> Tirs sur véhicules et loi de 2017</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>La loi du 28 février 2017 relative à la sécurité publique a fixé un régime commun aux policiers et aux gendarmes pour l'usage des armes, à l'article L. 435-1 du code de la sécurité intérieure, toujours soumis aux principes d'« absolue nécessité » et de « stricte proportionnalité » ; elle permet notamment de tirer sur un véhicule dont le conducteur refuse de s'arrêter lorsque ses occupants sont susceptibles de porter atteinte à la vie ou à l'intégrité physique d'autrui <sup class="appel"><a href="#source-9" id="appel-9">9</a></sup><sup class="appel"><a href="#source-10" id="appel-10">10</a></sup>.</p>
         </aside>
@@ -197,7 +186,7 @@
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation<span class="precision">lectures divergentes</span></span>
           <p>Une étude des chercheurs Sebastian Roché, Paul Le Derff et Simon Varaine, publiée dans la revue Esprit en septembre 2022, conclut qu'il y a eu cinq fois plus de personnes tuées par des tirs policiers visant des véhicules en mouvement depuis l'entrée en vigueur de la loi de 2017 que pendant la période précédente, et qu'il existe un lien entre les deux <sup class="appel"><a href="#source-9" id="appel-9">9</a></sup><sup class="appel"><a href="#source-10" id="appel-10">10</a></sup>. Le ministère de l'Intérieur conteste cette lecture : il juge le nombre de tirs « relativement stable » et critique des estimations établies selon lui à partir de « méthodologies approximatives » <sup class="appel"><a href="#source-9" id="appel-9">9</a></sup>. La mission d'information conduite en 2024 par les députés Thomas Rudigoz (Renaissance) et Roger Vicot (Socialistes) estime que les chiffres « peinent à illustrer une tendance évidente et pérenne » et refuse de « trancher la question » <sup class="appel"><a href="#source-10" id="appel-10">10</a></sup>.</p>
         </aside>
-        <h2 id="ce-qui-fait-debat">Ce qui fait débat</h2>
+        <h2 id="ce-qui-fait-debat"><span class="h2-num">8.</span> Ce qui fait débat</h2>
         <aside class="encadre"><span class="etiquette statut statut-temoignage">Témoignage<span class="precision">allégation non établie</span></span>
           <p>Selon un rapport de l'ONG Flagrant déni publié en novembre 2025, cité dans une question écrite d'un député, les cellules départementales de déontologie ne publient aucune statistique sur leurs enquêtes et ne transmettent pas leurs données à l'IGPN <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>. Dans sa réponse publiée le 11 août 2026, le ministère de l'Intérieur ne commente pas ce point ; il indique que l'essentiel des enquêtes en matière de déontologie est mené par les directions nationales et les services déconcentrés, et que l'outil OSADIS donne à la police nationale « une vision globale, statistique et qualitative » des enquêtes administratives pré-disciplinaires <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>. Ces données ne sont pas publiées.</p>
         </aside>
@@ -210,16 +199,16 @@
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation<span class="precision">lectures divergentes</span></span>
           <p>Sur la loi de 2017, les deux rapporteurs de la mission d'information de 2024 se sont accordés sur 22 de leurs 23 recommandations, notamment l'allongement de la formation des policiers, le renforcement de la formation à la gestion du stress et à « l'après-tir » et la modernisation des outils d'immobilisation des véhicules, mais divergent sur le cadre légal <sup class="appel"><a href="#source-10" id="appel-10">10</a></sup>. Roger Vicot propose de remplacer, à l'article L. 435-1, le mot « susceptibles » par « vont manifestement et de manière imminente », pour lever une « ambiguïté » ; Thomas Rudigoz juge qu'il ne faut « pas engager de réécriture » et privilégie la clarification des instructions et la formation <sup class="appel"><a href="#source-10" id="appel-10">10</a></sup>. Les deux rapporteurs écartaient alors la présomption de légitime défense, qui risquerait selon eux de donner « l'illusion d'une irresponsabilité pénale générale » <sup class="appel"><a href="#source-10" id="appel-10">10</a></sup>. Le ministère de l'Intérieur souligne pour sa part le danger des situations rencontrées : près d'un refus d'obtempérer routier sur cinq est un délit aggravé exposant d'autres personnes à un risque de mort ou d'infirmité, et des policiers et gendarmes sont blessés chaque année <sup class="appel"><a href="#source-9" id="appel-9">9</a></sup>.</p>
         </aside>
-        <h2 id="ce-que-ces-chiffres-ne-disent-pas">Ce que ces chiffres ne disent pas</h2>
+        <h2 id="ce-que-ces-chiffres-ne-disent-pas"><span class="h2-num">9.</span> Ce que ces chiffres ne disent pas</h2>
         <aside class="encadre"><span class="etiquette etiquette-note">À noter</span>
           <p>Une enquête de l'IGPN n'est ni une condamnation ni la preuve d'une faute : elle peut aboutir à un classement sans suite, à des poursuites ou à des sanctions administratives. Inversement, des faits peuvent ne jamais faire l'objet d'une enquête de l'IGPN, par exemple lorsqu'ils sont traités par les services locaux ou ne sont pas signalés. Ces chiffres ne portent que sur la police nationale, et non sur la gendarmerie.</p>
         </aside>
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation</span>
           <p>Les séries de l'IGPN mesurent donc l'activité d'un service dont le volume de saisines dépend des choix des magistrats, des capacités de ses délégations et des grands événements de l'année <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>. Elles ne permettent ni d'affirmer que les violences policières augmentent ou diminuent, ni d'en mesurer la fréquence. Les seules données publiques qui rapportent un nombre d'usages à un dénominateur portent sur les tirs, rapportés par le ministère au nombre de refus d'obtempérer <sup class="appel"><a href="#source-9" id="appel-9">9</a></sup>.</p>
         </aside>
-        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas"><span class="h2-num">10.</span> Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>Le nombre de condamnations</strong> de policiers pour violences, rarement publié de manière consolidée ; la mission d'information de 2024 indiquait elle-même manquer de « données statistiques précises » sur le traitement judiciaire des affaires de tirs <sup class="appel"><a href="#source-10" id="appel-10">10</a></sup>.</li><li><strong>L'activité des services locaux de déontologie</strong>, dont les statistiques ne sont pas publiées.</li><li><strong>Le nombre de réclamations relatives à la déontologie de la sécurité adressées au Défenseur des droits pour 2025</strong> : son rapport annuel, publié en avril 2026, indique que l'usage excessif de la force reste le motif de réclamation le plus fréquent dans ce domaine, mais nous n'avons pas trouvé de chiffre précis <sup class="appel"><a href="#source-6" id="appel-6">6</a></sup>. Le chiffre de 2024 est de 2 434 réclamations <sup class="appel"><a href="#source-11" id="appel-11">11</a></sup>.</li><li><strong>Le texte intégral du rapport annuel 2025 de l'IGPN</strong>, que nous n'avons pas trouvé en ligne à la date d'arrêt des données.</li><li><strong>Les sanctions effectivement prononcées</strong> à la suite des propositions de l'IGPN, que son rapport ne détaille pas.</li></ul>
-        <h2 id="sources">Sources</h2>
+        <h2 id="sources"><span class="h2-num">11.</span> Sources</h2>
         <ol class="sources">
           <li id="source-1">franceinfo, « Tirs mortels en baisse, affaires de corruption en hausse... Quatre infos à retenir du rapport annuel de l'IGPN, "la police des polices" », 23 septembre 2026. <a href="https://www.franceinfo.fr/faits-divers/police/tirs-mortels-en-baisse-affaires-de-corruption-en-hausse-quatre-infos-a-retenir-du-rapport-annuel-de-l-igpn-la-police-des-polices_8206238.html" rel="noopener">www.franceinfo.fr/faits-divers/police/tirs-mortels-en-baisse-affaires-de-corruption-en-hausse-quatre-infos-a-retenir-du-rapport-annuel-de-l-igpn-la-police-des-polices_8206238.html</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Source secondaire : AFP, repris par 20 minutes (Suisse), « France : les enquêtes visant des policiers corrompus explosent », 23 septembre 2026. <a href="https://www.20min.ch/fr/story/france-les-enquetes-visant-des-policiers-corrompus-explosent-103637864" rel="noopener">www.20min.ch/fr/story/france-les-enquetes-visant-des-policiers-corrompus-explosent-103637864</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
@@ -235,18 +224,44 @@
           <li id="source-12">Gendarmerie nationale, Gendinfo, « Publication du rapport annuel de l'IGGN », 27 juillet 2026. <a href="https://www.gendarmerie.interieur.gouv.fr/gendinfo/actualites/2026/publication-du-rapport-annuel-de-l-iggn" rel="noopener">www.gendarmerie.interieur.gouv.fr/gendinfo/actualites/2026/publication-du-rapport-annuel-de-l-iggn</a> <a href="#appel-12" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-13">Sénat, proposition de loi n° 866 (2025-2026) adoptée par l'Assemblée nationale visant à reconnaître une présomption de légitime défense pour les forces de l'ordre dans l'exercice de leurs fonctions, enregistrée le 7 juillet 2026. <a href="https://www.senat.fr/leg/ppl25-866.html" rel="noopener">www.senat.fr/leg/ppl25-866.html</a> <a href="#appel-13" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2 id="historique">Historique</h2>
+        <h2 id="historique"><span class="h2-num">12.</span> Historique</h2>
         <ul class="historique" id="corrections"><li>8 octobre 2026 : première publication.</li><li>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Le constat sur les cellules locales de déontologie était attribué à tort à la réponse du gouvernement : il figure dans la question du député, qui cite un rapport de l'ONG Flagrant déni. Le texte sur l'usage des armes est une proposition de loi adoptée en première lecture par l'Assemblée nationale le 7 juillet 2026, et non un projet du gouvernement. Le 16 octobre 2026, le dossier a été approfondi : fonctionnement et saisine de l'IGPN, série complète des enquêtes pour usage de la force depuis 2016 tirée du rapport annuel 2024, enquêtes administratives et propositions de sanction, plateforme de signalement, tirs sur véhicules et débat sur la loi de 2017, contrôle par le Défenseur des droits et l'inspection de la gendarmerie, avec deux graphiques et sept sources nouvelles.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
-      </div>
-      </div>
     </div>
   </article>
   <section class="section a-lire-aussi">
     <div class="conteneur">
-      <h2>À lire aussi</h2>
-      <div class="portes"><a class="porte c-affaires" href="dossier-outreau.html"><span class="porte-image"><img src="assets/images/outreau.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Outreau : comment une erreur judiciaire collective s'est produite</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-troadec.html"><span class="porte-image"><img src="assets/images/troadec.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Affaire Troadec : ce que le procès a tranché</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-flactif.html"><span class="porte-image"><img src="assets/images/flactif.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Affaire Flactif : ce que la justice a établi</h3><span class="suite">Lire le dossier</span></a></div>
-      <p class="retour-rubrique"><a href="affaires-enquetes.html">Tous les dossiers de la rubrique Affaires &amp; Enquêtes</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+      <div class="titre-section"><h2>À lire aussi</h2><a class="lien-fleche" href="affaires-enquetes.html">Tous les dossiers Affaires &amp; Enquêtes<svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a></div>
+      <div class="grille-cartes grille-3">
+        <article class="carte c-affaires">
+          <a href="dossier-outreau.html">
+            <span class="carte-image"><img src="assets/images/outreau.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Affaires &amp; Enquêtes</span>
+              <h3 class="carte-titre">Outreau : comment une erreur judiciaire collective s'est produite</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>16 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-affaires">
+          <a href="dossier-troadec.html">
+            <span class="carte-image"><img src="assets/images/troadec.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Affaires &amp; Enquêtes</span>
+              <h3 class="carte-titre">Affaire Troadec : ce que le procès a tranché</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>14 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-affaires">
+          <a href="dossier-flactif.html">
+            <span class="carte-image"><img src="assets/images/flactif.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Affaires &amp; Enquêtes</span>
+              <h3 class="carte-titre">Affaire Flactif : ce que la justice a établi</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>12 min</span></span>
+            </span>
+          </a>
+        </article>
+      </div>
     </div>
   </section>
 </main>

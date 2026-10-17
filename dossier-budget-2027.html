@@ -19,87 +19,76 @@
   <link rel="stylesheet" href="assets/style.css">
   <script>try{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 </head>
-<body>
+<body class="page-article">
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur entete-haut">
-    <form class="recherche-entete" action="dossiers.html" method="get" role="search">
-      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="Rechercher un dossier, un sujet…" aria-label="Rechercher un dossier">
-    </form>
-    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="44" height="44"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-sous">Documents <em>&amp;</em> enquêtes</span></span></a>
-    <div class="actions">
-      <a class="bouton-rond bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
-      <button class="bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><span class="theme-curseur" aria-hidden="true"></span><svg class="theme-lune" viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="currentColor"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
-      <a class="bouton-abonner" href="index.html#lettre">S'abonner</a>
-      <button class="bouton-rond bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <button class="bouton-icone bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <a class="logo" href="./"><img class="logo-img" src="assets/monogramme.png" alt="" width="48" height="48"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="48" height="48"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-devise">Les faits d'abord. L'opinion reste au lecteur.</span></span></a>
+    <div class="entete-droite">
+      <form class="recherche-entete" action="dossiers.html" method="get" role="search">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <input type="search" name="q" placeholder="Rechercher…" aria-label="Rechercher un dossier">
+      </form>
+      <button class="bouton-icone bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><svg class="theme-lune" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+      <a class="bouton-icone bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
     </div>
   </div>
   <nav class="nav" id="menu-principal" aria-label="Navigation principale">
-    <div class="conteneur nav-liens">
-      <a href="./">À la une</a>
-      <a href="politique-institutions.html">Politique</a>
-      <a href="economie-societe.html">Économie &amp; Société</a>
-      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
-      <a href="livres.html">Livres</a>
-      <a href="methode.html">Méthode</a>
+    <div class="conteneur nav-barre">
+      <ul class="nav-liens">
+        <li><a href="./">Accueil</a></li>
+        <li><a href="dossiers.html" aria-current="page">Enquêtes</a></li>
+        <li><a href="livres.html">Monographies</a></li>
+        <li class="nav-deroulant"><details><summary>Rubriques<svg viewBox="0 0 10 6" width="9" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></summary><ul><li><a href="politique-institutions.html">Politique &amp; Institutions</a></li><li><a href="economie-societe.html">Économie &amp; Société</a></li><li><a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a></li></ul></details></li>
+        <li><a href="methode.html">Méthode</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+      </ul>
+      <button class="bouton-theme nav-theme lien-fleche" type="button">Changer l'apparence (clair ou sombre)</button>
+      <a class="bouton-lettre" href="./#lettre">Newsletter</a>
     </div>
   </nav>
 </header>
 
 <main id="contenu">
-  <section class="tete-page tete-dossier c-economie">
-    <div class="conteneur">
-      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="economie-societe.html">Économie &amp; Société</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
-      <div class="tete-dossier-grille">
-        <div class="tete-dossier-texte">
-          <p class="surtitre"><span class="or">Dossier</span> · Économie &amp; Société</p>
-          <h1>Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</h1>
-          <span class="filet-or" aria-hidden="true"></span>
-          <p class="chapeau">Le gouvernement vise un déficit public de 5,0 % du PIB en 2027. Le montant de l'effort annoncé, sa répartition et le réalisme des prévisions font débat.</p>
-          <p class="meta-dossier">Lecture : 7 min · Publié le 8 octobre 2026 · 8 sources · Vérifié le 13 octobre 2026</p>
+  <article class="article c-economie">
+    <header class="article-tete conteneur-article">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a><span aria-hidden="true">›</span><a href="economie-societe.html">Économie &amp; Société</a><span aria-hidden="true">›</span><span aria-current="page">Budget 2027</span></nav>
+      <p class="article-meta"><a class="article-rubrique" href="economie-societe.html">Économie &amp; Société</a><time datetime="2026-10-08">8 oct. 2026</time><span>7 min<span class="mobile-cache"> de lecture</span></span></p>
+      <h1>Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</h1>
+      <p class="article-chapeau">Le gouvernement vise un déficit public de 5,0 % du PIB en 2027. Le montant de l'effort annoncé, sa répartition et le réalisme des prévisions font débat.</p>
+      <div class="article-signature">
+        <span class="avatar" aria-hidden="true"><img class="logo-img" src="assets/monogramme.png" alt="" width="40" height="40"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="40" height="40"></span>
+        <p><strong>Par Le Petit Monographe</strong><span>Mis à jour : 13 octobre 2026 · Données arrêtées au 8 octobre 2026 · 8 sources</span></p>
+        <div class="article-outils">
+          <button type="button" class="bouton-icone" data-action="imprimer" aria-label="Imprimer ou enregistrer en PDF" title="Imprimer ou enregistrer en PDF"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="copier" aria-label="Copier le lien du dossier" title="Copier le lien"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3.5-3.5a4 4 0 0 0-5.7-5.7l-1.2 1.2M14 10a4 4 0 0 0-5.7 0l-3.5 3.5a4 4 0 0 0 5.7 5.7l1.2-1.2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="partager" aria-label="Partager ce dossier" title="Partager"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.5"/></svg></button>
         </div>
-        <figure class="tete-dossier-image"><img src="assets/images/budget-2027.jpg" alt="Billets et pièces en euros" loading="eager"><figcaption>Photo : <a href="https://www.flickr.com/photos/65265630@N03/11816994903" target="_blank" rel="noopener">Janitors, CC BY 2.0, recadrée, Flickr</a></figcaption></figure>
       </div>
-      <ul class="garanties"><li class="garantie garantie-verifie"><strong>Faits vérifiés</strong><span>Chiffres, dates et décisions relus sur les sources le 13 octobre 2026.</span></li><li class="garantie garantie-sources"><strong>Sources citées</strong><span>8 documents identifiés, avec leur lien.</span></li><li class="garantie garantie-independant"><strong>Analyse indépendante</strong><span>Aucune affiliation partisane ; arguments contraires présentés.</span></li><li class="garantie garantie-maj"><strong>Données arrêtées</strong><span>Au 8 octobre 2026.</span></li></ul>
-    </div>
-  </section>
-
-  <article class="section dossier">
-    <div class="conteneur">
-      <nav class="puces-dossier" aria-label="Accès rapide"><a href="#synthese">Synthèse</a><a href="#sources">Sources</a><a href="#corrections">Corrections</a></nav>
-      <div class="dossier-grille">
-        <aside class="dossier-cote"><details class="sommaire" open>
-          <summary>Dans ce dossier</summary>
-          <ol><li><a href="#l-objectif">L'objectif</a></li><li><a href="#l-effort-annonce-et-sa-mesure">L'effort annoncé et sa mesure</a></li><li><a href="#les-previsions">Les prévisions</a></li><li><a href="#les-collectivites-locales">Les collectivités locales</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
-        </details>
-        <div class="cote-actions">
-          <button type="button" class="bouton-cote" data-action="imprimer"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Enregistrer en PDF<small>ou imprimer le dossier</small></span></button>
-          <button type="button" class="bouton-cote" data-action="partager"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.6"/></svg><span>Partager ce dossier</span></button>
-        </div>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Nos sources (8)</h2><a href="#sources">Voir toutes les sources</a></div>
-          <ol class="cote-sources"><li>Gouvernement, « Projet de loi de finances pour 2027 », Assemblée nationale, texte n° 3210 déposé le 1er octobr…</li><li>Haut Conseil des finances publiques, avis n° 2026-5 relatif aux projets de lois de finances et de financement …</li><li>Source secondaire : Touteleurope.eu, « Budget 2027 : ce qu'il faut retenir des mesures annoncées par le gouver…</li><li>Source secondaire : Blog FMPC, « PLF 2027 : 7 milliards d'effort pour les collectivités locales », octobre 202…</li></ol>
-        </section>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Corrections</h2><a href="contact.html">Signaler une erreur</a></div>
-          <p>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. La date de l'avis du Haut Conseil des finances publiques est corrigée (25 septembre 2026, rendu public avec le projet de loi), la date de sa…</p>
-        </section></aside>
-        <div class="prose">
-
-        <aside class="essentiel" id="synthese">
-          <p class="surtitre">Synthèse</p>
+      <figure class="article-image">
+        <img src="assets/images/budget-2027.jpg" alt="Billets et pièces en euros" width="1200" height="600" loading="eager">
+        <figcaption>Billets et pièces en euros. Photo : <a href="https://www.flickr.com/photos/65265630@N03/11816994903" target="_blank" rel="noopener">Janitors, CC BY 2.0, recadrée, Flickr</a></figcaption>
+      </figure>
+    </header>
+    <div class="conteneur-article article-corps prose">
+        <nav class="sommaire" aria-labelledby="sommaire-titre">
+          <p class="sommaire-titre" id="sommaire-titre"><svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>Sommaire</p>
+          <ol style="--lignes:4"><li><a href="#en-resume">En résumé</a></li><li><a href="#l-objectif">L'objectif</a></li><li><a href="#l-effort-annonce-et-sa-mesure">L'effort annoncé et sa mesure</a></li><li><a href="#les-previsions">Les prévisions</a></li><li><a href="#les-collectivites-locales">Les collectivités locales</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </nav>
+        <aside class="en-resume" id="en-resume">
+          <h2 class="en-resume-titre">En résumé</h2>
           <ul><li>Le projet de loi de finances pour 2027, déposé le 1er octobre 2026, vise un déficit public de 5,0 % du PIB <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Le gouvernement présente un effort de redressement de 54 milliards d'euros, dont 43 milliards de mesures nouvelles <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup><sup class="appel"><a href="#source-5" id="appel-5">5</a></sup>.</li><li>Le Haut Conseil des finances publiques juge la prévision de croissance du gouvernement supérieure au consensus des prévisionnistes <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Le montant de l'effort dépend de la méthode de calcul : le chiffre de 54 milliards est mesuré par rapport à un scénario sans mesures, pas par rapport aux dépenses de 2026.</li></ul>
         </aside>
-        <h2 id="l-objectif">L'objectif</h2>
+        <h2 id="l-objectif"><span class="h2-num">2.</span> L'objectif</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Le projet de loi de finances pour 2027 a été présenté le 1er octobre 2026. Il vise un déficit public de 5,0 % du PIB en 2027 et une dette publique de 121,7 % du PIB <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Le Haut Conseil des finances publiques (HCFP), organisme indépendant placé auprès de la Cour des comptes et créé par la loi organique du 17 décembre 2012 <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>, rend un avis sur le réalisme des prévisions macroéconomiques des lois de finances. Son avis n° 2026-5 sur les projets de budget pour 2027 est daté du 25 septembre 2026 et a été rendu public avec le projet de loi <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup><sup class="appel"><a href="#source-5" id="appel-5">5</a></sup>.</p>
         </aside>
-        <h2 id="l-effort-annonce-et-sa-mesure">L'effort annoncé et sa mesure</h2>
+        <h2 id="l-effort-annonce-et-sa-mesure"><span class="h2-num">3.</span> L'effort annoncé et sa mesure</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Selon le gouvernement, l'effort de redressement atteint 54 milliards d'euros, dont 43 milliards proviennent de mesures nouvelles, répartis en 18 milliards de recettes et 25 milliards de dépenses <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup>. D'après la présentation reprise par la presse, 9 milliards portent sur l'État, 12 milliards sur la sphère sociale et 5,5 milliards sur les collectivités locales ; le reste repose sur les recettes <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>. Parmi les mesures sociales figurent 3 milliards d'économies sur les médicaments et 2 milliards sur les arrêts maladie <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</p>
         </aside>
@@ -118,7 +107,7 @@
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation<span class="precision">lectures divergentes</span></span>
           <p>Le chiffre de l'effort est contesté dans les deux sens. La Fondation IFRAP estime que le projet compte, charge de la dette incluse, plus de hausses de prélèvements obligatoires (17,2 milliards selon son calcul) que de baisses de dépenses, et qu'une partie des économies annoncées n'est pas documentée mesure par mesure <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup>. Du côté des collectivités, le président du Comité des finances locales redoutait avant la présentation du budget « un choc beaucoup plus fort qu'au cours des années passées » et un impact sur les services publics locaux <sup class="appel"><a href="#source-8" id="appel-8">8</a></sup>. Ces appréciations dépendent de la méthode retenue et des choix politiques de chacun.</p>
         </aside>
-        <h2 id="les-previsions">Les prévisions</h2>
+        <h2 id="les-previsions"><span class="h2-num">4.</span> Les prévisions</h2>
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation<span class="precision">expertise</span></span>
           <p>Le HCFP estime que le scénario du gouvernement suppose un enchaînement favorable, notamment une reprise de l'investissement privé jugée « de l'ordre du possible » mais « favorable au regard des incertitudes et des conditions de financement de la dette » <sup class="appel"><a href="#source-6" id="appel-6">6</a></sup>.</p>
         </aside>
@@ -131,13 +120,13 @@
         <aside class="encadre"><span class="etiquette etiquette-note">À noter</span>
           <p>Le précédent budget visait un déficit de 5,0 % pour 2026. Le projet de loi de finances pour 2027 le prévoit désormais à 5,4 % <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>, une révision que le HCFP juge plausible <sup class="appel"><a href="#source-6" id="appel-6">6</a></sup>. Ce chiffre n'est pas encore définitif : le déficit 2026 sera publié par l'Insee au printemps 2027.</p>
         </aside>
-        <h2 id="les-collectivites-locales">Les collectivités locales</h2>
+        <h2 id="les-collectivites-locales"><span class="h2-num">5.</span> Les collectivités locales</h2>
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation<span class="precision">estimation chiffrée</span></span>
           <p>L'effort direct demandé aux collectivités locales est de 5,5 milliards d'euros selon le gouvernement <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>. Selon une analyse publiée par le blog FMPC, consacré à la gestion des collectivités, il atteindrait 7 milliards en incluant la hausse des cotisations de retraite des agents (CNRACL) <sup class="appel"><a href="#source-4" id="appel-4">4</a></sup> ; la Fondation IFRAP l'évalue pour sa part à 6,2 milliards <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup>. La différence tient au périmètre retenu.</p>
         </aside>
-        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas"><span class="h2-num">6.</span> Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>Le budget qui sera voté.</strong> Le texte va être examiné et modifié par le Parlement ; sa forme finale et les conditions de son adoption ne sont pas connues.</li><li><strong>La croissance de 2027.</strong> Elle conditionne l'essentiel des recettes et donc le déficit réel.</li><li><strong>L'effet des mesures.</strong> Certaines économies, comme celles sur les arrêts maladie, dépendent de comportements difficiles à prévoir.</li></ul>
-        <h2 id="sources">Sources</h2>
+        <h2 id="sources"><span class="h2-num">7.</span> Sources</h2>
         <ol class="sources">
           <li id="source-1">Gouvernement, « Projet de loi de finances pour 2027 », Assemblée nationale, texte n° 3210 déposé le 1er octobre 2026. <a href="https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf" rel="noopener">www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Haut Conseil des finances publiques, avis n° 2026-5 relatif aux projets de lois de finances et de financement de la sécurité sociale pour 2027, 25 septembre 2026 ; citation sur 2029 reprise par Entrevue, 2 octobre 2026 (https://entrevue.fr/politique/budget-2027-le-haut-conseil-juge-tres-peu-vraisemblable-le-retour-sous-3-de-deficit-en-2029/). <a href="https://www.hcfp.fr/liste-avis/avis-ndeg2026-5-lois-de-finances-2027" rel="noopener">www.hcfp.fr/liste-avis/avis-ndeg2026-5-lois-de-finances-2027</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
@@ -148,18 +137,44 @@
           <li id="source-7">Sénat, avis sur le projet de loi de finances pour 2014, « Cour des comptes et autres juridictions financières », 21 novembre 2013 (création du HCFP par la loi organique n° 2012-1403 du 17 décembre 2012). <a href="https://www.senat.fr/rap/a13-162-6/a13-162-60.html" rel="noopener">www.senat.fr/rap/a13-162-6/a13-162-60.html</a> <a href="#appel-7" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-8">Maire-Info, « Budget 2027 : le président du CFL redoute un choc beaucoup plus fort qu'au cours des années passées », 17 septembre 2026. <a href="https://www.maire-info.com/budget-2027-le-president-du-cfl-redoute-un-choc-beaucoup-plus-fort-quau-cours-des-annees-passees-article2-31085" rel="noopener">www.maire-info.com/budget-2027-le-president-du-cfl-redoute-un-choc-beaucoup-plus-fort-quau-cours-des-annees-passees-article2-31085</a> <a href="#appel-8" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2 id="historique">Historique</h2>
+        <h2 id="historique"><span class="h2-num">8.</span> Historique</h2>
         <ul class="historique" id="corrections"><li>8 octobre 2026 : première publication.</li><li>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. La date de l'avis du Haut Conseil des finances publiques est corrigée (25 septembre 2026, rendu public avec le projet de loi), la date de saisine non vérifiable est retirée, l'effort structurel mesuré par le Haut Conseil est précisé, l'analyse attribuée à l'IREF, introuvable, est remplacée par celle de la Fondation IFRAP, la source sur les collectivités est correctement identifiée, et les appréciations du Haut Conseil sont étiquetées comme expertise.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
-      </div>
-      </div>
     </div>
   </article>
   <section class="section a-lire-aussi">
     <div class="conteneur">
-      <h2>À lire aussi</h2>
-      <div class="portes"><a class="porte c-economie" href="dossier-chomage-emploi.html"><span class="porte-image"><img src="assets/images/dossier-chomage-emploi.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-dette-publique.html"><span class="porte-image"><img src="assets/images/dette-publique.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>La dette publique française : niveau, coût et risques</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-niches-fiscales.html"><span class="porte-image"><img src="assets/images/niches-fiscales.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Les niches fiscales : combien elles coûtent et ce que l'on sait de leur efficacité</h3><span class="suite">Lire le dossier</span></a></div>
-      <p class="retour-rubrique"><a href="economie-societe.html">Tous les dossiers de la rubrique Économie &amp; Société</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+      <div class="titre-section"><h2>À lire aussi</h2><a class="lien-fleche" href="economie-societe.html">Tous les dossiers Économie &amp; Société<svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a></div>
+      <div class="grille-cartes grille-3">
+        <article class="carte c-economie">
+          <a href="dossier-chomage-emploi.html">
+            <span class="carte-image"><img src="assets/images/dossier-chomage-emploi.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Économie &amp; Société</span>
+              <h3 class="carte-titre">Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>8 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-economie">
+          <a href="dossier-dette-publique.html">
+            <span class="carte-image"><img src="assets/images/dette-publique.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Économie &amp; Société</span>
+              <h3 class="carte-titre">La dette publique française : niveau, coût et risques</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>9 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-economie">
+          <a href="dossier-niches-fiscales.html">
+            <span class="carte-image"><img src="assets/images/niches-fiscales.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Économie &amp; Société</span>
+              <h3 class="carte-titre">Les niches fiscales : combien elles coûtent et ce que l'on sait de leur efficacité</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>6 min</span></span>
+            </span>
+          </a>
+        </article>
+      </div>
     </div>
   </section>
 </main>

@@ -19,80 +19,69 @@
   <link rel="stylesheet" href="assets/style.css">
   <script>try{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 </head>
-<body>
+<body class="page-article">
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur entete-haut">
-    <form class="recherche-entete" action="dossiers.html" method="get" role="search">
-      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="Rechercher un dossier, un sujet…" aria-label="Rechercher un dossier">
-    </form>
-    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="44" height="44"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-sous">Documents <em>&amp;</em> enquêtes</span></span></a>
-    <div class="actions">
-      <a class="bouton-rond bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
-      <button class="bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><span class="theme-curseur" aria-hidden="true"></span><svg class="theme-lune" viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="currentColor"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
-      <a class="bouton-abonner" href="index.html#lettre">S'abonner</a>
-      <button class="bouton-rond bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <button class="bouton-icone bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <a class="logo" href="./"><img class="logo-img" src="assets/monogramme.png" alt="" width="48" height="48"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="48" height="48"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-devise">Les faits d'abord. L'opinion reste au lecteur.</span></span></a>
+    <div class="entete-droite">
+      <form class="recherche-entete" action="dossiers.html" method="get" role="search">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <input type="search" name="q" placeholder="Rechercher…" aria-label="Rechercher un dossier">
+      </form>
+      <button class="bouton-icone bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><svg class="theme-lune" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+      <a class="bouton-icone bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
     </div>
   </div>
   <nav class="nav" id="menu-principal" aria-label="Navigation principale">
-    <div class="conteneur nav-liens">
-      <a href="./">À la une</a>
-      <a href="politique-institutions.html">Politique</a>
-      <a href="economie-societe.html">Économie &amp; Société</a>
-      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
-      <a href="livres.html">Livres</a>
-      <a href="methode.html">Méthode</a>
+    <div class="conteneur nav-barre">
+      <ul class="nav-liens">
+        <li><a href="./">Accueil</a></li>
+        <li><a href="dossiers.html" aria-current="page">Enquêtes</a></li>
+        <li><a href="livres.html">Monographies</a></li>
+        <li class="nav-deroulant"><details><summary>Rubriques<svg viewBox="0 0 10 6" width="9" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></summary><ul><li><a href="politique-institutions.html">Politique &amp; Institutions</a></li><li><a href="economie-societe.html">Économie &amp; Société</a></li><li><a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a></li></ul></details></li>
+        <li><a href="methode.html">Méthode</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+      </ul>
+      <button class="bouton-theme nav-theme lien-fleche" type="button">Changer l'apparence (clair ou sombre)</button>
+      <a class="bouton-lettre" href="./#lettre">Newsletter</a>
     </div>
   </nav>
 </header>
 
 <main id="contenu">
-  <section class="tete-page tete-dossier c-pouvoirs">
-    <div class="conteneur">
-      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="politique-institutions.html">Politique &amp; Institutions</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
-      <div class="tete-dossier-grille">
-        <div class="tete-dossier-texte">
-          <p class="surtitre"><span class="or">Dossier</span> · Politique &amp; Institutions</p>
-          <h1>Le pacte européen sur la migration et l'asile : ce qui a changé le 12 juin 2026</h1>
-          <span class="filet-or" aria-hidden="true"></span>
-          <p class="chapeau">Adopté en 2024, le pacte européen sur la migration et l'asile s'applique depuis le 12 juin 2026. Il crée un filtrage obligatoire aux frontières, de nouvelles procédures et un mécanisme de solidarité entre États.</p>
-          <p class="meta-dossier">Lecture : 6 min · Publié le 8 octobre 2026 · 7 sources · Vérifié le 13 octobre 2026</p>
+  <article class="article c-pouvoirs">
+    <header class="article-tete conteneur-article">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a><span aria-hidden="true">›</span><a href="politique-institutions.html">Politique &amp; Institutions</a><span aria-hidden="true">›</span><span aria-current="page">Le pacte migration et asile</span></nav>
+      <p class="article-meta"><a class="article-rubrique" href="politique-institutions.html">Politique</a><time datetime="2026-10-08">8 oct. 2026</time><span>6 min<span class="mobile-cache"> de lecture</span></span></p>
+      <h1>Le pacte européen sur la migration et l'asile : ce qui a changé le 12 juin 2026</h1>
+      <p class="article-chapeau">Adopté en 2024, le pacte européen sur la migration et l'asile s'applique depuis le 12 juin 2026. Il crée un filtrage obligatoire aux frontières, de nouvelles procédures et un mécanisme de solidarité entre États.</p>
+      <div class="article-signature">
+        <span class="avatar" aria-hidden="true"><img class="logo-img" src="assets/monogramme.png" alt="" width="40" height="40"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="40" height="40"></span>
+        <p><strong>Par Le Petit Monographe</strong><span>Mis à jour : 13 octobre 2026 · Données arrêtées au 8 octobre 2026 · 7 sources</span></p>
+        <div class="article-outils">
+          <button type="button" class="bouton-icone" data-action="imprimer" aria-label="Imprimer ou enregistrer en PDF" title="Imprimer ou enregistrer en PDF"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="copier" aria-label="Copier le lien du dossier" title="Copier le lien"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3.5-3.5a4 4 0 0 0-5.7-5.7l-1.2 1.2M14 10a4 4 0 0 0-5.7 0l-3.5 3.5a4 4 0 0 0 5.7 5.7l1.2-1.2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="partager" aria-label="Partager ce dossier" title="Partager"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.5"/></svg></button>
         </div>
-        <figure class="tete-dossier-image"><img src="assets/images/pacte-migration.jpg" alt="Le Berlaymont, siège de la Commission européenne à Bruxelles" loading="eager"><figcaption>Photo : <a href="https://commons.wikimedia.org/wiki/File:Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg" target="_blank" rel="noopener">EmDee, CC BY-SA 4.0, recadrée, Wikimedia Commons</a></figcaption></figure>
       </div>
-      <ul class="garanties"><li class="garantie garantie-verifie"><strong>Faits vérifiés</strong><span>Chiffres, dates et décisions relus sur les sources le 13 octobre 2026.</span></li><li class="garantie garantie-sources"><strong>Sources citées</strong><span>7 documents identifiés, avec leur lien.</span></li><li class="garantie garantie-independant"><strong>Analyse indépendante</strong><span>Aucune affiliation partisane ; arguments contraires présentés.</span></li><li class="garantie garantie-maj"><strong>Données arrêtées</strong><span>Au 8 octobre 2026.</span></li></ul>
-    </div>
-  </section>
-
-  <article class="section dossier">
-    <div class="conteneur">
-      <nav class="puces-dossier" aria-label="Accès rapide"><a href="#synthese">Synthèse</a><a href="#sources">Sources</a><a href="#corrections">Corrections</a></nav>
-      <div class="dossier-grille">
-        <aside class="dossier-cote"><details class="sommaire" open>
-          <summary>Dans ce dossier</summary>
-          <ol><li><a href="#le-calendrier">Le calendrier</a></li><li><a href="#ce-qui-change">Ce qui change</a></li><li><a href="#le-debat">Le débat</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
-        </details>
-        <div class="cote-actions">
-          <button type="button" class="bouton-cote" data-action="imprimer"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Enregistrer en PDF<small>ou imprimer le dossier</small></span></button>
-          <button type="button" class="bouton-cote" data-action="partager"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.6"/></svg><span>Partager ce dossier</span></button>
-        </div>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Nos sources (7)</h2><a href="#sources">Voir toutes les sources</a></div>
-          <ol class="cote-sources"><li>Commission européenne, Représentation en France, « La politique migratoire de l'UE : ni passoire, ni forteress…</li><li>Sénat, commission des affaires européennes, Ronan Le Gleut et Audrey Linkenheld, rapport d'information n° 606 …</li><li>Ministère de l'Intérieur, circulaire INTV2615721C relative au pacte européen sur la migration et l'asile, 11 j…</li><li>Euronews, « Non, l'UE n'infligera pas d'amendes aux États qui refusent d'accueillir des migrants », 16 juin 20…</li></ol>
-        </section>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Corrections</h2><a href="contact.html">Signaler une erreur</a></div>
-          <p>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Le texte français en discussion est un projet de loi d'habilitation à légiférer par ordonnances, rejeté par la commission des lois de l'Asse…</p>
-        </section></aside>
-        <div class="prose">
-
-        <aside class="essentiel" id="synthese">
-          <p class="surtitre">Synthèse</p>
+      <figure class="article-image">
+        <img src="assets/images/pacte-migration.jpg" alt="Le Berlaymont, siège de la Commission européenne à Bruxelles" width="1200" height="600" loading="eager">
+        <figcaption>Le Berlaymont, siège de la Commission européenne à Bruxelles. Photo : <a href="https://commons.wikimedia.org/wiki/File:Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg" target="_blank" rel="noopener">EmDee, CC BY-SA 4.0, recadrée, Wikimedia Commons</a></figcaption>
+      </figure>
+    </header>
+    <div class="conteneur-article article-corps prose">
+        <nav class="sommaire" aria-labelledby="sommaire-titre">
+          <p class="sommaire-titre" id="sommaire-titre"><svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>Sommaire</p>
+          <ol style="--lignes:4"><li><a href="#en-resume">En résumé</a></li><li><a href="#le-calendrier">Le calendrier</a></li><li><a href="#ce-qui-change">Ce qui change</a></li><li><a href="#le-debat">Le débat</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </nav>
+        <aside class="en-resume" id="en-resume">
+          <h2 class="en-resume-titre">En résumé</h2>
           <ul><li>Le pacte, approuvé par le Parlement européen le 10 avril 2024 et adopté par le Conseil le 14 mai 2024, s'applique depuis le 12 juin 2026 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Les règlements européens s'appliquent directement ; la France a publié des décrets et une circulaire. Le projet de loi autorisant le Gouvernement à adapter le droit par ordonnances, adopté par le Sénat le 20 mai 2026, a été rejeté par la commission des lois de l'Assemblée nationale le 22 juillet 2026 et n'est pas définitivement adopté <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup><sup class="appel"><a href="#source-5" id="appel-5">5</a></sup>.</li><li>Le pacte crée notamment un filtrage obligatoire des personnes arrivant irrégulièrement et une procédure d'asile à la frontière <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Son application concrète est inégale : selon un rapport du Sénat de mai 2026, la France fait partie des États ayant signalé des difficultés pour déployer le nouveau fichier Eurodac <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li></ul>
         </aside>
-        <h2 id="le-calendrier">Le calendrier</h2>
+        <h2 id="le-calendrier"><span class="h2-num">2.</span> Le calendrier</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Le pacte est un ensemble de neuf règlements et d'une directive. Il a été approuvé par le Parlement européen le 10 avril 2024 ; les textes adoptés par le Conseil portent la date du 14 mai 2024. Il s'applique, pour l'essentiel, depuis le 12 juin 2026 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
         </aside>
@@ -102,7 +91,7 @@
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi<span class="precision">état de la procédure</span></span>
           <p>Le projet de loi n° 526, déposé au Sénat le 8 avril 2026, habilite le Gouvernement à prendre par ordonnances les adaptations nécessaires. Il a été adopté par le Sénat le 20 mai 2026, puis rejeté par la commission des lois de l'Assemblée nationale le 22 juillet 2026. À la date de vérification, aucune adoption définitive n'est enregistrée sur le dossier législatif <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup>.</p>
         </aside>
-        <h2 id="ce-qui-change">Ce qui change</h2>
+        <h2 id="ce-qui-change"><span class="h2-num">3.</span> Ce qui change</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Le règlement « filtrage » (UE) 2024/1356 impose une procédure pour les personnes qui franchissent irrégulièrement une frontière extérieure ou sont débarquées après une opération de sauvetage : identification, enregistrement des empreintes et données biométriques dans le fichier Eurodac, contrôle sanitaire et de sécurité, puis orientation vers une demande d'asile ou une procédure de retour <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>. Ce filtrage dure au maximum 7 jours à la frontière (3 jours lorsqu'il a lieu sur le territoire, 10 jours en cas de crise), selon le rapport du Sénat <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
         </aside>
@@ -121,13 +110,13 @@
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Le 12 août 2026, douze organisations ont annoncé un recours contre les textes d'application français du pacte, selon le Gisti <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>. L'issue de ce recours n'est pas connue à la date de vérification.</p>
         </aside>
-        <h2 id="le-debat">Le débat</h2>
+        <h2 id="le-debat"><span class="h2-num">4.</span> Le débat</h2>
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation<span class="precision">lectures divergentes</span></span>
           <p>Pour ses défenseurs, le pacte harmonise les règles, accélère le traitement des demandes ayant peu de chances d'aboutir et répartit mieux la charge entre États. Pour une partie des associations de défense des étrangers, il généralise l'enfermement aux frontières et réduit les garanties des demandeurs. D'autres critiques, à l'inverse, jugent le pacte insuffisant pour réduire l'immigration irrégulière. Ces appréciations portent sur des objectifs différents ; l'effet réel du pacte ne pourra être évalué qu'après plusieurs années.</p>
         </aside>
-        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas"><span class="h2-num">5.</span> Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>Le sort de l'habilitation à légiférer par ordonnances</strong>, rejetée en commission à l'Assemblée nationale et non adoptée définitivement.</li><li><strong>L'issue des recours</strong> engagés contre les textes d'application français.</li><li><strong>Les effets sur les délais et le nombre de demandes d'asile</strong>, qui ne seront mesurables qu'à partir de 2027.</li><li><strong>Le fonctionnement réel du mécanisme de solidarité</strong>, qui dépend des choix des États.</li></ul>
-        <h2 id="sources">Sources</h2>
+        <h2 id="sources"><span class="h2-num">6.</span> Sources</h2>
         <ol class="sources">
           <li id="source-1">Commission européenne, Représentation en France, « La politique migratoire de l'UE : ni passoire, ni forteresse », 10 juin 2026. <a href="https://france.representation.ec.europa.eu/informations-et-evenements/informations/la-politique-migratoire-de-lue-ni-passoire-ni-forteresse-2026-06-10_fr" rel="noopener">france.representation.ec.europa.eu/informations-et-evenements/informations/la-politique-migratoire-de-lue-ni-passoire-ni-forteresse-2026-06-10_fr</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Sénat, commission des affaires européennes, Ronan Le Gleut et Audrey Linkenheld, rapport d'information n° 606 (2025-2026) portant observations sur le projet de loi n° 526, 7 mai 2026. <a href="https://www.senat.fr/rap/r25-606/r25-606_mono.html" rel="noopener">www.senat.fr/rap/r25-606/r25-606_mono.html</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
@@ -137,18 +126,44 @@
           <li id="source-6">Conseil d'État, « [Décryptage] Le Pacte européen sur la migration et l'asile et la justice administrative », 12 juin 2026. <a href="https://conseil-etat.fr/publications-colloques/decryptages/decryptage-le-pacte-europeen-sur-la-migration-et-l-asile-et-la-justice-administrative" rel="noopener">conseil-etat.fr/publications-colloques/decryptages/decryptage-le-pacte-europeen-sur-la-migration-et-l-asile-et-la-justice-administrative</a> <a href="#appel-6" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-7">Source secondaire (association partie au débat) : Gisti, « Tout savoir sur le Nouveau Pacte sur la migration et l'asile », chronologie mise à jour en continu, consultée le 13 octobre 2026. <a href="https://www.gisti.org/article7046" rel="noopener">www.gisti.org/article7046</a> <a href="#appel-7" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2 id="historique">Historique</h2>
+        <h2 id="historique"><span class="h2-num">7.</span> Historique</h2>
         <ul class="historique" id="corrections"><li>8 octobre 2026 : première publication.</li><li>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Le texte français en discussion est un projet de loi d'habilitation à légiférer par ordonnances, rejeté par la commission des lois de l'Assemblée nationale le 22 juillet 2026 ; les dates des décrets, de la circulaire et les chiffres de la réserve de solidarité 2026 ont été précisés, et des sources non vérifiables ont été remplacées.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
-      </div>
-      </div>
     </div>
   </article>
   <section class="section a-lire-aussi">
     <div class="conteneur">
-      <h2>À lire aussi</h2>
-      <div class="portes"><a class="porte c-pouvoirs" href="dossier-immigration-finances-publiques.html"><span class="porte-image"><img src="assets/images/immigration-finances.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Immigration et finances publiques : ce que disent les études</h3><span class="suite">Lire le dossier</span></a><a class="porte c-pouvoirs" href="dossier-assemblee-sans-majorite.html"><span class="porte-image"><img src="assets/images/majorite.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Une Assemblée sans majorité : de la dissolution de 2024 à aujourd'hui</h3><span class="suite">Lire le dossier</span></a><a class="porte c-pouvoirs" href="dossier-verifier-programmes.html"><span class="porte-image"><img src="assets/images/verifier-programmes.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Présidentielle 2027 : comment vérifier un programme économique</h3><span class="suite">Lire le dossier</span></a></div>
-      <p class="retour-rubrique"><a href="politique-institutions.html">Tous les dossiers de la rubrique Politique &amp; Institutions</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+      <div class="titre-section"><h2>À lire aussi</h2><a class="lien-fleche" href="politique-institutions.html">Tous les dossiers Politique &amp; Institutions<svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a></div>
+      <div class="grille-cartes grille-3">
+        <article class="carte c-pouvoirs">
+          <a href="dossier-immigration-finances-publiques.html">
+            <span class="carte-image"><img src="assets/images/immigration-finances.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Politique</span>
+              <h3 class="carte-titre">Immigration et finances publiques : ce que disent les études</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>5 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-pouvoirs">
+          <a href="dossier-assemblee-sans-majorite.html">
+            <span class="carte-image"><img src="assets/images/majorite.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Politique</span>
+              <h3 class="carte-titre">Une Assemblée sans majorité : de la dissolution de 2024 à aujourd'hui</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>5 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-pouvoirs">
+          <a href="dossier-verifier-programmes.html">
+            <span class="carte-image"><img src="assets/images/verifier-programmes.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Politique</span>
+              <h3 class="carte-titre">Présidentielle 2027 : comment vérifier un programme économique</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>3 min</span></span>
+            </span>
+          </a>
+        </article>
+      </div>
     </div>
   </section>
 </main>

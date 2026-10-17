@@ -19,80 +19,69 @@
   <link rel="stylesheet" href="assets/style.css">
   <script>try{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 </head>
-<body>
+<body class="page-article">
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur entete-haut">
-    <form class="recherche-entete" action="dossiers.html" method="get" role="search">
-      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="Rechercher un dossier, un sujet…" aria-label="Rechercher un dossier">
-    </form>
-    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="44" height="44"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-sous">Documents <em>&amp;</em> enquêtes</span></span></a>
-    <div class="actions">
-      <a class="bouton-rond bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
-      <button class="bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><span class="theme-curseur" aria-hidden="true"></span><svg class="theme-lune" viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="currentColor"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
-      <a class="bouton-abonner" href="index.html#lettre">S'abonner</a>
-      <button class="bouton-rond bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <button class="bouton-icone bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <a class="logo" href="./"><img class="logo-img" src="assets/monogramme.png" alt="" width="48" height="48"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="48" height="48"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-devise">Les faits d'abord. L'opinion reste au lecteur.</span></span></a>
+    <div class="entete-droite">
+      <form class="recherche-entete" action="dossiers.html" method="get" role="search">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <input type="search" name="q" placeholder="Rechercher…" aria-label="Rechercher un dossier">
+      </form>
+      <button class="bouton-icone bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><svg class="theme-lune" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+      <a class="bouton-icone bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
     </div>
   </div>
   <nav class="nav" id="menu-principal" aria-label="Navigation principale">
-    <div class="conteneur nav-liens">
-      <a href="./">À la une</a>
-      <a href="politique-institutions.html">Politique</a>
-      <a href="economie-societe.html">Économie &amp; Société</a>
-      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
-      <a href="livres.html">Livres</a>
-      <a href="methode.html">Méthode</a>
+    <div class="conteneur nav-barre">
+      <ul class="nav-liens">
+        <li><a href="./">Accueil</a></li>
+        <li><a href="dossiers.html" aria-current="page">Enquêtes</a></li>
+        <li><a href="livres.html">Monographies</a></li>
+        <li class="nav-deroulant"><details><summary>Rubriques<svg viewBox="0 0 10 6" width="9" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></summary><ul><li><a href="politique-institutions.html">Politique &amp; Institutions</a></li><li><a href="economie-societe.html">Économie &amp; Société</a></li><li><a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a></li></ul></details></li>
+        <li><a href="methode.html">Méthode</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+      </ul>
+      <button class="bouton-theme nav-theme lien-fleche" type="button">Changer l'apparence (clair ou sombre)</button>
+      <a class="bouton-lettre" href="./#lettre">Newsletter</a>
     </div>
   </nav>
 </header>
 
 <main id="contenu">
-  <section class="tete-page tete-dossier c-affaires">
-    <div class="conteneur">
-      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
-      <div class="tete-dossier-grille">
-        <div class="tete-dossier-texte">
-          <p class="surtitre"><span class="or">Dossier</span> · Affaires &amp; Enquêtes</p>
-          <h1>Justice des mineurs : ce qu'a changé le code de 2021</h1>
-          <span class="filet-or" aria-hidden="true"></span>
-          <p class="chapeau">Depuis le 30 septembre 2021, les mineurs sont en principe jugés en deux temps : d'abord sur leur culpabilité, puis, après une période éducative, sur leur sanction. Les délais ont baissé ; les effets sur la récidive ne sont pas encore évalués.</p>
-          <p class="meta-dossier">Lecture : 19 min · Publié le 8 octobre 2026 · 14 sources · Vérifié le 13 octobre 2026</p>
+  <article class="article c-affaires">
+    <header class="article-tete conteneur-article">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a><span aria-hidden="true">›</span><a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a><span aria-hidden="true">›</span><span aria-current="page">La justice des mineurs</span></nav>
+      <p class="article-meta"><a class="article-rubrique" href="affaires-enquetes.html">Affaires &amp; Enquêtes</a><time datetime="2026-10-08">8 oct. 2026</time><span>19 min<span class="mobile-cache"> de lecture</span></span></p>
+      <h1>Justice des mineurs : ce qu'a changé le code de 2021</h1>
+      <p class="article-chapeau">Depuis le 30 septembre 2021, les mineurs sont en principe jugés en deux temps : d'abord sur leur culpabilité, puis, après une période éducative, sur leur sanction. Les délais ont baissé ; les effets sur la récidive ne sont pas encore évalués.</p>
+      <div class="article-signature">
+        <span class="avatar" aria-hidden="true"><img class="logo-img" src="assets/monogramme.png" alt="" width="40" height="40"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="40" height="40"></span>
+        <p><strong>Par Le Petit Monographe</strong><span>Mis à jour : 13 octobre 2026 · Données arrêtées au 8 octobre 2026 · 14 sources</span></p>
+        <div class="article-outils">
+          <button type="button" class="bouton-icone" data-action="imprimer" aria-label="Imprimer ou enregistrer en PDF" title="Imprimer ou enregistrer en PDF"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="copier" aria-label="Copier le lien du dossier" title="Copier le lien"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3.5-3.5a4 4 0 0 0-5.7-5.7l-1.2 1.2M14 10a4 4 0 0 0-5.7 0l-3.5 3.5a4 4 0 0 0 5.7 5.7l1.2-1.2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="partager" aria-label="Partager ce dossier" title="Partager"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.5"/></svg></button>
         </div>
-        <figure class="tete-dossier-image"><img src="assets/images/justice-mineurs.jpg" alt="Salle d&#x27;audience du palais de justice de Briançon" loading="eager"><figcaption>Photo : <a href="https://commons.wikimedia.org/wiki/File:Salle_d%27audience_Palais_de_justice_de_Brian%C3%A7on_(septembre_2024).JPG" target="_blank" rel="noopener">Florian Pépellin, CC BY-SA 4.0, recadrée, Wikimedia Commons</a></figcaption></figure>
       </div>
-      <ul class="garanties"><li class="garantie garantie-verifie"><strong>Faits vérifiés</strong><span>Chiffres, dates et décisions relus sur les sources le 13 octobre 2026.</span></li><li class="garantie garantie-sources"><strong>Sources citées</strong><span>14 documents identifiés, avec leur lien.</span></li><li class="garantie garantie-independant"><strong>Analyse indépendante</strong><span>Aucune affiliation partisane ; arguments contraires présentés.</span></li><li class="garantie garantie-maj"><strong>Données arrêtées</strong><span>Au 8 octobre 2026.</span></li></ul>
-    </div>
-  </section>
-
-  <article class="section dossier">
-    <div class="conteneur">
-      <nav class="puces-dossier" aria-label="Accès rapide"><a href="#synthese">Synthèse</a><a href="#chronologie">Chronologie</a><a href="#sources">Sources</a><a href="#corrections">Corrections</a></nav>
-      <div class="dossier-grille">
-        <aside class="dossier-cote"><details class="sommaire" open>
-          <summary>Dans ce dossier</summary>
-          <ol><li><a href="#d-ou-vient-la-justice-des-mineurs">D'où vient la justice des mineurs</a></li><li><a href="#ce-que-prevoit-le-code">Ce que prévoit le code</a></li><li><a href="#les-delais">Les délais</a></li><li><a href="#les-mineurs-mis-en-cause-ce-que-disent-les-chiffres">Les mineurs mis en cause : ce que disent les chiffres</a></li><li><a href="#detention-et-placement">Détention et placement</a></li><li><a href="#ce-qui-n-est-pas-evalue">Ce qui n'est pas évalué</a></li><li><a href="#la-loi-du-23-juin-2025">La loi du 23 juin 2025</a></li><li><a href="#le-debat">Le débat</a></li><li><a href="#les-pistes-discutees">Les pistes discutées</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
-        </details>
-        <div class="cote-actions">
-          <button type="button" class="bouton-cote" data-action="imprimer"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Enregistrer en PDF<small>ou imprimer le dossier</small></span></button>
-          <button type="button" class="bouton-cote" data-action="partager"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.6"/></svg><span>Partager ce dossier</span></button>
-        </div>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Nos sources (14)</h2><a href="#sources">Voir toutes les sources</a></div>
-          <ol class="cote-sources"><li>Ministère de la Justice, « Code de la justice pénale des mineurs : un bilan positif deux ans après son applica…</li><li>Ministère de la Justice, direction de la protection judiciaire de la jeunesse, fiche technique « La procédure …</li><li>Cour des comptes, « Les jeunes et la justice pénale », rapport public annuel 2025, mars 2025.</li><li>Ministère de la Justice, SSER, Références statistiques Justice, édition 2025 (données 2024), chapitre 11.3 « L…</li></ol>
-        </section>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Corrections</h2><a href="contact.html">Signaler une erreur</a></div>
-          <p>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. La proposition de loi présentée comme en cours est devenue la loi du 23 juin 2025, dont le Conseil constitutionnel a censuré la comparution …</p>
-        </section></aside>
-        <div class="prose">
-
-        <aside class="essentiel" id="synthese">
-          <p class="surtitre">Synthèse</p>
+      <figure class="article-image">
+        <img src="assets/images/justice-mineurs.jpg" alt="Salle d&#x27;audience du palais de justice de Briançon" width="1200" height="600" loading="eager">
+        <figcaption>Salle d&#x27;audience du palais de justice de Briançon. Photo : <a href="https://commons.wikimedia.org/wiki/File:Salle_d%27audience_Palais_de_justice_de_Brian%C3%A7on_(septembre_2024).JPG" target="_blank" rel="noopener">Florian Pépellin, CC BY-SA 4.0, recadrée, Wikimedia Commons</a></figcaption>
+      </figure>
+    </header>
+    <div class="conteneur-article article-corps prose">
+        <nav class="sommaire" aria-labelledby="sommaire-titre">
+          <p class="sommaire-titre" id="sommaire-titre"><svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>Sommaire</p>
+          <ol style="--lignes:7"><li><a href="#en-resume">En résumé</a></li><li><a href="#d-ou-vient-la-justice-des-mineurs">D'où vient la justice des mineurs</a></li><li><a href="#ce-que-prevoit-le-code">Ce que prévoit le code</a></li><li><a href="#les-delais">Les délais</a></li><li><a href="#les-mineurs-mis-en-cause-ce-que-disent-les-chiffres">Les mineurs mis en cause : ce que disent les chiffres</a></li><li><a href="#detention-et-placement">Détention et placement</a></li><li><a href="#ce-qui-n-est-pas-evalue">Ce qui n'est pas évalué</a></li><li><a href="#la-loi-du-23-juin-2025">La loi du 23 juin 2025</a></li><li><a href="#le-debat">Le débat</a></li><li><a href="#les-pistes-discutees">Les pistes discutées</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </nav>
+        <aside class="en-resume" id="en-resume">
+          <h2 class="en-resume-titre">En résumé</h2>
           <ul><li>Le code de la justice pénale des mineurs est entré en vigueur le 30 septembre 2021 ; il a remplacé l'ordonnance du 2 février 1945 tout en reprenant ses principes, dont la primauté de l'éducatif <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-13" id="appel-13">13</a></sup>.</li><li>Il prévoit en principe une audience sur la culpabilité, puis une audience sur la sanction six à neuf mois plus tard, après une mise à l'épreuve éducative <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Selon la Cour des comptes, le délai moyen de jugement des mineurs est passé de 23 mois après les faits en septembre 2021 à 9,4 mois en septembre 2023 ; selon une autre mesure du ministère, il s'écoulait 17 mois entre l'arrivée au parquet et la condamnation en 2018 et 2019, contre 12,1 mois en 2024 <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup><sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>.</li><li>Le nombre de mineurs mis en cause a baissé de 20 % entre 2016 et 2024, mais celui des mineurs mis en cause pour violences sexuelles ou pour homicide a nettement augmenté <sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>.</li><li>Les effets de la réforme sur la récidive et sur le suivi éducatif ne sont pas encore évalués <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup><sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>.</li><li>La loi du 23 juin 2025 sur la justice des mineurs a été promulguée après la censure de plusieurs articles par le Conseil constitutionnel ; depuis le 1er septembre 2026, les centres éducatifs fermés publics sont remplacés par des « unités judiciaires à priorité éducative » <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup><sup class="appel"><a href="#source-8" id="appel-8">8</a></sup><sup class="appel"><a href="#source-14" id="appel-14">14</a></sup>.</li></ul>
         </aside>
-        <h2 id="d-ou-vient-la-justice-des-mineurs">D'où vient la justice des mineurs</h2>
+        <h2 id="d-ou-vient-la-justice-des-mineurs"><span class="h2-num">2.</span> D'où vient la justice des mineurs</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Le traitement pénal distinct des mineurs est ancien. Selon le Défenseur des droits, les codes pénaux de 1791 et 1810 fixaient la majorité pénale à 16 ans ; la loi du 12 avril 1906 l'a portée à 18 ans. L'ordonnance du 2 février 1945 relative à l'enfance délinquante a affirmé la primauté de l'éducatif sur le répressif, l'atténuation de la responsabilité pénale selon l'âge et la création de juridictions spécialisées : juge des enfants, tribunal pour enfants, cour d'assises des mineurs <sup class="appel"><a href="#source-13" id="appel-13">13</a></sup>.</p>
         </aside>
@@ -102,7 +91,7 @@
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Le code de la justice pénale des mineurs, en vigueur depuis le 30 septembre 2021, remplace l'ordonnance de 1945, dont il reprend l'ensemble des spécificités selon le Défenseur des droits <sup class="appel"><a href="#source-13" id="appel-13">13</a></sup>. Il a réduit les mesures éducatives à deux : l'avertissement judiciaire et la mesure éducative judiciaire, à laquelle peuvent s'ajouter des modules (insertion, réparation, santé, placement, interdictions) <sup class="appel"><a href="#source-13" id="appel-13">13</a></sup>.</p>
         </aside>
-        <h2 id="ce-que-prevoit-le-code">Ce que prévoit le code</h2>
+        <h2 id="ce-que-prevoit-le-code"><span class="h2-num">3.</span> Ce que prévoit le code</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Le juge des enfants ou le tribunal pour enfants statue en principe selon la procédure de mise à l'épreuve éducative : une audience d'examen de la culpabilité, une période de mise à l'épreuve éducative, puis une audience de prononcé de la sanction, fixée entre six et neuf mois après l'audience sur la culpabilité <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>. Selon le ministère de la Justice, l'audience sur la culpabilité doit se tenir dans un délai de trois mois au plus <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>. La juridiction peut, sous conditions, statuer en une audience unique sur la culpabilité et la sanction <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
         </aside>
@@ -115,7 +104,7 @@
         <aside class="encadre"><span class="etiquette etiquette-note">À noter</span>
           <p>La mise à l'épreuve éducative est la période entre la déclaration de culpabilité et la sanction, pendant laquelle le mineur fait l'objet d'un suivi. L'audience unique juge culpabilité et sanction en une seule fois. L'« excuse de minorité », expression courante mais impropre selon le Défenseur des droits, désigne l'atténuation de la responsabilité pénale selon l'âge <sup class="appel"><a href="#source-13" id="appel-13">13</a></sup>. La protection judiciaire de la jeunesse (PJJ) est la direction du ministère de la Justice chargée de mettre en œuvre les mesures éducatives. Un mineur « mis en cause » est un mineur soupçonné dans une affaire élucidée par la police ou la gendarmerie : ce n'est ni une poursuite ni une condamnation.</p>
         </aside>
-        <h2 id="les-delais">Les délais</h2>
+        <h2 id="les-delais"><span class="h2-num">4.</span> Les délais</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Selon le bilan du ministère de la Justice publié le 13 octobre 2023, le délai moyen entre les poursuites et le jugement atteignait 15 mois en 2019 et près de 18 mois en 2020 ; au 30 juin 2023, le délai entre les poursuites et le jugement prononçant la sanction était de 9,1 mois <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
@@ -140,7 +129,7 @@
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation</span>
           <p>L'Inspection générale de la justice juge la réduction des délais « acquise et pérenne », tout en signalant qu'une « nouvelle dégradation est perceptible » dans certaines juridictions de grande taille ou très chargées <sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>. La légère hausse du délai avec audience sur la sanction entre 2023 et 2024 (de 10,7 à 11,6 mois) va dans ce sens, sans suffire à établir une tendance <sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>.</p>
         </aside>
-        <h2 id="les-mineurs-mis-en-cause-ce-que-disent-les-chiffres">Les mineurs mis en cause : ce que disent les chiffres</h2>
+        <h2 id="les-mineurs-mis-en-cause-ce-que-disent-les-chiffres"><span class="h2-num">5.</span> Les mineurs mis en cause : ce que disent les chiffres</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Selon les statistiques du ministère de l'Intérieur citées par l'Inspection générale de la justice, 165 638 mineurs ont été mis en cause en 2016, contre 131 572 en 2024, soit une baisse de 20 % (données 2024 provisoires, France hors collectivités d'outre-mer) <sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>. Le nombre de mineurs dans les affaires traitées par les parquets a lui aussi baissé de 20 % entre 2019 et 2023 <sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>.</p>
         </aside>
@@ -162,7 +151,7 @@
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>L'Inspection constate plus largement « l'insuffisance des données statistiques concernant la délinquance des mineurs », les chiffres du ministère de l'Intérieur et ceux du ministère de la Justice n'étant « toujours pas corrélés » en 2025 <sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>.</p>
         </aside>
-        <h2 id="detention-et-placement">Détention et placement</h2>
+        <h2 id="detention-et-placement"><span class="h2-num">6.</span> Détention et placement</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Selon l'évaluation du code citée par l'Inspection générale de la justice, la part des mineurs en détention provisoire parmi l'ensemble des mineurs détenus est passée de plus de 80 % en 2019 à 61 % en 2022, et la durée moyenne de détention provisoire de 2,4 mois en 2019 à 0,9 mois en 2022 <sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>. Le nombre de mineurs de moins de 16 ans détenus est passé de 76 au 1er janvier 2015 à 88 au 1er janvier 2025, contre 56 en 2022 <sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>.</p>
         </aside>
@@ -180,18 +169,18 @@
         </aside>
         <figure class="graphique graphique-frise" id="chronologie">
           <figcaption class="graphique-tete"><span class="graphique-num">Chronologie 01</span><span class="graphique-titre">Repères de la justice des mineurs</span></figcaption>
-          <ol class="frise"><li><span class="frise-date">12 avril 1906</span><span class="frise-texte">La majorité pénale est fixée à 18 ans <sup class="appel"><a href="#source-13" id="appel-13">13</a></sup>.<span class="frise-statut">Fait établi</span></span></li><li><span class="frise-date">2 février 1945</span><span class="frise-texte">Ordonnance relative à l'enfance délinquante <sup class="appel"><a href="#source-13" id="appel-13">13</a></sup>.<span class="frise-statut">Fait établi</span></span></li><li><span class="frise-date">30 septembre 2021</span><span class="frise-texte">Entrée en vigueur du code de la justice pénale des mineurs <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.<span class="frise-statut">Fait établi</span></span></li><li><span class="frise-date">13 octobre 2023</span><span class="frise-texte">Bilan du ministère : délai de 9,1 mois jusqu'à la sanction au 30 juin 2023 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.<span class="frise-statut">Fait établi</span></span></li><li><span class="frise-date">19 juin 2025</span><span class="frise-texte">Le Conseil constitutionnel censure plusieurs articles de la loi sur les mineurs <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.<span class="frise-statut">Fait établi</span></span></li><li><span class="frise-date">23 juin 2025</span><span class="frise-texte">Promulgation de la loi n° 2025-568 <sup class="appel"><a href="#source-8" id="appel-8">8</a></sup>.<span class="frise-statut">Fait établi</span></span></li><li><span class="frise-date">26 novembre 2025</span><span class="frise-texte">Annonce de la fin des centres éducatifs fermés <sup class="appel"><a href="#source-9" id="appel-9">9</a></sup><sup class="appel"><a href="#source-14" id="appel-14">14</a></sup>.<span class="frise-statut">Fait établi</span></span></li><li><span class="frise-date">1er septembre 2026</span><span class="frise-texte">Ouverture de 85 unités judiciaires à priorité éducative <sup class="appel"><a href="#source-14" id="appel-14">14</a></sup>.<span class="frise-statut">Fait établi</span></span></li></ol>
+          <ol class="frise"><li><span class="frise-date">12 avril 1906</span><span class="frise-texte">La majorité pénale est fixée à 18 ans <sup class="appel"><a href="#source-13" id="appel-13">13</a></sup>.</span><span class="frise-statut fait-etabli">Fait établi</span></li><li><span class="frise-date">2 février 1945</span><span class="frise-texte">Ordonnance relative à l'enfance délinquante <sup class="appel"><a href="#source-13" id="appel-13">13</a></sup>.</span><span class="frise-statut fait-etabli">Fait établi</span></li><li><span class="frise-date">30 septembre 2021</span><span class="frise-texte">Entrée en vigueur du code de la justice pénale des mineurs <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</span><span class="frise-statut fait-etabli">Fait établi</span></li><li><span class="frise-date">13 octobre 2023</span><span class="frise-texte">Bilan du ministère : délai de 9,1 mois jusqu'à la sanction au 30 juin 2023 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</span><span class="frise-statut fait-etabli">Fait établi</span></li><li><span class="frise-date">19 juin 2025</span><span class="frise-texte">Le Conseil constitutionnel censure plusieurs articles de la loi sur les mineurs <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.</span><span class="frise-statut fait-etabli">Fait établi</span></li><li><span class="frise-date">23 juin 2025</span><span class="frise-texte">Promulgation de la loi n° 2025-568 <sup class="appel"><a href="#source-8" id="appel-8">8</a></sup>.</span><span class="frise-statut fait-etabli">Fait établi</span></li><li><span class="frise-date">26 novembre 2025</span><span class="frise-texte">Annonce de la fin des centres éducatifs fermés <sup class="appel"><a href="#source-9" id="appel-9">9</a></sup><sup class="appel"><a href="#source-14" id="appel-14">14</a></sup>.</span><span class="frise-statut fait-etabli">Fait établi</span></li><li><span class="frise-date">1er septembre 2026</span><span class="frise-texte">Ouverture de 85 unités judiciaires à priorité éducative <sup class="appel"><a href="#source-14" id="appel-14">14</a></sup>.</span><span class="frise-statut fait-etabli">Fait établi</span></li></ol>
           <div class="graphique-pied"><p><strong>Source :</strong> Défenseur des droits, ministère de la Justice, Conseil constitutionnel ; voir les sources du dossier</p></div>
           
         </figure>
-        <h2 id="ce-qui-n-est-pas-evalue">Ce qui n'est pas évalué</h2>
+        <h2 id="ce-qui-n-est-pas-evalue"><span class="h2-num">7.</span> Ce qui n'est pas évalué</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Selon l'avis de la commission des lois du Sénat sur le budget 2025 de la protection judiciaire de la jeunesse (21 novembre 2024), les effets du code sur l'action de la PJJ restent « mal appréhendés » ; le ministère a indiqué qu'il lancerait en 2025 une évaluation des effets du code en milieu ouvert <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup>. Nous n'avons pas trouvé de publication de cette évaluation.</p>
         </aside>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>L'Inspection générale de la justice estime en juillet 2025 que le code « n'a pas encore permis l'expression de toutes ses potentialités » et qu'il convient de « laisser le temps » à la réforme de « parvenir à maturité » <sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>. Elle relève aussi que les aménagements de peine sont rarement prononcés pour les mineurs, magistrats et éducateurs y étant selon l'évaluation du code peu formés, et que les jeunes majeurs représentaient 39,2 % des jeunes suivis au pénal par la PJJ au premier trimestre 2023 <sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>.</p>
         </aside>
-        <h2 id="la-loi-du-23-juin-2025">La loi du 23 juin 2025</h2>
+        <h2 id="la-loi-du-23-juin-2025"><span class="h2-num">8.</span> La loi du 23 juin 2025</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>La proposition de loi visant à renforcer l'autorité de la justice à l'égard des mineurs délinquants et de leurs parents, examinée au Sénat en mars 2025 <sup class="appel"><a href="#source-10" id="appel-10">10</a></sup>, est devenue la loi n° 2025-568 du 23 juin 2025, publiée au Journal officiel du 24 juin 2025 <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup><sup class="appel"><a href="#source-8" id="appel-8">8</a></sup>.</p>
         </aside>
@@ -201,7 +190,7 @@
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Parmi les mesures maintenues, la loi a ajouté aux alternatives aux poursuites une interdiction faite au mineur d'aller et venir sans être accompagné, jugée conforme à la Constitution, selon l'Inspection générale de la justice <sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>.</p>
         </aside>
-        <h2 id="le-debat">Le débat</h2>
+        <h2 id="le-debat"><span class="h2-num">9.</span> Le débat</h2>
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation<span class="precision">lectures divergentes</span></span>
           <p>Pour le ministère de la Justice, la réforme de 2021 a rendu la justice des mineurs plus rapide sans renoncer à la priorité éducative <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>. Les auteurs de la loi de 2025 la jugeaient insuffisamment ferme et proposaient notamment une comparution immédiate pour les mineurs, censurée par le Conseil constitutionnel <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup><sup class="appel"><a href="#source-10" id="appel-10">10</a></sup>. Avant l'entrée en vigueur du code, l'Observatoire international des prisons estimait en 2019 que les délais prévus étaient irréalistes sans moyens supplémentaires et que l'accélération se ferait au détriment du travail éducatif <sup class="appel"><a href="#source-11" id="appel-11">11</a></sup>. Aucune évaluation publiée ne permet à ce jour de trancher entre ces positions.</p>
         </aside>
@@ -211,7 +200,7 @@
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation</span>
           <p>Le débat oppose moins des chiffres que des priorités : la rapidité et la fermeté de la réponse d'un côté, la spécificité éducative de l'autre. Les deux camps s'appuient sur des données incomplètes, comme le relèvent l'Inspection et le Sénat <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup><sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>.</p>
         </aside>
-        <h2 id="les-pistes-discutees">Les pistes discutées</h2>
+        <h2 id="les-pistes-discutees"><span class="h2-num">10.</span> Les pistes discutées</h2>
         <aside class="encadre"><span class="etiquette statut statut-proposition">Proposition</span>
           <p>Inscrire dans la loi l'irresponsabilité pénale des mineurs de moins de 13 ans, sans exception possible : c'est la première recommandation du Défenseur des droits en novembre 2025 <sup class="appel"><a href="#source-13" id="appel-13">13</a></sup>. Ses opposants n'ont pas été identifiés dans les documents consultés ; les rapporteurs de l'Assemblée nationale préféraient évaluer d'abord la présomption simple <sup class="appel"><a href="#source-13" id="appel-13">13</a></sup>.</p>
         </aside>
@@ -224,9 +213,9 @@
         <aside class="encadre"><span class="etiquette statut statut-proposition">Proposition</span>
           <p>Créer un code de l'enfance rassemblant les dispositions civiles et pénales concernant les enfants : le Défenseur des droits regrette que la réforme de 2021 n'en ait pas été l'occasion <sup class="appel"><a href="#source-13" id="appel-13">13</a></sup>.</p>
         </aside>
-        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas"><span class="h2-num">11.</span> Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>L'effet de la réforme sur la récidive</strong>, qui demande un recul de plusieurs années.</li><li><strong>Les délais jusqu'à la sanction en 2024 et 2025</strong> selon la mesure du bilan de 2023, pour lesquels nous n'avons pas trouvé de bilan publié comparable ; seule une mesure jusqu'à la condamnation est disponible pour 2024 <sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>.</li><li><strong>Les résultats de l'évaluation du code en milieu ouvert</strong> annoncée pour 2025.</li><li><strong>Le nombre de décisions ayant écarté la présomption de non-discernement</strong> avant 13 ans, dont les rapporteurs de l'Assemblée demandaient le suivi <sup class="appel"><a href="#source-13" id="appel-13">13</a></sup>.</li><li><strong>Le rajeunissement des auteurs d'actes violents</strong>, que les statistiques disponibles ne permettent pas de mesurer <sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>.</li><li><strong>Le nombre exact de centres éducatifs fermés associatifs</strong> à transformer (38 ou 39 selon les sources) <sup class="appel"><a href="#source-9" id="appel-9">9</a></sup><sup class="appel"><a href="#source-14" id="appel-14">14</a></sup>.</li></ul>
-        <h2 id="sources">Sources</h2>
+        <h2 id="sources"><span class="h2-num">12.</span> Sources</h2>
         <ol class="sources">
           <li id="source-1">Ministère de la Justice, « Code de la justice pénale des mineurs : un bilan positif deux ans après son application », 13 octobre 2023. <a href="https://www.justice.gouv.fr/actualites/espace-presse/code-justice-penale-mineurs-bilan-positif-deux-ans-apres-son-application" rel="noopener">www.justice.gouv.fr/actualites/espace-presse/code-justice-penale-mineurs-bilan-positif-deux-ans-apres-son-application</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Ministère de la Justice, direction de la protection judiciaire de la jeunesse, fiche technique « La procédure de mise à l'épreuve éducative (1) : l'audience d'examen de la culpabilité », 30 juin 2021. <a href="https://www.justice.gouv.fr/sites/default/files/migrations/portail/art_pix/cjpm_ft_pmaee_1_audience_culpa.pdf" rel="noopener">www.justice.gouv.fr/sites/default/files/migrations/portail/art_pix/cjpm_ft_pmaee_1_audience_culpa.pdf</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
@@ -243,18 +232,44 @@
           <li id="source-13">Défenseur des droits, « Rapport Enfant 2025 : le droit des enfants à une justice adaptée », novembre 2025 (publié sur vie-publique.fr). <a href="https://www.vie-publique.fr/files/rapport/pdf/300994.pdf" rel="noopener">www.vie-publique.fr/files/rapport/pdf/300994.pdf</a> <a href="#appel-13" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-14">Ministère de la Justice, communiqué de presse « Justice des mineurs : la réforme des centres éducatifs fermés annoncée par Gérald Darmanin se concrétise avec l'ouverture de 85 premières UJPE », 1er septembre 2026. <a href="https://www.justice.gouv.fr/sites/default/files/2026-09/CP%20-%20Justice%20des%20mineurs_creation%20des%20UJPE-%2001.09.2026.pdf" rel="noopener">www.justice.gouv.fr/sites/default/files/2026-09/CP%20-%20Justice%20des%20mineurs_creation%20des%20UJPE-%2001.09.2026.pdf</a> <a href="#appel-14" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2 id="historique">Historique</h2>
+        <h2 id="historique"><span class="h2-num">13.</span> Historique</h2>
         <ul class="historique" id="corrections"><li>8 octobre 2026 : première publication.</li><li>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. La proposition de loi présentée comme en cours est devenue la loi du 23 juin 2025, dont le Conseil constitutionnel a censuré la comparution immédiate des mineurs ; l'analyse de l'OIP, datée de 2019, portait sur le projet de réforme et non sur ses effets ; les dates de la Cour des comptes (septembre 2021 et septembre 2023) et les délais légaux sont précisés ; les délais 2024 et le remplacement des centres éducatifs fermés sont ajoutés. Le 16 octobre 2026, le dossier a été approfondi : repères historiques et principes constitutionnels, discernement et atténuation de la peine, délais jusqu'en 2024 selon l'Inspection générale de la justice, évolution des mineurs mis en cause, détention provisoire, ouverture des unités judiciaires à priorité éducative le 1er septembre 2026, débats et pistes, avec trois graphiques et trois sources nouvelles.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
-      </div>
-      </div>
     </div>
   </article>
   <section class="section a-lire-aussi">
     <div class="conteneur">
-      <h2>À lire aussi</h2>
-      <div class="portes"><a class="porte c-affaires" href="dossier-outreau.html"><span class="porte-image"><img src="assets/images/outreau.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Outreau : comment une erreur judiciaire collective s'est produite</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-troadec.html"><span class="porte-image"><img src="assets/images/troadec.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Affaire Troadec : ce que le procès a tranché</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-flactif.html"><span class="porte-image"><img src="assets/images/flactif.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Affaire Flactif : ce que la justice a établi</h3><span class="suite">Lire le dossier</span></a></div>
-      <p class="retour-rubrique"><a href="affaires-enquetes.html">Tous les dossiers de la rubrique Affaires &amp; Enquêtes</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+      <div class="titre-section"><h2>À lire aussi</h2><a class="lien-fleche" href="affaires-enquetes.html">Tous les dossiers Affaires &amp; Enquêtes<svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a></div>
+      <div class="grille-cartes grille-3">
+        <article class="carte c-affaires">
+          <a href="dossier-outreau.html">
+            <span class="carte-image"><img src="assets/images/outreau.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Affaires &amp; Enquêtes</span>
+              <h3 class="carte-titre">Outreau : comment une erreur judiciaire collective s'est produite</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>16 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-affaires">
+          <a href="dossier-troadec.html">
+            <span class="carte-image"><img src="assets/images/troadec.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Affaires &amp; Enquêtes</span>
+              <h3 class="carte-titre">Affaire Troadec : ce que le procès a tranché</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>14 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-affaires">
+          <a href="dossier-flactif.html">
+            <span class="carte-image"><img src="assets/images/flactif.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Affaires &amp; Enquêtes</span>
+              <h3 class="carte-titre">Affaire Flactif : ce que la justice a établi</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>12 min</span></span>
+            </span>
+          </a>
+        </article>
+      </div>
     </div>
   </section>
 </main>

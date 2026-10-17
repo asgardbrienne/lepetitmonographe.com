@@ -38,3 +38,4 @@ Chaque photo est utilisée selon sa licence, vérifiée sur sa page d'origine le
 | 33-financement-campagnes | assets/images/financement-campagnes.jpg | Agence de presse Meurisse (Gallica, BnF), domaine public, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Int%C3%A9rieur_d%27un_bureau_de_vote_-_les_isoloirs_-_btv1b9033130j.jpg |
 | 34-ia-ecole | assets/images/ia-ecole.jpg | -Marlith-, CC BY 2.0, recadrée, Flickr | https://www.flickr.com/photos/22419112@N08/2533256880 |
 | dossier-chomage-emploi | assets/images/dossier-chomage-emploi.jpg | amtec_photos, CC BY-SA 2.0, recadrée, Flickr | https://www.flickr.com/photos/141761303@N08/38674829622 |
+| page-methode | assets/images/methode.jpg | Stefan Drößler, CC BY 4.0, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Biblioth%C3%A8que_nationale_de_France_Salle_Labrouste_Vo%C3%BBte.jpg |

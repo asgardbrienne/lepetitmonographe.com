@@ -19,8 +19,7 @@
   }
 
   // Apparence claire ou sombre, mémorisée sur cet appareil
-  var theme = document.querySelector('.bouton-theme');
-  if (theme) {
+  Array.prototype.forEach.call(document.querySelectorAll('.bouton-theme'), function (theme) {
     theme.addEventListener('click', function () {
       var racine = document.documentElement;
       var sombre = racine.getAttribute('data-theme') === 'dark' ||
@@ -29,37 +28,70 @@
       racine.setAttribute('data-theme', nouveau);
       try { localStorage.setItem('lpm-theme', nouveau); } catch (e) {}
     });
+  });
+
+  // Rubriques : le menu déroulant se ferme au clic extérieur et avec Échap
+  var deroulants = document.querySelectorAll('.nav-deroulant details');
+  document.addEventListener('click', function (e) {
+    Array.prototype.forEach.call(deroulants, function (d) { if (!d.contains(e.target)) d.removeAttribute('open'); });
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') Array.prototype.forEach.call(deroulants, function (d) { d.removeAttribute('open'); });
+  });
+
+  // Accueil : enquêtes à la une (défilement manuel, sans lecture automatique)
+  var diapos = document.getElementById('une-diapos');
+  if (diapos) {
+    var points = Array.prototype.slice.call(document.querySelectorAll('.une-point'));
+    points.forEach(function (p) {
+      p.addEventListener('click', function () {
+        var cible = document.getElementById(p.getAttribute('data-cible'));
+        diapos.scrollTo({ left: cible.offsetLeft, behavior: 'smooth' });
+      });
+    });
+    var majPoints = function () {
+      var n = Math.round(diapos.scrollLeft / diapos.clientWidth);
+      points.forEach(function (p, i) { if (i === n) p.setAttribute('aria-current', 'true'); else p.removeAttribute('aria-current'); });
+    };
+    diapos.addEventListener('scroll', function () { window.requestAnimationFrame(majPoints); }, { passive: true });
   }
+
+  // Rubriques : tri de la liste
+  Array.prototype.forEach.call(document.querySelectorAll('[data-tri]'), function (sel) {
+    var liste = document.getElementById(sel.getAttribute('data-tri'));
+    sel.addEventListener('change', function () {
+      var cle = sel.value;
+      var items = Array.prototype.slice.call(liste.children);
+      items.sort(function (a, b) {
+        if (cle === 'titre') return a.getAttribute('data-titre').localeCompare(b.getAttribute('data-titre'), 'fr');
+        if (cle === 'min') return (+a.getAttribute('data-min')) - (+b.getAttribute('data-min'));
+        return (+a.getAttribute('data-ordre')) - (+b.getAttribute('data-ordre'));
+      });
+      items.forEach(function (i) { liste.appendChild(i); });
+    });
+  });
 
   // Dossier : enregistrer en PDF (impression) et partager
   Array.prototype.forEach.call(document.querySelectorAll('[data-action]'), function (b) {
     b.addEventListener('click', function () {
       if (b.getAttribute('data-action') === 'imprimer') { window.print(); return; }
       var url = window.location.href.split('#')[0];
+      if (b.getAttribute('data-action') === 'copier') {
+        if (navigator.clipboard) navigator.clipboard.writeText(url).then(function () {
+          b.classList.add('copie'); b.setAttribute('aria-label', 'Lien copié');
+          setTimeout(function () { b.classList.remove('copie'); b.setAttribute('aria-label', 'Copier le lien du dossier'); }, 2000);
+        });
+        return;
+      }
       if (navigator.share) { navigator.share({ title: document.title, url: url }).catch(function () {}); return; }
       if (navigator.clipboard) {
         navigator.clipboard.writeText(url).then(function () {
-          var t = b.querySelector('span'); var avant = t.innerHTML; t.textContent = 'Lien copié';
-          setTimeout(function () { t.innerHTML = avant; }, 2000);
+          b.classList.add('copie');
+          setTimeout(function () { b.classList.remove('copie'); }, 2000);
         });
       }
     });
   });
-
-  // Filtres « À la une » sur l'accueil
-  var puces = Array.prototype.slice.call(document.querySelectorAll('.puce'));
-  var une = document.getElementById('cartes-une');
-  if (puces.length && une) {
-    puces.forEach(function (p) {
-      p.addEventListener('click', function () {
-        var r = p.getAttribute('data-puce');
-        puces.forEach(function (q) { q.setAttribute('aria-pressed', String(q === p)); });
-        Array.prototype.forEach.call(une.querySelectorAll('.porte'), function (c) {
-          c.hidden = r !== 'tous' && c.getAttribute('data-rubrique') !== r;
-        });
-      });
-    });
-  }
 
   var haut = document.querySelector('.haut-de-page');
   if (haut) {
@@ -68,14 +100,11 @@
     maj();
   }
 
-  // Sommaire : fermé par défaut sur petit écran
-  var sommaire = document.querySelector('.sommaire');
-  if (sommaire && window.matchMedia('(max-width: 1039px)').matches) sommaire.removeAttribute('open');
 
   var champ = document.getElementById('champ-recherche');
   var liste = document.getElementById('liste-dossiers');
   if (!champ || !liste) return;
-  var cartes = Array.prototype.slice.call(liste.querySelectorAll('.porte'));
+  var cartes = Array.prototype.slice.call(liste.querySelectorAll('[data-texte]'));
   var filtres = Array.prototype.slice.call(document.querySelectorAll('.filtre'));
   var compteur = document.getElementById('nb-resultats');
   var vide = document.getElementById('aucun-resultat');

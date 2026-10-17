@@ -19,87 +19,76 @@
   <link rel="stylesheet" href="assets/style.css">
   <script>try{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 </head>
-<body>
+<body class="page-article">
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur entete-haut">
-    <form class="recherche-entete" action="dossiers.html" method="get" role="search">
-      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="Rechercher un dossier, un sujet…" aria-label="Rechercher un dossier">
-    </form>
-    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="44" height="44"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-sous">Documents <em>&amp;</em> enquêtes</span></span></a>
-    <div class="actions">
-      <a class="bouton-rond bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
-      <button class="bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><span class="theme-curseur" aria-hidden="true"></span><svg class="theme-lune" viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="currentColor"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
-      <a class="bouton-abonner" href="index.html#lettre">S'abonner</a>
-      <button class="bouton-rond bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <button class="bouton-icone bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <a class="logo" href="./"><img class="logo-img" src="assets/monogramme.png" alt="" width="48" height="48"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="48" height="48"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-devise">Les faits d'abord. L'opinion reste au lecteur.</span></span></a>
+    <div class="entete-droite">
+      <form class="recherche-entete" action="dossiers.html" method="get" role="search">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <input type="search" name="q" placeholder="Rechercher…" aria-label="Rechercher un dossier">
+      </form>
+      <button class="bouton-icone bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><svg class="theme-lune" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+      <a class="bouton-icone bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
     </div>
   </div>
   <nav class="nav" id="menu-principal" aria-label="Navigation principale">
-    <div class="conteneur nav-liens">
-      <a href="./">À la une</a>
-      <a href="politique-institutions.html">Politique</a>
-      <a href="economie-societe.html">Économie &amp; Société</a>
-      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
-      <a href="livres.html">Livres</a>
-      <a href="methode.html">Méthode</a>
+    <div class="conteneur nav-barre">
+      <ul class="nav-liens">
+        <li><a href="./">Accueil</a></li>
+        <li><a href="dossiers.html" aria-current="page">Enquêtes</a></li>
+        <li><a href="livres.html">Monographies</a></li>
+        <li class="nav-deroulant"><details><summary>Rubriques<svg viewBox="0 0 10 6" width="9" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></summary><ul><li><a href="politique-institutions.html">Politique &amp; Institutions</a></li><li><a href="economie-societe.html">Économie &amp; Société</a></li><li><a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a></li></ul></details></li>
+        <li><a href="methode.html">Méthode</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+      </ul>
+      <button class="bouton-theme nav-theme lien-fleche" type="button">Changer l'apparence (clair ou sombre)</button>
+      <a class="bouton-lettre" href="./#lettre">Newsletter</a>
     </div>
   </nav>
 </header>
 
 <main id="contenu">
-  <section class="tete-page tete-dossier c-economie">
-    <div class="conteneur">
-      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="economie-societe.html">Économie &amp; Société</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
-      <div class="tete-dossier-grille">
-        <div class="tete-dossier-texte">
-          <p class="surtitre"><span class="or">Dossier</span> · Économie &amp; Société</p>
-          <h1>Intelligence artificielle et emploi : ce que montrent les premières études</h1>
-          <span class="filet-or" aria-hidden="true"></span>
-          <p class="chapeau">Des millions d'emplois seraient « menacés » par l'intelligence artificielle. Les études distinguent pourtant l'exposition des tâches, la transformation des métiers et la suppression de postes, et les premiers effets mesurés sont plus ciblés.</p>
-          <p class="meta-dossier">Lecture : 5 min · Publié le 8 octobre 2026 · 4 sources · Vérifié le 13 octobre 2026</p>
+  <article class="article c-economie">
+    <header class="article-tete conteneur-article">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a><span aria-hidden="true">›</span><a href="economie-societe.html">Économie &amp; Société</a><span aria-hidden="true">›</span><span aria-current="page">IA et emploi</span></nav>
+      <p class="article-meta"><a class="article-rubrique" href="economie-societe.html">Économie &amp; Société</a><time datetime="2026-10-08">8 oct. 2026</time><span>5 min<span class="mobile-cache"> de lecture</span></span></p>
+      <h1>Intelligence artificielle et emploi : ce que montrent les premières études</h1>
+      <p class="article-chapeau">Des millions d'emplois seraient « menacés » par l'intelligence artificielle. Les études distinguent pourtant l'exposition des tâches, la transformation des métiers et la suppression de postes, et les premiers effets mesurés sont plus ciblés.</p>
+      <div class="article-signature">
+        <span class="avatar" aria-hidden="true"><img class="logo-img" src="assets/monogramme.png" alt="" width="40" height="40"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="40" height="40"></span>
+        <p><strong>Par Le Petit Monographe</strong><span>Mis à jour : 13 octobre 2026 · Données arrêtées au 8 octobre 2026 · 4 sources</span></p>
+        <div class="article-outils">
+          <button type="button" class="bouton-icone" data-action="imprimer" aria-label="Imprimer ou enregistrer en PDF" title="Imprimer ou enregistrer en PDF"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="copier" aria-label="Copier le lien du dossier" title="Copier le lien"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3.5-3.5a4 4 0 0 0-5.7-5.7l-1.2 1.2M14 10a4 4 0 0 0-5.7 0l-3.5 3.5a4 4 0 0 0 5.7 5.7l1.2-1.2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="partager" aria-label="Partager ce dossier" title="Partager"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.5"/></svg></button>
         </div>
-        <figure class="tete-dossier-image"><img src="assets/images/ia-emploi.jpg" alt="Robots industriels sur une chaîne d&#x27;assemblage automobile" loading="eager"><figcaption>Photo : <a href="https://commons.wikimedia.org/w/index.php?curid=9820288" target="_blank" rel="noopener">Mixabest, CC BY-SA 3.0, recadrée, Wikimedia</a></figcaption></figure>
       </div>
-      <ul class="garanties"><li class="garantie garantie-verifie"><strong>Faits vérifiés</strong><span>Chiffres, dates et décisions relus sur les sources le 13 octobre 2026.</span></li><li class="garantie garantie-sources"><strong>Sources citées</strong><span>4 documents identifiés, avec leur lien.</span></li><li class="garantie garantie-independant"><strong>Analyse indépendante</strong><span>Aucune affiliation partisane ; arguments contraires présentés.</span></li><li class="garantie garantie-maj"><strong>Données arrêtées</strong><span>Au 8 octobre 2026.</span></li></ul>
-    </div>
-  </section>
-
-  <article class="section dossier">
-    <div class="conteneur">
-      <nav class="puces-dossier" aria-label="Accès rapide"><a href="#synthese">Synthèse</a><a href="#sources">Sources</a><a href="#corrections">Corrections</a></nav>
-      <div class="dossier-grille">
-        <aside class="dossier-cote"><details class="sommaire" open>
-          <summary>Dans ce dossier</summary>
-          <ol><li><a href="#exposition-transformation-suppression">Exposition, transformation, suppression</a></li><li><a href="#les-premiers-effets-observes">Les premiers effets observés</a></li><li><a href="#les-chiffres-a-manier-avec-prudence">Les chiffres à manier avec prudence</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
-        </details>
-        <div class="cote-actions">
-          <button type="button" class="bouton-cote" data-action="imprimer"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Enregistrer en PDF<small>ou imprimer le dossier</small></span></button>
-          <button type="button" class="bouton-cote" data-action="partager"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.6"/></svg><span>Partager ce dossier</span></button>
-        </div>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Nos sources (4)</h2><a href="#sources">Voir toutes les sources</a></div>
-          <ol class="cote-sources"><li>Coface et Observatoire des emplois menacés et émergents (OEM), « Emplois, compétences, valeur : ce que l'IA es…</li><li>Source secondaire : CFE-CGC, « Intelligence artificielle : 5 millions d'emplois menacés en France ? », 13 avri…</li><li>Philippe Aghion, Antonin Bergeaud, Simon Bunel, Paul Delbouve, « Diffusion de l'intelligence artificielle en F…</li><li>Source secondaire : Le Monde Informatique, Louise Costa, « IA générative : 75 000 CDI en moins par an pour les…</li></ol>
-        </section>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Corrections</h2><a href="contact.html">Signaler une erreur</a></div>
-          <p>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. L'étude Aghion et al. ne désigne pas l'informatique comme le secteur où les offres d'emploi reculent le plus, mais comme l'un de ceux où la …</p>
-        </section></aside>
-        <div class="prose">
-
-        <aside class="essentiel" id="synthese">
-          <p class="surtitre">Synthèse</p>
+      <figure class="article-image">
+        <img src="assets/images/ia-emploi.jpg" alt="Robots industriels sur une chaîne d&#x27;assemblage automobile" width="1200" height="600" loading="eager">
+        <figcaption>Robots industriels sur une chaîne d&#x27;assemblage automobile. Photo : <a href="https://commons.wikimedia.org/w/index.php?curid=9820288" target="_blank" rel="noopener">Mixabest, CC BY-SA 3.0, recadrée, Wikimedia</a></figcaption>
+      </figure>
+    </header>
+    <div class="conteneur-article article-corps prose">
+        <nav class="sommaire" aria-labelledby="sommaire-titre">
+          <p class="sommaire-titre" id="sommaire-titre"><svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>Sommaire</p>
+          <ol style="--lignes:4"><li><a href="#en-resume">En résumé</a></li><li><a href="#exposition-transformation-suppression">Exposition, transformation, suppression</a></li><li><a href="#les-premiers-effets-observes">Les premiers effets observés</a></li><li><a href="#les-chiffres-a-manier-avec-prudence">Les chiffres à manier avec prudence</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </nav>
+        <aside class="en-resume" id="en-resume">
+          <h2 class="en-resume-titre">En résumé</h2>
           <ul><li>Une étude de Coface et de l'Observatoire des emplois menacés et émergents estime qu'environ 16 % du contenu du travail serait potentiellement automatisable en France ; exposition ne veut pas dire suppression <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Des économistes français observent, à partir des offres d'emploi en ligne, une baisse relative de la création d'emplois dans les professions les plus exposées à l'IA, mais aussi une hausse de l'emploi total dans les entreprises qui recrutent des spécialistes de l'IA <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</li><li>Une étude de la Banque de France et d'HEC Paris, publiée en octobre 2026, observe un recul plus fort des embauches en CDI de jeunes dans les professions exposées ; les auteurs soulignent que l'IA ne peut pas être tenue pour seule responsable <sup class="appel"><a href="#source-4" id="appel-4">4</a></sup>.</li><li>Plusieurs chiffres spectaculaires qui circulent n'ont pas de source vérifiable.</li></ul>
         </aside>
-        <h2 id="exposition-transformation-suppression">Exposition, transformation, suppression</h2>
+        <h2 id="exposition-transformation-suppression"><span class="h2-num">2.</span> Exposition, transformation, suppression</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Les études distinguent trois choses : l'exposition (une partie des tâches d'un métier peut être réalisée par l'IA), la transformation (le métier change de contenu) et la suppression (le poste disparaît). Un métier très exposé peut être transformé sans être supprimé.</p>
         </aside>
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation<span class="precision">estimation chiffrée</span></span>
           <p>Selon l'étude de Coface et de l'Observatoire des emplois menacés et émergents (OEM) publiée le 1er avril 2026, qui décompose 923 professions en tâches, environ 16 % du contenu du travail serait potentiellement automatisable en France, un niveau proche de la moyenne européenne <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>. Les auteurs précisent que cette mesure de l'exposition technique « ne préjuge nullement d'un volume de destruction nette d'emplois », car elle ne tient compte ni de la demande, ni de la création de nouvelles tâches, ni des freins au déploiement <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>. Selon la présentation qu'en fait la CFE-CGC, 120 de ces professions auraient un niveau d'exposition élevé et l'exposition, rapportée à l'emploi, pourrait concerner jusqu'à 5 millions de postes <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>. L'étude souligne que l'IA cible davantage des tâches cognitives et qualifiées que les vagues d'automatisation précédentes <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
-        <h2 id="les-premiers-effets-observes">Les premiers effets observés</h2>
+        <h2 id="les-premiers-effets-observes"><span class="h2-num">3.</span> Les premiers effets observés</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>À partir de plus de 120 millions d'offres d'emploi en ligne publiées en France depuis 2019, Philippe Aghion, Antonin Bergeaud, Simon Bunel et Paul Delbouve constatent une diffusion très inégale de l'IA, plus avancée dans l'informatique, la finance et le conseil et dans de grandes entreprises pionnières, et une baisse relative de la création d'emplois dans les professions les plus exposées <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>. Ils observent aussi que les recrutements dans les métiers de l'IA s'accompagnent d'une hausse de la productivité, du chiffre d'affaires et de l'emploi total dans les entreprises concernées <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</p>
         </aside>
@@ -112,31 +101,57 @@
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation</span>
           <p>Ces écarts ne prouvent pas à eux seuls que l'IA en est la cause. Les chercheurs rappellent eux-mêmes que le secteur technologique sort d'une période de recrutements intenses en 2021 et 2022, suivie de réorganisations liées à la hausse des taux d'intérêt, et que l'IA ne peut être tenue pour seule responsable du recul <sup class="appel"><a href="#source-4" id="appel-4">4</a></sup>. Le recul observé reste court.</p>
         </aside>
-        <h2 id="les-chiffres-a-manier-avec-prudence">Les chiffres à manier avec prudence</h2>
+        <h2 id="les-chiffres-a-manier-avec-prudence"><span class="h2-num">4.</span> Les chiffres à manier avec prudence</h2>
         <aside class="encadre"><span class="etiquette etiquette-note">À noter</span>
           <p>Des chiffres comme « 4 millions d'emplois menacés selon l'OCDE », « 86 % des métiers transformés » ou « 30 % des heures automatisables » circulent largement. Nous n'en avons pas retrouvé la source originale ou ils reposent sur des définitions de l'exposition très larges. Ils ne sont pas repris ici. De même, le chiffre de « 75 000 CDI en moins par an » pour les jeunes, issu de l'étude de la Banque de France et d'HEC Paris, est une estimation de recul des embauches, pas un nombre d'emplois supprimés.</p>
         </aside>
-        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas"><span class="h2-num">5.</span> Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>L'effet net sur l'emploi total</strong>, en tenant compte des métiers créés et des gains de productivité.</li><li><strong>La durée des effets observés</strong> : il peut s'agir d'un ajustement transitoire ou d'une tendance durable.</li><li><strong>Les métiers qui émergeront</strong>, difficiles à anticiper.</li></ul>
-        <h2 id="sources">Sources</h2>
+        <h2 id="sources"><span class="h2-num">6.</span> Sources</h2>
         <ol class="sources">
           <li id="source-1">Coface et Observatoire des emplois menacés et émergents (OEM), « Emplois, compétences, valeur : ce que l'IA est en train de bouleverser », 1er avril 2026. <a href="https://www.coface.fr/actualites-economie-conseils/emplois-competences-valeur-ce-que-l-ia-est-en-train-de-bouleverser" rel="noopener">www.coface.fr/actualites-economie-conseils/emplois-competences-valeur-ce-que-l-ia-est-en-train-de-bouleverser</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Source secondaire : CFE-CGC, « Intelligence artificielle : 5 millions d'emplois menacés en France ? », 13 avril 2026, d'après l'étude Coface et OEM. <a href="https://www.cfecgc.org/actualites/intelligence-artificielle-en-france-5-millions-demplois-menaces-en-france" rel="noopener">www.cfecgc.org/actualites/intelligence-artificielle-en-france-5-millions-demplois-menaces-en-france</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-3">Philippe Aghion, Antonin Bergeaud, Simon Bunel, Paul Delbouve, « Diffusion de l'intelligence artificielle en France », document de travail, juillet 2025. <a href="https://www.hec.edu/sites/default/files/documents/Diffusion%20de%20l%E2%80%99Intelligence%20Artificielle%20en%20France_Philippe%20Aghion-Antonin%20Bergeaud-Simon%20Bunel-Paul%20Delbouve_Juillet%202025.pdf" rel="noopener">www.hec.edu/sites/default/files/documents/Diffusion%20de%20l%E2%80%99Intelligence%20Artificielle%20en%20France_Philippe%20Aghion-Antonin%20Bergeaud-Simon%20Bunel-Paul%20Delbouve_Juillet%202025.pdf</a> <a href="#appel-3" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-4">Source secondaire : Le Monde Informatique, Louise Costa, « IA générative : 75 000 CDI en moins par an pour les jeunes », 12 octobre 2026, d'après l'étude de la Banque de France et du LIFT d'HEC Paris. <a href="https://www.lemondeinformatique.fr/actualites/lire-ia-generative-75-000-cdi-en-moins-par-an-pour-les-jeunes-100848.html" rel="noopener">www.lemondeinformatique.fr/actualites/lire-ia-generative-75-000-cdi-en-moins-par-an-pour-les-jeunes-100848.html</a> <a href="#appel-4" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2 id="historique">Historique</h2>
+        <h2 id="historique"><span class="h2-num">7.</span> Historique</h2>
         <ul class="historique" id="corrections"><li>8 octobre 2026 : première publication.</li><li>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. L'étude Aghion et al. ne désigne pas l'informatique comme le secteur où les offres d'emploi reculent le plus, mais comme l'un de ceux où la diffusion de l'IA est la plus avancée ; ses résultats sur la hausse de l'emploi dans les entreprises qui recrutent en IA ont été ajoutés. La source primaire de l'étude Coface et OEM a été ajoutée.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
-      </div>
-      </div>
     </div>
   </article>
   <section class="section a-lire-aussi">
     <div class="conteneur">
-      <h2>À lire aussi</h2>
-      <div class="portes"><a class="porte c-economie" href="dossier-chomage-emploi.html"><span class="porte-image"><img src="assets/images/dossier-chomage-emploi.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-dette-publique.html"><span class="porte-image"><img src="assets/images/dette-publique.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>La dette publique française : niveau, coût et risques</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-budget-2027.html"><span class="porte-image"><img src="assets/images/budget-2027.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</h3><span class="suite">Lire le dossier</span></a></div>
-      <p class="retour-rubrique"><a href="economie-societe.html">Tous les dossiers de la rubrique Économie &amp; Société</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+      <div class="titre-section"><h2>À lire aussi</h2><a class="lien-fleche" href="economie-societe.html">Tous les dossiers Économie &amp; Société<svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a></div>
+      <div class="grille-cartes grille-3">
+        <article class="carte c-economie">
+          <a href="dossier-chomage-emploi.html">
+            <span class="carte-image"><img src="assets/images/dossier-chomage-emploi.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Économie &amp; Société</span>
+              <h3 class="carte-titre">Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>8 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-economie">
+          <a href="dossier-dette-publique.html">
+            <span class="carte-image"><img src="assets/images/dette-publique.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Économie &amp; Société</span>
+              <h3 class="carte-titre">La dette publique française : niveau, coût et risques</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>9 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-economie">
+          <a href="dossier-budget-2027.html">
+            <span class="carte-image"><img src="assets/images/budget-2027.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Économie &amp; Société</span>
+              <h3 class="carte-titre">Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>7 min</span></span>
+            </span>
+          </a>
+        </article>
+      </div>
     </div>
   </section>
 </main>

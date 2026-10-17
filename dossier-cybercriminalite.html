@@ -19,80 +19,69 @@
   <link rel="stylesheet" href="assets/style.css">
   <script>try{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 </head>
-<body>
+<body class="page-article">
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur entete-haut">
-    <form class="recherche-entete" action="dossiers.html" method="get" role="search">
-      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="Rechercher un dossier, un sujet…" aria-label="Rechercher un dossier">
-    </form>
-    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="44" height="44"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-sous">Documents <em>&amp;</em> enquêtes</span></span></a>
-    <div class="actions">
-      <a class="bouton-rond bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
-      <button class="bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><span class="theme-curseur" aria-hidden="true"></span><svg class="theme-lune" viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="currentColor"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
-      <a class="bouton-abonner" href="index.html#lettre">S'abonner</a>
-      <button class="bouton-rond bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <button class="bouton-icone bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <a class="logo" href="./"><img class="logo-img" src="assets/monogramme.png" alt="" width="48" height="48"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="48" height="48"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-devise">Les faits d'abord. L'opinion reste au lecteur.</span></span></a>
+    <div class="entete-droite">
+      <form class="recherche-entete" action="dossiers.html" method="get" role="search">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <input type="search" name="q" placeholder="Rechercher…" aria-label="Rechercher un dossier">
+      </form>
+      <button class="bouton-icone bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><svg class="theme-lune" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+      <a class="bouton-icone bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
     </div>
   </div>
   <nav class="nav" id="menu-principal" aria-label="Navigation principale">
-    <div class="conteneur nav-liens">
-      <a href="./">À la une</a>
-      <a href="politique-institutions.html">Politique</a>
-      <a href="economie-societe.html">Économie &amp; Société</a>
-      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
-      <a href="livres.html">Livres</a>
-      <a href="methode.html">Méthode</a>
+    <div class="conteneur nav-barre">
+      <ul class="nav-liens">
+        <li><a href="./">Accueil</a></li>
+        <li><a href="dossiers.html" aria-current="page">Enquêtes</a></li>
+        <li><a href="livres.html">Monographies</a></li>
+        <li class="nav-deroulant"><details><summary>Rubriques<svg viewBox="0 0 10 6" width="9" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></summary><ul><li><a href="politique-institutions.html">Politique &amp; Institutions</a></li><li><a href="economie-societe.html">Économie &amp; Société</a></li><li><a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a></li></ul></details></li>
+        <li><a href="methode.html">Méthode</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+      </ul>
+      <button class="bouton-theme nav-theme lien-fleche" type="button">Changer l'apparence (clair ou sombre)</button>
+      <a class="bouton-lettre" href="./#lettre">Newsletter</a>
     </div>
   </nav>
 </header>
 
 <main id="contenu">
-  <section class="tete-page tete-dossier c-economie">
-    <div class="conteneur">
-      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="economie-societe.html">Économie &amp; Société</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
-      <div class="tete-dossier-grille">
-        <div class="tete-dossier-texte">
-          <p class="surtitre"><span class="or">Dossier</span> · Économie &amp; Société</p>
-          <h1>Cybercriminalité : ce que mesurent les chiffres officiels</h1>
-          <span class="filet-or" aria-hidden="true"></span>
-          <p class="chapeau">Les infractions liées au numérique enregistrées par la police et la gendarmerie ont augmenté de 14 % en 2025. Le chiffre mélange des infractions très différentes et ne compte que ce qui est signalé.</p>
-          <p class="meta-dossier">Lecture : 4 min · Publié le 8 octobre 2026 · 3 sources · Vérifié le 13 octobre 2026</p>
+  <article class="article c-economie">
+    <header class="article-tete conteneur-article">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a><span aria-hidden="true">›</span><a href="economie-societe.html">Économie &amp; Société</a><span aria-hidden="true">›</span><span aria-current="page">La cybercriminalité</span></nav>
+      <p class="article-meta"><a class="article-rubrique" href="economie-societe.html">Économie &amp; Société</a><time datetime="2026-10-08">8 oct. 2026</time><span>4 min<span class="mobile-cache"> de lecture</span></span></p>
+      <h1>Cybercriminalité : ce que mesurent les chiffres officiels</h1>
+      <p class="article-chapeau">Les infractions liées au numérique enregistrées par la police et la gendarmerie ont augmenté de 14 % en 2025. Le chiffre mélange des infractions très différentes et ne compte que ce qui est signalé.</p>
+      <div class="article-signature">
+        <span class="avatar" aria-hidden="true"><img class="logo-img" src="assets/monogramme.png" alt="" width="40" height="40"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="40" height="40"></span>
+        <p><strong>Par Le Petit Monographe</strong><span>Mis à jour : 13 octobre 2026 · Données arrêtées au 8 octobre 2026 · 3 sources</span></p>
+        <div class="article-outils">
+          <button type="button" class="bouton-icone" data-action="imprimer" aria-label="Imprimer ou enregistrer en PDF" title="Imprimer ou enregistrer en PDF"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="copier" aria-label="Copier le lien du dossier" title="Copier le lien"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3.5-3.5a4 4 0 0 0-5.7-5.7l-1.2 1.2M14 10a4 4 0 0 0-5.7 0l-3.5 3.5a4 4 0 0 0 5.7 5.7l1.2-1.2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="partager" aria-label="Partager ce dossier" title="Partager"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.5"/></svg></button>
         </div>
-        <figure class="tete-dossier-image"><img src="assets/images/cybercriminalite.jpg" alt="Baies de serveurs informatiques" loading="eager"><figcaption>Photo : <a href="https://www.flickr.com/photos/39131599@N06/3595638270" target="_blank" rel="noopener">NeoSpire, CC BY 2.0, recadrée, Flickr</a></figcaption></figure>
       </div>
-      <ul class="garanties"><li class="garantie garantie-verifie"><strong>Faits vérifiés</strong><span>Chiffres, dates et décisions relus sur les sources le 13 octobre 2026.</span></li><li class="garantie garantie-sources"><strong>Sources citées</strong><span>3 documents identifiés, avec leur lien.</span></li><li class="garantie garantie-independant"><strong>Analyse indépendante</strong><span>Aucune affiliation partisane ; arguments contraires présentés.</span></li><li class="garantie garantie-maj"><strong>Données arrêtées</strong><span>Au 8 octobre 2026.</span></li></ul>
-    </div>
-  </section>
-
-  <article class="section dossier">
-    <div class="conteneur">
-      <nav class="puces-dossier" aria-label="Accès rapide"><a href="#synthese">Synthèse</a><a href="#sources">Sources</a><a href="#corrections">Corrections</a></nav>
-      <div class="dossier-grille">
-        <aside class="dossier-cote"><details class="sommaire" open>
-          <summary>Dans ce dossier</summary>
-          <ol><li><a href="#ce-que-compte-le-ministere-de-l-interieur">Ce que compte le ministère de l'Intérieur</a></li><li><a href="#les-attaques-contre-les-organisations">Les attaques contre les organisations</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
-        </details>
-        <div class="cote-actions">
-          <button type="button" class="bouton-cote" data-action="imprimer"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Enregistrer en PDF<small>ou imprimer le dossier</small></span></button>
-          <button type="button" class="bouton-cote" data-action="partager"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.6"/></svg><span>Partager ce dossier</span></button>
-        </div>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Nos sources (3)</h2><a href="#sources">Voir toutes les sources</a></div>
-          <ol class="cote-sources"><li>SSMSI, Interstats Info rapide n° 60, « Les infractions liées au numérique enregistrées par les services de séc…</li><li>Commandement du ministère de l'Intérieur dans le cyberespace (COMCYBER-MI), « Rapport annuel sur la cybercrimi…</li><li>Source secondaire : franceinfo, « Plus de 17 500 cyberattaques enregistrées en France en 2025, en hausse de 4 …</li></ol>
-        </section>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Corrections</h2><a href="contact.html">Signaler une erreur</a></div>
-          <p>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Les revendications d'attaques par rançongiciel visant la France n'ont pas reculé en 2025 : selon le rapport annuel du ministère de l'Intérie…</p>
-        </section></aside>
-        <div class="prose">
-
-        <aside class="essentiel" id="synthese">
-          <p class="surtitre">Synthèse</p>
+      <figure class="article-image">
+        <img src="assets/images/cybercriminalite.jpg" alt="Baies de serveurs informatiques" width="1200" height="600" loading="eager">
+        <figcaption>Baies de serveurs informatiques. Photo : <a href="https://www.flickr.com/photos/39131599@N06/3595638270" target="_blank" rel="noopener">NeoSpire, CC BY 2.0, recadrée, Flickr</a></figcaption>
+      </figure>
+    </header>
+    <div class="conteneur-article article-corps prose">
+        <nav class="sommaire" aria-labelledby="sommaire-titre">
+          <p class="sommaire-titre" id="sommaire-titre"><svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>Sommaire</p>
+          <ol style="--lignes:3"><li><a href="#en-resume">En résumé</a></li><li><a href="#ce-que-compte-le-ministere-de-l-interieur">Ce que compte le ministère de l'Intérieur</a></li><li><a href="#les-attaques-contre-les-organisations">Les attaques contre les organisations</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </nav>
+        <aside class="en-resume" id="en-resume">
+          <h2 class="en-resume-titre">En résumé</h2>
           <ul><li>453 200 crimes et délits liés au numérique ont été enregistrés par la police et la gendarmerie en 2025, en hausse de 14 % sur un an <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Les atteintes aux biens, principalement des escroqueries, en représentent 280 500 ; les atteintes à la personne, 146 900 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup> <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</li><li>Ces chiffres comptent les infractions enregistrées, pas les infractions commises : les faits qui ne sont ni signalés ni déclarés n'y figurent pas.</li><li>Le ministère de l'Intérieur recense 1 347 revendications ou annonces de cyberattaques visant la France en 2025, contre 1 062 en 2024 ; les revendications d'attaques par rançongiciel ont augmenté de 36 % <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li></ul>
         </aside>
-        <h2 id="ce-que-compte-le-ministere-de-l-interieur">Ce que compte le ministère de l'Intérieur</h2>
+        <h2 id="ce-que-compte-le-ministere-de-l-interieur"><span class="h2-num">2.</span> Ce que compte le ministère de l'Intérieur</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Selon le service statistique ministériel de la sécurité intérieure (SSMSI), 453 200 crimes et délits liés au numérique ont été enregistrés en 2025, soit 14 % de plus qu'en 2024 ; ces infractions augmentent en moyenne de 12 % par an depuis 2016 <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>. Le SSMSI souligne que ces infractions sont « de natures très hétérogènes » et qu'il est nécessaire de les analyser séparément <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>. Les contraventions ne sont pas comptées.</p>
         </aside>
@@ -105,7 +94,7 @@
         <aside class="encadre"><span class="etiquette etiquette-note">À noter</span>
           <p>Une hausse des infractions enregistrées peut refléter une hausse des faits, mais aussi une plus grande facilité à porter plainte. Le SSMSI indique que la création de la plateforme Thésée, en mars 2022, a conduit à un transfert partiel des signalements vers ce dispositif en ligne <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>. Les deux effets ne peuvent pas être séparés avec ces seules données.</p>
         </aside>
-        <h2 id="les-attaques-contre-les-organisations">Les attaques contre les organisations</h2>
+        <h2 id="les-attaques-contre-les-organisations"><span class="h2-num">3.</span> Les attaques contre les organisations</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Le commandement du ministère de l'Intérieur dans le cyberespace (COMCYBER-MI) a recensé 1 347 revendications ou annonces de cyberattaques visant la France en 2025, contre 1 062 en 2024, soit une hausse de 27 % <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>. Les attaques par déni de service, principalement revendiquées par des groupes se réclamant de l'hacktivisme, arrivent en tête, devant les vols et reventes de données et les attaques par rançongiciel <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
         </aside>
@@ -115,26 +104,52 @@
         <aside class="encadre"><span class="etiquette etiquette-note">À noter</span>
           <p>Une revendication publiée par un groupe criminel n'est pas une attaque vérifiée : ces décomptes mesurent l'activité déclarée des attaquants, pas le nombre de victimes.</p>
         </aside>
-        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas"><span class="h2-num">4.</span> Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>Le nombre réel de victimes.</strong> Les infractions enregistrées ne comprennent pas les faits non déclarés ; leur part pour 2025 n'est pas connue à partir de ces données.</li><li><strong>Le coût total</strong> pour les particuliers, les entreprises et les services publics : les estimations qui circulent ne reposent pas sur une méthode officielle.</li><li><strong>Le taux d'élucidation</strong> de ces infractions, peu publié.</li></ul>
-        <h2 id="sources">Sources</h2>
+        <h2 id="sources"><span class="h2-num">5.</span> Sources</h2>
         <ol class="sources">
           <li id="source-1">SSMSI, Interstats Info rapide n° 60, « Les infractions liées au numérique enregistrées par les services de sécurité en 2025 en progression de 14 % sur un an », février 2026 (publié le 19 février 2026). <a href="https://www.interieur.gouv.fr/content/download/139350/1099684/file/IR60%20les%20infractions%20lie%CC%81es%20au%20nume%CC%81rique.pdf" rel="noopener">www.interieur.gouv.fr/content/download/139350/1099684/file/IR60%20les%20infractions%20lie%CC%81es%20au%20nume%CC%81rique.pdf</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Commandement du ministère de l'Intérieur dans le cyberespace (COMCYBER-MI), « Rapport annuel sur la cybercriminalité 2026 » (données 2025), avril 2026, diffusé par Vie-publique.fr. <a href="https://www.vie-publique.fr/files/rapport/pdf/302981.pdf" rel="noopener">www.vie-publique.fr/files/rapport/pdf/302981.pdf</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-3">Source secondaire : franceinfo, « Plus de 17 500 cyberattaques enregistrées en France en 2025, en hausse de 4 % par rapport à l'année 2024 », 19 février 2026. <a href="https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/plus-de-17-500-cyberattaques-enregistrees-en-france-en-2025-en-hausse-de-4-par-rapport-a-l-annee-2024_7816103.html" rel="noopener">www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/plus-de-17-500-cyberattaques-enregistrees-en-france-en-2025-en-hausse-de-4-par-rapport-a-l-annee-2024_7816103.html</a> <a href="#appel-3" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2 id="historique">Historique</h2>
+        <h2 id="historique"><span class="h2-num">6.</span> Historique</h2>
         <ul class="historique" id="corrections"><li>8 octobre 2026 : première publication.</li><li>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Les revendications d'attaques par rançongiciel visant la France n'ont pas reculé en 2025 : selon le rapport annuel du ministère de l'Intérieur, elles ont augmenté de 36 % (177 revendications). Les sources sont désormais les publications officielles du ministère.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
-      </div>
-      </div>
     </div>
   </article>
   <section class="section a-lire-aussi">
     <div class="conteneur">
-      <h2>À lire aussi</h2>
-      <div class="portes"><a class="porte c-economie" href="dossier-chomage-emploi.html"><span class="porte-image"><img src="assets/images/dossier-chomage-emploi.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-dette-publique.html"><span class="porte-image"><img src="assets/images/dette-publique.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>La dette publique française : niveau, coût et risques</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-budget-2027.html"><span class="porte-image"><img src="assets/images/budget-2027.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</h3><span class="suite">Lire le dossier</span></a></div>
-      <p class="retour-rubrique"><a href="economie-societe.html">Tous les dossiers de la rubrique Économie &amp; Société</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+      <div class="titre-section"><h2>À lire aussi</h2><a class="lien-fleche" href="economie-societe.html">Tous les dossiers Économie &amp; Société<svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a></div>
+      <div class="grille-cartes grille-3">
+        <article class="carte c-economie">
+          <a href="dossier-chomage-emploi.html">
+            <span class="carte-image"><img src="assets/images/dossier-chomage-emploi.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Économie &amp; Société</span>
+              <h3 class="carte-titre">Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>8 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-economie">
+          <a href="dossier-dette-publique.html">
+            <span class="carte-image"><img src="assets/images/dette-publique.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Économie &amp; Société</span>
+              <h3 class="carte-titre">La dette publique française : niveau, coût et risques</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>9 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-economie">
+          <a href="dossier-budget-2027.html">
+            <span class="carte-image"><img src="assets/images/budget-2027.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Économie &amp; Société</span>
+              <h3 class="carte-titre">Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>7 min</span></span>
+            </span>
+          </a>
+        </article>
+      </div>
     </div>
   </section>
 </main>

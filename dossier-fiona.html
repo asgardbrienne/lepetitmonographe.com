@@ -19,87 +19,76 @@
   <link rel="stylesheet" href="assets/style.css">
   <script>try{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 </head>
-<body>
+<body class="page-article">
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur entete-haut">
-    <form class="recherche-entete" action="dossiers.html" method="get" role="search">
-      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="Rechercher un dossier, un sujet…" aria-label="Rechercher un dossier">
-    </form>
-    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="44" height="44"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-sous">Documents <em>&amp;</em> enquêtes</span></span></a>
-    <div class="actions">
-      <a class="bouton-rond bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
-      <button class="bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><span class="theme-curseur" aria-hidden="true"></span><svg class="theme-lune" viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="currentColor"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
-      <a class="bouton-abonner" href="index.html#lettre">S'abonner</a>
-      <button class="bouton-rond bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <button class="bouton-icone bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <a class="logo" href="./"><img class="logo-img" src="assets/monogramme.png" alt="" width="48" height="48"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="48" height="48"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-devise">Les faits d'abord. L'opinion reste au lecteur.</span></span></a>
+    <div class="entete-droite">
+      <form class="recherche-entete" action="dossiers.html" method="get" role="search">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <input type="search" name="q" placeholder="Rechercher…" aria-label="Rechercher un dossier">
+      </form>
+      <button class="bouton-icone bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><svg class="theme-lune" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+      <a class="bouton-icone bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
     </div>
   </div>
   <nav class="nav" id="menu-principal" aria-label="Navigation principale">
-    <div class="conteneur nav-liens">
-      <a href="./">À la une</a>
-      <a href="politique-institutions.html">Politique</a>
-      <a href="economie-societe.html">Économie &amp; Société</a>
-      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
-      <a href="livres.html">Livres</a>
-      <a href="methode.html">Méthode</a>
+    <div class="conteneur nav-barre">
+      <ul class="nav-liens">
+        <li><a href="./">Accueil</a></li>
+        <li><a href="dossiers.html" aria-current="page">Enquêtes</a></li>
+        <li><a href="livres.html">Monographies</a></li>
+        <li class="nav-deroulant"><details><summary>Rubriques<svg viewBox="0 0 10 6" width="9" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></summary><ul><li><a href="politique-institutions.html">Politique &amp; Institutions</a></li><li><a href="economie-societe.html">Économie &amp; Société</a></li><li><a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a></li></ul></details></li>
+        <li><a href="methode.html">Méthode</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+      </ul>
+      <button class="bouton-theme nav-theme lien-fleche" type="button">Changer l'apparence (clair ou sombre)</button>
+      <a class="bouton-lettre" href="./#lettre">Newsletter</a>
     </div>
   </nav>
 </header>
 
 <main id="contenu">
-  <section class="tete-page tete-dossier c-affaires">
-    <div class="conteneur">
-      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
-      <div class="tete-dossier-grille">
-        <div class="tete-dossier-texte">
-          <p class="surtitre"><span class="or">Dossier</span> · Affaires &amp; Enquêtes</p>
-          <h1>Affaire Fiona : trois procès pour établir les responsabilités</h1>
-          <span class="filet-or" aria-hidden="true"></span>
-          <p class="chapeau">En mai 2013, la disparition signalée d'une fillette de 5 ans dans un parc de Clermont-Ferrand se révèle être un mensonge de sa mère et du compagnon de celle-ci. Il a fallu trois procès d'assises menés à leur terme, et un arrêt de cassation, pour fixer les responsabilités dans sa mort.</p>
-          <p class="meta-dossier">Lecture : 16 min · Publié le 8 octobre 2026 · 16 sources · Vérifié le 11 octobre 2026</p>
+  <article class="article c-affaires">
+    <header class="article-tete conteneur-article">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a><span aria-hidden="true">›</span><a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a><span aria-hidden="true">›</span><span aria-current="page">L'affaire Fiona</span></nav>
+      <p class="article-meta"><a class="article-rubrique" href="affaires-enquetes.html">Affaires &amp; Enquêtes</a><time datetime="2026-10-08">8 oct. 2026</time><span>16 min<span class="mobile-cache"> de lecture</span></span></p>
+      <h1>Affaire Fiona : trois procès pour établir les responsabilités</h1>
+      <p class="article-chapeau">En mai 2013, la disparition signalée d'une fillette de 5 ans dans un parc de Clermont-Ferrand se révèle être un mensonge de sa mère et du compagnon de celle-ci. Il a fallu trois procès d'assises menés à leur terme, et un arrêt de cassation, pour fixer les responsabilités dans sa mort.</p>
+      <div class="article-signature">
+        <span class="avatar" aria-hidden="true"><img class="logo-img" src="assets/monogramme.png" alt="" width="40" height="40"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="40" height="40"></span>
+        <p><strong>Par Le Petit Monographe</strong><span>Mis à jour : 11 octobre 2026 · Données arrêtées au 16 octobre 2026 · 16 sources</span></p>
+        <div class="article-outils">
+          <button type="button" class="bouton-icone" data-action="imprimer" aria-label="Imprimer ou enregistrer en PDF" title="Imprimer ou enregistrer en PDF"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="copier" aria-label="Copier le lien du dossier" title="Copier le lien"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3.5-3.5a4 4 0 0 0-5.7-5.7l-1.2 1.2M14 10a4 4 0 0 0-5.7 0l-3.5 3.5a4 4 0 0 0 5.7 5.7l1.2-1.2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="partager" aria-label="Partager ce dossier" title="Partager"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.5"/></svg></button>
         </div>
-        <figure class="tete-dossier-image"><img src="assets/images/fiona.jpg" alt="Le palais de justice historique de Lyon, au bord de la Saône" loading="eager"><figcaption>Photo : <a href="https://www.flickr.com/photos/39415781@N06/34544894454" target="_blank" rel="noopener">ell brown, CC BY-SA 2.0, recadrée, Flickr</a></figcaption></figure>
       </div>
-      <ul class="garanties"><li class="garantie garantie-verifie"><strong>Faits vérifiés</strong><span>Chiffres, dates et décisions relus sur les sources le 11 octobre 2026.</span></li><li class="garantie garantie-sources"><strong>Sources citées</strong><span>16 documents identifiés, avec leur lien.</span></li><li class="garantie garantie-independant"><strong>Analyse indépendante</strong><span>Aucune affiliation partisane ; arguments contraires présentés.</span></li><li class="garantie garantie-maj"><strong>Données arrêtées</strong><span>Au 16 octobre 2026.</span></li></ul>
-    </div>
-  </section>
-
-  <article class="section dossier">
-    <div class="conteneur">
-      <nav class="puces-dossier" aria-label="Accès rapide"><a href="#synthese">Synthèse</a><a href="#chronologie">Chronologie</a><a href="#sources">Sources</a><a href="#corrections">Corrections</a></nav>
-      <div class="dossier-grille">
-        <aside class="dossier-cote"><details class="sommaire" open>
-          <summary>Dans ce dossier</summary>
-          <ol><li><a href="#etat-de-la-procedure">État de la procédure</a></li><li><a href="#comment-fonctionne-la-procedure-dans-une-affaire-de-ce-type">Comment fonctionne la procédure dans une affaire de ce type</a></li><li><a href="#chronologie-detaillee">Chronologie détaillée</a></li><li><a href="#les-proces">Les procès</a></li><li><a href="#ce-que-la-justice-a-etabli-et-ce-qu-elle-n-a-pas-etabli">Ce que la justice a établi et ce qu'elle n'a pas établi</a></li><li><a href="#ce-qui-reste-incertain">Ce qui reste incertain</a></li><li><a href="#ce-qui-fait-debat">Ce qui fait débat</a></li><li><a href="#ce-que-l-affaire-a-change">Ce que l'affaire a changé</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
-        </details>
-        <div class="cote-actions">
-          <button type="button" class="bouton-cote" data-action="imprimer"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Enregistrer en PDF<small>ou imprimer le dossier</small></span></button>
-          <button type="button" class="bouton-cote" data-action="partager"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.6"/></svg><span>Partager ce dossier</span></button>
-        </div>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Nos sources (16)</h2><a href="#sources">Voir toutes les sources</a></div>
-          <ol class="cote-sources"><li>Source secondaire : Wikipédia, « Affaire Fiona », encyclopédie collaborative, consultée le 11 octobre 2026.</li><li>ICI (ex-France Bleu), Olivier Vidal et Xavier Louvel, « Affaire Fiona : Cécile Bourgeon et Berkane Makhlouf co…</li><li>Zoomdici, « Affaire Fiona : Cécile Bourgeon reste condamnée à 20 ans de prison », 17 février 2022.</li><li>Europe 1 avec AFP, « L'affaire Fiona sera rejugée à Lyon lors d'un quatrième procès », février 2019.</li></ol>
-        </section>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Corrections</h2><a href="contact.html">Signaler une erreur</a></div>
-          <p>11 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Le procès en appel de 2018 avait aussi condamné le compagnon à vingt ans, ce que le dossier omettait ; les dates de l'arrêt de cassation (20…</p>
-        </section></aside>
-        <div class="prose">
-
-        <aside class="essentiel" id="synthese">
-          <p class="surtitre">Synthèse</p>
+      <figure class="article-image">
+        <img src="assets/images/fiona.jpg" alt="Le palais de justice historique de Lyon, au bord de la Saône" width="1200" height="600" loading="eager">
+        <figcaption>Le palais de justice historique de Lyon, au bord de la Saône. Photo : <a href="https://www.flickr.com/photos/39415781@N06/34544894454" target="_blank" rel="noopener">ell brown, CC BY-SA 2.0, recadrée, Flickr</a></figcaption>
+      </figure>
+    </header>
+    <div class="conteneur-article article-corps prose">
+        <nav class="sommaire" aria-labelledby="sommaire-titre">
+          <p class="sommaire-titre" id="sommaire-titre"><svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>Sommaire</p>
+          <ol style="--lignes:6"><li><a href="#en-resume">En résumé</a></li><li><a href="#etat-de-la-procedure">État de la procédure</a></li><li><a href="#comment-fonctionne-la-procedure-dans-une-affaire-de-ce-type">Comment fonctionne la procédure dans une affaire de ce type</a></li><li><a href="#chronologie-detaillee">Chronologie détaillée</a></li><li><a href="#les-proces">Les procès</a></li><li><a href="#ce-que-la-justice-a-etabli-et-ce-qu-elle-n-a-pas-etabli">Ce que la justice a établi et ce qu'elle n'a pas établi</a></li><li><a href="#ce-qui-reste-incertain">Ce qui reste incertain</a></li><li><a href="#ce-qui-fait-debat">Ce qui fait débat</a></li><li><a href="#ce-que-l-affaire-a-change">Ce que l'affaire a changé</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </nav>
+        <aside class="en-resume" id="en-resume">
+          <h2 class="en-resume-titre">En résumé</h2>
           <ul><li>Le 12 mai 2013, la mère de Fiona et son compagnon signalent la disparition de l'enfant dans le parc Montjuzet, à Clermont-Ferrand. Placés en garde à vue le 24 septembre 2013, ils reconnaissent que l'enfant est morte au domicile et qu'ils ont dissimulé le corps, qui n'a jamais été retrouvé <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>En novembre 2016, la cour d'assises du Puy-de-Dôme acquitte la mère des violences mortelles et la condamne à cinq ans d'emprisonnement pour d'autres délits, dont la non-assistance à personne en danger ; son compagnon est condamné à vingt ans de réclusion <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</li><li>En février 2018, en appel, la cour d'assises de la Haute-Loire condamne les deux accusés à vingt ans de réclusion. La Cour de cassation annule cet arrêt le 20 février 2019, faute de motivation du rejet d'une demande de renvoi, et renvoie l'affaire devant la cour d'assises du Rhône <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup><sup class="appel"><a href="#source-4" id="appel-4">4</a></sup>.</li><li>Le 16 décembre 2020, la cour d'assises du Rhône condamne la mère à vingt ans et son ancien compagnon à dix-huit ans de réclusion criminelle pour violences volontaires ayant entraîné la mort <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Le pourvoi de la mère contre cette dernière décision a été déclaré non admis par la Cour de cassation le 16 février 2022 : sa condamnation est définitive. Les circonstances exactes du décès et le lieu où se trouve le corps restent inconnus <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup><sup class="appel"><a href="#source-8" id="appel-8">8</a></sup>.</li></ul>
         </aside>
         <aside class="encadre"><span class="etiquette etiquette-note">À noter</span>
           <p>Juge d'instruction : magistrat chargé de conduire l'enquête dans une information judiciaire. Mise en examen : le juge ne peut y procéder qu'à l'encontre d'une personne contre laquelle existent « des indices graves ou concordants rendant vraisemblable » sa participation aux faits (article 80-1 du code de procédure pénale) ; ce ne sont pas des preuves de culpabilité. Cour d'assises : juridiction qui juge les crimes, composée de trois magistrats et de jurés tirés au sort. Appel criminel : possible depuis la loi du 15 juin 2000 ; une autre cour d'assises rejuge entièrement l'affaire. Cassation : la Cour de cassation est « le juge du droit » et ne réexamine pas les faits ; si elle annule, l'affaire est rejugée par une autre juridiction <sup class="appel"><a href="#source-11" id="appel-11">11</a></sup><sup class="appel"><a href="#source-15" id="appel-15">15</a></sup><sup class="appel"><a href="#source-16" id="appel-16">16</a></sup>.</p>
         </aside>
-        <h2 id="etat-de-la-procedure">État de la procédure</h2>
+        <h2 id="etat-de-la-procedure"><span class="h2-num">2.</span> État de la procédure</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi<span class="precision">état de la procédure</span></span>
           <p>La condamnation de la mère à vingt ans de réclusion est définitive depuis que la Cour de cassation a déclaré son pourvoi non admis, le 16 février 2022 <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup><sup class="appel"><a href="#source-8" id="appel-8">8</a></sup>. Pour son ancien compagnon, condamné à dix-huit ans, Ouest-France écrit qu'avec ce rejet « ces condamnations deviennent donc définitives » ; l'encyclopédie Wikipédia indique la même chose. Nous n'avons pas trouvé de source précisant s'il avait lui-même formé un pourvoi ni la date exacte à laquelle sa condamnation est devenue définitive <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-8" id="appel-8">8</a></sup>.</p>
         </aside>
-        <h2 id="comment-fonctionne-la-procedure-dans-une-affaire-de-ce-type">Comment fonctionne la procédure dans une affaire de ce type</h2>
+        <h2 id="comment-fonctionne-la-procedure-dans-une-affaire-de-ce-type"><span class="h2-num">3.</span> Comment fonctionne la procédure dans une affaire de ce type</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Dans l'affaire Fiona, l'enquête a été menée par la police judiciaire puis confiée à des juges d'instruction de Clermont-Ferrand, qui ont entendu la mère pendant quatre heures en octobre 2013 ; des fouilles ont été organisées en sa présence, sous l'autorité du parquet <sup class="appel"><a href="#source-14" id="appel-14">14</a></sup>. La mise en examen suppose des indices graves ou concordants ; elle ne vaut pas déclaration de culpabilité, qui relève de la seule cour d'assises <sup class="appel"><a href="#source-16" id="appel-16">16</a></sup>.</p>
         </aside>
@@ -112,17 +101,17 @@
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>La Cour de cassation, saisie d'un pourvoi, ne réexamine pas les faits : elle contrôle l'application du droit <sup class="appel"><a href="#source-15" id="appel-15">15</a></sup>. Lorsqu'elle annule un arrêt de cour d'assises, l'affaire est renvoyée devant une autre cour d'assises, qui la rejuge entièrement, comme ce fut le cas en 2019 avec le renvoi devant la cour d'assises du Rhône <sup class="appel"><a href="#source-4" id="appel-4">4</a></sup><sup class="appel"><a href="#source-6" id="appel-6">6</a></sup>.</p>
         </aside>
-        <h2 id="chronologie-detaillee">Chronologie détaillée</h2>
+        <h2 id="chronologie-detaillee"><span class="h2-num">4.</span> Chronologie détaillée</h2>
         <figure class="graphique graphique-frise" id="chronologie">
           <figcaption class="graphique-tete"><span class="graphique-num">Chronologie 01</span><span class="graphique-titre">Les principales étapes de l'affaire Fiona</span></figcaption>
-          <ol class="frise"><li><span class="frise-date">12 mai 2013</span><span class="frise-texte">La mère signale la disparition de l'enfant dans le parc Montjuzet, à Clermont-Ferrand ; d'importantes recherches sont lancées <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup><sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.<span class="frise-statut">Fait établi</span></span></li><li><span class="frise-date">16 mai 2013</span><span class="frise-texte">La mère lance un appel devant les caméras pour qu'on lui rende sa fille <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.<span class="frise-statut">Fait établi</span></span></li><li><span class="frise-date">24 septembre 2013</span><span class="frise-texte">Le couple, installé à Perpignan, est placé en garde à vue par la police judiciaire ; tous deux reconnaissent que l'enfant est morte <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup><sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.<span class="frise-statut">Procédure</span></span></li><li><span class="frise-date">Fin septembre 2013</span><span class="frise-texte">Mise en examen et placement en détention provisoire des deux suspects ; premières fouilles sans résultat près du lac d'Aydat <sup class="appel"><a href="#source-13" id="appel-13">13</a></sup><sup class="appel"><a href="#source-14" id="appel-14">14</a></sup>.<span class="frise-statut">Procédure</span></span></li><li><span class="frise-date">13 mai 2014</span><span class="frise-texte">Dernière recherche du corps rapportée par la presse, sans résultat <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup>.<span class="frise-statut">Fait établi</span></span></li><li><span class="frise-date">Novembre 2016</span><span class="frise-texte">Cour d'assises du Puy-de-Dôme à Riom : la mère est acquittée des violences mortelles et condamnée à cinq ans pour quatre délits ; son compagnon est condamné à vingt ans. Le parquet fait appel <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup><sup class="appel"><a href="#source-5" id="appel-5">5</a></sup><sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.<span class="frise-statut">Décision de justice</span></span></li><li><span class="frise-date">9 octobre 2017</span><span class="frise-texte">Ouverture du procès en appel au Puy-en-Velay, renvoyé à janvier 2018 après un incident entre avocats <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup><sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.<span class="frise-statut">Procédure</span></span></li><li><span class="frise-date">10-11 février 2018</span><span class="frise-texte">Cour d'assises de la Haute-Loire : les deux accusés sont condamnés à vingt ans de réclusion <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup><sup class="appel"><a href="#source-9" id="appel-9">9</a></sup>.<span class="frise-statut">Décision de justice</span></span></li><li><span class="frise-date">20 février 2019</span><span class="frise-texte">La Cour de cassation annule l'arrêt ; la mère, qui avait purgé la peine de première instance, est libérée <sup class="appel"><a href="#source-4" id="appel-4">4</a></sup><sup class="appel"><a href="#source-6" id="appel-6">6</a></sup>.<span class="frise-statut">Décision de justice</span></span></li><li><span class="frise-date">1er-16 décembre 2020</span><span class="frise-texte">Cour d'assises du Rhône à Lyon, après deux reports : vingt ans pour la mère, dix-huit ans pour son ancien compagnon <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup><sup class="appel"><a href="#source-10" id="appel-10">10</a></sup>.<span class="frise-statut">Décision de justice</span></span></li><li><span class="frise-date">16 février 2022</span><span class="frise-texte">La Cour de cassation déclare non admis le pourvoi de la mère ; sa condamnation devient définitive <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup><sup class="appel"><a href="#source-8" id="appel-8">8</a></sup>.<span class="frise-statut">Décision de justice</span></span></li></ol>
+          <ol class="frise"><li><span class="frise-date">12 mai 2013</span><span class="frise-texte">La mère signale la disparition de l'enfant dans le parc Montjuzet, à Clermont-Ferrand ; d'importantes recherches sont lancées <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup><sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.</span><span class="frise-statut fait-etabli">Fait établi</span></li><li><span class="frise-date">16 mai 2013</span><span class="frise-texte">La mère lance un appel devant les caméras pour qu'on lui rende sa fille <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.</span><span class="frise-statut fait-etabli">Fait établi</span></li><li><span class="frise-date">24 septembre 2013</span><span class="frise-texte">Le couple, installé à Perpignan, est placé en garde à vue par la police judiciaire ; tous deux reconnaissent que l'enfant est morte <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup><sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.</span><span class="frise-statut">Procédure</span></li><li><span class="frise-date">Fin septembre 2013</span><span class="frise-texte">Mise en examen et placement en détention provisoire des deux suspects ; premières fouilles sans résultat près du lac d'Aydat <sup class="appel"><a href="#source-13" id="appel-13">13</a></sup><sup class="appel"><a href="#source-14" id="appel-14">14</a></sup>.</span><span class="frise-statut">Procédure</span></li><li><span class="frise-date">13 mai 2014</span><span class="frise-texte">Dernière recherche du corps rapportée par la presse, sans résultat <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup>.</span><span class="frise-statut fait-etabli">Fait établi</span></li><li><span class="frise-date">Novembre 2016</span><span class="frise-texte">Cour d'assises du Puy-de-Dôme à Riom : la mère est acquittée des violences mortelles et condamnée à cinq ans pour quatre délits ; son compagnon est condamné à vingt ans. Le parquet fait appel <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup><sup class="appel"><a href="#source-5" id="appel-5">5</a></sup><sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.</span><span class="frise-statut">Décision de justice</span></li><li><span class="frise-date">9 octobre 2017</span><span class="frise-texte">Ouverture du procès en appel au Puy-en-Velay, renvoyé à janvier 2018 après un incident entre avocats <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup><sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.</span><span class="frise-statut">Procédure</span></li><li><span class="frise-date">10-11 février 2018</span><span class="frise-texte">Cour d'assises de la Haute-Loire : les deux accusés sont condamnés à vingt ans de réclusion <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup><sup class="appel"><a href="#source-9" id="appel-9">9</a></sup>.</span><span class="frise-statut">Décision de justice</span></li><li><span class="frise-date">20 février 2019</span><span class="frise-texte">La Cour de cassation annule l'arrêt ; la mère, qui avait purgé la peine de première instance, est libérée <sup class="appel"><a href="#source-4" id="appel-4">4</a></sup><sup class="appel"><a href="#source-6" id="appel-6">6</a></sup>.</span><span class="frise-statut">Décision de justice</span></li><li><span class="frise-date">1er-16 décembre 2020</span><span class="frise-texte">Cour d'assises du Rhône à Lyon, après deux reports : vingt ans pour la mère, dix-huit ans pour son ancien compagnon <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup><sup class="appel"><a href="#source-10" id="appel-10">10</a></sup>.</span><span class="frise-statut">Décision de justice</span></li><li><span class="frise-date">16 février 2022</span><span class="frise-texte">La Cour de cassation déclare non admis le pourvoi de la mère ; sa condamnation devient définitive <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup><sup class="appel"><a href="#source-8" id="appel-8">8</a></sup>.</span><span class="frise-statut">Décision de justice</span></li></ol>
           <div class="graphique-pied"><p><strong>Source :</strong> Décisions judiciaires rapportées par la presse ; voir les sources du dossier</p></div>
           
         </figure>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Les sources divergent sur la date de la mise en examen. Une dépêche de l'AFP reprise par la DH le 28 septembre 2013 indique que le couple a été « mis en examen et écroué jeudi soir », soit le 26 septembre 2013 <sup class="appel"><a href="#source-13" id="appel-13">13</a></sup>. Lyon Capitale et 20 Minutes, dans des articles rétrospectifs de 2020 et 2023, datent la mise en examen du 22 octobre 2013, pour violences aggravées ayant entraîné la mort, non-assistance à personne en danger et recel ou dissimulation de cadavre <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup><sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>. Nous n'avons pas pu établir si la seconde date correspond à une mise en examen supplémentaire.</p>
         </aside>
-        <h2 id="les-proces">Les procès</h2>
+        <h2 id="les-proces"><span class="h2-num">5.</span> Les procès</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Le premier procès, devant la cour d'assises du Puy-de-Dôme à Riom, s'ouvre le 14 novembre 2016 et s'achève fin novembre, après deux semaines de débats. La mère est acquittée des violences ayant entraîné la mort et condamnée à cinq ans d'emprisonnement pour non-assistance à personne en danger, recel ou dissimulation de cadavre, modification de l'état des lieux d'un crime et dénonciation mensongère d'un crime ; son compagnon est condamné à vingt ans de réclusion. Trois jours plus tard, le parquet de Clermont-Ferrand fait appel <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-3" id="appel-3">3</a></sup><sup class="appel"><a href="#source-5" id="appel-5">5</a></sup><sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.</p>
         </aside>
@@ -144,7 +133,7 @@
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>À l'issue du verdict, l'avocat de la mère qualifie la peine d'« absurde, juridiquement » et annonce un pourvoi <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>. Ce pourvoi est déclaré non admis le 16 février 2022 ; il n'y a donc pas de cinquième procès <sup class="appel"><a href="#source-8" id="appel-8">8</a></sup>.</p>
         </aside>
-        <h2 id="ce-que-la-justice-a-etabli-et-ce-qu-elle-n-a-pas-etabli">Ce que la justice a établi et ce qu'elle n'a pas établi</h2>
+        <h2 id="ce-que-la-justice-a-etabli-et-ce-qu-elle-n-a-pas-etabli"><span class="h2-num">6.</span> Ce que la justice a établi et ce qu'elle n'a pas établi</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi<span class="precision">état de la procédure</span></span>
           <p>Ce qui est juridiquement établi, de façon définitive : la mère et son ancien compagnon ont été reconnus coupables de violences volontaires ayant entraîné la mort de l'enfant, la première condamnée à vingt ans, le second à dix-huit ans de réclusion criminelle <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup><sup class="appel"><a href="#source-8" id="appel-8">8</a></sup>. Le procès de 2018, qui avait qualifié les faits de violences sur mineur de moins de 15 ans, en réunion, a été annulé et ne produit plus d'effet <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-4" id="appel-4">4</a></sup>.</p>
         </aside>
@@ -163,14 +152,14 @@
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation</span>
           <p>Après le verdict de 2018, le président de la cour d'assises de la Haute-Loire avait résumé la difficulté du dossier : « Les mensonges, les incohérences, la variabilité n'ont pas permis d'appréhender le contexte exact du décès » <sup class="appel"><a href="#source-9" id="appel-9">9</a></sup>. Les condamnations reposent donc sur l'appréciation globale des déclarations et des circonstances par trois cours d'assises successives, qui en ont tiré des conclusions différentes pour la mère.</p>
         </aside>
-        <h2 id="ce-qui-reste-incertain">Ce qui reste incertain</h2>
+        <h2 id="ce-qui-reste-incertain"><span class="h2-num">7.</span> Ce qui reste incertain</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Les cours d'assises successives ont apprécié différemment le rôle de la mère : acquittée des violences mortelles en première instance, elle a été condamnée à vingt ans de réclusion lors des deux procès suivants <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup><sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</p>
         </aside>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>À Lyon, la mère a été condamnée à une peine plus lourde que son ancien compagnon. L'avocat général avait soutenu que les deux accusés avaient tué l'enfant « en agissant de manière différente mais complémentaire » ; l'avocat du père de l'enfant, partie civile, s'est félicité que la « co-action » ait été retenue par les jurés <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup><sup class="appel"><a href="#source-10" id="appel-10">10</a></sup>. Les raisons précises de l'écart de peine figurent dans la feuille de motivation, que nous n'avons pas consultée.</p>
         </aside>
-        <h2 id="ce-qui-fait-debat">Ce qui fait débat</h2>
+        <h2 id="ce-qui-fait-debat"><span class="h2-num">8.</span> Ce qui fait débat</h2>
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation<span class="precision">lectures divergentes</span></span>
           <p>Sur la cassation de 2019, les avocats de la mère y ont vu « la victoire du droit et des principes cardinaux de notre procédure pénale, sur les a priori et fantasmes véhiculés par l'opinion publique » <sup class="appel"><a href="#source-6" id="appel-6">6</a></sup>. L'argument repose sur un principe général : une demande de renvoi touchant à l'impartialité de la juridiction doit recevoir une réponse motivée, quelle que soit la gravité des faits jugés. C'est le seul moyen retenu par la Cour de cassation <sup class="appel"><a href="#source-4" id="appel-4">4</a></sup>.</p>
         </aside>
@@ -180,13 +169,13 @@
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation</span>
           <p>L'affaire illustre une tension propre au procès d'assises fortement médiatisé : l'émotion publique, née d'un appel à témoins qui s'est révélé mensonger, a pesé sur le climat des audiences, au point que des incidents entre avocats ou entre le président et des parties ont conduit à un renvoi en 2017 puis à une cassation en 2019 <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup><sup class="appel"><a href="#source-6" id="appel-6">6</a></sup><sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>. L'écrivaine Dalie Farah, autrice d'un livre sur l'affaire, estime que celle-ci a touché « les tabous de la maternité et de l'infanticide » <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>. Il s'agit d'une analyse d'autrice, non d'un constat judiciaire.</p>
         </aside>
-        <h2 id="ce-que-l-affaire-a-change">Ce que l'affaire a changé</h2>
+        <h2 id="ce-que-l-affaire-a-change"><span class="h2-num">9.</span> Ce que l'affaire a changé</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Nous n'avons trouvé aucune source attribuant à l'affaire Fiona une réforme législative ou une modification des pratiques judiciaires. Les règles qui ont structuré son parcours, l'appel criminel de 2000 et la motivation des arrêts d'assises de 2011, lui sont antérieures <sup class="appel"><a href="#source-11" id="appel-11">11</a></sup><sup class="appel"><a href="#source-12" id="appel-12">12</a></sup>.</p>
         </aside>
-        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas"><span class="h2-num">10.</span> Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>Le déroulement exact des faits</strong>, établi par les cours d'assises à partir de déclarations contradictoires des deux accusés.</li><li><strong>Le lieu où se trouve le corps</strong> de l'enfant, jamais retrouvé <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup><sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.</li><li><strong>La cause médicale précise du décès</strong>, faute d'autopsie <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li><strong>Le contenu des feuilles de motivation</strong> des cours d'assises, qui expliqueraient les écarts entre verdicts ; nous ne les avons pas trouvées publiées.</li><li><strong>La date exacte de la mise en examen</strong> (26 septembre ou 22 octobre 2013 selon les sources) et le caractère définitif, à une date précise, de la condamnation de l'ancien compagnon <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup><sup class="appel"><a href="#source-8" id="appel-8">8</a></sup><sup class="appel"><a href="#source-13" id="appel-13">13</a></sup>.</li></ul>
-        <h2 id="sources">Sources</h2>
+        <h2 id="sources"><span class="h2-num">11.</span> Sources</h2>
         <ol class="sources">
           <li id="source-1">Source secondaire : Wikipédia, « Affaire Fiona », encyclopédie collaborative, consultée le 11 octobre 2026. <a href="https://fr.wikipedia.org/wiki/Affaire_Fiona" rel="noopener">fr.wikipedia.org/wiki/Affaire_Fiona</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">ICI (ex-France Bleu), Olivier Vidal et Xavier Louvel, « Affaire Fiona : Cécile Bourgeon et Berkane Makhlouf coupables, condamnés à 20 ans et 18 ans de prison », 16 décembre 2020. <a href="https://www.ici.fr/infos/faits-divers-justice/affaire-fiona-le-verdict-pour-cecile-bourgeon-et-berkane-makhlouf-1608048902" rel="noopener">www.ici.fr/infos/faits-divers-justice/affaire-fiona-le-verdict-pour-cecile-bourgeon-et-berkane-makhlouf-1608048902</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
@@ -205,18 +194,44 @@
           <li id="source-15">data.gouv.fr, « Cour de cassation », page de présentation de l'organisation, consultée le 16 octobre 2026. <a href="https://www.data.gouv.fr/organizations/cour-de-cassation/information" rel="noopener">www.data.gouv.fr/organizations/cour-de-cassation/information</a> <a href="#appel-15" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-16">Actu-Juridique, « Le juge du non-lieu et le juge de la nullité apprécient souverainement à leur niveau les indices graves ou concordants pouvant justifier une mise en examen », 13 décembre 2016. <a href="https://www.actu-juridique.fr/civil/le-juge-du-non-lieu-et-le-juge-de-la-nullite-apprecient-souverainement-a-leur-niveau-les-indices-graves-ou-concordants-pouvant-justifier-une-mise-en-examen/" rel="noopener">www.actu-juridique.fr/civil/le-juge-du-non-lieu-et-le-juge-de-la-nullite-apprecient-souverainement-a-leur-niveau-les-indices-graves-ou-concordants-pouvant-justifier-une-mise-en-examen/</a> <a href="#appel-16" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2 id="historique">Historique</h2>
+        <h2 id="historique"><span class="h2-num">12.</span> Historique</h2>
         <ul class="historique" id="corrections"><li>8 octobre 2026 : première publication.</li><li>11 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Le procès en appel de 2018 avait aussi condamné le compagnon à vingt ans, ce que le dossier omettait ; les dates de l'arrêt de cassation (20 février 2019) et du rejet du dernier pourvoi (février 2022), ainsi que les juridictions et qualifications, ont été précisées. Le 16 octobre 2026, le dossier a été approfondi : procédure expliquée (appel criminel, motivation, cassation), chronologie détaillée, distinction entre déclarations, expertise et éléments matériels, motifs de la cassation de 2019, débats sur le déroulement des procès et questions ouvertes ; la date du verdict d'appel de 2018 est précisée (nuit du 10 au 11 février) et la date de mise en examen, divergente selon les sources, est signalée.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
-      </div>
-      </div>
     </div>
   </article>
   <section class="section a-lire-aussi">
     <div class="conteneur">
-      <h2>À lire aussi</h2>
-      <div class="portes"><a class="porte c-affaires" href="dossier-outreau.html"><span class="porte-image"><img src="assets/images/outreau.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Outreau : comment une erreur judiciaire collective s'est produite</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-troadec.html"><span class="porte-image"><img src="assets/images/troadec.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Affaire Troadec : ce que le procès a tranché</h3><span class="suite">Lire le dossier</span></a><a class="porte c-affaires" href="dossier-flactif.html"><span class="porte-image"><img src="assets/images/flactif.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Affaire Flactif : ce que la justice a établi</h3><span class="suite">Lire le dossier</span></a></div>
-      <p class="retour-rubrique"><a href="affaires-enquetes.html">Tous les dossiers de la rubrique Affaires &amp; Enquêtes</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+      <div class="titre-section"><h2>À lire aussi</h2><a class="lien-fleche" href="affaires-enquetes.html">Tous les dossiers Affaires &amp; Enquêtes<svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a></div>
+      <div class="grille-cartes grille-3">
+        <article class="carte c-affaires">
+          <a href="dossier-outreau.html">
+            <span class="carte-image"><img src="assets/images/outreau.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Affaires &amp; Enquêtes</span>
+              <h3 class="carte-titre">Outreau : comment une erreur judiciaire collective s'est produite</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>16 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-affaires">
+          <a href="dossier-troadec.html">
+            <span class="carte-image"><img src="assets/images/troadec.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Affaires &amp; Enquêtes</span>
+              <h3 class="carte-titre">Affaire Troadec : ce que le procès a tranché</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>14 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-affaires">
+          <a href="dossier-flactif.html">
+            <span class="carte-image"><img src="assets/images/flactif.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Affaires &amp; Enquêtes</span>
+              <h3 class="carte-titre">Affaire Flactif : ce que la justice a établi</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>12 min</span></span>
+            </span>
+          </a>
+        </article>
+      </div>
     </div>
   </section>
 </main>

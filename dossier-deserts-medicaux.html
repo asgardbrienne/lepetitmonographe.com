@@ -19,80 +19,69 @@
   <link rel="stylesheet" href="assets/style.css">
   <script>try{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 </head>
-<body>
+<body class="page-article">
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur entete-haut">
-    <form class="recherche-entete" action="dossiers.html" method="get" role="search">
-      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="Rechercher un dossier, un sujet…" aria-label="Rechercher un dossier">
-    </form>
-    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="44" height="44"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-sous">Documents <em>&amp;</em> enquêtes</span></span></a>
-    <div class="actions">
-      <a class="bouton-rond bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
-      <button class="bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><span class="theme-curseur" aria-hidden="true"></span><svg class="theme-lune" viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="currentColor"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
-      <a class="bouton-abonner" href="index.html#lettre">S'abonner</a>
-      <button class="bouton-rond bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <button class="bouton-icone bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <a class="logo" href="./"><img class="logo-img" src="assets/monogramme.png" alt="" width="48" height="48"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="48" height="48"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-devise">Les faits d'abord. L'opinion reste au lecteur.</span></span></a>
+    <div class="entete-droite">
+      <form class="recherche-entete" action="dossiers.html" method="get" role="search">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <input type="search" name="q" placeholder="Rechercher…" aria-label="Rechercher un dossier">
+      </form>
+      <button class="bouton-icone bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><svg class="theme-lune" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+      <a class="bouton-icone bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
     </div>
   </div>
   <nav class="nav" id="menu-principal" aria-label="Navigation principale">
-    <div class="conteneur nav-liens">
-      <a href="./">À la une</a>
-      <a href="politique-institutions.html">Politique</a>
-      <a href="economie-societe.html">Économie &amp; Société</a>
-      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
-      <a href="livres.html">Livres</a>
-      <a href="methode.html">Méthode</a>
+    <div class="conteneur nav-barre">
+      <ul class="nav-liens">
+        <li><a href="./">Accueil</a></li>
+        <li><a href="dossiers.html" aria-current="page">Enquêtes</a></li>
+        <li><a href="livres.html">Monographies</a></li>
+        <li class="nav-deroulant"><details><summary>Rubriques<svg viewBox="0 0 10 6" width="9" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></summary><ul><li><a href="politique-institutions.html">Politique &amp; Institutions</a></li><li><a href="economie-societe.html">Économie &amp; Société</a></li><li><a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a></li></ul></details></li>
+        <li><a href="methode.html">Méthode</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+      </ul>
+      <button class="bouton-theme nav-theme lien-fleche" type="button">Changer l'apparence (clair ou sombre)</button>
+      <a class="bouton-lettre" href="./#lettre">Newsletter</a>
     </div>
   </nav>
 </header>
 
 <main id="contenu">
-  <section class="tete-page tete-dossier c-economie">
-    <div class="conteneur">
-      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="economie-societe.html">Économie &amp; Société</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
-      <div class="tete-dossier-grille">
-        <div class="tete-dossier-texte">
-          <p class="surtitre"><span class="or">Dossier</span> · Économie &amp; Société</p>
-          <h1>Déserts médicaux : pourquoi certains territoires manquent de médecins</h1>
-          <span class="filet-or" aria-hidden="true"></span>
-          <p class="chapeau">Le nombre total de médecins augmente, mais l'accès à un généraliste a encore reculé en 2024 selon la Drees. Les causes sont documentées ; les remèdes font débat.</p>
-          <p class="meta-dossier">Lecture : 6 min · Publié le 8 octobre 2026 · 10 sources · Vérifié le 13 octobre 2026</p>
+  <article class="article c-economie">
+    <header class="article-tete conteneur-article">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a><span aria-hidden="true">›</span><a href="economie-societe.html">Économie &amp; Société</a><span aria-hidden="true">›</span><span aria-current="page">Déserts médicaux</span></nav>
+      <p class="article-meta"><a class="article-rubrique" href="economie-societe.html">Économie &amp; Société</a><time datetime="2026-10-08">8 oct. 2026</time><span>6 min<span class="mobile-cache"> de lecture</span></span></p>
+      <h1>Déserts médicaux : pourquoi certains territoires manquent de médecins</h1>
+      <p class="article-chapeau">Le nombre total de médecins augmente, mais l'accès à un généraliste a encore reculé en 2024 selon la Drees. Les causes sont documentées ; les remèdes font débat.</p>
+      <div class="article-signature">
+        <span class="avatar" aria-hidden="true"><img class="logo-img" src="assets/monogramme.png" alt="" width="40" height="40"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="40" height="40"></span>
+        <p><strong>Par Le Petit Monographe</strong><span>Mis à jour : 13 octobre 2026 · Données arrêtées au 8 octobre 2026 · 10 sources</span></p>
+        <div class="article-outils">
+          <button type="button" class="bouton-icone" data-action="imprimer" aria-label="Imprimer ou enregistrer en PDF" title="Imprimer ou enregistrer en PDF"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="copier" aria-label="Copier le lien du dossier" title="Copier le lien"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3.5-3.5a4 4 0 0 0-5.7-5.7l-1.2 1.2M14 10a4 4 0 0 0-5.7 0l-3.5 3.5a4 4 0 0 0 5.7 5.7l1.2-1.2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="partager" aria-label="Partager ce dossier" title="Partager"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.5"/></svg></button>
         </div>
-        <figure class="tete-dossier-image"><img src="assets/images/deserts-medicaux.jpg" alt="Paysage de campagne française avec un village au loin" loading="eager"><figcaption>Photo : <a href="https://www.flickr.com/photos/22768390@N00/168426022" target="_blank" rel="noopener">nikoretro, CC BY-SA 2.0, recadrée, Flickr</a></figcaption></figure>
       </div>
-      <ul class="garanties"><li class="garantie garantie-verifie"><strong>Faits vérifiés</strong><span>Chiffres, dates et décisions relus sur les sources le 13 octobre 2026.</span></li><li class="garantie garantie-sources"><strong>Sources citées</strong><span>10 documents identifiés, avec leur lien.</span></li><li class="garantie garantie-independant"><strong>Analyse indépendante</strong><span>Aucune affiliation partisane ; arguments contraires présentés.</span></li><li class="garantie garantie-maj"><strong>Données arrêtées</strong><span>Au 8 octobre 2026.</span></li></ul>
-    </div>
-  </section>
-
-  <article class="section dossier">
-    <div class="conteneur">
-      <nav class="puces-dossier" aria-label="Accès rapide"><a href="#synthese">Synthèse</a><a href="#sources">Sources</a><a href="#corrections">Corrections</a></nav>
-      <div class="dossier-grille">
-        <aside class="dossier-cote"><details class="sommaire" open>
-          <summary>Dans ce dossier</summary>
-          <ol><li><a href="#comment-on-mesure-un-desert-medical">Comment on mesure un « désert médical »</a></li><li><a href="#pourquoi-il-manque-des-medecins">Pourquoi il manque des médecins</a></li><li><a href="#les-solutions-en-debat">Les solutions en débat</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
-        </details>
-        <div class="cote-actions">
-          <button type="button" class="bouton-cote" data-action="imprimer"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Enregistrer en PDF<small>ou imprimer le dossier</small></span></button>
-          <button type="button" class="bouton-cote" data-action="partager"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.6"/></svg><span>Partager ce dossier</span></button>
-        </div>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Nos sources (10)</h2><a href="#sources">Voir toutes les sources</a></div>
-          <ol class="cote-sources"><li>Source secondaire : Infirmiers.com, « Infirmiers, médecins généralistes... l'accessibilité recule légèrement e…</li><li>Drees, « L'indicateur d'accessibilité potentielle localisée (APL) aux principaux professionnels de soins de pr…</li><li>Source secondaire : Banque des Territoires (Localtis), Caroline Megglé, « "Le nombre de médecins augmente à un…</li><li>Source secondaire : Santé Orientation, « Numerus apertus médecine 2026 : chiffres, facultés et impact sur l'ac…</li></ol>
-        </section>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Corrections</h2><a href="contact.html">Signaler une erreur</a></div>
-          <p>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Le chiffre de 12,3 millions d'habitants sous le seuil de 2,5 consultations, introuvable dans une source vérifiable, a été retiré au profit d…</p>
-        </section></aside>
-        <div class="prose">
-
-        <aside class="essentiel" id="synthese">
-          <p class="surtitre">Synthèse</p>
+      <figure class="article-image">
+        <img src="assets/images/deserts-medicaux.jpg" alt="Paysage de campagne française avec un village au loin" width="1200" height="600" loading="eager">
+        <figcaption>Paysage de campagne française avec un village au loin. Photo : <a href="https://www.flickr.com/photos/22768390@N00/168426022" target="_blank" rel="noopener">nikoretro, CC BY-SA 2.0, recadrée, Flickr</a></figcaption>
+      </figure>
+    </header>
+    <div class="conteneur-article article-corps prose">
+        <nav class="sommaire" aria-labelledby="sommaire-titre">
+          <p class="sommaire-titre" id="sommaire-titre"><svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>Sommaire</p>
+          <ol style="--lignes:4"><li><a href="#en-resume">En résumé</a></li><li><a href="#comment-on-mesure-un-desert-medical">Comment on mesure un « désert médical »</a></li><li><a href="#pourquoi-il-manque-des-medecins">Pourquoi il manque des médecins</a></li><li><a href="#les-solutions-en-debat">Les solutions en débat</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </nav>
+        <aside class="en-resume" id="en-resume">
+          <h2 class="en-resume-titre">En résumé</h2>
           <ul><li>Selon la Drees, l'accessibilité moyenne aux médecins généralistes est de 3,3 consultations par an et par habitant en 2024, en baisse de 1,1 % sur un an ; les 10 % de la population les mieux dotés ont une accessibilité 4,3 fois supérieure à celle des 10 % les moins dotés <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>La France compte 242 000 médecins en activité au 1er janvier 2026, soit 5 000 de plus en un an ; le nombre de généralistes (101 000) progresse de 1 % en un an après avoir diminué de 2018 à 2024 <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</li><li>La hausse du nombre de places en études de médecine ne produit ses effets qu'avec un décalage de plusieurs années, le temps de la formation.</li><li>La régulation de l'installation des médecins, prévue par la proposition de loi Garot, oppose ses partisans, parmi lesquels de nombreux élus, et les organisations de médecins. Son examen au Sénat n'est pas achevé <sup class="appel"><a href="#source-6" id="appel-6">6</a></sup>.</li></ul>
         </aside>
-        <h2 id="comment-on-mesure-un-desert-medical">Comment on mesure un « désert médical »</h2>
+        <h2 id="comment-on-mesure-un-desert-medical"><span class="h2-num">2.</span> Comment on mesure un « désert médical »</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>La Drees mesure l'accès aux médecins par un indicateur appelé « accessibilité potentielle localisée » (APL), développé avec l'Irdes. Calculé pour chaque commune, il tient compte du nombre de médecins proches et de ceux des communes voisines, de leur activité et des besoins de la population selon son âge ; il s'exprime en consultations accessibles par an et par habitant <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</p>
         </aside>
@@ -102,7 +91,7 @@
         <aside class="encadre"><span class="etiquette etiquette-note">À noter</span>
           <p>La Drees indique que l'APL repose sur une population standardisée et ne mesure pas l'évolution des besoins liée au vieillissement global ; elle déconseille d'analyser l'évolution de l'indicateur sans précaution <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>. Il n'existe pas de définition légale unique du désert médical : les zonages des agences régionales de santé, utilisés pour les aides à l'installation, reposent sur d'autres critères et donnent des chiffres beaucoup plus élevés, qui ne sont pas comparables à l'APL.</p>
         </aside>
-        <h2 id="pourquoi-il-manque-des-medecins">Pourquoi il manque des médecins</h2>
+        <h2 id="pourquoi-il-manque-des-medecins"><span class="h2-num">3.</span> Pourquoi il manque des médecins</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>De 1971 à 2020, le nombre d'étudiants admis en deuxième année de médecine était limité par un quota national, le numerus clausus, remplacé à la rentrée 2020 par un « numerus apertus » : chaque université fixe ses capacités d'accueil selon des objectifs pluriannuels <sup class="appel"><a href="#source-4" id="appel-4">4</a></sup>. La loi n° 2025-580 du 27 juin 2025, dite loi Neuder, ne supprime pas ce système mais le modifie : les besoins de santé du territoire deviennent le critère prioritaire, les capacités de formation n'étant prises en compte qu'« à titre subsidiaire » <sup class="appel"><a href="#source-5" id="appel-5">5</a></sup>. Le gouvernement l'avait présentée comme la « fin du numerus apertus » <sup class="appel"><a href="#source-7" id="appel-7">7</a></sup>.</p>
         </aside>
@@ -115,16 +104,16 @@
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation</span>
           <p>Le faible nombre de médecins formés pendant plusieurs décennies, le départ à la retraite des médecins nés après-guerre, l'aspiration des nouveaux médecins à des horaires plus réguliers et au travail en groupe, et l'attractivité inégale des territoires sont les causes le plus souvent avancées. Leur poids respectif n'est pas établi.</p>
         </aside>
-        <h2 id="les-solutions-en-debat">Les solutions en débat</h2>
+        <h2 id="les-solutions-en-debat"><span class="h2-num">4.</span> Les solutions en débat</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>La proposition de loi dite Garot, adoptée en première lecture par l'Assemblée nationale le 7 mai 2025 par 99 voix contre 9, prévoit de soumettre l'installation des médecins à une autorisation de l'agence régionale de santé : dans les zones déjà bien pourvues, elle serait conditionnée au départ d'un confrère <sup class="appel"><a href="#source-8" id="appel-8">8</a></sup>. Au Sénat, la commission des affaires sociales a réécrit l'article 1er pour conditionner l'installation hors zone sous-dense à un engagement d'exercice partiel en zone sous-dotée ; le 11 juin 2026, les sénateurs ont adopté cet article 1er par 215 voix contre 118, mais l'examen du texte n'a pas pu aboutir et a été reporté sans date <sup class="appel"><a href="#source-6" id="appel-6">6</a></sup> <sup class="appel"><a href="#source-9" id="appel-9">9</a></sup>.</p>
         </aside>
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation<span class="precision">lectures divergentes</span></span>
           <p>Les partisans de la régulation soulignent que les mesures incitatives, aides financières et maisons de santé, n'ont pas suffi à résorber les inégalités, et que d'autres professions de santé, comme les pharmaciens ou les infirmiers, connaissent déjà des règles d'installation. Les opposants, dont le Conseil national de l'Ordre des médecins, estiment que la régulation « ne répond pas aux difficultés d'accès aux soins » et risque d'affaiblir les vocations et l'attractivité de l'exercice libéral ; ils privilégient l'incitation et l'organisation coordonnée des soins <sup class="appel"><a href="#source-10" id="appel-10">10</a></sup>.</p>
         </aside>
-        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas"><span class="h2-num">5.</span> Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>L'effet de la régulation</strong>, faute d'évaluation d'expériences comparables en France pour les médecins.</li><li><strong>Le délai réel d'amélioration</strong> lié à la hausse du nombre d'étudiants, qui dépend aussi de leurs choix de spécialité et de lieu d'exercice.</li><li><strong>Le renoncement aux soins</strong> qui en résulte, mal mesuré.</li><li><strong>L'issue de la proposition de loi Garot</strong>, dont l'examen au Sénat n'a pas repris à la date d'arrêt des données.</li></ul>
-        <h2 id="sources">Sources</h2>
+        <h2 id="sources"><span class="h2-num">6.</span> Sources</h2>
         <ol class="sources">
           <li id="source-1">Source secondaire : Infirmiers.com, « Infirmiers, médecins généralistes... l'accessibilité recule légèrement en 2024 », 23 juillet 2026, d'après la publication de la Drees « Accessibilité aux soins de premier recours en 2024 » (juillet 2026). <a href="https://www.infirmiers.com/profession-ide/infirmiers-medecins-generalistes-laccessibilite-recule-legerement-en-2024" rel="noopener">www.infirmiers.com/profession-ide/infirmiers-medecins-generalistes-laccessibilite-recule-legerement-en-2024</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Drees, « L'indicateur d'accessibilité potentielle localisée (APL) aux principaux professionnels de soins de premier recours : évolution des paramètres utilisés », note méthodologique, juillet 2026. <a href="https://data.drees.solidarites-sante.gouv.fr/api/datasets/1.0/530_l-accessibilite-potentielle-localisee-apl/attachments/apl_lisez_moi_pdf" rel="noopener">data.drees.solidarites-sante.gouv.fr/api/datasets/1.0/530_l-accessibilite-potentielle-localisee-apl/attachments/apl_lisez_moi_pdf</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
@@ -137,18 +126,44 @@
           <li id="source-9">Sénat, compte rendu intégral de la séance du 11 juin 2026, « Lutter contre les déserts médicaux ». <a href="https://www.senat.fr/seances/s202606/s20260611/s20260611006.html" rel="noopener">www.senat.fr/seances/s202606/s20260611/s20260611006.html</a> <a href="#appel-9" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-10">Conseil national de l'Ordre des médecins, communiqué « PPL Garot : l'amélioration de l'accès aux soins ne passera pas par la coercition », mis à jour le 21 mai 2026. <a href="https://www.conseil-national.medecin.fr/publications/communiques-presse/ppl-garot-lamelioration-lacces-soins-passera-coercition" rel="noopener">www.conseil-national.medecin.fr/publications/communiques-presse/ppl-garot-lamelioration-lacces-soins-passera-coercition</a> <a href="#appel-10" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2 id="historique">Historique</h2>
+        <h2 id="historique"><span class="h2-num">7.</span> Historique</h2>
         <ul class="historique" id="corrections"><li>8 octobre 2026 : première publication.</li><li>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Le chiffre de 12,3 millions d'habitants sous le seuil de 2,5 consultations, introuvable dans une source vérifiable, a été retiré au profit des indicateurs publiés par la Drees ; la loi du 27 juin 2025 modifie le numerus apertus sans le supprimer ; l'état d'examen de la proposition de loi Garot au Sénat a été précisé.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
-      </div>
-      </div>
     </div>
   </article>
   <section class="section a-lire-aussi">
     <div class="conteneur">
-      <h2>À lire aussi</h2>
-      <div class="portes"><a class="porte c-economie" href="dossier-chomage-emploi.html"><span class="porte-image"><img src="assets/images/dossier-chomage-emploi.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-dette-publique.html"><span class="porte-image"><img src="assets/images/dette-publique.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>La dette publique française : niveau, coût et risques</h3><span class="suite">Lire le dossier</span></a><a class="porte c-economie" href="dossier-budget-2027.html"><span class="porte-image"><img src="assets/images/budget-2027.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</h3><span class="suite">Lire le dossier</span></a></div>
-      <p class="retour-rubrique"><a href="economie-societe.html">Tous les dossiers de la rubrique Économie &amp; Société</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+      <div class="titre-section"><h2>À lire aussi</h2><a class="lien-fleche" href="economie-societe.html">Tous les dossiers Économie &amp; Société<svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a></div>
+      <div class="grille-cartes grille-3">
+        <article class="carte c-economie">
+          <a href="dossier-chomage-emploi.html">
+            <span class="carte-image"><img src="assets/images/dossier-chomage-emploi.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Économie &amp; Société</span>
+              <h3 class="carte-titre">Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>8 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-economie">
+          <a href="dossier-dette-publique.html">
+            <span class="carte-image"><img src="assets/images/dette-publique.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Économie &amp; Société</span>
+              <h3 class="carte-titre">La dette publique française : niveau, coût et risques</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>9 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-economie">
+          <a href="dossier-budget-2027.html">
+            <span class="carte-image"><img src="assets/images/budget-2027.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Économie &amp; Société</span>
+              <h3 class="carte-titre">Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>7 min</span></span>
+            </span>
+          </a>
+        </article>
+      </div>
     </div>
   </section>
 </main>

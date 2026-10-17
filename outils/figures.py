@@ -60,8 +60,9 @@ def rendre(fig, numero, inline):
         for r in fig["donnees"]:
             date, evt = r[0], r[1] if len(r) > 1 else ""
             statut = r[2] if len(r) > 2 else ""
-            badge = f'<span class="frise-statut">{html.escape(statut)}</span>' if statut else ""
-            items.append(f'<li><span class="frise-date">{html.escape(date)}</span><span class="frise-texte">{inline(evt)}{badge}</span></li>')
+            cls = " fait-etabli" if statut.lower() == "fait établi" else ""
+            badge = f'<span class="frise-statut{cls}">{html.escape(statut)}</span>' if statut else ""
+            items.append(f'<li><span class="frise-date">{html.escape(date)}</span><span class="frise-texte">{inline(evt)}</span>{badge}</li>')
         corps = f'<ol class="frise">{"".join(items)}</ol>'
     else:
         series = [s.strip() for s in fig.get("series", "").split("|") if s.strip()] or [fig.get("titre", "")]

@@ -19,84 +19,73 @@
   <link rel="stylesheet" href="assets/style.css">
   <script>try{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
 </head>
-<body>
+<body class="page-article">
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
 <header class="entete">
   <div class="conteneur entete-haut">
-    <form class="recherche-entete" action="dossiers.html" method="get" role="search">
-      <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="Rechercher un dossier, un sujet…" aria-label="Rechercher un dossier">
-    </form>
-    <a class="logo" href="./"><img src="assets/monogramme.png" alt="" width="44" height="44"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-sous">Documents <em>&amp;</em> enquêtes</span></span></a>
-    <div class="actions">
-      <a class="bouton-rond bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
-      <button class="bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><span class="theme-curseur" aria-hidden="true"></span><svg class="theme-lune" viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="currentColor"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
-      <a class="bouton-abonner" href="index.html#lettre">S'abonner</a>
-      <button class="bouton-rond bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <button class="bouton-icone bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Menu"><span class="bouton-menu-barres" aria-hidden="true"></span></button>
+    <a class="logo" href="./"><img class="logo-img" src="assets/monogramme.png" alt="" width="48" height="48"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="48" height="48"><span class="logo-texte"><span class="logo-nom">Le Petit Monographe</span><span class="logo-devise">Les faits d'abord. L'opinion reste au lecteur.</span></span></a>
+    <div class="entete-droite">
+      <form class="recherche-entete" action="dossiers.html" method="get" role="search">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <input type="search" name="q" placeholder="Rechercher…" aria-label="Rechercher un dossier">
+      </form>
+      <button class="bouton-icone bouton-theme" type="button" aria-label="Changer l'apparence (clair ou sombre)"><svg class="theme-lune" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><svg class="theme-soleil" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+      <a class="bouton-icone bouton-loupe" href="dossiers.html#recherche" aria-label="Rechercher un dossier"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></a>
     </div>
   </div>
   <nav class="nav" id="menu-principal" aria-label="Navigation principale">
-    <div class="conteneur nav-liens">
-      <a href="./">À la une</a>
-      <a href="politique-institutions.html">Politique</a>
-      <a href="economie-societe.html">Économie &amp; Société</a>
-      <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
-      <a href="livres.html">Livres</a>
-      <a href="methode.html">Méthode</a>
+    <div class="conteneur nav-barre">
+      <ul class="nav-liens">
+        <li><a href="./">Accueil</a></li>
+        <li><a href="dossiers.html" aria-current="page">Enquêtes</a></li>
+        <li><a href="livres.html">Monographies</a></li>
+        <li class="nav-deroulant"><details><summary>Rubriques<svg viewBox="0 0 10 6" width="9" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></summary><ul><li><a href="politique-institutions.html">Politique &amp; Institutions</a></li><li><a href="economie-societe.html">Économie &amp; Société</a></li><li><a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a></li></ul></details></li>
+        <li><a href="methode.html">Méthode</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+      </ul>
+      <button class="bouton-theme nav-theme lien-fleche" type="button">Changer l'apparence (clair ou sombre)</button>
+      <a class="bouton-lettre" href="./#lettre">Newsletter</a>
     </div>
   </nav>
 </header>
 
 <main id="contenu">
-  <section class="tete-page tete-dossier c-pouvoirs">
-    <div class="conteneur">
-      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a> <span aria-hidden="true">›</span> <a href="politique-institutions.html">Politique &amp; Institutions</a> <span aria-hidden="true">›</span> <span aria-current="page">Dossier</span></nav>
-      <div class="tete-dossier-grille">
-        <div class="tete-dossier-texte">
-          <p class="surtitre"><span class="or">Dossier</span> · Politique &amp; Institutions</p>
-          <h1>Immigration et finances publiques : ce que disent les études</h1>
-          <span class="filet-or" aria-hidden="true"></span>
-          <p class="chapeau">Des chiffres de plusieurs dizaines de milliards d'euros de « coût de l'immigration » circulent dans le débat public. Dans leurs scénarios principaux, les études du CEPII et de l'OCDE aboutissent à un impact budgétaire net faible, positif ou négatif selon les hypothèses retenues.</p>
-          <p class="meta-dossier">Lecture : 5 min · Publié le 8 octobre 2026 · 4 sources · Vérifié le 13 octobre 2026</p>
+  <article class="article c-pouvoirs">
+    <header class="article-tete conteneur-article">
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a><span aria-hidden="true">›</span><a href="politique-institutions.html">Politique &amp; Institutions</a><span aria-hidden="true">›</span><span aria-current="page">Immigration et finances publiques</span></nav>
+      <p class="article-meta"><a class="article-rubrique" href="politique-institutions.html">Politique</a><time datetime="2026-10-08">8 oct. 2026</time><span>5 min<span class="mobile-cache"> de lecture</span></span></p>
+      <h1>Immigration et finances publiques : ce que disent les études</h1>
+      <p class="article-chapeau">Des chiffres de plusieurs dizaines de milliards d'euros de « coût de l'immigration » circulent dans le débat public. Dans leurs scénarios principaux, les études du CEPII et de l'OCDE aboutissent à un impact budgétaire net faible, positif ou négatif selon les hypothèses retenues.</p>
+      <div class="article-signature">
+        <span class="avatar" aria-hidden="true"><img class="logo-img" src="assets/monogramme.png" alt="" width="40" height="40"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="40" height="40"></span>
+        <p><strong>Par Le Petit Monographe</strong><span>Mis à jour : 13 octobre 2026 · Données arrêtées au 8 octobre 2026 · 4 sources</span></p>
+        <div class="article-outils">
+          <button type="button" class="bouton-icone" data-action="imprimer" aria-label="Imprimer ou enregistrer en PDF" title="Imprimer ou enregistrer en PDF"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="copier" aria-label="Copier le lien du dossier" title="Copier le lien"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3.5-3.5a4 4 0 0 0-5.7-5.7l-1.2 1.2M14 10a4 4 0 0 0-5.7 0l-3.5 3.5a4 4 0 0 0 5.7 5.7l1.2-1.2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></button>
+          <button type="button" class="bouton-icone" data-action="partager" aria-label="Partager ce dossier" title="Partager"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.5"/></svg></button>
         </div>
-        <figure class="tete-dossier-image"><img src="assets/images/immigration-finances.jpg" alt="Liasses de billets de 20 et 50 euros" loading="eager"><figcaption>Photo : <a href="https://commons.wikimedia.org/wiki/File:20_and_50_Euro_banknote_straps_delivered_by_G4S.jpg" target="_blank" rel="noopener">BrayLockBoy, CC BY-SA 4.0, recadrée, Wikimedia Commons</a></figcaption></figure>
       </div>
-      <ul class="garanties"><li class="garantie garantie-verifie"><strong>Faits vérifiés</strong><span>Chiffres, dates et décisions relus sur les sources le 13 octobre 2026.</span></li><li class="garantie garantie-sources"><strong>Sources citées</strong><span>4 documents identifiés, avec leur lien.</span></li><li class="garantie garantie-independant"><strong>Analyse indépendante</strong><span>Aucune affiliation partisane ; arguments contraires présentés.</span></li><li class="garantie garantie-maj"><strong>Données arrêtées</strong><span>Au 8 octobre 2026.</span></li></ul>
-    </div>
-  </section>
-
-  <article class="section dossier">
-    <div class="conteneur">
-      <nav class="puces-dossier" aria-label="Accès rapide"><a href="#synthese">Synthèse</a><a href="#sources">Sources</a><a href="#corrections">Corrections</a></nav>
-      <div class="dossier-grille">
-        <aside class="dossier-cote"><details class="sommaire" open>
-          <summary>Dans ce dossier</summary>
-          <ol><li><a href="#comment-on-calcule-un-cout-net">Comment on calcule un « coût net »</a></li><li><a href="#ce-que-disent-les-etudes-publiees">Ce que disent les études publiées</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
-        </details>
-        <div class="cote-actions">
-          <button type="button" class="bouton-cote" data-action="imprimer"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Enregistrer en PDF<small>ou imprimer le dossier</small></span></button>
-          <button type="button" class="bouton-cote" data-action="partager"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="6" cy="12" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="18" r="2.3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m8.1 11 7.3-3.9M8.1 13l7.3 3.9" stroke="currentColor" stroke-width="1.6"/></svg><span>Partager ce dossier</span></button>
-        </div>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Nos sources (4)</h2><a href="#sources">Voir toutes les sources</a></div>
-          <ol class="cote-sources"><li>CEPII, Xavier Chojnicki, Lionel Ragot et Ndeye-Penda Sokhna, « L'impact sur les finances publiques de 30 ans d…</li><li>Assemblée nationale, question écrite n° 4627 de Philippe Meunier (14e législature) et réponse du ministère de …</li><li>Source secondaire : AFP, publié par De Facto, « "Coût" de l'immigration : attention aux chiffres trompeurs de …</li><li>Observatoire de l'immigration et de la démographie, « Le coût de l'immigration pour les finances publiques, pa…</li></ol>
-        </section>
-        <section class="cote-encart">
-          <div class="cote-encart-tete"><h2>Corrections</h2><a href="contact.html">Signaler une erreur</a></div>
-          <p>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Ajout de la conclusion exacte du CEPII (contribution plutôt négative mais faible) et de son scénario « seconde génération » ; origine du chi…</p>
-        </section></aside>
-        <div class="prose">
-
-        <aside class="essentiel" id="synthese">
-          <p class="surtitre">Synthèse</p>
+      <figure class="article-image">
+        <img src="assets/images/immigration-finances.jpg" alt="Liasses de billets de 20 et 50 euros" width="1200" height="600" loading="eager">
+        <figcaption>Liasses de billets de 20 et 50 euros. Photo : <a href="https://commons.wikimedia.org/wiki/File:20_and_50_Euro_banknote_straps_delivered_by_G4S.jpg" target="_blank" rel="noopener">BrayLockBoy, CC BY-SA 4.0, recadrée, Wikimedia Commons</a></figcaption>
+      </figure>
+    </header>
+    <div class="conteneur-article article-corps prose">
+        <nav class="sommaire" aria-labelledby="sommaire-titre">
+          <p class="sommaire-titre" id="sommaire-titre"><svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>Sommaire</p>
+          <ol style="--lignes:3"><li><a href="#en-resume">En résumé</a></li><li><a href="#comment-on-calcule-un-cout-net">Comment on calcule un « coût net »</a></li><li><a href="#ce-que-disent-les-etudes-publiees">Ce que disent les études publiées</a></li><li><a href="#ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</a></li><li><a href="#sources">Sources</a></li><li><a href="#historique">Historique</a></li></ol>
+        </nav>
+        <aside class="en-resume" id="en-resume">
+          <h2 class="en-resume-titre">En résumé</h2>
           <ul><li>L'étude du CEPII publiée en 2018, portant sur 1979-2011, estime dans son scénario de référence la contribution budgétaire nette des immigrés entre -0,5 % et +0,05 % du PIB selon les années ; ses auteurs la jugent « plutôt négative » mais faible <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</li><li>Un rapport de l'OCDE de 2013, cité par le Gouvernement en 2013, estimait l'impact budgétaire de l'immigration en France légèrement négatif, avec une définition large des immigrés <sup class="appel"><a href="#source-2" id="appel-2">2</a></sup>.</li><li>Le chiffre de « 35 à 40 milliards d'euros par an », présenté par l'Observatoire de l'immigration et de la démographie comme tiré des travaux de l'OCDE et du CEPII, est rejeté par les économistes auteurs de ces travaux <sup class="appel"><a href="#source-3" id="appel-3">3</a></sup><sup class="appel"><a href="#source-4" id="appel-4">4</a></sup>.</li><li>Le résultat dépend fortement des choix de méthode : qui compte comme immigré, quelles dépenses on attribue, inclusion ou non des enfants d'immigrés <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</li></ul>
         </aside>
-        <h2 id="comment-on-calcule-un-cout-net">Comment on calcule un « coût net »</h2>
+        <h2 id="comment-on-calcule-un-cout-net"><span class="h2-num">2.</span> Comment on calcule un « coût net »</h2>
         <aside class="encadre"><span class="etiquette statut statut-fait">Fait établi</span>
           <p>Le calcul consiste à comparer ce que les personnes immigrées versent aux administrations (impôts, cotisations, taxes) et ce qu'elles en reçoivent (prestations, services publics) <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>. Le résultat dépend de plusieurs choix : inclure ou non les dépenses publiques qui ne varient pas avec la population, comme la défense ou le service de la dette ; compter ou non les enfants nés en France de parents immigrés ; retenir l'année ou le cycle de vie complet <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup><sup class="appel"><a href="#source-3" id="appel-3">3</a></sup>.</p>
         </aside>
-        <h2 id="ce-que-disent-les-etudes-publiees">Ce que disent les études publiées</h2>
+        <h2 id="ce-que-disent-les-etudes-publiees"><span class="h2-num">3.</span> Ce que disent les études publiées</h2>
         <aside class="encadre"><span class="etiquette statut statut-interpretation">Interprétation<span class="precision">estimation chiffrée</span></span>
           <p>L'étude du CEPII publiée en décembre 2018 (Xavier Chojnicki, Lionel Ragot et Ndeye-Penda Sokhna), sur la période 1979-2011, estime dans son scénario de référence la contribution nette des immigrés aux finances publiques entre -0,5 % et +0,05 % du PIB selon les années, soit de +0,62 milliard d'euros en 1989 à -8,8 milliards en 2011. Les auteurs concluent que cette contribution a « plutôt été négative » mais faible, et que l'immigration n'a à aucun moment déterminé l'ampleur ou l'évolution du solde budgétaire primaire <sup class="appel"><a href="#source-1" id="appel-1">1</a></sup>.</p>
         </aside>
@@ -118,27 +107,53 @@
         <aside class="encadre"><span class="etiquette etiquette-note">À noter</span>
           <p>Le CEPII est un centre de recherche public rattaché aux services du Premier ministre ; l'OID est une association qui défend une position sur la politique migratoire ; l'article de l'AFP est une vérification journalistique. Chaque chiffre doit être lu avec le scénario dont il provient.</p>
         </aside>
-        <h2 id="ce-qu-on-ne-sait-pas">Ce qu'on ne sait pas</h2>
+        <h2 id="ce-qu-on-ne-sait-pas"><span class="h2-num">4.</span> Ce qu'on ne sait pas</h2>
         <ul class="liste-inconnues"><li><strong>Une estimation récente pour la France.</strong> L'étude du CEPII s'arrête en 2011 et le rapport de l'OCDE de 2021 en 2018 ; la composition de l'immigration a changé depuis.</li><li><strong>L'effet de long terme</strong> sur la croissance, le marché du travail et le vieillissement, que les calculs annuels ne mesurent pas.</li><li><strong>L'immigration irrégulière</strong>, mal prise en compte par les statistiques.</li></ul>
-        <h2 id="sources">Sources</h2>
+        <h2 id="sources"><span class="h2-num">5.</span> Sources</h2>
         <ol class="sources">
           <li id="source-1">CEPII, Xavier Chojnicki, Lionel Ragot et Ndeye-Penda Sokhna, « L'impact sur les finances publiques de 30 ans d'immigration en France », La Lettre du CEPII n° 394, décembre 2018. <a href="https://www.cepii.fr/CEPII/fr/publications/lettre/abstract.asp?NoDoc=11997" rel="noopener">www.cepii.fr/CEPII/fr/publications/lettre/abstract.asp?NoDoc=11997</a> <a href="#appel-1" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-2">Assemblée nationale, question écrite n° 4627 de Philippe Meunier (14e législature) et réponse du ministère de l'Intérieur publiée au Journal officiel le 24 septembre 2013. <a href="https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE4627.pdf" rel="noopener">www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE4627.pdf</a> <a href="#appel-2" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-3">Source secondaire : AFP, publié par De Facto, « "Coût" de l'immigration : attention aux chiffres trompeurs de "35 à 40 milliards" d'euros annuels », 9 avril 2024. <a href="https://defacto-observatoire.fr/Medias/Factuel/Fact-checks/Cout-de-l-immigration-attention-aux-chiffres-trompeurs-de-35-a-40-milliards-d-euros-annuels/" rel="noopener">defacto-observatoire.fr/Medias/Factuel/Fact-checks/Cout-de-l-immigration-attention-aux-chiffres-trompeurs-de-35-a-40-milliards-d-euros-annuels/</a> <a href="#appel-3" class="retour" aria-label="Retour au texte">↑</a></li>
           <li id="source-4">Observatoire de l'immigration et de la démographie, « Le coût de l'immigration pour les finances publiques, partie I », note du 23 juillet 2020. <a href="https://observatoire-immigration.fr/le-cout-de-l-immigration-pour-les-finances-publiques-partie-1/" rel="noopener">observatoire-immigration.fr/le-cout-de-l-immigration-pour-les-finances-publiques-partie-1/</a> <a href="#appel-4" class="retour" aria-label="Retour au texte">↑</a></li>
         </ol>
-        <h2 id="historique">Historique</h2>
+        <h2 id="historique"><span class="h2-num">6.</span> Historique</h2>
         <ul class="historique" id="corrections"><li>8 octobre 2026 : première publication.</li><li>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Ajout de la conclusion exacte du CEPII (contribution plutôt négative mais faible) et de son scénario « seconde génération » ; origine du chiffre de 35 à 40 milliards précisée ; suppression d'une affirmation non retrouvée dans la source du CEPII et d'une mention de la Fondation Jean-Jaurès, qui n'était pas citée.</li></ul>
         <p class="lien-correction">Une erreur ? Une source plus récente ? <a href="contact.html">Signalez-la</a>. Les corrections sont publiées sur la page <a href="methode.html#errata">Méthode</a>.</p>
-      </div>
-      </div>
     </div>
   </article>
   <section class="section a-lire-aussi">
     <div class="conteneur">
-      <h2>À lire aussi</h2>
-      <div class="portes"><a class="porte c-pouvoirs" href="dossier-pacte-migration-asile.html"><span class="porte-image"><img src="assets/images/pacte-migration.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Le pacte européen sur la migration et l'asile : ce qui a changé le 12 juin 2026</h3><span class="suite">Lire le dossier</span></a><a class="porte c-pouvoirs" href="dossier-assemblee-sans-majorite.html"><span class="porte-image"><img src="assets/images/majorite.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Une Assemblée sans majorité : de la dissolution de 2024 à aujourd'hui</h3><span class="suite">Lire le dossier</span></a><a class="porte c-pouvoirs" href="dossier-verifier-programmes.html"><span class="porte-image"><img src="assets/images/verifier-programmes.jpg" alt="" loading="lazy"></span><p class="surtitre"><span class="or">Dossier</span></p><h3>Présidentielle 2027 : comment vérifier un programme économique</h3><span class="suite">Lire le dossier</span></a></div>
-      <p class="retour-rubrique"><a href="politique-institutions.html">Tous les dossiers de la rubrique Politique &amp; Institutions</a> · <a href="dossiers.html">Tous les dossiers</a></p>
+      <div class="titre-section"><h2>À lire aussi</h2><a class="lien-fleche" href="politique-institutions.html">Tous les dossiers Politique &amp; Institutions<svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a></div>
+      <div class="grille-cartes grille-3">
+        <article class="carte c-pouvoirs">
+          <a href="dossier-pacte-migration-asile.html">
+            <span class="carte-image"><img src="assets/images/pacte-migration.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Politique</span>
+              <h3 class="carte-titre">Le pacte européen sur la migration et l'asile : ce qui a changé le 12 juin 2026</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>6 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-pouvoirs">
+          <a href="dossier-assemblee-sans-majorite.html">
+            <span class="carte-image"><img src="assets/images/majorite.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Politique</span>
+              <h3 class="carte-titre">Une Assemblée sans majorité : de la dissolution de 2024 à aujourd'hui</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>5 min</span></span>
+            </span>
+          </a>
+        </article>        <article class="carte c-pouvoirs">
+          <a href="dossier-verifier-programmes.html">
+            <span class="carte-image"><img src="assets/images/verifier-programmes.jpg" alt="" width="400" height="250" loading="lazy"></span>
+            <span class="carte-texte">
+              <span class="rubrique-etiquette">Politique</span>
+              <h3 class="carte-titre">Présidentielle 2027 : comment vérifier un programme économique</h3>
+              <span class="meta-ligne"><time datetime="2026-10-08">8 oct. 2026</time><span aria-hidden="true">|</span><span>3 min</span></span>
+            </span>
+          </a>
+        </article>
+      </div>
     </div>
   </section>
 </main>
