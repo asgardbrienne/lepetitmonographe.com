@@ -22,6 +22,13 @@ def _actif(fichier, h, rattachees):
 def A(t):  # élément à compléter avant publication
     return f'<span class="a-completer">{t}</span>'
 
+import hashlib as _hashlib
+def _version(chemin):
+    """Empreinte du fichier : chaque modification change l'adresse, le navigateur recharge."""
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", chemin), "rb") as f:
+        return _hashlib.md5(f.read()).hexdigest()[:8]
+V_CSS, V_JS = _version("assets/style.css"), _version("assets/site.js")
+
 def page(fichier, titre, description, corps, noindex=False, classe=""):
     liens = []
     for h, l, r in NAV:
@@ -53,7 +60,7 @@ def page(fichier, titre, description, corps, noindex=False, classe=""):
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/style.css?v={V_CSS}">
   <script>try{{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}}catch(e){{}}</script>
 </head>
 <body{f' class="{classe}"' if classe else ""}>
@@ -114,7 +121,7 @@ def page(fichier, titre, description, corps, noindex=False, classe=""):
   <div class="conteneur pied-bas">© 2026 Le Petit Monographe</div>
 </footer>
 <a class="haut-de-page" href="#contenu" aria-label="Revenir en haut de la page">↑</a>
-<script src="assets/site.js" defer></script>
+<script src="assets/site.js?v={V_JS}" defer></script>
 </body>
 </html>
 '''
