@@ -26,18 +26,10 @@
   --serie-1: #152840; --serie-2: #a78346; --piste: #efebe3;
   color-scheme: light;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --papier: #0f1d31; --papier-2: #15263d; --blanc: #172a43; --encre: #f1ece2; --encre-douce: #b4bcc8;
-    --filet: #29405e; --filet-fort: #3a5373; --or: #c9a768; --or-texte: #d6b679; --or-bouton: #c9a768;
-    --preuve: #6fc3a6; --nuit: #0b1627; --serie-1: #8fb3e0; --serie-2: #e0bd78; --piste: #203550;
-    color-scheme: dark;
-  }
-}
 :root[data-theme="dark"] {
-  --papier: #0f1d31; --papier-2: #15263d; --blanc: #172a43; --encre: #f1ece2; --encre-douce: #b4bcc8;
-  --filet: #29405e; --filet-fort: #3a5373; --or: #c9a768; --or-texte: #d6b679; --or-bouton: #c9a768;
-  --preuve: #6fc3a6; --nuit: #0b1627; --serie-1: #8fb3e0; --serie-2: #e0bd78; --piste: #203550;
+  --papier: #17171a; --papier-2: #1f1f23; --blanc: #222226; --encre: #f1ece2; --encre-douce: #b9b4aa;
+  --filet: #34332f; --filet-fort: #46443e; --or: #c9a768; --or-texte: #d6b679; --or-bouton: #c9a768;
+  --preuve: #6fc3a6; --nuit: #101012; --serie-1: #d9cfbd; --serie-2: #c9a768; --piste: #2a2a2e;
   color-scheme: dark;
 }
 
@@ -113,10 +105,6 @@ a:hover .fleche { transform: translateX(3px); }
 .theme-soleil { display: none; }
 :root[data-theme="dark"] .theme-lune { display: none; }
 :root[data-theme="dark"] .theme-soleil { display: block; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .theme-lune { display: none; }
-  :root:not([data-theme="light"]) .theme-soleil { display: block; }
-}
 .bouton-menu, .bouton-loupe { display: none; }
 .bouton-menu-barres, .bouton-menu-barres::before, .bouton-menu-barres::after { display: block; width: 20px; height: 1.6px; background: currentColor; position: relative; transition: transform .2s; }
 .bouton-menu-barres::before, .bouton-menu-barres::after { content: ""; position: absolute; left: 0; }
@@ -654,16 +642,8 @@ a:hover .fleche { transform: translateX(3px); }
 /* ---------- Mode sombre : ajustements ---------- */
 :root[data-theme="dark"] .logo-img { display: none !important; }
 :root[data-theme="dark"] .logo-img-clair { display: block !important; }
-:root[data-theme="dark"] .tete-visuel-image::after { background: linear-gradient(90deg, var(--papier) 0%, rgba(15, 29, 49, 0) 30%); }
+:root[data-theme="dark"] .tete-visuel-image::after { background: linear-gradient(90deg, var(--papier) 0%, rgba(23, 23, 26, 0) 30%); }
 :root[data-theme="dark"] .a-completer { color: #152840; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .logo-img { display: none !important; }
-  :root:not([data-theme="light"]) .logo-img-clair { display: block !important; }
-  :root:not([data-theme="light"]) .tete-visuel-image::after { background: linear-gradient(90deg, var(--papier) 0%, rgba(15, 29, 49, 0) 30%); }
-  :root:not([data-theme="light"]) .frise-statut { background: #3e3420; color: #f0dcb0; }
-  :root:not([data-theme="light"]) .frise-statut.fait-etabli { background: #1d3d34; color: #a8e0cc; }
-}
-
 @media (prefers-reduced-motion: reduce) {
   html, .une-diapos { scroll-behavior: auto; }
   * { transition: none !important; }
@@ -695,3 +675,18 @@ a:hover .fleche { transform: translateX(3px); }
 .titre-section h2 { position: relative; padding-bottom: 12px; }
 .titre-section h2::after { content: ""; position: absolute; left: 0; bottom: 0; width: 40px; height: 1px; background: var(--or); }
 .titre-section { align-items: flex-end; }
+
+/* Une sur téléphone : photo en haut, texte sur ivoire (le bleu reste un accent) */
+@media (max-width: 899px) {
+  .une { background: var(--papier); color: var(--encre); border-bottom: 1px solid var(--filet); }
+  .une-diapo::before { display: none; }
+  .une-fond { height: 240px; }
+  .une-contenu { margin-top: 0; padding-block: 24px 64px; }
+  .une-surtitre { color: var(--or-texte); }
+  .une-surtitre::after { background: var(--or); }
+  .une-titre, .une-titre a, .une-titre a:hover { color: var(--encre); }
+  .une-chapeau { color: var(--encre-douce); }
+  .une-meta, .une-meta .meta-ligne { color: var(--encre-douce); }
+  .une-point { background: var(--filet-fort); }
+  .une-point[aria-current="true"] { background: var(--or); }
+}

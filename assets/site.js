@@ -22,8 +22,7 @@
   Array.prototype.forEach.call(document.querySelectorAll('.bouton-theme'), function (theme) {
     theme.addEventListener('click', function () {
       var racine = document.documentElement;
-      var sombre = racine.getAttribute('data-theme') === 'dark' ||
-        (!racine.getAttribute('data-theme') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      var sombre = racine.getAttribute('data-theme') === 'dark';
       var nouveau = sombre ? 'light' : 'dark';
       racine.setAttribute('data-theme', nouveau);
       try { localStorage.setItem('lpm-theme', nouveau); } catch (e) {}
