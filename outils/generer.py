@@ -930,6 +930,14 @@ accueil = f'''  <h1 class="visuellement-cache">Le Petit Monographe : les faits d
     <div class="conteneur une-points" role="group" aria-label="Choisir une enquête à la une">{_points}</div>
   </section>
 
+  <section class="manifeste">
+    <div class="conteneur">
+      <p class="manifeste-ornement" aria-hidden="true"><span></span></p>
+      <p class="manifeste-phrase">Les faits d'abord. L'opinion reste au lecteur.</p>
+      <p class="manifeste-valeurs">Rigueur · Impartialité · Traçabilité · Contradiction · Transparence</p>
+    </div>
+  </section>
+
   <section class="piliers-bande">
     <ul class="conteneur piliers">
 {_piliers}
