@@ -7,9 +7,9 @@ resume: Méthodes, résultats des études du CEPII et de l'OCDE, origine des chi
 arret: 8 octobre 2026
 publication: 8 octobre 2026
 image: assets/images/immigration-finances.jpg
-image_alt: Liasses de billets de 20 et 50 euros
-image_credit: BrayLockBoy, CC BY-SA 4.0, recadrée, Wikimedia Commons
-image_lien: https://commons.wikimedia.org/wiki/File:20_and_50_Euro_banknote_straps_delivered_by_G4S.jpg
+image_alt: L'entrée de la Cour des comptes, rue Cambon, à Paris
+image_credit: Tangopaso, domaine public, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Cour_des_Comptes2.jpg
 verifie: 13 octobre 2026
 corrections: Ajout de la conclusion exacte du CEPII (contribution plutôt négative mais faible) et de son scénario « seconde génération » ; origine du chiffre de 35 à 40 milliards précisée ; suppression d'une affirmation non retrouvée dans la source du CEPII et d'une mention de la Fondation Jean-Jaurès, qui n'était pas citée.
 ---

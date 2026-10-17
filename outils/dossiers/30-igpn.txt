@@ -7,9 +7,9 @@ resume: Fonctionnement et saisine de l'IGPN, séries d'enquêtes depuis 2016, ti
 arret: 8 octobre 2026
 publication: 8 octobre 2026
 image: assets/images/igpn.jpg
-image_alt: Une voiture de la police nationale à Paris
-image_credit: Mic V., CC BY 2.0, recadrée, Flickr
-image_lien: https://www.flickr.com/photos/33756577@N08/3298128897
+image_alt: Le bâtiment de la préfecture de police, sur l'île de la Cité, à Paris
+image_credit: ZeusUpsistos, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Pr%C3%A9fecture_de_Police_Paris.jpg
 verifie: 13 octobre 2026
 corrections: Le constat sur les cellules locales de déontologie était attribué à tort à la réponse du gouvernement : il figure dans la question du député, qui cite un rapport de l'ONG Flagrant déni. Le texte sur l'usage des armes est une proposition de loi adoptée en première lecture par l'Assemblée nationale le 7 juillet 2026, et non un projet du gouvernement. Le 16 octobre 2026, le dossier a été approfondi : fonctionnement et saisine de l'IGPN, série complète des enquêtes pour usage de la force depuis 2016 tirée du rapport annuel 2024, enquêtes administratives et propositions de sanction, plateforme de signalement, tirs sur véhicules et débat sur la loi de 2017, contrôle par le Défenseur des droits et l'inspection de la gendarmerie, avec deux graphiques et sept sources nouvelles.
 ---

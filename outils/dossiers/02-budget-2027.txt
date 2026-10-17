@@ -7,9 +7,9 @@ resume: Objectif de déficit, effort de 54 milliards, répartition entre dépens
 arret: 8 octobre 2026
 publication: 8 octobre 2026
 image: assets/images/budget-2027.jpg
-image_alt: Billets et pièces en euros
-image_credit: Janitors, CC BY 2.0, recadrée, Flickr
-image_lien: https://www.flickr.com/photos/65265630@N03/11816994903
+image_alt: La façade nord du Palais Bourbon, siège de l'Assemblée nationale, à Paris
+image_credit: DXR, domaine public, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Palais_Bourbon,_Paris_7e,_NW_View_140402_1.jpg
 verifie: 13 octobre 2026
 corrections: La date de l'avis du Haut Conseil des finances publiques est corrigée (25 septembre 2026, rendu public avec le projet de loi), la date de saisine non vérifiable est retirée, l'effort structurel mesuré par le Haut Conseil est précisé, l'analyse attribuée à l'IREF, introuvable, est remplacée par celle de la Fondation IFRAP, la source sur les collectivités est correctement identifiée, et les appréciations du Haut Conseil sont étiquetées comme expertise.
 ---

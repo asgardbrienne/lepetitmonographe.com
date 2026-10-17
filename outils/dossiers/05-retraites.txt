@@ -7,9 +7,9 @@ resume: Ressources, dépenses et solde du système de retraite selon le Conseil 
 arret: 8 octobre 2026
 publication: 8 octobre 2026
 image: assets/images/retraites.jpg
-image_alt: Un couple âgé vu de dos, marchant dans la rue
-image_credit: garryknight, CC BY 2.0, recadrée, Flickr
-image_lien: https://www.flickr.com/photos/8176740@N05/5836253352
+image_alt: Un immeuble de la Caisse des dépôts et consignations, à Paris
+image_credit: GFreihalter, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Paris_7e_Caisse_des_D%C3%A9p%C3%B4ts_et_Consignations_550.jpg
 verifie: 13 octobre 2026
 corrections: Les ressources sont actualisées avec le rapport du COR de juin 2026 (417 milliards d'euros en 2025), la fourchette de déficit 2025 non vérifiable (1,3 à 5,1 milliards) est retirée au profit du chiffre du COR, la comparaison avec le rapport précédent est corrigée (trajectoire comparable jusqu'en 2045, plus dégradée ensuite), et la mention d'une réforme de 2023 « dont l'application se poursuit » est corrigée : le COR intègre sa suspension.
 ---

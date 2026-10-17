@@ -562,8 +562,8 @@ DOSSIER_CHOMAGE = {"fichier": "dossier-chomage-emploi.html", "rubrique": "econom
     "chapeau": "Après trois années de quasi-stabilité, le taux de chômage augmente depuis début 2025 alors que le taux d'emploi a atteint en 2025 son plus haut niveau depuis 1975. Les deux chiffres sont exacts. Ils ne mesurent pas la même chose.",
     "resume": "Deux indicateurs qui semblent se contredire et mesurent des choses différentes. Données arrêtées au 8 octobre 2026.",
     "arret": "8 octobre 2026", "publication": "8 octobre 2026", "verifie": "13 octobre 2026",
-    "image": "assets/images/dossier-chomage-emploi.jpg", "image_alt": "Petites annonces d'emploi dans un journal, entourées au stylo",
-    "image_credit": "amtec_photos, CC BY-SA 2.0, recadrée, Flickr", "image_lien": "https://www.flickr.com/photos/141761303@N08/38674829622"}
+    "image": "assets/images/dossier-chomage-emploi.jpg", "image_alt": "La cour de l'hôtel du Châtelet, siège du ministère du Travail, à Paris",
+    "image_credit": "Croquant, CC BY-SA 3.0, recadrée, Wikimedia Commons", "image_lien": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_du_Ch%C3%A2telet_JP2011_fa%C3%A7ade_cour.jpg"}
 
 # ---------- Dossiers écrits en format simple (outils/dossiers/*.txt) ----------
 # Format : en-tête « clé: valeur » jusqu'à une ligne « --- », puis le corps.

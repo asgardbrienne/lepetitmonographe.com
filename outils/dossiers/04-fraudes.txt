@@ -7,9 +7,9 @@ resume: Montants détectés, montants estimés, sommes recouvrées : trois chiff
 arret: 8 octobre 2026
 publication: 8 octobre 2026
 image: assets/images/fraudes.jpg
-image_alt: Une loupe posée sur des billets et des documents
-image_credit: Images_of_Money, CC BY 2.0, recadrée, Flickr
-image_lien: https://www.flickr.com/photos/59937401@N07/5857993560
+image_alt: Un centre des finances publiques à Saint-Ouen (Seine-Saint-Denis)
+image_credit: Chabe01, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Centre_finances_publiques_St_Ouen_Seine_St_Denis_1.jpg
 verifie: 13 octobre 2026
 corrections: Les chiffres de l'Assurance maladie sont précisés (723 millions d'euros de fraudes détectées ou évitées), l'estimation de la Cour des comptes sur la branche maladie est rattachée à la source qui la rapporte et un détail méthodologique non vérifiable est retiré, le montant encaissé par la DGFiP est ajouté, et les liens vers le ministère, le HCFiPS et l'Assurance maladie sont remplacés par les documents officiels.
 ---
