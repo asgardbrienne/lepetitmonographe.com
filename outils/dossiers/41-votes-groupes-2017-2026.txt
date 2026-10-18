@@ -30,9 +30,15 @@ verifie: 18 octobre 2026
 
 [Fait établi] Les noms et la composition des groupes ont changé d'une législature à l'autre, et parfois en cours de législature. Ils sont affichés tels qu'ils étaient au moment du vote, d'après les données officielles [1].
 
+[Fait établi] **Les non-inscrits.** Les députés qui n'appartiennent à aucun groupe sont classés par l'Assemblée dans une même catégorie, les « non-inscrits ». Comme ils n'ont pas de position commune, nous les répartissons selon le parti auquel chacun s'est rattaché dans sa déclaration annuelle : un parti qui compte au moins trois non-inscrits forme une ligne, par exemple « RN (NI) » ; les autres sont regroupés sous « Autres NI ». Les déclarations de rattachement commencent en décembre 2017 ; pour les votes antérieurs, nous retenons la première déclaration de chaque député [1].
+
+[Fait établi] **Une limite des données officielles.** Pour 8 scrutins de 2020 et 2021, la somme des votes publiés groupe par groupe ne correspond pas au total officiel du scrutin, à une ou quelques dizaines de voix près. Les totaux affichés sont les totaux officiels ; le détail par groupe reprend les données publiées [1].
+
 ## 2017-2022 : la XVe législature
 
 [Fait établi] Le groupe La République en Marche détenait à lui seul la majorité absolue (289 sièges) jusqu'au printemps 2020 : il comptait 314 membres en juillet 2017 et 281 en juin 2020 [1]. 101 des 102 textes soumis à un vote solennel ont été adoptés ; le seul rejet concerne, le 18 juin 2020, une proposition de loi de programmation pour l'hôpital public [1].
+
+[Fait établi] Pendant cette législature, les députés du Rassemblement national n'ont pas formé de groupe : le Règlement de l'Assemblée exige au moins quinze membres [5], et ils étaient moins nombreux. Ils siégeaient parmi les non-inscrits. Pour que leurs votes restent visibles, les non-inscrits sont répartis ci-dessous selon le parti auquel chacun s'est rattaché dans sa déclaration annuelle : les députés du RN apparaissent sous « RN (NI) » [1].
 
 [Scrutins] synthese 15
 
@@ -114,3 +120,4 @@ note: Le tableau de synthèse de la même page indique 3 engagements pour Franç
 - Assemblée nationale, fiche de synthèse n° 56, « Les votes à l'Assemblée nationale ». | https://www.assemblee-nationale.fr/dyn/contenu/telechargement/629143/file/Fiche%2056%20-%20Votes.pdf
 - Assemblée nationale, « Engagements de responsabilité du Gouvernement et motions de censure depuis 1958 », mis à jour le 9 septembre 2025 pour la synthèse, consulté le 18 octobre 2026. | https://www.assemblee-nationale.fr/dyn/engagements_responsabilite-motions_censures/engagements-de-responsabilite-du-gouvernement-et-motions-de-censure-depuis-1958
 - Assemblée nationale, « Motions de censure depuis 1958 ». | https://www.assemblee-nationale.fr/dyn/engagements_responsabilite-motions_censures/motions-de-censure-depuis-1958
+- Assemblée nationale, Règlement de l'Assemblée nationale, article 19, version en vigueur. | https://www.assemblee-nationale.fr/dyn/17/divers/texte_reference/02_reglement_assemblee_nationale.html

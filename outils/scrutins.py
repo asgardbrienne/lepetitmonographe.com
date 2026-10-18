@@ -31,6 +31,21 @@ def _e(t):
     return html.escape(t, quote=True)
 
 
+ABREGES_NI = {"Debout la France": "DLF", "Régions et peuples solidaires": "RPS", "Parti radical de gauche": "PRG",
+              "Europe Écologie Les Verts": "EELV", "La République en Marche": "LREM"}
+
+
+def court(g):
+    """Nom affiché : les non-inscrits sont regroupés par parti de rattachement (« RN (NI) »)."""
+    nom = g["groupe"]
+    if not g.get("non_inscrits"):
+        return nom
+    if nom == "Autres non-inscrits":
+        return "Autres NI"
+    p = nom.replace(" (non-inscrits)", "")
+    return f"{ABREGES_NI.get(p, p)} (NI)"
+
+
 def position(g):
     """Position du groupe : le choix le plus fréquent parmi ses membres qui ont voté."""
     c = {k: g[k] for k in POS}
@@ -61,10 +76,10 @@ def synthese(leg):
     agg, libelles = defaultdict(Counter), {}
     for s in textes:
         for g in s["groupes"]:
-            if g["groupe"] == "NI":  # les non-inscrits ne forment pas un groupe
+            if g["groupe"] == "NI":  # Congrès : non-inscrits non détaillés
                 continue
-            agg[g["groupe"]][position(g)] += 1
-            libelles[g["groupe"]] = g["libelle"]
+            agg[court(g)][position(g)] += 1
+            libelles[court(g)] = g["libelle"]
     lignes = []
     for grp, c in sorted(agg.items(), key=lambda x: (-sum(x[1].values()), x[0])):
         n = c["pour"] + c["contre"] + c["abstention"]
@@ -76,7 +91,7 @@ def synthese(leg):
           <figcaption class="graphique-tete"><span class="graphique-num">Votes</span><span class="graphique-titre">{LEG[leg]} : position de chaque groupe sur les {len(textes)} textes soumis à un vote solennel</span><span class="graphique-unite">Nombre et part des textes sur lesquels la majorité des membres votants du groupe a voté pour, contre ou s'est abstenue</span></figcaption>
           {LEGENDE}
           <ol class="vote-lignes">{"".join(lignes)}</ol>
-          <div class="graphique-pied"><p><strong>Lecture :</strong> pour chaque groupe, le nombre de textes qu'il a votés pour, contre ou sur lesquels il s'est abstenu, et la part que cela représente ; la barre reprend ces parts de gauche à droite. Les groupes ayant voté sur moins de cinq textes ne sont pas affichés, ni les députés non inscrits, qui ne forment pas un groupe. Un groupe peut avoir changé de nom ou de composition en cours de législature.</p><p><strong>Source :</strong> Assemblée nationale, données ouvertes des scrutins, calcul Le Petit Monographe.</p></div>
+          <div class="graphique-pied"><p><strong>Lecture :</strong> pour chaque groupe, le nombre de textes qu'il a votés pour, contre ou sur lesquels il s'est abstenu, et la part que cela représente ; la barre reprend ces parts de gauche à droite. Les groupes ayant voté sur moins de cinq textes ne sont pas affichés. Les députés non inscrits (NI), qui ne forment pas un groupe, sont répartis selon le parti auquel ils se sont rattachés : par exemple, de 2017 à 2022, les députés du Rassemblement national, trop peu nombreux pour former un groupe, apparaissent sous « RN (NI) ». Un groupe peut avoir changé de nom ou de composition en cours de législature.</p><p><strong>Source :</strong> Assemblée nationale, données ouvertes des scrutins, calcul Le Petit Monographe.</p></div>
           <details class="graphique-donnees"><summary>Noms complets des groupes</summary><ul class="vote-noms">{noms}</ul></details>
         </figure>'''
 
@@ -98,7 +113,7 @@ def _puces(s):
         p = position(g)
         if p == "absent" or g["groupe"] == "NI":
             continue
-        out.append(f'<span class="puce p-{p}" title="{_e(g["libelle"])} : {g["pour"]} pour, {g["contre"]} contre, {g["abstention"]} abstentions">{_e(g["groupe"])} <b>{"abst." if p == "abstention" else p}</b></span>')
+        out.append(f'<span class="puce p-{p}" title="{_e(g["libelle"])} : {g["pour"]} pour, {g["contre"]} contre, {g["abstention"]} abstentions">{_e(court(g))} <b>{"abst." if p == "abstention" else p}</b></span>')
     return "".join(out)
 
 
@@ -110,8 +125,8 @@ def _detail(s, ouvert=False):
         exprimes = g["pour"] + g["contre"] + g["abstention"]
         absents = max(0, g["membres"] - exprimes)
         p = position(g)
-        nom = "Non-inscrits" if g["groupe"] == "NI" else g["groupe"]
-        pos = "" if g["groupe"] == "NI" or p == "absent" else f'<span class="puce p-{p}"><b>{"abst." if p == "abstention" else p}</b></span>'
+        nom = "Non-inscrits" if g["groupe"] == "NI" else court(g)
+        pos = "" if g["groupe"] in ("NI", "Autres non-inscrits") or p == "absent" else f'<span class="puce p-{p}"><b>{"abst." if p == "abstention" else p}</b></span>'
         lignes.append(f'<tr><th scope="row"><abbr title="{_e(g["libelle"])}">{_e(nom)}</abbr></th><td>{pos}</td><td class="nb">{g["pour"]}</td><td class="nb">{g["contre"]}</td><td class="nb">{g["abstention"]}</td><td class="nb discret">{absents}</td></tr>')
     return f'''<details class="scrutin-detail"{" open" if ouvert else ""}><summary>Le vote de chaque groupe, voix par voix</summary>
               <div class="tableau-defilant"><table class="tableau-vote"><thead><tr><th>Groupe</th><th>Position</th><th class="nb">Pour</th><th class="nb">Contre</th><th class="nb">Abst.</th><th class="nb">Pas voté</th></tr></thead><tbody>{"".join(lignes)}</tbody></table></div>
@@ -140,7 +155,7 @@ def liste(leg):
           <ol class="scrutins">{"".join(_ligne(s) for s in v)}</ol>
         </details>''' for i, (an, v) in enumerate(sorted(par_an.items())))
     return f'''        <!--scrutins--><div class="scrutins-bloc">
-          <p class="scrutins-aide">{LEGENDE}Sous chaque texte, chaque groupe affiche le vote de la majorité de ses membres votants. Le bouton « Le vote de chaque groupe » donne le nombre exact de voix pour, contre, d'abstentions et de membres qui n'ont pas voté.</p>{blocs}
+          <p class="scrutins-aide">{LEGENDE}Sous chaque texte, chaque groupe affiche le vote de la majorité de ses membres votants ; les non-inscrits (NI) sont répartis par parti de rattachement. Le bouton « Le vote de chaque groupe » donne le nombre exact de voix pour, contre, d'abstentions et de membres qui n'ont pas voté.</p>{blocs}
         </div><!--/scrutins-->'''
 
 
@@ -156,7 +171,7 @@ def censures():
     lignes = []
     for s in cs:
         pour = s["total"]["pour"]
-        soutiens = ", ".join(f'{_e(g["groupe"])} ({g["pour"]})' for g in sorted(s["groupes"], key=lambda g: -g["pour"]) if g["pour"])
+        soutiens = ", ".join(f'{_e(court(g))} ({g["pour"]})' for g in sorted(s["groupes"], key=lambda g: -g["pour"]) if g["pour"])
         lignes.append(f'<tr><td class="date"><a href="{s["lien"]}" target="_blank" rel="noopener">{"/".join(reversed(s["date"].split("-")))}</a></td><td class="nb">{pour}</td><td>{"<strong>Adoptée</strong>" if s["adopte"] else "Rejetée"}</td><td>{soutiens}</td></tr>')
     return f'''        <div class="tableau-defilant">
           <table class="tableau-donnees tableau-censures"><caption>Les {len(cs)} motions de censure votées depuis 2017 (XVe à XVIIe législature)</caption>

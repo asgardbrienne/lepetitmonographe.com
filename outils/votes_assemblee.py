@@ -67,6 +67,71 @@ def decompte(v):
             "non_votants": n(v.get("nonVotants", v.get("nonVotant")))}
 
 
+# Acteurs : mandats de député, appartenance aux groupes et parti de rattachement déclaré
+MANDATS = defaultdict(list)  # (législature, acteur) -> [(début, fin)]
+GROUPES = defaultdict(list)  # organe du groupe -> [(acteur, début, fin)]
+PARTIS = defaultdict(list)   # acteur -> [(début, fin, organe du parti)]
+for f in glob.glob(os.path.join(SRC, "amo30", "**", "acteur", "*.json"), recursive=True):
+    a = json.load(open(f, encoding="utf-8"))["acteur"]
+    uid = a["uid"]["#text"] if isinstance(a["uid"], dict) else a["uid"]
+    for m in liste(a.get("mandats", {}).get("mandat")):
+        deb, fin = m.get("dateDebut") or "", m.get("dateFin") or "9999"
+        if m.get("typeOrgane") == "ASSEMBLEE" and m.get("legislature") in ("14", "15", "16", "17"):
+            MANDATS[(int(m["legislature"]), uid)].append((deb, fin))
+        elif m.get("typeOrgane") == "GP":
+            GROUPES[m["organes"]["organeRef"]].append((uid, deb, fin))
+        elif m.get("typeOrgane") == "PARPOL":
+            PARTIS[uid].append((deb, fin, m["organes"]["organeRef"]))
+
+
+def parti(uid, date):
+    """Parti de rattachement déclaré à cette date ; à défaut (déclarations annuelles commencées
+    en décembre 2017), la première déclaration faite dans l'année qui suit."""
+    for deb, fin, org in PARTIS[uid]:
+        if deb <= date <= fin:
+            return ORGANES.get(org, ("", ""))[1] or "Non déclaré"
+    suivantes = sorted((deb, org) for deb, fin, org in PARTIS[uid] if date < deb <= str(int(date[:4]) + 1) + date[4:])
+    return (ORGANES.get(suivantes[0][1], ("", ""))[1] or "Non déclaré") if suivantes else "Non déclaré"
+
+
+# Les non-inscrits ne forment pas un groupe : on les répartit selon le parti auquel ils se sont
+# rattachés (déclaration annuelle). Un parti comptant au moins 3 non-inscrits forme une ligne à part.
+COURTS = {"Rassemblement national": "RN"}  # le Front national, renommé en 2018, est compté avec lui
+
+
+def non_inscrits(organe, g, date):
+    membres = [uid for uid, deb, fin in GROUPES[organe] if deb <= date <= fin]
+    votes = {}
+    nom = g["vote"].get("decompteNominatif") or {}
+    for cle, pos in (("pours", "pour"), ("contres", "contre"), ("abstentions", "abstention")):
+        for v in liste((nom.get(cle) or {}).get("votant")):
+            votes[v["acteurRef"]] = pos
+    membres = list(dict.fromkeys(membres + list(votes)))  # un votant absent de la liste des membres à cette date reste compté
+    par = defaultdict(list)
+    for uid in membres:
+        p = parti(uid, date)
+        par["Rassemblement national" if p.lower() in ("front national", "rassemblement national") else p].append(uid)
+    sous, autres = [], []
+    for p, uids in sorted(par.items(), key=lambda x: -len(x[1])):
+        if len(uids) >= 3 and p != "Non déclaré":
+            sous.append((p, uids))
+        else:
+            autres += uids
+    if autres:
+        sous.append(("autres", autres))
+    out = []
+    for p, uids in sous:
+        c = {"pour": 0, "contre": 0, "abstention": 0}
+        for uid in uids:
+            if uid in votes:
+                c[votes[uid]] += 1
+        court = COURTS.get(p)
+        out.append({"groupe": f"{court} (non-inscrits)" if court else ("Autres non-inscrits" if p == "autres" else f"{p} (non-inscrits)"),
+                    "libelle": f"Députés non inscrits rattachés au parti {p}" if p != "autres" else "Autres députés non inscrits",
+                    "membres": len(uids), "non_votants": 0, "non_inscrits": True, **c})
+    return out
+
+
 solennels = []
 for leg in (15, 16, 17):
     for s in scrutins(leg):
@@ -76,6 +141,9 @@ for leg in (15, 16, 17):
         groupes = []
         for g in liste(s["ventilationVotes"]["organe"]["groupes"]["groupe"]):
             abr, lib = ORGANES.get(g["organeRef"], ("?", "?"))
+            if abr == "NI" and code != "SSG":
+                groupes += non_inscrits(g["organeRef"], g, s["dateScrutin"])
+                continue
             groupes.append({"groupe": abr, "libelle": lib, "membres": n(g["nombreMembresGroupe"]), **decompte(g["vote"]["decompteVoix"])})
         objet = s.get("objet") or {}
         dossier = (objet.get("dossierLegislatif") or {}).get("libelle", "")
@@ -90,13 +158,6 @@ solennels.sort(key=lambda x: (x["date"], x["legislature"], x["numero"]))
 
 # Participation : un député « participe » à un scrutin public s'il vote pour, contre ou s'abstient.
 # Le dénominateur est le nombre de scrutins publics tenus pendant ses mandats de la législature.
-MANDATS = defaultdict(list)  # (législature, acteur) -> [(début, fin)]
-for f in glob.glob(os.path.join(SRC, "amo30", "**", "acteur", "*.json"), recursive=True):
-    a = json.load(open(f, encoding="utf-8"))["acteur"]
-    uid = a["uid"]["#text"] if isinstance(a["uid"], dict) else a["uid"]
-    for m in liste(a.get("mandats", {}).get("mandat")):
-        if m.get("typeOrgane") == "ASSEMBLEE" and m.get("legislature") in ("14", "15", "16", "17"):
-            MANDATS[(int(m["legislature"]), uid)].append((m.get("dateDebut") or "", m.get("dateFin") or "9999"))
 
 # Affluence : nombre de votants (pour, contre, abstention) à chaque scrutin public, XIVe à XVIIe législature.
 # Le fichier de la XIVe législature ne détaille pas le vote de chaque député : on n'en tire que ces totaux.
