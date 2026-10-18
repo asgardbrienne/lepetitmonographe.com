@@ -7,10 +7,10 @@ resume: Les cinq façons dont une procédure pénale se termine sans condamnatio
 arret: 18 octobre 2026
 publication: 18 octobre 2026
 verifie: 18 octobre 2026
-image: assets/images/temoignage-erreur-sincere.jpg
-image_alt: La salle de la cour d'assises du palais de justice de Rouen, vide
-image_credit: Philippe Roudaut, CC BY-SA 4.0, recadrée, Wikimedia Commons
-image_lien: https://commons.wikimedia.org/wiki/File:Cour_d%27assises_Palais_de_Justice_de_Rouen.JPG
+image: assets/images/acquittement-prescription.jpg
+image_alt: La salle Voltaire de la cour d'assises, au palais de justice de Paris, vide
+image_credit: Tiraden, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Palais_de_justice_de_Paris_-_salle_Voltaire_(cour_d%27assises).jpg
 ---
 ## Essentiel
 - Une procédure peut se terminer sans condamnation de cinq façons différentes : classement sans suite par le procureur, non-lieu prononcé par le juge d'instruction, relaxe par un tribunal correctionnel ou de police, acquittement par une cour d'assises ou une cour criminelle, ou extinction des poursuites par la prescription. Elles n'ont ni le même auteur ni la même portée [1][2][3][4].
