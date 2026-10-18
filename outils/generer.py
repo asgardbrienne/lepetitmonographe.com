@@ -51,6 +51,7 @@ def page(fichier, titre, description, corps, noindex=False, classe=""):
   <title>{titre_complet}</title>
   <meta name="description" content="{description}">{robots}
   <link rel="canonical" href="{url}">
+  <link rel="alternate" type="application/rss+xml" title="Le Petit Monographe : nouveaux dossiers" href="https://lepetitmonographe.com/flux.xml">
   <meta property="og:url" content="{url}">
   <link rel="icon" href="favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -118,6 +119,7 @@ def page(fichier, titre, description, corps, noindex=False, classe=""):
       <a href="contact.html">Contact</a>
       <a href="mentions-legales.html">Mentions légales</a>
       <a href="confidentialite.html">Confidentialité</a>
+      <a href="flux.xml">Flux RSS</a>
     </nav>
   </div>
   <div class="conteneur pied-bas">© 2026 Le Petit Monographe</div>
@@ -362,6 +364,21 @@ apropos = tete("À propos", "Le Petit Monographe", "Une publication indépendant
         <p>La méthode repose sur un principe simple : distinguer ce qui est établi de ce qui relève de l'interprétation, du débat ou de l'hypothèse. Chaque dossier s'appuie sur des sources identifiées et datées : données publiques, rapports officiels, décisions de justice, travaux parlementaires, archives, auditions et autres documents vérifiables. Lorsque les sources divergent ou qu'un élément demeure incertain, cette incertitude est signalée.</p>
         <p>Dans les affaires judiciaires, les faits établis, les accusations, les témoignages, les expertises et les hypothèses sont présentés séparément, dans le respect de la présomption d'innocence et de l'état réel des procédures.</p>
         <p>L'objectif n'est pas de dire au lecteur ce qu'il doit penser, mais de lui donner les éléments nécessaires pour comprendre, vérifier et se forger sa propre opinion.</p>
+        <h2>Pourquoi les dossiers ne sont pas signés</h2>
+        <p>Le Petit Monographe est édité par une personne physique, à titre non professionnel. Comme la loi le permet dans ce cas, son identité a été communiquée à l'hébergeur et n'est pas rendue publique (voir les <a href="mentions-legales.html">mentions légales</a>).</p>
+        <p>Ce choix a une raison éditoriale : un dossier doit convaincre par ses sources, pas par le nom ou la notoriété de la personne qui l'écrit. C'est pourquoi l'anonymat s'accompagne d'obligations plus strictes que celles d'un article signé : chaque affirmation importante renvoie à une source publique que le lecteur peut ouvrir, chaque dossier porte sa date d'arrêt des données, et toute correction est rendue publique.</p>
+        <p>La responsabilité éditoriale n'est pas diluée pour autant. Une erreur, une source mal citée ou un oubli peuvent être signalés par la page <a href="contact.html">Contact</a> ; ils sont examinés et, si le signalement est fondé, corrigés et inscrits dans l'<a href="methode.html#errata">historique des corrections</a>.</p>
+        <h2>Comment un dossier est vérifié avant publication</h2>
+        <ol>
+          <li><strong>Rien de mémoire.</strong> Chaque chiffre, chaque date, chaque décision de justice est relu sur la publication d'origine avant d'être écrit.</li>
+          <li><strong>La source d'abord.</strong> Les documents officiels, décisions, rapports et données publiques sont privilégiés. Un article de presse qui rapporte un document est signalé comme source secondaire.</li>
+          <li><strong>Des sources que l'on peut ouvrir.</strong> Chaque source porte son titre, son auteur ou son média, sa date et un lien. Les liens sont contrôlés avant la mise en ligne.</li>
+          <li><strong>Un statut pour chaque passage.</strong> Fait établi, témoignage, interprétation, hypothèse ou proposition : le lecteur sait toujours ce qu'il lit.</li>
+          <li><strong>Ce qui ne se vérifie pas ne se publie pas.</strong> Une information sans source vérifiable est retirée, ou présentée explicitement comme non établie.</li>
+          <li><strong>Le test du camp inversé.</strong> Avant publication, une question : si le nom ou le camp était inversé, appliquerions-nous exactement les mêmes critères ? Si la réponse est non, le dossier n'est pas prêt.</li>
+          <li><strong>Une date et un historique.</strong> Chaque dossier indique la date d'arrêt de ses données et la date de sa dernière vérification.</li>
+        </ol>
+        <p>Cette méthode n'empêche pas toute erreur. En octobre 2026, tous les dossiers publiés ont été relus sur leurs sources d'origine ; les corrections qui en ont résulté sont listées, une par une, dans l'<a href="methode.html#errata">historique des corrections</a>.</p>
         <p class="signature">Les faits d'abord. L'opinion reste au lecteur.</p>
       </div>""")
 page("a-propos.html", "À propos", "Le Petit Monographe, publication indépendante de dossiers documentaires sur la politique, l'économie, la société et les affaires judiciaires.", apropos)
@@ -585,7 +602,7 @@ DOSSIER_CHOMAGE = {"fichier": "dossier-chomage-emploi.html", "rubrique": "econom
 #   [n] dans le texte     -> appel de note vers la source n
 #   texte                 -> paragraphe
 # Sections spéciales : « ## Sources » (lignes « - texte | url ») et « ## Essentiel ».
-import glob, re, html as _html
+import glob, json, re, html as _html
 
 RUB_CLASSES = {"economie": "c-economie", "politique": "c-pouvoirs", "monde": "c-monde", "affaires": "c-affaires"}
 RUB_NOMS = {"economie": "Économie &amp; Société", "politique": "Politique &amp; Institutions", "monde": "Monde", "affaires": "Affaires &amp; Enquêtes"}
@@ -750,8 +767,10 @@ def _texte_brut(h):
     return _html.unescape(re.sub(r"<[^>]+>", " ", h))
 
 def _temps_lecture(fichier):
+    # texte courant seulement : les sources, les listes de votes et les tableaux de données se consultent, ils ne se lisent pas d'une traite
     contenu = open(os.path.join(OUT, fichier), encoding="utf-8").read()
-    corps = contenu.split('<main id="contenu">', 1)[1].split("</main>", 1)[0]
+    corps = contenu.split('<main id="contenu">', 1)[1].split("</main>", 1)[0].split("<h2>Sources</h2>", 1)[0]
+    corps = re.sub(r"<!--scrutins-->.*?<!--/scrutins-->|<table.*?</table>", " ", corps, flags=re.S)
     return max(1, round(len(_texte_brut(corps).split()) / 220))
 
 def _texte_recherche(h, t, d):
@@ -768,6 +787,27 @@ for _m in [DOSSIER_CHOMAGE] + _dossiers_simples:
     INFOS[_m["fichier"]] = {"c": _c, "titre": _inline(_m["titre"]), "court": _inline(_m.get("titre_court", _m["titre"])),
                             "resume": _inline(_m["resume"]), "image": _m.get("image", ""), "date": _m["publication"],
                             "min": _temps_lecture(_m["fichier"]), "meta": _m}
+
+SITE = "https://lepetitmonographe.com"
+
+def donnees_structurees(h):
+    """Fiche schema.org de l'article et fil d'Ariane, pour les moteurs de recherche."""
+    i, m = INFOS[h], INFOS[h]["meta"]
+    nom_rub, page_rub, _k = RUB_INFO[i["c"]]
+    editeur = {"@type": "Organization", "name": "Le Petit Monographe", "url": SITE + "/",
+               "logo": {"@type": "ImageObject", "url": SITE + "/assets/monogramme.png"}}
+    article = {"@context": "https://schema.org", "@type": "Article", "headline": _texte_brut(i["titre"]),
+               "description": _texte_brut(i["resume"]), "inLanguage": "fr", "url": f"{SITE}/{h}",
+               "mainEntityOfPage": f"{SITE}/{h}", "datePublished": date_iso(m["publication"]),
+               "dateModified": date_iso(m.get("verifie") or m["publication"]),
+               "articleSection": _texte_brut(nom_rub), "author": editeur, "publisher": editeur}
+    if i["image"]:
+        article["image"] = f"{SITE}/{i['image']}"
+    ariane = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": SITE + "/"},
+        {"@type": "ListItem", "position": 2, "name": _texte_brut(nom_rub), "item": f"{SITE}/{page_rub}"},
+        {"@type": "ListItem", "position": 3, "name": _texte_brut(i["court"]), "item": f"{SITE}/{h}"}]}
+    return "\n".join(f'  <script type="application/ld+json">{json.dumps(x, ensure_ascii=False).replace("</", "<\\/")}</script>' for x in (article, ariane))
 
 def meta_carte(h):
     i = INFOS[h]
@@ -861,6 +901,10 @@ for c, h, t, d, m in _liste:
     </div>
   </section>''' if autres else ""
     s_ = s_.replace("<!--LIREAUSSI-->", lire_aussi, 1)
+    s_ = s_.replace("</head>", donnees_structurees(h) + "\n</head>", 1)
+    if INFOS[h]["image"]:
+        s_ = s_.replace('content="https://lepetitmonographe.com/assets/logo-partage.jpg"', f'content="{SITE}/{INFOS[h]["image"]}"', 1)
+    s_ = s_.replace('<meta property="og:type" content="website">', '<meta property="og:type" content="article">', 1)
     open(chemin, "w", encoding="utf-8").write(s_)
 
 # ---------- Pages de rubrique ----------
@@ -1063,5 +1107,24 @@ with open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8") as _s:
     for _u in _urls:
         _s.write(f"  <url><loc>{_u}</loc><lastmod>{_jour}</lastmod></url>\n")
     _s.write("</urlset>\n")
+# Flux RSS : les dossiers, du plus récent au plus ancien (date de dernière vérification)
+from email.utils import format_datetime as _rfc822
+def _date_rss(d):
+    a, mo, j = map(int, date_iso(d).split("-"))
+    return _rfc822(datetime.datetime(a, mo, j, 8, 0, tzinfo=datetime.timezone.utc))
+_items = sorted(INFOS.items(), key=lambda kv: (date_iso(kv[1]["meta"].get("verifie") or kv[1]["date"]), date_iso(kv[1]["date"])), reverse=True)
+with open(os.path.join(OUT, "flux.xml"), "w", encoding="utf-8") as _x:
+    _x.write('<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n<channel>\n')
+    _x.write(f'  <title>Le Petit Monographe</title>\n  <link>{SITE}/</link>\n  <description>Les faits d\'abord. L\'opinion reste au lecteur. Nouveaux dossiers et mises à jour.</description>\n  <language>fr</language>\n')
+    _x.write(f'  <atom:link href="{SITE}/flux.xml" rel="self" type="application/rss+xml"/>\n')
+    for _h, _i in _items:
+        _m = _i["meta"]
+        _x.write("  <item>\n"
+                 f"    <title>{_html.escape(_texte_brut(_i['titre']))}</title>\n"
+                 f"    <link>{SITE}/{_h}</link>\n    <guid isPermaLink=\"true\">{SITE}/{_h}</guid>\n"
+                 f"    <pubDate>{_date_rss(_m.get('verifie') or _i['date'])}</pubDate>\n"
+                 f"    <category>{_html.escape(_texte_brut(RUB_INFO[_i['c']][0]))}</category>\n"
+                 f"    <description>{_html.escape(_texte_brut(_i['resume']))}</description>\n  </item>\n")
+    _x.write("</channel>\n</rss>\n")
 with open(os.path.join(OUT, "robots.txt"), "w", encoding="utf-8") as _r:
     _r.write("User-agent: *\nAllow: /\n\nSitemap: https://lepetitmonographe.com/sitemap.xml\n")
