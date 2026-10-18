@@ -10,8 +10,8 @@ image: assets/images/budget-2027.jpg
 image_alt: La façade nord du Palais Bourbon, siège de l'Assemblée nationale, à Paris
 image_credit: DXR, domaine public, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Palais_Bourbon,_Paris_7e,_NW_View_140402_1.jpg
-verifie: 13 octobre 2026
-corrections: La date de l'avis du Haut Conseil des finances publiques est corrigée (25 septembre 2026, rendu public avec le projet de loi), la date de saisine non vérifiable est retirée, l'effort structurel mesuré par le Haut Conseil est précisé, l'analyse attribuée à l'IREF, introuvable, est remplacée par celle de la Fondation IFRAP, la source sur les collectivités est correctement identifiée, et les appréciations du Haut Conseil sont étiquetées comme expertise.
+verifie: 18 octobre 2026
+corrections: La date de l'avis du Haut Conseil des finances publiques est corrigée (25 septembre 2026, rendu public avec le projet de loi), la date de saisine non vérifiable est retirée, l'effort structurel mesuré par le Haut Conseil est précisé, l'analyse attribuée à l'IREF, introuvable, est remplacée par celle de la Fondation IFRAP, la source sur les collectivités est correctement identifiée, et les appréciations du Haut Conseil sont étiquetées comme expertise. Le 18 octobre 2026, le chiffre de 2 milliards d'économies sur les arrêts maladie, repris d'une source secondaire, a été rapproché du projet de loi de financement de la sécurité sociale, qui prévoit 1 milliard d'économies sur les indemnités journalières et 1 milliard de recettes sur leur imposition.
 ---
 ## Essentiel
 - Le projet de loi de finances pour 2027, déposé le 1er octobre 2026, vise un déficit public de 5,0 % du PIB [1].
@@ -27,7 +27,9 @@ corrections: La date de l'avis du Haut Conseil des finances publiques est corrig
 
 ## L'effort annoncé et sa mesure
 
-[Fait établi] Selon le gouvernement, l'effort de redressement atteint 54 milliards d'euros, dont 43 milliards proviennent de mesures nouvelles, répartis en 18 milliards de recettes et 25 milliards de dépenses [5]. D'après la présentation reprise par la presse, 9 milliards portent sur l'État, 12 milliards sur la sphère sociale et 5,5 milliards sur les collectivités locales ; le reste repose sur les recettes [3]. Parmi les mesures sociales figurent 3 milliards d'économies sur les médicaments et 2 milliards sur les arrêts maladie [3].
+[Fait établi] Selon le gouvernement, l'effort de redressement atteint 54 milliards d'euros, dont 43 milliards proviennent de mesures nouvelles, répartis en 18 milliards de recettes et 25 milliards de dépenses [5]. D'après la présentation reprise par la presse, 9 milliards portent sur l'État, 12 milliards sur la sphère sociale et 5,5 milliards sur les collectivités locales ; le reste repose sur les recettes [3]. Les annonces reprises par la presse évoquaient 3 milliards d'économies sur les médicaments et 2 milliards sur les arrêts maladie [3].
+
+[Fait établi] Le projet de loi de financement de la sécurité sociale déposé le 1er octobre chiffre ces mesures autrement : 2,1 milliards d'euros d'économies sur les produits de santé et 1 milliard de baisse des dépenses d'indemnités journalières d'assurance maladie. Il affecte en outre à la sécurité sociale 1 milliard d'euros de recettes tirées de l'imposition d'une partie des indemnités journalières (arrêts liés à une affection de longue durée, accidents du travail et maladies professionnelles) [9]. Les annonces ne précisent pas leur périmètre ; le chiffre de 2 milliards correspond peut-être à l'addition des économies et de ces recettes, mais aucune source consultée ne le confirme. Nous retenons les chiffres du projet de loi.
 
 [Fait établi] Ces montants sont calculés par rapport à l'évolution qu'auraient suivie les dépenses et les recettes en l'absence de mesures, appelée « tendanciel ». Un effort de 54 milliards ne signifie donc pas que les administrations dépenseront 54 milliards de moins qu'en 2026.
 
@@ -74,3 +76,4 @@ source: Présentation du gouvernement, reprise par la Fondation IFRAP ; audition
 - Public Sénat, « Budget 2027 : le Haut Conseil des finances publiques pointe des prévisions « optimistes » du gouvernement », 7 octobre 2026. | https://www.publicsenat.fr/actualites/economie/budget-2027-le-haut-conseil-des-finances-publiques-pointe-des-previsions-optimistes-du-gouvernement
 - Sénat, avis sur le projet de loi de finances pour 2014, « Cour des comptes et autres juridictions financières », 21 novembre 2013 (création du HCFP par la loi organique n° 2012-1403 du 17 décembre 2012). | https://www.senat.fr/rap/a13-162-6/a13-162-60.html
 - Maire-Info, « Budget 2027 : le président du CFL redoute un choc beaucoup plus fort qu'au cours des années passées », 17 septembre 2026. | https://www.maire-info.com/budget-2027-le-president-du-cfl-redoute-un-choc-beaucoup-plus-fort-quau-cours-des-annees-passees-article2-31085
+- Gouvernement, « Projet de loi de financement de la sécurité sociale pour 2027 », Assemblée nationale, texte n° 3211 déposé le 1er octobre 2026 (exposé des motifs et rapport annexé). | https://www.assemblee-nationale.fr/dyn/opendata/PRJLANR5L17B3211.html

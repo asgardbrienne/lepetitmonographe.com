@@ -401,14 +401,15 @@ mentions = tete("Informations légales", "Mentions légales", "") + "\n" + secti
         <h2>Crédits photographiques</h2>
         <p>Les photographies proviennent de Wikimedia Commons et de Flickr, sous licence libre (domaine public, CC0, CC BY ou CC BY-SA). L'auteur, la licence et la source de chaque photo sont indiqués sous celle-ci, avec un lien vers sa page d'origine.</p>
         <h2>Liens vers Amazon</h2>
-        <p>{A("Si les liens sont affiliés (Partenaires Amazon), l'indiquer ici")}</p>
+        <p>Les liens vers Amazon présents sur la page Livres et dans certains dossiers ne sont pas des liens affiliés : le site ne perçoit aucune commission sur les achats effectués à partir de ces liens.</p>
       </div>""")
 page("mentions-legales.html", "Mentions légales", "Mentions légales du site Le Petit Monographe.", mentions, noindex=True)
 
 # ---------- Confidentialité ----------
+# À mettre à jour si un outil de statistiques ou une newsletter est ajouté.
 conf = tete("Informations légales", "Confidentialité", "") + "\n" + section(f"""      <div class="prose">
         <h2>Cookies et mesure d'audience</h2>
-        <p>Ce site ne dépose aucun cookie publicitaire ni de mesure d'audience. {A("À mettre à jour si un outil de statistiques ou une newsletter est ajouté")}</p>
+        <p>Ce site ne dépose aucun cookie publicitaire ni de mesure d'audience.</p>
         <h2>Polices de caractères</h2>
         <p>Les polices sont chargées depuis Google Fonts, ce qui transmet l'adresse IP du visiteur à Google.</p>
         <h2>Messages reçus</h2>
