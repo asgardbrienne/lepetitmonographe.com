@@ -1,0 +1,146 @@
+fichier: dossier-russie-sanctions-petrole.html
+rubrique: monde
+titre: Sanctions contre la Russie : ce que Washington a suspendu en octobre 2026
+titre_court: Russie, sanctions et diesel
+chapeau: En une semaine, l'administration Trump a autorisé le commerce du diesel russe puis écarté presque toutes les sanctions d'une loi votée un mois plus tôt. Ce qui a été décidé, ce qui reste en place, et ce que cela peut changer.
+resume: La licence sur le diesel russe, la suspension de la loi Graham, ce qui reste en vigueur, les réactions et les scénarios possibles. Données arrêtées au 18 octobre 2026.
+arret: 18 octobre 2026
+publication: 18 octobre 2026
+image: assets/images/russie-sanctions-petrole.jpg
+image_alt: Un navire pétrolier en mer du Nord, devant un parc éolien et une plateforme
+image_credit: ImagePerson, CC BY 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Oil_Tanker_in_North_Sea_3928.jpg
+verifie: 18 octobre 2026
+---
+## Essentiel
+- Le 9 octobre 2026, le Trésor américain a autorisé jusqu'au 7 avril 2027 les transactions liées à la vente et à l'importation de diesel d'origine russe, y compris aux États-Unis [3].
+- Le 16 octobre, Donald Trump a signé un décret qui écarte l'application de presque toutes les sanctions et de tous les droits de douane prévus par une loi qu'il avait promulguée le 18 septembre, deux jours avant leur date limite d'application [1][4].
+- Ces mesures nouvelles ne s'ajoutent donc pas. Les sanctions américaines déjà en vigueur avant cette loi ne sont pas levées par le décret [1].
+- L'« accord » sur le diesel annoncé par Donald Trump n'a pas de texte public. Le 15 octobre, le vice-Premier ministre russe Alexandre Novak indiquait qu'un contrat commercial restait à conclure [7][8].
+
+## La licence sur le diesel russe
+
+[Fait établi] L'Office of Foreign Assets Control (OFAC), service du Trésor chargé des sanctions, a publié le 9 octobre 2026 la licence générale n° 135. Elle autorise « toutes les transactions » liées à la vente, à la livraison, au déchargement et à l'importation, « y compris l'importation aux États-Unis », de diesel d'origine russe, jusqu'au 7 avril 2027 à 0 h 01, heure de New York. Elle exclut tout débit sur des comptes américains de la Banque centrale de Russie, du Fonds national de bien-être et du ministère des Finances russes [3].
+
+[Fait établi] Le même jour, Donald Trump a annoncé sur son réseau social, après un appel avec Vladimir Poutine, que la Russie mettrait sur le marché 300 000 tonnes de diesel « immédiatement », 500 000 tonnes en novembre, puis 1 million de tonnes et enfin 3 millions de tonnes selon l'état de ses raffineries, soit jusqu'à 4,8 millions de tonnes au total [7]. Ces volumes sont ceux annoncés par la Maison-Blanche : aucun texte d'accord n'a été publié [6].
+
+[Fait établi] La Russie interdisait elle-même l'exportation de diesel depuis le 8 juillet 2026, après des frappes de drones ukrainiens sur ses raffineries [7]. Selon l'agence d'État russe TASS, le gouvernement russe a partiellement levé cette interdiction à compter du 10 octobre [8].
+
+[Allégation] Le 15 octobre, Alexandre Novak a déclaré qu'il fallait encore « conclure un contrat, charger le carburant, affréter un navire », et que les premières livraisons vers les États-Unis pourraient intervenir dans « au moins deux à trois semaines » [8]. Ces déclarations proviennent d'un média d'État russe et ne sont pas confirmées de façon indépendante.
+
+[Débat] Selon le cabinet d'avocats Clyde & Co, la licence pourrait se heurter à une loi américaine de 2022 sur l'interdiction des importations de pétrole russe, qui ne permet de lever cette interdiction qu'après une certification présidentielle au Congrès ; des parlementaires estiment la licence illégale [6]. Aucune décision de justice ne s'est prononcée sur ce point à la date d'arrêt du dossier.
+
+## La loi Graham votée en septembre
+
+[Fait établi] La loi dite « Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 » (H.R. 5334) porte le nom du sénateur républicain mort en juillet 2026 [2][10]. Elle a été adoptée par le Sénat le 7 août (86 voix contre 11) puis par la Chambre des représentants le 16 septembre (262 voix contre 159), et promulguée le 18 septembre [5].
+
+[Fait établi] Elle imposait au président, dans les 30 jours, donc au plus tard le 18 octobre 2026, de sanctionner notamment le président, le Premier ministre et les principaux ministres et chefs militaires russes, les navires de la « flotte fantôme » qui contourne les sanctions et ceux qui les assurent, la Banque centrale de Russie et de grandes banques publiques [2][4]. Elle prévoyait aussi des droits de douane pouvant aller jusqu'à 500 % sur les produits russes, et jusqu'à 100 % sur tous les produits des cinq plus gros acheteurs de pétrole brut ou de gaz russe qui continueraient d'en acheter [2][5].
+
+[Fait établi] La loi autorise le président à écarter n'importe laquelle de ces mesures, à condition de certifier par écrit au Congrès que c'est « dans l'intérêt national des États-Unis » et de remettre un rapport qui explique pourquoi [2].
+
+## Le décret du 16 octobre
+
+[Fait établi] Le décret « Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 » écarte l'application des droits de douane des sections 112 et 113 de la loi et des sanctions des sections 102 à 111 et 117. Il indique que le président a remis au Congrès la certification et le rapport exigés. Ces dérogations restent en vigueur jusqu'à ce que le président, ou le secrétaire d'État, décide qu'« une autre action est appropriée » : aucune date de fin n'est fixée [1].
+
+[Fait établi] Le décret précise que la dérogation ne touche pas les sanctions prises au titre de l'urgence nationale déclarée à l'égard de la Russie [1]. Les compagnies pétrolières russes Rosneft et Lukoil restent sanctionnées : l'OFAC continue de délivrer des licences limitées à leur sujet, dont plusieurs datées des 18 septembre et 15 octobre 2026 [21].
+
+[Fait établi] Le décret charge le représentant américain au commerce de surveiller les achats de pétrole russe et le contournement des sanctions, et d'informer le président de circonstances qui justifieraient de revenir sur ces dérogations [1].
+
+[Témoignage] Le rapport remis au Congrès n'a pas été rendu public. Le secrétaire d'État Marco Rubio a déclaré que Donald Trump voulait se donner « 60 jours » pour analyser l'effet de ces sanctions sur l'économie américaine et mondiale, compte tenu de la pression sur l'approvisionnement énergétique [11]. Le décret lui-même ne mentionne pas ce délai [1].
+
+[Figure] frise
+titre: Un mois de décisions sur la Russie
+donnees:
+- 7 août 2026 | Le Sénat adopte la loi Graham par 86 voix contre 11 [5]. | Fait établi
+- 16 septembre 2026 | La Chambre des représentants l'adopte par 262 voix contre 159 [5]. | Fait établi
+- 18 septembre 2026 | Donald Trump promulgue la loi ; ses sanctions doivent s'appliquer au plus tard le 18 octobre [4][5]. | Fait établi
+- 5 octobre 2026 | Décret de report de taxes sur le diesel pour les agriculteurs et les transporteurs [16]. | Fait établi
+- 9 octobre 2026 | Annonce d'un accord sur le diesel russe ; licence n° 135 de l'OFAC [3][7]. | Fait établi
+- 10 octobre 2026 | Levée partielle de l'interdiction russe d'exporter du diesel, selon TASS [8]. | Allégation
+- 15 octobre 2026 | Moscou indique qu'aucun contrat commercial n'est encore signé [8]. | Allégation
+- 16 octobre 2026 | Décret écartant presque toutes les mesures de la loi Graham [1]. | Fait établi
+- 18 octobre 2026 | Date à laquelle les sanctions de la loi devaient s'appliquer [4]. | Fait établi
+source: Maison-Blanche, Trésor américain, Baker McKenzie, Ship & Bunker, TASS
+lecture: La loi a été écartée moins d'un mois après sa promulgation, une semaine après l'ouverture du commerce du diesel russe.
+
+## Pourquoi maintenant
+
+[Fait établi] Le contexte est celui d'une forte tension sur le pétrole. Depuis le 28 février 2026, les États-Unis et Israël sont en guerre contre l'Iran, et le détroit d'Ormuz, par où transite une grande partie du pétrole du Golfe, a été fermé puis rouvert partiellement [12]. L'agence américaine d'information sur l'énergie (EIA) relève que le Brent a atteint 131 dollars le baril le 15 septembre 2026, et prévoit une moyenne de 105 dollars au quatrième trimestre 2026, puis de 84 dollars en 2027 [13].
+
+[Fait établi] Selon l'EIA, le diesel s'est vendu en moyenne 6,29 dollars le gallon (environ 3,8 litres) aux États-Unis en septembre 2026, et les stocks de distillats de la côte Est étaient inférieurs de 32 % à leur moyenne saisonnière des cinq dernières années [13]. Le 5 octobre, un décret présidentiel a prévu de reporter certaines taxes sur le diesel en invoquant « la hausse des prix » [16].
+
+[Témoignage] La Maison-Blanche n'a pas expliqué publiquement en quoi la dérogation sert l'intérêt national, selon UPI [10]. Selon NBC News, elle a fait valoir que l'application des sanctions pourrait gêner les négociations de paix entre la Russie et l'Ukraine [11]. Donald Trump a qualifié la décision de « très bonne décision » [11].
+
+[Interprétation] Plusieurs médias rapprochent ces décisions des élections de mi-mandat américaines de novembre 2026 et de la volonté de faire baisser le prix des carburants [10][14]. C'est une lecture des journalistes : aucun document officiel ne fait ce lien.
+
+## Ce que cela pèse
+
+[Expertise] L'Agence internationale de l'énergie (AIE) juge, dans son rapport d'octobre 2026, que l'assouplissement des restrictions russes sur l'exportation de diesel a peu de chances de modifier sensiblement l'équilibre mondial, la production russe de gazole ayant chuté sous l'effet des frappes ukrainiennes sur les raffineries [15].
+
+[Témoignage] Le commissaire européen à l'Économie, Valdis Dombrovskis, a estimé que les volumes annoncés « n'ont aucune importance macroéconomique » et s'est interrogé sur la capacité de la Russie à les livrer [14].
+
+[Estimation] Côté recettes russes, l'AIE estime les revenus d'exportation pétrolière de la Russie à environ 17,7 milliards de dollars en septembre 2026, en hausse d'environ 3,6 milliards sur un mois, surtout grâce à la hausse des prix mondiaux ; le baril de brut russe Oural aurait atteint environ 94 dollars [17]. Ces chiffres sont rapportés par l'agence TASS à partir du rapport de l'AIE (source secondaire).
+
+[Expertise] L'économiste Vasily Astrov, cité par Al Jazeera, estime qu'environ 60 cents de chaque dollar supplémentaire sur le prix d'un baril russe finissent dans les caisses de l'État russe [14].
+
+## Les réactions
+
+[Témoignage] Le président ukrainien Volodymyr Zelensky a jugé la décision « mauvaise », estimant qu'elle « n'aide que les Russes » [11]. Après l'annonce sur le diesel, il avait déclaré que « les cadeaux à Poutine n'apporteront pas la paix » [10].
+
+[Témoignage] Kirill Dmitriev, envoyé de Vladimir Poutine pour l'économie, a parlé d'un « moment important et véritablement historique », estimant que la loi aurait pu « paralyser complètement » la coopération économique russo-américaine [18].
+
+[Témoignage] La décision a été critiquée dans les deux partis américains. Le sénateur républicain Thom Tillis, en réponse au décret, a demandé : « Quelle partie de l'application d'une loi votée à 86 voix contre 11 par le Sénat le président et ses conseillers ne comprennent-ils pas ? » [10]. Les sénateurs républicains Ted Cruz et Dan Sullivan ont dit ne pas approuver la décision, tout comme le démocrate Richard Blumenthal [11].
+
+[Témoignage] La Chine a rappelé son opposition à la « juridiction extraterritoriale » américaine, et l'Inde avait averti que de nouveaux droits de douane pourraient affecter les relations bilatérales [9].
+
+## L'Europe dans ce paysage
+
+[Fait établi] L'Union européenne maintient ses propres sanctions, qui ne sont pas concernées par les décisions américaines. Selon le cabinet Clyde & Co, les entreprises européennes et britanniques restent soumises au plafonnement des prix des produits pétroliers russes [6].
+
+[Fait établi] Le 26 janvier 2026, le Conseil de l'Union européenne a adopté un règlement qui interdit progressivement les importations de gaz russe : le gaz naturel liquéfié (GNL) à partir du début de 2027, le gaz par gazoduc à partir de l'automne 2027 [19]. Ce règlement repose sur la politique commerciale et énergétique, pas sur les sanctions, et ne dépend donc pas d'un vote à l'unanimité.
+
+[Estimation] D'ici là, l'Europe achète encore. Selon le Centre de recherche sur l'énergie et l'air pur (CREA), cité par Al Jazeera, les pays de l'UE ont importé en septembre 2026 pour 817 millions d'euros de gaz russe par gazoduc et 615 millions d'euros de GNL russe, dont 446 millions d'euros pour la France [14]. Ces montants mensuels ne disent rien de la tendance annuelle et ne sont pas comparables aux volumes de diesel annoncés.
+
+## Ce que cela peut changer
+
+Les décisions sont récentes. Personne ne peut dire aujourd'hui lesquelles de ces évolutions se produiront. Les scénarios ci-dessous ne sont pas des prévisions : ce sont des pistes construites à partir des faits établis plus haut, avec ce qui les rendrait plus ou moins probables.
+
+[Hypothèse] **Un levier de négociation provisoire.** Le décret ne fixe pas de terme et prévoit une surveillance des achats de pétrole russe [1] ; la licence diesel expire le 7 avril 2027 et, selon Clyde & Co, peut être retirée rapidement si les négociations échouent [3][6]. Si ce scénario se confirme, les mesures pourraient être rétablies en cas d'échec des discussions de paix. Indice à suivre : l'issue des pourparlers menés par les émissaires américains, alors que Marco Rubio déclarait début octobre qu'il ne semblait pas y avoir, pour l'instant, de « perspectives de règlement négocié » [20].
+
+[Hypothèse] **Un effet limité sur les prix à la pompe.** Si l'AIE et la Commission européenne ont raison sur la faiblesse des volumes [14][15], l'effet sur les prix du carburant restera secondaire face à la situation dans le golfe Persique, que l'EIA place au centre de ses prévisions [13]. Indice à suivre : les livraisons effectives de diesel russe, et non les volumes annoncés.
+
+[Hypothèse] **Des recettes supplémentaires pour Moscou.** Avec des prix du pétrole élevés et des acheteurs qui n'ont plus à craindre de droits de douane américains, la Russie pourrait maintenir ou augmenter ses recettes d'exportation [14][17]. L'ampleur dépend du prix du baril et des volumes réellement exportés, qu'aucune source ne permet de chiffrer à ce stade.
+
+[Hypothèse] **Un écart grandissant entre Washington et l'Europe.** L'UE poursuit sa sortie du gaz russe sur une base juridique indépendante des sanctions [19], tandis que Washington écarte de nouvelles mesures. Cet écart pourrait peser sur la coordination occidentale face à la Russie. Indice à suivre : la position de l'UE sur ses prochains paquets de sanctions.
+
+[Hypothèse] **Un rapport de force au Congrès.** La loi a été votée par de larges majorités [5] et des élus des deux partis contestent la dérogation [10][11]. La loi ne prévoit pas de vote du Congrès pour annuler une dérogation [2] ; le Congrès devrait adopter un nouveau texte, que le président pourrait bloquer par son veto.
+
+## Ce qu'on ne sait pas
+- **Le contenu du rapport** remis au Congrès pour justifier la dérogation : il n'a pas été publié.
+- **Les termes de l'accord sur le diesel** : aucun texte public, des volumes annoncés différents selon les sources, et pas de contrat signé selon Moscou au 15 octobre.
+- **Les volumes réellement livrés** et leur destination : aucune livraison vers les États-Unis n'était confirmée à la date d'arrêt du dossier.
+- **La durée de la dérogation** : le décret ne fixe aucun terme, et le délai de 60 jours évoqué par Marco Rubio n'y figure pas.
+- **La validité juridique de la licence diesel** au regard de la loi américaine de 2022.
+
+## Sources
+- Maison-Blanche, décret « Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 », 16 octobre 2026. | https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/
+- Congrès des États-Unis, H.R. 5334, Lindsey O. Graham Sanctioning Russia and Iran Act of 2026, texte adopté (enrolled bill), septembre 2026. | https://www.govinfo.gov/content/pkg/BILLS-119hr5334enr/html/BILLS-119hr5334enr.htm
+- Office of Foreign Assets Control, Trésor américain, General License No. 135, 9 octobre 2026. | https://ofac.treasury.gov/media/937216/download?inline
+- Source secondaire : Morgan Lewis, « President Signs Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 », septembre 2026. | https://www.morganlewis.com/pubs/2026/09/president-signs-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026
+- Source secondaire : Baker McKenzie, « US President Signs Russia and Iran Sanctions Bill with New Tariff Powers », 21 septembre 2026. | https://sanctionsnews.bakermckenzie.com/us-president-signs-russia-and-iran-sanctions-bill-with-new-tariff-powers/
+- Source secondaire : Clyde & Co, « Sanctions Alert: OFAC Authorizes US Imports of Russian Diesel, But Beware of Limitations », octobre 2026. | https://www.clydeco.com/en/insights/2026/10/ofac-authorizes-us-imports-of-russian-diesel
+- Ship & Bunker, « US Lifts Sanctions on Russian Diesel for Six Months After Trump-Putin Call », 9 octobre 2026. | https://shipandbunker.com/news/world/445068-us-lifts-sanctions-on-russian-diesel-for-six-months-after-trump-putin-call
+- TASS (agence d'État russe), « First diesel supplies to US possible in at least 2-3 weeks », déclarations d'Alexandre Novak, 15 octobre 2026. | https://tass.com/economy/2202365
+- The Moscow Times, « Trump Signs Order Exempting Russia From New Sanctions Legislation », 17 octobre 2026. | https://www.themoscowtimes.com/2026/10/17/trump-signs-order-exempting-russia-from-new-sanctions-legislation-a94012
+- UPI, « Trump executive order blocks U.S. sanctions on Russia », 17 octobre 2026. | https://www.upi.com/Top_News/US/2026/10/17/trump-waives-sanctions-against-russia/5771792263731/
+- NBC News, « Trump doubles down after waiving new Russia sanctions, calling it a "very good decision" », octobre 2026. | https://www.nbcnews.com/politics/trump-administration/trump-suspends-new-russia-sanctions-deal-purchase-diesel-citing-nation-rcna603991
+- Congressional Research Service, « U.S. Conflict with Iran » (R48887), mis à jour en 2026. | https://www.congress.gov/crs-product/R48887
+- U.S. Energy Information Administration, Short-Term Energy Outlook, 6 octobre 2026. | https://www.eia.gov/outlooks/steo/report/global_oil.php
+- Al Jazeera, « Trump eases Russia oil sanctions, but is Europe still buying Moscow's gas? », 17 octobre 2026. | https://www.aljazeera.com/news/2026/10/17/trump-eases-russia-oil-sanctions-but-is-europe-still-buying-moscows-gas
+- Agence internationale de l'énergie, Oil Market Report, 14 octobre 2026. | https://www.iea.org/reports/oil-market-report-october-2026
+- Maison-Blanche, décret 14435 « Emergency Tax Relief on Diesel Fuel », 5 octobre 2026. | https://www.whitehouse.gov/presidential-actions/2026/10/emergency-tax-relief-on-diesel-fuel/
+- Source secondaire : TASS, « Russian oil exports fall to 6.52 mln bpd in September, revenues rise to $17.67 bln », octobre 2026, d'après le rapport de l'AIE. | https://tass.com/economy/2202067
+- Euronews, Nathan Rennolds, « Trump signs executive order waiving new Russia sanctions package », 17 octobre 2026. | https://www.euronews.com/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-package
+- Conseil de l'Union européenne, « Russian gas imports: Council gives final greenlight to a stepwise ban », 26 janvier 2026. | https://www.consilium.europa.eu/en/press/press-releases/2026/01/26/russian-gas-imports-council-gives-final-greenlight-to-a-stepwise-ban/
+- NBC News, « Jared Kushner and Steve Witkoff to discuss "new" peace plan with Ukrainian delegation, sources say », 9 octobre 2026. | https://www.nbcnews.com/world/ukraine/russia-war-kushner-witkoff-discuss-new-peace-plan-rcna602463
+- Office of Foreign Assets Control, Trésor américain, « Russian Harmful Foreign Activities Sanctions », liste des licences générales, consultée le 18 octobre 2026. | https://ofac.treasury.gov/sanctions-programs-and-country-information/russian-harmful-foreign-activities-sanctions

@@ -5,13 +5,14 @@ NAV = [  # (page, libellé, pages rattachées)
     ("index.html", "Accueil", ()),
     ("dossiers.html", "Enquêtes", ("dossier-",)),
     ("livres.html", "Monographies", ("livre-",)),
-    ("#rubriques", "Rubriques", ("politique-institutions.html", "economie-societe.html", "affaires-enquetes.html")),
+    ("#rubriques", "Rubriques", ("politique-institutions.html", "economie-societe.html", "monde.html", "affaires-enquetes.html")),
     ("methode.html", "Méthode", ()),
     ("a-propos.html", "À propos", ()),
 ]
 NAV_RUBRIQUES = [
     ("politique-institutions.html", "Politique &amp; Institutions"),
     ("economie-societe.html", "Économie &amp; Société"),
+    ("monde.html", "Monde"),
     ("affaires-enquetes.html", "Affaires &amp; Enquêtes"),
 ]
 LOUPE = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>'
@@ -105,6 +106,7 @@ def page(fichier, titre, description, corps, noindex=False, classe=""):
       <a href="dossiers.html">Tous les dossiers</a>
       <a href="politique-institutions.html">Politique &amp; Institutions</a>
       <a href="economie-societe.html">Économie &amp; Société</a>
+      <a href="monde.html">Monde</a>
       <a href="affaires-enquetes.html">Affaires &amp; Enquêtes</a>
       <a href="livres.html">Livres</a>
     </nav>
@@ -186,6 +188,8 @@ RUBRIQUES = [
      "Pouvoir, décisions publiques, élections, réformes."),
     ("economie-societe.html", "c-economie", "Économie &amp; Société",
      "Dette, retraites, fiscalité, emploi, services publics."),
+    ("monde.html", "c-monde", "Monde",
+     "Décisions internationales, conflits, énergie : ce qui a été décidé, ce qui reste incertain, ce que cela peut changer."),
     ("affaires-enquetes.html", "c-affaires", "Affaires &amp; Enquêtes",
      "Chronologies judiciaires, pièces du dossier, expertises, faits établis et hypothèses."),
 ]
@@ -583,8 +587,8 @@ DOSSIER_CHOMAGE = {"fichier": "dossier-chomage-emploi.html", "rubrique": "econom
 # Sections spéciales : « ## Sources » (lignes « - texte | url ») et « ## Essentiel ».
 import glob, re, html as _html
 
-RUB_CLASSES = {"economie": "c-economie", "politique": "c-pouvoirs", "affaires": "c-affaires"}
-RUB_NOMS = {"economie": "Économie &amp; Société", "politique": "Politique &amp; Institutions", "affaires": "Affaires &amp; Enquêtes"}
+RUB_CLASSES = {"economie": "c-economie", "politique": "c-pouvoirs", "monde": "c-monde", "affaires": "c-affaires"}
+RUB_NOMS = {"economie": "Économie &amp; Société", "politique": "Politique &amp; Institutions", "monde": "Monde", "affaires": "Affaires &amp; Enquêtes"}
 
 def _inline(t):
     t = t.replace("&", "&amp;").replace("&amp;amp;", "&amp;")
@@ -647,8 +651,8 @@ def date_iso(d):
     p = d.split()
     return f"{p[2]}-{MOIS_NUM.get(p[1], 1):02d}-{int(p[0].replace('er', '')):02d}" if len(p) == 3 else ""
 
-RUB_PAGES = {"c-pouvoirs": "politique-institutions.html", "c-economie": "economie-societe.html", "c-affaires": "affaires-enquetes.html"}
-RUB_COURTS = {"c-pouvoirs": "Politique", "c-economie": "Économie &amp; Société", "c-affaires": "Affaires &amp; Enquêtes"}
+RUB_PAGES = {"c-pouvoirs": "politique-institutions.html", "c-economie": "economie-societe.html", "c-monde": "monde.html", "c-affaires": "affaires-enquetes.html"}
+RUB_COURTS = {"c-pouvoirs": "Politique", "c-economie": "Économie &amp; Société", "c-monde": "Monde", "c-affaires": "Affaires &amp; Enquêtes"}
 FLECHE = '<svg class="fleche" viewBox="0 0 16 10" width="14" height="9" aria-hidden="true"><path d="M0 5h14M10 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>'
 ICONE_IMPRIMER = '<svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>'
 ICONE_LIEN = '<svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3.5-3.5a4 4 0 0 0-5.7-5.7l-1.2 1.2M14 10a4 4 0 0 0-5.7 0l-3.5 3.5a4 4 0 0 0 5.7 5.7l1.2-1.2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>'
@@ -735,6 +739,7 @@ for m in _dossiers_simples:
 RUB_INFO = {  # classe -> (nom, page, clé de filtre)
     "c-pouvoirs": ("Politique &amp; Institutions", "politique-institutions.html", "politique"),
     "c-economie": ("Économie &amp; Société", "economie-societe.html", "economie"),
+    "c-monde": ("Monde", "monde.html", "monde"),
     "c-affaires": ("Affaires &amp; Enquêtes", "affaires-enquetes.html", "affaires"),
 }
 
@@ -792,7 +797,7 @@ def ligne(h, attributs=""):
         </article>'''
 
 # ---------- Page « Tous les dossiers » ----------
-_liste = [(c, h, t, d, INFOS[h]["min"]) for c in ["c-pouvoirs", "c-economie", "c-affaires"] for h, t, d in DOSSIERS.get(c, [])]
+_liste = [(c, h, t, d, INFOS[h]["min"]) for c in ["c-monde", "c-pouvoirs", "c-economie", "c-affaires"] for h, t, d in DOSSIERS.get(c, [])]
 _lignes_toutes = "\n".join(ligne(h, f' data-rubrique="{RUB_INFO[c][2]}" data-texte="{_texte_recherche(h, t, d)}"') for c, h, t, d, m in _liste)
 _filtres = "".join(f'<button type="button" class="filtre" data-filtre="{k}" aria-pressed="false">{n}</button>' for _, (n, _p, k) in RUB_INFO.items())
 dossiers_page = f'''  <section class="tete-simple">
@@ -850,12 +855,12 @@ for c, h, t, d, m in _liste:
 {"".join(carte(a) for a in autres)}
       </div>
     </div>
-  </section>'''
+  </section>''' if autres else ""
     s_ = s_.replace("<!--LIREAUSSI-->", lire_aussi, 1)
     open(chemin, "w", encoding="utf-8").write(s_)
 
 # ---------- Pages de rubrique ----------
-RUB_BANDEAU = {"c-pouvoirs": "dossier-assemblee-sans-majorite.html", "c-economie": "dossier-dette-publique.html", "c-affaires": "dossier-cour-justice-republique.html"}
+RUB_BANDEAU = {"c-pouvoirs": "dossier-assemblee-sans-majorite.html", "c-economie": "dossier-dette-publique.html", "c-monde": "dossier-russie-sanctions-petrole.html", "c-affaires": "dossier-cour-justice-republique.html"}
 _onglets = lambda actif: "".join(f'<a href="{p}"{" aria-current=\"page\"" if p == actif else ""}>{n}</a>' for p, n in [("dossiers.html", "Tous")] + NAV_RUBRIQUES)
 for h, c, t, d in RUBRIQUES:
     b = INFOS[RUB_BANDEAU[c]]
@@ -865,7 +870,7 @@ for h, c, t, d in RUBRIQUES:
     <div class="conteneur bandeau-contenu">
       <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a><span aria-hidden="true">›</span><span>Rubriques</span><span aria-hidden="true">›</span><span aria-current="page">{t}</span></nav>
       <h1>{t.split(" &amp; ")[0] if c == "c-pouvoirs" else t}</h1>
-      <p>{d}<br>{len(DOSSIERS.get(c, []))} enquêtes pour comprendre les décisions, les chiffres et les procédures.</p>
+      <p>{d}<br>{len(DOSSIERS.get(c, []))} enquête{"s" if len(DOSSIERS.get(c, [])) > 1 else ""} pour comprendre les décisions, les chiffres et les procédures.</p>
     </div>
     <p class="credit-bandeau">{_html.escape(b["meta"].get("image_alt", ""))}. {credit_photo(b["meta"])}</p>
   </section>
@@ -886,17 +891,17 @@ for h, c, t, d in RUBRIQUES:
       </div>
     </div>
   </section>
-  <section class="section section-claire">
+{"" if c not in LIVRES else f'''  <section class="section section-claire">
     <div class="conteneur">
       <div class="titre-section"><h2>Pour aller plus loin</h2><a class="lien-fleche" href="livres.html">Toutes les monographies{FLECHE}</a></div>
 {grille_livres([c])}
     </div>
-  </section>'''
+  </section>'''}'''
     page(h, t.replace("&amp;", "&"), f"{t.replace('&amp;', '&')} : {d}", corps)
 
 # ---------- Accueil ----------
-UNE = ["dossier-budget-2027.html", "dossier-assemblee-sans-majorite.html", "dossier-delais-justice-penale.html", "dossier-dette-publique.html"]
-DERNIERES = ["dossier-usage-force-police.html", "dossier-financement-campagnes.html", "dossier-gregory.html", "dossier-deserts-medicaux.html"]
+UNE = ["dossier-russie-sanctions-petrole.html", "dossier-budget-2027.html", "dossier-assemblee-sans-majorite.html", "dossier-delais-justice-penale.html", "dossier-dette-publique.html"]
+DERNIERES = ["dossier-russie-sanctions-petrole.html", "dossier-usage-force-police.html", "dossier-financement-campagnes.html", "dossier-gregory.html"]
 _diapos = []
 for n, h in enumerate(UNE):
     i = INFOS[h]
@@ -924,6 +929,7 @@ _piliers = "\n".join(f'''        <li><span class="pilier-icone"><svg viewBox="0 
 EXPLORER = [
     ("politique-institutions.html", "Politique", "Institutions, élections, vie démocratique", "assets/images/majorite.jpg"),
     ("economie-societe.html", "Économie &amp; Société", "Finances publiques, emploi, services publics", "assets/images/electricite.jpg"),
+    ("monde.html", "Monde", "Décisions internationales, énergie, conflits", "assets/images/russie-sanctions-petrole.jpg"),
     ("affaires-enquetes.html", "Affaires &amp; Enquêtes", "Procédures, tribunaux, affaires judiciaires", "assets/images/cjr.jpg"),
     ("livres.html", "Monographies", "Le dossier complet, en un volume", "assets/couverture-comptes.png"),
 ]
