@@ -1,0 +1,82 @@
+fichier: dossier-emprise.html
+rubrique: psychologie
+titre: Pourquoi reste-t-on parfois sous l'emprise d'une personne ou d'un groupe ? Ce que le droit et la recherche permettent d'établir
+titre_court: L'emprise
+chapeau: « Pourquoi n'est-elle pas partie ? » La question revient dans les affaires de violences conjugales comme dans celles de dérives sectaires. Ce que disent les enquêtes, les études sur la séparation, le droit pénal et les décisions de justice, et les limites d'une notion difficile à définir.
+resume: Violences au sein du couple, contrôle coercitif, dérives sectaires, délit de sujétion psychologique créé en 2024, chiffres de la Miviludes et leurs critiques, débat sur la loi intégrale. Troisième dossier de la rubrique, sans examen d'une affaire particulière. Données arrêtées au 18 octobre 2026.
+arret: 18 octobre 2026
+publication: 18 octobre 2026
+verifie: 18 octobre 2026
+image: assets/images/emprise.jpg
+image_alt: Une clé engagée dans la serrure d'une porte intérieure
+image_credit: Shixart1985, CC BY 2.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Close-up_of_the_key_with_house_keychain.jpg
+---
+## Essentiel
+- Le mot « emprise » figure dans la loi, mais sans définition unique : la loi du 30 juillet 2020 permet à un médecin de signaler sans son accord une victime de violences conjugales « en situation de danger immédiat et sous emprise », sans définir ce terme [1].
+- Depuis la loi du 10 mai 2024, placer ou maintenir une personne en « état de sujétion psychologique ou physique » par des pressions graves ou réitérées est un délit autonome, puni de trois ans d'emprisonnement et 375 000 euros d'amende, lorsqu'il en résulte une atteinte grave à sa santé ou un acte gravement préjudiciable. Le Conseil constitutionnel l'a jugé conforme le 7 mai 2024 [2].
+- Selon l'enquête de victimation du ministère de l'Intérieur, 19 % des femmes déclarant des violences au sein du couple en 2023 ont porté plainte, et 19 % n'en ont parlé à personne [3].
+- Les études sur la séparation décrivent un processus, souvent fait de plusieurs ruptures, qui dépend de facteurs matériels autant que psychologiques ; partir n'améliore pas toujours immédiatement la situation de la personne [4].
+- La notion de « contrôle coercitif », reconnue par la cour d'appel de Poitiers en janvier 2024, n'est pas inscrite dans le code pénal : l'Assemblée nationale a rejeté le 2 octobre 2026 les trois rédactions proposées dans la « loi intégrale », adoptée le 13 octobre en première lecture [5][6][7].
+
+[À noter] « Emprise » est un mot du langage courant, de la clinique et, désormais, de quelques textes juridiques ; aucune des sources consultées n'en donne une définition partagée par tous. Ce dossier n'établit aucun diagnostic sur une personne et n'examine aucune affaire. Contrôle coercitif : schéma de comportements répétés par lesquels une personne restreint la liberté d'une autre (surveillance, isolement, contrôle de l'argent, menaces), notion diffusée par le sociologue américain Evan Stark dans un livre publié en 2007 [5]. Sujétion : état de dépendance psychologique ou physique, notion utilisée par le code pénal pour l'abus de faiblesse et, depuis 2024, pour un délit autonome [2].
+
+## Une question mal posée
+
+[Interprétation] « Pourquoi n'est-elle pas partie ? » suppose qu'il suffirait de vouloir partir, et que rester révèlerait soit l'absence de violences, soit un consentement. Les travaux présentés ici décrivent plutôt un ensemble de contraintes : dépendance matérielle, peur, enfants, isolement, espoir de changement, honte. Ils ne permettent pas d'en déduire que toute personne restée était sous emprise, ni que toute relation conflictuelle relève de l'emprise.
+
+[Fait établi] Une revue de la littérature publiée en 2003 par les chercheurs américains Deborah Anderson et Daniel Saunders conclut que les facteurs prédictifs de la séparation sont à la fois matériels et psychologiques, que la plupart des femmes battues changent plusieurs fois de regard sur les violences avant de partir définitivement, et que certaines femmes tout juste séparées présentent davantage de difficultés psychologiques que celles qui restent [4]. Les auteurs soulignent les limites méthodologiques des études disponibles.
+
+## Ce que disent les enquêtes en France
+
+[Fait établi] Selon l'enquête « Vécu et ressenti en matière de sécurité » du SSMSI, 19 % des femmes déclarant avoir subi des violences au sein du couple en 2023 ont porté plainte : 30 % pour des violences physiques, 20 % pour des violences verbales ou psychologiques, 12 % pour des violences sexuelles. 75 % en ont parlé à des proches, 33 % à un psychiatre ou un psychologue, et 19 % n'en ont parlé à personne [3].
+
+[Fait établi] Parmi celles qui n'ont pas porté plainte et ont donné une raison, 19 % pensaient que cela « ne servirait à rien », 9 % que leur témoignage ne serait pas pris au sérieux, 18 % que ce n'était pas assez grave, et 7 % que cela aurait représenté une épreuve supplémentaire [3].
+
+[Fait établi] Pour les féminicides au sein du couple de 2024, l'étude du ministère de l'Intérieur indique que pour 51 % d'entre eux, le mobile identifié relève de « l'emprise et du contrôle » exercés par l'auteur (dispute, séparation non acceptée, jalousie). 47 % des femmes tuées avaient subi des violences antérieures connues de l'enquête [3].
+
+[Interprétation] Ces chiffres ne mesurent pas l'emprise, qui n'est pas une catégorie de l'enquête, mais ils décrivent deux réalités souvent oubliées : la plupart des victimes déclarées parlent à quelqu'un sans porter plainte, et la séparation elle-même peut être un moment de danger. L'enquête repose sur des déclarations, et les catégories de mobile du ministère regroupent des situations différentes.
+
+## Le contrôle coercitif : de la jurisprudence au Parlement
+
+[État de la procédure] Le 31 janvier 2024, la cour d'appel de Poitiers a rendu cinq arrêts qui reprennent un même paragraphe définissant le contrôle coercitif comme « les manœuvres délibérées et répétées de déstabilisation psychologique, sociale et physique » ayant pour effet de réduire la capacité d'agir de la victime. La cour s'en est servie pour caractériser des infractions existantes, comme le harcèlement entre conjoints, et non pour créer une infraction nouvelle [5].
+
+[Fait établi] Une proposition de loi adoptée par l'Assemblée nationale le 28 janvier 2025 faisait du contrôle coercitif un délit ; le Sénat l'a redéfini comme une forme de harcèlement conjugal, et le texte n'a pas abouti [6]. Dans la proposition de loi dite « intégrale » contre les violences sexuelles et sexistes, l'Assemblée a rejeté le 2 octobre 2026 les trois rédactions qui devaient introduire le contrôle coercitif, selon le site NosParlementaires ; le texte a été adopté en première lecture le 13 octobre 2026 par 503 voix pour, aucune contre et 67 abstentions, et doit être examiné par le Sénat [7][8].
+
+[Débat] Les partisans d'une infraction autonome estiment qu'elle permettrait d'intervenir avant les violences physiques, et de saisir ce que chaque fait, pris isolément, ne montre pas. La juriste Yvonne Muller, favorable à une incrimination, relève les difficultés : définir l'infraction de façon assez précise pour respecter le principe de légalité, la distinguer du harcèlement conjugal et des violences psychologiques déjà réprimées, et éviter qu'elle soit retournée contre des victimes [5][6].
+
+## Les dérives sectaires
+
+[Fait établi] La loi du 10 mai 2024 a créé l'article 223-15-3 du code pénal : le fait de placer ou de maintenir une personne dans un état de sujétion psychologique ou physique, résultant de pressions graves ou réitérées ou de techniques propres à altérer son jugement, est puni lorsqu'il entraîne une altération grave de sa santé ou la conduit à un acte ou une abstention gravement préjudiciable. Le Conseil constitutionnel a jugé que le législateur avait opéré « une conciliation équilibrée » avec la liberté personnelle et écarté les griefs tirés de la liberté de conscience et d'opinion [2].
+
+[Fait établi] Selon son rapport d'activité 2022-2024, présenté le 8 avril 2025, la mission interministérielle de vigilance et de lutte contre les dérives sectaires (Miviludes) a reçu 4 571 saisines en 2024, 111 % de plus qu'en 2015. Sur 2022-2024, la santé et le bien-être représentaient 37 % des signalements, devant les cultes et spiritualités (35 %). La mission a adressé 45 signalements au parquet en 2024, contre 20 en 2021 [9].
+
+[Débat] Ces chiffres sont contestés. Dans une question écrite publiée le 3 octobre 2024, la sénatrice Laurence Muller-Bronn souligne que les saisines comprennent des demandes d'information, y compris de journalistes, et que leur hausse s'explique en partie par la communication de la mission ; elle relève que, sur 3 118 saisines traitées en 2021, 20 avaient donné lieu à un signalement au procureur. Le ministère de l'Intérieur a répondu le 21 novembre 2024 que la hausse s'inscrit dans une tendance de fond, de 2 160 saisines en 2015 à 4 020 en 2021, accentuée par la crise du Covid-19 [10].
+
+[Interprétation] Le nombre de saisines mesure l'activité de la mission et l'inquiétude du public, pas le nombre de personnes sous emprise. Le nombre de signalements au parquet, bien plus faible, ne mesure pas non plus le phénomène : il dépend de ce que la mission estime suffisamment caractérisé.
+
+## Ce que ces notions ne permettent pas de conclure
+
+[Interprétation] Constater qu'une personne est restée, s'est rétractée ou a défendu l'auteur désigné ne prouve ni l'emprise ni son absence. Inversement, qualifier une relation d'emprise ne suffit pas à établir une infraction : le droit exige des faits précis, répétés ou graves, et leurs conséquences. Les termes popularisés sur les réseaux sociaux pour désigner un partenaire manipulateur ne sont pas des diagnostics, et aucune source consultée ne permet de diagnostiquer une personne à distance.
+
+## Propositions en débat
+
+[Proposition] Créer un délit autonome de contrôle coercitif : texte adopté par l'Assemblée en janvier 2025, rejeté sous trois formes en octobre 2026 [6][7]. Objection principale : la difficulté de définir précisément l'infraction et son chevauchement avec le harcèlement conjugal [5].
+
+## Ce qu'on ne sait pas
+- **Le nombre de personnes sous emprise**, conjugale ou sectaire : aucune statistique publique consultée ne le mesure, faute de définition commune.
+- **L'application du délit de sujétion créé en 2024** : les sources consultées ne donnent ni nombre de poursuites ni nombre de condamnations [2][9].
+- **Le sort du contrôle coercitif au Sénat**, qui doit examiner la loi intégrale [8].
+- **La version définitive du texte adopté le 13 octobre 2026** sur ce point : elle n'a été consultée qu'à travers des sources secondaires [7][8].
+
+## Sources
+- Weka, « Un vade-mecum "Secret médical et violences au sein du couple" », 21 octobre 2020 (source secondaire sur la loi du 30 juillet 2020). | https://www.weka.fr/actualite/droit-des-femmes/article/un-vade-mecum-secret-medical-et-violences-au-sein-du-couple-111520/
+- Conseil constitutionnel, décision n° 2024-865 DC du 7 mai 2024, loi visant à renforcer la lutte contre les dérives sectaires et à améliorer l'accompagnement des victimes. | https://www.conseil-constitutionnel.fr/decision/2024/2024865DC.htm
+- Observatoire national des violences faites aux femmes (Miprof), « Les violences sexistes et sexuelles en France en 2024 », lettre n° 25, novembre 2025, reprenant l'enquête « Vécu et ressenti en matière de sécurité » du SSMSI et l'étude nationale sur les morts violentes au sein du couple. | https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf
+- Deborah K. Anderson et Daniel G. Saunders, « Leaving an abusive partner: an empirical review of predictors, the process of leaving, and psychological well-being », Trauma, Violence, & Abuse, vol. 4, n° 2, avril 2003. | https://doi.org/10.1177/1524838002250769
+- Le Club des juristes, Yvonne Muller, « Le contrôle coercitif dans les violences intrafamiliales, une affaire de qualification », 11 décembre 2024. | https://www.leclubdesjuristes.com/societe/le-controle-coercitif-dans-les-violences-intrafamiliales-une-affaire-de-qualification-8338/
+- Le Club des juristes, Yvonne Muller, « Loi intégrale : le contrôle coercitif au cœur des débats », 29 septembre 2026. | https://www.leclubdesjuristes.com/droit/loi-integrale-le-controle-coercitif-au-coeur-des-debats-17520/
+- Source secondaire : NosParlementaires, Nicolas Monnier, « Vote de la loi intégrale : ce qui a changé avant le 13 octobre », 14 octobre 2026. | https://nosparlementaires.fr/actualites/loi-integrale-violences-sexuelles-bilan-parlement
+- LCP, « La loi intégrale contre les violences sexuelles et sexistes adoptée à l'unanimité par l'Assemblée nationale », 13 octobre 2026. | https://lcp.fr/actualites/la-loi-integrale-contre-les-violences-sexuelles-et-sexistes-adoptee-a-l-unanimite-par-l
+- AFP, via Vidal, « Dérives sectaires : la santé particulièrement touchée, les soins de support surveillés, selon la Miviludes », 8 avril 2025. | https://www.vidal.fr/actualites/31851-derives-sectaires-la-sante-particulierement-touchee-les-soins-de-support-surveilles-selon-la-miviludes.html
+- Sénat, question écrite n° 00247 de Laurence Muller-Bronn sur la méthodologie de la Miviludes, publiée le 3 octobre 2024, et réponse du ministère de l'Intérieur publiée le 21 novembre 2024. | https://www.senat.fr/questions/base/2024/qSEQ241000247.html

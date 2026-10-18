@@ -614,6 +614,8 @@ RUB_NOMS = {"economie": "Économie &amp; Société", "politique": "Politique &am
 
 def _inline(t):
     t = t.replace("&", "&amp;").replace("&amp;amp;", "&amp;")
+    # typographie française : espace insécable avant ? ! ; : et à l'intérieur des guillemets
+    t = re.sub(r" ([?!;:»])", "\u00a0\\1", t).replace("« ", "«\u00a0")
     t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
     t = re.sub(r"\[(\d+)\]", lambda m: note(int(m.group(1))), t)
     return t
@@ -914,6 +916,31 @@ for c, h, t, d, m in _liste:
     open(chemin, "w", encoding="utf-8").write(s_)
 
 # ---------- Pages de rubrique ----------
+# Règle propre à la rubrique psychologie : quatre niveaux toujours séparés, pas de diagnostic à distance
+RUB_METHODE = {"c-psycho": """  <section class="section section-claire">
+    <div class="conteneur">
+      <div class="titre-section"><h2>Ce que cette rubrique sépare toujours</h2><a class="lien-fleche" href="methode.html">Notre méthode""" + FLECHE + """</a></div>
+      <div class="deux-encarts">
+        <section class="encart-methode">
+          <h3>Ce que les études établissent</h3>
+          <p>Avec la population étudiée, la méthode et les limites des résultats. Une expérience de laboratoire ne vaut pas une mesure sur l'ensemble de la population.</p>
+        </section>
+        <section class="encart-methode">
+          <h3>Ce que les témoignages rapportent</h3>
+          <p>Attribués et datés, sans valeur de preuve générale. Un appel à témoignages n'est pas un échantillon représentatif.</p>
+        </section>
+        <section class="encart-methode">
+          <h3>Ce que les décisions de justice établissent</h3>
+          <p>Avec l'état exact de la procédure. Une décision judiciaire n'est pas une conclusion scientifique, et l'inverse non plus.</p>
+        </section>
+        <section class="encart-methode">
+          <h3>Ce qui reste débattu</h3>
+          <p>Les deux positions sont exposées quand la recherche se contredit. Aucun diagnostic n'est posé sur une personne, et les termes populaires ne sont pas présentés comme des catégories cliniques.</p>
+        </section>
+      </div>
+    </div>
+  </section>
+"""}
 RUB_BANDEAU = {"c-pouvoirs": "dossier-assemblee-sans-majorite.html", "c-economie": "dossier-dette-publique.html", "c-monde": "dossier-russie-sanctions-petrole.html", "c-affaires": "dossier-cour-justice-republique.html", "c-psycho": "dossier-parole-violences-sexuelles.html"}
 _onglets = lambda actif: "".join(f'<a href="{p}"{" aria-current=\"page\"" if p == actif else ""}>{n}</a>' for p, n in [("dossiers.html", "Tous")] + NAV_RUBRIQUES)
 for h, c, t, d in RUBRIQUES:
@@ -945,7 +972,7 @@ for h, c, t, d in RUBRIQUES:
       </div>
     </div>
   </section>
-{"" if c not in LIVRES else f'''  <section class="section section-claire">
+{RUB_METHODE.get(c, "")}{"" if c not in LIVRES else f'''  <section class="section section-claire">
     <div class="conteneur">
       <div class="titre-section"><h2>Pour aller plus loin</h2><a class="lien-fleche" href="livres.html">Toutes les monographies{FLECHE}</a></div>
 {grille_livres([c])}
@@ -955,7 +982,7 @@ for h, c, t, d in RUBRIQUES:
 
 # ---------- Accueil ----------
 UNE = ["dossier-iran-ormuz-carburants.html", "dossier-russie-sanctions-petrole.html", "dossier-budget-2027.html", "dossier-assemblee-sans-majorite.html", "dossier-delais-justice-penale.html"]
-DERNIERES = ["dossier-parole-violences-sexuelles.html", "dossier-ukraine-cout-europe-france.html", "dossier-votes-groupes-2017-2026.html", "dossier-absenteisme-deputes.html"]
+DERNIERES = ["dossier-parole-violences-sexuelles.html", "dossier-temoignage-erreur-sincere.html", "dossier-emprise.html", "dossier-ukraine-cout-europe-france.html"]
 _diapos = []
 for n, h in enumerate(UNE):
     i = INFOS[h]

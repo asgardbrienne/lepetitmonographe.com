@@ -1,0 +1,89 @@
+fichier: dossier-temoignage-erreur-sincere.html
+rubrique: psychologie
+titre: Peut-on se tromper sincèrement dans un témoignage ? Ce que la recherche sur la mémoire permet d'établir
+titre_court: L'erreur sincère du témoin
+chapeau: Un témoin peut être de bonne foi et se tromper ; un récit hésitant peut être exact. Ce que les expériences sur la mémoire, les erreurs judiciaires documentées et les règles d'audition permettent de dire, et ce qu'elles ne permettent pas de conclure sur un témoignage particulier.
+resume: Mémoire reconstructive, questions suggestives, identification des suspects, confiance du témoin, parole des enfants, règles françaises d'audition et leçons d'Outreau. Deuxième dossier de la rubrique, sans examen d'une affaire en cours. Données arrêtées au 18 octobre 2026.
+arret: 18 octobre 2026
+publication: 18 octobre 2026
+verifie: 18 octobre 2026
+image: assets/images/temoignage-erreur-sincere.jpg
+image_alt: La salle de la cour d'assises du palais de justice de Rouen, vide
+image_credit: Philippe Roudaut, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Cour_d%27assises_Palais_de_Justice_de_Rouen.JPG
+---
+## Essentiel
+- La mémoire ne fonctionne pas comme un enregistrement : un souvenir est reconstruit à chaque rappel, et des informations reçues après les faits peuvent s'y incorporer sans que la personne s'en rende compte. Cet « effet de désinformation » est étudié depuis plus de trente ans [1].
+- Aux États-Unis, l'Innocence Project recense une erreur d'identification par un témoin oculaire dans 252 des 367 condamnations annulées grâce à l'ADN, soit 69 %, en avril 2020. Ces cas ne représentent pas l'ensemble des témoignages, mais des erreurs découvertes [3].
+- La recherche ne conclut pas que le témoignage est inutilisable. Une synthèse de 2017 montre qu'une identification faite avec une forte confiance, dès la première fois et dans des conditions rigoureuses, est en général fiable ; la confiance exprimée plus tard, au procès, l'est beaucoup moins [4][7].
+- Les enfants sont plus sensibles aux suggestions que les adultes, mais même de très jeunes enfants peuvent rapporter beaucoup d'éléments exacts ; la qualité de l'entretien pèse lourdement sur le résultat [5][6].
+- En France, l'audition d'un mineur victime d'infractions sexuelles doit être enregistrée. Dans l'affaire d'Outreau, sept auditions de mineurs sur une centaine l'avaient été [8][9].
+
+[À noter] Ce dossier porte sur l'erreur de bonne foi, pas sur le mensonge. Un témoin qui se trompe sincèrement n'a pas l'intention de tromper ; un témoin qui ment, si. Les études citées ne permettent pas de dire, pour un témoignage donné, s'il est exact ou non : elles décrivent des conditions qui augmentent ou réduisent le risque d'erreur. Effet de désinformation : altération d'un souvenir après exposition à une information trompeuse. Identification : reconnaissance d'un suspect par un témoin, par exemple lors d'une présentation de plusieurs personnes ou de photos (en France, on parle de « tapissage »). Protocole NICHD : guide d'entretien structuré pour l'audition des enfants, mis au point par l'Institut national américain de la santé de l'enfant [6].
+
+## Ce que l'on sait de la mémoire
+
+[Fait établi] Dans une expérience publiée en 1974, Elizabeth Loftus et John Palmer ont montré un film d'accident de voiture à des étudiants, puis leur ont demandé la vitesse des véhicules en variant un seul verbe de la question (« se sont heurtées », « se sont fracassées »). Le verbe le plus fort a produit des estimations de vitesse plus élevées et, une semaine plus tard, davantage de personnes déclaraient avoir vu du verre brisé, absent du film [2].
+
+[Fait établi] Dans une revue publiée en 2005, Elizabeth Loftus décrit trente ans de recherches sur l'effet de désinformation : il a été observé dans de nombreuses conditions ; les avertissements donnés aux participants le réduisent seulement dans des cas limités ; certains groupes de personnes y sont plus sensibles. Des travaux plus récents montrent que des personnes peuvent en venir à croire avoir vécu des événements complexes qui ne se sont jamais produits [1].
+
+[Interprétation] Ces expériences sont menées en laboratoire, souvent auprès d'étudiants, sur des événements sans enjeu personnel. Leur transposition à une victime ou à un témoin d'un crime réel n'est pas automatique : le stress, l'implication et la répétition peuvent jouer dans les deux sens. Elles établissent en revanche un mécanisme : la formulation des questions et les informations reçues après les faits peuvent modifier un souvenir sincère.
+
+## L'identification d'un suspect
+
+[Fait établi] Selon l'Innocence Project, organisation américaine qui obtient la révision de condamnations grâce à l'ADN, une erreur d'identification par un témoin oculaire a contribué à 252 des 367 condamnations annulées recensées en avril 2020, ce qui en fait le premier facteur relevé. Le registre national américain des exonérations compte en outre au moins 450 annulations sans ADN impliquant une erreur d'identification [3].
+
+[Interprétation] Ce chiffre est souvent présenté comme la preuve que les témoins se trompent sept fois sur dix. Il ne dit pas cela. Il porte sur des condamnations dont l'erreur a été démontrée, presque toujours dans des affaires où une trace ADN existait ; il ne donne pas le taux d'erreur de l'ensemble des témoignages. L'organisation qui le publie milite pour la réforme des procédures, ce qui ne rend pas le chiffre inexact mais explique le choix de le mettre en avant.
+
+[Débat] Les psychologues John Wixted et Gary Wells soutiennent, dans une synthèse publiée en 2017, que la mémoire des témoins n'est pas « par nature » peu fiable. Selon eux, une identification faite avec une forte confiance implique une forte exactitude, à condition qu'elle soit recueillie dans des conditions rigoureuses : une seule présentation, par un enquêteur qui ignore qui est le suspect, et une confiance notée dès la première identification. À l'inverse, « une faible confiance signale toujours un risque élevé d'erreur ». La confiance exprimée au procès, après des identifications répétées ou un retour approbateur, ne serait plus informative [4][7].
+
+[Débat] Elizabeth Loftus et Rachel Greenspan ont publié un commentaire dans le même numéro de la revue, sous le titre « Si je suis certain, est-ce vrai ? », qui insiste sur les limites de cette conclusion hors des conditions idéales [4]. Les deux positions convergent sur un point : c'est la procédure de recueil qui conditionne la valeur de la confiance du témoin.
+
+## La parole des enfants
+
+[Fait établi] Une revue de la littérature publiée en 1993 par les psychologues Stephen Ceci et Maggie Bruck conclut qu'il existe des différences d'âge fiables dans la suggestibilité, les plus jeunes enfants étant les plus sensibles aux suggestions, mais que « même de très jeunes enfants » sont capables de rapporter beaucoup d'éléments utiles à une enquête [5].
+
+[Fait établi] Une revue publiée en 2007 par l'équipe qui a conçu le protocole NICHD indique que des études contrôlées montrent une amélioration nette de la qualité des entretiens lorsque les enquêteurs l'utilisent : récit libre d'abord, questions ouvertes ensuite, questions fermées en dernier recours [6]. Les auteurs étant les concepteurs du protocole, leur évaluation n'est pas indépendante.
+
+[Interprétation] Ces deux travaux répondent à deux positions souvent opposées dans le débat public. La première affirme que « les enfants ne mentent pas » ; la seconde que leur parole est trop malléable pour fonder une accusation. La recherche ne valide ni l'une ni l'autre : la fiabilité de la parole d'un enfant dépend largement de la manière dont elle a été recueillie.
+
+## Les règles françaises et la leçon d'Outreau
+
+[Fait établi] L'article 706-52 du code de procédure pénale impose l'enregistrement audiovisuel de l'audition d'un mineur victime d'infractions sexuelles, notamment pour réduire le nombre d'auditions. Selon le ministère de l'Intérieur, en novembre 2020, près de 200 salles d'audition adaptées dites « salles Mélanie » existaient en gendarmerie, 29 en commissariat et 71 hors des locaux de police, souvent à l'hôpital ; près de 1 900 gendarmes et plus de 2 600 policiers avaient reçu une formation spécifique, dont la méthode NICHD [8].
+
+[Fait établi] Dans l'affaire d'Outreau, la commission d'enquête de l'Assemblée nationale a relevé en 2006 que, sur la centaine d'auditions de mineurs réalisées, seules sept avaient fait l'objet de l'enregistrement audiovisuel prévu par la loi, et que seize enfants avaient été convoqués en même temps au commissariat le 6 mars 2001. Treize des dix-sept accusés ont finalement été acquittés [9].
+
+[Débat] L'affaire d'Outreau est souvent citée comme la démonstration que la parole des enfants n'est pas fiable. Les professionnels de la protection de l'enfance et d'anciens membres de la CIIVISE estiment au contraire qu'elle a installé une méfiance durable envers les enfants victimes. Les deux lectures se rejoignent sur le constat de la commission : les conditions de recueil de la parole étaient défaillantes [9][10].
+
+[Interprétation] Une erreur sincère n'est donc pas seulement une affaire de mémoire individuelle. Elle dépend aussi de la procédure : nombre d'auditions, formulation des questions, enregistrement, formation des enquêteurs, information reçue par le témoin entre les faits et son récit.
+
+## Ce que ces travaux ne permettent pas de conclure
+
+[Interprétation] Ils ne permettent pas de qualifier un témoignage de faux parce qu'il contient des imprécisions : des témoins sincères et exacts sur l'essentiel se trompent souvent sur des détails. Ils ne permettent pas non plus de qualifier un témoignage de vrai parce qu'il est assuré, détaillé et constant : une conviction forte peut s'être construite après les faits. La valeur d'un témoignage s'apprécie avec les autres éléments du dossier.
+
+[Interprétation] Ils ne permettent pas d'opposer « mémoire traumatique » et « faux souvenirs » comme deux camps dont l'un aurait raison. Les débats entre chercheurs sur l'amnésie dissociative et les souvenirs retrouvés sont présentés dans le dossier fondateur de cette rubrique sur la mise en doute de la parole des plaignants.
+
+## Propositions en débat
+
+[Proposition] Généraliser aux identifications de suspects les recommandations de Wixted et Wells : présentation en double aveugle, une seule présentation par témoin, enregistrement de la confiance au moment de la première identification [4]. Les sources consultées ne décrivent pas de protocole national français publié sur ce point ; l'écart avec la pratique actuelle n'est donc pas mesurable ici.
+
+[Proposition] Rendre obligatoire le protocole NICHD pour toute audition d'enfant victime : un amendement en ce sens a été déposé le 1er juillet 2026 en commission spéciale à l'Assemblée nationale, puis retiré [11]. Objection possible : un protocole unique peut être difficile à appliquer à tous les âges et à toutes les situations ; son coût en formation n'est pas chiffré dans les sources consultées.
+
+## Ce qu'on ne sait pas
+- **Le taux d'erreur des témoins dans les procédures françaises** : aucune statistique publique consultée ne le mesure.
+- **La part des erreurs judiciaires françaises liées à un témoignage erroné** : les sources consultées ne fournissent pas d'équivalent du recensement américain.
+- **La pratique réelle des identifications de suspects en France** (nombre de personnes présentées, enquêteur informé ou non de l'identité du suspect, enregistrement de la confiance) : elle n'est pas décrite par une source publique consultée.
+- **L'effet mesuré des salles Mélanie et de la formation au protocole NICHD** sur la qualité des procédures françaises : les données de 2020 portent sur les moyens, pas sur les résultats [8].
+
+## Sources
+- Elizabeth F. Loftus, « Planting misinformation in the human mind: A 30-year investigation of the malleability of memory », Learning & Memory, vol. 12, n° 4, juillet 2005. | https://doi.org/10.1101/lm.94705
+- Elizabeth F. Loftus et John C. Palmer, « Reconstruction of automobile destruction: An example of the interaction between language and memory », Journal of Verbal Learning and Verbal Behavior, vol. 13, n° 5, octobre 1974. | https://doi.org/10.1016/S0022-5371(74)80011-3
+- Innocence Project, « How Eyewitness Misidentification Can Send Innocent People to Prison », 15 avril 2020 (organisation engagée pour la réforme des procédures). | https://innocenceproject.org/how-eyewitness-misidentification-can-send-innocent-people-to-prison/
+- John T. Wixted et Gary L. Wells, « The Relationship Between Eyewitness Confidence and Identification Accuracy: A New Synthesis », Psychological Science in the Public Interest, vol. 18, n° 1, mars 2017, avec les commentaires publiés dans le même numéro. | https://doi.org/10.1177/1529100616686966
+- Stephen J. Ceci et Maggie Bruck, « Suggestibility of the child witness: A historical review and synthesis », Psychological Bulletin, vol. 113, n° 3, 1993. | https://doi.org/10.1037/0033-2909.113.3.403
+- Michael E. Lamb, Yael Orbach, Irit Hershkowitz, Phillip W. Esplin et Dvora Horowitz, « A structured forensic interview protocol improves the quality and informativeness of investigative interviews with children: A review of research using the NICHD Investigative Interview Protocol », Child Abuse & Neglect, vol. 31, novembre 2007 (version en libre accès). | https://europepmc.org/article/PMC/PMC2180422
+- Association for Psychological Science, « Eyewitness Confidence Can Predict Accuracy of Identifications, Researchers Find », communiqué présentant la synthèse de Wixted et Wells, 11 avril 2017. | https://www.psychologicalscience.org/news/releases/eyewitness-confidence-can-predict-accuracy-of-identifications-researchers-find.html
+- Assemblée nationale, question écrite n° 25964 de Florence Provendier sur le recueil de la parole de l'enfant victime, et réponse du ministère de l'Intérieur publiée au Journal officiel le 24 novembre 2020. | https://www.assemblee-nationale.fr/dyn/15/questions/QANR5L15QE25964
+- Assemblée nationale, André Vallini (président) et Philippe Houillon (rapporteur), rapport n° 3125 de la commission d'enquête sur l'affaire dite d'Outreau, 6 juin 2006. | https://www.assemblee-nationale.fr/12/rap-enq/r3125-t1.asp
+- Source secondaire : Audrey Guiller, La Déferlante, « Outreau : des enfants victimes condamné·es au silence », 23 janvier 2026. | https://revueladeferlante.fr/outreau-des-enfants-victimes-condamne%C2%B7es-au-silence/
+- Assemblée nationale, commission spéciale sur le projet de loi relatif à la protection des enfants (n° 2841), amendement n° CS992 présenté par Mme Bonnivard et plusieurs députés, 1er juillet 2026, retiré. | https://www.assemblee-nationale.fr/dyn/17/amendements/2841/CSPROENF/992.pdf

@@ -592,7 +592,7 @@ a:hover .fleche { transform: translateX(3px); }
 .statut-carte-fait strong { color: var(--preuve); }
 .deux-encarts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
 .encart-methode { background: var(--blanc); border: 1px solid var(--filet); padding: 24px 26px; }
-.encart-methode h2 { font-size: 1.25rem; margin: 0 0 10px; }
+.encart-methode h2, .encart-methode h3 { font-size: 1.25rem; margin: 0 0 10px; }
 .encart-methode p { margin: 0; font-size: .875rem; color: var(--encre-douce); }
 .regles { list-style: none; counter-reset: regle; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 40px; }
 .regles li { counter-increment: regle; border-top: 1px solid var(--filet); padding: 18px 0 18px 48px; position: relative; }
