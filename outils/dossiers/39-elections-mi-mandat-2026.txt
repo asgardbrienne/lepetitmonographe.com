@@ -1,0 +1,100 @@
+fichier: dossier-elections-mi-mandat-2026.html
+rubrique: monde
+titre: Élections de mi-mandat américaines du 3 novembre 2026 : ce qui est en jeu
+titre_court: Mi-mandat américain 2026
+chapeau: Le 3 novembre, les Américains renouvellent toute la Chambre des représentants et un tiers du Sénat. Le résultat décidera si Donald Trump garde un Congrès de son camp pour les deux dernières années de son mandat. Les règles, les chiffres, et ce que le Congrès peut changer sur les sanctions, les droits de douane ou les guerres.
+resume: Les sièges en jeu, la majorité actuelle, ce que les élections de mi-mandat ont produit dans le passé, les pouvoirs du Congrès et les scénarios. Données arrêtées au 18 octobre 2026.
+arret: 18 octobre 2026
+publication: 18 octobre 2026
+image: assets/images/elections-mi-mandat-2026.jpg
+image_alt: A COMPLETER
+image_credit: A COMPLETER
+image_lien: A COMPLETER
+verifie: 18 octobre 2026
+---
+## Essentiel
+- Le 3 novembre 2026, les 435 sièges de la Chambre des représentants et 35 sièges du Sénat sur 100 sont soumis au vote, dont deux élections partielles en Floride et dans l'Ohio [1][4].
+- Les républicains détiennent aujourd'hui les deux chambres : 218 sièges contre 214 aux démocrates à la Chambre, 53 contre 45 démocrates et 2 indépendants au Sénat [1][2].
+- Depuis 1934, le parti du président a perdu des sièges à la Chambre lors de 20 des 23 élections de mi-mandat [3].
+- Ce n'est pas un vote sur le président, qui reste en fonction jusqu'en janvier 2029. Mais le Congrès vote les lois, le budget et les droits de douane, et peut encadrer les décisions de la Maison-Blanche [5].
+
+## Comment ça marche
+
+[Fait établi] Les élections de mi-mandat ont lieu deux ans après l'élection présidentielle. Les représentants sont élus pour deux ans, par circonscription : les 435 sièges sont donc renouvelés en totalité. Les sénateurs sont élus pour six ans, par État, et un tiers du Sénat est renouvelé tous les deux ans [5].
+
+[Fait établi] En 2026, 33 sièges du Sénat arrivent au terme normal de leur mandat. S'y ajoutent deux élections partielles : dans l'Ohio, pour le siège quitté par J. D. Vance devenu vice-président, et en Floride, pour celui quitté par Marco Rubio devenu secrétaire d'État [4].
+
+[Fait établi] La majorité est de 218 sièges à la Chambre lorsque tous les sièges sont pourvus. Au Sénat, il faut 51 voix, ou 50 plus celle du vice-président, qui départage en cas d'égalité [5]. Le vice-président actuel, J. D. Vance, est républicain.
+
+## Le Congrès sortant
+
+[Fait établi] Au 18 octobre 2026, la Chambre compte 218 républicains, 214 démocrates, 1 indépendant et 2 sièges vacants, selon le greffier de la Chambre [1]. Le Sénat compte 53 républicains, 45 démocrates et 2 indépendants, selon le site officiel du Sénat [2].
+
+## Ce que montre l'histoire
+
+[Fait établi] L'American Presidency Project, de l'université de Californie à Santa Barbara, recense les sièges gagnés ou perdus par le parti du président lors de chaque élection de mi-mandat depuis 1934 [3].
+
+[Figure] barres-h
+titre: Le parti du président perd presque toujours des sièges à la Chambre
+unite: Sièges gagnés ou perdus à la Chambre des représentants par le parti du président, élections de mi-mandat de 1994 à 2022
+donnees:
+- 1994 (Clinton) | -54
+- 1998 (Clinton) | 4
+- 2002 (G. W. Bush) | 8
+- 2006 (G. W. Bush) | -30
+- 2010 (Obama) | -63
+- 2014 (Obama) | -13
+- 2018 (Trump) | -41
+- 2022 (Biden) | -9
+source: American Presidency Project, université de Californie à Santa Barbara [3]
+lecture: Sur les huit dernières élections de mi-mandat, le parti du président n'a gagné des sièges à la Chambre que deux fois, en 1998 et en 2002.
+note: Le tableau complet remonte à 1934. Les décomptes peuvent différer légèrement selon les sources, par exemple pour 2018.
+
+[Fait établi] Le même tableau indique que la cote de popularité de Donald Trump mesurée par l'institut Gallup était de 35 % début août 2026 et de 33 % fin août [3].
+
+[Interprétation] Une tendance historique n'est pas une prévision : en 1998 et en 2002, le parti du président a gagné des sièges. Le découpage des circonscriptions, la participation et les candidats comptent autant que la moyenne historique.
+
+## Ce que disent les prévisionnistes
+
+[Estimation] Le Cook Political Report, qui classe chaque élection selon sa compétitivité, a déplacé le 6 octobre trois élections sénatoriales en faveur des démocrates et qualifie désormais la bataille pour le Sénat d'« incertaine » [6]. Pour que les démocrates prennent le Sénat, il leur faudrait gagner quatre sièges nets [6].
+
+[Estimation] Ces classements reposent notamment sur des sondages et des résultats passés. Ce sont des estimations, que le vote peut démentir : ils indiquent un rapport de force à un moment donné, pas une issue. Le Petit Monographe ne relaie aucune préférence pour l'un ou l'autre parti.
+
+## Ce que le Congrès peut changer pour le reste du monde
+
+[Fait établi] La Constitution donne au Congrès le pouvoir de lever des droits de douane, de déclarer la guerre et de voter le budget. Le Sénat approuve les traités à la majorité des deux tiers et confirme les nominations. Le Congrès peut passer outre un veto présidentiel avec deux tiers des voix dans chaque chambre [5].
+
+[Fait établi] **Sur les sanctions contre la Russie**, la loi votée en septembre permet au président d'écarter les sanctions par simple certification au Congrès ; elle ne prévoit pas de vote pour annuler cette dérogation [7]. Pour l'imposer malgré tout, le Congrès devrait voter une nouvelle loi, et surmonter un éventuel veto.
+
+[Fait établi] **Sur les droits de douane**, la Cour suprême a jugé en février 2026 que la loi d'urgence invoquée par le président ne lui permettait pas d'en imposer [8]. Le droit mondial de 10 % instauré ensuite ne pouvait durer plus de 150 jours sans prolongation par le Congrès, qui ne l'a pas votée [9].
+
+[Fait établi] **Sur la guerre avec l'Iran**, le service de recherche du Congrès cite parmi les décisions possibles du Congrès l'autorisation ou la restriction de l'usage de la force, les crédits supplémentaires, les ventes d'armes et le contrôle des négociations [10].
+
+## Ce que cela peut changer
+
+Ces scénarios décrivent les conséquences institutionnelles de chaque résultat possible. Ils ne disent pas quel résultat est souhaitable ni lequel est le plus probable.
+
+[Hypothèse] **Les républicains gardent les deux chambres.** Le président conserverait un Congrès de son camp jusqu'en janvier 2029. Les contestations venues de son propre parti, comme sur les sanctions russes, resteraient possibles mais devraient réunir assez de voix pour une loi et, le cas échéant, deux tiers contre un veto [5][7].
+
+[Hypothèse] **Les démocrates prennent la Chambre seulement.** La Chambre contrôlerait son ordre du jour et ses commissions, et les projets de loi fiscaux, qui doivent partir de la Chambre selon la Constitution. Aucune loi ne pourrait passer sans accord entre les deux chambres et le président [5].
+
+[Hypothèse] **Les démocrates prennent les deux chambres.** Le Congrès pourrait voter des textes sur les droits de douane, les sanctions ou l'usage de la force, mais le président garderait son veto. Sans majorité des deux tiers, ces textes resteraient bloqués [5].
+
+[Hypothèse] **Un résultat contesté ou tardif.** Dans les élections serrées, les dépouillements et recours peuvent prendre plusieurs semaines. Indice à suivre : le nombre d'élections classées « incertaines » la veille du vote.
+
+## Ce qu'on ne sait pas
+- **Le résultat**, évidemment : les classements d'octobre ne sont pas des résultats.
+- **La participation**, traditionnellement plus faible qu'aux élections présidentielles.
+- **L'effet des événements des dernières semaines** (prix des carburants, guerre avec l'Iran) sur le vote.
+
+## Sources
+- Greffier de la Chambre des représentants (Office of the Clerk), page d'accueil, composition de la Chambre, consultée le 18 octobre 2026. | https://clerk.house.gov/
+- Sénat des États-Unis, « Senators of the 119th Congress », composition du Sénat, consultée le 18 octobre 2026. | https://www.senate.gov/senators/index.htm
+- American Presidency Project, université de Californie à Santa Barbara, « Seats in Congress Gained/Lost by the President's Party in Mid-Term Elections ». | https://www.presidency.ucsb.edu/statistics/data/seats-congress-gainedlost-the-presidents-party-mid-term-elections
+- Source secondaire : 270toWin, « Cook Political Report 2026 Senate Race Ratings », 6 octobre 2026. | https://www.270towin.com/2026-senate-election/cook-political-report-2026-senate
+- Archives nationales des États-Unis, Constitution des États-Unis, transcription. | https://www.archives.gov/founding-docs/constitution-transcript
+- Cook Political Report, « The Fight for the Senate Is a True Toss Up; Three Races Shift Toward Democrats », octobre 2026. | https://www.cookpolitical.com/analysis/senate/senate-overview/fight-senate-true-toss-three-races-shift-toward-democrats
+- Congrès des États-Unis, H.R. 5334, Lindsey O. Graham Sanctioning Russia and Iran Act of 2026, section 115, texte adopté. | https://www.govinfo.gov/content/pkg/BILLS-119hr5334enr/html/BILLS-119hr5334enr.htm
+- Cour suprême des États-Unis, Learning Resources, Inc. v. Trump, n° 24-1287, 20 février 2026. | https://www.supremecourt.gov/opinions/25pdf/607us2r12_8nj9.pdf
+- Congressional Research Service, « Active Presidential Tariff Actions in 2026: Fact Sheet » (R49481), 8 octobre 2026. | https://www.congress.gov/crs-product/R49481
+- Congressional Research Service, « U.S. Conflict with Iran » (R48887), mis à jour le 18 septembre 2026. | https://www.congress.gov/crs-product/R48887

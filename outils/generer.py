@@ -900,8 +900,8 @@ for h, c, t, d in RUBRIQUES:
     page(h, t.replace("&amp;", "&"), f"{t.replace('&amp;', '&')} : {d}", corps)
 
 # ---------- Accueil ----------
-UNE = ["dossier-russie-sanctions-petrole.html", "dossier-budget-2027.html", "dossier-assemblee-sans-majorite.html", "dossier-delais-justice-penale.html", "dossier-dette-publique.html"]
-DERNIERES = ["dossier-russie-sanctions-petrole.html", "dossier-usage-force-police.html", "dossier-financement-campagnes.html", "dossier-gregory.html"]
+UNE = ["dossier-iran-ormuz-carburants.html", "dossier-russie-sanctions-petrole.html", "dossier-budget-2027.html", "dossier-assemblee-sans-majorite.html", "dossier-delais-justice-penale.html"]
+DERNIERES = ["dossier-ukraine-guerre-negociations.html", "dossier-droits-douane-ue-etats-unis.html", "dossier-elections-mi-mandat-2026.html", "dossier-cop31-antalya.html"]
 _diapos = []
 for n, h in enumerate(UNE):
     i = INFOS[h]
