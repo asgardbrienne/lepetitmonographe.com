@@ -1,0 +1,97 @@
+fichier: dossier-acquittement-prescription.html
+rubrique: affaires
+titre: Acquittement, relaxe, non-lieu, classement, prescription : ce que ces décisions disent, et ce qu'elles ne disent pas
+titre_court: Ce que dit un acquittement
+chapeau: Une affaire sans condamnation est souvent lue de deux façons opposées : « il était innocent, donc elle a menti », ou « il s'en est tiré, donc il est coupable ». Le droit ne valide ni l'une ni l'autre. Ce que signifie chaque décision, ce qu'elle établit et ce qu'elle laisse ouvert.
+resume: Les cinq façons dont une procédure pénale se termine sans condamnation, la présomption d'innocence et la règle du doute, la protection des personnes acquittées, la dénonciation calomnieuse et l'arrêt Klouvi c. France, le poids de la médiatisation. Sans examen d'une affaire en cours. Données arrêtées au 18 octobre 2026.
+arret: 18 octobre 2026
+publication: 18 octobre 2026
+verifie: 18 octobre 2026
+image: assets/images/temoignage-erreur-sincere.jpg
+image_alt: La salle de la cour d'assises du palais de justice de Rouen, vide
+image_credit: Philippe Roudaut, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Cour_d%27assises_Palais_de_Justice_de_Rouen.JPG
+---
+## Essentiel
+- Une procédure peut se terminer sans condamnation de cinq façons différentes : classement sans suite par le procureur, non-lieu prononcé par le juge d'instruction, relaxe par un tribunal correctionnel ou de police, acquittement par une cour d'assises ou une cour criminelle, ou extinction des poursuites par la prescription. Elles n'ont ni le même auteur ni la même portée [1][2][3][4].
+- Un acquittement signifie que la culpabilité n'a pas été établie selon les règles de la preuve pénale, dans lesquelles « le doute doit profiter » à l'accusé. Il ne démontre pas toujours que les faits n'ont pas eu lieu ; il interdit en revanche de traiter la personne comme coupable [1][5][6].
+- Seul le procureur général, ou ses substituts, peut faire appel d'un arrêt d'acquittement de cour d'assises ; l'affaire est alors rejugée par une autre cour d'assises [8].
+- Une décision sans condamnation ne prouve pas que la personne qui a dénoncé les faits a menti. Depuis la loi du 9 juillet 2010, la fausseté de la dénonciation n'est présumée que si la décision déclare que le fait n'a pas été commis ou n'est pas imputable à la personne dénoncée. En 2011, la Cour européenne des droits de l'homme a condamné la France pour avoir appliqué automatiquement l'ancienne règle à une plaignante, après un non-lieu pour charges insuffisantes [7].
+- La prescription met fin à la possibilité de poursuivre. Elle ne dit rien de l'existence ou de l'inexistence des faits [3][4].
+
+[À noter] Ce dossier explique des règles générales et n'examine aucune affaire. Il complète, dans la rubrique « Psychologie, Société & Justice », les dossiers sur la mise en doute de la parole des plaignants et sur l'erreur sincère du témoin. Crime : infraction la plus grave (meurtre, viol), jugée par la cour d'assises ou, pour les crimes punis de 15 à 20 ans de réclusion, par la cour criminelle. Délit : infraction jugée par le tribunal correctionnel (vol, agression sexuelle). Contravention : infraction la moins grave, jugée par le tribunal de police [1][4]. Parquet : magistrats du ministère public (procureur de la République, procureur général), chargés de décider des poursuites.
+
+## Cinq issues, cinq significations
+
+[Fait établi] **Le classement sans suite** est une décision du procureur de la République, pas d'un juge. Il peut être motivé par l'absence d'infraction, l'absence d'auteur identifié, le retrait de la plainte ou le dédommagement de la victime, ou le faible préjudice. Ce n'est pas une décision définitive : le procureur peut revenir sur sa décision, par exemple si de nouveaux éléments apparaissent, tant que les faits ne sont pas prescrits. Le plaignant peut le contester auprès du procureur général, ou se constituer partie civile devant un juge d'instruction [3].
+
+[Fait établi] **Le non-lieu** est prononcé par le juge d'instruction à la fin d'une information judiciaire, notamment lorsque les faits ne constituent pas une infraction, qu'aucun auteur n'est identifié, ou qu'il n'existe pas de « charges suffisantes », c'est-à-dire pas assez d'indices contre la personne mise en examen. L'information peut être reprise si des charges nouvelles apparaissent [2].
+
+[Fait établi] **La relaxe** est la décision par laquelle un tribunal correctionnel ou un tribunal de police déclare un prévenu non coupable d'un délit ou d'une contravention, après un procès. Le procureur peut lui-même la demander à l'audience s'il estime que la culpabilité « n'est pas suffisamment démontrée » [13].
+
+[Fait établi] **L'acquittement** est la décision par laquelle une cour d'assises ou une cour criminelle déclare un accusé non coupable d'un crime. Devant la cour d'assises, une majorité de sept voix est nécessaire pour toute décision défavorable à l'accusé, et les bulletins blancs ou nuls lui sont favorables. La décision doit être motivée [1].
+
+[Fait établi] **La prescription** est l'expiration du délai pendant lequel des poursuites peuvent être engagées : en règle générale un an pour une contravention, six ans pour un délit, vingt ans pour un crime, trente ans pour certains crimes graves ; les crimes contre l'humanité sont imprescriptibles. Pour un viol commis sur un mineur, le délai est de trente ans à compter de la majorité de la victime, soit jusqu'à ses 48 ans. Une fois les faits prescrits, le procureur ne peut plus engager de poursuites [3][4][9].
+
+[Interprétation] Seules la relaxe et l'acquittement sont des jugements sur la culpabilité rendus après un procès. Le classement sans suite et le non-lieu interviennent avant tout procès. La prescription n'est pas un jugement sur les faits : elle constate qu'il est trop tard pour poursuivre. Présenter une affaire prescrite comme une affaire dans laquelle la personne aurait été « blanchie », ou une affaire classée comme un acquittement, est donc inexact.
+
+## Ce qu'un acquittement établit
+
+[Fait établi] La présomption d'innocence est garantie notamment par l'article préliminaire du code de procédure pénale, l'article 9 de la Déclaration des droits de l'homme et du citoyen, l'article 9-1 du code civil et l'article 6 § 2 de la Convention européenne des droits de l'homme [14]. Devant la cour d'assises, l'article 304 du code de procédure pénale, qui fixe le serment des jurés, rappelle que « l'accusé est présumé innocent et que le doute doit lui profiter » [5].
+
+[Fait établi] Une fois acquittée, une personne est remise en liberté si elle était détenue, et peut demander dans les six mois une indemnisation pour la détention subie [1]. Seul le procureur général, ou ses substituts, peut faire appel d'un arrêt d'acquittement ; l'affaire est alors rejugée par une autre cour d'assises [8]. Après un acquittement ou une relaxe définitifs, les informations inscrites au fichier des antécédents judiciaires (Taj) sont effacées, sauf si le procureur décide de les conserver ; la personne en est alors informée [15].
+
+[Fait établi] La Cour européenne des droits de l'homme a rappelé, dans l'arrêt de Grande Chambre Allen c. Royaume-Uni du 12 juillet 2013, que la présomption d'innocence a un second aspect, qui s'applique après la fin du procès : empêcher que des personnes acquittées, ou dont les poursuites ont été abandonnées, « soient traitées par des agents ou autorités publics comme si elles étaient en fait coupables ». Les termes employés par l'autorité publique ont, selon la Cour, une « importance cruciale » [6].
+
+[Interprétation] La règle du doute a une conséquence logique que beaucoup de commentaires oublient. Un acquittement peut reposer sur la démonstration que l'accusé n'a pas commis les faits, mais aussi sur l'impossibilité de les établir avec la certitude exigée. Dans le second cas, le droit ne dit pas que les faits ont eu lieu ; il dit qu'on ne peut pas les imputer pénalement à l'accusé, et que celui-ci doit être traité en conséquence. Dire d'une personne acquittée qu'elle est « coupable quand même » contredit ce choix, fait par le droit, de préférer le risque de laisser un coupable libre à celui de condamner un innocent.
+
+## Ce qu'une absence de condamnation ne dit pas de la personne qui a dénoncé
+
+[Fait établi] Dénoncer à la justice un fait que l'on sait inexact est un délit, la dénonciation calomnieuse, puni de cinq ans d'emprisonnement et 45 000 euros d'amende (article 226-10 du code pénal). Jusqu'en 2010, la fausseté du fait dénoncé résultait « nécessairement » d'un acquittement, d'une relaxe ou d'un non-lieu « déclarant que la réalité du fait n'est pas établie », ce qui incluait les décisions rendues au bénéfice du doute. Depuis la loi du 9 juillet 2010, elle ne résulte nécessairement que d'une décision « déclarant que le fait n'a pas été commis ou que celui-ci n'est pas imputable à la personne dénoncée » ; dans tous les autres cas, le tribunal apprécie lui-même les accusations [7].
+
+[État de la procédure] Dans l'arrêt Klouvi c. France du 30 juin 2011, la Cour européenne des droits de l'homme a jugé, à l'unanimité, que la France avait violé le droit à un procès équitable et la présomption d'innocence d'une femme condamnée pour dénonciation calomnieuse. Elle avait porté plainte en 1994 pour viol et harcèlement sexuel contre son ancien supérieur ; un non-lieu pour charges insuffisantes avait été rendu en 1998, puis les juridictions avaient déduit automatiquement de ce non-lieu la fausseté des faits et la mauvaise foi de la plaignante, qui « ne pouvait aucunement se disculper » [7].
+
+[Interprétation] L'arrêt Klouvi ne dit pas que les faits dénoncés avaient eu lieu, ni que l'homme visé était coupable : il avait bénéficié d'un non-lieu, et il reste couvert par la présomption d'innocence. Il dit que l'absence de preuves suffisantes contre l'un ne suffit pas à prouver le mensonge de l'autre. Les deux personnes ont droit à la même règle : aucune n'est coupable sans preuve.
+
+## Deux raisonnements symétriques
+
+[Interprétation] Le premier raisonnement va de l'absence de condamnation au mensonge : « il n'a pas été condamné, donc elle a menti ». Il confond l'échec de la preuve contre une personne avec la preuve contre une autre. Le second va de l'accusation à la culpabilité : « tant de gens l'accusent, ou l'affaire a fait tant de bruit, que c'est forcément vrai ». Il remplace la preuve débattue contradictoirement devant un juge par la répétition, la notoriété ou l'émotion. Le dossier fondateur de la rubrique montre que des comportements « atypiques » ne prouvent pas un mensonge ; il montre aussi qu'ils ne prouvent pas les faits.
+
+[Interprétation] Les deux raisonnements ont un point commun : ils traitent une décision de justice comme si elle répondait à la question « que s'est-il passé ? », alors qu'elle répond à une question plus étroite : « la culpabilité de cette personne est-elle établie, selon ces règles, par ces preuves ? ».
+
+## Le poids de la notoriété et de la médiatisation
+
+[Fait établi] Une méta-analyse publiée en 1999 par Nancy Steblay et ses coauteurs, portant sur 44 tests et 5 755 participants, montre que les personnes exposées à une couverture médiatique défavorable à l'accusé avant le procès jugent plus souvent celui-ci coupable. Une mise à jour publiée en 2022, portant sur 11 240 participants, conclut que la médiatisation avant procès a un « effet biaisant modeste », qu'elle soit favorable ou défavorable à l'accusé [10][11].
+
+[Interprétation] Ces travaux portent surtout sur des jurés fictifs, dans des expériences menées aux États-Unis ; ils ne mesurent pas l'opinion publique française face à une personnalité connue. Ils établissent un mécanisme, dans les deux sens : une image publique favorable peut conduire à minimiser une accusation, une hostilité préexistante à la croire d'avance. Dans les deux cas, l'opinion se forme sur des éléments étrangers aux preuves.
+
+[Fait établi] Avant toute condamnation, une personne présentée publiquement comme coupable de faits faisant l'objet d'une enquête ou d'une instruction peut saisir le juge, même en référé, pour obtenir la publication d'une rectification ou d'un communiqué, sans préjudice de dommages et intérêts (article 9-1 du code civil) [12].
+
+## Propositions en débat
+
+[Proposition] Indiquer systématiquement, dans les communiqués des parquets et des juridictions, la nature exacte de la décision (classement et son motif, non-lieu, relaxe, acquittement, prescription) et sa portée. Cette proposition est formulée par Le Petit Monographe à partir des constats de ce dossier ; les sources consultées n'en évaluent ni la faisabilité ni l'effet.
+
+[Proposition] Rendre obligatoire la mesure de rectification prévue par l'article 9-1 du code civil, en remplaçant « le juge peut » par « le juge doit » : proposition de loi déposée au Sénat lors de la session 2017-2018 [12]. Objection : l'obligation réduirait la marge du juge sur le choix des mesures ; l'exposé des motifs lui-même maintient son appréciation sur l'existence de l'atteinte. Les sources consultées ne disent pas si ce texte a été examiné.
+
+## Ce qu'on ne sait pas
+- **Le taux d'acquittement et de relaxe en France**, notamment pour les violences sexuelles : la publication statistique annuelle du ministère de la Justice n'a pas pu être consultée pour ce dossier.
+- **La part des acquittements fondés sur la démonstration que les faits n'ont pas eu lieu**, par rapport à ceux fondés sur le doute : aucune statistique publique consultée ne fait cette distinction.
+- **L'effet de la médiatisation sur les décisions rendues en France** : les études disponibles portent principalement sur des jurés fictifs aux États-Unis [10][11].
+- **Le nombre de condamnations pour dénonciation calomnieuse après une plainte pour violences sexuelles** : les sources consultées n'en donnent pas de décompte.
+
+## Sources
+- Service public, « Procès devant la cour d'assises ou la cour criminelle », fiche vérifiée le 30 septembre 2024. | https://www.service-public.gouv.fr/particuliers/vosdroits/F1487
+- Service public, « Information judiciaire (instruction préparatoire) », fiche vérifiée le 8 octobre 2026. | https://www.service-public.gouv.fr/particuliers/vosdroits/F1456
+- Service public, « Le procureur doit-il engager des poursuites à la suite d'une plainte ? », fiche vérifiée le 26 juin 2026. | https://www.service-public.gouv.fr/particuliers/vosdroits/F1154
+- Service public, « Justice pénale : quels sont les délais de prescription ? », fiche vérifiée le 29 juillet 2025. | https://www.service-public.gouv.fr/particuliers/vosdroits/F31982
+- Assemblée nationale, question écrite n° 50093 de Marietta Karamanli sur l'intime conviction et réponse du ministère de la Justice (XIIIe législature), citant l'article 304 du code de procédure pénale. | https://www.assemblee-nationale.fr/dyn/13/questions/QANR5L13QE50093
+- Cour européenne des droits de l'homme, Allen c. Royaume-Uni [GC], requête n° 25424/09, arrêt du 12 juillet 2013, note d'information sur la jurisprudence n° 165. | https://hudoc.echr.coe.int/fre?i=002-7753
+- Cour européenne des droits de l'homme, Klouvi c. France, requête n° 30754/03, arrêt du 30 juin 2011 (reproduit l'article 226-10 du code pénal avant et après la loi du 9 juillet 2010). | https://hudoc.echr.coe.int/fre?i=001-105380
+- Assemblée nationale, question écrite n° 30877 d'Éric Jalton sur l'appel des arrêts d'acquittement, et réponse du ministère de la Justice publiée le 8 mars 2005. | https://www.assemblee-nationale.fr/dyn/12/questions/QANR5L12QE30877
+- Service public, « Combien de temps peut-on agir en justice en cas d'infraction sexuelle sur mineur ? », fiche vérifiée le 6 février 2026. | https://www.service-public.gouv.fr/particuliers/vosdroits/F38050
+- Nancy Mehrkens Steblay, Jasmina Besirevic, Solomon M. Fulero et Belia Jimenez-Lorente, « The effects of pretrial publicity on juror verdicts: A meta-analytic review », Law and Human Behavior, vol. 23, avril 1999. | https://doi.org/10.1023/A:1022325019080
+- Lori A. Hoetger, Dennis J. Devine, Eve M. Brank, Ryan M. Drew et Ryan Rees, « The impact of pretrial publicity on mock juror and jury verdicts: A meta-analysis », Law and Human Behavior, vol. 46, avril 2022. | https://doi.org/10.1037/lhb0000473
+- Sénat, proposition de loi n° 562 (2017-2018) relative à la présomption d'innocence, reproduisant l'article 9-1 du code civil. | https://www.senat.fr/leg/ppl17-562.pdf
+- Service public, « Déroulement d'une affaire devant le tribunal correctionnel », fiche vérifiée le 11 mai 2026. | https://www.service-public.gouv.fr/particuliers/vosdroits/F1485
+- Vie publique, « Qu'est-ce que la présomption d'innocence ? », fiche (textes de référence). | https://www.vie-publique.fr/fiches/38069-quest-ce-que-la-presomption-dinnocence
+- Service public, « Traitement d'antécédents judiciaires (Taj) », fiche vérifiée le 30 janvier 2026. | https://www.service-public.gouv.fr/particuliers/vosdroits/F32727

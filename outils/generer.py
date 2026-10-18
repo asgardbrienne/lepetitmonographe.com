@@ -982,7 +982,7 @@ for h, c, t, d in RUBRIQUES:
 
 # ---------- Accueil ----------
 UNE = ["dossier-iran-ormuz-carburants.html", "dossier-russie-sanctions-petrole.html", "dossier-budget-2027.html", "dossier-assemblee-sans-majorite.html", "dossier-delais-justice-penale.html"]
-DERNIERES = ["dossier-parole-violences-sexuelles.html", "dossier-temoignage-erreur-sincere.html", "dossier-emprise.html", "dossier-ukraine-cout-europe-france.html"]
+DERNIERES = ["dossier-acquittement-prescription.html", "dossier-parole-violences-sexuelles.html", "dossier-temoignage-erreur-sincere.html", "dossier-emprise.html"]
 _diapos = []
 for n, h in enumerate(UNE):
     i = INFOS[h]
