@@ -938,6 +938,14 @@ EXPLORER = [
     ("livres.html", "Monographies", "Le dossier complet, en un volume", "assets/couverture-comptes.png"),
 ]
 _explorer = "\n".join(f'''        <a class="tuile" href="{h}"><span class="tuile-texte"><strong>{t}</strong><span>{d}</span>{FLECHE}</span><span class="tuile-image{" tuile-livre" if "couverture" in img else ""}"><img src="{img}" alt="" width="160" height="160" loading="lazy"></span></a>''' for h, t, d, img in EXPLORER)
+_nb_rub = {c: len(DOSSIERS.get(c, [])) for c in RUB_INFO}
+PRESENTATION = [
+    ("dossiers.html", "Des enquêtes documentées", f"{len(_liste)} dossiers qui séparent les faits établis, les témoignages, les débats et les hypothèses. Chaque chiffre est sourcé, avec un lien."),
+    ("#rubriques", "Quatre rubriques", f"Politique et institutions ({_nb_rub['c-pouvoirs']}), économie et société ({_nb_rub['c-economie']}), monde ({_nb_rub['c-monde']}), affaires judiciaires ({_nb_rub['c-affaires']})."),
+    ("livres.html", "Des monographies", "Pour aller plus loin : un sujet traité en profondeur, en un volume."),
+    ("methode.html", "Une méthode publique", "Les règles appliquées à chaque dossier, et la liste datée des corrections."),
+]
+_presentation = "\n".join(f'''        <li><a href="{h}"><strong>{t}</strong><span>{d}</span>{FLECHE}</a></li>''' for h, t, d in PRESENTATION)
 _statuts_bande = "".join(f'<li><span class="statut-icone">{ICONES_STATUTS[k]}</span><strong>{t}</strong></li>' for k, t, d in STATUTS_ACCUEIL)
 accueil = f'''  <h1 class="visuellement-cache">Le Petit Monographe : les faits d'abord, l'opinion reste au lecteur</h1>
   <section class="une" aria-roledescription="carrousel" aria-label="Enquêtes à la une">
@@ -945,6 +953,24 @@ accueil = f'''  <h1 class="visuellement-cache">Le Petit Monographe : les faits d
 {chr(10).join(_diapos)}
     </div>
     <div class="conteneur une-points" role="group" aria-label="Choisir une enquête à la une">{_points}</div>
+  </section>
+
+  <section class="presentation" aria-labelledby="presentation-titre">
+    <div class="conteneur presentation-grille">
+      <div class="presentation-texte">
+        <p class="surtitre">Bienvenue</p>
+        <h2 id="presentation-titre">Comprendre l'actualité à partir des documents, pas des opinions</h2>
+        <p>Le Petit Monographe publie des enquêtes sur la politique, l'économie, l'actualité internationale et les affaires judiciaires. Chaque dossier part des sources : textes officiels, données publiques, décisions de justice, rapports, médias identifiés.</p>
+        <p>Il distingue ce qui est établi de ce qui est débattu ou supposé, applique les mêmes règles à tous les camps, et indique ce que l'on ne sait pas. Il ne dit pas quoi penser ni pour qui voter : il donne les éléments pour juger soi-même.</p>
+        <a class="lien-fleche" href="a-propos.html">À propos du Petit Monographe{FLECHE}</a>
+      </div>
+      <div class="presentation-offre">
+        <p class="presentation-sous-titre">Ce que vous trouverez ici</p>
+        <ul class="presentation-liste">
+{_presentation}
+        </ul>
+      </div>
+    </div>
   </section>
 
   <section class="piliers-bande">
