@@ -40,3 +40,4 @@ Chaque photo est utilisée selon sa licence, vérifiée sur sa page d'origine le
 | dossier-chomage-emploi | assets/images/dossier-chomage-emploi.jpg | Croquant, CC BY-SA 3.0, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:H%C3%B4tel_du_Ch%C3%A2telet_JP2011_fa%C3%A7ade_cour.jpg |
 | page-methode | assets/images/methode.jpg | Stefan Drößler, CC BY 4.0, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Biblioth%C3%A8que_nationale_de_France_Salle_Labrouste_Vo%C3%BBte.jpg |
 | 35-russie-sanctions-petrole | assets/images/russie-sanctions-petrole.jpg | ImagePerson, CC BY 4.0, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Oil_Tanker_in_North_Sea_3928.jpg |
+| 36-iran-ormuz-carburants | assets/images/iran-ormuz-carburants.jpg | MODIS Land Rapid Response Team, NASA GSFC, domaine public, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg |

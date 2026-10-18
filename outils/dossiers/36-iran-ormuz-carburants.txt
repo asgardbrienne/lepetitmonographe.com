@@ -1,0 +1,141 @@
+fichier: dossier-iran-ormuz-carburants.html
+rubrique: monde
+titre: Guerre avec l'Iran et détroit d'Ormuz : pourquoi le carburant coûte si cher
+titre_court: Iran, Ormuz et carburants
+chapeau: Depuis février 2026, la guerre entre les États-Unis, Israël et l'Iran perturbe le passage par lequel transitait un cinquième du pétrole consommé dans le monde. Le gazole a pris plus de 40 % en France. Ce qui s'est passé, ce que cela coûte, et les issues possibles.
+resume: Chronologie de la guerre, rôle du détroit d'Ormuz, prix du pétrole et du gazole en France, aides publiques et scénarios. Données arrêtées au 18 octobre 2026.
+arret: 18 octobre 2026
+publication: 18 octobre 2026
+image: assets/images/iran-ormuz-carburants.jpg
+image_alt: Vue satellite du détroit d'Ormuz, entre l'Iran et la péninsule arabique
+image_credit: MODIS Land Rapid Response Team, NASA GSFC, domaine public, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg
+verifie: 18 octobre 2026
+---
+## Essentiel
+- Le 28 février 2026, les États-Unis et Israël ont commencé à frapper l'Iran. L'Iran a riposté dans toute la région et s'en est pris aux navires qui traversent le détroit d'Ormuz [1].
+- Avant la guerre, environ 20 millions de barils de pétrole y passaient chaque jour, soit environ 20 % de la consommation mondiale [2]. Au deuxième trimestre 2026, ce flux est tombé à 4,9 millions de barils par jour [3].
+- En France, le gazole est passé de 1,650 euro le litre la semaine du 23 février à 2,328 euros la semaine du 12 octobre 2026, selon le bulletin pétrolier de la Commission européenne [5].
+- Un cessez-le-feu en avril puis un accord en juin n'ont pas tenu. À la mi-octobre, les attaques contre les navires se poursuivent et aucune négociation n'aboutit [1][7].
+
+## Ce qui s'est passé
+
+[Fait établi] Selon le service de recherche du Congrès américain (CRS), les frappes américaines et israéliennes ont commencé le 28 février 2026. Israël a tué le Guide suprême iranien Ali Khamenei et des dizaines de hauts responsables ; son fils Mojtaba Khamenei lui a succédé [1]. L'Iran a lancé des centaines de missiles et des milliers de drones vers Israël, les pays du Golfe et des bases américaines, et attaqué des navires de commerce, ce qui a fait chuter le trafic dans le détroit [1].
+
+[Fait établi] Le 7 avril, Washington et Téhéran ont convenu d'un cessez-le-feu de deux semaines, sans texte publié. Après l'échec de pourparlers à Islamabad, Donald Trump a imposé à partir du 13 avril un blocus naval de tous les navires à destination ou en provenance des ports iraniens [1].
+
+[Fait établi] Le 17 juin, Donald Trump et le président iranien Massoud Pezeshkian ont signé un mémorandum d'entente : fin des opérations militaires, levée du blocus, passage libre dans le détroit pendant 60 jours, et négociation d'un accord final dans ce délai. Le blocus a été levé le 18 juin [1].
+
+[Fait établi] L'accord n'a pas tenu. Après de nouvelles attaques iraniennes contre des navires, les États-Unis ont repris leurs frappes ; Donald Trump a déclaré le mémorandum « terminé » le 8 juillet, le blocus a été rétabli le 14 juillet, et le délai de 60 jours a expiré le 17 août. En août, Washington a renforcé ses sanctions ; en septembre, les échanges de frappes ont repris [1].
+
+[Fait établi] Selon le CRS, 18 militaires américains ont été tués et 824 blessés au 15 septembre 2026. Côté iranien, le CRS rapporte 3 636 morts au 7 avril, dont 1 701 civils, d'après des décomptes qu'il cite [1]. Le Bureau du budget du Congrès estimait en septembre le coût des opérations militaires américaines à 38 milliards de dollars au 1er août [1].
+
+[Figure] frise
+titre: Huit mois de guerre
+donnees:
+- 28 février 2026 | Début des frappes américaines et israéliennes sur l'Iran [1]. | Fait établi
+- 7 avril 2026 | Cessez-le-feu de deux semaines, sans texte publié [1]. | Fait établi
+- 13 avril 2026 | Blocus américain des ports iraniens [1]. | Fait établi
+- 17 juin 2026 | Signature d'un mémorandum d'entente entre les États-Unis et l'Iran [1]. | Fait établi
+- 8 juillet 2026 | Donald Trump déclare le mémorandum « terminé » [1]. | Fait établi
+- 14 juillet 2026 | Rétablissement du blocus [1]. | Fait établi
+- 17 août 2026 | Fin du délai de 60 jours prévu pour un accord final [1]. | Fait établi
+- 13 octobre 2026 | Un porte-conteneurs coule après avoir été touché dans le détroit [7]. | Fait établi
+source: Congressional Research Service, 18 septembre 2026 ; CNN, 15 octobre 2026
+lecture: Les périodes de trêve ont été courtes ; depuis juillet, la guerre alterne frappes limitées et pressions économiques.
+
+## Pourquoi le détroit d'Ormuz compte autant
+
+[Fait établi] Le détroit d'Ormuz relie le golfe Persique à l'océan Indien. En 2024, selon l'agence américaine d'information sur l'énergie (EIA), environ 20 millions de barils de pétrole par jour y transitaient, soit environ 20 % de la consommation mondiale de produits pétroliers et plus d'un quart du pétrole transporté par mer. Environ un cinquième du gaz naturel liquéfié échangé dans le monde y passait aussi, surtout depuis le Qatar [2].
+
+[Fait établi] Les routes de contournement sont limitées : l'EIA estimait à environ 2,6 millions de barils par jour la capacité des oléoducs saoudien et émirien disponible pour éviter le détroit en cas de crise [2]. En 2024, 84 % du pétrole brut passant par Ormuz allait vers l'Asie [2].
+
+[Estimation] L'EIA estime que les flux de pétrole par le détroit sont tombés à 4,9 millions de barils par jour en moyenne au deuxième trimestre 2026, contre 21,6 millions au dernier trimestre 2025 [3]. Selon la société de suivi maritime Kpler, citée par CNN, 4,1 millions de barils ont franchi le détroit le 12 octobre, moins d'un quart du niveau d'avant-guerre [7].
+
+## Le prix du pétrole
+
+[Fait établi] Le CRS relève l'évolution du prix du baril de Brent (contrat à échéance la plus proche), la référence du pétrole en Europe [1].
+
+[Figure] barres
+titre: Le prix du baril a suivi les phases de la guerre
+unite: Brent, dollars par baril, contrat à échéance la plus proche, à des dates choisies de 2026
+donnees:
+- 1er janv. | 60,85
+- 27 févr. | 72,48
+- 31 mars | 118,35
+- 8 avril | 94,74
+- 29 avril | 118,03
+- 1er juil. | 71,57
+- 10 sept. | 107,63
+source: Congressional Research Service, « U.S. Conflict with Iran », 18 septembre 2026 [1]
+lecture: Le baril a baissé après le cessez-le-feu d'avril et après l'accord de juin, puis il est remonté quand les combats ont repris.
+note: Dates non régulières, choisies par le CRS. Ce sont des relevés ponctuels, pas des moyennes.
+
+[Fait établi] Selon l'EIA, le Brent a atteint 131 dollars le 15 septembre 2026, après des attaques contre l'oléoduc saoudien qui permet de contourner le détroit [4].
+
+[Estimation] Dans ses prévisions du 6 octobre, l'EIA table sur un Brent à 105 dollars en moyenne au quatrième trimestre 2026, puis à 84 dollars en moyenne en 2027, en supposant que les flux du Moyen-Orient restent perturbés jusqu'à la fin de l'année et que la production se rétablisse ensuite [4]. Ces prévisions dépendent entièrement de cette hypothèse ; l'EIA les a révisées de 14 dollars en un mois [4].
+
+## À la pompe en France
+
+[Fait établi] Le bulletin pétrolier hebdomadaire de la Commission européenne, qui reprend les prix moyens déclarés par chaque État, donne pour la France les prix suivants, taxes comprises [5].
+
+[Figure] barres
+titre: Le gazole a dépassé 2,30 euros le litre en France
+unite: Gazole, prix moyen en France, euros par litre, toutes taxes comprises, à des semaines choisies
+donnees:
+- 13 oct. 2025 | 1,606
+- 23 févr. 2026 | 1,650
+- 30 mars 2026 | 2,189
+- 13 avril 2026 | 2,314
+- 29 juin 2026 | 1,869
+- 21 sept. 2026 | 2,383
+- 12 oct. 2026 | 2,328
+source: Commission européenne, Weekly Oil Bulletin, historique des prix, données au 12 octobre 2026 [5]
+lecture: Le gazole coûtait 0,68 euro de plus par litre la semaine du 12 octobre que celle du 23 février, juste avant la guerre.
+note: Semaines non consécutives. Prix moyens nationaux relevés le lundi ; les prix varient selon les stations et les régions.
+
+[Fait établi] Sur la même période, le sans-plomb 95 est passé de 1,710 à 2,212 euros le litre, et le fioul domestique de 1,204 à 1,893 euro le litre [5].
+
+[Fait établi] Le gouvernement verse une aide forfaitaire de 100 euros aux travailleurs « grands rouleurs » pour avril à septembre 2026, et une seconde de 100 euros pour octobre à décembre. Elle vise les actifs qui font au moins 15 km par trajet domicile-travail ou 8 000 km par an pour leur travail, avec un revenu fiscal de référence 2024 d'au plus 22 770 euros par part. Selon l'administration fiscale, 5,5 millions de personnes y sont désormais éligibles. Les bénéficiaires de la première aide reçoivent la seconde automatiquement à partir du 16 octobre ; les autres peuvent la demander à partir du 27 octobre [6].
+
+## La guerre en mer
+
+[Fait établi] Le 13 octobre 2026, le porte-conteneurs GFS Pride, immatriculé à Singapour, a été touché dans le détroit, a pris feu et a coulé ; l'autorité maritime de Singapour indique que tout l'équipage a été évacué. Le Cape Dao, touché le 23 septembre, a coulé à son tour ; un marin indien avait été tué [7].
+
+[Témoignage] Les médias d'État iraniens affirment que le GFS Pride a heurté une mine sur une « route non autorisée ». Des experts interrogés par CNN jugent une attaque de drone plus probable [7]. Aucune enquête indépendante n'a tranché à la date d'arrêt du dossier.
+
+## Au-delà du pétrole : les engrais
+
+[Fait établi] Le détroit voit aussi passer une part importante des engrais échangés dans le monde. Le 24 août 2026, le secrétaire général de l'ONU, António Guterres, a proposé un mécanisme pour sécuriser leur passage, en avertissant que l'approvisionnement alimentaire mondial ne doit pas devenir un « dommage collatéral » du conflit. L'ONU précise que ce mécanisme ne peut être mis en œuvre qu'avec l'accord des belligérants [8].
+
+[Interprétation] La hausse des engrais pèse sur les coûts agricoles avec un décalage, au moment des semis et des récoltes suivantes. Son effet sur les prix alimentaires en France n'est pas chiffré par une source officielle à la date d'arrêt du dossier.
+
+## Ce que cela peut changer
+
+Le CRS a décrit en septembre cinq évolutions possibles, qui ne s'excluent pas entre elles [1]. Ce ne sont pas des prévisions. Pour chacune, voici ce qu'elle impliquerait pour le prix de l'énergie, avec l'indice à surveiller.
+
+[Hypothèse] **Un conflit de basse intensité qui dure.** Selon le CRS, il peut persister tant que chaque camp pense pouvoir en supporter le coût plus longtemps que l'autre [1]. Les prix resteraient alors élevés et instables, au rythme des attaques. Indice à suivre : le nombre de navires qui franchissent le détroit chaque semaine.
+
+[Hypothèse] **Une trêve sans accord.** Sous la pression économique, les deux camps pourraient cesser les hostilités sans règlement global [1]. Après les trêves d'avril et de juin, le baril avait nettement reculé [1] ; une nouvelle trêve pourrait produire le même effet, mais aussi s'interrompre de la même façon.
+
+[Hypothèse] **Une escalade.** Le CRS évoque des frappes iraniennes sur des installations énergétiques des pays du Golfe [1]. L'attaque de septembre contre l'oléoduc saoudien a déjà porté le Brent à 131 dollars [4] ; une escalade de ce type ferait vraisemblablement remonter les prix.
+
+[Hypothèse] **Un accord négocié.** Sa solidité dépendrait de la façon dont chaque camp juge ses termes et son application, selon le CRS [1]. L'EIA prévoit une baisse progressive du baril en 2027, à mesure que les flux reprennent et que les stocks se reconstituent [4].
+
+[Hypothèse] **La chute du régime iranien.** Le CRS mentionne que la guerre, les sanctions et le blocus pourraient affaiblir ou faire tomber la République islamique, avec des issues allant d'un nouveau gouvernement à une situation plus chaotique [1]. Rien ne permet aujourd'hui d'en évaluer la probabilité.
+
+## Ce qu'on ne sait pas
+- **La durée de la perturbation** : les prévisions de l'EIA supposent une amélioration en 2027, sans pouvoir la dater.
+- **Le bilan humain complet** : les chiffres iraniens cités par le CRS s'arrêtent au 7 avril 2026.
+- **Les capacités militaires restantes de l'Iran** : les estimations publiques divergent.
+- **L'effet sur les prix alimentaires en France**, qui n'est pas encore mesuré.
+
+## Sources
+- Congressional Research Service, « U.S. Conflict with Iran » (R48887), mis à jour le 18 septembre 2026. | https://www.congress.gov/crs-product/R48887
+- U.S. Energy Information Administration, « Amid regional conflict, the Strait of Hormuz remains critical oil chokepoint », Today in Energy, 16 juin 2025. | https://www.eia.gov/todayinenergy/detail.php?id=65504
+- U.S. Energy Information Administration, Short-Term Energy Outlook, août 2026. | https://www.eia.gov/outlooks/steo/archives/aug26.pdf
+- U.S. Energy Information Administration, Short-Term Energy Outlook, 6 octobre 2026, section pétrole mondial. | https://www.eia.gov/outlooks/steo/report/global_oil.php
+- Commission européenne, Weekly Oil Bulletin, historique des prix à la consommation, données au 12 octobre 2026. | https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en
+- Direction générale des finances publiques, « Extension de l'aide de 100 € pour les travailleurs grands rouleurs », 1er octobre 2026, modifié le 15 octobre 2026. | https://www.impots.gouv.fr/actualite/extension-de-laide-de-100-eu-pour-les-travailleurs-grands-rouleurs
+- CNN, Jessie Yeung, Isaac Yee et Teele Rebane, « Two cargo ships sunk in Strait of Hormuz as Iran ramps up attacks in run-up to midterms », 15 octobre 2026, repris par Yahoo News. | https://www.yahoo.com/news/world/articles/two-cargo-ships-sunk-strait-040601096.html
+- The National, « UN chief proposes mechanism to protect fertiliser flow through Strait of Hormuz », 24 août 2026. | https://www.thenationalnews.com/news/us/2026/08/24/un-chief-proposes-mechanism-to-protect-fertiliser-flow-through-strait-of-hormuz/
