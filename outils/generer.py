@@ -598,6 +598,7 @@ def _inline(t):
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import figures as _figures
+import scrutins as _scrutins
 _NUM_FIG = {"frise": 0, "fig": 0}
 
 def _blocs(corps):
@@ -609,6 +610,8 @@ def _blocs(corps):
             k = "frise" if f["type"] == "frise" else "fig"
             _NUM_FIG[k] += 1
             out.append(_figures.rendre(f, _NUM_FIG[k], _inline))
+        elif bloc.startswith("[Scrutins]"):
+            out.append(_scrutins.rendre(bloc))
         elif bloc.startswith("## "):
             out.append(f"        <h2>{_inline(bloc[3:])}</h2>")
         elif m:
@@ -755,6 +758,7 @@ def _texte_recherche(h, t, d):
     # texte intégral du dossier, sans les sources ni l'historique
     contenu = open(os.path.join(OUT, h), encoding="utf-8").read()
     corps = contenu.split('<main id="contenu">', 1)[1].split("<h2>Sources</h2>", 1)[0]
+    corps = re.sub(r"<!--scrutins-->.*?<!--/scrutins-->", " ", corps, flags=re.S)  # listes de votes : hors recherche
     return _html.escape(re.sub(r"\s+", " ", _texte_brut(t + " " + d + " " + corps).lower()))
 
 # Fiche de chaque dossier, utilisée par les cartes et les listes
@@ -901,7 +905,7 @@ for h, c, t, d in RUBRIQUES:
 
 # ---------- Accueil ----------
 UNE = ["dossier-iran-ormuz-carburants.html", "dossier-russie-sanctions-petrole.html", "dossier-budget-2027.html", "dossier-assemblee-sans-majorite.html", "dossier-delais-justice-penale.html"]
-DERNIERES = ["dossier-ukraine-guerre-negociations.html", "dossier-droits-douane-ue-etats-unis.html", "dossier-elections-mi-mandat-2026.html", "dossier-cop31-antalya.html"]
+DERNIERES = ["dossier-votes-groupes-2017-2026.html", "dossier-absenteisme-deputes.html", "dossier-ukraine-guerre-negociations.html", "dossier-droits-douane-ue-etats-unis.html"]
 _diapos = []
 for n, h in enumerate(UNE):
     i = INFOS[h]

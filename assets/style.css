@@ -673,3 +673,54 @@ a:hover .fleche { transform: translateX(3px); }
   .carte .meta-ligne { margin-top: 2px; }
   .carte > a { align-items: flex-start; }
 }
+
+/* Votes à l'Assemblée : pour (bleu nuit), contre (or), abstention (gris). Aucune couleur de parti. */
+:root { --vote-pour: #152840; --vote-contre: #b8893e; --vote-abst: #a3a8b3; }
+:root[data-theme="dark"] { --vote-pour: #8fb3e0; --vote-contre: #e0bd78; --vote-abst: #6f7c90; }
+.vb-pour { background: var(--vote-pour); } .vb-contre { background: var(--vote-contre); } .vb-abstention { background: var(--vote-abst); }
+.t-pour { color: var(--encre); } .t-contre { color: var(--or-texte); } .t-abstention { color: var(--encre-douce); }
+.vote-legende { display: flex; flex-wrap: wrap; gap: 6px 18px; list-style: none; margin: 0 0 14px; padding: 0; font-size: .8125rem; color: var(--encre-douce); }
+.vote-legende li { display: flex; align-items: center; gap: 6px; }
+.vote-legende span { display: inline-block; width: 14px; height: 10px; border-radius: 2px; }
+.vote-barre { display: flex; height: 14px; border-radius: 3px; overflow: hidden; background: var(--piste); min-width: 0; }
+.vote-barre span { display: block; height: 100%; }
+.vote-lignes { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.vote-ligne { display: grid; grid-template-columns: 8.5rem minmax(0, 1fr) 9.5rem; gap: 6px 14px; align-items: center; }
+.vote-groupe { display: flex; flex-direction: column; font-size: .875rem; font-weight: 600; color: var(--encre); line-height: 1.2; }
+.vote-groupe abbr { text-decoration: none; }
+.vote-nb { font-weight: 400; font-size: .75rem; color: var(--encre-douce); }
+.vote-chiffres { font-size: .8125rem; color: var(--encre-douce); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.vote-noms { margin: 10px 0 0; padding-left: 1.1em; font-size: .8125rem; color: var(--encre-douce); }
+@media (max-width: 560px) {
+  .vote-ligne { grid-template-columns: 1fr; gap: 4px; }
+  .vote-groupe { flex-direction: row; align-items: baseline; gap: 8px; }
+}
+.scrutins-bloc { margin: 1.5rem 0 2rem; font-family: var(--sans); }
+.scrutins-aide { font-size: .8125rem; color: var(--encre-douce); margin: 0 0 12px !important; }
+.scrutins-annee { border-top: 1px solid var(--filet); }
+.scrutins-annee > summary { cursor: pointer; padding: 12px 0; font: 400 1.125rem/1.3 var(--display); color: var(--encre); }
+.scrutins-annee > summary span { font: 400 .8125rem var(--sans); color: var(--encre-douce); margin-left: 8px; }
+.scrutins { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 14px; }
+.scrutin { background: var(--blanc); border: 1px solid var(--filet); border-radius: 4px; padding: 12px 14px; display: grid; gap: 8px; }
+.scrutin-tete { display: flex; justify-content: space-between; align-items: center; font-size: .75rem; color: var(--encre-douce); text-transform: uppercase; letter-spacing: .04em; }
+.scrutin-sort { font-weight: 700; padding: 2px 8px; border-radius: 999px; }
+.scrutin-sort.adopte { background: var(--papier-2); color: var(--encre); }
+.scrutin-sort.rejete { background: var(--papier-2); color: var(--or-texte); }
+.scrutin-titre { margin: 0 !important; font: 600 .9375rem/1.4 var(--sans); }
+.scrutin-titre a { text-decoration: none; }
+.scrutin-titre a:hover { text-decoration: underline; }
+.scrutin-lecture { display: block; font-weight: 400; font-size: .8125rem; color: var(--encre-douce); }
+.scrutin-total { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; align-items: center; }
+.scrutin-puces { display: flex; flex-wrap: wrap; gap: 4px; }
+.puce { font-size: .6875rem; font-weight: 600; padding: 2px 7px; border-radius: 3px; line-height: 1.5; cursor: default; }
+.puce.p-pour { background: var(--vote-pour); color: #fff; }
+.puce.p-contre { background: var(--vote-contre); color: #152840; }
+.puce.p-abstention { background: var(--vote-abst); color: #152840; }
+:root[data-theme="dark"] .puce.p-pour { color: #0f1d31; }
+@media (max-width: 560px) { .scrutin-total { grid-template-columns: 1fr; } }
+.tableau-censures td.nb { text-align: right; font-variant-numeric: tabular-nums; }
+.tableau-censures td:last-child { font-size: .8125rem; color: var(--encre-douce); }
+.tableau-censures { table-layout: auto; width: 100%; }
+.tableau-censures td, .tableau-censures th { white-space: normal; vertical-align: top; }
+.tableau-censures td.date { white-space: nowrap; }
+@media (max-width: 560px) { .tableau-censures td:last-child { min-width: 9rem; } }

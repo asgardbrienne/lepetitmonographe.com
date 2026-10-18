@@ -1,0 +1,110 @@
+fichier: dossier-votes-groupes-2017-2026.html
+rubrique: politique
+titre: Comment les groupes ont voté à l'Assemblée sous les deux mandats d'Emmanuel Macron
+titre_court: Les votes des groupes, 2017-2026
+chapeau: Les 206 textes soumis à un vote solennel depuis 2017, les 62 motions de censure, les textes adoptés sans vote par le 49.3 : groupe par groupe, ce que chacun a voté, d'après les relevés officiels de l'Assemblée nationale. Sans commentaire sur le bien-fondé des votes.
+resume: Chaque vote solennel et chaque motion de censure de 2017 à 2026, groupe par groupe, avec des graphiques lisibles et le lien vers chaque scrutin officiel. Données arrêtées au 16 octobre 2026.
+arret: 16 octobre 2026
+publication: 18 octobre 2026
+image: assets/images/votes-groupes-2017-2026.jpg
+image_alt: Les boutons de vote « pour », « contre » et « abstention » d'un pupitre de l'hémicycle de l'Assemblée nationale
+image_credit: Baidax, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Assembl%C3%A9e_nationale_bo%C3%AEtier_vote.jpg
+verifie: 18 octobre 2026
+---
+## Essentiel
+- Depuis juillet 2017, l'Assemblée nationale a organisé un vote solennel sur 206 textes : 102 pendant la XVe législature (2017-2022), 35 pendant la XVIe (2022-2024) et 69 depuis juillet 2024 [1][2].
+- Sur ces 206 textes, 201 ont été adoptés et 5 rejetés [1].
+- Les gouvernements ont aussi engagé leur responsabilité 31 fois par l'article 49, alinéa 3 : les textes concernés sont adoptés sans vote, sauf adoption d'une motion de censure [3].
+- Sur 62 motions de censure votées, une seule a été adoptée : le 4 décembre 2024, par 331 voix, ce qui a entraîné la chute du gouvernement de Michel Barnier [1][3].
+
+## Ce que recense ce dossier, et ce qu'il laisse de côté
+
+[Fait établi] La plupart des votes à l'Assemblée ont lieu à main levée ; ils ne sont ni enregistrés ni publiés nominativement. Seuls les scrutins publics le sont. Parmi eux, la Conférence des présidents peut décider d'un vote solennel, « généralement sur les votes d'ensemble sur des textes majeurs », à un moment fixé pour favoriser la présence du plus grand nombre de députés [2].
+
+[Proposition] Ce dossier retient donc tous les votes solennels sur l'ensemble d'un texte (ou sur son article unique), plus toutes les motions de censure. Ce choix n'est pas le nôtre : c'est l'Assemblée elle-même qui désigne les textes jugés majeurs. Il évite de sélectionner des votes qui avantageraient un camp.
+
+[Fait établi] Ce corpus ne couvre pas : les milliers de votes sur des amendements ou des articles, les textes adoptés à main levée, les votes du Sénat, ni les textes adoptés sans vote par le 49.3 [2][3].
+
+[Fait établi] **Comment lire les graphiques.** Pour chaque texte, la « position du groupe » est le choix le plus fréquent parmi ses membres qui ont voté. Un groupe peut être divisé : le détail des voix s'affiche au survol de chaque groupe et sur la page officielle du scrutin, accessible par le titre du texte. Les couleurs sont les mêmes pour tous : bleu nuit pour « pour », or pour « contre », gris pour l'abstention. Aucune couleur de parti n'est utilisée.
+
+[Fait établi] Les noms et la composition des groupes ont changé d'une législature à l'autre, et parfois en cours de législature. Ils sont affichés tels qu'ils étaient au moment du vote, d'après les données officielles [1].
+
+## 2017-2022 : la XVe législature
+
+[Fait établi] Le groupe La République en Marche détenait à lui seul la majorité absolue (289 sièges) jusqu'au printemps 2020 : il comptait 314 membres en juillet 2017 et 281 en juin 2020 [1]. 101 des 102 textes soumis à un vote solennel ont été adoptés ; le seul rejet concerne, le 18 juin 2020, une proposition de loi de programmation pour l'hôpital public [1].
+
+[Scrutins] synthese 15
+
+## 2022-2024 : la XVIe législature
+
+[Fait établi] À partir de 2022, aucun groupe ne disposait de la majorité absolue ; les trois groupes soutenant le gouvernement (Renaissance, Démocrate, Horizons) totalisaient 250 membres en juillet 2022 [1]. Sur les 35 textes soumis à un vote solennel, 34 ont été adoptés ; le projet de loi de programmation des finances publiques 2023-2027 a été rejeté le 25 octobre 2022 [1]. C'est aussi la législature où le gouvernement d'Élisabeth Borne a eu recours 23 fois au 49.3 [3].
+
+[Scrutins] synthese 16
+
+## Depuis 2024 : la XVIIe législature
+
+[Fait établi] Depuis la dissolution de juin 2024, l'Assemblée est divisée en onze groupes, sans majorité absolue. Sur les 69 textes soumis à un vote solennel au 16 octobre 2026, 66 ont été adoptés ; trois ont été rejetés : la première partie du projet de loi de finances pour 2025 (12 novembre 2024), la proposition de loi de programmation nationale pour l'énergie et le climat (24 juin 2025) et la première partie du projet de loi de finances pour 2026 (21 novembre 2025) [1].
+
+[Scrutins] synthese 17
+
+## Les textes adoptés sans vote : le 49.3
+
+[Fait établi] L'article 49, alinéa 3, de la Constitution permet au Premier ministre d'engager la responsabilité du gouvernement sur un texte, qui est alors considéré comme adopté sauf si une motion de censure est votée par la majorité absolue des députés. Le tableau officiel de l'Assemblée recense les engagements suivants depuis 2017 [3].
+
+[Figure] barres-h
+titre: Les recours au 49.3 se concentrent sur la période sans majorité absolue
+unite: Nombre d'engagements de responsabilité au titre de l'article 49, alinéa 3, par Premier ministre, de 2017 à octobre 2026
+donnees:
+- Édouard Philippe (2017-2020) | 1
+- Jean Castex (2020-2022) | 0
+- Élisabeth Borne (2022-2024) | 23
+- Gabriel Attal (2024) | 0
+- Michel Barnier (2024) | 1
+- François Bayrou (2024-2025) | 4
+- Sébastien Lecornu (depuis 2025) | 2
+source: Assemblée nationale, « Engagements de responsabilité du Gouvernement et motions de censure depuis 1958 », consulté le 18 octobre 2026 [3]
+lecture: Sur les 31 recours au 49.3 depuis 2017, 23 ont eu lieu sous le gouvernement d'Élisabeth Borne, principalement sur des textes budgétaires.
+note: Le tableau de synthèse de la même page indique 3 engagements pour François Bayrou, alors que le détail en liste 4 ; nous retenons le détail. Les engagements de Sébastien Lecornu proviennent du détail du tableau, la synthèse n'étant pas à jour. Un même texte peut faire l'objet de plusieurs engagements (par partie, par lecture).
+
+[Fait établi] Sur toute la Ve République, le même tableau recense 116 engagements jusqu'en septembre 2025 ; le gouvernement de Michel Rocard (1988-1991) en avait compté 28 [3].
+
+## Les motions de censure
+
+[Fait établi] Une motion de censure est adoptée si elle recueille la majorité absolue des membres de l'Assemblée ; seuls les votes « pour » sont comptés [2]. Le tableau ci-dessous recense les 62 motions votées depuis 2017, avec le nombre de voix « pour » apportées par chaque groupe [1].
+
+[Scrutins] censures
+
+[Fait établi] Le 4 décembre 2024, la motion déposée après le recours au 49.3 sur le projet de loi de financement de la sécurité sociale pour 2025 a été adoptée par 331 voix, avec notamment les voix des groupes de gauche, du Rassemblement national et de l'UDR [1][3]. C'est la deuxième motion de censure adoptée sous la Ve République, après celle du 4 octobre 1962 [3][4].
+
+## Tous les textes de la XVe législature (2017-2022)
+
+[Fait établi] Les listes qui suivent reprennent, année par année, chacun des 206 votes solennels sur un texte. Le titre renvoie au scrutin officiel ; la barre montre la répartition de l'ensemble des votants ; les étiquettes montrent la position de chaque groupe [1].
+
+[Scrutins] liste 15
+
+## Tous les textes de la XVIe législature (2022-2024)
+
+[Scrutins] liste 16
+
+## Tous les textes de la XVIIe législature (depuis 2024)
+
+[Scrutins] liste 17
+
+## Les autres votes solennels
+
+[Fait établi] L'Assemblée a aussi voté solennellement sur des déclarations du gouvernement (dont les votes de confiance de l'article 49, alinéa 1), des propositions de résolution, des motions de procédure, et une fois en Congrès, avec les sénateurs, sur l'inscription de la liberté de recourir à l'IVG dans la Constitution, le 4 mars 2024 [1]. Le 8 septembre 2025, l'Assemblée a refusé la confiance au gouvernement de François Bayrou [1].
+
+[Scrutins] autres
+
+## Ce qu'on ne sait pas
+- **Les votes à main levée**, qui sont la majorité des votes, ne sont pas enregistrés nominativement : on ne sait pas ce qu'a voté chaque groupe sur ces textes.
+- **Les raisons d'un vote** : un vote « contre » peut viser le texte entier ou une seule de ses dispositions. Les explications de vote figurent dans les comptes rendus de séance.
+- **Les textes adoptés par 49.3** n'ont pas fait l'objet d'un vote sur le texte lui-même : la position des groupes n'y est connue que par les motions de censure.
+- **Le vote des sénateurs**, qui n'est pas couvert ici.
+
+## Sources
+- Assemblée nationale, données ouvertes, scrutins des XVe, XVIe et XVIIe législatures et référentiel des acteurs et organes (AMO30), téléchargés le 18 octobre 2026 ; extraction par le script outils/votes_assemblee.py du site. | https://data.assemblee-nationale.fr/travaux-parlementaires/votes
+- Assemblée nationale, fiche de synthèse n° 56, « Les votes à l'Assemblée nationale ». | https://www.assemblee-nationale.fr/dyn/contenu/telechargement/629143/file/Fiche%2056%20-%20Votes.pdf
+- Assemblée nationale, « Engagements de responsabilité du Gouvernement et motions de censure depuis 1958 », mis à jour le 9 septembre 2025 pour la synthèse, consulté le 18 octobre 2026. | https://www.assemblee-nationale.fr/dyn/engagements_responsabilite-motions_censures/engagements-de-responsabilite-du-gouvernement-et-motions-de-censure-depuis-1958
+- Assemblée nationale, « Motions de censure depuis 1958 ». | https://www.assemblee-nationale.fr/dyn/engagements_responsabilite-motions_censures/motions-de-censure-depuis-1958

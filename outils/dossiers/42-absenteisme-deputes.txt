@@ -1,0 +1,140 @@
+fichier: dossier-absenteisme-deputes.html
+rubrique: politique
+titre: Les députés sont-ils plus absents qu'avant ? Ce que mesurent les chiffres depuis 2007
+titre_court: Absentéisme des députés
+chapeau: L'hémicycle clairsemé est une image répandue. Elle mesure mal le travail des députés, et aucune donnée ne permet de comparer leur présence sur toute la Ve République. Ce que disent les relevés officiels depuis 2012, les indicateurs indépendants depuis 2007, les règles et leurs effets.
+resume: Participation aux votes, présence en commission, délégations de vote, sanctions, effet du non-cumul : ce que l'on peut mesurer, ce que l'on ne peut pas, et ce qui a changé depuis 2007. Données arrêtées au 16 octobre 2026.
+arret: 16 octobre 2026
+publication: 18 octobre 2026
+image: assets/images/absenteisme-deputes.jpg
+image_alt: L'hémicycle de l'Assemblée nationale vide, vu depuis les tribunes
+image_credit: PanierAvide, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Assembl%C3%A9e_nationale_(visite_septembre_2024)_41.jpg
+verifie: 18 octobre 2026
+---
+## Essentiel
+- Il n'existe pas de relevé de la présence des députés dans l'hémicycle ; la plupart des votes se font à main levée et ne sont pas enregistrés [2][5]. Toute mesure de l'« absentéisme » est donc partielle.
+- Lors des votes solennels sur les grands textes, la moitié des députés ont pris part à au moins 86 à 91 % des votes, selon la législature, depuis 2017 [3].
+- Lors des scrutins publics ordinaires, souvent sur des amendements, le nombre médian de votants est passé de 58 (2012-2016) à 129 (depuis 2024), sur 577 députés [3].
+- La part des voix exprimées par délégation lors des votes solennels est passée de 16 % (2017-2022) à 33 % (depuis 2024) [3].
+- Les indicateurs d'activité de NosDéputés.fr augmentent à chaque législature depuis 2007, mais leur méthode a changé en cours de route : ils ne prouvent pas, à eux seuls, un engagement plus fort [4][5].
+
+## Ce que l'on peut mesurer, et ce que l'on ne peut pas
+
+[Fait établi] Selon Regards Citoyens, « les services de l'Assemblée n'effectuent pas le relevé de la liste des présents dans l'hémicycle », contrairement aux commissions [5]. Les votes à main levée, procédure normale, ne sont ni enregistrés ni publiés nominativement ; seuls les scrutins publics le sont, avec le vote de chaque député depuis 2014 [2].
+
+[Fait établi] Un député absent peut confier son vote à un collègue présent, mais chaque député ne peut recevoir qu'une seule délégation, et seulement pour les motifs prévus par une ordonnance de 1958 : maladie, mission confiée par le gouvernement, travaux d'une assemblée internationale, force majeure notamment [2].
+
+[Interprétation] Un hémicycle peu rempli ne signifie pas que les députés ne travaillent pas : les commissions, les délégations et les missions se réunissent souvent en même temps que la séance, et les députés tiennent des permanences dans leur circonscription [6]. À l'inverse, un vote enregistré ne prouve pas une présence attentive pendant tout le débat. Les chiffres qui suivent sont des indices, pas une mesure complète du travail parlementaire.
+
+## Les votes solennels : une participation élevée et stable
+
+[Fait établi] Les votes solennels sont fixés à l'avance par la Conférence des présidents, généralement le mardi après les questions au gouvernement, pour favoriser la présence du plus grand nombre [2]. D'après les données ouvertes de l'Assemblée, le nombre médian de votants à ces scrutins a été de 542 pendant la XIVe législature, 554 pendant la XVe, 543 pendant la XVIe et 532 depuis 2024, pour 577 sièges [3].
+
+[Fait établi] Député par député, la participation médiane aux votes solennels, délégations comprises, a été de 91 % entre 2017 et 2022, 86 % entre 2022 et 2024 et 89 % depuis 2024. La part des députés ayant pris part à moins des deux tiers de ces votes sur l'ensemble de la législature était de 11 %, 6 % puis 10 % [3].
+
+[Fait établi] Ce seuil des deux tiers est celui du Règlement de l'Assemblée : un député qui prend part, au cours d'une session, à moins des deux tiers des scrutins publics décidés par la Conférence des présidents subit une retenue du tiers de son indemnité de fonction, doublée en dessous de la moitié [7]. Notre calcul porte sur une législature entière et ne tient pas compte des excuses admises ; il ne permet pas de savoir quels députés ont été sanctionnés.
+
+[Figure] barres
+titre: Une voix sur trois est désormais déléguée lors des votes solennels
+unite: Part des voix exprimées par délégation lors des scrutins publics solennels, en %, par législature
+donnees:
+- 2017-2022 | 15,7
+- 2022-2024 | 25,8
+- Depuis 2024 | 33,1
+source: Assemblée nationale, données ouvertes des scrutins, calcul Le Petit Monographe [3]
+lecture: Depuis 2024, un tiers des voix comptées lors des votes solennels ont été émises par un député pour le compte d'un collègue absent.
+note: Le fichier de la XIVe législature ne détaille pas les votes individuels et ne permet pas ce calcul. Une délégation est légale dans les cas prévus par l'ordonnance de 1958 ; sa hausse indique davantage d'absences au moment du vote, pas nécessairement des absences injustifiées.
+
+## Les scrutins ordinaires : peu de votants, des résultats serrés
+
+[Fait établi] Les scrutins publics ordinaires, demandés notamment par un groupe ou le gouvernement, portent souvent sur des amendements ou des articles. Leur nombre a fortement augmenté : 1 213 entre juillet 2012 et novembre 2016, 4 288 de 2017 à 2022, 4 034 de 2022 à 2024 et 8 780 depuis juillet 2024 [3].
+
+[Figure] barres
+titre: Davantage de votants aux scrutins ordinaires depuis 2022
+unite: Nombre médian de votants (pour, contre, abstention) aux scrutins publics ordinaires, par législature, sur 577 députés
+donnees:
+- 2012-2016 | 58
+- 2017-2022 | 79
+- 2022-2024 | 116
+- Depuis 2024 | 129
+source: Assemblée nationale, données ouvertes des scrutins, calcul Le Petit Monographe [3]
+lecture: Depuis 2024, la moitié des scrutins ordinaires ont réuni au moins 129 votants, soit environ un député sur quatre et demi.
+note: Les données ouvertes de la XIVe législature s'arrêtent au 24 novembre 2016 et comptent 1 354 scrutins, contre 1 380 selon l'Assemblée pour toute la législature [2].
+
+[Fait établi] La part des scrutins ordinaires tranchés à deux voix d'écart ou moins a été de 2,6 % (2012-2016), 0,8 % (2017-2022), 1,8 % (2022-2024) et 3,3 % depuis 2024, soit 286 scrutins [3].
+
+[Interprétation] C'est là que l'absence a le plus de conséquences. Quand un scrutin se joue à quelques voix parmi une centaine de votants, son issue dépend de qui est présent dans l'hémicycle à ce moment-là. Depuis 2024, avec une Assemblée sans majorité, ces votes serrés sont plus nombreux, ce qui pourrait contribuer à la hausse du nombre de votants.
+
+## L'activité mesurée depuis 2007
+
+[Fait établi] L'association Regards Citoyens publie, sur NosDéputés.fr, des indicateurs d'activité pour chaque député depuis 2007, à partir des comptes rendus et des relevés officiels. Pour les députés ayant siégé au moins douze mois, nous avons calculé la médiane de deux de ces indicateurs [4].
+
+[Figure] barres
+titre: Les semaines d'activité détectée augmentent à chaque législature
+unite: Nombre médian de semaines avec au moins une activité détectée, par député et par mois de mandat, députés ayant siégé au moins 12 mois
+donnees:
+- 2007-2012 | 2,36
+- 2012-2017 | 2,88
+- 2017-2022 | 3,24
+- 2022-2024 | 3,74
+source: Regards Citoyens, NosDéputés.fr, données de synthèse par législature, calcul Le Petit Monographe [4]
+lecture: Un député médian comptait 3,74 semaines d'activité détectée par mois entre 2022 et 2024, contre 2,36 entre 2007 et 2012.
+note: Depuis 2018, NosDéputés.fr compte aussi les présences lors des scrutins publics, grâce à la publication des délégations, ce qui augmente mécaniquement cet indicateur [5]. Pas de données pour la législature commencée en 2024.
+
+[Figure] barres
+titre: Les présences relevées en commission augmentent aussi
+unite: Nombre médian de présences relevées en commission, par député et par mois de mandat, députés ayant siégé au moins 12 mois
+donnees:
+- 2007-2012 | 3,06
+- 2012-2017 | 4,38
+- 2017-2022 | 5,08
+- 2022-2024 | 6,21
+source: Regards Citoyens, NosDéputés.fr, données de synthèse par législature, calcul Le Petit Monographe [4]
+lecture: Un député médian était relevé présent à 6,21 réunions de commission par mois entre 2022 et 2024, contre 3,06 entre 2007 et 2012.
+note: Le nombre de réunions organisées varie selon les années et les commissions ; une hausse des présences peut refléter davantage de réunions autant qu'une meilleure assiduité. La retenue pour absence en commission date de 2009.
+
+[Expertise] **Ce que les chercheurs en disent.** Dans un rapport remis en 2019 aux questeurs de l'Assemblée, les enseignants-chercheurs Abel François et Olivier Rozenberg estiment que les données quantitatives utilisées laissent « de côté des pans importants » du travail des députés, et que les classements peuvent inciter à multiplier les amendements ou les interventions courtes [1].
+
+## Ce qui a changé dans les règles
+
+[Fait établi] Le cadre de la présence des députés a été modifié à plusieurs reprises :
+- **1958** : la Constitution pose le principe du vote personnel ; une ordonnance limite les cas de délégation [2].
+- **Jusqu'en 1993** : selon l'Assemblée, ces règles ont « longtemps été détournées » : chaque député laissait sa clé de vote électronique sur son pupitre, et des collègues votaient à sa place. Depuis 1993, la limite d'une délégation par député est strictement appliquée [2].
+- **2009** : le Règlement prévoit une retenue de 25 % de l'indemnité de fonction pour chaque absence au-delà de deux par mois aux réunions de commission du mercredi matin [7][8].
+- **2014** : les délégations hors des cas légaux sont supprimées pour les scrutins publics ordinaires, et le vote de chaque député est désormais publié pour tous les scrutins publics [2].
+- **2017** : la loi organique du 14 février 2014 interdit le cumul du mandat de député avec une fonction exécutive locale ; en 2017, plus de 38 % des députés élus ont dû abandonner un tel mandat [9].
+
+[Fait établi] Selon le rapport de l'Assemblée qui cite ce chiffre, l'effet du non-cumul sur l'investissement des parlementaires est difficile à mesurer, car d'autres obligations ont été instaurées en même temps, notamment la présence obligatoire en commission et l'encadrement des délégations [9].
+
+## Et sur toute la Ve République ?
+
+[Fait établi] Les relevés nominatifs ne sont publiés pour tous les scrutins publics que depuis 2014, et les données ouvertes de l'Assemblée ne remontent qu'à 2012 [2][3]. Les indicateurs de NosDéputés.fr commencent en 2007 [4].
+
+[Interprétation] Il n'est donc pas possible de dire, chiffres à l'appui, si les députés des années 1960 à 2000 étaient plus ou moins présents que ceux d'aujourd'hui. Les seuls éléments solides sur cette période portent sur les règles : jusqu'en 1993, la pratique des votes avec la clé de collègues absents rendait les résultats des scrutins peu représentatifs de la présence réelle [2]. Sur la période mesurable, de 2007 à 2026, les indicateurs disponibles ne montrent pas de dégradation : la participation aux votes solennels est restée stable, le nombre de votants aux scrutins ordinaires a augmenté et l'activité mesurée en commission aussi. Seule la part des votes par délégation progresse nettement.
+
+## Ce que cela peut changer
+
+[Hypothèse] **Des votes serrés plus nombreux.** Tant que l'Assemblée reste sans majorité, chaque absence pèse davantage sur les scrutins ordinaires. Indice à suivre : la part des scrutins tranchés à deux voix ou moins [3].
+
+[Hypothèse] **Un relevé officiel de présence.** Le rapport remis aux questeurs en 2019 proposait un relevé de présence au Palais Bourbon lorsque l'Assemblée siège [1]. Sans lui, le débat sur l'absentéisme continuera de s'appuyer sur des indices partiels.
+
+[Hypothèse] **Un retour partiel du cumul.** Une proposition de loi organique examinée en 2024 visait à assouplir le non-cumul [9]. S'il était assoupli, la comparaison avant et après 2017 deviendrait un enjeu pour juger de ses effets, que personne n'a mesurés à ce jour.
+
+## Ce qu'on ne sait pas
+- **La présence réelle dans l'hémicycle**, qui n'est relevée par personne.
+- **Le nombre de députés sanctionnés** pour absence en commission ou lors des votes : les retenues ne sont pas publiées.
+- **La participation avant 2007**, faute de données comparables.
+- **L'effet propre du non-cumul**, mêlé à celui d'autres réformes.
+- **Le travail en circonscription**, qui n'est mesuré par aucun indicateur public.
+
+## Sources
+- Public Sénat avec l'AFP, « Relevés de présence, agenda public : pistes pour mesurer l'activité des députés », 25 juin 2019. | https://www.publicsenat.fr/actualites/politique/releves-de-presence-agenda-public-pistes-pour-mesurer-l-activite-des-deputes
+- Assemblée nationale, fiche de synthèse n° 56, « Les votes à l'Assemblée nationale ». | https://www.assemblee-nationale.fr/dyn/contenu/telechargement/629143/file/Fiche%2056%20-%20Votes.pdf
+- Assemblée nationale, données ouvertes, scrutins des XIVe à XVIIe législatures et référentiel des acteurs (AMO30), téléchargés le 18 octobre 2026 ; calculs par le script outils/votes_assemblee.py du site. | https://data.assemblee-nationale.fr/travaux-parlementaires/votes
+- Regards Citoyens, NosDéputés.fr, données de synthèse des législatures 2007-2012, 2012-2017, 2017-2022 et 2022-2024, licence ODbL, téléchargées le 18 octobre 2026. | https://www.nosdeputes.fr/synthese
+- Next, « Les présences en hémicycle mieux comptabilisées sur NosDéputés.fr », 27 septembre 2018. | https://next.ink/brief-article/les-presences-en-hemicycle-mieux-comptabilisees-sur-nosdeputes-fr/
+- Public Sénat, Lucie Garnier, « "Absentéisme" des parlementaires en séance ? Ne vous fiez pas aux hémicycles clairsemés ! », 19 juillet 2023. | https://www.publicsenat.fr/actualites/institutions/absenteisme-des-parlementaires-en-seance-ne-vous-fiez-pas-aux-hemicycles-clairsemes
+- Assemblée nationale, Règlement de l'Assemblée nationale, articles 42 et 159, version en vigueur. | https://www.assemblee-nationale.fr/dyn/17/divers/texte_reference/02_reglement_assemblee_nationale.html
+- Assemblée nationale, texte adopté n° 292, résolution modifiant le Règlement de l'Assemblée nationale, 27 mai 2009. | https://www.assemblee-nationale.fr/13/ta/ta0292.asp
+- Assemblée nationale, Henri Alfandari, rapport sur la proposition de loi organique visant à renforcer l'ancrage territorial des parlementaires (n° 2076 rect.), 6 mars 2024. | https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B2299.html
