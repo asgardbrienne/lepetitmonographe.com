@@ -2,7 +2,7 @@ fichier: dossier-acquittement-prescription.html
 rubrique: affaires
 titre: Acquittement, relaxe, non-lieu, classement, prescription : ce que ces décisions disent, et ce qu'elles ne disent pas
 titre_court: Ce que dit un acquittement
-chapeau: Une affaire sans condamnation est souvent lue de deux façons opposées : « il était innocent, donc elle a menti », ou « il s'en est tiré, donc il est coupable ». Le droit ne valide ni l'une ni l'autre. Ce que signifie chaque décision, ce qu'elle établit et ce qu'elle laisse ouvert.
+chapeau: Une affaire sans condamnation est souvent lue de deux façons opposées : « pas de condamnation, donc l'accusation était mensongère », ou « pas de condamnation, mais coupable quand même ». Le droit ne valide ni l'une ni l'autre. Ce que signifie chaque décision, ce qu'elle établit et ce qu'elle laisse ouvert.
 resume: Les cinq façons dont une procédure pénale se termine sans condamnation, la présomption d'innocence et la règle du doute, la protection des personnes acquittées, la dénonciation calomnieuse et l'arrêt Klouvi c. France, le poids de la médiatisation. Sans examen d'une affaire en cours. Données arrêtées au 18 octobre 2026.
 arret: 18 octobre 2026
 publication: 18 octobre 2026
@@ -55,7 +55,7 @@ image_lien: https://commons.wikimedia.org/wiki/File:Cour_d%27assises_Palais_de_J
 
 ## Deux raisonnements symétriques
 
-[Interprétation] Le premier raisonnement va de l'absence de condamnation au mensonge : « il n'a pas été condamné, donc elle a menti ». Il confond l'échec de la preuve contre une personne avec la preuve contre une autre. Le second va de l'accusation à la culpabilité : « tant de gens l'accusent, ou l'affaire a fait tant de bruit, que c'est forcément vrai ». Il remplace la preuve débattue contradictoirement devant un juge par la répétition, la notoriété ou l'émotion. Le dossier fondateur de la rubrique montre que des comportements « atypiques » ne prouvent pas un mensonge ; il montre aussi qu'ils ne prouvent pas les faits.
+[Interprétation] Le premier raisonnement va de l'absence de condamnation au mensonge : « la personne mise en cause n'a pas été condamnée, donc celle qui l'a dénoncée a menti ». Il confond l'échec de la preuve contre une personne avec la preuve contre une autre. Le second va de l'accusation à la culpabilité : « tant de gens l'accusent, ou l'affaire a fait tant de bruit, que c'est forcément vrai ». Il remplace la preuve débattue contradictoirement devant un juge par la répétition, la notoriété ou l'émotion. Le dossier fondateur de la rubrique montre que des comportements « atypiques » ne prouvent pas un mensonge ; il montre aussi qu'ils ne prouvent pas les faits.
 
 [Interprétation] Les deux raisonnements ont un point commun : ils traitent une décision de justice comme si elle répondait à la question « que s'est-il passé ? », alors qu'elle répond à une question plus étroite : « la culpabilité de cette personne est-elle établie, selon ces règles, par ces preuves ? ».
 
