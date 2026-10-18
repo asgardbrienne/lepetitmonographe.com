@@ -7,9 +7,9 @@ resume: Les engagements climatiques et leur écart avec l'accord de Paris, les d
 arret: 18 octobre 2026
 publication: 18 octobre 2026
 image: assets/images/cop31-antalya.jpg
-image_alt: A COMPLETER
-image_credit: A COMPLETER
-image_lien: A COMPLETER
+image_alt: La baie et la plage de Konyaaltı à Antalya, au pied des monts Bey
+image_credit: Esginmurat, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Falezlerden_Antalya_Konyaalt%C4%B1_Plaj%C4%B1na_do%C4%9Fru_bir_g%C3%B6r%C3%BCn%C3%BCm.jpg
 verifie: 18 octobre 2026
 ---
 ## Essentiel
