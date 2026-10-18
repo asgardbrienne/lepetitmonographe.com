@@ -959,7 +959,7 @@ accueil = f'''  <h1 class="visuellement-cache">Le Petit Monographe : les faits d
     <div class="conteneur presentation-grille">
       <div class="presentation-texte">
         <p class="surtitre">Le Petit Monographe</p>
-        <h2 id="presentation-titre">L'actualité, pièces à l'appui</h2>
+        <h2 id="presentation-titre">L'actualité factuelle</h2>
         <p>Des enquêtes de fond sur la politique, l'économie, l'actualité internationale et les affaires judiciaires, fondées sur des sources identifiées et datées : textes officiels, données publiques, décisions de justice, rapports, presse de référence.</p>
         <p>Faits établis, témoignages, débats et hypothèses y sont présentés séparément, selon les mêmes règles pour tous les camps, avec ce qui reste inconnu. Au lecteur d'en tirer ses conclusions.</p>
         <a class="lien-fleche" href="a-propos.html">À propos du Petit Monographe{FLECHE}</a>
