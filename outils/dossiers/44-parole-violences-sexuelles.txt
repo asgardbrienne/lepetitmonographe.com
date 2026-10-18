@@ -1,0 +1,151 @@
+fichier: dossier-parole-violences-sexuelles.html
+rubrique: psychologie
+titre: Violences sexuelles : pourquoi la parole des plaignants est mise en doute, et ce que la recherche en dit
+titre_court: La parole mise en doute
+chapeau: Porter plainte des années après, ne pas s'être débattu, être resté en contact : ces comportements sont souvent lus comme des signes de mensonge. Ce que les données, la psychologie et le droit permettent d'établir, et ce qu'ils ne permettent pas de conclure.
+resume: Délais de plainte, sidération, mémoire, stéréotypes, fausses accusations, classements sans suite, victimisation secondaire et présomption d'innocence. Dossier fondateur de la rubrique, sans examen d'une affaire particulière. Données arrêtées au 18 octobre 2026.
+arret: 18 octobre 2026
+publication: 18 octobre 2026
+verifie: 18 octobre 2026
+image: assets/images/parole-violences-sexuelles.jpg
+image_alt: La grande salle d'audience, vide, de la Cour européenne des droits de l'homme à Strasbourg
+image_credit: Mickaël Schauli, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Grande_salle_d%27audience_de_la_Cour_europ%C3%A9enne_des_droits_de_l%27Homme_de_Strasbourg_-_07.jpg
+---
+## Essentiel
+- Selon l'enquête de victimation du service statistique du ministère de l'Intérieur, 7 % des femmes majeures déclarant avoir subi un viol, une tentative de viol ou une agression sexuelle en 2023 ont porté plainte [1].
+- Porter plainte tard est devenu courant : en 2024, la moitié des victimes de violences sexuelles enregistrées par la police et la gendarmerie visaient des faits datant de plus de 5 mois et 21 jours, contre 61 jours en 2016 [1].
+- Les études disponibles décrivent des réactions qui ne correspondent pas à l'image de la victime qui se débat : dans un échantillon suédois de 298 femmes, 70 % ont déclaré une immobilité tonique significative pendant l'agression [9].
+- Ces constats ne permettent pas de dire qu'une plainte est fondée : un comportement « atypique » ne prouve pas le mensonge, et il ne prouve pas non plus les faits.
+- La part des accusations fausses n'est pas connue avec précision. Les estimations publiées vont de quelques pour cent à des valeurs bien plus élevées selon la définition retenue ; aucune mesure fiable n'existe pour la France [10][11].
+- Un classement sans suite pour « infraction insuffisamment caractérisée », motif principal en matière de violences sexuelles selon l'IPP, signifie que les preuves ont été jugées insuffisantes pour poursuivre. Il ne signifie ni que la plainte était mensongère, ni que les faits ont eu lieu [2].
+
+[À noter] Ce dossier ouvre la rubrique « Psychologie, Société & Justice ». Il étudie des mécanismes généraux et n'examine aucune affaire particulière. Le mot « victime » y est employé au sens des enquêtes statistiques (personnes qui déclarent avoir subi des faits) ou des décisions de justice qui ont reconnu les faits. Pour toute procédure en cours, la personne mise en cause est présumée innocente. Plaignant ou plaignante : personne qui a déposé plainte. Classement sans suite : décision du parquet de ne pas poursuivre ; ce n'est pas un jugement. Victimisation secondaire : préjudice supplémentaire causé par la réaction des institutions, des médias ou de l'entourage, notion reprise par la Cour européenne des droits de l'homme [8].
+
+## Deux exigences qui ne se contredisent pas
+
+[Fait établi] En droit français, la charge de la preuve pèse sur l'accusation, et toute personne mise en cause est présumée innocente tant que sa culpabilité n'a pas été établie par une décision définitive. Le doute profite à la personne poursuivie. Le droit européen impose en parallèle aux États des « obligations positives » : adopter des dispositions pénales qui répriment effectivement les actes sexuels non consentis et mener des enquêtes effectives sur les plaintes [7][8].
+
+[Interprétation] Ces deux exigences portent sur des objets différents. La présomption d'innocence interdit de tenir une personne pour coupable sans jugement ; elle n'oblige pas à tenir la parole de la personne qui dénonce pour suspecte. À l'inverse, prendre une plainte au sérieux n'autorise pas à la tenir pour démontrée. Le doute est une étape normale de toute enquête ; la question étudiée ici est celle des critères sur lesquels il repose.
+
+## Le meilleur argument en faveur du doute
+
+[Débat] Les juristes et les chercheurs en psychologie du témoignage qui appellent à la prudence avancent plusieurs arguments sérieux. Dans beaucoup de dossiers de violences sexuelles, il n'existe ni témoin ni trace matérielle : la décision repose sur des paroles opposées, et une erreur judiciaire y est particulièrement difficile à corriger. La mémoire humaine est reconstructive : des souvenirs sincères peuvent être inexacts, et des techniques d'entretien ou de thérapie suggestives peuvent favoriser de faux souvenirs [12]. Plus les faits sont anciens, plus les preuves disparaissent, ce qui fragilise aussi la défense [18].
+
+[Débat] Les chercheurs et institutions qui étudient les violences sexuelles répondent que ces arguments justifient la rigueur de l'enquête, pas le recours à des critères sans fondement scientifique, comme l'idée qu'une vraie victime se débat, porte plainte vite ou rompt tout contact. La CIIVISE, commission installée par le gouvernement pour les violences sexuelles faites aux enfants, pose en principe que « la probabilité la plus élevée est qu'un enfant victime ne soit pas cru et protégé, pas qu'un professionnel soit manipulé » [4]. Ce principe est une position de la commission ; il ne repose pas sur une mesure de la fréquence des fausses accusations.
+
+## Les fausses accusations : ce que l'on sait et ce que l'on ignore
+
+[Fait établi] Une étude américaine souvent citée, publiée en 2010 par David Lisak et ses coauteurs, a examiné 136 signalements d'agressions sexuelles reçus en dix ans par une grande université : 8, soit 5,9 %, ont été classés comme de fausses allégations après enquête. En rapprochant ce résultat d'autres travaux, les auteurs situent la fréquence des fausses allégations entre 2 % et 10 % [10].
+
+[Fait établi] Une revue publiée en 2006 par le juriste britannique Philip Rumney recense des taux allant d'environ 1,5 % à 90 % selon les études. L'écart tient surtout à la définition : certaines études ne comptent que les accusations dont la fausseté a été établie par une enquête, d'autres y incluent des plaintes retirées ou classées sans élément démontrant l'absence de crime [11].
+
+[Interprétation] Ces deux constats ne s'opposent pas. Le premier donne un ordre de grandeur pour des accusations démontrées fausses dans un cadre précis ; le second montre qu'aucun chiffre ne peut être transposé sans sa définition. Une plainte qui n'aboutit pas n'est pas une fausse plainte, et une fausse plainte qui n'a jamais été découverte n'apparaît dans aucune statistique.
+
+[Fait établi] En France, aucune statistique publique consultée ne mesure la part des plaintes pour violences sexuelles reconnues comme mensongères. La dénonciation d'un fait que l'on sait totalement ou partiellement inexact est une infraction distincte, la dénonciation calomnieuse ; les sources consultées n'en donnent pas de décompte propre aux violences sexuelles.
+
+[Témoignage] Dans l'enquête Ipsos réalisée en novembre 2021 pour l'association Mémoire traumatique et victimologie, 37 % des personnes interrogées estimaient « fréquent » qu'une personne accuse quelqu'un de viol « par déception amoureuse ou pour se venger » [16]. Ce sondage en ligne, mené du 15 au 17 novembre 2021 selon la méthode des quotas auprès de 1 035 personnes, a été commandé par une association engagée sur ce sujet ; ses formulations n'ont pas été reprises par une enquête publique.
+
+## Porter plainte tard, ou ne pas porter plainte
+
+[Fait établi] Selon l'enquête « Vécu et ressenti en matière de sécurité » du service statistique ministériel de la sécurité intérieure (SSMSI), 277 000 femmes majeures déclarent avoir subi en 2023 un viol, une tentative de viol ou une agression sexuelle ; 7 % déclarent avoir porté plainte. Parmi les personnes, femmes et hommes, qui ont expliqué pourquoi elles n'avaient pas porté plainte, 27 % ont pensé que cela « n'aurait servi à rien », 13 % que leur témoignage « ne serait pas pris au sérieux », 21 % que ce n'était « pas assez grave » et 11 % préféraient éviter que cela se sache [1].
+
+[Fait établi] Le délai médian entre les faits et la plainte, suivi par le SSMSI, est passé de 61 jours en 2016 à 173 jours en 2024 pour l'ensemble des violences sexuelles. Il est de 425 jours pour les violences sexuelles au sein du couple, contre 100 jours en 2016. La part des plaintes portant sur des faits de plus de deux ans est passée de 19 % à 30 %. Pour les autres infractions suivies, ce délai médian ne dépasse pas 20 jours [1].
+
+[Figure] groupes
+titre: Le délai entre les faits et la plainte s'est allongé pour les violences sexuelles
+unite: Délai médian de dépôt de plainte, en jours, victimes enregistrées par la police et la gendarmerie, France, 2016 et 2024
+series: 2016 | 2024
+donnees:
+- Ensemble des violences sexuelles | 61 | 173
+- Violences sexuelles au sein du couple | 100 | 425
+- Violences sexuelles sur victimes majeures | 9 | 32
+lecture: En 2024, la moitié des victimes de violences sexuelles au sein du couple qui ont porté plainte visaient des faits datant de plus de 425 jours, contre 100 jours en 2016.
+note: Les catégories se recoupent : une victime de violences sexuelles au sein du couple figure aussi dans l'ensemble. Victimes d'exploitation sexuelle incluses. Le délai mesure l'écart entre la date des faits, ou de leur début, et la plainte ; il ne dit rien de la véracité des faits.
+source: SSMSI, repris par l'Observatoire national des violences faites aux femmes, lettre n° 25, novembre 2025 [1]
+
+[Interprétation] Pour l'Observatoire, cet allongement peut résulter de la politique publique : un meilleur accompagnement permet de signaler des faits anciens, et l'allongement des délais de prescription rend ces plaintes possibles [1]. Un délai long est donc aujourd'hui un comportement fréquent chez les plaignants, ce qui affaiblit l'idée qu'il serait, en soi, un indice de fabrication. Il complique en revanche l'enquête, car les preuves matérielles disparaissent.
+
+[Fait établi] Pour les enfants, la CIIVISE indique que seules 13 % des personnes qui lui ont apporté leur témoignage ont révélé les violences au moment des faits ; 9 % en cas d'inceste, 40 % lorsque l'agresseur était un inconnu dans l'espace public [4]. Ces chiffres proviennent d'un appel à témoignages : les personnes ont choisi de témoigner, et l'échantillon n'est pas représentatif de l'ensemble des victimes.
+
+## Ne pas s'être débattu : ce que dit la recherche sur la sidération
+
+[Fait établi] Une étude publiée en 2017 dans Acta Obstetricia et Gynecologica Scandinavica a interrogé 298 femmes venues dans un centre d'urgence de Stockholm dans le mois suivant un viol ou une agression sexuelle : 70 % ont déclaré une immobilité tonique significative pendant l'agression, et 48 % une immobilité extrême. L'immobilité tonique est un état de paralysie involontaire face à une peur intense [9].
+
+[Interprétation] L'échantillon porte sur des femmes qui ont consulté un service d'urgence spécialisé : il ne représente pas toutes les victimes, et la mesure repose sur leurs déclarations. L'étude indique cependant que l'absence de résistance est une réaction fréquente, et non une exception, chez des victimes dont l'agression a été prise en charge médicalement.
+
+[Fait établi] La loi n° 2025-1057 du 6 novembre 2025, publiée au Journal officiel du 7 novembre, définit désormais l'agression sexuelle, et donc le viol, comme « tout acte sexuel non consenti ». Le consentement doit être « libre, éclairé, spécifique, préalable et révocable » ; il ne peut pas « être déduit du seul silence ou de la seule absence de réaction de la victime ». Les cas de violence, contrainte, menace ou surprise restent des cas d'absence de consentement [5]. La Cour de cassation a jugé que ce texte ne s'applique pas aux faits commis avant son entrée en vigueur [6].
+
+## Rester en contact, se souvenir de façon incomplète
+
+[Fait établi] Dans les témoignages reçus par la CIIVISE, l'agresseur est le plus souvent un proche : le père (27 %), un frère (19 %), un oncle (13 %), un ami des parents (8 %) ou un voisin (5 %). Elle décrit l'emprise exercée par l'agresseur et la pression du groupe familial ou social, qui demande parfois à l'enfant de se taire (27 % des confidents) ou rejette la faute sur lui (22 %) [4].
+
+[Interprétation] Lorsque l'auteur désigné est un conjoint, un parent ou un supérieur, la personne qui dénonce peut dépendre de lui, matériellement ou affectivement. Le maintien du contact ne permet donc pas, à lui seul, de conclure à l'absence de violence. Il ne permet pas davantage de conclure à leur existence : c'est un élément du dossier parmi d'autres.
+
+[Débat] La mémoire des événements traumatiques divise les chercheurs. Une partie des cliniciens décrit une amnésie dissociative, perte de souvenirs autobiographiques importants après un traumatisme, qui peut durer des années ; un document du Centre national de ressources et de résilience (CN2R), établi avec une magistrate de la délégation interministérielle à l'aide aux victimes, indique que ce trouble est « reconnu par les grandes classifications psychiatriques » [18]. Une équipe de chercheurs en psychologie de la mémoire, dont Elizabeth Loftus, soutient en 2019 que l'amnésie dissociative est un concept « scientifiquement controversé », qui prend la suite de la théorie du refoulement, et met en garde contre les techniques thérapeutiques susceptibles de produire de faux souvenirs [12]. Le psychologue Chris Brewin et ses coauteurs contestent, la même année, la méthode des enquêtes selon lesquelles le public adhérerait largement à des « mythes » sur la mémoire, dont le refoulement ; l'échange entre les deux équipes s'est poursuivi en 2020 [13].
+
+[Interprétation] Les deux camps s'accordent sur un point utile au lecteur : la mémoire n'enregistre pas les faits comme une caméra. Des imprécisions sur les dates ou l'ordre des événements sont fréquentes chez des témoins sincères ; elles ne démontrent pas un mensonge, et la précision d'un récit ne démontre pas sa véracité.
+
+[Fait établi] En droit, ce débat a des conséquences sur la prescription. La loi du 3 août 2018 a porté de 20 à 30 ans, à compter de la majorité, le délai de prescription des crimes sexuels commis sur des mineurs [17]. Selon le document du CN2R, la Cour de cassation exclut de façon constante l'amnésie traumatique de « l'obstacle insurmontable » qui suspendrait la prescription [18].
+
+## Stéréotypes : la « victime idéale »
+
+[Fait établi] Le criminologue norvégien Nils Christie a décrit en 1986 la figure de la « victime idéale », celle à qui le statut de victime est le plus facilement accordé : une personne perçue comme faible, occupée à une activité respectable, à qui l'on ne peut reprocher ni sa présence ni son comportement, agressée par un auteur « fort et malveillant » qu'elle ne connaissait pas [15][19]. La psychologue américaine Martha Burt a défini en 1980 les « mythes du viol » comme des croyances « préjudiciables, stéréotypées ou fausses » sur le viol, les victimes et les auteurs, et en a mesuré l'adhésion [14].
+
+[Témoignage] Dans la même enquête Ipsos pour l'association Mémoire traumatique et victimologie, 55 % des personnes interrogées adhéraient à au moins une circonstance faisant peser une part de responsabilité sur la victime (tenue, flirt, alcool, fait d'aller seule chez un inconnu), 61 % des hommes et 49 % des femmes [16]. Les mêmes réserves de méthode s'appliquent que pour le chiffre cité plus haut.
+
+[Interprétation] Un stéréotype n'est pas faux parce qu'il est un stéréotype : la question est de savoir s'il permet de distinguer une plainte fondée d'une plainte infondée. Les travaux cités dans ce dossier montrent que les comportements jugés « incohérents » (délai, absence de résistance, maintien du contact) sont fréquents chez des personnes dont l'agression a été prise en charge ou reconnue. Ils ne montrent pas qu'ils seraient plus fréquents chez les auteurs de fausses accusations, faute de données sur ces dernières.
+
+## Quand les institutions sont condamnées pour leurs propos
+
+[État de la procédure] Le 27 mai 2021, dans l'arrêt J.L. c. Italie, la Cour européenne des droits de l'homme a condamné l'Italie, non pour l'acquittement de sept hommes poursuivis pour des violences sexuelles en réunion, qu'elle n'a pas remis en cause, mais pour les motifs de l'arrêt d'appel : des propos « culpabilisants, moralisateurs et véhiculant des stéréotypes sexistes », notamment sur les vêtements et l'orientation sexuelle de la plaignante, constitutifs d'une « victimisation secondaire » [7]. L'arrêt est définitif depuis le 27 août 2021.
+
+[État de la procédure] Le 24 avril 2025, dans l'arrêt L. et autres c. France, la Cour a condamné la France à l'unanimité dans trois affaires de jeunes filles qui dénonçaient des viols subis à 13, 14 et 16 ans. Elle a jugé que les juridictions n'avaient pas suffisamment tenu compte de leur vulnérabilité pour apprécier leur consentement, et retenu dans l'une des affaires une « victimisation secondaire » due à des propos culpabilisants et sexistes. L'arrêt est définitif depuis le 24 juillet 2025 [8].
+
+[Interprétation] Ces arrêts ne disent pas que les personnes mises en cause étaient coupables : la Cour juge l'État, pas les individus. Ils fixent une limite : le doute doit porter sur les preuves, pas sur la moralité ou la vie privée de la personne qui dénonce.
+
+## Ce que signifie un classement sans suite
+
+[Fait établi] Selon la note n° 107 de l'Institut des politiques publiques (IPP), publiée en avril 2024 par Maëlle Stricot, dans sa version en ligne en octobre 2026, 83 % des affaires de violences sexuelles traitées par les parquets et terminées entre 2012 et 2022 n'ont pas été poursuivies, contre 73 % des violences conjugales et 84 % des autres atteintes à la personne. Le motif principal est une infraction jugée « insuffisamment caractérisée », faute de preuves, alors que les autres infractions sont surtout classées parce que l'auteur est inconnu [2].
+
+[Fait établi] Le champ de la note exclut les non-lieux et les affaires renvoyées devant les cours d'assises et les cours criminelles après une instruction : le chiffre ne couvre donc pas tout le parcours des affaires de viol [2]. Des chiffres plus élevés, 86 % pour les violences sexuelles et 94 % pour les viols, ont largement circulé ; selon le site Actu-Juridique, ils proviennent d'une première version de la note, corrigée discrètement le 27 novembre 2024, et ont été critiqués par la magistrate Valérie-Odile Dervieux [3]. Le Petit Monographe n'a pas pu consulter la première version.
+
+[Interprétation] Le taux de non-poursuite des violences sexuelles est élevé, mais proche de celui des autres atteintes à la personne. Ce qui les distingue est le motif : le manque de preuves. Ce constat est compatible avec deux lectures que les données ne permettent pas de départager : des plaintes fondées mais difficiles à prouver, et des plaintes dont le fondement n'a pas pu être établi.
+
+[Fait établi] La CIIVISE estime à 160 000 le nombre d'enfants victimes de violences sexuelles chaque année et calcule, en rapprochant ce chiffre des plaintes et des condamnations, que 3 % des viols et agressions sexuelles commis sur des enfants donnent lieu à une condamnation [4]. Cette estimation combine des sources de nature différente (enquêtes, plaintes, condamnations) ; elle donne un ordre de grandeur, pas une mesure directe.
+
+## Propositions en débat
+
+[Proposition] Rendre imprescriptibles les viols et agressions sexuelles commis contre les enfants : préconisation n° 60 de la CIIVISE en 2023 [4]. Objection principale : avec le temps, les preuves disparaissent, et des professionnels du droit craignent des procès impossibles à instruire équitablement, pour les plaignants comme pour les mis en cause [18].
+
+[Proposition] Tenir compte de l'amnésie traumatique pour suspendre la prescription : piste suggérée en 2020 par Alexandra Louis, alors déléguée interministérielle à l'aide aux victimes, dans son rapport d'évaluation de la loi de 2018, selon le CN2R. Objection : la difficulté de dater le début et la fin d'une amnésie, et le risque de « divergences d'experts » et d'insécurité juridique [18].
+
+[Proposition] Former les enquêteurs, magistrats et experts aux connaissances sur le psychotraumatisme : demande de la CIIVISE, qui préconise notamment la spécialisation des experts et leur formation par l'École nationale de la magistrature [4]. Le coût et l'effet mesurable de cette mesure ne sont pas documentés dans les sources consultées.
+
+## Ce qu'on ne sait pas
+- **La fréquence des fausses accusations en France** : aucune statistique publique consultée ne la mesure, et les études étrangères dépendent de leur définition [10][11].
+- **Le parcours complet des plaintes pour viol**, jusqu'aux cours d'assises et cours criminelles : la note de l'IPP ne le couvre pas [2].
+- **La part des classements sans suite qui concernent des faits réels mais impossibles à prouver**, et celle qui concerne des faits non survenus : les données judiciaires ne permettent pas de les distinguer.
+- **L'effet de la loi du 6 novembre 2025** sur les poursuites et les condamnations : elle ne s'applique qu'aux faits postérieurs à son entrée en vigueur [5][6].
+- **La fréquence de l'amnésie dissociative** et la fiabilité des souvenirs retrouvés après une longue période : la question reste disputée entre chercheurs [12][13].
+
+## Sources
+- Observatoire national des violences faites aux femmes (Miprof), « Les violences sexistes et sexuelles en France en 2024 », lettre n° 25, novembre 2025, reprenant l'enquête « Vécu et ressenti en matière de sécurité » et les données de victimes enregistrées du SSMSI. | https://arretonslesviolences.gouv.fr/sites/default/files/2025-11/Lettre-violences-sexistes-et-sexuelles-novembre-2025.pdf
+- Institut des politiques publiques, Maëlle Stricot, « Le traitement judiciaire des violences sexuelles et conjugales en France », note IPP n° 107, avril 2024, version révisée en novembre 2024. | https://www.ipp.eu/publication/le-traitement-judiciaire-des-violences-sexuelles-et-conjugales-en-france/
+- Actu-Juridique, « Justice et violences sexuelles : à qui profite le fake ? », 17 septembre 2025 (source secondaire sur la correction de la note de l'IPP). | https://www.actu-juridique.fr/droit-penal/violences-sexuelles/justice-et-violences-sexuelles-a-qui-profite-le-fake/
+- Commission indépendante sur l'inceste et les violences sexuelles faites aux enfants (CIIVISE), « Violences sexuelles faites aux enfants : "On vous croit" », synthèse du rapport, novembre 2023. | https://ciivise.fr/sites/ciivise/files/2024-09/Synthese-VF.pdf
+- AP-HP, Direction des affaires juridiques, « Loi n° 2025-1057 du 6 novembre 2025 visant à modifier la définition pénale du viol et des agressions sexuelles », fiche de texte (source secondaire citant le texte publié au Journal officiel du 7 novembre 2025). | https://affairesjuridiques.aphp.fr/textes/loi-n-2025-1057-du-6-novembre-2025-visant-a-modifier-la-definition-penale-du-viol-et-des-agressions-sexuelles/
+- Le Club des juristes, Ludivine Richefeu, « Viol et agressions sexuelles : la Cour de cassation écarte la rétroactivité de la loi sur le consentement », 3 juillet 2026. | https://www.leclubdesjuristes.com/justice/viol-et-agressions-sexuelles-la-cour-de-cassation-ecarte-la-retroactivite-de-la-loi-sur-le-consentement-16761/
+- Cour européenne des droits de l'homme, J.L. c. Italie, requête n° 5671/16, arrêt du 27 mai 2021, définitif le 27 août 2021. | https://hudoc.echr.coe.int/fre?i=001-210299
+- Cour européenne des droits de l'homme, L. et autres c. France, requêtes n° 46949/21, 24989/22 et 39759/22, arrêt du 24 avril 2025, définitif le 24 juillet 2025. | https://hudoc.echr.coe.int/fre?i=001-242789
+- Anna Möller, Hans Peter Söndergaard et Lotti Helström, « Tonic immobility during sexual assault: a common reaction predicting post-traumatic stress disorder and severe depression », Acta Obstetricia et Gynecologica Scandinavica, juin 2017. | https://doi.org/10.1111/aogs.13174
+- David Lisak, Lori Gardinier, Sarah Nicksa et Ashley Cote, « False Allegations of Sexual Assault: An Analysis of Ten Years of Reported Cases », Violence Against Women, vol. 16, n° 12, décembre 2010. | https://doi.org/10.1177/1077801210387747
+- Philip Rumney, « False allegations of rape », Cambridge Law Journal, vol. 65, n° 1, 2006. | https://doi.org/10.1017/S0008197306007069
+- Henry Otgaar, Mark Howe, Lawrence Patihis, Harald Merckelbach, Steven Jay Lynn, Scott Lilienfeld et Elizabeth Loftus, « The Return of the Repressed: The Persistent and Problematic Claims of Long-Forgotten Trauma », Perspectives on Psychological Science, octobre 2019 (version en libre accès). | https://openaccess.city.ac.uk/22336/
+- Chris Brewin, Hongxi Li, Vasiliki Ntarantana, Charlotte Unsworth et Jennifer McNeilis, « Is the public understanding of memory prone to widespread "myths"? », Journal of Experimental Psychology: General, décembre 2019. | https://doi.org/10.1037/xge0000610
+- Martha R. Burt, « Cultural myths and supports for rape », Journal of Personality and Social Psychology, vol. 38, n° 2, 1980. | https://doi.org/10.1037/0022-3514.38.2.217
+- Nils Christie, « The Ideal Victim », dans Ezzat A. Fattah (dir.), From Crime Policy to Victim Policy, Palgrave Macmillan, 1986. | https://doi.org/10.1007/978-1-349-08305-3_2
+- Association Mémoire traumatique et victimologie et Ipsos, « Les Français et les représentations sur le viol et les violences sexuelles », vague 3, dossier de presse, février 2022 (enquête commandée par une association). | https://www.memoiretraumatique.org/assets/files/dossier-presse/202201Dossier-de-presse-Enquete-IPSOS-repres-Francais-vague3.pdf
+- Observatoire national de la protection de l'enfance (ONPE), « Éléments de réponse à la mission d'évaluation de la loi du 3 août 2018 renforçant la lutte contre les violences sexuelles et sexistes », 13 mai 2020. | https://onpe.france-enfance-protegee.fr/wp-content/uploads/2023/12/20200513_reponses_mission_evaluation_loi_3_aout_2018_onpe_version_corrigee.pdf
+- Centre national de ressources et de résilience (CN2R), « Les implications juridiques », entretien avec Laurence Bégon-Bordreuil, magistrate et conseillère juridique de la délégation interministérielle à l'aide aux victimes, 2025. | https://cn2r.fr/wp-content/uploads/2025/07/Itw_LBegon_Cn2r.pdf
+- Critical Legal Thinking, Christine Schwöbel-Patel, « Nils Christie's "Ideal Victim" applied: From Lions to Swarms », 5 août 2015 (source secondaire résumant les critères de Christie). | https://criticallegalthinking.com/2015/08/05/nils-christies-ideal-victim-applied-from-lions-to-swarms/
