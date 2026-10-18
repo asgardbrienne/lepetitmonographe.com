@@ -7,9 +7,9 @@ resume: Les sièges en jeu, la majorité actuelle, ce que les élections de mi-m
 arret: 18 octobre 2026
 publication: 18 octobre 2026
 image: assets/images/elections-mi-mandat-2026.jpg
-image_alt: A COMPLETER
-image_credit: A COMPLETER
-image_lien: A COMPLETER
+image_alt: La façade ouest du Capitole des États-Unis, à Washington
+image_credit: Martin Falbisoner, CC BY-SA 3.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:US_Capitol_west_side.JPG
 verifie: 18 octobre 2026
 ---
 ## Essentiel
