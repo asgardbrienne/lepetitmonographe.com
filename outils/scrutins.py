@@ -5,6 +5,7 @@ Dans le fichier d'un dossier, un bloc sur une ligne :
 
     [Scrutins] synthese 15      (position de chaque groupe sur les textes, XVe législature)
     [Scrutins] liste 15         (chaque vote solennel sur un texte, groupe par groupe)
+    [Scrutins] rejetes          (les textes rejetés, vote de chaque groupe déplié)
     [Scrutins] censures         (toutes les motions de censure 2017-2026)
     [Scrutins] autres           (déclarations du Gouvernement, résolutions, motions de procédure, Congrès)
 
@@ -69,13 +70,13 @@ def synthese(leg):
         n = c["pour"] + c["contre"] + c["abstention"]
         if n < 5:
             continue
-        lignes.append(f'''<li class="vote-ligne"><span class="vote-groupe"><abbr title="{_e(libelles[grp])}">{_e(grp)}</abbr><span class="vote-nb">{n} textes</span></span>{barre(c["pour"], c["contre"], c["abstention"], grp)}<span class="vote-chiffres"><b class="t-pour">{_pct(c["pour"], n)} %</b> · <b class="t-contre">{_pct(c["contre"], n)} %</b> · <b class="t-abstention">{_pct(c["abstention"], n)} %</b></span></li>''')
+        lignes.append(f'''<li class="vote-ligne"><span class="vote-groupe"><abbr title="{_e(libelles[grp])}">{_e(grp)}</abbr><span class="vote-nb">{_e(libelles[grp])}, {n} textes votés</span></span>{barre(c["pour"], c["contre"], c["abstention"], grp)}<span class="vote-compte"><span class="vc vc-pour">Pour <b>{c["pour"]}</b> <i>{_pct(c["pour"], n)} %</i></span><span class="vc vc-contre">Contre <b>{c["contre"]}</b> <i>{_pct(c["contre"], n)} %</i></span><span class="vc vc-abstention">Abst. <b>{c["abstention"]}</b> <i>{_pct(c["abstention"], n)} %</i></span></span></li>''')
     noms = "".join(f"<li><b>{_e(g)}</b> : {_e(libelles[g])}</li>" for g in sorted(agg, key=lambda x: -sum(agg[x].values())) if sum(agg[g][k] for k in POS) >= 5)
     return f'''        <figure class="graphique graphique-votes">
-          <figcaption class="graphique-tete"><span class="graphique-num">Votes</span><span class="graphique-titre">{LEG[leg]} : position de chaque groupe sur les {len(textes)} textes soumis à un vote solennel</span><span class="graphique-unite">Part des textes sur lesquels la majorité des membres votants du groupe a voté pour, contre ou s'est abstenue</span></figcaption>
+          <figcaption class="graphique-tete"><span class="graphique-num">Votes</span><span class="graphique-titre">{LEG[leg]} : position de chaque groupe sur les {len(textes)} textes soumis à un vote solennel</span><span class="graphique-unite">Nombre et part des textes sur lesquels la majorité des membres votants du groupe a voté pour, contre ou s'est abstenue</span></figcaption>
           {LEGENDE}
           <ol class="vote-lignes">{"".join(lignes)}</ol>
-          <div class="graphique-pied"><p><strong>Lecture :</strong> la barre d'un groupe se lit de gauche à droite : part des textes votés pour, contre, puis en s'abstenant. Les groupes ayant voté sur moins de cinq textes ne sont pas affichés, ni les députés non inscrits, qui ne forment pas un groupe. Un groupe peut avoir changé de nom ou de composition en cours de législature.</p><p><strong>Source :</strong> Assemblée nationale, données ouvertes des scrutins, calcul Le Petit Monographe.</p></div>
+          <div class="graphique-pied"><p><strong>Lecture :</strong> pour chaque groupe, le nombre de textes qu'il a votés pour, contre ou sur lesquels il s'est abstenu, et la part que cela représente ; la barre reprend ces parts de gauche à droite. Les groupes ayant voté sur moins de cinq textes ne sont pas affichés, ni les députés non inscrits, qui ne forment pas un groupe. Un groupe peut avoir changé de nom ou de composition en cours de législature.</p><p><strong>Source :</strong> Assemblée nationale, données ouvertes des scrutins, calcul Le Petit Monographe.</p></div>
           <details class="graphique-donnees"><summary>Noms complets des groupes</summary><ul class="vote-noms">{noms}</ul></details>
         </figure>'''
 
@@ -97,11 +98,27 @@ def _puces(s):
         p = position(g)
         if p == "absent" or g["groupe"] == "NI":
             continue
-        out.append(f'<span class="puce p-{p}" title="{_e(g["libelle"])} : {g["pour"]} pour, {g["contre"]} contre, {g["abstention"]} abstentions">{_e(g["groupe"])}<span class="visuellement-cache"> : {POS[p].lower()}</span></span>')
+        out.append(f'<span class="puce p-{p}" title="{_e(g["libelle"])} : {g["pour"]} pour, {g["contre"]} contre, {g["abstention"]} abstentions">{_e(g["groupe"])} <b>{"abst." if p == "abstention" else p}</b></span>')
     return "".join(out)
 
 
-def _ligne(s):
+def _detail(s, ouvert=False):
+    lignes = []
+    for g in sorted(s["groupes"], key=lambda g: -g["membres"]):
+        if g["membres"] == 0:
+            continue
+        exprimes = g["pour"] + g["contre"] + g["abstention"]
+        absents = max(0, g["membres"] - exprimes)
+        p = position(g)
+        nom = "Non-inscrits" if g["groupe"] == "NI" else g["groupe"]
+        pos = "" if g["groupe"] == "NI" or p == "absent" else f'<span class="puce p-{p}"><b>{"abst." if p == "abstention" else p}</b></span>'
+        lignes.append(f'<tr><th scope="row"><abbr title="{_e(g["libelle"])}">{_e(nom)}</abbr></th><td>{pos}</td><td class="nb">{g["pour"]}</td><td class="nb">{g["contre"]}</td><td class="nb">{g["abstention"]}</td><td class="nb discret">{absents}</td></tr>')
+    return f'''<details class="scrutin-detail"{" open" if ouvert else ""}><summary>Le vote de chaque groupe, voix par voix</summary>
+              <div class="tableau-defilant"><table class="tableau-vote"><thead><tr><th>Groupe</th><th>Position</th><th class="nb">Pour</th><th class="nb">Contre</th><th class="nb">Abst.</th><th class="nb">Pas voté</th></tr></thead><tbody>{"".join(lignes)}</tbody></table></div>
+            </details>'''
+
+
+def _ligne(s, ouvert=False):
     t = s["total"]
     lecture = _lecture(s["titre"])
     return f'''<li class="scrutin">
@@ -109,6 +126,7 @@ def _ligne(s):
             <p class="scrutin-titre"><a href="{s["lien"]}" target="_blank" rel="noopener">{_e(_intitule(s))}</a>{f'<span class="scrutin-lecture">{_e(lecture)}</span>' if lecture else ""}</p>
             <div class="scrutin-total">{barre(t["pour"], t["contre"], t["abstention"], "Ensemble des votants")}<span class="vote-chiffres">{t["pour"]} pour · {t["contre"]} contre · {t["abstention"]} abst.</span></div>
             <div class="scrutin-puces">{_puces(s)}</div>
+            {_detail(s, ouvert)}
           </li>'''
 
 
@@ -122,7 +140,14 @@ def liste(leg):
           <ol class="scrutins">{"".join(_ligne(s) for s in v)}</ol>
         </details>''' for i, (an, v) in enumerate(sorted(par_an.items())))
     return f'''        <!--scrutins--><div class="scrutins-bloc">
-          <p class="scrutins-aide">{LEGENDE}Sous chaque texte, chaque groupe est coloré selon le vote de la majorité de ses membres votants (les non-inscrits ne sont pas représentés) ; le détail des voix s'affiche au survol et sur la page officielle du scrutin.</p>{blocs}
+          <p class="scrutins-aide">{LEGENDE}Sous chaque texte, chaque groupe affiche le vote de la majorité de ses membres votants. Le bouton « Le vote de chaque groupe » donne le nombre exact de voix pour, contre, d'abstentions et de membres qui n'ont pas voté.</p>{blocs}
+        </div><!--/scrutins-->'''
+
+
+def rejetes():
+    v = [s for s in S if s["categorie"] == "texte" and not s["adopte"]]
+    return f'''        <!--scrutins--><div class="scrutins-bloc scrutins-rejetes">
+          <ol class="scrutins">{"".join(_ligne(s, ouvert=True) for s in v)}</ol>
         </div><!--/scrutins-->'''
 
 
@@ -165,6 +190,8 @@ def rendre(bloc):
         return synthese(int(p[1]))
     if p[0] == "liste":
         return liste(int(p[1]))
+    if p[0] == "rejetes":
+        return rejetes()
     if p[0] == "censures":
         return censures()
     if p[0] == "autres":

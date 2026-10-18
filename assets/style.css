@@ -724,3 +724,30 @@ a:hover .fleche { transform: translateX(3px); }
 .tableau-censures td, .tableau-censures th { white-space: normal; vertical-align: top; }
 .tableau-censures td.date { white-space: nowrap; }
 @media (max-width: 560px) { .tableau-censures td:last-child { min-width: 9rem; } }
+.vote-ligne { grid-template-columns: 11rem minmax(0, 1fr); }
+.vote-ligne .vote-barre { grid-column: 2; }
+.vote-compte { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: .8125rem; color: var(--encre-douce); font-variant-numeric: tabular-nums; }
+.vc b { color: var(--encre); font-size: .9375rem; }
+.vc i { font-style: normal; }
+.vc::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+.vc-pour::before { background: var(--vote-pour); } .vc-contre::before { background: var(--vote-contre); } .vc-abstention::before { background: var(--vote-abst); }
+.vote-ligne { padding-bottom: 12px; border-bottom: 1px solid var(--filet); }
+.vote-groupe .vote-nb { font-weight: 400; }
+.puce b { font-weight: 600; text-transform: lowercase; }
+.scrutin-detail > summary { cursor: pointer; font-size: .8125rem; font-weight: 600; color: var(--or-texte); }
+.tableau-vote { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: .8125rem; font-variant-numeric: tabular-nums; }
+.tableau-vote th, .tableau-vote td { padding: 5px 6px 5px 0; border-bottom: 1px solid var(--filet); text-align: left; white-space: nowrap; }
+.tableau-vote thead th { font-size: .625rem; letter-spacing: .08em; text-transform: uppercase; color: var(--encre-douce); font-weight: 600; }
+.tableau-vote th[scope="row"] { font-weight: 600; color: var(--encre); }
+.tableau-vote th[scope="row"] abbr { text-decoration: none; }
+.tableau-vote .nb { text-align: right; }
+.tableau-vote .discret { color: var(--encre-douce); }
+.scrutins-rejetes .scrutin { border-left: 3px solid var(--vote-contre); }
+@media (max-width: 560px) {
+  .vote-ligne { grid-template-columns: 1fr; }
+  .vote-ligne .vote-barre { grid-column: 1; }
+  .tableau-vote th, .tableau-vote td { padding-right: 4px; }
+}
+.scrutin, .scrutin-detail, .scrutins-bloc { min-width: 0; }
+.tableau-vote thead th { white-space: normal; vertical-align: bottom; line-height: 1.2; }
+@media (max-width: 560px) { .tableau-vote { font-size: .75rem; } .scrutin { padding: 10px; } }
