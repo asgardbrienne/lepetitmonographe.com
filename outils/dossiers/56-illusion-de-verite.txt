@@ -1,0 +1,70 @@
+fichier: dossier-illusion-de-verite.html
+rubrique: psychologie
+titre: L'illusion de vérité : pourquoi une affirmation répétée paraît plus vraie, même quand elle a été démentie
+titre_court: L'illusion de vérité
+chapeau: Une information entendue plusieurs fois semble plus crédible, y compris quand on sait qu'elle est fausse et quand elle a été signalée comme contestée. Une fausse information corrigée continue d'influencer le raisonnement. Ce que montrent près de cinquante ans d'expériences, ce qui limite l'effet, et pourquoi les démentis restent utiles.
+resume: L'expérience fondatrice de 1977, la méta-analyse de 51 études, la connaissance qui ne protège pas, les fausses informations sur les réseaux sociaux, l'influence persistante après correction, le débat sur l'effet « boomerang » des démentis, et la différence avec l'effet de simple exposition. Données arrêtées au 19 octobre 2026.
+arret: 19 octobre 2026
+publication: 19 octobre 2026
+verifie: 19 octobre 2026
+voir_aussi: dossier-effet-desinformation.html, dossier-deepfakes.html, dossier-theories-du-complot.html
+image: assets/images/illusion-de-verite.jpg
+image_alt: Un haut-parleur fixé à un poteau, dans une rue
+image_credit: Nurken, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Pole_loudspeaker,_Maria_Ellend,_Austria,_25_December_2025_B.jpg
+---
+## Essentiel
+- Les personnes jugent plus vraies des affirmations qu'elles ont déjà rencontrées que des affirmations nouvelles : c'est l'« effet de vérité » ou « illusion de vérité », décrit dès 1977 [1][2]. Une méta-analyse de 2010 regroupe 51 études qui le confirment [3].
+- La connaissance ne protège pas entièrement : dans une étude de 2015, la répétition augmentait la crédibilité d'affirmations fausses même chez des participants qui connaissaient la bonne réponse [4].
+- Une seule exposition à un vrai titre de fausse information tel qu'il apparaissait sur Facebook suffit à en augmenter la crédibilité perçue, une semaine plus tard encore, même lorsque le titre est signalé comme contesté par des vérificateurs ou contraire aux opinions politiques du lecteur. L'effet disparaît pour les affirmations totalement invraisemblables [5].
+- Une information corrigée continue souvent d'influencer le raisonnement, même quand la correction est bien mémorisée ; un avertissement précis et une explication de remplacement réduisent cette influence sans la supprimer [6][7].
+- L'idée qu'un démenti renforcerait la croyance qu'il combat, l'effet « boomerang », n'est pas un phénomène solide selon une revue de 2020 : les corrections restent utiles [8].
+
+[À noter] Ce dossier décrit des mécanismes de jugement observés chez tout le monde, quel que soit le bord politique ; il ne désigne aucun média ni aucun camp. Effet de vérité : augmentation de la crédibilité d'une affirmation du seul fait de sa répétition. Fluidité : facilité avec laquelle une information est traitée ; une information déjà vue est traitée plus facilement, et cette facilité est interprétée comme un signe de vérité. Effet de simple exposition : tendance à apprécier davantage un objet rencontré plusieurs fois ; il porte sur l'attrait, pas sur la vérité [9].
+
+## L'effet de vérité
+
+[Fait établi] L'effet a été décrit en 1977 par Lynn Hasher, David Goldstein et Thomas Toppino : des affirmations plausibles déjà rencontrées étaient jugées plus vraies que des affirmations nouvelles [1][3]. Une revue publiée en 2019 par Christian Unkelbach et ses coauteurs passe en revue les explications : fréquence, reconnaissance, familiarité, cohérence avec des références déjà connues [2].
+
+[Fait établi] La méta-analyse d'Alice Dechêne et de ses coauteurs, publiée en 2010, porte sur 51 études. Elle confirme l'effet et montre qu'il est plus fort lorsqu'on compare des affirmations répétées à des affirmations nouvelles que lorsqu'on compare une même affirmation lors de sa première et de sa seconde présentation, ce qui suggère des processus différents. Les auteurs interprètent l'ensemble par la fluidité de traitement [3].
+
+## Savoir ne suffit pas
+
+[Fait établi] En 2015, Lisa Fazio et ses coauteurs ont testé l'hypothèse selon laquelle la connaissance limite l'effet : répéter que « l'océan Atlantique est le plus grand océan de la Terre » ne devrait pas le faire croire. Contrairement à cette hypothèse, l'effet apparaissait même lorsque les participants connaissaient la bonne réponse. Selon les auteurs, les personnes se fient parfois à la fluidité alors que la connaissance leur est disponible [4].
+
+[Interprétation] L'effet ne transforme pas tout le monde en crédule : il augmente la crédibilité perçue, il ne la fait pas passer du faux au vrai pour chacun. Mais il opère y compris chez des personnes informées, ce qui contredit l'idée qu'il ne toucherait que les moins instruits.
+
+## Les fausses informations en ligne
+
+[Fait établi] En 2018, Gordon Pennycook, Tyrone Cannon et David Rand ont présenté de vrais titres de fausses informations tels qu'ils apparaissaient sur Facebook. Une seule exposition augmentait la crédibilité perçue, dans la même séance et une semaine plus tard. L'effet subsistait lorsque les titres étaient signalés comme contestés par des vérificateurs et lorsqu'ils allaient contre l'orientation politique du lecteur. Il ne jouait pas pour des affirmations totalement invraisemblables, comme « la Terre est un carré parfait » ; selon les auteurs, un faible degré de plausibilité suffit [5].
+
+[Interprétation] Ces résultats concernent les titres, que beaucoup de lecteurs voient sans lire l'article. Ils suggèrent qu'une étiquette « contesté » placée sur un contenu ne suffit pas à neutraliser l'effet de sa répétition ; ils ne disent pas que ces étiquettes sont inutiles dans tous les cas.
+
+## Quand un démenti ne suffit pas
+
+[Fait établi] La revue publiée en 2012 par Stephan Lewandowsky et ses coauteurs décrit l'« effet d'influence persistante » : une information présentée comme vraie puis corrigée continue souvent d'influencer la mémoire et le raisonnement. Les auteurs prennent l'exemple de la croyance erronée dans un lien entre vaccination infantile et autisme, et analysent pourquoi les rétractations sont si peu efficaces pour mettre à jour la mémoire [6].
+
+[Fait établi] En 2010, Ullrich Ecker, Stephan Lewandowsky et David Tang ont montré que cette influence persiste même quand la correction est bien mémorisée. Un avertissement précis donné au départ la réduit sans l'éliminer ; un avertissement général est encore moins efficace ; l'ajout d'une explication de remplacement plausible la réduit davantage, sans la supprimer [7].
+
+## Le débat sur l'effet « boomerang »
+
+[Débat] Une idée répandue veut qu'un démenti puisse renforcer la croyance qu'il combat, soit parce qu'il répète l'information fausse, soit parce qu'il heurte les convictions du lecteur. La revue publiée en 2020 par Briony Swire-Thompson, Joseph DeGutis et David Lazer relève que des études récentes ne l'ont pas retrouvé, même dans des conditions théoriquement favorables, et conclut que l'effet boomerang « n'est pas un phénomène empirique solide », tout en recommandant de meilleures mesures pour trancher [8]. L'étude de Thomas Wood et Ethan Porter publiée en 2019 va dans le même sens [10].
+
+[Interprétation] Les deux constats sont compatibles : une correction n'efface pas complètement une fausse information, mais elle réduit en général la croyance plutôt qu'elle ne la renforce. La recherche plaide donc pour corriger, en donnant une explication de remplacement et en évitant de répéter l'information fausse plus que nécessaire.
+
+## Ce qu'on ne sait pas
+- **La durée de l'effet dans la vie réelle**, au-delà des délais de quelques semaines testés en laboratoire.
+- **L'effet de la répétition par les algorithmes de recommandation** sur la crédibilité perçue des informations en France : aucune étude consultée ne le mesure.
+- **L'efficacité comparée des différents formats de correction** utilisés par les médias français : les sources consultées portent surtout sur des expériences anglophones.
+
+## Sources
+- Lynn Hasher, David Goldstein et Thomas Toppino, « Frequency and the conference of referential validity », Journal of Verbal Learning and Verbal Behavior, vol. 16, n° 1, février 1977. | https://doi.org/10.1016/S0022-5371(77)80012-1
+- Christian Unkelbach, Alex Koch, Rita R. Silva et Teresa Garcia-Marques, « Truth by Repetition: Explanations and Implications », Current Directions in Psychological Science, vol. 28, n° 3, 2019. | https://doi.org/10.1177/0963721419827854
+- Alice Dechêne, Christoph Stahl, Jochim Hansen et Michaela Wänke, « The Truth About the Truth: A Meta-Analytic Review of the Truth Effect », Personality and Social Psychology Review, vol. 14, n° 2, 2010 (publié en ligne en 2009). | https://doi.org/10.1177/1088868309352251
+- Lisa K. Fazio, Nadia M. Brashier, B. Keith Payne et Elizabeth J. Marsh, « Knowledge does not protect against illusory truth », Journal of Experimental Psychology: General, vol. 144, n° 5, octobre 2015. | https://doi.org/10.1037/xge0000098
+- Gordon Pennycook, Tyrone D. Cannon et David G. Rand, « Prior exposure increases perceived accuracy of fake news », Journal of Experimental Psychology: General, vol. 147, n° 12, décembre 2018. | https://doi.org/10.1037/xge0000465
+- Stephan Lewandowsky, Ullrich K. H. Ecker, Colleen M. Seifert, Norbert Schwarz et John Cook, « Misinformation and Its Correction: Continued Influence and Successful Debiasing », Psychological Science in the Public Interest, vol. 13, n° 3, 2012. | https://doi.org/10.1177/1529100612451018
+- Ullrich K. H. Ecker, Stephan Lewandowsky et David T. W. Tang, « Explicit warnings reduce but do not eliminate the continued influence of misinformation », Memory & Cognition, vol. 38, n° 8, décembre 2010. | https://doi.org/10.3758/MC.38.8.1087
+- Briony Swire-Thompson, Joseph DeGutis et David Lazer, « Searching for the backfire effect: Measurement and design considerations », Journal of Applied Research in Memory and Cognition, vol. 9, n° 3, septembre 2020. | https://doi.org/10.1016/j.jarmac.2020.06.006
+- Robert B. Zajonc, « Attitudinal effects of mere exposure », Journal of Personality and Social Psychology, vol. 9, n° 2, 1968. | https://doi.org/10.1037/h0025848
+- Thomas Wood et Ethan Porter, « The Elusive Backfire Effect: Mass Attitudes' Steadfast Factual Adherence », Political Behavior, vol. 41, 2019 (publié en ligne en 2018). | https://doi.org/10.1007/s11109-018-9443-y

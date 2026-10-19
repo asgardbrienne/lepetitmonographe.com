@@ -1,0 +1,74 @@
+fichier: dossier-theories-du-complot.html
+rubrique: psychologie
+titre: Les théories du complot : ce que la recherche en psychologie établit sur les besoins qui y conduisent, et ce qu'elle ne confirme pas
+titre_court: Les théories du complot
+chapeau: Besoin de comprendre, de se sentir en sécurité, d'être unique : la psychologie sociale propose plusieurs explications à l'adhésion aux théories du complot. Certaines sont confirmées par de nombreuses études, d'autres beaucoup moins qu'on ne le dit, comme le besoin de contrôle. Ce que disent les synthèses, les enquêtes françaises, et la frontière entre doute légitime et pensée conspirationniste.
+resume: Les trois motifs identifiés par la recherche, le besoin d'unicité, le besoin de contrôle et la méta-analyse qui le remet en cause, la synthèse de 170 études, les enquêtes Ifop de 2018 et 2019 en France, la question de la mesure, et ce qui réduit la vulnérabilité aux manipulations. Données arrêtées au 19 octobre 2026.
+arret: 19 octobre 2026
+publication: 19 octobre 2026
+verifie: 19 octobre 2026
+voir_aussi: dossier-illusion-de-verite.html, dossier-effet-desinformation.html, dossier-deepfakes.html
+image: assets/images/theories-du-complot.jpg
+image_alt: Des pièces de puzzle éparses
+image_credit: Patafisik, CC BY-SA 3.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Puzzle_pieces_1.JPG
+---
+## Essentiel
+- Une synthèse publiée en 2017 classe les motifs de l'adhésion aux théories du complot en trois familles : comprendre son environnement (motifs épistémiques), s'y sentir en sécurité et en contrôle (motifs existentiels), garder une image positive de soi et de son groupe (motifs sociaux). Les auteurs relèvent que rien n'indique, à ce jour, que ces croyances satisfont réellement ces besoins [1].
+- Le besoin de se sentir unique est associé à l'adhésion de façon « modeste mais solide », et le provoquer expérimentalement l'augmente, selon deux séries d'études publiées en 2017 [2][3].
+- Le besoin de contrôle, souvent présenté comme établi, l'est beaucoup moins : une méta-analyse de 2020 conclut que l'effet expérimental d'un manque de contrôle sur les croyances complotistes est faible et non significatif [4][5].
+- Une méta-analyse de 2023 portant sur 170 études et 158 473 participants trouve que les corrélats les plus forts sont la perception de dangers et de menaces, le recours à l'intuition et les croyances inhabituelles, et une attitude d'antagonisme et de supériorité [6].
+- En France, dans une enquête Ifop de décembre 2018, 21 % des personnes interrogées se déclaraient d'accord avec au moins cinq des dix énoncés complotistes proposés, 35 % avec aucun [7].
+
+[À noter] Ce dossier ne qualifie aucune personne ni aucun mouvement de complotiste. Il ne dit pas non plus que tout soupçon de dissimulation est infondé : des complots réels ont existé et ont été établis par des enquêtes, des procès ou des documents. Théorie du complot : explication d'un événement par l'action secrète d'un groupe puissant et malveillant [1]. Mentalité conspirationniste : tendance générale à adhérer à ce type d'explication, mesurée par des questionnaires. Méta-analyse : regroupement statistique des résultats de nombreuses études.
+
+## Les trois familles de motifs
+
+[Fait établi] Karen Douglas, Robbie Sutton et Aleksandra Cichocka ont proposé en 2017 un cadre en trois motifs : épistémiques, comprendre ce qui se passe et réduire l'incertitude ; existentiels, se sentir en sécurité et en contrôle ; sociaux, maintenir une image positive de soi et de son groupe. Ils relèvent que la recherche documente bien mieux les causes de ces croyances que leurs conséquences, et que les études existantes n'indiquent pas que les croyances complotistes satisfont ces besoins : elles seraient « plus attirantes que satisfaisantes » [1].
+
+## Le besoin d'unicité
+
+[Fait établi] Anthony Lantian, Dominique Muller, Cécile Nurra et Karen Douglas ont publié en 2017 quatre études : la tendance à croire aux théories du complot est associée au sentiment de détenir des informations rares et à un besoin d'unicité plus élevé ; dans deux expériences, les participants placés dans une condition de fort besoin d'unicité adhéraient davantage aux théories du complot [2].
+
+[Fait établi] La même année, Roland Imhoff et Pia Lamberty ont établi, sur trois études, une association « modeste mais solide » entre le besoin d'unicité et la mentalité conspirationniste. Une théorie du complot fictive recevait plus de soutien chez les personnes à forte mentalité conspirationniste lorsqu'on la présentait comme partagée par une minorité plutôt que par une majorité [3].
+
+## Le besoin de contrôle : une hypothèse fragilisée
+
+[Fait établi] En 2008, Jennifer Whitson et Adam Galinsky ont publié dans la revue Science six expériences selon lesquelles les participants privés de sentiment de contrôle percevaient davantage de liens illusoires : images dans du bruit visuel, corrélations imaginaires, complots, superstitions [5].
+
+[Débat] En 2020, Ana Stojanov et Jamin Halberstadt ont regroupé les études publiées et non publiées qui manipulent le sentiment de contrôle pour en mesurer l'effet sur les croyances complotistes. L'effet global est faible et non significatif. Il apparaît plus souvent pour des théories du complot précises que pour des croyances générales. Selon les auteurs, les études disponibles apportent un soutien « limité » à l'idée que ces croyances compensent un manque de contrôle [4].
+
+[Interprétation] L'explication par le besoin de contrôle, très reprise dans la vulgarisation, n'est donc pas réfutée mais n'est pas établie par les expériences. Une corrélation peut exister entre sentiment d'impuissance et complotisme sans que l'un cause l'autre.
+
+## Ce que montre la synthèse la plus large
+
+[Fait établi] La méta-analyse de Shauna Bowes, Thomas Costello et Arber Tasimi, publiée en 2023, porte sur 170 études, 257 échantillons, 52 variables et 158 473 participants. Les corrélats les plus forts de la pensée conspirationniste sont la perception de dangers et de menaces, le recours à l'intuition et les croyances ou expériences inhabituelles, et une attitude d'antagonisme et de sentiment de supériorité. Les auteurs relèvent une forte hétérogénéité des résultats et des limites selon le type de complot [6].
+
+## En France : ce que mesurent les sondages
+
+[Fait établi] La deuxième vague de l'enquête de la Fondation Jean-Jaurès et de Conspiracy Watch, réalisée par l'Ifop en décembre 2018 auprès de 1 760 personnes, conclut que deux Français sur trois sont « relativement hermétiques » au complotisme, mais que 21 % sont d'accord avec au moins cinq des dix énoncés complotistes proposés et 35 % avec aucun. 28 % des 18-24 ans adhèrent à cinq énoncés ou plus, contre 9 % des 65 ans et plus [7].
+
+[Débat] La mesure elle-même pose question. La même enquête utilise une échelle internationale de « mentalité conspirationniste » composée d'énoncés comme « les politiciens ne nous disent généralement pas ce qui motive réellement leurs décisions » ou « les agences gouvernementales surveillent étroitement les citoyens » : chacun recueille l'accord d'une majorité de répondants [7]. Certains de ces énoncés peuvent exprimer une méfiance raisonnable autant qu'une pensée conspirationniste. Les résultats dépendent donc fortement des énoncés choisis, ce que l'enquête reconnaît en explicitant ses choix méthodologiques [7].
+
+## Doute légitime et pensée conspirationniste
+
+[Interprétation] Le doute envers les institutions n'est pas une pathologie : les démocraties reposent sur le contrôle des pouvoirs, et des dissimulations réelles ont été révélées par la presse et la justice. La différence tient à la méthode : une enquête cherche des preuves et accepte d'être contredite ; une théorie du complot, telle que la définit la recherche, explique les événements par l'action cachée d'un groupe puissant et malveillant [1] ; lorsqu'elle réinterprète toute preuve contraire comme une preuve supplémentaire du complot, elle devient impossible à réfuter.
+
+## Ce qui réduit la vulnérabilité
+
+[Fait établi] En 2022, Jon Roozenbeek et ses coauteurs ont testé de courtes vidéos expliquant cinq techniques de manipulation fréquentes (langage émotionnel, incohérence, faux dilemmes, désignation de boucs émissaires, attaques personnelles). Dans six expériences contrôlées sur 6 464 personnes et une étude de terrain sur YouTube auprès de 22 632 personnes, elles amélioraient la reconnaissance de ces techniques et la capacité à distinguer les contenus fiables, quel que soit le bord politique [8].
+
+## Ce qu'on ne sait pas
+- **L'effet causal de la plupart des facteurs associés** au complotisme : la majorité des études sont des corrélations [6].
+- **L'évolution de l'adhésion en France depuis 2019** : les sources consultées ne fournissent pas de vague plus récente de la même enquête.
+- **L'effet durable des formations à la reconnaissance des manipulations** au-delà de quelques semaines [8].
+
+## Sources
+- Karen M. Douglas, Robbie M. Sutton et Aleksandra Cichocka, « The Psychology of Conspiracy Theories », Current Directions in Psychological Science, vol. 26, n° 6, décembre 2017. | https://doi.org/10.1177/0963721417718261
+- Anthony Lantian, Dominique Muller, Cécile Nurra et Karen M. Douglas, « "I Know Things They Don't Know!" The Role of Need for Uniqueness in Belief in Conspiracy Theories », Social Psychology, vol. 48, n° 3, 2017. | https://doi.org/10.1027/1864-9335/a000306
+- Roland Imhoff et Pia Karoline Lamberty, « Too special to be duped: Need for uniqueness motivates conspiracy beliefs », European Journal of Social Psychology, vol. 47, n° 6, 2017. | https://doi.org/10.1002/ejsp.2265
+- Ana Stojanov et Jamin Halberstadt, « Does lack of control lead to conspiracy beliefs? A meta-analysis », European Journal of Social Psychology, vol. 50, n° 5, 2020. | https://doi.org/10.1002/ejsp.2690
+- Jennifer A. Whitson et Adam D. Galinsky, « Lacking Control Increases Illusory Pattern Perception », Science, vol. 322, n° 5898, octobre 2008. | https://doi.org/10.1126/science.1159845
+- Shauna M. Bowes, Thomas H. Costello et Arber Tasimi, « The conspiratorial mind: A meta-analytic review of motivational and personological correlates », Psychological Bulletin, vol. 149, n° 5-6, 2023. | https://doi.org/10.1037/bul0000392
+- Fondation Jean-Jaurès, Rudy Reichstadt, « Enquête complotisme 2019 : les grands enseignements », 6 février 2019 (enquête Ifop pour la Fondation Jean-Jaurès et Conspiracy Watch, décembre 2018). | https://www.jean-jaures.org/publication/enquete-complotisme-2019-les-grands-enseignements/
+- Jon Roozenbeek, Sander van der Linden, Beth Goldberg, Steve Rathje et Stephan Lewandowsky, « Psychological inoculation improves resilience against misinformation on social media », Science Advances, vol. 8, n° 34, août 2022. | https://doi.org/10.1126/sciadv.abo6254

@@ -60,3 +60,5 @@ Chaque photo est utilisée selon sa licence, vérifiée sur sa page d'origine le
 | 53-soumission-autorite | assets/images/soumission-autorite.jpg | jurvetson, CC BY 2.0, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Apollo_Control_Display_Panel_from_KSC_Firing_Room_1_(31533308584).jpg |
 | 54-facteurs-externes-decisions | assets/images/facteurs-externes-decisions.jpg | Sohail Aziz, CC BY 3.0, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Wall_clock_on_Golra_Sharif_Railway_Station.jpg |
 | 55-deliberation-jures | assets/images/deliberation-jures.jpg | Breather, CC0, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Minimalist_meeting_room_(Unsplash).jpg |
+| 56-illusion-de-verite | assets/images/illusion-de-verite.jpg | Nurken, CC BY-SA 4.0, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Pole_loudspeaker,_Maria_Ellend,_Austria,_25_December_2025_B.jpg |
+| 57-theories-du-complot | assets/images/theories-du-complot.jpg | Patafisik, CC BY-SA 3.0, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Puzzle_pieces_1.JPG |
