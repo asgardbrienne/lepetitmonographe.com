@@ -1132,7 +1132,7 @@ import datetime
 _urls = []
 for _f in sorted(glob.glob(os.path.join(OUT, "*.html"))):
     _t = open(_f, encoding="utf-8").read()
-    if 'name="robots" content="noindex' in _t or os.path.basename(_f) == "404.html":
+    if 'name="robots" content="noindex' in _t or os.path.basename(_f) == "404.html" or os.path.basename(_f).startswith("google"):  # fichier de vérification Search Console
         continue
     _b = os.path.basename(_f)
     # date de modification : la dernière vérification pour un dossier ; aucune date inventée pour les autres pages
