@@ -1,0 +1,127 @@
+fichier: dossier-strategie-biais-reflexe.html
+rubrique: politique
+titre: Stratégie, biais institutionnel ou réflexe : ce que les sources permettent de dire de la réponse sécuritaire aux mouvements sociaux
+titre_court: Stratégie, biais ou réflexe ?
+chapeau: Quand le pouvoir place l'ordre public au centre de sa réponse aux mouvements sociaux, s'agit-il d'un choix politique délibéré, d'un pli pris par les institutions chargées du maintien de l'ordre, ou d'un réflexe qui se répète d'une crise à l'autre ? Les trois explications ne s'excluent pas. Ce dossier les met à l'épreuve des documents disponibles : textes officiels, rapport de la commission d'enquête de 2021, décisions de justice, constats des autorités de contrôle.
+resume: Méthode des hypothèses concurrentes ; ce que chaque hypothèse prédit et ce que l'on observe ; les outils restrictifs ajoutés après chaque crise et leur sort devant les juges ; la doctrine française et le refus de la désescalade par une partie de la hiérarchie policière ; les qualifications politiques avancées avant les conclusions judiciaires ; ce qui contredit chacune des trois explications. Données arrêtées au 19 octobre 2026.
+arret: 19 octobre 2026
+publication: 19 octobre 2026
+verifie: 19 octobre 2026
+voir_aussi: dossier-maintien-ordre-manifestations.html, dossier-usage-force-police.html, dossier-vision-en-tunnel.html
+image: assets/images/strategie-biais-reflexe.jpg
+image_alt: Le portail de l'hôtel de Beauvau, siège du ministère de l'Intérieur, à Paris
+image_credit: Chabe01, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Portail_H%C3%B4tel_Beauvau_-_Paris_VIII_(FR75)_-_2022-05-27_-_1.jpg
+---
+## Essentiel
+- Les trois explications ne s'excluent pas, et les documents ne permettent pas d'en retenir une seule. Ils permettent en revanche de dire laquelle est la mieux étayée sur chaque point.
+- **Réflexe** : après chaque crise depuis 2019, un nouvel outil restrictif a été créé ou annoncé, et plusieurs ont été censurés ou annulés par les juges : interdiction administrative de manifester en 2019, quatre dispositions du schéma national du maintien de l'ordre en 2021, délit de provocation à l'identification de policiers en 2021, dissolution des Soulèvements de la Terre en 2023 [8][9][10][12]. En octobre 2026, les grenades assourdissantes suspendues après l'amputation d'un lycéen ont été de nouveau autorisées neuf jours plus tard [17][18].
+- **Biais institutionnel** : la commission d'enquête de l'Assemblée nationale a constaté en 2021 la réduction des unités spécialisées, le recours à des unités moins formées « ce qui peut entraîner de graves incidents », et jugé le LBD « pas nécessairement pertinent » en maintien de l'ordre. Le directeur général de la police nationale et plusieurs syndicats y ont rejeté la désescalade pratiquée en Allemagne [7].
+- **Stratégie** : des qualifications politiques sont avancées avant toute conclusion judiciaire, « écoterrorisme » en 2022, « ultragauche » en 2023 et 2026, sans que la justice les reprenne [11][13][19]. Mais aucun document ne montre que la mise en avant de l'ordre public vise à étouffer les revendications, et la séquence de décembre 2018 associe fermeté et concessions sociales [1].
+- **Ce qui ressort** : les éléments les plus solides relèvent du biais institutionnel et de la répétition des mêmes réponses. La part de calcul politique est plausible dans le choix des mots, elle n'est pas démontrée dans l'intention.
+
+[À noter] Ce dossier prolonge l'enquête sur la réponse du pouvoir aux mouvements sociaux. Il ne prête d'intention à personne : il examine ce que chaque explication permettrait de prévoir, et le compare aux faits. Stratégie consciente : choix délibéré de mettre l'ordre public au premier plan pour un bénéfice politique. Biais institutionnel : tendance produite par l'organisation, la doctrine, la formation et les circuits d'information des institutions, indépendamment des intentions individuelles. Réflexe sécuritaire : réponse devenue automatique, répétée d'une crise à l'autre, sans réévaluation. Désescalade : doctrine qui privilégie le dialogue avec les manifestants et la réduction des tensions avant l'usage de la force.
+
+## Méthode
+
+[À noter] La méthode est celle des hypothèses concurrentes, utilisée en analyse du renseignement et en sciences sociales : pour chaque explication, on se demande ce que l'on devrait observer si elle était juste, puis on vérifie dans les sources. Un fait compatible avec les trois hypothèses ne permet pas de trancher ; seuls comptent les faits qui en favorisent une ou en contredisent une. Les sources principales sont les textes officiels de 2018, 2019 et 2026 [1][2][3], le rapport de la commission d'enquête de l'Assemblée nationale sur le maintien de l'ordre publié le 20 janvier 2021 [7], les décisions des juridictions [8][9][10][12] et les constats des autorités de contrôle [15][16].
+
+## Hypothèse 1 : une stratégie politique consciente
+
+[Hypothèse] Si la mise en avant de l'ordre public était un choix délibéré pour détourner l'attention des revendications, on devrait observer : des qualifications politiques avancées avant les preuves ; une communication alignée entre responsables ; des références explicites à un bénéfice politique ; l'absence de concessions sur le fond ; idéalement, des consignes ou documents internes.
+
+[Fait établi] Des qualifications précèdent les constats judiciaires. Après la manifestation de Sainte-Soline d'octobre 2022, le ministre de l'Intérieur Gérald Darmanin parle d'« écoterrorisme » ; la circulaire adressée aux parquets par le ministre de la Justice le 9 novembre 2022 demande une réponse pénale « systématique et réactive », sans évoquer d'actes de terrorisme [11]. En 2023 puis le 19 octobre 2026, la procureure de Paris indique ne pas pouvoir établir la structuration des groupes violents, puis ne pas pouvoir confirmer l'appartenance des interpellés à l'ultragauche, qualification avancée la veille par le président de la République [3][13][19].
+
+[Fait établi] Le discours relie explicitement les violences au débat politique. Le 18 mars 2019, le Premier ministre Édouard Philippe déclare : « Ce n'est pas un hasard si les casseurs se remobilisent alors que le débat est un succès » [2]. Le 27 mars 2019, devant la commission des lois, le ministre de l'Intérieur Christophe Castaner estime que « pendant de longues semaines, l'ordre des choses a été inversé : on a laissé penser qu'il y avait, d'un côté, de gentils manifestants et, de l'autre, de méchants flics » [5]. Le 18 octobre 2026, le président affirme que ceux qui appellent à « aller dans la rue, de manifester » à six mois de l'élection présidentielle « n'ont qu'un but. Abîmer la République et voler le débat » [3].
+
+[Fait établi] La fermeté correspond à une opinion majoritaire. Les 28 et 29 mars 2023, 69 % des personnes interrogées par Elabe déclaraient avoir confiance dans la police et 62 % jugeaient les violences policières « marginales » et le fait d'une minorité ; mais 63 % approuvaient aussi la mobilisation contre la réforme des retraites et 62 % tenaient l'exécutif pour principal responsable du conflit [14]. La recherche montre que des violences visibles déplacent le débat vers l'ordre public et peuvent réduire le soutien à une cause [20][21].
+
+[Débat] Ce qui contredit l'hypothèse. Le 10 décembre 2018, la condamnation des violences s'accompagne, dans la même allocution, de mesures chiffrées pour le pouvoir d'achat et d'un aveu : « Je prends ma part de cette responsabilité » [1]. Le 4 décembre 2020, Emmanuel Macron déclare : « Il y a des policiers violents. Il y en a. Et donc, là-dessus, il faut prévenir, former, et surtout sanctionner », tout en jugant l'expression « violences policières » « politisée » [6]. En 2020, le gouvernement reconnaît des fautes et cite deux condamnations [22]. Aucune consigne ni aucun document interne établissant une volonté d'étouffer les revendications n'a été trouvé.
+
+[Interprétation] L'hypothèse est étayée sur un point précis : le choix des mots et la désignation rapide d'adversaires politiques, que la justice ne confirme pas à ce stade. Elle ne l'est pas sur l'intention d'ensemble : les mêmes responsables ont reconnu des fautes et, au moins une fois, cédé sur le fond. Mettre en avant l'ordre public peut servir politiquement sans que ce bénéfice soit le but recherché ; les sources ne permettent pas de distinguer les deux.
+
+## Hypothèse 2 : un biais institutionnel
+
+[Hypothèse] Si la réponse sécuritaire résultait d'un biais des institutions plutôt que d'un choix politique, on devrait observer : une continuité d'un ministre et d'un gouvernement à l'autre ; des causes organisationnelles identifiées, comme les effectifs, la formation ou la doctrine ; une résistance interne aux réformes ; une information produite surtout par l'institution elle-même ; des contrôles qui dépendent de l'administration contrôlée.
+
+[Fait établi] Le rapport de la commission d'enquête de l'Assemblée nationale sur le maintien de l'ordre, enregistré le 20 janvier 2021, établit plusieurs causes organisationnelles. Les effectifs de CRS et de gendarmes mobiles « ont été réduits il y a plusieurs années, avant de se stabiliser à un niveau insuffisant » ; d'autres unités, moins formées, sont associées au maintien de l'ordre, « ce qui peut entraîner de graves incidents » ; les cas d'usage du LBD contraires aux règles « semblent souvent être le fait d'unités isolées et non spécialisées » ; et le recours au LBD en maintien de l'ordre « ne paraît pas nécessairement pertinent » [7].
+
+[Fait établi] Les mêmes travaux montrent une résistance interne à la désescalade. Le sociologue Fabien Jobard, directeur de recherche au CNRS, y décrit un mouvement « de civilisation » du maintien de l'ordre au sein des polices européennes, « dont la France se tenait à l'écart ». Le directeur général de la police nationale, Frédéric Veaux, juge que la désescalade, « que certains ont tendance à vanter de manière excessive dans notre pays, ne produit pas toujours les effets escomptés ». Un représentant du syndicat des officiers UNSA déclare : « Nous ne voulons pas d'une police nationale qui présente aussi ses excuses, comme la police allemande » [7].
+
+[Fait établi] Le cadre de contrôle dépend en partie de l'administration contrôlée. Selon la commission d'enquête, l'IGPN et l'IGGN sont « statutairement rattachées au ministère de l'Intérieur », à la direction générale de la police et à celle de la gendarmerie, dont les directeurs nomment leurs chefs ; le ministre de l'Intérieur a contesté devant elle que cette tutelle entrave leurs missions. Selon les chiffres transmis par le directeur général de la police, l'IGPN a reçu depuis 2018 406 saisines judiciaires liées au maintien de l'ordre lors des grands mouvements nationaux [7]. En 2025, le Comité contre la torture de l'ONU recommande que les allégations d'usage excessif de la force fassent l'objet d'une enquête « par une instance indépendante », sans lien institutionnel avec les agents mis en cause [15]. En 2026, la Défenseure des droits reproche à la hiérarchie de la gendarmerie de n'avoir engagé une procédure, après Sainte-Soline, qu'une fois les vidéos médiatisées [16].
+
+[Fait établi] Le cadre de pensée dépasse le gouvernement. Dans le rapport de la commission d'enquête de 2021, une partie du plan s'intitule : « Les prétendues "violences policières" peuvent faire l'objet de recours » [7].
+
+[Débat] Ce qui nuance l'hypothèse. Les institutions ne sont pas monolithiques : le même rapport recommande de recourir davantage aux canons à eau et de privilégier l'interpellation après coup, et le syndicat Alternative Police CFDT y défend une expérimentation de la désescalade [7]. Les décisions les plus restrictives, comme l'interdiction administrative de manifester ou la dissolution d'un mouvement, sont des choix du législateur ou du gouvernement, pas des institutions policières [8][12].
+
+[Interprétation] L'hypothèse du biais institutionnel est la mieux documentée. Elle explique la continuité entre les ministres, la faible place des blessures de manifestants dans l'information produite et la lenteur des contrôles. Elle n'explique pas, seule, le choix des mots par les responsables politiques.
+
+## Hypothèse 3 : un réflexe sécuritaire
+
+[Hypothèse] Si la réponse était devenue un réflexe, on devrait observer : la même réponse à des crises de nature différente ; un nouvel outil restrictif après chaque crise ; peu de prise en compte des échecs ou des censures ; des retours rapides en arrière après une mesure de retenue.
+
+[Figure] frise
+titre: Après chaque crise, un nouvel outil, et son sort devant les juges
+donnees:
+- 18 mars 2019 | Après les violences des Champs-Élysées : interdictions de manifester dans certains quartiers, « unités anticasseurs », hausse de l'amende [2]. | Fait établi
+- 4 avril 2019 | Le Conseil constitutionnel censure l'interdiction administrative de manifester prévue par la loi dite anticasseurs [8]. | Décision de justice
+- 16 septembre 2020 | Publication du schéma national du maintien de l'ordre [9]. | Fait établi
+- 20 mai 2021 | Le Conseil constitutionnel censure, dans la loi pour une sécurité globale, le délit visant la provocation à l'identification de policiers, ainsi que des dispositions sur les drones et les caméras [10]. | Décision de justice
+- 10 juin 2021 | Le Conseil d'État annule quatre dispositions du schéma national, dont l'encerclement des manifestants [9]. | Décision de justice
+- 9 novembre 2022 | Après Sainte-Soline, circulaire demandant une réponse pénale « systématique et réactive » [11]. | Fait établi
+- 9 novembre 2023 | Le Conseil d'État annule la dissolution des Soulèvements de la Terre, jugée disproportionnée [12]. | Décision de justice
+- 7 octobre 2026 | Après l'amputation d'un lycéen à Lens, suspension des grenades assourdissantes pour le mouvement lycéen [17]. | Fait établi
+- 16 octobre 2026 | Nouvelle autorisation de ces grenades pour la journée du 17 en cas de violences graves [18]. | Fait établi
+- 18 octobre 2026 | Le président annonce que les préfets pourront aller jusqu'à interdire certains rassemblements [3]. | Fait établi
+source: Décisions et documents cités en sources, 2019-2026
+lecture: Chaque crise a été suivie d'un nouvel outil restrictif ; quatre d'entre eux ont été censurés ou annulés, en tout ou partie, par le Conseil constitutionnel ou le Conseil d'État.
+note: La frise retient les outils annoncés publiquement ; elle n'est pas un inventaire exhaustif des mesures de maintien de l'ordre.
+
+[Fait établi] La même grille de réponse s'applique à des mouvements de nature différente : un mouvement sur le pouvoir d'achat en 2018, une réforme des retraites en 2023, des mobilisations environnementales en 2022 et 2023, un mouvement lycéen et une journée contre la vie chère en 2026 [2][3][11][17].
+
+[Débat] Ce qui nuance l'hypothèse. Des mesures de retenue ont aussi été prises : suspension des grenades après Lens [17] ; en janvier 2019, le ministre de l'Intérieur demande que les unités susceptibles de tirer au LBD soient munies de caméras-piétons, un équipement encore insuffisant selon la commission d'enquête [7]. Et une réponse répétée n'est pas forcément irréfléchie : face à des violences récurrentes, les mêmes outils peuvent être choisis pour de bonnes raisons. Le réflexe se mesure surtout à la vitesse des retours en arrière : neuf jours entre la suspension et la nouvelle autorisation des grenades en octobre 2026 [17][18].
+
+[Interprétation] L'hypothèse du réflexe est étayée par la répétition et par le nombre de mesures invalidées par les juges, qui indique que la réponse est souvent conçue avant d'être évaluée au regard des libertés. Elle se distingue mal du biais institutionnel : un réflexe est souvent le produit d'une doctrine et d'habitudes.
+
+## Le meilleur argument du gouvernement
+
+[Interprétation] La répétition des réponses ne prouve ni un calcul ni un réflexe : elle peut refléter la répétition des violences. Les violences contre les forces de l'ordre et les biens sont établies par des sources indépendantes, jusqu'à la Défenseure des droits, qui juge qu'à Sainte-Soline l'usage de la force répondait à une « nécessité » [16]. Le recours aux juges fonctionne : les censures et annulations montrent que les excès sont corrigés dans l'État de droit [8][9][10][12]. Le gouvernement a publié des bilans incluant les manifestants blessés, dès le premier week-end des gilets jaunes : 409 blessés dont 14 graves, parmi lesquels 28 membres des forces de l'ordre et des secours [4]. Et le président a, à chaque crise, distingué les casseurs des manifestants [1][2][3].
+
+[Interprétation] Cet argument répond bien à l'hypothèse d'une stratégie d'étouffement, qu'aucun document n'établit. Il répond moins bien aux constats institutionnels : unités non spécialisées en première ligne, armes jugées inadaptées par la commission d'enquête elle-même, contrôle interne, et mesures restrictives adoptées puis censurées de façon répétée [7][15].
+
+## Ce que l'on peut conclure
+
+[Interprétation] Les documents ne permettent pas de répondre par une seule des trois explications. Ils dessinent un ensemble cohérent : des institutions dont l'organisation et la doctrine favorisent une réponse par la force, documentées par l'Assemblée nationale et l'ONU ; une répétition des mêmes outils après chaque crise, plusieurs fois corrigée par les juges ; et, au niveau politique, des choix de mots qui désignent des adversaires avant que la justice ne se prononce. Le dernier point est compatible avec une stratégie, mais il est aussi compatible avec une réaction à chaud. Établir une stratégie délibérée d'étouffement des revendications supposerait des preuves qui, à la date d'arrêt des données, n'existent pas dans les sources publiques.
+
+[Proposition] Trois éléments permettraient de trancher davantage : l'accès aux travaux de la commission d'enquête que la présidente de l'Assemblée nationale doit proposer le 20 octobre 2026 ; la publication systématique d'un bilan des personnes blessées en manifestation, quel que soit leur camp ; et une évaluation publique des recommandations de 2021 de la commission d'enquête et de 2025 du Comité contre la torture, mesure par mesure.
+
+## Ce qu'on ne sait pas
+- **L'existence de consignes de communication** sur la mise en avant des violences lors des crises sociales : aucun document public n'a été trouvé.
+- **La mise en œuvre des recommandations de la commission d'enquête de 2021** : aucun bilan officiel n'a été trouvé.
+- **L'évolution des effectifs d'unités spécialisées depuis 2021** : les sources consultées ne donnent pas de chiffre récent.
+- **Les suites disciplinaires données à la décision de la Défenseure des droits sur Sainte-Soline** [16].
+- **L'effet des qualifications politiques sur les poursuites** : aucune étude ne mesure si les mots employés par les responsables influent sur les décisions des parquets.
+
+## Sources
+- Présidence de la République, « Adresse du Président de la République du lundi 10 décembre 2018 ». | https://www.elysee.fr/emmanuel-macron/2018/12/10/adresse-du-president-de-la-republique-du-lundi-10-decembre-2018
+- Gouvernement, info.gouv.fr, « Conférence de presse de M. Édouard Philippe, Premier ministre », Hôtel de Matignon, 18 mars 2019. | https://www.info.gouv.fr/upload/media/default/0001/01/2019_03_conference_de_presse_de_m._edouard_philippe_premier_ministre_-_18.03.2019.pdf
+- Présidence de la République, « Adresse aux Français », allocution du 18 octobre 2026. | https://www.elysee.fr/emmanuel-macron/2026/10/18/adresse-aux-francais-7
+- L'info durable (avec AFP), « "Gilets jaunes" : plus de 400 personnes blessées, dont 14 gravement (Castaner) », 18 novembre 2018. | https://www.linfodurable.fr/gilets-jaunes-plus-de-400-personnes-blessees-dont-14-gravement-castaner-7406
+- Assemblée nationale, commission des lois, compte rendu n° 60, audition de Mme Nicole Belloubet, M. Christophe Castaner et M. Laurent Nuñez sur les réponses apportées aux violences survenues lors des manifestations, 27 mars 2019. | https://www.assemblee-nationale.fr/dyn/15/comptes-rendus/cion_lois/l15cion_lois1819060_compte-rendu.pdf
+- Brut, « Emmanuel Macron et les "violences policières" », entretien du 4 décembre 2020. | https://www.brut.media/fr/videos/emmanuel-macron-et-les-violences-policieres
+- Assemblée nationale, rapport n° 3786 fait au nom de la commission d'enquête relative à l'état des lieux, la déontologie, les pratiques et les doctrines de maintien de l'ordre, président M. Jean-Michel Fauvergue, rapporteur M. Jérôme Lambert, enregistré le 20 janvier 2021 (avec les comptes rendus des auditions). | https://questions.assemblee-nationale.fr/dyn/docs/RAPPANR5L15B3786.raw
+- Conseil constitutionnel, décision n° 2019-780 DC du 4 avril 2019, loi visant à renforcer et garantir le maintien de l'ordre public lors des manifestations. | https://www.conseil-constitutionnel.fr/decision/2019/2019780DC.htm
+- Conseil d'État, décision n° 444849 et autres du 10 juin 2021, Syndicat national des journalistes et autres, schéma national du maintien de l'ordre du 16 septembre 2020. | https://www.conseil-etat.fr/content/download/159935/file/444849.pdf
+- Conseil constitutionnel, décision n° 2021-817 DC du 20 mai 2021, loi pour une sécurité globale préservant les libertés. | https://www.conseil-constitutionnel.fr/decision/2021/2021817DC.htm
+- Source secondaire : Banque des territoires, Localtis, Frédéric Fortin, « Dans la foulée des événements de Sainte-Soline, une circulaire de la Chancellerie », 18 novembre 2022. | https://www.banquedesterritoires.fr/dans-la-foulee-des-evenements-de-sainte-soline-une-circulaire-de-la-chancellerie
+- Source secondaire : Le Club des juristes, « Le Conseil d'État annule la dissolution du collectif les Soulèvements de la Terre », novembre 2023. | https://www.leclubdesjuristes.com/en-bref/le-conseil-detat-annule-la-dissolution-du-collectif-les-soulevements-de-la-terre-1546/
+- Assemblée nationale, commission d'enquête sur les groupuscules auteurs de violences lors des manifestations entre le 16 mars et le 3 mai 2023, compte rendu n° 10, audition de Mme Laure Beccuau, procureure de la République de Paris, 19 juin 2023. | https://questions.assemblee-nationale.fr/dyn/16/comptes-rendus/cegrvimani/l16cegrvimani2223010_compte-rendu.pdf
+- Elabe pour BFMTV, « Les Français et le climat social : réforme des retraites (vague 12) et "méga-bassines" », 29 mars 2023 (échantillon de 1 005 personnes, interrogation par Internet du 28 au 29 mars 2023). | https://elabe.fr/wp-content/uploads/2023/03/20230329_elabe_bfmtv_les-francais-et-le-climat-social.pdf
+- Nations unies, Comité contre la torture, « Observations finales concernant le huitième rapport périodique de la France », CAT/C/FRA/CO/8, mai 2025, paragraphes 28 et 29. | https://digitallibrary.un.org/record/4084736/files/CAT_C_FRA_CO_8-FR.pdf
+- Défenseur des droits, décision n° 2026-158 du 7 juillet 2026 relative à la manifestation de Sainte-Soline du 25 mars 2023 (copie publiée par le collectif Bassines non merci ; la décision prévoit sa publication sur le site du Défenseur des droits). | https://www.bassinesnonmerci.fr/wp-content/uploads/2026/07/Decision-2026-158-du-Defenseur-des-droits.pdf
+- Orange Actu, « Mobilisation des lycéens : Laurent Nuñez suspend l'usage des grenades assourdissantes », 7 octobre 2026. | https://actu.orange.fr/france/mobilisation-des-lyceens-laurent-nunez-suspend-l-usage-des-grenades-assourdissantes-magic-CNT000002snusk.html
+- Actu17, « Mobilisation du 17 octobre : Laurent Nuñez autorise de nouveau les grenades assourdissantes », 16 octobre 2026. | https://actu17.fr/societe/mobilisation-du-17-octobre-laurent-nunez-autorise-de-nouveau-les-grenades-assourdissantes.html
+- L'Express via Orange Actu, « Violences du 17 octobre : le gouvernement accuse l'ultragauche, la procureure de Paris émet des réserves », 19 octobre 2026. | https://actu.orange.fr/politique/violences-du-17-octobre-le-gouvernement-accuse-l-ultragauche-la-procureure-de-paris-emet-des-reserves-l-express-via-6medias-CNT000002taJCL.html
+- Omar Wasow, « Agenda Seeding: How 1960s Black Protests Moved Elites, Public Opinion and Voting », American Political Science Review, vol. 114, 2020. | https://doi.org/10.1017/S000305542000009X
+- Matthew Feinberg, Robb Willer et Chloe Kovacheff, « The activist's dilemma: Extreme protest actions reduce popular support for social movements », Journal of Personality and Social Psychology, vol. 119, 2020. | https://doi.org/10.1037/pspi0000230
+- Assemblée nationale, question orale sans débat n° 923 de M. Alexis Corbière, publiée au JO le 28 janvier 2020, réponse de M. Laurent Nuñez, secrétaire d'État auprès du ministre de l'Intérieur, publiée au JO le 5 février 2020. | https://www.assemblee-nationale.fr/dyn/15/questions/QANR5L15QOSD923.pdf
