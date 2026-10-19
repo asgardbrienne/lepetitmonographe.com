@@ -12,6 +12,7 @@ image_credit: Anosmia, CC BY 2.0, recadrée, Flickr
 image_lien: https://www.flickr.com/photos/77846644@N00/6621501841
 verifie: 18 octobre 2026
 corrections: La série 2019-2023 était attribuée à une réponse parlementaire qui ne la contient pas ; elle est désormais rattachée à l'étude du ministère de l'Intérieur, complétée de l'année 2020, et le décompte de 2025 du ministère de la Justice (96 femmes tuées par un conjoint ou ex-conjoint) a été ajouté. Le 16 octobre 2026, le dossier a été approfondi : cadre juridique et repères législatifs, méthode détaillée du ministère, série étendue à 2014-2024, tentatives et suicides forcés, comparaison internationale, constats de l'Inspection générale de la justice, débats et propositions sur le code pénal et le contrôle coercitif, deux graphiques et six sources ajoutés. Le 18 octobre 2026, correction : le dossier indiquait que l'issue de la loi intégrale n'était pas connue au 16 octobre, alors que l'Assemblée nationale l'avait adoptée en première lecture le 13 octobre, après avoir rejeté le contrôle coercitif le 2 octobre ; deux sources ajoutées.
+voir_aussi: dossier-emprise.html
 ---
 ## Essentiel
 - Selon l'étude du ministère de l'Intérieur sur les morts violentes au sein du couple, publiée en octobre 2025, 107 femmes ont été tuées par leur conjoint ou ex-conjoint en 2024, soit 11 % de plus qu'en 2023 ; la série oscille entre 96 et 146 par an depuis 2014 [1].

@@ -11,6 +11,7 @@ image: assets/images/emprise.jpg
 image_alt: Une clé engagée dans la serrure d'une porte intérieure
 image_credit: Shixart1985, CC BY 2.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Close-up_of_the_key_with_house_keychain.jpg
+voir_aussi: dossier-feminicides-chiffres.html, dossier-parole-violences-sexuelles.html
 ---
 ## Essentiel
 - Le mot « emprise » figure dans la loi, mais sans définition unique : la loi du 30 juillet 2020 permet à un médecin de signaler sans son accord une victime de violences conjugales « en situation de danger immédiat et sous emprise », sans définir ce terme [1].

@@ -12,6 +12,7 @@ image_credit: Steve-©-foto, CC BY 2.0, recadrée, Flickr
 image_lien: https://www.flickr.com/photos/70690537@N02/6822060134
 verifie: 11 octobre 2026
 corrections: Ajout du procès de Rennes (acquittement du 5 juin 2015) et des douze enfants reconnus victimes, précision sur la lettre d'excuses présidentielle du 5 décembre 2005 et sur le début de l'enquête, suppression d'une affirmation non sourcée sur la loi du 15 juin 2000, sources primaires ajoutées (rapport parlementaire, dépêche AFP, ministère de la Justice). Le 16 octobre 2026, le dossier a été approfondi : procédure expliquée, chronologie enrichie, bilan de ce que la justice a établi ou non, constats détaillés de la commission d'enquête, débat sur la parole de l'enfant et réformes adoptées ou abandonnées, avec quatre nouvelles sources et un graphique.
+voir_aussi: dossier-temoignage-erreur-sincere.html, dossier-acquittement-prescription.html
 ---
 ## Essentiel
 - L'affaire a abouti à quatre condamnations définitives et à treize acquittements [1][5].

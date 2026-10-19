@@ -11,6 +11,7 @@ image: assets/images/parole-violences-sexuelles.jpg
 image_alt: La grande salle d'audience, vide, de la Cour européenne des droits de l'homme à Strasbourg
 image_credit: Mickaël Schauli, CC BY-SA 4.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Grande_salle_d%27audience_de_la_Cour_europ%C3%A9enne_des_droits_de_l%27Homme_de_Strasbourg_-_07.jpg
+voir_aussi: dossier-acquittement-prescription.html, dossier-temoignage-erreur-sincere.html, dossier-feminicides-chiffres.html
 ---
 ## Essentiel
 - Selon l'enquête de victimation du service statistique du ministère de l'Intérieur, 7 % des femmes majeures déclarant avoir subi un viol, une tentative de viol ou une agression sexuelle en 2023 ont porté plainte [1].

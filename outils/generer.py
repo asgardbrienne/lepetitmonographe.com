@@ -260,7 +260,7 @@ STATUTS_ACCUEIL = [
     ("hypothese", "Hypothèse", "Pistes plausibles, non démontrées."),
     ("proposition", "Proposition", "Pistes d'action, distinctes des constats."),
 ]
-_statuts_html = "\n".join(f'''          <li><span class="statut-icone">{ICONES_STATUTS[k]}</span><strong>{t}</strong><span>{d}</span></li>''' for k, t, d in STATUTS_ACCUEIL)
+_statuts_html = "\n".join(f'''          <li><span class="statut-icone">{ICONES_STATUTS[k]}</span><strong>{t}</strong> <span>{d}</span></li>''' for k, t, d in STATUTS_ACCUEIL)
 _livres_accueil = "\n".join(f'''          <article class="livre-ligne"><img src="{couv}" alt="" width="96" height="144" loading="lazy"><div><h3>{re.sub(r"<[^>]+>", "", titre)}</h3><p>{resume}</p><a class="bouton bouton-fin" href="{lien}" target="_blank" rel="noopener">Voir sur Amazon</a></div></article>'''
                             for c in ["c-pouvoirs", "c-economie", "c-affaires"] for titre, resume, lien, couv in LIVRES[c])
 
@@ -317,7 +317,7 @@ REGLES = [
 def liste_etiq(items):
     return "\n".join(f'''        <div>{badge(e) if e in STATUTS else f'<span class="etiquette etiquette-note">{e}</span>'}<p>{d}</p></div>''' for e, d in items)
 regles = "\n".join(f'''        <li><h3>{t}</h3><p>{d}</p></li>''' for t, d in REGLES)
-_statuts_cartes = "\n".join(f'''        <li class="statut-carte statut-carte-{k}"><span class="statut-icone">{ICONES_STATUTS[k]}</span><strong>{t}</strong><span>{d}</span></li>''' for k, t, d in STATUTS_ACCUEIL)
+_statuts_cartes = "\n".join(f'''        <li class="statut-carte statut-carte-{k}"><span class="statut-icone">{ICONES_STATUTS[k]}</span><strong>{t}</strong> <span>{d}</span></li>''' for k, t, d in STATUTS_ACCUEIL)
 methode = tete_visuel("Méthode", "Notre méthode",
                       "Une information rigoureuse, claire et sourcée. Nos dossiers distinguent cinq niveaux de lecture pour mieux comprendre les débats publics. Rigueur, impartialité, traçabilité, contradiction, transparence.",
                       '<img src="assets/images/methode.jpg" alt="La voûte de la salle Labrouste, à la Bibliothèque nationale de France" width="1400" height="770">',
@@ -712,7 +712,7 @@ def gabarit_dossier(meta, essentiel, corps_html, inconnues_html, sources_html, n
       <p class="article-chapeau">{_inline(meta["chapeau"])}</p>
       <div class="article-signature">
         <span class="avatar" aria-hidden="true"><img class="logo-img" src="assets/monogramme.png" alt="" width="40" height="40"><img class="logo-img-clair" src="assets/monogramme-clair.png" alt="" width="40" height="40"></span>
-        <p><strong>Par Le Petit Monographe</strong><span>Mis à jour : {maj} · Données arrêtées au {meta["arret"]} · {n_sources} sources</span></p>
+        <p><strong>Par Le Petit Monographe</strong> <span>Mis à jour : {maj} · Données arrêtées au {meta["arret"]} · {n_sources} sources</span></p>
         <div class="article-outils">
           <button type="button" class="bouton-icone" data-action="imprimer" aria-label="Imprimer ou enregistrer en PDF" title="Imprimer ou enregistrer en PDF">{ICONE_IMPRIMER}</button>
           <button type="button" class="bouton-icone" data-action="copier" aria-label="Copier le lien du dossier" title="Copier le lien">{ICONE_LIEN}</button>
@@ -898,7 +898,9 @@ for c, h, t, d, m in _liste:
     s_ = s_.replace("<!--SOMMAIRE-->", sommaire, 1)
     if 'graphique-frise' in s_:
         s_ = s_.replace('<figure class="graphique graphique-frise">', '<figure class="graphique graphique-frise" id="chronologie">', 1)
-    autres = [x[0] for x in DOSSIERS.get(c, []) if x[0] != h][:3]
+    # liens choisis à la main (champ « voir_aussi », y compris d'autres rubriques), complétés par la même rubrique
+    _choisis = [f.strip() for f in INFOS[h]["meta"].get("voir_aussi", "").split(",") if f.strip() in INFOS]
+    autres = (_choisis + [x[0] for x in DOSSIERS.get(c, []) if x[0] != h and x[0] not in _choisis])[:3]
     nom, page_rub, _k = RUB_INFO[c]
     lire_aussi = f'''  <section class="section a-lire-aussi">
     <div class="conteneur">
@@ -1006,7 +1008,7 @@ PILIERS = [
     ("Des enquêtes accessibles", "Des sujets complexes expliqués clairement, sans simplification abusive.",
      '<rect x="4" y="4" width="16" height="16" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="11" cy="11" r="3.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m13.4 13.4 3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>'),
 ]
-_piliers = "\n".join(f'''        <li><span class="pilier-icone"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">{ic}</svg></span><span><strong>{t}</strong>{d}</span></li>''' for t, d, ic in PILIERS)
+_piliers = "\n".join(f'''        <li><span class="pilier-icone"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">{ic}</svg></span><span><strong>{t}</strong> {d}</span></li>''' for t, d, ic in PILIERS)
 EXPLORER = [
     ("politique-institutions.html", "Politique", "Institutions, élections, vie démocratique", "assets/images/majorite.jpg"),
     ("economie-societe.html", "Économie &amp; Société", "Finances publiques, emploi, services publics", "assets/images/electricite.jpg"),
@@ -1015,7 +1017,7 @@ EXPLORER = [
     ("psychologie-societe-justice.html", "Psychologie, Société &amp; Justice", "Emprise, témoignage, mémoire, persuasion", "assets/images/parole-violences-sexuelles.jpg"),
     ("livres.html", "Monographies", "Le dossier complet, en un volume", "assets/couverture-comptes.png"),
 ]
-_explorer = "\n".join(f'''        <a class="tuile" href="{h}"><span class="tuile-texte"><strong>{t}</strong><span>{d}</span>{FLECHE}</span><span class="tuile-image{" tuile-livre" if "couverture" in img else ""}"><img src="{img}" alt="" width="160" height="160" loading="lazy"></span></a>''' for h, t, d, img in EXPLORER)
+_explorer = "\n".join(f'''        <a class="tuile" href="{h}"><span class="tuile-texte"><strong>{t}</strong> <span>{d}</span>{FLECHE}</span><span class="tuile-image{" tuile-livre" if "couverture" in img else ""}"><img src="{img}" alt="" width="160" height="160" loading="lazy"></span></a>''' for h, t, d, img in EXPLORER)
 _nb_rub = {c: len(DOSSIERS.get(c, [])) for c in RUB_INFO}
 PRESENTATION = [
     ("dossiers.html", "Des enquêtes documentées", f"{len(_liste)} dossiers qui séparent les faits établis, les témoignages, les débats et les hypothèses. Chaque chiffre est sourcé, avec un lien."),
@@ -1023,7 +1025,7 @@ PRESENTATION = [
     ("livres.html", "Des monographies", "Pour aller plus loin : un sujet traité en profondeur, en un volume."),
     ("methode.html", "Une méthode publique", "Les règles appliquées à chaque dossier, et la liste datée des corrections."),
 ]
-_presentation = "\n".join(f'''        <li><a href="{h}"><strong>{t}</strong><span>{d}</span>{FLECHE}</a></li>''' for h, t, d in PRESENTATION)
+_presentation = "\n".join(f'''        <li><a href="{h}"><strong>{t}</strong> <span>{d}</span>{FLECHE}</a></li>''' for h, t, d in PRESENTATION)
 _statuts_bande = "".join(f'<li><span class="statut-icone">{ICONES_STATUTS[k]}</span><strong>{t}</strong></li>' for k, t, d in STATUTS_ACCUEIL)
 accueil = f'''  <h1 class="visuellement-cache">Le Petit Monographe : les faits d'abord, l'opinion reste au lecteur</h1>
   <section class="une" aria-roledescription="carrousel" aria-label="Enquêtes à la une">
@@ -1127,19 +1129,20 @@ for _f in glob.glob(os.path.join(OUT, "*.html")):
 
 # ---------- Plan du site (sitemap.xml) et robots.txt ----------
 import datetime
-_jour = datetime.date.today().isoformat()
 _urls = []
 for _f in sorted(glob.glob(os.path.join(OUT, "*.html"))):
     _t = open(_f, encoding="utf-8").read()
-    if 'name="robots" content="noindex"' in _t or os.path.basename(_f) == "404.html":
+    if 'name="robots" content="noindex' in _t or os.path.basename(_f) == "404.html":
         continue
     _b = os.path.basename(_f)
-    _urls.append("https://lepetitmonographe.com/" + ("" if _b == "index.html" else _b))
-_urls.sort(key=lambda u: (u != "https://lepetitmonographe.com/", u))
+    # date de modification : la dernière vérification pour un dossier ; aucune date inventée pour les autres pages
+    _m = INFOS.get(_b, {}).get("meta")
+    _urls.append(("https://lepetitmonographe.com/" + ("" if _b == "index.html" else _b), date_iso(_m.get("verifie") or _m["publication"]) if _m else ""))
+_urls.sort(key=lambda u: (u[0] != "https://lepetitmonographe.com/", u[0]))
 with open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8") as _s:
     _s.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
-    for _u in _urls:
-        _s.write(f"  <url><loc>{_u}</loc><lastmod>{_jour}</lastmod></url>\n")
+    for _u, _d in _urls:
+        _s.write(f"  <url><loc>{_u}</loc>" + (f"<lastmod>{_d}</lastmod>" if _d else "") + "</url>\n")
     _s.write("</urlset>\n")
 # Flux RSS : les dossiers, du plus récent au plus ancien (date de dernière vérification)
 from email.utils import format_datetime as _rfc822

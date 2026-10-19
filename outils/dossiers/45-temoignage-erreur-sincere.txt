@@ -11,6 +11,7 @@ image: assets/images/temoignage-erreur-sincere.jpg
 image_alt: La salle de la cour d'assises du palais de justice de Rouen, vide
 image_credit: Philippe Roudaut, CC BY-SA 4.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Cour_d%27assises_Palais_de_Justice_de_Rouen.JPG
+voir_aussi: dossier-outreau.html, dossier-acquittement-prescription.html, dossier-parole-violences-sexuelles.html
 ---
 ## Essentiel
 - La mémoire ne fonctionne pas comme un enregistrement : un souvenir est reconstruit à chaque rappel, et des informations reçues après les faits peuvent s'y incorporer sans que la personne s'en rende compte. Cet « effet de désinformation » est étudié depuis plus de trente ans [1].
