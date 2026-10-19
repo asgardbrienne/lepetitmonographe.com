@@ -1,0 +1,82 @@
+fichier: dossier-detection-mensonge.html
+rubrique: psychologie
+titre: Détecter le mensonge : ce que la science établit sur le comportement, les micro-expressions et le polygraphe
+titre_court: Détecter le mensonge
+chapeau: Regard fuyant, gestes nerveux, micro-expressions, machine qui mesure le stress : les croyances sur la détection du mensonge sont répandues, y compris chez les professionnels. Ce que les synthèses de plusieurs centaines d'études montrent, ce qui reste débattu, et pourquoi aucun signe isolé ne trahit un menteur.
+resume: Précision moyenne des jugements humains, absence d'indice fiable, mythe du regard fuyant, micro-expressions et synergologie, polygraphe selon l'Académie des sciences américaine, approches verbales et leurs critiques. Données arrêtées au 19 octobre 2026.
+arret: 19 octobre 2026
+publication: 19 octobre 2026
+verifie: 19 octobre 2026
+voir_aussi: dossier-temoignage-erreur-sincere.html, dossier-parole-violences-sexuelles.html, dossier-acquittement-prescription.html
+image: assets/images/detection-mensonge.jpg
+image_alt: Un polygraphe ancien, conservé par le FBI
+image_credit: Federal Bureau of Investigation (FBI), domaine public, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:November_2016-_Polygraph_Machine_-_Jack_Ruby.jpg
+---
+## Essentiel
+- Une méta-analyse de 2006 portant sur 206 documents et 24 483 juges établit que, sans aide ni formation particulière, les personnes distinguent le vrai du faux dans 54 % des cas en moyenne, à peine mieux que le hasard (50 %) [1].
+- Les différences entre individus sont minimes : selon une seconde méta-analyse, les meilleurs juges ne sont pas plus précis que ce que produirait le hasard. Le résultat dépend davantage de la crédibilité de la personne jugée que du talent de celui qui juge [2].
+- Sur 158 indices étudiés, beaucoup n'ont aucun lien, ou un lien faible, avec le mensonge [3]. Une revue de 2019 qualifie les indices non verbaux découverts à ce jour de « faibles et peu fiables » [4]. La croyance la plus répandue au monde, « le menteur évite le regard », a été relevée dans 75 pays [5].
+- Pour le polygraphe, l'Académie nationale des sciences américaine concluait en 2003 que, dans des enquêtes portant sur un fait précis, il distingue le mensonge de la vérité « bien au-dessus du hasard, mais bien en dessous de la perfection », et que son usage pour le dépistage n'est pas justifié par les études [6].
+- Les méthodes d'entretien qui s'appuient sur le contenu du récit obtiennent de meilleurs résultats en laboratoire ; l'ampleur de ce gain est contestée [7][8].
+
+[À noter] Ce dossier porte sur la détection du mensonge par des personnes ou des appareils ; il ne dit rien de la sincérité d'un témoignage particulier. Méta-analyse : étude qui regroupe statistiquement les résultats de nombreuses études sur une même question. Polygraphe : appareil qui enregistre des réactions physiologiques (rythme cardiaque, respiration, transpiration) pendant un interrogatoire ; il mesure une activation, pas un mensonge. Micro-expression : expression faciale très brève, que certains auteurs présentent comme un indice d'émotion dissimulée.
+
+## Ce que les juges humains réussissent
+
+[Fait établi] Charles Bond et Bella DePaulo ont regroupé en 2006 les études où des personnes devaient dire, en temps réel et sans aide, si quelqu'un mentait. Sur 24 483 juges, la précision moyenne est de 54 % : 47 % des mensonges sont reconnus comme tels et 61 % des vérités. Les mensonges sont mieux détectés à l'écoute qu'à la vue, et les gens tendent à croire leurs interlocuteurs honnêtes [1].
+
+[Fait établi] En 2008, les mêmes auteurs ont étudié les différences entre juges sur 247 échantillons. Une fois l'erreur de mesure corrigée, les écarts d'aptitude sont « minuscules » : les meilleurs juges ne dépassent pas ce que produirait un mécanisme aléatoire. Les juges diffèrent surtout par leur tendance à croire ou non ce qu'on leur dit, et les personnes jugées diffèrent par leur crédibilité, qu'elles mentent ou non [2].
+
+[Débat] Le psychologue Paul Ekman a soutenu le contraire. Dans une étude de 1991 sur 509 personnes, dont des membres des services de police et de renseignement américains, des juges et des psychiatres, seul le groupe des agents du Secret Service a fait mieux que le hasard [9]. Les méta-analyses ultérieures n'ont pas confirmé l'existence de groupes ou d'individus nettement plus doués que les autres [2].
+
+[Interprétation] Pour une enquête ou un procès, la conséquence est directe : l'impression qu'une personne « a l'air de mentir » ou « a l'air sincère » dit surtout quelque chose de la façon dont elle se présente. Une personne anxieuse, maladroite ou d'une autre culture peut paraître moins crédible tout en disant vrai.
+
+## Pas de nez de Pinocchio
+
+[Fait établi] La méta-analyse de Bella DePaulo et de ses coauteurs, publiée en 2003, a combiné 1 338 estimations portant sur 158 indices possibles. Les menteurs sont en moyenne un peu moins prolixes, leurs récits un peu moins convaincants, ils paraissent un peu plus tendus. Mais « de nombreux comportements » ne montrent aucun lien, ou seulement un lien faible, avec le mensonge. Les indices sont plus marqués lorsque l'enjeu est fort pour la personne et lorsque le mensonge porte sur une faute [3].
+
+[Fait établi] Une revue publiée en 2019 dans l'Annual Review of Psychology par Aldert Vrij, Maria Hartwig et Pär Anders Granhag conclut que les indices non verbaux du mensonge découverts à ce jour sont « faibles et peu fiables », que les gens sont des détecteurs médiocres lorsqu'ils observent le comportement, et que les croyances erronées sur ce sujet sont très difficiles à corriger [4].
+
+[Fait établi] Deux enquêtes internationales menées dans 75 pays et 43 langues ont établi que la croyance dominante, partagée d'une culture à l'autre, est que les menteurs évitent le regard [5]. Les études sur les indices réels ne confirment pas ce lien [3][4].
+
+[Interprétation] Il n'existe donc ni signe unique ni « profil » du menteur. Les rares différences observées sont faibles en moyenne et ne permettent pas de classer une personne donnée. Un même comportement, une hésitation ou un regard détourné, peut venir de la gêne, de la fatigue, du stress de l'audition ou de la peur de ne pas être cru.
+
+## Micro-expressions et synergologie
+
+[Fait établi] Dans une étude publiée en 2019, 90 participants ont été répartis au hasard entre un entraînement à la reconnaissance des micro-expressions, un faux entraînement et aucun entraînement, puis ont jugé des vidéos de personnes disant vrai ou mentant. Le groupe formé aux micro-expressions n'a pas fait mieux que les deux autres, et la précision générale était légèrement inférieure au hasard [10].
+
+[Fait établi] Un article publié en 2020 par Vincent Denault et une équipe internationale de chercheurs examine trois pratiques utilisées dans la sécurité ou la justice et jugées contraires à l'état de la science : un programme américain d'observation des passagers dans les aéroports, une méthode d'entretien policier, et la synergologie, approche qui prétend interpréter les pensées à partir des gestes. Les auteurs décrivent les conséquences possibles de leur usage sur la vie ou la liberté des personnes [11].
+
+[Interprétation] Une pratique peut être enseignée, vendue et utilisée par des professionnels sans avoir été validée. Le critère n'est pas la popularité d'une méthode mais l'existence d'études contrôlées, publiées et reproduites.
+
+## Le polygraphe
+
+[Fait établi] En 2003, un comité de l'Académie nationale des sciences américaine a examiné les études sur le polygraphe. Il conclut que, chez des personnes non entraînées à le déjouer, les tests portant sur un fait précis distinguent le mensonge de la vérité « bien au-dessus du hasard, mais bien en dessous de la perfection ». Les 57 études retenues portaient toutes sur des faits précis, souvent des crimes simulés ; leurs estimations sont « presque certainement » supérieures à la précision réelle sur le terrain. Pour le dépistage du personnel, la précision est « presque certainement » plus faible, et la généralisation n'est pas justifiée. Toutes les mesures physiologiques peuvent être modifiées volontairement [6].
+
+[Fait établi] Les sources consultées ne décrivent pas d'usage du polygraphe dans la procédure pénale française. En Belgique, une loi du 4 février 2020 a inscrit le test polygraphique dans le code d'instruction criminelle : le procureur du Roi ou le juge d'instruction peut le proposer à un suspect, un témoin ou une victime, qui peuvent aussi le demander ; la loi a fait l'objet d'un recours devant la Cour constitutionnelle belge [12].
+
+## Ce qui marche mieux : écouter plutôt que regarder
+
+[Débat] Une méta-analyse publiée en 2017 par Aldert Vrij, Ronald Fisher et Hartmut Blank conclut qu'une approche « cognitive » de l'entretien (augmenter la charge mentale, inciter la personne à en dire plus, poser des questions inattendues) atteint 71 % de bonnes réponses, contre 56 % pour une approche classique [7]. Timothy Levine et ses coauteurs ont réanalysé les mêmes données : selon eux, l'avantage est « bien plus faible » qu'annoncé, les conditions de comparaison avaient des précisions anormalement basses et les résultats les plus favorables venaient des données les moins fiables [8].
+
+[Interprétation] Les deux équipes s'accordent sur l'orientation générale de la recherche : le contenu d'un récit, sa cohérence avec des éléments vérifiables et la façon dont il évolue quand on pose des questions inattendues renseignent davantage que les gestes. Elles divergent sur l'ampleur du gain. Aucune méthode ne transforme un entretien en détecteur fiable du mensonge pour un cas particulier.
+
+## Ce qu'on ne sait pas
+- **La précision des enquêteurs et des magistrats français** dans l'évaluation de la sincérité : aucune étude consultée ne la mesure.
+- **L'usage réel de méthodes non validées**, comme la synergologie, dans les formations des professionnels français de la sécurité et de la justice : les sources consultées ne le documentent pas.
+- **La précision du polygraphe dans les conditions réelles** : selon l'Académie américaine, les études disponibles la surestiment, sans qu'on puisse dire de combien [6].
+
+## Sources
+- Charles F. Bond Jr et Bella M. DePaulo, « Accuracy of Deception Judgments », Personality and Social Psychology Review, vol. 10, n° 3, août 2006. | https://doi.org/10.1207/s15327957pspr1003_2
+- Charles F. Bond Jr et Bella M. DePaulo, « Individual differences in judging deception: Accuracy and bias », Psychological Bulletin, vol. 134, n° 4, juillet 2008. | https://doi.org/10.1037/0033-2909.134.4.477
+- Bella M. DePaulo, James J. Lindsay, Brian E. Malone, Laura Muhlenbruck, Kelly Charlton et Harris Cooper, « Cues to deception », Psychological Bulletin, vol. 129, n° 1, 2003. | https://doi.org/10.1037/0033-2909.129.1.74
+- Aldert Vrij, Maria Hartwig et Pär Anders Granhag, « Reading Lies: Nonverbal Communication and Deception », Annual Review of Psychology, vol. 70, janvier 2019. | https://doi.org/10.1146/annurev-psych-010418-103135
+- The Global Deception Research Team, « A World of Lies », Journal of Cross-Cultural Psychology, vol. 37, n° 1, janvier 2006. | https://doi.org/10.1177/0022022105282295
+- National Research Council (Académie nationale des sciences des États-Unis), The Polygraph and Lie Detection, résumé exécutif, 2003. | https://www.nationalacademies.org/read/10420/chapter/2
+- Aldert Vrij, Ronald P. Fisher et Hartmut Blank, « A cognitive approach to lie detection: A meta-analysis », Legal and Criminological Psychology, vol. 22, n° 1, 2017 (publié en ligne en 2015). | https://doi.org/10.1111/lcrp.12088
+- Timothy R. Levine, J. Pete Blair et Christopher J. Carpenter, « A critical look at meta-analytic evidence for the cognitive approach to lie detection: A re-examination of Vrij, Fisher, and Blank (2017) », Legal and Criminological Psychology, vol. 23, n° 1, 2018 (publié en ligne en 2017). | https://doi.org/10.1111/lcrp.12115
+- Paul Ekman et Maureen O'Sullivan, « Who can catch a liar? », American Psychologist, vol. 46, n° 9, 1991. | https://doi.org/10.1037/0003-066X.46.9.913
+- Sarah Jordan, Laure Brimbal, D. Brian Wallace, Saul M. Kassin, Maria Hartwig et Chris N. H. Street, « A test of the micro-expressions training tool: Does it improve lie detection? », Journal of Investigative Psychology and Offender Profiling, vol. 16, n° 3, 2019. | https://doi.org/10.1002/jip.1532
+- Vincent Denault, Pierrich Plusquellec, Louise M. Jupe, Michel St-Yves, Norah E. Dunbar, Maria Hartwig, Siegfried L. Sporer et Jessica Rioux-Turcotte, « The Analysis of Nonverbal Communication: The Dangers of Pseudoscience in Security and Justice Contexts », Anuario de Psicología Jurídica, vol. 30, 2020. | https://doi.org/10.5093/apj2019a9
+- Cour constitutionnelle de Belgique, arrêt n° 132/2020, recours contre la loi du 4 février 2020 relative au test polygraphique. | https://fr.const-court.be/public/f/2020/2020-132f.pdf

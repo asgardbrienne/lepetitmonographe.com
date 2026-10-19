@@ -1,0 +1,62 @@
+fichier: dossier-deliberation-jures.html
+rubrique: psychologie
+titre: La délibération des jurés d'assises : ce que la recherche sait de la construction de l'intime conviction
+titre_court: La délibération des jurés
+chapeau: Le délibéré de la cour d'assises est secret : personne ne peut l'observer ni l'enregistrer. Ce que l'on sait vient d'expériences menées avec des jurys fictifs, surtout américains, et d'entretiens avec d'anciens jurés et présidents en France. Comment les jurés se forgent une conviction, ce qui pèse sur la décision, et le débat sur l'influence des magistrats.
+resume: Règles du délibéré en France, modèle du récit, poids des préférences de départ, synthèse de 206 études sur les jurys, influence du président selon les enquêtes françaises, motivation des arrêts et cours criminelles sans jurés. Données arrêtées au 19 octobre 2026.
+arret: 19 octobre 2026
+publication: 19 octobre 2026
+verifie: 19 octobre 2026
+voir_aussi: dossier-polarisation-groupe.html, dossier-acquittement-prescription.html, dossier-facteurs-externes-decisions.html
+image: assets/images/deliberation-jures.jpg
+image_alt: Une salle de réunion vide, table et chaises
+image_credit: Breather, CC0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Minimalist_meeting_room_(Unsplash).jpg
+---
+## Essentiel
+- En France, la cour d'assises de premier ressort réunit 3 magistrats et 6 jurés tirés au sort. Ils délibèrent ensemble, en secret, et votent à bulletin secret ; une majorité de 7 voix sur 9 est nécessaire pour toute décision défavorable à l'accusé, et les bulletins blancs ou nuls lui sont favorables [1].
+- La décision doit être motivée, au moyen d'une feuille de motivation : une obligation inscrite dans la loi de 2011 [1][2].
+- Selon le « modèle du récit », très étudié depuis les années 1980, les jurés organisent les preuves en une histoire cohérente, et la facilité à construire cette histoire influe sur le verdict [3].
+- Une synthèse de 206 études menées entre 1955 et 1999 sur des jurys réels ou fictifs relève plusieurs facteurs aux effets constants, dont la force des preuves, la médiatisation avant le procès, la composition du jury et la répartition des préférences des jurés au début de la délibération [4].
+- En France, des enquêtes auprès d'anciens jurés et de présidents d'assises divergent sur l'influence du président : certains chercheurs décrivent une « prise en main » de la décision, d'autres jugent cette influence réelle mais non générale [2].
+
+[À noter] Ce dossier décrit des règles et des recherches ; il ne commente aucun verdict. Intime conviction : principe selon lequel les juges et jurés décident selon leur conscience, d'après les preuves débattues devant eux, sans être liés par une hiérarchie légale des preuves. Délibéré : phase où la cour se retire pour décider. Jury fictif : groupe de participants qui jugent une affaire simulée, dans une expérience.
+
+## Les règles du délibéré en France
+
+[Fait établi] La cour d'assises juge les crimes punis de plus de 20 ans de réclusion et les appels ; elle est composée de 3 juges professionnels, un président et deux assesseurs, et de 6 jurés tirés au sort sur les listes électorales. En appel, les jurés sont 9 et la majorité nécessaire pour une décision défavorable à l'accusé est portée à 8 voix. Depuis le 1er janvier 2023, la cour criminelle, composée uniquement de juges professionnels, juge les crimes punis de 15 à 20 ans de réclusion commis par des majeurs, sauf à Mayotte [1].
+
+[Fait établi] Après les débats, président, assesseurs et jurés se retirent ensemble et votent à bulletin secret sur la culpabilité, puis, en cas de condamnation, sur la peine. La peine maximale ne peut être prononcée qu'à la majorité de 7 voix au moins [1].
+
+[Interprétation] La règle de majorité a une conséquence arithmétique : avec 9 votants en première instance, une condamnation exige 7 voix ; même si les 3 magistrats votent la culpabilité, il faut encore 4 jurés sur 6. Les jurés ne peuvent donc pas être mis en minorité par les magistrats pour une condamnation.
+
+## Comment un juré se forge une conviction
+
+[Fait établi] Nancy Pennington et Reid Hastie ont proposé et testé le « modèle du récit » : les jurés construisent une histoire qui donne sens aux preuves. Dans leurs expériences publiées en 1992, rendre une histoire plus facile à construire modifiait les verdicts et le poids accordé aux éléments de crédibilité, sans changer la mémorisation des preuves. Lorsque les participants jugeaient à la fin de l'affaire, leur raisonnement suivait ce modèle plutôt qu'un calcul pas à pas des probabilités [3].
+
+[Interprétation] Ce résultat éclaire le rôle du procès : l'accusation et la défense ne présentent pas seulement des preuves, elles proposent des récits concurrents. Un récit cohérent et complet peut convaincre davantage qu'un ensemble de preuves dispersées, ce qui est à la fois une force et un risque, si la cohérence du récit tient lieu de preuve.
+
+## Ce qui pèse sur la décision collective
+
+[Fait établi] Dennis Devine et ses coauteurs ont recensé en 2001 206 études publiées entre 1955 et 1999 sur des jurys qui délibèrent, réels ou fictifs. Plusieurs facteurs ont des effets constants sur les décisions : la définition des termes juridiques, les options de verdict, la structure du procès, la similitude entre jurés et accusé, la composition du jury en termes de personnalité et d'attitudes, les antécédents de l'accusé, la force des preuves, la médiatisation avant le procès, les preuves déclarées irrecevables, le type d'affaire et la répartition initiale des préférences des jurés au cours de la délibération [4].
+
+[Interprétation] La plupart de ces études portent sur des jurys américains composés uniquement de citoyens, qui doivent souvent statuer à l'unanimité. La cour d'assises française mêle magistrats et jurés et décide à la majorité qualifiée ; les résultats ne s'y transposent pas directement. Le dossier sur la polarisation de groupe montre comment une délibération peut accentuer les positions de départ.
+
+## L'influence du président : un débat français
+
+[Débat] Les sociologues Aziz Jellab et Armelle Giglio-Jacquemot, à partir d'une enquête de terrain, décrivent une « prise en main » de la décision par les présidents et citent un président de cour d'assises selon lequel il n'est « pas rare » qu'un président se rapproche des jurés lors des pauses pour « sonder leur point de vue et éventuellement essayer de l'orienter ». La sociologue Dominique Vernier souligne aussi l'importance du pouvoir du président, tout en relevant que « de nombreux » présidents semblaient embarrassés par ce pouvoir et cherchaient à ne pas en abuser [2].
+
+[Débat] Dans sa thèse soutenue en 2012 à l'université de Strasbourg, fondée sur des entretiens avec d'anciens jurés et des présidents d'assises et sur l'observation de procès, Célia Gissinger-Bosse estime que l'influence du président « n'est pas à exclure » mais ne doit pas être « généralisée trop hâtivement » : certains présidents orientent la décision, « tous ne le font à l'évidence pas », et les jurés distinguent selon elle les informations données par le président d'une tentative d'influencer leur interprétation des faits [2].
+
+[Interprétation] Ces travaux qualitatifs reposent sur ce que les jurés et les magistrats acceptent de raconter, sans accès au délibéré lui-même. Ils ne permettent pas de mesurer la fréquence de l'influence du président, mais ils établissent qu'elle est un sujet de préoccupation reconnu par les acteurs eux-mêmes. La motivation écrite des arrêts, obligatoire depuis 2011, rend désormais public le raisonnement retenu, sans révéler les échanges qui y ont conduit.
+
+## Ce qu'on ne sait pas
+- **Ce qui se dit dans les délibérés français** : le secret du délibéré interdit toute observation ou tout enregistrement, même à des fins de recherche.
+- **La différence de décisions entre cours d'assises avec jurés et cours criminelles sans jurés** : aucune évaluation publiée n'a été consultée pour ce dossier.
+- **L'effet de la motivation obligatoire depuis 2011** sur le déroulement des délibérés : les entretiens de la thèse de 2012 ont été réalisés avant son entrée en vigueur [2].
+
+## Sources
+- Service public, « Procès devant la cour d'assises ou la cour criminelle », fiche vérifiée le 30 septembre 2024. | https://www.service-public.gouv.fr/particuliers/vosdroits/F1487
+- Célia Gissinger-Bosse, « Vers une conversion démocratique : analyse du dispositif de parole de la cour d'assises », thèse de doctorat en sciences de l'information et de la communication, université de Strasbourg, soutenue le 28 novembre 2012 (cite les travaux d'Aziz Jellab et Armelle Giglio-Jacquemot, 2011, et de Dominique Vernier, 2007). | https://publication-theses.unistra.fr/public/theses_doctorat/2012/Gissinger_Celia_2012_ED519.pdf
+- Nancy Pennington et Reid Hastie, « Explaining the evidence: Tests of the Story Model for juror decision making », Journal of Personality and Social Psychology, vol. 62, n° 2, février 1992. | https://doi.org/10.1037/0022-3514.62.2.189
+- Dennis J. Devine, Laura D. Clayton, Benjamin B. Dunford, Rasmy Seying et Jennifer Pryce, « Jury decision making: 45 years of empirical research on deliberating groups », Psychology, Public Policy, and Law, vol. 7, n° 3, septembre 2001. | https://doi.org/10.1037/1076-8971.7.3.622

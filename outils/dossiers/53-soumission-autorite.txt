@@ -1,0 +1,77 @@
+fichier: dossier-soumission-autorite.html
+rubrique: psychologie
+titre: La soumission à l'autorité : ce que les expériences de Milgram et leurs réplications établissent, et ce qu'elles n'établissent pas
+titre_court: La soumission à l'autorité
+chapeau: Deux participants sur trois prêts à administrer, sur ordre, la décharge la plus forte d'un générateur marqué « danger » : le chiffre de Stanley Milgram est l'un des plus cités de la psychologie. Les réplications récentes confirment un haut niveau d'obéissance, mais les archives, la synthèse de toutes les variantes et les neurosciences en compliquent la lecture.
+resume: L'expérience de 1963, les 21 variantes et leur taux moyen, les réplications de 2009 et 2017, la transposition française en jeu télévisé, les doutes des participants révélés par les archives, l'adhésion à l'autorité plutôt que l'obéissance aveugle, et la mesure du sentiment de responsabilité sous la contrainte. Données arrêtées au 19 octobre 2026.
+arret: 19 octobre 2026
+publication: 19 octobre 2026
+verifie: 19 octobre 2026
+voir_aussi: dossier-polarisation-groupe.html, dossier-emprise.html, dossier-effet-du-temoin.html
+image: assets/images/soumission-autorite.jpg
+image_alt: Un ancien panneau de commande à interrupteurs et sélecteurs
+image_credit: jurvetson, CC BY 2.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Apollo_Control_Display_Panel_from_KSC_Firing_Room_1_(31533308584).jpg
+---
+## Essentiel
+- Dans l'expérience publiée en 1963, 26 des 40 participants, soit 65 %, ont obéi jusqu'au bout et administré la décharge la plus forte du générateur, en croyant punir un autre participant, qui était en réalité un complice [1].
+- Ce chiffre ne vaut que pour une condition. Une synthèse de 2014 portant sur 21 variantes de l'expérience et 740 participants donne un taux moyen d'obéissance jusqu'au maximum de 43,6 %, avec de fortes variations selon la légitimité de l'expérimentateur, sa proximité et celle de la victime [2].
+- Les réplications partielles menées en 2006 et en 2015 trouvent des niveaux d'obéissance proches de ceux de Milgram [3][4].
+- Des archives montrent que les participants qui croyaient pleinement infliger une douleur administraient en moyenne des décharges plus faibles que ceux qui en doutaient, dans 18 des 23 variantes étudiées [5].
+- Une étude de 2016 montre qu'agir sur ordre réduit, d'après une mesure implicite, le sentiment d'être l'auteur de ses actes ; une étude de 2021 menée en imagerie ne retrouve pas cet effet en moyenne [6][7].
+
+[À noter] Ce dossier décrit des expériences de laboratoire ; il ne qualifie la conduite d'aucune personne réelle et ne se prononce sur aucune responsabilité juridique. Complice : personne qui joue un rôle à la demande des chercheurs, à l'insu du participant. Réplication partielle : reproduction d'une expérience arrêtée avant son terme pour des raisons éthiques. Sentiment d'agentivité : impression d'être l'auteur de ses propres actions.
+
+## L'expérience de 1963
+
+[Fait établi] Stanley Milgram demandait à des participants d'administrer des décharges de plus en plus fortes à un « élève » chaque fois qu'il se trompait, dans ce qui était présenté comme une étude sur l'apprentissage. Le générateur comptait 30 interrupteurs gradués, de « choc léger » à « danger : choc grave ». L'élève était un complice et ne recevait aucune décharge. 26 participants sur 40 sont allés jusqu'au bout ; 14 ont arrêté après les protestations de l'élève. L'expérience a provoqué chez certains une tension extrême : transpiration, tremblements, bégaiements, rires nerveux [1].
+
+[Interprétation] L'expérience a été lue comme la démonstration que des gens ordinaires peuvent faire du mal sur ordre. Elle est aussi la démonstration inverse : une minorité importante a refusé, et ceux qui obéissaient le faisaient souvent dans une détresse visible, ce qui ne correspond pas à l'image d'une obéissance indifférente.
+
+## Un chiffre, vingt et une variantes
+
+[Fait établi] Milgram a mené plus de vingt variantes de l'expérience, avec de petits échantillons. En 2014, Nick Haslam, Steve Loughnan et Gina Perry ont rassemblé les données de 21 conditions, soit 740 participants : le taux moyen d'obéissance jusqu'à la décharge maximale est de 43,6 %. Huit facteurs influaient sur ce taux, dont le caractère directif, la légitimité et la cohérence de l'expérimentateur, la pression d'un groupe incitant à désobéir, la proximité entre le participant et la victime, et la distance entre le participant et l'expérimentateur [2].
+
+[Interprétation] Le chiffre de 65 % souvent cité est donc celui d'une condition particulière, pas une constante humaine. L'obéissance baisse quand la victime est proche ou quand l'autorité est lointaine ou contestée ; elle dépend de la situation plus que d'un trait de caractère.
+
+## Les réplications
+
+[Fait établi] Jerry Burger a reproduit en 2006 l'une des variantes de Milgram avec 70 adultes, en arrêtant l'expérience à 150 volts, moment où l'élève protestait pour la première fois : chez Milgram, 79 % de ceux qui dépassaient ce seuil allaient jusqu'au bout. Les taux d'obéissance étaient « seulement légèrement inférieurs » à ceux observés 45 ans plus tôt. Contrairement aux attentes, voir un complice refuser ne réduisait pas l'obéissance [3]. Un commentaire publié dans la même revue souligne que les différences de procédure empêchent une comparaison stricte avec Milgram [8].
+
+[Fait établi] Dariusz Doliński et ses coauteurs ont repris en 2015 la procédure de Burger, en contrôlant le sexe des participants et de l'élève. Ils rapportent un niveau d'obéissance « aussi élevé » que dans les études originales [4].
+
+[Fait établi] En France, le documentaire « Le Jeu de la mort », diffusé par France 2, a transposé le dispositif à un faux jeu télévisé, l'autorité scientifique étant remplacée par une animatrice ; le psychologue Jean-Léon Beauvois en était le directeur scientifique [9]. Les résultats ont fait l'objet d'un article scientifique publié en 2012 [10].
+
+## Ce que les archives remettent en cause
+
+[Débat] La psychologue Gina Perry et ses coauteurs ont analysé en 2019 une étude non publiée de l'assistant de Milgram, Taketo Murata. Dans 18 des 23 variantes, les participants qui croyaient pleinement infliger une douleur ont administré en moyenne des décharges plus faibles que ceux qui n'y croyaient pas pleinement. Selon les auteurs, la perception de la douleur augmentait la désobéissance et le scepticisme augmentait l'obéissance, ce qui oblige à revoir l'interprétation classique de l'expérience et sa portée pour expliquer les atrocités d'État [5].
+
+[Débat] Les psychologues Alexander Haslam et Stephen Reicher contestent aussi l'idée d'une soumission passive et irréfléchie. Selon eux, la disposition à suivre une autorité dépend de l'identification à cette autorité et de la conviction qu'elle a raison ; ils y voient une adhésion plutôt qu'une obéissance aveugle [11].
+
+[Interprétation] Ces critiques ne nient pas les résultats : beaucoup de participants ont bien administré ce qu'ils pouvaient croire être des décharges dangereuses. Elles en changent l'explication, de l'obéissance automatique vers l'adhésion à une cause jugée légitime, et soulignent qu'une partie des participants doutait de la réalité de la mise en scène.
+
+## Ce que disent les neurosciences
+
+[Fait établi] En 2016, Emilie Caspar, Patrick Haggard et leurs coauteurs ont demandé à des volontaires d'infliger, sur ordre ou par libre choix, une petite perte financière ou une décharge électrique réellement douloureuse à un autre participant. Sur ordre, les participants percevaient un intervalle plus long entre leur action et son résultat, une mesure indirecte d'un sentiment d'agentivité réduit, et leur cerveau traitait moins les conséquences de leurs actes. Selon les auteurs, les personnes qui obéissent à des ordres peuvent vivre leurs actions comme plus proches de mouvements passifs [6].
+
+[Débat] En 2021, la même équipe a reproduit le dispositif en imagerie cérébrale : en moyenne, l'effet de la contrainte sur le sentiment d'agentivité n'apparaissait pas chez les participants placés dans le scanner, contrairement à ceux testés hors du scanner ; une activité plus forte d'une zone frontale était associée à un sentiment d'agentivité et de responsabilité mieux préservé sous la contrainte [7].
+
+[Interprétation] Ces travaux ne permettent pas de dire qu'une personne qui obéit n'est pas responsable : ils décrivent une modification possible de l'expérience vécue, variable selon les individus et les conditions. La responsabilité juridique relève d'autres critères.
+
+## Ce qu'on ne sait pas
+- **La transposition des résultats aux situations réelles** d'obéissance dans les institutions, les entreprises ou les conflits : les expériences portent sur des situations artificielles et brèves.
+- **La part des participants qui croyaient à la réalité des décharges** dans chacune des expériences : les archives montrent qu'elle variait, sans permettre une mesure complète [5].
+- **Les résultats chiffrés de la transposition française** : l'article de 2012 n'a pas pu être consulté en texte intégral pour ce dossier [10].
+
+## Sources
+- Stanley Milgram, « Behavioral Study of obedience », Journal of Abnormal and Social Psychology, vol. 67, n° 4, octobre 1963. | https://doi.org/10.1037/h0040525
+- Nick Haslam, Steve Loughnan et Gina Perry, « Meta-Milgram: An Empirical Synthesis of the Obedience Experiments », PLoS ONE, vol. 9, n° 4, avril 2014. | https://doi.org/10.1371/journal.pone.0093927
+- Jerry M. Burger, « Replicating Milgram: Would people still obey today? », American Psychologist, vol. 64, n° 1, 2009. | https://doi.org/10.1037/a0010932
+- Dariusz Doliński, Tomasz Grzyb, Michał Folwarczny et al., « Would You Deliver an Electric Shock in 2015? Obedience in the Experimental Paradigm Developed by Stanley Milgram in the 50 Years Following the Original Studies », Social Psychological and Personality Science, vol. 8, n° 8, 2017. | https://doi.org/10.1177/1948550617693060
+- Gina Perry, Augustine Brannigan, Richard A. Wanner et Henderikus Stam, « Credibility and Incredulity in Milgram's Obedience Experiments: A Reanalysis of an Unpublished Test », Social Psychology Quarterly, vol. 83, n° 1, 2020 (publié en ligne en 2019). | https://doi.org/10.1177/0190272519861952
+- Emilie A. Caspar, Julia F. Christensen, Axel Cleeremans et Patrick Haggard, « Coercion Changes the Sense of Agency in the Human Brain », Current Biology, vol. 26, n° 5, mars 2016. | https://doi.org/10.1016/j.cub.2015.12.067
+- Emilie A. Caspar, Frederike Beyer, Axel Cleeremans et Patrick Haggard, « The obedient mind and the volitional brain: A neural basis for preserved sense of agency and sense of responsibility under coercion », PLOS ONE, vol. 16, octobre 2021. | https://doi.org/10.1371/journal.pone.0258884
+- Arthur G. Miller, « Reflections on "Replicating Milgram" (Burger, 2009) », American Psychologist, vol. 64, n° 1, 2009. | https://doi.org/10.1037/a0014407
+- UniFrance, fiche du film « Le Jeu de la mort », réalisé par Christophe Nick. | https://www.unifrance.org/film/31626/le-jeu-de-la-mort
+- Jean-Léon Beauvois, Didier Courbet et Dominique Oberlé, « The prescriptive power of the television host. A transposition of Milgram's obedience paradigm to the context of TV game show », European Review of Applied Psychology, vol. 62, n° 3, juillet 2012. | https://doi.org/10.1016/j.erap.2012.02.001
+- S. Alexander Haslam et Stephen D. Reicher, « Contesting the "Nature" Of Conformity: What Milgram and Zimbardo's Studies Really Show », PLoS Biology, vol. 10, n° 11, novembre 2012. | https://doi.org/10.1371/journal.pbio.1001426
