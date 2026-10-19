@@ -1,0 +1,84 @@
+fichier: dossier-vision-en-tunnel.html
+rubrique: psychologie
+titre: La vision en tunnel : comment des enquêteurs et des experts de bonne foi écartent les éléments qui contredisent leur hypothèse
+titre_court: La vision en tunnel
+chapeau: Une enquête commence toujours par une hypothèse. Le risque apparaît quand elle devient une certitude et que les éléments contraires paraissent moins fiables, moins utiles, ou ne sont plus recherchés. Ce que les expériences menées avec des enquêteurs et des experts établissent, ce qu'elles nuancent, et ce que les institutions ont tenté pour s'en prémunir.
+resume: Biais de confirmation, besoin de conclure, interrogatoires orientés par la présomption de culpabilité, experts en empreintes influencés par le contexte, l'erreur d'identification de l'attentat de Madrid, la leçon d'Outreau et les contre-mesures. Données arrêtées au 19 octobre 2026.
+arret: 19 octobre 2026
+publication: 19 octobre 2026
+verifie: 19 octobre 2026
+voir_aussi: dossier-outreau.html, dossier-temoignage-erreur-sincere.html, dossier-acquittement-prescription.html
+image: assets/images/vision-en-tunnel.jpg
+image_alt: Le tunnel d'un canal et la lumière à sa sortie
+image_credit: Andy Beecroft, CC BY-SA 2.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Light_at_the_End_of_the_Tunnel_-_geograph.org.uk_-_4911225.jpg
+---
+## Essentiel
+- Dans une expérience suédoise publiée en 2007, 49 enquêteurs expérimentés ont jugé moins fiable et moins crédible un témoin qui contredisait l'hypothèse principale d'une affaire d'homicide, alors que ses conditions d'observation étaient identiques à celles d'un témoin qui la confirmait [1].
+- Dans une expérience de 2003, des interrogateurs persuadés que le suspect était coupable ont posé plus de questions présumant la culpabilité et exercé plus de pression, surtout face à des suspects innocents ; des observateurs neutres ont ensuite jugé ces suspects plus défensifs [2].
+- Des experts en empreintes digitales à qui l'on présentait, avec un contexte trompeur, des empreintes qu'ils avaient eux-mêmes identifiées par le passé ont, pour la plupart, changé de conclusion [3].
+- En 2004, le laboratoire du FBI a attribué par erreur à un avocat américain une empreinte liée aux attentats de Madrid. L'inspection générale du ministère de la Justice américain a relevé parmi les causes un « raisonnement circulaire » à partir des empreintes du suspect [4].
+- Les études ne montrent pas que les enquêteurs cherchent systématiquement à charge : dans trois expériences néerlandaises, la part des investigations à charge choisies dépassait à peine 50 % [5].
+
+[À noter] Ce dossier décrit des mécanismes observés dans des expériences et des affaires documentées ; il ne vise aucun enquêteur ni magistrat en particulier et ne prête aucune intention. Biais de confirmation : tendance à rechercher, interpréter et retenir les informations qui confirment ce que l'on pense déjà. Vision en tunnel : expression employée dans la littérature juridique pour désigner ce biais à l'échelle d'une enquête, lorsque l'attention se concentre sur un suspect et que les pistes alternatives sont négligées [6]. Besoin de clôture cognitive : désir d'aboutir à une réponse ferme et de mettre fin à l'incertitude.
+
+## Ce que montrent les expériences avec des enquêteurs
+
+[Fait établi] En 2005, Karl Ask et Pär Anders Granhag ont soumis le dossier préliminaire d'une affaire d'homicide à 50 enquêteurs et 68 étudiants. Les étudiants attribuaient la culpabilité au suspect principal seulement quand un mobile leur était présenté ; les enquêteurs le faisaient quelle que soit l'hypothèse, se montrant moins sensibles aux interprétations alternatives. Les enquêteurs ayant un fort besoin de conclure relevaient moins les incohérences du dossier lorsqu'un mobile leur était suggéré [7].
+
+[Fait établi] Dans une seconde étude, publiée en 2007, les mêmes auteurs ont présenté à 49 enquêteurs expérimentés le témoignage d'un témoin qui confirmait ou contredisait l'hypothèse principale. Le témoin qui la contredisait a été jugé moins fiable et moins crédible, à conditions d'observation identiques. Sous forte pression de temps, les enquêteurs ajustaient moins leur confiance dans l'hypothèse en fonction du témoignage [1].
+
+[Fait établi] En 2003, Saul Kassin, Christine Goldstein et Kenneth Savitsky ont fait interroger 52 suspects, coupables ou innocents d'un vol simulé, par 52 interrogateurs à qui l'on avait laissé croire que la plupart des suspects étaient coupables, ou innocents. Ceux qui s'attendaient à des coupables ont choisi davantage de questions présumant la culpabilité, utilisé plus de techniques d'interrogatoire et exercé plus de pression pour obtenir des aveux, en particulier face à des innocents. Des auditeurs neutres ont ensuite perçu ces suspects comme plus défensifs, et un peu plus coupables [2].
+
+[Interprétation] Le mécanisme se renforce lui-même : l'hypothèse oriente les questions, les questions modifient le comportement du suspect, et ce comportement semble confirmer l'hypothèse. Aucune mauvaise foi n'est nécessaire pour qu'il fonctionne.
+
+## Le meilleur argument contraire
+
+[Débat] Formuler tôt une hypothèse n'est pas une faute : c'est la condition d'une enquête efficace, et la plupart des hypothèses initiales se révèlent justes. Plusieurs études sont menées avec des étudiants ou sur des dossiers simulés, sans les enjeux et les moyens d'une enquête réelle. Surtout, en 2010, Eric Rassin et ses coauteurs ont montré dans trois expériences que la recherche d'investigations supplémentaires était guidée par l'évaluation initiale de la culpabilité et devenait plus orientée à charge quand le crime était grave ou les preuves fortes ; mais en moyenne, les participants ne privilégiaient pas les investigations à charge, qui représentaient à peine 50 % de leurs choix [5].
+
+[Interprétation] La recherche ne décrit donc pas des enquêteurs qui cherchent systématiquement à charge. Elle décrit un risque, plus fort dans certaines conditions : crime grave, pression du temps, preuves apparemment solides, hypothèse unique. Ce sont aussi les conditions des affaires les plus médiatisées.
+
+## Les experts ne sont pas à l'abri
+
+[Fait établi] En 2006, Itiel Dror, David Charlton et Ailsa Péron ont présenté à des experts en empreintes digitales des empreintes qu'ils avaient eux-mêmes identifiées par le passé comme appartenant à un suspect, en les accompagnant d'un contexte laissant entendre qu'il ne pouvait pas s'agir de lui. Dans ce nouveau contexte, la plupart des experts ont rendu une conclusion différente, contredisant leur propre identification antérieure [3].
+
+[Fait établi] En 2013, Saul Kassin, Itiel Dror et Jeff Kukucka ont décrit un « biais de confirmation médico-légal » : un aveu ou d'autres informations de contexte peuvent influencer à la fois la mémoire des témoins et le jugement d'experts dans plusieurs disciplines de la police scientifique. Ils proposent notamment de limiter les informations transmises aux experts à ce qui est nécessaire à leur analyse [8].
+
+## Un cas documenté : l'empreinte de Madrid
+
+[État de la procédure] Après les attentats du 11 mars 2004 à Madrid, le laboratoire du FBI a attribué une empreinte relevée sur un sac de détonateurs à Brandon Mayfield, avocat de l'Oregon, qui a été arrêté comme témoin. La police espagnole a ensuite identifié un ressortissant algérien comme la source de l'empreinte, et le FBI a retiré son identification. L'inspection générale du ministère de la Justice américain a conclu en 2006 que les experts n'avaient pas commis de faute intentionnelle ni violé de procédure explicite [4].
+
+[Fait établi] Parmi les causes principales de l'erreur, l'inspection relève la « similarité inhabituelle » entre les empreintes, mais aussi un biais induit par les empreintes du suspect, qu'elle qualifie de « raisonnement circulaire » : après avoir vu ces empreintes, l'expert a réinterprété certains détails de l'empreinte relevée pour les faire correspondre. Un membre du panel international qui a examiné l'erreur parle de « biais de confirmation » ou d'« effet de contexte » [4].
+
+## En France : la leçon d'Outreau
+
+[Fait établi] Devant la commission d'enquête parlementaire sur l'affaire d'Outreau, le juge d'instruction a déclaré que personne ne lui avait dit à l'époque qu'il faisait « fausse route » : ni le procureur, ni le procureur général, ni la chambre de l'instruction [9]. La loi du 5 mars 2007, adoptée à la suite de cette commission, a créé des pôles de l'instruction pour mettre fin à la solitude du juge d'instruction [10].
+
+[Interprétation] La commission n'a pas employé le vocabulaire de la psychologie cognitive, et ce dossier ne prête pas d'intention aux magistrats concernés. Le constat institutionnel rejoint toutefois celui des expériences : une hypothèse qui n'est confrontée à aucun regard extérieur a peu de chances d'être remise en cause.
+
+## Les contre-mesures proposées
+
+[Proposition] Organiser la transmission des informations aux experts de façon séquentielle, en commençant par l'élément à analyser et en n'ajoutant le contexte qu'ensuite : méthode dite de « démasquage séquentiel linéaire ». Son promoteur, Itiel Dror, souligne lui-même en 2026 qu'elle n'est pas toujours efficace : une information perçue comme très forte domine la décision quel que soit le moment où elle arrive [11].
+
+[Proposition] Faire examiner une affaire par un regard extérieur, chargé de chercher activement les hypothèses alternatives ; c'était l'objet de la collégialité de l'instruction prévue par la loi de 2007, dont l'entrée en vigueur a été reportée à plusieurs reprises ; un amendement adopté en commission en 2016 a proposé de la supprimer [10][12]. Objection avancée par cet amendement : le dispositif exigeait plus de trois cents postes de juges d'instruction supplémentaires et aurait éloigné l'instruction de nombreux tribunaux [12].
+
+[Proposition] Enregistrer les interrogatoires, pour permettre de vérifier après coup la manière dont les questions ont été posées ; c'est déjà obligatoire pour les mineurs victimes et, depuis 2007, pour certains interrogatoires [10].
+
+## Ce qu'on ne sait pas
+- **La fréquence de la vision en tunnel dans les enquêtes françaises** : aucune étude publique consultée ne la mesure.
+- **L'effet des contre-mesures sur les erreurs réelles**, au-delà des expériences : il reste peu documenté, et son principal promoteur en souligne les limites [11].
+- **La part des erreurs judiciaires françaises où ce biais a joué un rôle** : les rapports officiels consultés ne l'analysent pas en ces termes.
+
+## Sources
+- Karl Ask et Pär Anders Granhag, « Motivational Bias in Criminal Investigators' Judgments of Witness Reliability », Journal of Applied Social Psychology, vol. 37, n° 3, mars 2007. | https://doi.org/10.1111/j.1559-1816.2007.00175.x
+- Saul M. Kassin, Christine C. Goldstein et Kenneth Savitsky, « Behavioral confirmation in the interrogation room: On the dangers of presuming guilt », Law and Human Behavior, vol. 27, n° 2, avril 2003. | https://doi.org/10.1023/A:1022599230598
+- Itiel E. Dror, David Charlton et Ailsa E. Péron, « Contextual information renders experts vulnerable to making erroneous identifications », Forensic Science International, vol. 156, n° 1, janvier 2006. | https://doi.org/10.1016/j.forsciint.2005.10.017
+- U.S. Department of Justice, Office of the Inspector General, « A Review of the FBI's Handling of the Brandon Mayfield Case », mars 2006 (version publique). | https://oig.justice.gov/sites/default/files/legacy/special/s0601/final.pdf
+- Eric Rassin, Anita Eerland et Ilse Kuijpers, « Let's find the evidence: an analogue study of confirmation bias in criminal investigations », Journal of Investigative Psychology and Offender Profiling, vol. 7, n° 3, 2010. | https://doi.org/10.1002/jip.126
+- Keith A. Findley, « Tunnel vision », dans Brian L. Cutler (dir.), Conviction of the innocent: Lessons from psychological research, American Psychological Association, 2012. | https://doi.org/10.1037/13085-014
+- Karl Ask et Pär Anders Granhag, « Motivational sources of confirmation bias in criminal investigations: the need for cognitive closure », Journal of Investigative Psychology and Offender Profiling, vol. 2, n° 1, 2005. | https://doi.org/10.1002/jip.19
+- Saul M. Kassin, Itiel E. Dror et Jeff Kukucka, « The forensic confirmation bias: Problems, perspectives, and proposed solutions », Journal of Applied Research in Memory and Cognition, vol. 2, n° 1, mars 2013. | https://doi.org/10.1016/j.jarmac.2013.01.001
+- Assemblée nationale, André Vallini (président) et Philippe Houillon (rapporteur), rapport n° 3125 de la commission d'enquête sur l'affaire dite d'Outreau, 6 juin 2006. | https://www.assemblee-nationale.fr/12/rap-enq/r3125-t1.asp
+- Ministère de la Justice, circulaire de la DACG n° 2007-09 du 25 mai 2007 présentant les dispositions de la loi n° 2007-291 du 5 mars 2007 tendant à renforcer l'équilibre de la procédure pénale. | https://www.justice.gouv.fr/documentation/bulletin-officiel/circulaire-dacg-ndeg-2007-09-du-25-mai-2007-relative-presentation-dispositions-0
+- Itiel E. Dror, « Navigating the bias danger zone: Evaluating the (in)Efficiency of Linear Sequential Unmasking (LSU-E) as a bias countermeasure », Forensic Science International: Synergy, vol. 12, juin 2026. | https://doi.org/10.1016/j.fsisyn.2025.100657
+- Assemblée nationale, amendement n° 392 de MM. Raimbourg, Le Bouillonnec et Clément au projet de loi Justice du XXIe siècle (n° 3726), 12 mai 2016. | https://www.assemblee-nationale.fr/14/amendements/3726/AN/392.pdf

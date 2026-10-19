@@ -1,0 +1,70 @@
+fichier: dossier-polarisation-groupe.html
+rubrique: psychologie
+titre: La polarisation de groupe : pourquoi un groupe qui délibère prend souvent une position plus tranchée que ses membres
+titre_court: La polarisation de groupe
+chapeau: Jurys, comités, partis, groupes en ligne : après discussion, un groupe aboutit souvent à une position plus marquée que la moyenne de ses membres au départ. Ce que les expériences montrent depuis les années 1960, les deux mécanismes avancés, les cas où le phénomène ne se produit pas, et ce que la recherche récente dit des réseaux sociaux.
+resume: Expériences fondatrices, jurys fictifs et sévérité des sanctions, expérience du Colorado, mécanismes d'influence sociale et d'arguments, conditions qui évitent la polarisation, chambres d'écho et résultats contradictoires sur Facebook et Twitter. Données arrêtées au 19 octobre 2026.
+arret: 19 octobre 2026
+publication: 19 octobre 2026
+verifie: 19 octobre 2026
+voir_aussi: dossier-acquittement-prescription.html, dossier-votes-groupes-2017-2026.html
+image: assets/images/polarisation-groupe.jpg
+image_alt: Une salle de réunion vide, chaises autour d'une table
+image_credit: Breather, CC0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Quiet_meeting_room_(Unsplash).jpg
+---
+## Essentiel
+- La polarisation de groupe désigne la tendance des membres d'un groupe qui délibère à se déplacer vers une position plus extrême, dans la direction où ils penchaient déjà. Elle a été observée dans plusieurs pays, dont la France [1][2].
+- Dans une étude portant sur plus de 500 jurys fictifs américains et plus de 3 000 citoyens, le montant des dommages-intérêts décidé par le jury était systématiquement supérieur à la médiane des avis individuels avant délibération : un « effet de sévérité » [3].
+- Dans une expérience menée dans le Colorado et publiée en 2007, des groupes de citoyens d'une ville progressiste et d'une ville conservatrice ont délibéré séparément sur trois sujets : chaque groupe est devenu plus homogène et plus éloigné de l'autre [4].
+- Le phénomène n'est pas inévitable : les sondages délibératifs, où des informations contradictoires sont fournies aux participants, ne produisent pas de polarisation systématique [1].
+- Sur les réseaux sociaux, les résultats divergent : une expérience sur Twitter a accru la polarisation de certains participants exposés à l'autre camp, tandis qu'une expérience sur 23 377 utilisateurs de Facebook réduisant d'un tiers les contenus de leur camp n'a eu aucun effet mesurable sur leurs opinions [5][6].
+
+[À noter] Ce dossier décrit un phénomène statistique observé sur des groupes ; il ne dit pas qu'un groupe donné, ou une juridiction donnée, a pris une décision trop sévère ou trop indulgente. Polarisation de groupe : déplacement de la position moyenne d'un groupe, après discussion, dans la direction initiale. Elle ne désigne pas la division d'une société en camps opposés, même si les deux phénomènes peuvent se combiner. Chambre d'écho : environnement où une personne est surtout exposée à des opinions proches des siennes.
+
+## Ce que montrent les expériences
+
+[Fait établi] Le phénomène a d'abord été décrit au début des années 1960 sous le nom de « glissement vers le risque » : des groupes prenaient des décisions plus risquées que leurs membres pris isolément. Les recherches ultérieures ont montré qu'il s'agit d'un cas particulier : un groupe peut aussi devenir plus prudent si ses membres l'étaient déjà [1]. Les psychologues Serge Moscovici et Marisa Zavalloni ont étendu ce constat aux attitudes en 1969, sous le titre « Le groupe comme polarisateur des attitudes » [7].
+
+[Fait établi] Le juriste Cass Sunstein a recensé en 1999 des exemples observés dans plusieurs pays, dont les États-Unis, le Canada, l'Allemagne et la France : un groupe de femmes modérément féministes devient plus féministe après discussion ; des citoyens français deviennent plus critiques envers les intentions des États-Unis en matière d'aide économique [1]. Une méta-analyse publiée en 1986 par Daniel Isenberg a examiné 21 études publiées sur les deux mécanismes avancés pour l'expliquer [8].
+
+[Fait établi] Dans une expérience publiée en 2007, David Schkade, Cass Sunstein et Reid Hastie ont réuni 63 citoyens du Colorado, venus de Boulder, ville réputée progressiste, et de Colorado Springs, ville réputée conservatrice. Chaque groupe a délibéré entre personnes de la même ville sur le réchauffement climatique, la discrimination positive et l'union civile des couples de même sexe. Après discussion, les positions de chaque groupe sont devenues plus extrêmes et plus uniformes, et l'écart entre les deux villes s'est creusé, y compris dans les opinions exprimées anonymement [4].
+
+## Les jurys
+
+[Fait établi] Dans une étude de 2000 portant sur plus de 500 jurys fictifs, composés de plus de 3 000 citoyens américains pouvant être jurés, David Schkade, Cass Sunstein et Daniel Kahneman ont comparé les montants de dommages-intérêts punitifs décidés par chaque jury à la médiane des avis de ses membres avant délibération. Le montant décidé était systématiquement plus élevé. Mesurée sur une échelle de sévérité, la délibération accentuait les notes élevées et abaissait les notes faibles. Les auteurs l'attribuent à une « asymétrie rhétorique » : les arguments en faveur d'une sanction plus lourde y étaient plus convaincants [3].
+
+[Interprétation] Ces résultats portent sur des jurys civils américains fixant des montants d'argent, dans une procédure très différente de la cour d'assises française, où magistrats et jurés délibèrent ensemble puis votent à bulletin secret, une majorité qualifiée étant requise pour toute décision défavorable à l'accusé [9]. Ils ne permettent donc pas de conclure que les jurys français sont plus sévères que leurs membres. Le dossier sur la délibération des jurés d'assises examine ce que l'on sait de ce cas particulier.
+
+## Pourquoi : deux mécanismes
+
+[Interprétation] Les chercheurs avancent deux explications, qui peuvent se combiner [1][8]. La première est sociale : chacun veut être perçu favorablement par le groupe et ajuste sa position vers ce qui semble y être valorisé, d'autant plus quand il découvre que d'autres pensent comme lui. La seconde tient aux arguments : dans un groupe qui penche d'un côté, la plupart des arguments échangés vont dans ce sens, et chacun en entend de nouveaux qui le confortent, sans entendre ceux de l'autre camp.
+
+[Débat] Le phénomène est-il une pathologie de la délibération ? Pour Cass Sunstein, il appelle des garde-fous dans les institutions qui délibèrent : juridictions collégiales, commissions, assemblées [1]. Les partisans de la délibération répondent qu'un groupe peut aussi corriger des erreurs individuelles, et que le résultat dépend de sa composition et des informations disponibles. Sunstein relève lui-même que les sondages délibératifs du politiste James Fishkin, où des documents présentent les faits et arguments de chaque camp à des participants d'opinions variées, ne produisent pas de polarisation systématique [1].
+
+## Les réseaux sociaux
+
+[Fait établi] Une étude publiée en 2021, portant sur plus de 100 millions de contenus sur des sujets controversés (armes à feu, vaccination, avortement) publiés sur Gab, Facebook, Reddit et Twitter, conclut que les interactions entre utilisateurs aux opinions proches dominent sur Facebook et Twitter, avec une ségrégation plus forte sur Facebook que sur Reddit [10].
+
+[Fait établi] En 2018, une expérience a incité des utilisateurs américains de Twitter à suivre pendant un mois un compte diffusant les messages du camp politique opposé. Les républicains exposés à des messages progressistes sont devenus nettement plus conservateurs ; chez les démocrates exposés à des messages conservateurs, la légère hausse des positions progressistes n'était pas statistiquement significative [5].
+
+[Fait établi] En 2023, une expérience menée pendant la présidentielle américaine de 2020 auprès de 23 377 utilisateurs de Facebook a réduit d'environ un tiers leur exposition aux contenus de sources proches de leurs opinions. Leur exposition à d'autres points de vue a augmenté et leur exposition aux propos incivils a diminué, mais aucun effet mesurable n'a été constaté sur huit indicateurs préenregistrés, dont la polarisation affective et l'extrémité des opinions [6].
+
+[Interprétation] Ces trois études ne se contredisent pas : les chambres d'écho existent, mais en sortir ne suffit pas à rendre les opinions plus modérées, et une exposition à l'autre camp peut même durcir certaines positions. Elles portent toutes sur les États-Unis, avec des plateformes et des algorithmes qui ont changé depuis.
+
+## Ce qu'on ne sait pas
+- **L'existence d'un effet de polarisation dans les délibérés des cours d'assises françaises** : le secret du délibéré empêche de l'étudier directement.
+- **La transposition des résultats américains sur les réseaux sociaux à la France** : les sources consultées ne fournissent pas d'étude équivalente sur des utilisateurs français.
+- **Le poids respectif des deux mécanismes**, social et argumentatif, qui varie selon les études [8].
+
+## Sources
+- Cass R. Sunstein, « The Law of Group Polarization », John M. Olin Law & Economics Working Paper n° 91, université de Chicago, 1999 ; publié dans le Journal of Political Philosophy, vol. 10, n° 2, 2002. | https://dash.harvard.edu/server/api/core/bitstreams/7312037d-39a8-6bd4-e053-0100007fdf3b/content
+- David G. Myers et Helmut Lamm, « The group polarization phenomenon », Psychological Bulletin, vol. 83, n° 4, juillet 1976. | https://doi.org/10.1037/0033-2909.83.4.602
+- David Schkade, Cass R. Sunstein et Daniel Kahneman, « Deliberating about dollars: The severity shift », Columbia Law Review, vol. 100, 2000 (version de travail). | https://doi.org/10.2139/ssrn.214619
+- David Schkade, Cass R. Sunstein et Reid Hastie, « What Happened on Deliberation Day? », California Law Review, vol. 95, 2007 (version de travail). | https://doi.org/10.2139/ssrn.911646
+- Christopher A. Bail, Lisa P. Argyle, Taylor W. Brown et al., « Exposure to opposing views on social media can increase political polarization », Proceedings of the National Academy of Sciences, vol. 115, n° 37, août 2018. | https://doi.org/10.1073/pnas.1804840115
+- Brendan Nyhan, Jaime Settle, Emily Thorson et al., « Like-minded sources on Facebook are prevalent but not polarizing », Nature, vol. 620, juillet 2023. | https://doi.org/10.1038/s41586-023-06297-w
+- Serge Moscovici et Marisa Zavalloni, « The group as a polarizer of attitudes », Journal of Personality and Social Psychology, vol. 12, n° 2, juin 1969. | https://doi.org/10.1037/h0027568
+- Daniel J. Isenberg, « Group polarization: A critical review and meta-analysis », Journal of Personality and Social Psychology, vol. 50, n° 6, juin 1986. | https://doi.org/10.1037/0022-3514.50.6.1141
+- Service public, « Procès devant la cour d'assises ou la cour criminelle », fiche vérifiée le 30 septembre 2024. | https://www.service-public.gouv.fr/particuliers/vosdroits/F1487
+- Matteo Cinelli, Gianmarco De Francisci Morales, Alessandro Galeazzi, Walter Quattrociocchi et Michele Starnini, « The echo chamber effect on social media », Proceedings of the National Academy of Sciences, vol. 118, n° 9, février 2021. | https://doi.org/10.1073/pnas.2023301118

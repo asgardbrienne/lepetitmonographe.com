@@ -1,0 +1,71 @@
+fichier: dossier-effet-desinformation.html
+rubrique: psychologie
+titre: L'effet de désinformation : comment une question ou un article peut modifier le souvenir d'un témoin de bonne foi
+titre_court: L'effet de désinformation
+chapeau: Une information reçue après les faits, dans une question orientée, une conversation ou un article de presse, peut s'intégrer au souvenir d'un témoin sans qu'il s'en rende compte. Ce que cinquante ans d'expériences établissent, ce que les chercheurs se disputent encore, et ce que cela ne permet pas de conclure sur un témoignage particulier.
+resume: Les expériences d'Elizabeth Loftus, les faux souvenirs d'enfance et leur réplication de 2023, le débat sur la façon de compter un faux souvenir, les fausses informations politiques et la mémoire, l'effet des avertissements. Données arrêtées au 19 octobre 2026.
+arret: 19 octobre 2026
+publication: 19 octobre 2026
+verifie: 19 octobre 2026
+voir_aussi: dossier-temoignage-erreur-sincere.html, dossier-outreau.html, dossier-parole-violences-sexuelles.html
+image: assets/images/effet-desinformation.jpg
+image_alt: Une pile de journaux imprimés
+image_credit: African Studies Centre Leiden, CC BY-SA 4.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_Library_-_South_African_newspaper_stack_of_Die_Burger_-_2012.jpg
+---
+## Essentiel
+- L'effet de désinformation désigne l'altération d'un souvenir après exposition à une information trompeuse reçue après les faits. Il est étudié depuis les années 1970 et a été observé dans de nombreuses conditions [1][2].
+- Dans l'expérience fondatrice de 1974, il suffisait de changer un verbe dans une question sur un accident filmé pour modifier l'estimation de la vitesse et, une semaine plus tard, faire déclarer à davantage de personnes avoir vu du verre brisé qui n'existait pas [2].
+- Une réplication préenregistrée publiée en 2023, sur 123 participants, a codé 35 % d'entre eux comme ayant un faux souvenir d'avoir été perdus dans un centre commercial enfant, contre 25 % dans l'étude originale de 1995 [3]. Une réanalyse des mêmes entretiens aboutit à un taux bien plus faible, environ 4 % selon les auteurs de la réplication, qui contestent cette méthode [4][5].
+- Lors du référendum irlandais de 2018 sur l'avortement, près de la moitié de 3 140 participants ont déclaré se souvenir d'au moins un événement inventé, présenté comme un article de presse, surtout lorsqu'il allait dans le sens de leur vote [6].
+- Un avertissement donné après coup réduit l'effet, en moyenne de plus de moitié selon une méta-analyse de 2014, sans le supprimer [7].
+
+[À noter] Ce dossier décrit un mécanisme de la mémoire ; il ne permet pas de dire si un témoignage donné est exact. Effet de désinformation : en anglais « misinformation effect ». Faux souvenir : souvenir d'un événement qui ne s'est pas produit, ou d'un détail absent de l'événement réel. Étude préenregistrée : étude dont la méthode et les analyses ont été déposées publiquement avant la collecte des données, pour éviter de les ajuster aux résultats. Le dossier « L'erreur sincère du témoin » présente les règles françaises d'audition et la leçon de l'affaire d'Outreau.
+
+## Une question, un verbe, un souvenir modifié
+
+[Fait établi] Dans une expérience publiée en 1974, Elizabeth Loftus et John Palmer ont montré à des étudiants un film d'accident de voiture, puis leur ont demandé à quelle vitesse roulaient les véhicules quand ils « se sont heurtés » ou « se sont fracassés ». Le verbe le plus fort a produit des estimations plus élevées. Une semaine plus tard, les participants interrogés avec ce verbe étaient plus nombreux à déclarer avoir vu du verre brisé, absent du film [2].
+
+[Fait établi] Dans une revue publiée en 2005, Elizabeth Loftus résume trente ans de travaux : l'effet a été observé dans de nombreuses conditions et chez plusieurs espèces ; certaines personnes y sont plus sensibles que d'autres ; les avertissements ne le réduisent que dans certaines circonstances. Les recherches plus récentes portent sur la façon dont des personnes en viennent à croire avoir vécu des événements complexes qui ne se sont jamais produits [1].
+
+[Interprétation] Le mécanisme est simple à formuler : la mémoire ne restitue pas un enregistrement, elle reconstruit un récit à chaque rappel. Une information ajoutée entre les faits et le témoignage, par une question, une discussion avec d'autres témoins ou un article, peut être intégrée à ce récit et attribuée par erreur à l'événement lui-même. Le témoin n'a pas l'impression d'inventer : c'est ce qui distingue l'erreur sincère du mensonge.
+
+## Peut-on implanter un souvenir entier ?
+
+[Fait établi] En 1995, Elizabeth Loftus et Jacqueline Pickrell ont présenté à 24 participants trois souvenirs d'enfance réels fournis par un proche et un quatrième inventé : s'être perdu dans un centre commercial. Environ un quart des participants ont été considérés comme se souvenant, en partie ou entièrement, de l'événement inventé [8][3]. L'étude a été critiquée pour la petite taille de son échantillon ; la réplication de 2023 l'a multiplié par cinq [3].
+
+[Fait établi] En 2023, l'équipe de Gillian Murphy a reproduit l'expérience en Irlande avec 123 participants et un protocole préenregistré. Les chercheurs ont codé 35 % des participants comme rapportant un faux souvenir. Interrogés directement, 14 % des participants ont déclaré se souvenir de l'événement inventé et 52 % ont dit croire qu'il avait eu lieu. Des jurés fictifs à qui l'on présentait les récits ont, eux aussi, largement cru que l'événement avait eu lieu [3].
+
+[Débat] Les psychologues Bernice Andrews et Chris Brewin ont réanalysé en 2024 les transcriptions de cette réplication. Ils relèvent qu'en moyenne, moins de deux des six détails suggérés étaient explicitement rappelés, et que 20 % des participants classés comme ayant un faux souvenir « complet » ne se souvenaient pas d'avoir été perdus. Ils en concluent que les jugements des chercheurs surestiment les faux souvenirs par rapport à ce que les participants déclarent eux-mêmes [4]. Gillian Murphy et Ciara Greene répondent que cette réanalyse, qui ramène selon eux le taux à 4 %, repose sur un codage trop étroit, et qu'un taux de 4 % aurait encore des implications importantes pour la justice [5].
+
+[Fait établi] Une revue systématique publiée en 2016 par Chris Brewin et Bernice Andrews sur les études d'implantation de souvenirs d'enfance relève qu'une forme d'expérience de souvenir est induite chez 47 % des participants en moyenne, mais que seuls 15 % ont des souvenirs qui peuvent être considérés comme complets [9].
+
+[Interprétation] Les deux camps s'accordent sur l'essentiel : il est possible, en laboratoire, de faire croire à une partie des participants qu'ils ont vécu un événement inventé. Ils divergent sur la proportion et sur ce qu'il faut appeler un « souvenir ». Ce débat de méthode a une portée pratique : présenter devant un tribunal un taux élevé ou un taux faible comme « le » taux de faux souvenirs revient à choisir un camp.
+
+## Les fausses informations de presse
+
+[Fait établi] Lors du référendum irlandais de 2018 sur l'avortement, une étude publiée en 2019 a montré à 3 140 électeurs six articles sur la campagne, dont deux inventés. Près de la moitié ont déclaré un faux souvenir d'au moins un des événements inventés, et plus d'un tiers un souvenir précis. Les partisans du « oui » se « souvenaient » davantage d'un scandale inventé visant le camp du « non », et inversement. Un avertissement sur la possible présence de fausses informations a légèrement réduit ces faux souvenirs sans les faire disparaître [6].
+
+[Interprétation] L'étude montre un effet présent dans les deux camps, et non une particularité de l'un d'eux. Elle porte sur des souvenirs d'informations politiques, pas sur le témoignage d'un événement vécu ; elle illustre cependant comment un article lu après les faits peut devenir un « souvenir ». Dans une affaire médiatisée, un témoin peut ainsi intégrer des détails publiés dans la presse.
+
+## Ce qui réduit l'effet
+
+[Fait établi] Une méta-analyse publiée en 2014 par Hartmut Blank et Céline Launay, portant sur 25 études et 155 mesures, conclut que les avertissements donnés après l'exposition à une information trompeuse sont « étonnamment efficaces » : ils réduisent en moyenne l'effet de désinformation à moins de la moitié de sa taille, sans dégrader le rappel des informations exactes [7].
+
+[Interprétation] Pour les procédures, ces résultats plaident pour des règles déjà connues : recueillir le témoignage tôt, par des questions ouvertes, enregistrer les auditions, éviter que les témoins échangent entre eux ou soient exposés à la couverture médiatique avant d'être entendus. Ils ne permettent pas d'effacer après coup une contamination qui s'est déjà produite.
+
+## Ce qu'on ne sait pas
+- **La fréquence de l'effet dans les procédures réelles** : les études sont menées en laboratoire ou en ligne, avec des événements sans enjeu comparable à un crime vécu.
+- **La « bonne » façon de compter un faux souvenir** : les méthodes divergent, et les taux publiés vont de quelques pour cent à plus d'un tiers selon le codage [3][4][5][9].
+- **L'effet de la couverture médiatique sur les témoins dans les affaires françaises** : aucune étude consultée ne le mesure.
+
+## Sources
+- Elizabeth F. Loftus, « Planting misinformation in the human mind: A 30-year investigation of the malleability of memory », Learning & Memory, vol. 12, n° 4, juillet 2005. | https://doi.org/10.1101/lm.94705
+- Elizabeth F. Loftus et John C. Palmer, « Reconstruction of automobile destruction: An example of the interaction between language and memory », Journal of Verbal Learning and Verbal Behavior, vol. 13, n° 5, octobre 1974. | https://doi.org/10.1016/S0022-5371(74)80011-3
+- Gillian Murphy, Caroline A. Dawson, Charlotte Huston et al., « Lost in the mall again: a preregistered replication and extension of Loftus & Pickrell (1995) », Memory, vol. 31, n° 6, 2023. | https://doi.org/10.1080/09658211.2023.2198327
+- Bernice Andrews et Chris R. Brewin, « Lost in the Mall? Interrogating Judgements of False Memory », Applied Cognitive Psychology, vol. 38, 2024. | https://doi.org/10.1002/acp.70012
+- Gillian Murphy et Ciara M. Greene, « Who Got Lost in the Mall? Challenges in Counting and Classifying False Memories », Applied Cognitive Psychology, vol. 39, 2025. | https://doi.org/10.1002/acp.70044
+- Gillian Murphy, Elizabeth F. Loftus, Rebecca Hofstein Grady, Linda J. Levine et Ciara M. Greene, « False Memories for Fake News During Ireland's Abortion Referendum », Psychological Science, vol. 30, n° 10, 2019. | https://doi.org/10.1177/0956797619864887
+- Hartmut Blank et Céline Launay, « How to protect eyewitness memory against the misinformation effect: A meta-analysis of post-warning studies », Journal of Applied Research in Memory and Cognition, vol. 3, n° 2, juin 2014. | https://doi.org/10.1037/h0101798
+- Elizabeth F. Loftus et Jacqueline E. Pickrell, « The Formation of False Memories », Psychiatric Annals, vol. 25, n° 12, décembre 1995 ; résultats rappelés dans la réplication de 2023 [3]. | https://doi.org/10.3928/0048-5713-19951201-07
+- Chris R. Brewin et Bernice Andrews, « Creating Memories for False Autobiographical Events in Childhood: A Systematic Review », Applied Cognitive Psychology, vol. 31, n° 1, 2017 (publié en ligne en 2016). | https://doi.org/10.1002/acp.3220
