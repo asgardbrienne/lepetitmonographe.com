@@ -62,3 +62,4 @@ Chaque photo est utilisée selon sa licence, vérifiée sur sa page d'origine le
 | 55-deliberation-jures | assets/images/deliberation-jures.jpg | Breather, CC0, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Minimalist_meeting_room_(Unsplash).jpg |
 | 56-illusion-de-verite | assets/images/illusion-de-verite.jpg | Nurken, CC BY-SA 4.0, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Pole_loudspeaker,_Maria_Ellend,_Austria,_25_December_2025_B.jpg |
 | 57-theories-du-complot | assets/images/theories-du-complot.jpg | Patafisik, CC BY-SA 3.0, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Puzzle_pieces_1.JPG |
+| 58-maintien-ordre-manifestations | assets/images/maintien-ordre-manifestations.jpg | Dr. Thomas Liptak, CC BY-SA 4.0, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Paris,_Place_de_la_R%C3%A9publique,_Monument_%C3%A0_la_R%C3%A9publique.jpg |
