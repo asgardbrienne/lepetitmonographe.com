@@ -1120,6 +1120,9 @@ open(_m, "w", encoding="utf-8").write(_t)
 
 # ---------- Charte V1.1 : l'or réservé aux repères « Dossier » et « Collection » ----------
 def _or(mm):
+    # idempotent : une page non régénérée (aperçu de maquette) ne doit pas recevoir une balise de plus à chaque passage
+    if '<span class="or">' in mm.group(0):
+        return mm.group(0)
     return re.sub(r"\b(Dossier|Collection)\b", r'<span class="or">\1</span>', mm.group(0), count=1)
 for _f in glob.glob(os.path.join(OUT, "*.html")):
     _t = open(_f, encoding="utf-8").read()
