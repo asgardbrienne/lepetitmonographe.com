@@ -306,7 +306,12 @@ DOSSIERS = {
 _couvs = "".join(f'<img src="{couv}" alt="" width="142" height="231">' for c in ["c-economie", "c-pouvoirs", "c-affaires"] for _t, _r, _l, couv in LIVRES[c])
 livres = tete_visuel("Monographies", "Monographies",
                      "Des ouvrages de référence pour comprendre en profondeur les grands enjeux français. Quand un article ne suffit plus, le livre approfondit l'ensemble du dossier : deux collections, une même méthode.",
-                     f'<span class="couvertures-eventail">{_couvs}</span>') + "\n" + section(f"""      <div class="collection c-pouvoirs">
+                     f'<span class="couvertures-eventail">{_couvs}</span>') + "\n" + section("""      <div class="encart-methode definition-monographie">
+        <h2>Qu'est-ce qu'une monographie ?</h2>
+        <p>Une monographie est une « étude détaillée et complète d'un sujet particulier relativement restreint et se présentant normalement en un seul ouvrage », selon la définition de l'<a href="https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8353257/monographie" rel="noopener">Office québécois de la langue française</a>. Autrement dit : un livre entier consacré à un seul sujet, traité à fond.</p>
+        <p>Le mot a aussi un sens plus courant dans le monde de l'art : un ouvrage <a href="https://www.lalanguefrancaise.com/dictionnaire/definition/monographie" rel="noopener">consacré à une personne</a>, par exemple à l'œuvre d'un peintre ou d'un photographe. C'est pourquoi une recherche sur Internet fait surtout apparaître de beaux livres illustrés. <strong>Les monographies du Petit Monographe ne sont pas des livres de photographies.</strong></p>
+        <p>Ce sont des livres documentaires : un sujet d'actualité ou une affaire judiciaire, repris dans son ensemble, avec la chronologie, les chiffres, les décisions, les arguments de chaque camp et toutes les sources. Ils suivent la même <a href="methode.html">méthode</a> que les dossiers du site : faits établis et interprétations séparés, sources citées et datées, incertitudes signalées.</p>
+      </div>""", "definition") + "\n" + section(f"""      <div class="collection c-pouvoirs">
         <div class="titre-section"><h2>Collection Pouvoirs &amp; Société</h2></div>
         <p class="intro">Politique, économie, institutions et grands débats français.</p>
 {grille_livres(["c-pouvoirs", "c-economie"])}
@@ -316,7 +321,8 @@ livres = tete_visuel("Monographies", "Monographies",
         <p class="intro">Affaires judiciaires, erreurs judiciaires, dossiers non résolus. Le dossier rendu lisible : chronologie, pièces, versions contradictoires, décisions de justice et zones d'ombre.</p>
 {grille_livres(["c-affaires"])}
       </div>""")
-page("livres.html", "Monographies", "Les monographies du Petit Monographe : livres documentaires des collections Pouvoirs & Société et Affaires & Enquêtes, sourcés comme les dossiers du site.", livres)
+page("livres.html", "Monographies", "Une monographie est un livre consacré à un seul sujet, étudié en détail. Ici, pas de livres de photographies : des dossiers documentaires complets et sourcés.", livres,
+     titre_seo="Monographies : un sujet traité à fond · Le Petit Monographe")
 
 # ---------- Méthode ----------
 ETIQ = [
@@ -397,7 +403,7 @@ page("methode.html", "Notre méthode", "Les douze règles éditoriales du Petit 
 
 # ---------- À propos ----------
 apropos = tete("À propos", "Le Petit Monographe", "Une publication indépendante, sans affiliation partisane.") + "\n" + section("""      <div class="prose">
-        <p>Le Petit Monographe publie des dossiers et des monographies documentaires consacrés aux grands sujets politiques, économiques, sociaux et judiciaires contemporains.</p>
+        <p>Le Petit Monographe publie des dossiers et des monographies documentaires consacrés aux grands sujets politiques, économiques, sociaux et judiciaires contemporains. Une monographie est un livre consacré à un seul sujet, étudié en détail ; ce ne sont pas des livres de photographies (<a href="livres.html#definition">en savoir plus</a>).</p>
         <p>Il n'est lié à aucun parti, mouvement, syndicat ou candidat, et ne soutient aucune candidature. Traiter un sujet politique n'est pas prendre parti : les mêmes règles s'appliquent quel que soit le camp concerné.</p>
         <p>La méthode repose sur un principe simple : distinguer ce qui est établi de ce qui relève de l'interprétation, du débat ou de l'hypothèse. Chaque dossier s'appuie sur des sources identifiées et datées : données publiques, rapports officiels, décisions de justice, travaux parlementaires, archives, auditions et autres documents vérifiables. Lorsque les sources divergent ou qu'un élément demeure incertain, cette incertitude est signalée.</p>
         <p>Dans les affaires judiciaires, les faits établis, les accusations, les témoignages, les expertises et les hypothèses sont présentés séparément, dans le respect de la présomption d'innocence et de l'état réel des procédures.</p>
@@ -1127,7 +1133,7 @@ accueil = f'''  <h1 class="visuellement-cache">Le Petit Monographe : les faits d
   <section class="section" id="monographies">
     <div class="conteneur">
       <div class="titre-section"><h2>Monographies</h2><a class="lien-fleche" href="livres.html">Toutes les monographies{FLECHE}</a></div>
-      <p class="intro">Des ouvrages de référence pour comprendre en profondeur les grands enjeux français.</p>
+      <p class="intro">Une monographie est un livre consacré à un seul sujet, étudié en détail. Pas un livre de photographies : un dossier complet, sourcé, en un volume. <a href="livres.html#definition">Ce qu'est une monographie</a></p>
 {grille_livres(["c-pouvoirs", "c-economie", "c-affaires"])}
     </div>
   </section>

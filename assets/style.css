@@ -767,3 +767,7 @@ a:hover .fleche { transform: translateX(3px); }
 .presentation-liste .fleche { grid-column: 2; grid-row: 1 / span 2; color: var(--or); }
 .presentation-liste a:hover strong { color: var(--or-texte); }
 @media (max-width: 860px) { .presentation-grille { grid-template-columns: 1fr; gap: 28px; } .presentation { padding: 36px 0 28px; } }
+
+.definition-monographie { max-width: 760px; }
+.definition-monographie p { margin: 0 0 12px; }
+.definition-monographie p:last-child { margin-bottom: 0; }
