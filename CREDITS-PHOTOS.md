@@ -64,3 +64,4 @@ Chaque photo est utilisée selon sa licence, vérifiée sur sa page d'origine le
 | 57-theories-du-complot | assets/images/theories-du-complot.jpg | Patafisik, CC BY-SA 3.0, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Puzzle_pieces_1.JPG |
 | 58-maintien-ordre-manifestations | assets/images/maintien-ordre-manifestations.jpg | Dr. Thomas Liptak, CC BY-SA 4.0, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Paris,_Place_de_la_R%C3%A9publique,_Monument_%C3%A0_la_R%C3%A9publique.jpg |
 | 59-strategie-biais-reflexe | assets/images/strategie-biais-reflexe.jpg | Chabe01, CC BY-SA 4.0, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Portail_H%C3%B4tel_Beauvau_-_Paris_VIII_(FR75)_-_2022-05-27_-_1.jpg |
+| 60-eau-outre-mer | assets/images/eau-outre-mer.jpg | Plg56, CC BY-SA 3.0, recadrée, Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Retenue_collinaire_de_Dzoumogn%C3%A9.JPG |

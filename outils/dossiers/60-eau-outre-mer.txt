@@ -1,0 +1,164 @@
+fichier: dossier-eau-outre-mer.html
+rubrique: politique
+titre: Eau potable en outre-mer : ce qui est établi sur les coupures en Guadeloupe, en Martinique, à Mayotte et à La Réunion
+titre_court: L'eau potable en outre-mer
+chapeau: Tours d'eau, eau en bouteille, réseaux qui perdent plus de la moitié de l'eau produite : dans plusieurs départements d'outre-mer, l'accès continu à l'eau du robinet n'est pas garanti, parfois depuis plus de dix ans. Ce que disent la Cour des comptes, l'Insee, les agences régionales de santé, les juridictions et l'ONU, territoire par territoire, et ce que valent les chiffres qui circulent.
+resume: Les pertes des réseaux, les coupures et leur ancienneté en Guadeloupe et en Martinique ; la dépendance à la pluie, les tours d'eau, le choléra et l'objectif de fin des coupures en 2026 à Mayotte ; la qualité de l'eau et les cyclones à La Réunion ; le partage des responsabilités entre collectivités et État ; les plaintes et l'information judiciaire ouverte à Paris ; la vérification des chiffres qui circulent. Données arrêtées au 20 octobre 2026.
+arret: 20 octobre 2026
+publication: 20 octobre 2026
+verifie: 20 octobre 2026
+voir_aussi: dossier-maintien-ordre-manifestations.html, dossier-strategie-biais-reflexe.html, dossier-usage-force-police.html
+image: assets/images/eau-outre-mer.jpg
+image_alt: La retenue collinaire de Dzoumogné, à Mayotte, bordée de berges de terre rouge découvertes
+image_credit: Plg56, CC BY-SA 3.0, recadrée, Wikimedia Commons
+image_lien: https://commons.wikimedia.org/wiki/File:Retenue_collinaire_de_Dzoumogn%C3%A9.JPG
+---
+## Essentiel
+- En Guadeloupe, 58 % de l'eau produite en 2023 n'est pas arrivée jusqu'aux usagers, fuites et volumes non comptés confondus ; la moyenne nationale du rendement des réseaux est de 79 % en 2024 [4][33]. Les « tours d'eau », des coupures alternées planifiées, se sont imposés « progressivement comme un mode de gestion à part entière » après 2014, selon la Cour des comptes [1].
+- À Mayotte, les coupures sont en cours à la date d'arrêt des données : depuis le 15 juillet 2026, les abonnés reçoivent l'eau 30 heures sur 72, pour des besoins de 47 500 m³ par jour et une capacité de 37 000 m³ [27]. L'État s'est fixé dans la loi de 2025 l'objectif de mettre fin aux tours d'eau « d'ici la fin de l'année 2026 » [26]. Début 2024, 25 % des ménages mahorais n'avaient pas l'eau courante dans leur logement [22].
+- À La Réunion, l'eau du robinet est en majorité conforme, mais en 2021 la moitié des abonnés étaient desservis par des réseaux « ne garantissant pas une sécurité sanitaire suffisante », selon l'ARS [30].
+- La distribution de l'eau est une compétence des communes et de leurs groupements, pas de l'État [35]. La Cour des comptes relève cependant que la fin de l'appui technique de l'État a contribué, depuis la fin des années 1990, à une longue période de sous-investissement des collectivités [1]. Le plan Eau DOM de 2016 a engagé 889 millions d'euros, pour des besoins estimés à 2,3 milliards [1].
+- Une information judiciaire contre X est ouverte au pôle santé publique de Paris pour mise en danger d'autrui et fourniture d'eau non conforme en Guadeloupe entre 2017 et 2024 [16]. Les recours visant directement l'État, à Mayotte en 2023, ont été rejetés [25].
+
+[À noter] Ce dossier compare des données de sources et d'années différentes ; chaque chiffre est daté et sourcé, et les écarts entre sources sont signalés. Il ne désigne aucun responsable individuel : les procédures pénales en cours visent des faits, pas des personnes mises en examen. Rendement du réseau : part de l'eau mise en distribution qui est effectivement consommée ou comptée ; le reste correspond aux fuites et aux volumes non comptés. Tours d'eau : coupures planifiées par secteur, en alternance. Retenue collinaire : réservoir créé par un barrage, alimenté par la pluie et les ruisseaux. Contrat de progrès : engagement entre l'État et une collectivité, qui conditionne les aides à des objectifs.
+
+## Guadeloupe : un réseau qui perd plus de la moitié de l'eau
+
+[Fait établi] Le réseau guadeloupéen compte entre 2 800 et 3 119 km de canalisations ; la Cour des comptes le qualifie de « vétuste et fuyard en raison d'une absence d'entretien des infrastructures ». En 2022, le rendement était de 29,2 % sur le territoire géré directement par le syndicat unique, le SMGEAG, et supérieur à 44 % sur la partie déléguée à un opérateur privé. L'eau potable provient à 92 % des rivières, et 50 millions de bouteilles d'eau sont vendues chaque année [1].
+
+[Fait établi] À l'échelle de l'archipel, l'Office de l'eau de Guadeloupe mesure un taux de perte de 61,7 % en 2021, en précisant que des incertitudes pèsent sur les volumes comptés lors du changement de gestionnaire cette année-là [2]. Pour 2022, il est de 68 % selon les chiffres de l'Office rapportés par la presse locale, qui attribue la hausse surtout à des problèmes de comptage [3]. Pour 2023, 58 % de l'eau produite n'arrive pas aux usagers [4]. Les experts de l'ONU retiennent « plus de 60 % » [5].
+
+[Fait établi] Le nombre de personnes touchées par les coupures n'est pas mesuré de façon régulière. En juin 2021, le gouvernement indique à l'Assemblée nationale que « le quart de la population guadeloupéenne, soit environ 100 000 habitants, subit des coupures d'eau régulières » [6]. En avril 2024, le préfet estime que « 60 %-70 % de la population » est « aujourd'hui impactée » [7]. Ces deux chiffres ne reposent pas sur la même méthode et aucun comptage officiel récent n'a été trouvé.
+
+[Fait établi] La chronologie est documentée par la Cour des comptes. Entre 2005 et 2015, le retrait de l'ingénierie publique de l'État, la réforme de l'intercommunalité et les « difficultés et incuries » du principal syndicat, le SIAEAG, conduisent à un « quasi-abandon de l'investissement » ; avec le départ de l'opérateur privé en 2014, « les "tours d'eau" s'imposent progressivement comme un mode de gestion à part entière ». La loi du 29 avril 2021 crée le SMGEAG, qui remplace les anciens gestionnaires le 1er septembre 2021, sauf à Marie-Galante [1]. L'ancien président du SIAEAG de 1997 à 2014 a été reconnu coupable de détournement de fonds publics et de favoritisme en 2019, selon la Cour ; nous ne savons pas si cette décision est définitive [1].
+
+[Fait établi] Le renouvellement est lent. Selon la chambre régionale des comptes, citée par RCI, « il faudrait 208 ans pour renouveler l'ensemble des canalisations » au rythme actuel, et 1,2 milliard d'euros pour mettre fin aux tours d'eau [8]. Le 24 juin 2026, les élus réunis en congrès ont voté un plan d'urgence et demandé une opération d'intérêt national ; le Département promet 150 millions d'euros sur quatre ans, l'État 14 millions sous conditions pour le déficit 2026 du syndicat, après 65 millions versés en quatre ans. Le préfet déclare que l'État « n'a pas vocation à se retirer de ce dossier, mais n'a pas vocation non plus à y rester seul » [9].
+
+[Débat] Les chiffres sur le renouvellement divergent. La Cour des comptes donne pour le SMGEAG un taux de renouvellement de 0,62 % par an en 2022, proche de l'objectif national de 0,5 %, « sans pour autant qu'aucune véritable amélioration de la qualité du service ne soit perceptible » [1]. Ce taux correspondrait à environ 160 ans pour renouveler tout le réseau, contre 208 ans selon la chambre régionale. Les périmètres et les années ne sont pas les mêmes, et le rapport définitif de la chambre n'a pas pu être consulté.
+
+## Martinique : un réseau fragile en saison sèche
+
+[Fait établi] En Martinique, le réseau compte 3 800 km de canalisations ; la production annuelle est de 40 millions de m³ pour 23 millions de m³ consommés, soit un taux de perte global « d'environ 42 % », avec de fortes différences entre intercommunalités. Le taux de renouvellement est d'environ 0,2 % par an, inférieur à l'objectif national [1]. La Martinique ne connaît pas de tours d'eau permanents, mais des coupures tournantes en saison sèche : en juillet 2026, à Fort-de-France, au Lamentin et à Schœlcher, faute de débit suffisant à l'usine de Didier [18].
+
+## Antilles : l'eau, le chlordécone et la vie quotidienne
+
+[Fait établi] Le chlordécone, un insecticide utilisé dans les bananeraies jusqu'en 1993, contamine durablement les sols et les rivières. En Guadeloupe, seules 36 % des 47 masses d'eau de cours d'eau sont en bon état, « du fait de la présence de chlordécone, cuivre et zinc notamment » [1]. L'eau du robinet est, elle, traitée par charbon actif sur les captages exposés ; l'ARS de Guadeloupe indique y renforcer les contrôles et, en cas de non-conformité, prononcer une « interdiction de consommation de l'eau » avec distribution d'eau en bouteille [12]. Il ne faut donc pas confondre l'état des rivières et celui de l'eau distribuée, même si des dépassements ponctuels sont signalés.
+
+[Fait établi] La Défenseure des droits a relevé en mars 2023, dans certaines écoles de Guadeloupe et de Martinique, « jusqu'à 20 % de jours de classe perdus, sans être rattrapés, au cours de l'année 2021 », du fait des grèves et d'événements climatiques et environnementaux [11]. La commission d'enquête de l'Assemblée nationale écrivait en 2021 que des enfants « manquent jusqu'à un mois et demi de cours par an » en Guadeloupe à cause des coupures, une estimation parlementaire sans données du rectorat [10].
+
+[Témoignage] Des habitants recourent à l'eau des rivières pour les usages domestiques. Un habitant de Capesterre-Belle-Eau explique à RCI l'utiliser « uniquement pour les sanitaires, pour la vaisselle » et acheter de l'eau en bouteille pour boire [13]. Aucune source ne chiffre ce phénomène.
+
+## Mayotte : la pluie, les tours d'eau et le choléra
+
+[Fait établi] À Mayotte, la ressource dépend « à 95 % de la pluviométrie », selon le gouvernement en 2023 [20]. Les deux retenues collinaires ne sont pas la seule source : en 2021, les prélèvements venaient à 47 % des rivières, à 24 % des forages, à 17 % des retenues et à 12 % de l'eau de mer dessalée, selon l'ARS [19]. Les rivières et les retenues dépendent toutes deux des pluies, d'où la vulnérabilité de l'île aux sécheresses.
+
+[Fait établi] Les crises sont récurrentes. En août 2023, après une sécheresse que le gouvernement juge « inédite depuis 26 ans », le préfet annonce des coupures de 48 heures sur toute l'île à partir du 4 septembre, soit l'eau un jour sur trois [20][21]. Fin décembre 2023, près de 400 000 litres d'eau en bouteille sont distribués chaque jour, avec environ 580 agents de l'État mobilisés, selon le Conseil d'État [25]. Après le cyclone Chido de décembre 2024, le Premier ministre rappelle que « la distribution était déjà insuffisante » [36].
+
+[Fait établi] Début 2024, avant Chido, 25 % des ménages ne disposaient pas d'eau courante dans leur logement, selon l'enquête Logement de l'Insee [22].
+
+[Fait établi] En 2024, une épidémie de choléra a touché Mayotte : 221 cas et 5 décès attribués au choléra au 29 juillet, selon Santé publique France [23]. L'agence situait les premiers foyers à Koungou, « dans un quartier précaire avec des difficultés d'accès à l'eau potable et des défauts d'assainissement » [24].
+
+[Fait établi] La loi de programmation pour la refondation de Mayotte du 11 août 2025 programme 730 millions d'euros pour l'eau et l'assainissement. L'État s'y engage à réaliser une deuxième usine de dessalement à Ironi Bé, « opérationnelle en 2026 », et une troisième retenue collinaire, et poursuit un objectif de fin des tours d'eau « d'ici la fin de l'année 2026 » [26]. Le 15 juillet 2026, les tours d'eau sont au contraire durcis [27]. Le 31 juillet 2026, le tribunal administratif de Mayotte a suspendu l'autorisation environnementale de l'usine d'Ironi Bé, saisi par trois associations de protection de la nature, et donné six mois au syndicat des eaux et au préfet pour corriger trois illégalités [28].
+
+[Interprétation] À la date d'arrêt des données, l'objectif d'une eau disponible en continu fin 2026 paraît hors d'atteinte : la capacité de production reste inférieure d'environ un cinquième aux besoins, et la principale infrastructure nouvelle est suspendue par la justice [27][28].
+
+## La Réunion : de l'eau, mais pas toujours sûre
+
+[Fait établi] La Réunion dispose de ressources plus abondantes et d'un réseau dont le rendement atteint 61 % en 2023. La même année, 96 % des analyses étaient conformes en microbiologie et 98 % en physico-chimie, selon l'Office de l'eau [29]. Mais selon l'ARS, en 2021, seuls 45 % des abonnés recevaient une eau ayant fait l'objet d'un « traitement de potabilisation adapté » ; 50 % étaient desservis par des réseaux « ne garantissant pas une sécurité sanitaire suffisante » et 5 % étaient exposés à un « risque microbiologique avéré » [30].
+
+[Fait établi] Les coupures y sont liées aux sécheresses et aux cyclones. En février 2025, en pleine sécheresse, 28 240 personnes restaient approvisionnées en eau embouteillée [31]. Après le cyclone Garance, le 2 mars 2025, plus de 36 % de la population n'avait pas encore accès à l'eau potable, soit plus de 300 000 personnes selon la préfecture [32].
+
+[Figure] barres-h
+titre: Un renouvellement des réseaux très inégal selon les territoires
+unite: Taux moyen de renouvellement des réseaux d'eau potable, en % du linéaire par an, données 2022 sauf Mayotte (2020)
+donnees:
+- Guadeloupe (SMGEAG, en régie) | 0,62
+- La Réunion (moyenne, environ) | 0,5
+- Martinique (environ) | 0,2
+- Mayotte (environ) | 0,06
+- Objectif national | 0,5
+source: Cour des comptes, La gestion de l'eau potable et de l'assainissement en outre-mer, janvier 2025 [1]
+lecture: Au rythme de 0,06 % par an, renouveler l'ensemble du réseau de Mayotte prendrait plus de 1 600 ans, contre 200 ans au rythme de l'objectif national.
+note: Valeurs arrondies par la Cour pour la Martinique, La Réunion et Mayotte ; les durées de la phrase de lecture sont un calcul du Petit Monographe (100 divisé par le taux annuel). Un taux de renouvellement proche de l'objectif ne garantit pas un bon service : la Cour le souligne pour la Guadeloupe.
+
+## Qui est responsable ?
+
+[Fait établi] La loi confie la distribution de l'eau potable aux communes, puis à leurs intercommunalités ; l'État intervient par le contrôle sanitaire des ARS, les préfets et les financements [35]. La Cour des comptes estime que les services de l'État ont longtemps « soutenu voire suppléé » les communes d'outre-mer, et que la fin de cet appui technique, « combinée localement à des difficultés de gouvernance et de leadership politique », explique en partie « depuis la fin des années 1990, une longue période de sous-investissement et de négligence de leur part dans l'entretien des réseaux » [1].
+
+[Fait établi] La commission d'enquête de l'Assemblée nationale sur l'eau, présidée par Mathilde Panot et dont le rapporteur était Olivier Serva, a parlé en 2021 d'un « État qui n'a pas écouté les signaux de la dégradation du service et qui a failli dans son rôle de conseil », tout en relevant que « les élus portent une part de responsabilité » [10]. Les experts de l'ONU attribuent en 2024 la situation guadeloupéenne à « de nombreuses années de négligence de la part des opérateurs privés, des collectivités locales et de l'Etat » [5].
+
+[Fait établi] Le plan Eau DOM, lancé en 2016 pour dix ans, a engagé 889 millions d'euros, dont 410 millions de subventions de l'État et 479 millions de prêts ; les besoins recensés dans les contrats de progrès s'élèvent à 2,3 milliards d'euros pour les six territoires concernés. La Cour juge la logique de conditionnalité des aides « inaboutie » [1].
+
+[Débat] L'expression « discrimination environnementale » est employée par des associations, dont Notre Affaire à Tous dans son rapport « Soif de justice » de juin 2025 transmis à l'ONU [17]. Elle n'apparaît pas dans les documents officiels consultés. Une formule souvent reprise, « 40 ans de retard » des outre-mer dans la politique de l'eau, est attribuée à un rapport d'inspection de 2013 que nous n'avons pas pu consulter ; elle porte sur la politique de l'eau, pas sur les seuls investissements de l'État [34].
+
+## Les procédures judiciaires
+
+[État de la procédure] En Guadeloupe, le 15 mai 2020, le juge des référés du tribunal administratif a enjoint au SIAEAG de fournir chaque jour à des habitants de Saint-François un pack de six bouteilles d'1,5 litre pendant l'état d'urgence sanitaire, en qualifiant l'accès à l'eau de « droit fondamental indissociable du droit à la vie et à la dignité humaine » [14]. Le 10 février 2023, le collectif La Goutte d'Eau a porté plainte contre le SMGEAG, le SIAEAG, une communauté d'agglomération « et toute personne » que l'enquête mettrait en cause ; il revendique plus de 229 plaignants en mai 2025 [15].
+
+[État de la procédure] Une information judiciaire contre X est ouverte devant un juge d'instruction du pôle santé publique de Paris pour mise en danger d'autrui, liée aux coupures, et fourniture d'eau non conforme, pour des faits commis entre le 1er janvier 2017 et le 5 septembre 2024. Aucune mise en examen n'est connue à la date d'arrêt des données [16].
+
+[État de la procédure] À Mayotte, l'association Notre Affaire à Tous, le collectif « Mayotte a soif » et 18 particuliers demandaient au juge d'ordonner au préfet un plan d'urgence pour l'eau. Le Conseil d'État a rejeté leur requête le 26 décembre 2023, jugeant qu'il n'y avait pas d'atteinte grave et manifestement illégale aux libertés « notamment compte tenu des mesures déjà prises » ; il qualifie la situation de « crise hydrique exceptionnelle » due à « un déficit structurel de production d'eau » [25].
+
+## Les chiffres qui circulent
+
+[À noter] Un texte largement partagé sur l'eau en outre-mer mêle des faits exacts et des chiffres déformés. Voici ce que les sources permettent de dire.
+
+[Interprétation] « Près de 70 % de l'eau s'évapore dans la nature » en Guadeloupe : exagéré. Les pertes sont de 58 % à 68 % selon les années récentes, et elles incluent des volumes non comptés, pas seulement des fuites ; 71 % ne concerne que le territoire en régie du SMGEAG en 2022 [1][3][4].
+
+[Interprétation] « Selon la Cour des comptes, il faudrait plus de 200 ans » : le chiffre vient de la chambre régionale des comptes de Guadeloupe, pas de la Cour, et concerne le seul syndicat SMGEAG [8].
+
+[Interprétation] « Plus de 80 000 habitants » privés d'eau en Guadeloupe : ce chiffre n'apparaît comme total régional dans aucune source officielle consultée. Le seul chiffre officiel est d'environ 100 000 habitants concernés par des coupures régulières en 2021 ; le préfet a évoqué 60 à 70 % de la population en 2024, sans comptage publié [6][7].
+
+[Interprétation] À Mayotte, l'eau dépendrait « presque exclusivement » de deux retenues : inexact. Les retenues fournissent environ un sixième des prélèvements ; c'est la dépendance à la pluie qui est presque totale [19][20].
+
+[Interprétation] Un « marché noir » de l'eau à 80 ou 100 euros le m³ : aucune source vérifiable n'a été trouvée. Cette affirmation n'est pas reprise ici.
+
+[Interprétation] « 20 % des jours d'école perdus » : le chiffre existe, mais il porte sur certaines écoles des Antilles en 2021 et sur l'ensemble des causes, dont les grèves, pas sur le seul manque d'eau [11].
+
+[Interprétation] « Des ONG ont attaqué l'État » : la plupart des actions visent les syndicats des eaux et les collectivités ; la seule requête dirigée contre l'État trouvée, à Mayotte, a été rejetée [14][15][25].
+
+## Ce qu'on ne sait pas
+- **Le nombre de personnes privées d'eau de façon régulière en Guadeloupe aujourd'hui** : aucun comptage officiel récent n'a été trouvé [6][7].
+- **Le nombre de jours d'école perdus à cause du seul manque d'eau**, en Guadeloupe comme à Mayotte : aucune donnée des rectorats n'a été trouvée.
+- **Le coût total de la distribution d'eau en bouteille à Mayotte en 2023 et 2024** : aucun chiffre officiel consolidé n'a été trouvé.
+- **Le contenu du rapport définitif de la chambre régionale des comptes de Guadeloupe** de 2025 et la méthode de calcul des 208 ans [8].
+- **Les suites de l'information judiciaire ouverte à Paris** et de la plainte du collectif La Goutte d'Eau [15][16].
+- **La date réelle de mise en service de l'usine d'Ironi Bé**, après la suspension de son autorisation [28].
+
+## Sources
+- Cour des comptes, « La gestion de l'eau potable et de l'assainissement en outre-mer », communication à la commission des finances du Sénat, janvier 2025, publiée le 12 mars 2025. | https://www.ccomptes.fr/fr/publications/la-gestion-de-leau-potable-et-de-lassainissement-en-outre-mer
+- Office de l'eau Guadeloupe, « Eau et assainissement, les chiffres clés 2023 » (données 2021). | https://www.eauguadeloupe.com/_files/ugd/50d6f8_bb9440ce93c74842b06bdce0e30542ac.pdf
+- Source secondaire : Le Courrier de Guadeloupe, « 68 % des volumes d'eau potable perdus », 17 décembre 2024 (chiffres de l'Office de l'eau pour 2022). | https://lecourrierdeguadeloupe.com/68-des-volumes-deau-potable-perdus/?print=pdf
+- RCI, « Eau en Guadeloupe : près de 60 % des volumes perdus et une qualité des ressources en baisse », 7 janvier 2026 (données 2023). | https://rci.fm/guadeloupe/infos/Societe/Eau-en-Guadeloupe-pres-de-60-des-volumes-perdus-et-une-qualite-des-ressources-en
+- ONU Info, « Guadeloupe : des experts de l'ONU exhortent la France à garantir l'accès à l'eau potable », 28 mars 2024. | https://news.un.org/fr/story/2024/03/1144446
+- Assemblée nationale, question au Gouvernement n° 4186, réponse publiée au JO le 30 juin 2021. | https://www.assemblee-nationale.fr/dyn/15/questions/QANR5L15QG4186.pdf
+- L'info durable (avec AFP), « Guadeloupe : l'origine de la crise de l'eau, des décennies de défaillances », 16 avril 2024. | https://www.linfodurable.fr/guadeloupe-lorigine-de-la-crise-de-leau-des-decennies-de-defaillances-44860
+- RCI, « Congrès de l'eau en Guadeloupe : les élus réunis face à l'urgence d'une crise qui dure », juin 2026 (cite le rapport de la chambre régionale des comptes de juillet 2025). | https://rci.fm/guadeloupe/infos/Societe/Congres-de-leau-en-Guadeloupe-les-elus-reunis-face-lurgence-dune-crise-qui-dure
+- L'info durable (avec AFP), « Crise de l'eau en Guadeloupe : les élus votent un plan d'urgence et sollicitent l'État », 25 juin 2026. | https://www.linfodurable.fr/crise-de-leau-en-guadeloupe-les-elus-votent-un-plan-durgence-et-sollicitent-letat-57433
+- Assemblée nationale, rapport n° 4376 de la commission d'enquête relative à la mainmise sur la ressource en eau par les intérêts privés et ses conséquences, présidente Mme Mathilde Panot, rapporteur M. Olivier Serva, 15 juillet 2021. | https://www.assemblee-nationale.fr/dyn/15/rapports/ceeau/l15b4376_rapport-enquete.pdf
+- Maire-info, « Antilles : la Défenseure des droits critique un accès entravé aux services publics », 27 mars 2023. | https://www.maire-info.com/outre-mer/antilles-la-defenseure-des-droits-critique-un-acces-entrave-aux-services-publics-article-27348
+- ARS Guadeloupe, « La qualité de l'eau du robinet », page mise à jour en septembre 2026. | https://www.guadeloupe.ars.sante.fr/la-qualite-de-leau-du-robinet
+- RCI, « Eau secours : coupures d'eau, quand les habitants se tournent vers la rivière », 26 novembre 2025. | https://rci.fm/guadeloupe/infos/Societe/Eau-secours-Coupures-deau-quand-les-habitants-se-tournent-vers-la-riviere
+- Tribunal administratif de la Guadeloupe, ordonnance de référé n° 2000384 du 15 mai 2020. | https://guadeloupe.tribunal-administratif.fr/Media/mediatheque-ta-guadeloupe/import/2000384
+- Ligue des droits de l'Homme, communiqué de presse du 15 mai 2025 sur l'eau en Guadeloupe. | https://www.ldh-france.org/wp-content/uploads/2025/05/15.05.25-Communique-de-presse-2.pdf
+- L'info durable (avec AFP), « Eau potable en Guadeloupe : une enquête pénale ouverte à Paris », 28 septembre 2026. | https://www.linfodurable.fr/environnement/eau-potable-en-guadeloupe-une-enquete-penale-ouverte-paris-59150
+- Banque des territoires, Localtis, Anne Lenormand, « Accès à l'eau potable dans les outre-mer : des ONG dénoncent une "discrimination environnementale" », 23 juin 2025. | https://www.banquedesterritoires.fr/acces-leau-potable-dans-les-outre-mer-des-ong-denoncent-une-discrimination-environnementale
+- RCI, « Sécheresse : des coupures d'eau tournantes à partir de ce mardi à Fort-de-France », 21 juillet 2026. | https://rci.fm/martinique/infos/Informations-pratiques/Secheresse-des-coupures-deau-tournantes-partir-de-ce-mardi-Fort-de
+- ARS Mayotte, « Bilan de la qualité des eaux destinées à la consommation humaine, année 2021 », septembre 2022. | https://www.mayotte.ars.sante.fr/system/files/2022-09/Bilan_Qualit%C3%A9%20EDCH_ARS_Ann%C3%A9e%202021_vf.pdf
+- Assemblée nationale, question écrite n° 6983 (16e législature) et réponse du gouvernement, 2023. | https://www.assemblee-nationale.fr/dyn/16/questions/QANR5L16QE6983.pdf
+- Outremers 360, « Mayotte : le préfet annonce des coupures d'eau 2 jours sur 3 pour faire face à la pénurie », 24 août 2023. | https://outremers360.com/bassin-indien-appli/mayotte-le-prefet-annonce-des-coupures-deau-2-jours-sur-3-pour-faire-face-a-la-penurie
+- Insee, « Des conditions de logement toujours précaires à Mayotte, malgré quelques améliorations », Insee Analyses Mayotte n° 42, 18 juin 2026. | https://www.insee.fr/fr/statistiques/9007686
+- Santé publique France, « Choléra à Mayotte. Point au 29 juillet 2024 », 30 juillet 2024. | https://www.santepubliquefrance.fr/index.php/regions-et-territoires/ocean-indien/bulletin-regional/cholera-a-mayotte-point-au-29-juillet-2024
+- Santé publique France, bulletin choléra Mayotte du 8 mai 2024. | https://www.santepubliquefrance.fr/sites/default/files/rdd/document/bullreg_cholera_mayotte_20240508.pdf
+- Conseil d'État, ordonnance de référé n° 489993 du 26 décembre 2023, Notre Affaire à Tous et autres. | https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-12-26/489993
+- Loi n° 2025-797 du 11 août 2025 de programmation pour la refondation de Mayotte, JO du 12 août 2025, rapport annexé (copie publiée par la Fédération hospitalière de France). | https://www.fhf.fr/sites/default/files/2025-08/LOI%20n%C2%B0%202025-797%20du%2011%20ao%C3%BBt%202025%20de%20programmation%20pour%20la%20refondation%20de%20Mayotte%20%281%29_0.pdf
+- Mayotte Hebdo, David Bismuth, « Mayotte s'apprête à durcir les tours d'eau », 15 juillet 2026. | https://www.mayottehebdo.com/actualite/environnement/mayotte-sapprete-a-durcir-les-tours-deau/
+- Tribunal administratif de Mayotte, communiqué de presse du 31 juillet 2026, jugement n° 2501809 sur l'usine de dessalement d'Ironi Bé. | https://mayotte.tribunal-administratif.fr/Media/mediatheque-ta-mayotte/documents/2026/juillet/cp-2501809
+- Office de l'eau Réunion, « Chroniques de l'eau » n° 146, août 2025. | https://www.eaureunion.fr/fileadmin/user_upload/Chroniques/2025/25.08.08_CHRONIQUES_de_L_EAU_146.pdf
+- ARS La Réunion, « Qualité de l'eau du robinet, bilan 2021 », septembre 2022. | https://www.lareunion.ars.sante.fr/system/files/2022-09/ARS_BILAN_QUALITE_EAU.pdf
+- ARS La Réunion, fiche de situation sécheresse du 6 février 2025. | https://lareunion.ars.sante.fr/system/files/2025-02/20250206_fiche%20situation%20s%C3%A9cheresse.pdf
+- Maire-info, « La Réunion lourdement frappée par le cyclone Garance », 3 mars 2025. | https://www.maire-info.com/la-reunion-lourdement-frappee-par-le-cyclone-garance-article2-29455
+- Office français de la biodiversité, observatoire SISPEA, communiqué sur les données 2024 des services d'eau et d'assainissement, 25 juin 2026. | https://ofb.gouv.fr/sites/ofb-gouv-fr/files/2026-07/cp_sispea_2024_0.pdf
+- Source secondaire : Coalition Eau, étude sur l'accès à l'eau et à l'assainissement dans les outre-mer, 2019 (cite le rapport interinspections de juin 2013 sur la politique de l'eau). | https://www.coordinationsud.org/wp-content/uploads/rapport-etude-outre-mer-coalition-eau-compressed.pdf
+- Collectivités locales (portail de l'État), « L'eau et l'assainissement ». | https://www.collectivites-locales.gouv.fr/leau-et-lassainissement
+- Premier ministre, communiqué de presse du 30 décembre 2024 sur la reconstruction de Mayotte après le cyclone Chido (copie publiée sur le site fna.fr). | https://fna.fr/wp-content/uploads/2024/12/Communique-de-presse-Premier-ministre-30-decembre-2024.pdf
