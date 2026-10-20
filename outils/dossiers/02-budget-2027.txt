@@ -2,6 +2,8 @@ fichier: dossier-budget-2027.html
 rubrique: economie
 titre: Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques
 titre_court: Budget 2027
+titre_seo: Budget 2027 : le projet et l'avis du HCFP
+description: Budget 2027 : objectif de déficit de 5,0 % du PIB, montant et répartition de l'effort, réalisme des prévisions selon le Haut Conseil des finances publiques.
 chapeau: Le gouvernement vise un déficit public de 5,0 % du PIB en 2027. Le montant de l'effort annoncé, sa répartition et le réalisme des prévisions font débat.
 resume: Objectif de déficit, effort de 54 milliards, répartition entre dépenses et recettes, avis du Haut Conseil des finances publiques. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

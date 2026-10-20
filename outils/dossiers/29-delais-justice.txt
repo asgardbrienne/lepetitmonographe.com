@@ -2,6 +2,8 @@ fichier: dossier-delais-justice-penale.html
 rubrique: affaires
 titre: Combien de temps faut-il pour être jugé en France ?
 titre_court: Les délais de la justice pénale
+titre_seo: Délais de la justice pénale en France
+description: Neuf mois en moyenne pour une affaire correctionnelle, plus de quatre ans avec un juge d'instruction : combien de temps faut-il pour être jugé en France ?
 chapeau: Un peu plus de neuf mois en moyenne pour une affaire correctionnelle, plus de quatre ans quand elle passe par un juge d'instruction. Les délais de la justice pénale varient fortement selon la procédure.
 resume: Délais moyens par type de procédure, durée de l'instruction, engorgement des juridictions criminelles, réformes successives des cours criminelles jusqu'à la loi du 23 juillet 2026, effectifs comparés à l'Europe et pistes débattues. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

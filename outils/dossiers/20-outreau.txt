@@ -2,6 +2,8 @@ fichier: dossier-outreau.html
 rubrique: affaires
 titre: Outreau : comment une erreur judiciaire collective s'est produite
 titre_court: L'affaire d'Outreau
+titre_seo: Affaire d'Outreau : l'erreur judiciaire
+description: Outreau : dix-sept accusés, treize acquittés, une commission d'enquête parlementaire. Comment une erreur judiciaire collective s'est produite, pièces à l'appui.
 chapeau: En 2004 puis en appel en 2005, dix-sept personnes ont été jugées par une cour d'assises pour des viols et agressions sexuelles sur des enfants à Outreau. Treize ont finalement été acquittées. L'affaire a donné lieu à la première commission d'enquête parlementaire de la Ve République consacrée au fonctionnement de la justice.
 resume: Procédure expliquée, chronologie, ce que la justice a établi et n'a pas établi, commission d'enquête parlementaire, débat sur la parole de l'enfant et réformes qui ont suivi (loi du 5 mars 2007, responsabilité des magistrats). Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

@@ -2,6 +2,8 @@ fichier: dossier-parole-violences-sexuelles.html
 rubrique: psychologie
 titre: Violences sexuelles : pourquoi la parole des plaignants est mise en doute, et ce que la recherche en dit
 titre_court: La parole mise en doute
+titre_seo: Violences sexuelles : la parole mise en doute
+description: Plainte tardive, absence de résistance, contact maintenu : ce que les données, la psychologie et le droit établissent sur la parole des plaignants, et leurs limites.
 chapeau: Porter plainte des années après, ne pas s'être débattu, être resté en contact : ces comportements sont souvent lus comme des signes de mensonge. Ce que les données, la psychologie et le droit permettent d'établir, et ce qu'ils ne permettent pas de conclure.
 resume: Délais de plainte, sidération, mémoire, stéréotypes, fausses accusations, classements sans suite, victimisation secondaire et présomption d'innocence. Dossier fondateur de la rubrique, sans examen d'une affaire particulière. Données arrêtées au 18 octobre 2026.
 arret: 18 octobre 2026

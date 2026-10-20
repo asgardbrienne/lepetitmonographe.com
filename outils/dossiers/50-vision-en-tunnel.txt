@@ -2,6 +2,8 @@ fichier: dossier-vision-en-tunnel.html
 rubrique: psychologie
 titre: La vision en tunnel : comment des enquêteurs et des experts de bonne foi écartent les éléments qui contredisent leur hypothèse
 titre_court: La vision en tunnel
+titre_seo: La vision en tunnel dans les enquêtes
+description: Comment des enquêteurs et des experts de bonne foi écartent ce qui contredit leur hypothèse : ce que montrent les expériences.
 chapeau: Une enquête commence toujours par une hypothèse. Le risque apparaît quand elle devient une certitude et que les éléments contraires paraissent moins fiables, moins utiles, ou ne sont plus recherchés. Ce que les expériences menées avec des enquêteurs et des experts établissent, ce qu'elles nuancent, et ce que les institutions ont tenté pour s'en prémunir.
 resume: Biais de confirmation, besoin de conclure, interrogatoires orientés par la présomption de culpabilité, experts en empreintes influencés par le contexte, l'erreur d'identification de l'attentat de Madrid, la leçon d'Outreau et les contre-mesures. Données arrêtées au 19 octobre 2026.
 arret: 19 octobre 2026

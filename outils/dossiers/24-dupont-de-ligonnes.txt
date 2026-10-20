@@ -2,6 +2,8 @@ fichier: dossier-dupont-de-ligonnes.html
 rubrique: affaires
 titre: Affaire Dupont de Ligonnès : ce qui est établi quinze ans après
 titre_court: L'affaire Dupont de Ligonnès
+titre_seo: Affaire Dupont de Ligonnès : ce qui est établi
+description: Nantes, avril 2011 : une mère et ses quatre enfants tués, le père jamais retrouvé. Ce qui est établi quinze ans après, et ce qui relève de l'hypothèse.
 chapeau: En avril 2011, les corps d'une mère et de ses quatre enfants sont découverts sous la terrasse de leur maison à Nantes. Le père, recherché, n'a jamais été retrouvé. La plupart des « pistes » publiées depuis relèvent de l'hypothèse.
 resume: Faits établis, procédure expliquée, chronologie, éléments matériels, thèses en présence, fausses pistes dont l'erreur de Glasgow, et état de l'enquête en 2026 : ce que l'on sait et ce que l'on ne sait pas. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

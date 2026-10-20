@@ -2,6 +2,8 @@ fichier: dossier-adn-reconnaissance-faciale.html
 rubrique: affaires
 titre: ADN et reconnaissance faciale : ce que ces preuves peuvent et ne peuvent pas établir
 titre_court: ADN et reconnaissance faciale
+titre_seo: ADN et reconnaissance faciale : limites
+description: L'ADN, « reine des preuves », et la reconnaissance faciale peuvent se tromper. Ce que ces preuves établissent, ce qu'elles n'établissent pas, et leur encadrement.
 chapeau: L'ADN est souvent présenté comme la « reine des preuves » et la reconnaissance faciale comme un outil d'identification fiable. Les deux peuvent se tromper, et leur usage est encadré par des règles dont les juridictions contrôlent le respect.
 resume: Contamination et transfert d'ADN, histoire et taille du fichier des empreintes génétiques, contrôle du Conseil constitutionnel et de la Cour européenne, fiabilité mesurée des algorithmes de reconnaissance faciale, usage par la police, règlement européen sur l'IA, loi du 23 juillet 2026 et décisions de justice récentes. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

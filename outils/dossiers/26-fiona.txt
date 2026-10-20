@@ -2,6 +2,8 @@ fichier: dossier-fiona.html
 rubrique: affaires
 titre: Affaire Fiona : trois procès pour établir les responsabilités
 titre_court: L'affaire Fiona
+titre_seo: Affaire Fiona : trois procès d'assises
+description: Clermont-Ferrand, 2013 : la disparition d'une fillette se révèle un mensonge. Trois procès d'assises et un arrêt de cassation pour fixer les responsabilités.
 chapeau: En mai 2013, la disparition signalée d'une fillette de 5 ans dans un parc de Clermont-Ferrand se révèle être un mensonge de sa mère et du compagnon de celle-ci. Il a fallu trois procès d'assises menés à leur terme, et un arrêt de cassation, pour fixer les responsabilités dans sa mort.
 resume: Enquête, instruction, procès successifs, cassation et peines définitives dans l'affaire Fiona ; ce que la justice a établi, ce qu'elle n'a pas pu établir et ce que l'affaire montre du fonctionnement de la cour d'assises. Données arrêtées au 16 octobre 2026.
 arret: 16 octobre 2026

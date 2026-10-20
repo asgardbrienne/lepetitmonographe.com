@@ -2,6 +2,8 @@ fichier: dossier-retraites-financement.html
 rubrique: economie
 titre: Qui finance les retraites ?
 titre_court: Le financement des retraites
+titre_seo: Qui finance les retraites en France ?
+description: Les retraites ne sont pas financées que par les cotisations : impôts et taxes affectés en couvrent une part croissante. Qui paie quoi, chiffres officiels à l'appui.
 chapeau: Les pensions ne sont pas financées uniquement par les cotisations des actifs. Les impôts et taxes affectés en couvrent une part croissante, et l'État assure l'équilibre du régime de ses fonctionnaires.
 resume: Ressources, dépenses et solde du système de retraite selon le Conseil d'orientation des retraites. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

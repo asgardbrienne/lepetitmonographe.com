@@ -2,6 +2,8 @@ fichier: dossier-soumission-autorite.html
 rubrique: psychologie
 titre: La soumission à l'autorité : ce que les expériences de Milgram et leurs réplications établissent, et ce qu'elles n'établissent pas
 titre_court: La soumission à l'autorité
+titre_seo: Milgram et la soumission à l'autorité
+description: Ce que les expériences de Milgram et leurs réplications établissent sur l'obéissance, et ce que les archives et les variantes changent à leur lecture.
 chapeau: Deux participants sur trois prêts à administrer, sur ordre, la décharge la plus forte d'un générateur marqué « danger » : le chiffre de Stanley Milgram est l'un des plus cités de la psychologie. Les réplications récentes confirment un haut niveau d'obéissance, mais les archives, la synthèse de toutes les variantes et les neurosciences en compliquent la lecture.
 resume: L'expérience de 1963, les 21 variantes et leur taux moyen, les réplications de 2009 et 2017, la transposition française en jeu télévisé, les doutes des participants révélés par les archives, l'adhésion à l'autorité plutôt que l'obéissance aveugle, et la mesure du sentiment de responsabilité sous la contrainte. Données arrêtées au 19 octobre 2026.
 arret: 19 octobre 2026

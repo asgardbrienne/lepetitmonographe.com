@@ -2,6 +2,8 @@ fichier: dossier-deepfakes.html
 rubrique: economie
 titre: Deepfakes : ce que dit le droit et ce que permet la technique
 titre_court: Les deepfakes
+titre_seo: Deepfakes : ce que dit le droit
+description: Vidéos et voix truquées par l'IA : ce que punit le droit français, ce qu'impose le droit européen, et ce que la technique permet aujourd'hui de détecter.
 chapeau: Les vidéos et enregistrements fabriqués par intelligence artificielle sont de plus en plus réalistes. Le droit français punit leur diffusion trompeuse et le droit européen impose désormais leur signalement.
 resume: Infractions prévues par la loi SREN, obligations de transparence du règlement européen sur l'IA, limites de la détection. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

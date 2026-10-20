@@ -2,6 +2,8 @@ fichier: dossier-polarisation-groupe.html
 rubrique: psychologie
 titre: La polarisation de groupe : pourquoi un groupe qui délibère prend souvent une position plus tranchée que ses membres
 titre_court: La polarisation de groupe
+titre_seo: La polarisation de groupe expliquée
+description: Jurys, comités, réseaux sociaux : pourquoi un groupe qui délibère adopte souvent une position plus tranchée que ses membres. Expériences, mécanismes et limites.
 chapeau: Jurys, comités, partis, groupes en ligne : après discussion, un groupe aboutit souvent à une position plus marquée que la moyenne de ses membres au départ. Ce que les expériences montrent depuis les années 1960, les deux mécanismes avancés, les cas où le phénomène ne se produit pas, et ce que la recherche récente dit des réseaux sociaux.
 resume: Expériences fondatrices, jurys fictifs et sévérité des sanctions, expérience du Colorado, mécanismes d'influence sociale et d'arguments, conditions qui évitent la polarisation, chambres d'écho et résultats contradictoires sur Facebook et Twitter. Données arrêtées au 19 octobre 2026.
 arret: 19 octobre 2026

@@ -2,6 +2,8 @@ fichier: dossier-flactif.html
 rubrique: affaires
 titre: Affaire Flactif : ce que la justice a établi
 titre_court: L'affaire Flactif
+titre_seo: Affaire Flactif : ce que la justice a établi
+description: Une famille de cinq personnes tuée au Grand-Bornand en 2003, un voisin condamné à perpétuité en 2006 : la chronologie et ce que la justice a établi.
 chapeau: Le 11 avril 2003, une famille de cinq personnes est tuée au Grand-Bornand, en Haute-Savoie. Le meurtrier, un voisin, a été condamné à la réclusion criminelle à perpétuité en 2006.
 resume: Enquête scientifique, procédure, faits jugés, peines, désistement d'appel inédit de 2007 et demande de libération conditionnelle déposée en 2025, dans l'affaire de la tuerie du Grand-Bornand. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

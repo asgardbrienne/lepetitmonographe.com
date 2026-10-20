@@ -2,6 +2,8 @@ fichier: dossier-pacte-migration-asile.html
 rubrique: politique
 titre: Le pacte européen sur la migration et l'asile : ce qui a changé le 12 juin 2026
 titre_court: Le pacte migration et asile
+titre_seo: Pacte migration et asile : ce qui change
+description: Le pacte européen sur la migration et l'asile s'applique depuis le 12 juin 2026 : filtrage aux frontières, nouvelles procédures, solidarité entre États.
 chapeau: Adopté en 2024, le pacte européen sur la migration et l'asile s'applique depuis le 12 juin 2026. Il crée un filtrage obligatoire aux frontières, de nouvelles procédures et un mécanisme de solidarité entre États.
 resume: Calendrier, filtrage, procédures à la frontière, Eurodac et adaptation du droit français. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

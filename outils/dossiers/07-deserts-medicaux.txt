@@ -2,6 +2,8 @@ fichier: dossier-deserts-medicaux.html
 rubrique: economie
 titre: Déserts médicaux : pourquoi certains territoires manquent de médecins
 titre_court: Déserts médicaux
+titre_seo: Déserts médicaux : causes et remèdes
+description: Le nombre de médecins augmente, mais l'accès à un généraliste recule selon la Drees. Les causes des déserts médicaux sont documentées ; les remèdes font débat.
 chapeau: Le nombre total de médecins augmente, mais l'accès à un généraliste a encore reculé en 2024 selon la Drees. Les causes sont documentées ; les remèdes font débat.
 resume: Accessibilité aux médecins généralistes, formation, liberté d'installation et proposition de loi Garot. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

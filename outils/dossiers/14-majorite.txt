@@ -2,6 +2,8 @@ fichier: dossier-assemblee-sans-majorite.html
 rubrique: politique
 titre: Une Assemblée sans majorité : de la dissolution de 2024 à aujourd'hui
 titre_court: Une Assemblée sans majorité
+titre_seo: Une Assemblée sans majorité depuis 2024
+description: Depuis la dissolution de 2024, aucun bloc n'a la majorité absolue. Trois Premiers ministres en un an : comment fonctionne une Assemblée sans majorité.
 chapeau: Depuis les élections législatives anticipées de 2024, aucun bloc ne dispose de la majorité absolue à l'Assemblée nationale. Trois Premiers ministres ont été nommés entre septembre 2024 et septembre 2025 : Michel Barnier, François Bayrou et Sébastien Lecornu.
 resume: Chronologie de la dissolution, des censures et des gouvernements successifs, et ce que prévoit la Constitution. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

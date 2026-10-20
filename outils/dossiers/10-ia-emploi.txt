@@ -2,6 +2,8 @@ fichier: dossier-ia-emploi.html
 rubrique: economie
 titre: Intelligence artificielle et emploi : ce que montrent les premières études
 titre_court: IA et emploi
+titre_seo: IA et emploi : ce que montrent les études
+description: Des millions d'emplois menacés par l'IA ? Les études distinguent exposition des tâches, transformation des métiers et suppressions de postes.
 chapeau: Des millions d'emplois seraient « menacés » par l'intelligence artificielle. Les études distinguent pourtant l'exposition des tâches, la transformation des métiers et la suppression de postes, et les premiers effets mesurés sont plus ciblés.
 resume: Exposition des tâches, effets observés sur les offres d'emploi et les embauches de jeunes, chiffres qui circulent sans source. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

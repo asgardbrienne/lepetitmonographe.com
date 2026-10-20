@@ -2,6 +2,8 @@ fichier: dossier-cop31-antalya.html
 rubrique: monde
 titre: COP31 à Antalya : ce que les pays ont promis pour le climat, et où ils en sont
 titre_court: COP31 Antalya
+titre_seo: COP31 à Antalya : engagements et enjeux
+description: COP31 à Antalya, sans les États-Unis : ce qui a été décidé à Belém, ce que les engagements actuels impliquent pour le réchauffement et ce qui se joue.
 chapeau: Du 9 au 20 novembre 2026, la conférence de l'ONU sur le climat se tient en Turquie, sans les États-Unis, sortis de l'accord de Paris en janvier. Ce qui a été décidé l'an dernier à Belém, ce que les engagements actuels impliquent pour le réchauffement, et ce qui se joue à Antalya.
 resume: Les engagements climatiques et leur écart avec l'accord de Paris, les décisions de la COP30, la sortie des États-Unis, la position européenne et les enjeux d'Antalya. Données arrêtées au 18 octobre 2026.
 arret: 18 octobre 2026

@@ -2,6 +2,8 @@ fichier: dossier-niches-fiscales.html
 rubrique: economie
 titre: Les niches fiscales : combien elles coûtent et ce que l'on sait de leur efficacité
 titre_court: Les niches fiscales
+titre_seo: Niches fiscales : coût et efficacité
+description: Près de 470 niches fiscales coûtent environ 90 milliards d'euros par an à l'État. Un coût mal mesuré, une efficacité rarement évaluée : ce que l'on sait.
 chapeau: Près de 470 dispositifs dérogatoires réduisent chaque année les recettes de l'État d'environ 90 milliards d'euros. Leur coût est mal mesuré et leur efficacité rarement évaluée.
 resume: Nombre, coût, fiabilité des chiffrages et évaluations disponibles des dépenses fiscales. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

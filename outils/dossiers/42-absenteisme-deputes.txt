@@ -2,6 +2,8 @@ fichier: dossier-absenteisme-deputes.html
 rubrique: politique
 titre: Les députés sont-ils plus absents qu'avant ? Ce que mesurent les chiffres depuis 2007
 titre_court: Absentéisme des députés
+titre_seo: Absentéisme des députés : les chiffres
+description: Les députés sont-ils plus absents qu'avant ? Ce que mesurent les relevés officiels depuis 2012, les indicateurs indépendants depuis 2007, et leurs limites.
 chapeau: L'hémicycle clairsemé est une image répandue. Elle mesure mal le travail des députés, et aucune donnée ne permet de comparer leur présence sur toute la Ve République. Ce que disent les relevés officiels depuis 2012, les indicateurs indépendants depuis 2007, les règles et leurs effets.
 resume: Participation aux votes, présence en commission, délégations de vote, sanctions, effet du non-cumul : ce que l'on peut mesurer, ce que l'on ne peut pas, et ce qui a changé depuis 2007. Données arrêtées au 16 octobre 2026.
 arret: 16 octobre 2026

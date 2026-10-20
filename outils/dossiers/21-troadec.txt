@@ -2,6 +2,8 @@ fichier: dossier-troadec.html
 rubrique: affaires
 titre: Affaire Troadec : ce que le procès a tranché
 titre_court: L'affaire Troadec
+titre_seo: Affaire Troadec : ce que le procès a tranché
+description: Disparition de quatre membres d'une famille à Orvault en 2017, condamnation du beau-frère en 2021 : ce que la justice a établi, et ce qui reste contesté.
 chapeau: En février 2017, quatre membres d'une famille disparaissent de leur maison d'Orvault, près de Nantes. En juillet 2021, la cour d'assises condamne leur beau-frère. Ce que la justice a établi, et ce qui reste contesté.
 resume: Enquête, procédure, faits jugés, expertises, peine et altération du discernement, points restés contestés et emballement médiatique initial dans l'affaire du quadruple meurtre d'Orvault. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

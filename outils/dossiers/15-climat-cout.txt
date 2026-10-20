@@ -2,6 +2,8 @@ fichier: dossier-climat-cout.html
 rubrique: economie
 titre: Canicules et sécheresses : ce que l'on sait de leur coût pour la France
 titre_court: Le coût des événements climatiques
+titre_seo: Canicules et sécheresses : quel coût ?
+description: Surmortalité, récoltes perdues, sinistres assurés : le coût des canicules et sécheresses se mesure poste par poste. Il n'existe pas de chiffrage global officiel.
 chapeau: Surmortalité, récoltes perdues, sinistres assurés : les effets des épisodes climatiques extrêmes se mesurent poste par poste. Il n'existe pas de chiffrage global officiel.
 resume: Surmortalité liée aux canicules, sinistres climatiques assurés, pertes agricoles de 2026 et limites des chiffrages. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

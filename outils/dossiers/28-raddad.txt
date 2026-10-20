@@ -2,6 +2,8 @@ fichier: dossier-omar-raddad.html
 rubrique: affaires
 titre: Affaire Omar Raddad : pourquoi la révision a été refusée
 titre_court: L'affaire Omar Raddad
+titre_seo: Affaire Omar Raddad : la révision refusée
+description: Condamné en 1994, gracié partiellement mais jamais innocenté : pourquoi la demande de révision d'Omar Raddad fondée sur des traces ADN a été rejetée en 2022.
 chapeau: Condamné en 1994 pour le meurtre de son employeuse à Mougins, Omar Raddad a été partiellement gracié mais jamais innocenté. Sa deuxième demande de révision, fondée sur des traces ADN, a été rejetée en 2022 par la commission d'instruction de la Cour de révision.
 resume: Condamnation sans appel possible, grâce, deux demandes de révision, traces ADN découvertes en 2001 et 2015, fonctionnement et statistiques de la procédure de révision, réforme de 2014 et débats sur le doute. Données arrêtées au 16 octobre 2026.
 arret: 16 octobre 2026

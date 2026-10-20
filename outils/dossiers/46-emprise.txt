@@ -2,6 +2,8 @@ fichier: dossier-emprise.html
 rubrique: psychologie
 titre: Pourquoi reste-t-on parfois sous l'emprise d'une personne ou d'un groupe ? Ce que le droit et la recherche permettent d'établir
 titre_court: L'emprise
+titre_seo: L'emprise : ce que dit la recherche
+description: « Pourquoi n'est-elle pas partie ? » Violences conjugales, dérives sectaires : ce que les études, le droit pénal et la justice établissent sur l'emprise.
 chapeau: « Pourquoi n'est-elle pas partie ? » La question revient dans les affaires de violences conjugales comme dans celles de dérives sectaires. Ce que disent les enquêtes, les études sur la séparation, le droit pénal et les décisions de justice, et les limites d'une notion difficile à définir.
 resume: Violences au sein du couple, contrôle coercitif, dérives sectaires, délit de sujétion psychologique créé en 2024, chiffres de la Miviludes et leurs critiques, débat sur la loi intégrale. Troisième dossier de la rubrique, sans examen d'une affaire particulière. Données arrêtées au 18 octobre 2026.
 arret: 18 octobre 2026

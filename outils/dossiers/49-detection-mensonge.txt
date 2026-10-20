@@ -2,6 +2,8 @@ fichier: dossier-detection-mensonge.html
 rubrique: psychologie
 titre: Détecter le mensonge : ce que la science établit sur le comportement, les micro-expressions et le polygraphe
 titre_court: Détecter le mensonge
+titre_seo: Détecter le mensonge : ce que dit la science
+description: Regard fuyant, micro-expressions, polygraphe : ce que des centaines d'études montrent sur la détection du mensonge, et pourquoi aucun signe isolé ne suffit.
 chapeau: Regard fuyant, gestes nerveux, micro-expressions, machine qui mesure le stress : les croyances sur la détection du mensonge sont répandues, y compris chez les professionnels. Ce que les synthèses de plusieurs centaines d'études montrent, ce qui reste débattu, et pourquoi aucun signe isolé ne trahit un menteur.
 resume: Précision moyenne des jugements humains, absence d'indice fiable, mythe du regard fuyant, micro-expressions et synergologie, polygraphe selon l'Académie des sciences américaine, approches verbales et leurs critiques. Données arrêtées au 19 octobre 2026.
 arret: 19 octobre 2026

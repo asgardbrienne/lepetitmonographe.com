@@ -2,6 +2,8 @@ fichier: dossier-fraudes.html
 rubrique: economie
 titre: Fraude fiscale et fraude sociale : ce que l'on mesure et ce que l'on estime
 titre_court: Fraude fiscale et sociale
+titre_seo: Fraude fiscale et sociale : les montants
+description: Fraude fiscale et sociale : plus de 20 milliards d'euros détectés en 2025. Ce que ce chiffre mesure, ce qu'il ne mesure pas, et les estimations de la fraude totale.
 chapeau: Plus de 20 milliards d'euros de fraudes ont été détectés et redressés en 2025. Ce chiffre ne mesure ni la fraude totale ni les sommes effectivement récupérées.
 resume: Montants détectés, montants estimés, sommes recouvrées : trois chiffres différents à ne pas confondre. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

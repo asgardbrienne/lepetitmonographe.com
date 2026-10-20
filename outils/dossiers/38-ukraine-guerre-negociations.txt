@@ -2,6 +2,8 @@ fichier: dossier-ukraine-guerre-negociations.html
 rubrique: monde
 titre: Guerre en Ukraine : où en sont le front et les négociations en octobre 2026
 titre_court: Ukraine, front et négociations
+titre_seo: Guerre en Ukraine : front et négociations
+description: Guerre en Ukraine en octobre 2026 : où en est le front, ce que demande chaque camp, pourquoi les négociations piétinent et ce que fait l'Europe.
 chapeau: Plus de quatre ans et demi après l'invasion à grande échelle, les combats se poursuivent, les frappes sur l'énergie reprennent avant l'hiver et les discussions de paix ne débouchent sur rien. Ce que l'on sait du front, de ce que demande chaque camp, et de l'aide européenne.
 resume: Le front selon les sources indépendantes et selon Moscou, les victimes civiles, les demandes de chaque camp, l'aide européenne et les scénarios. Données arrêtées au 18 octobre 2026.
 arret: 18 octobre 2026

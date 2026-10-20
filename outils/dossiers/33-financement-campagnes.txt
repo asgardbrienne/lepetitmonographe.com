@@ -2,6 +2,8 @@ fichier: dossier-financement-campagnes.html
 rubrique: politique
 titre: Présidentielle 2027 : comment se financent les campagnes, et pourquoi les banques hésitent
 titre_court: Le financement des campagnes
+titre_seo: Financement des campagnes présidentielles
+description: Présidentielle 2027 : pourquoi des candidats peinent à obtenir un prêt bancaire, comment se financent les campagnes et comment fonctionne le remboursement public.
 chapeau: À un peu plus de six mois du premier tour, plusieurs candidats peinent à obtenir un prêt bancaire. Les règles de financement des campagnes sont strictes et le niveau du remboursement public dépend du score obtenu.
 resume: Ressources autorisées, remboursement public, réticence des banques et propositions en débat. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

@@ -2,6 +2,8 @@ fichier: dossier-ia-ecole.html
 rubrique: economie
 titre: L'intelligence artificielle à l'école : ce que dit le cadre officiel et ce que montrent les études
 titre_court: L'IA à l'école
+titre_seo: L'IA à l'école : cadre officiel et études
+description: Les élèves utilisent déjà l'IA générative. Ce que dit le cadre d'usage de l'Éducation nationale et ce que montrent les premières études internationales.
 chapeau: Les élèves utilisent déjà les outils d'intelligence artificielle générative. Le ministère de l'Éducation nationale a publié un cadre d'usage ; les premières études internationales montrent des effets qui dépendent de la manière de s'en servir.
 resume: Cadre d'usage du ministère, formation obligatoire des élèves, résultats de PISA 2025 et de l'OCDE, et incertitudes. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

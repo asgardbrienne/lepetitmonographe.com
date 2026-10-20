@@ -2,6 +2,8 @@ fichier: dossier-feminicides-chiffres.html
 rubrique: affaires
 titre: Féminicides : ce que mesurent les chiffres officiels et associatifs
 titre_court: Les chiffres des féminicides
+titre_seo: Féminicides : comprendre les chiffres
+description: 107 femmes tuées par leur conjoint en 2024 selon l'Intérieur, 141 selon un collectif : deux décomptes qui ne mesurent pas la même chose. Explications.
 chapeau: Pour 2024, l'étude du ministère de l'Intérieur compte 107 femmes tuées par leur conjoint ou ex-conjoint ; un collectif associatif en compte 141 avec une définition plus large. Les deux décomptes ne mesurent pas la même chose.
 resume: Définitions, cadre juridique, méthodes de comptage, séries officielles depuis 2014, tentatives et « suicides forcés », comparaisons internationales, débats sur l'inscription du féminicide et du contrôle coercitif dans la loi. Données arrêtées au 18 octobre 2026.
 arret: 18 octobre 2026

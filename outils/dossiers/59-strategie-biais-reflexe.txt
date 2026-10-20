@@ -2,6 +2,8 @@ fichier: dossier-strategie-biais-reflexe.html
 rubrique: politique
 titre: Stratégie, biais institutionnel ou réflexe : ce que les sources permettent de dire de la réponse sécuritaire aux mouvements sociaux
 titre_court: Stratégie, biais ou réflexe ?
+titre_seo: Réponse sécuritaire : stratégie ou réflexe ?
+description: Stratégie politique, biais institutionnel ou réflexe ? Trois explications de la réponse aux mouvements sociaux, confrontées aux documents officiels.
 chapeau: Quand le pouvoir place l'ordre public au centre de sa réponse aux mouvements sociaux, s'agit-il d'un choix politique délibéré, d'un pli pris par les institutions chargées du maintien de l'ordre, ou d'un réflexe qui se répète d'une crise à l'autre ? Les trois explications ne s'excluent pas. Ce dossier les met à l'épreuve des documents disponibles : textes officiels, rapport de la commission d'enquête de 2021, décisions de justice, constats des autorités de contrôle.
 resume: Méthode des hypothèses concurrentes ; ce que chaque hypothèse prédit et ce que l'on observe ; les outils restrictifs ajoutés après chaque crise et leur sort devant les juges ; la doctrine française et le refus de la désescalade par une partie de la hiérarchie policière ; les qualifications politiques avancées avant les conclusions judiciaires ; ce qui contredit chacune des trois explications. Données arrêtées au 19 octobre 2026.
 arret: 19 octobre 2026

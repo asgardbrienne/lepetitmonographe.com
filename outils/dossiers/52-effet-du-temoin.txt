@@ -2,6 +2,8 @@ fichier: dossier-effet-du-temoin.html
 rubrique: psychologie
 titre: L'effet du témoin : pourquoi la présence d'autres personnes peut retarder l'aide, et pourquoi l'aide vient pourtant le plus souvent
 titre_court: L'effet du témoin
+titre_seo: L'effet du témoin : ce que montrent les études
+description: Seul, on aide plus vite qu'en groupe, selon les expériences. Mais les vidéos d'agressions réelles montrent que quelqu'un intervient dans neuf cas sur dix.
 chapeau: Chacun connaît l'histoire de la foule qui regarde sans agir. Les expériences de psychologie sociale ont montré que, seul, on aide plus vite qu'en groupe. Mais les images de vidéosurveillance de vraies agressions racontent autre chose : dans neuf cas sur dix, quelqu'un intervient. Ce que l'on sait, et comment concilier les deux.
 resume: Expériences de Darley et Latané, diffusion de la responsabilité, méta-analyse de 2011 sur les situations dangereuses, analyse de 219 conflits filmés par des caméras de surveillance, le mythe des 38 témoins du meurtre de Kitty Genovese, et l'obligation légale de porter secours en France. Données arrêtées au 19 octobre 2026.
 arret: 19 octobre 2026

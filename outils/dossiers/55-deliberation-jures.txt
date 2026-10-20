@@ -2,6 +2,8 @@ fichier: dossier-deliberation-jures.html
 rubrique: psychologie
 titre: La délibération des jurés d'assises : ce que la recherche sait de la construction de l'intime conviction
 titre_court: La délibération des jurés
+titre_seo: La délibération des jurés d'assises
+description: Le délibéré d'assises est secret. Ce que les expériences et les entretiens avec d'anciens jurés établissent sur l'intime conviction et l'influence des magistrats.
 chapeau: Le délibéré de la cour d'assises est secret : personne ne peut l'observer ni l'enregistrer. Ce que l'on sait vient d'expériences menées avec des jurys fictifs, surtout américains, et d'entretiens avec d'anciens jurés et présidents en France. Comment les jurés se forgent une conviction, ce qui pèse sur la décision, et le débat sur l'influence des magistrats.
 resume: Règles du délibéré en France, modèle du récit, poids des préférences de départ, synthèse de 206 études sur les jurys, influence du président selon les enquêtes françaises, motivation des arrêts et cours criminelles sans jurés. Données arrêtées au 19 octobre 2026.
 arret: 19 octobre 2026

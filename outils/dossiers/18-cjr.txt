@@ -2,6 +2,8 @@ fichier: dossier-cour-justice-republique.html
 rubrique: politique
 titre: La Cour de justice de la République : bilan d'une juridiction contestée
 titre_court: La Cour de justice de la République
+titre_seo: Cour de justice de la République : bilan
+description: Créée en 1993 pour juger les ministres, la Cour de justice de la République a rendu peu de décisions et sa suppression est souvent proposée. Bilan sourcé.
 chapeau: Créée en 1993 pour juger les ministres pour les infractions commises dans l'exercice de leurs fonctions, la Cour de justice de la République a rendu peu de décisions. Sa suppression est régulièrement proposée.
 resume: Fonctionnement, décisions rendues depuis 1993 et arguments pour et contre son maintien. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

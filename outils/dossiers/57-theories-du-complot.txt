@@ -2,6 +2,8 @@ fichier: dossier-theories-du-complot.html
 rubrique: psychologie
 titre: Les théories du complot : ce que la recherche en psychologie établit sur les besoins qui y conduisent, et ce qu'elle ne confirme pas
 titre_court: Les théories du complot
+titre_seo: Théories du complot : ce que dit la psychologie
+description: Besoin de comprendre, de sécurité, d'être unique : ce que la recherche confirme, et ne confirme pas, sur l'adhésion aux théories du complot. Synthèses et enquêtes.
 chapeau: Besoin de comprendre, de se sentir en sécurité, d'être unique : la psychologie sociale propose plusieurs explications à l'adhésion aux théories du complot. Certaines sont confirmées par de nombreuses études, d'autres beaucoup moins qu'on ne le dit, comme le besoin de contrôle. Ce que disent les synthèses, les enquêtes françaises, et la frontière entre doute légitime et pensée conspirationniste.
 resume: Les trois motifs identifiés par la recherche, le besoin d'unicité, le besoin de contrôle et la méta-analyse qui le remet en cause, la synthèse de 170 études, les enquêtes Ifop de 2018 et 2019 en France, la question de la mesure, et ce qui réduit la vulnérabilité aux manipulations. Données arrêtées au 19 octobre 2026.
 arret: 19 octobre 2026

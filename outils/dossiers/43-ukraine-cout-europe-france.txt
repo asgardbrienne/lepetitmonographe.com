@@ -2,6 +2,8 @@ fichier: dossier-ukraine-cout-europe-france.html
 rubrique: monde
 titre: Guerre en Ukraine : ce que l'aide coûte à l'Europe et à la France, et ce que coûterait un retrait
 titre_court: Ukraine, le coût pour l'Europe et la France
+titre_seo: Aide à l'Ukraine : le coût pour la France
+description: Combien la France et l'Europe ont donné à l'Ukraine, sous quelle forme, et ce que coûterait un retrait : montants vérifiés, matériel livré, estimations et limites.
 chapeau: Combien la France et l'Europe ont-elles donné à l'Ukraine, sous quelle forme, et que se passerait-il si elles arrêtaient ? Les montants vérifiés, le matériel livré, les estimations du coût d'une victoire russe et leurs limites, et ce que change le rapprochement entre Washington et Moscou.
 resume: L'aide européenne et française en chiffres, le matériel livré, ce que coûterait un retrait selon les études disponibles, le coût d'une guerre qui dure et les décisions américaines d'octobre 2026. Données arrêtées au 18 octobre 2026.
 arret: 18 octobre 2026

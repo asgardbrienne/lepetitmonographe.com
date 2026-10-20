@@ -2,6 +2,8 @@ fichier: dossier-temoignage-erreur-sincere.html
 rubrique: psychologie
 titre: Peut-on se tromper sincèrement dans un témoignage ? Ce que la recherche sur la mémoire permet d'établir
 titre_court: L'erreur sincère du témoin
+titre_seo: Témoignage : peut-on se tromper de bonne foi ?
+description: Un témoin peut être sincère et se tromper. Ce que la recherche sur la mémoire, les erreurs judiciaires et les règles d'audition établissent sur le témoignage.
 chapeau: Un témoin peut être de bonne foi et se tromper ; un récit hésitant peut être exact. Ce que les expériences sur la mémoire, les erreurs judiciaires documentées et les règles d'audition permettent de dire, et ce qu'elles ne permettent pas de conclure sur un témoignage particulier.
 resume: Mémoire reconstructive, questions suggestives, identification des suspects, confiance du témoin, parole des enfants, règles françaises d'audition et leçons d'Outreau. Deuxième dossier de la rubrique, sans examen d'une affaire en cours. Données arrêtées au 18 octobre 2026.
 arret: 18 octobre 2026

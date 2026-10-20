@@ -2,6 +2,8 @@ fichier: dossier-gregory.html
 rubrique: affaires
 titre: Affaire Grégory : l'état de la procédure en octobre 2026
 titre_court: L'affaire Grégory
+titre_seo: Affaire Grégory : l'état de la procédure
+description: Grégory Villemin retrouvé mort dans la Vologne en 1984 : personne n'a été jugé. Ce que la justice a décidé et ce qui reste ouvert en octobre 2026.
 chapeau: Le 16 octobre 1984, Grégory Villemin, 4 ans, est retrouvé mort dans la Vologne. Près de quarante-deux ans plus tard, personne n'a été jugé pour sa mort. Ce qui a été décidé par la justice, et ce qui reste ouvert.
 resume: Procédure expliquée, décisions de justice depuis 1984, annulations, prescription, investigations en cours et ce que l'affaire a changé. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

@@ -2,6 +2,8 @@ fichier: dossier-cybercriminalite.html
 rubrique: economie
 titre: Cybercriminalité : ce que mesurent les chiffres officiels
 titre_court: La cybercriminalité
+titre_seo: Cybercriminalité : ce que disent les chiffres
+description: Les infractions numériques enregistrées ont augmenté de 14 % en 2025. Ce que mélange ce chiffre, ce qu'il ne compte pas, et ce que l'on sait de la cybercriminalité.
 chapeau: Les infractions liées au numérique enregistrées par la police et la gendarmerie ont augmenté de 14 % en 2025. Le chiffre mélange des infractions très différentes et ne compte que ce qui est signalé.
 resume: Escroqueries en ligne, piratages, rançongiciels : les chiffres du ministère de l'Intérieur et leurs limites. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

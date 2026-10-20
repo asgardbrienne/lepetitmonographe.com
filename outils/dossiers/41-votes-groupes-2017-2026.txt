@@ -2,6 +2,8 @@ fichier: dossier-votes-groupes-2017-2026.html
 rubrique: politique
 titre: Comment les groupes ont voté à l'Assemblée sous les deux mandats d'Emmanuel Macron
 titre_court: Les votes des groupes, 2017-2026
+titre_seo: Votes des groupes à l'Assemblée, 2017-2026
+description: 206 votes solennels, 62 motions de censure, les 49.3 : ce que chaque groupe a voté à l'Assemblée depuis 2017, d'après les relevés officiels. Sans commentaire.
 chapeau: Les 206 textes soumis à un vote solennel depuis 2017, les 62 motions de censure, les textes adoptés sans vote par le 49.3 : groupe par groupe, ce que chacun a voté, d'après les relevés officiels de l'Assemblée nationale. Sans commentaire sur le bien-fondé des votes.
 resume: Chaque vote solennel et chaque motion de censure de 2017 à 2026, groupe par groupe, avec des graphiques lisibles et le lien vers chaque scrutin officiel. Données arrêtées au 16 octobre 2026.
 arret: 16 octobre 2026

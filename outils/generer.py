@@ -1,4 +1,5 @@
 import sys, os, re
+import html as _html
 OUT = sys.argv[1]
 
 NAV = [  # (page, libellé, pages rattachées)
@@ -9,6 +10,19 @@ NAV = [  # (page, libellé, pages rattachées)
     ("methode.html", "Méthode", ()),
     ("a-propos.html", "À propos", ()),
 ]
+RUB_SEO = {  # page -> (titre affiché par les moteurs, description)
+    "politique-institutions.html": ("Analyses politiques factuelles · Le Petit Monographe",
+        "Analyses politiques factuelles et sourcées : institutions, élections, réformes, maintien de l'ordre, services publics. Chaque chiffre est vérifié à sa source."),
+    "economie-societe.html": ("Économie et société : dossiers sourcés · Le Petit Monographe",
+        "Dette, budget, retraites, fiscalité, emploi : des dossiers économiques sourcés, avec séries longues, comparaisons et limites des chiffres expliquées."),
+    "monde.html": ("Actualité internationale décryptée · Le Petit Monographe",
+        "Décisions internationales, conflits, énergie : ce qui a été décidé, ce qui reste incertain et ce que cela peut changer, sources officielles à l'appui."),
+    "affaires-enquetes.html": ("Affaires judiciaires et enquêtes · Le Petit Monographe",
+        "Affaires judiciaires et enquêtes : chronologies, pièces du dossier, expertises et état de la procédure, dans le respect de la présomption d'innocence."),
+    "psychologie-societe-justice.html": ("Psychologie, société et justice · Le Petit Monographe",
+        "Emprise, témoignage, mémoire, persuasion : ce que la recherche en psychologie et les décisions de justice établissent, études et méta-analyses à l'appui."),
+}
+
 NAV_RUBRIQUES = [
     ("politique-institutions.html", "Politique &amp; Institutions"),
     ("economie-societe.html", "Économie &amp; Société"),
@@ -31,7 +45,22 @@ def _version(chemin):
         return _hashlib.md5(f.read()).hexdigest()[:8]
 V_CSS, V_JS = _version("assets/style.css"), _version("assets/site.js")
 
-def page(fichier, titre, description, corps, noindex=False, classe=""):
+def meta_description(texte, limite=165):
+    """Description pour les moteurs : phrases entières tant qu'elles tiennent dans la limite affichée par Google."""
+    texte = re.sub(r"\s+", " ", _html.unescape(re.sub(r"<[^>]+>", "", texte))).strip()
+    if len(texte) <= limite:
+        return texte
+    phrases, sortie = re.split(r"(?<=[.!?])\s+", texte), ""
+    for ph in phrases:
+        if len(sortie) + len(ph) + 1 > limite:
+            break
+        sortie = f"{sortie} {ph}".strip()
+    if len(sortie) >= 90:
+        return sortie
+    coupe = texte[:limite - 1].rsplit(" ", 1)[0].rstrip(" ,;:")
+    return coupe + "…"
+
+def page(fichier, titre, description, corps, noindex=False, classe="", titre_seo=None, image=None, type_og="website"):
     liens = []
     for h, l, r in NAV:
         cur = ' aria-current="page"' if _actif(fichier, h, r) else ""
@@ -41,7 +70,8 @@ def page(fichier, titre, description, corps, noindex=False, classe=""):
         else:
             liens.append(f'        <li><a href="{"./" if h == "index.html" else h}"{cur}>{l}</a></li>')
     nav = "\n".join(liens)
-    titre_complet = "Le Petit Monographe · Documents & enquêtes" if fichier == "index.html" else f"{titre} · Le Petit Monographe"
+    titre_complet = titre_seo or f"{titre} · Le Petit Monographe"
+    description = _html.escape(meta_description(description), quote=False).replace('"', "&quot;")
     robots = '\n  <meta name="robots" content="noindex">' if noindex else ""
     url = "https://lepetitmonographe.com/" + ("" if fichier == "index.html" else fichier)
     html = f'''<!doctype html>
@@ -58,8 +88,11 @@ def page(fichier, titre, description, corps, noindex=False, classe=""):
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta property="og:title" content="{titre_complet}">
   <meta property="og:description" content="{description}">
-  <meta property="og:image" content="https://lepetitmonographe.com/assets/logo-partage.jpg">
-  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://lepetitmonographe.com/{image or "assets/logo-partage.jpg"}">
+  <meta property="og:type" content="{type_og}">
+  <meta property="og:site_name" content="Le Petit Monographe">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
@@ -283,7 +316,7 @@ livres = tete_visuel("Monographies", "Monographies",
         <p class="intro">Affaires judiciaires, erreurs judiciaires, dossiers non résolus. Le dossier rendu lisible : chronologie, pièces, versions contradictoires, décisions de justice et zones d'ombre.</p>
 {grille_livres(["c-affaires"])}
       </div>""")
-page("livres.html", "Monographies", "Les monographies du Petit Monographe : collections Pouvoirs & Société et Affaires & Enquêtes.", livres)
+page("livres.html", "Monographies", "Les monographies du Petit Monographe : livres documentaires des collections Pouvoirs & Société et Affaires & Enquêtes, sourcés comme les dossiers du site.", livres)
 
 # ---------- Méthode ----------
 ETIQ = [
@@ -359,7 +392,8 @@ methode = tete_visuel("Méthode", "Notre méthode",
           <tr><td colspan="4" class="vide">Les corrections apparaîtront ici au fil des mises à jour.</td></tr>
         </tbody>
       </table>""", "errata")
-page("methode.html", "Notre méthode", "Les douze règles du Petit Monographe : niveaux d'information séparés, sources datées, même exigence pour tous les camps, corrections publiques.", methode)
+page("methode.html", "Notre méthode", "Les douze règles éditoriales du Petit Monographe : faits et interprétations séparés, sources datées, même exigence pour tous les camps, corrections publiques.", methode,
+     titre_seo="Méthode et règles éditoriales · Le Petit Monographe")
 
 # ---------- À propos ----------
 apropos = tete("À propos", "Le Petit Monographe", "Une publication indépendante, sans affiliation partisane.") + "\n" + section("""      <div class="prose">
@@ -385,7 +419,7 @@ apropos = tete("À propos", "Le Petit Monographe", "Une publication indépendant
         <p>Cette méthode n'empêche pas toute erreur. En octobre 2026, tous les dossiers publiés ont été relus sur leurs sources d'origine ; les corrections qui en ont résulté sont listées, une par une, dans l'<a href="methode.html#errata">historique des corrections</a>.</p>
         <p class="signature">Les faits d'abord. L'opinion reste au lecteur.</p>
       </div>""")
-page("a-propos.html", "À propos", "Le Petit Monographe, publication indépendante de dossiers documentaires sur la politique, l'économie, la société et les affaires judiciaires.", apropos)
+page("a-propos.html", "À propos", "Le Petit Monographe, publication indépendante d'enquêtes et de dossiers documentaires sourcés sur la politique, l'économie, la société et la justice.", apropos)
 
 # ---------- Contact ----------
 contact = tete("Contact", "Écrire au Petit Monographe",
@@ -393,7 +427,7 @@ contact = tete("Contact", "Écrire au Petit Monographe",
         <p>Pour signaler une erreur, merci d'indiquer la publication, le passage concerné et, si possible, la source qui permet de la corriger.</p>
         <p><a class="bouton" href="#">{A("Adresse e-mail de contact")}</a></p>
       </div>""")
-page("contact.html", "Contact", "Contacter Le Petit Monographe : presse, lecteurs, signalement d'erreur.", contact)
+page("contact.html", "Contact", "Contacter Le Petit Monographe : questions de lecteurs, demandes de la presse, signalement d'une erreur ou d'une source plus récente.", contact)
 
 # ---------- Mentions légales ----------
 mentions = tete("Informations légales", "Mentions légales", "") + "\n" + section(f"""      <div class="prose">
@@ -739,7 +773,8 @@ def gabarit_dossier(meta, essentiel, corps_html, inconnues_html, sources_html, n
     </div>
   </article>
 <!--LIREAUSSI-->'''
-    page(meta["fichier"], meta.get("titre_court", meta["titre"]), meta["resume"], corps, classe="page-article")
+    page(meta["fichier"], meta.get("titre_seo") or meta.get("titre_court", meta["titre"]), meta.get("description") or meta["chapeau"], corps,
+         classe="page-article", image=meta.get("image"), type_og="article")
     return meta
 
 def rendre_dossier(chemin):
@@ -875,7 +910,8 @@ dossiers_page = f'''  <section class="tete-simple">
       <p class="vide-bloc" id="aucun-resultat" hidden>Aucun dossier ne correspond. Essayez un autre mot ou une autre rubrique.</p>
     </div>
   </section>'''
-page("dossiers.html", "Toutes les enquêtes", "Les dossiers du Petit Monographe : recherche par mot-clé et par rubrique.", dossiers_page)
+page("dossiers.html", "Toutes les enquêtes", "Tous les dossiers d'actualité sourcés du Petit Monographe : politique, économie, monde, affaires judiciaires et psychologie. Recherche par mot-clé et par rubrique.", dossiers_page,
+     titre_seo="Toutes les enquêtes et dossiers sourcés · Le Petit Monographe")
 
 # ---------- Dossiers : temps de lecture, sommaire numéroté, « À lire aussi » ----------
 for c, h, t, d, m in _liste:
@@ -980,7 +1016,7 @@ for h, c, t, d in RUBRIQUES:
 {grille_livres([c])}
     </div>
   </section>'''}'''
-    page(h, t.replace("&amp;", "&"), f"{t.replace('&amp;', '&')} : {d}", corps)
+    page(h, t.replace("&amp;", "&"), RUB_SEO[h][1], corps, titre_seo=RUB_SEO[h][0])
 
 # ---------- Accueil ----------
 UNE = ["dossier-iran-ormuz-carburants.html", "dossier-russie-sanctions-petrole.html", "dossier-budget-2027.html", "dossier-assemblee-sans-majorite.html", "dossier-delais-justice-penale.html"]
@@ -1106,8 +1142,8 @@ accueil = f'''  <h1 class="visuellement-cache">Le Petit Monographe : les faits d
     </div>
   </section>'''
 page("index.html", "Accueil",
-     "Le Petit Monographe : dossiers documentés sur la politique, l'économie, la société et les affaires judiciaires. Faits établis, désaccords, hypothèses et incertitudes clairement séparés.",
-     accueil, classe="page-accueil")
+     "Enquêtes indépendantes et dossiers d'actualité sourcés : politique, économie, justice, monde. Faits vérifiés, sources datées, aucune consigne d'opinion.",
+     accueil, classe="page-accueil", titre_seo="Le Petit Monographe · Enquêtes et dossiers d'actualité sourcés")
 
 # ---------- Errata : corrections datées, reprises de chaque dossier ----------
 _errata = [(m.get("verifie", ""), m["fichier"], m.get("titre_court") or m["titre"], m["corrections"]) for m in _dossiers_simples if m.get("corrections")]

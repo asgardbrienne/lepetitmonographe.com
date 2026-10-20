@@ -2,6 +2,8 @@ fichier: dossier-dette-publique.html
 rubrique: economie
 titre: La dette publique française : niveau, coût et risques
 titre_court: La dette publique
+titre_seo: Dette publique française : niveau, coût, risques
+description: La dette publique atteint 119 % du PIB à la mi-2026 et ses intérêts augmentent. Ce que mesurent ces chiffres, ce qui fait débat et ce qu'on ne sait pas.
 chapeau: La dette publique a atteint 119 % du PIB à la mi-2026 et ses intérêts augmentent. Ce que mesurent ces chiffres, ce qui fait débat et ce qu'on ne sait pas.
 resume: Niveau, charge d'intérêts, taux d'emprunt, comparaisons européennes : les chiffres de la dette et leur contexte. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

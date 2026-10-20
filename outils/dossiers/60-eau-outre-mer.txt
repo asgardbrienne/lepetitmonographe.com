@@ -2,6 +2,8 @@ fichier: dossier-eau-outre-mer.html
 rubrique: politique
 titre: Eau potable en outre-mer : ce qui est établi sur les coupures en Guadeloupe, en Martinique, à Mayotte et à La Réunion
 titre_court: L'eau potable en outre-mer
+titre_seo: Eau potable en outre-mer : coupures et causes
+description: Guadeloupe, Martinique, Mayotte, La Réunion : tours d'eau, réseaux qui fuient, eau non conforme. Ce qui est établi pour chaque territoire, et les chiffres erronés.
 chapeau: Tours d'eau, eau en bouteille, réseaux qui perdent plus de la moitié de l'eau produite : dans plusieurs départements d'outre-mer, l'accès continu à l'eau du robinet n'est pas garanti, parfois depuis plus de dix ans. Ce que disent la Cour des comptes, l'Insee, les agences régionales de santé, les juridictions et l'ONU, territoire par territoire, et ce que valent les chiffres qui circulent.
 resume: Les pertes des réseaux, les coupures et leur ancienneté en Guadeloupe et en Martinique ; la dépendance à la pluie, les tours d'eau, le choléra et l'objectif de fin des coupures en 2026 à Mayotte ; la qualité de l'eau et les cyclones à La Réunion ; le partage des responsabilités entre collectivités et État ; les plaintes et l'information judiciaire ouverte à Paris ; la vérification des chiffres qui circulent. Données arrêtées au 20 octobre 2026.
 arret: 20 octobre 2026

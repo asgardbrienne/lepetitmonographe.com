@@ -2,6 +2,8 @@ fichier: dossier-effet-desinformation.html
 rubrique: psychologie
 titre: L'effet de désinformation : comment une question ou un article peut modifier le souvenir d'un témoin de bonne foi
 titre_court: L'effet de désinformation
+titre_seo: L'effet de désinformation sur le témoin
+description: Une question orientée ou un article peut modifier le souvenir d'un témoin de bonne foi. Ce que cinquante ans d'expériences établissent, et ce qui reste débattu.
 chapeau: Une information reçue après les faits, dans une question orientée, une conversation ou un article de presse, peut s'intégrer au souvenir d'un témoin sans qu'il s'en rende compte. Ce que cinquante ans d'expériences établissent, ce que les chercheurs se disputent encore, et ce que cela ne permet pas de conclure sur un témoignage particulier.
 resume: Les expériences d'Elizabeth Loftus, les faux souvenirs d'enfance et leur réplication de 2023, le débat sur la façon de compter un faux souvenir, les fausses informations politiques et la mémoire, l'effet des avertissements. Données arrêtées au 19 octobre 2026.
 arret: 19 octobre 2026

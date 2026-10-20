@@ -2,6 +2,8 @@ fichier: dossier-romand.html
 rubrique: affaires
 titre: Affaire Romand : ce que la justice a établi
 titre_court: L'affaire Romand
+titre_seo: Affaire Romand : ce que la justice a établi
+description: Faux médecin de l'OMS pendant quinze ans, il tue sa famille en 1993 : condamnation à perpétuité en 1996, libération conditionnelle en 2019. Les faits établis.
 chapeau: En janvier 1993, un homme qui se faisait passer depuis plus de quinze ans pour un médecin de l'Organisation mondiale de la santé tue sa femme, ses deux enfants et ses parents. Condamné à perpétuité en 1996, il a obtenu une libération conditionnelle en 2019.
 resume: Mensonge de longue durée, faits jugés, procès de 1996 sans possibilité d'appel, expertises psychiatriques, peine de perpétuité et période de sûreté, règles de la libération conditionnelle des condamnés à perpétuité et décisions de 2019. Données arrêtées au 16 octobre 2026.
 arret: 16 octobre 2026

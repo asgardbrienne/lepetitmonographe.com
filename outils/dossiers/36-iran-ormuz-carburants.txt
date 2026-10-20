@@ -2,6 +2,8 @@ fichier: dossier-iran-ormuz-carburants.html
 rubrique: monde
 titre: Guerre avec l'Iran et détroit d'Ormuz : pourquoi le carburant coûte si cher
 titre_court: Iran, Ormuz et carburants
+titre_seo: Iran, Ormuz : pourquoi le carburant coûte cher
+description: Depuis février 2026, la guerre avec l'Iran perturbe le détroit d'Ormuz et le gazole a pris plus de 40 % en France. Ce qui s'est passé et les issues possibles.
 chapeau: Depuis février 2026, la guerre entre les États-Unis, Israël et l'Iran perturbe le passage par lequel transitait un cinquième du pétrole consommé dans le monde. Le gazole a pris plus de 40 % en France. Ce qui s'est passé, ce que cela coûte, et les issues possibles.
 resume: Chronologie de la guerre, rôle du détroit d'Ormuz, prix du pétrole et du gazole en France, aides publiques et scénarios. Données arrêtées au 18 octobre 2026.
 arret: 18 octobre 2026

@@ -2,6 +2,8 @@ fichier: dossier-logement.html
 rubrique: economie
 titre: Logement : pourquoi il reste cher malgré 46 milliards d'aides par an
 titre_court: Le logement
+titre_seo: Logement : pourquoi il reste si cher
+description: 46 milliards d'aides par an, une construction basse, des prix et un crédit qui bougent en 2026 : pourquoi le logement reste cher en France, chiffres sourcés.
 chapeau: La collectivité consacre environ 1,5 % du PIB aux aides au logement. La construction reste basse, les prix des logements anciens baissent légèrement en 2026 et le crédit renchérit.
 resume: Aides publiques, construction, prix et loyers : les chiffres du logement et les explications en débat. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

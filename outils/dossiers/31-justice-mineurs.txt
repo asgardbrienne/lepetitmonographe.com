@@ -2,6 +2,8 @@ fichier: dossier-justice-mineurs.html
 rubrique: affaires
 titre: Justice des mineurs : ce qu'a changé le code de 2021
 titre_court: La justice des mineurs
+titre_seo: Justice des mineurs : le code de 2021
+description: Depuis 2021, les mineurs sont jugés en deux temps, culpabilité puis sanction. Les délais ont baissé ; les effets sur la récidive ne sont pas encore évalués.
 chapeau: Depuis le 30 septembre 2021, les mineurs sont en principe jugés en deux temps : d'abord sur leur culpabilité, puis, après une période éducative, sur leur sanction. Les délais ont baissé ; les effets sur la récidive ne sont pas encore évalués.
 resume: Principes historiques de la justice des mineurs, procédure en deux temps, séries de délais selon plusieurs mesures, évolution des mineurs mis en cause, évaluations disponibles, loi du 23 juin 2025, remplacement des centres éducatifs fermés par des unités à priorité éducative, débats et pistes. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

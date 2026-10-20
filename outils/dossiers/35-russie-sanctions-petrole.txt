@@ -2,6 +2,8 @@ fichier: dossier-russie-sanctions-petrole.html
 rubrique: monde
 titre: Sanctions contre la Russie : ce que Washington a suspendu en octobre 2026
 titre_court: Russie, sanctions et diesel
+titre_seo: Russie : les sanctions suspendues par Washington
+description: Diesel russe autorisé, sanctions écartées : ce que Washington a suspendu en octobre 2026, ce qui reste en place et ce que cela peut changer pour l'Europe.
 chapeau: En une semaine, l'administration Trump a autorisé le commerce du diesel russe puis écarté presque toutes les sanctions d'une loi votée un mois plus tôt. Ce qui a été décidé, ce qui reste en place, et ce que cela peut changer.
 resume: La licence sur le diesel russe, la suspension de la loi Graham, ce qui reste en vigueur, le contexte électoral américain, les réactions et les scénarios possibles. Données arrêtées au 18 octobre 2026.
 arret: 18 octobre 2026

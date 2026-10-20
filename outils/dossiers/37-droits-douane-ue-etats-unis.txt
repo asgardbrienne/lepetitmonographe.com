@@ -2,6 +2,8 @@ fichier: dossier-droits-douane-ue-etats-unis.html
 rubrique: monde
 titre: Droits de douane américains : ce que paient les produits européens en octobre 2026
 titre_court: Droits de douane UE-États-Unis
+titre_seo: Droits de douane américains sur l'Europe
+description: Accord de 2025, décision de la Cour suprême en 2026, trois régimes successifs : ce que paient aujourd'hui les exportations européennes et françaises aux États-Unis.
 chapeau: Un accord en 2025, une décision de la Cour suprême en février 2026, trois régimes de droits de douane successifs depuis. Ce qui s'applique aujourd'hui aux exportations européennes et françaises, et ce qui pourrait changer.
 resume: L'accord UE-États-Unis, la décision de la Cour suprême, les droits en vigueur par produit, le poids du marché américain pour la France et les scénarios. Données arrêtées au 18 octobre 2026.
 arret: 18 octobre 2026

@@ -2,6 +2,8 @@ fichier: dossier-illusion-de-verite.html
 rubrique: psychologie
 titre: L'illusion de vérité : pourquoi une affirmation répétée paraît plus vraie, même quand elle a été démentie
 titre_court: L'illusion de vérité
+titre_seo: L'illusion de vérité : l'effet de la répétition
+description: Une affirmation répétée paraît plus vraie, même démentie. Ce que cinquante ans d'expériences montrent, et pourquoi les démentis restent utiles.
 chapeau: Une information entendue plusieurs fois semble plus crédible, y compris quand on sait qu'elle est fausse et quand elle a été signalée comme contestée. Une fausse information corrigée continue d'influencer le raisonnement. Ce que montrent près de cinquante ans d'expériences, ce qui limite l'effet, et pourquoi les démentis restent utiles.
 resume: L'expérience fondatrice de 1977, la méta-analyse de 51 études, la connaissance qui ne protège pas, les fausses informations sur les réseaux sociaux, l'influence persistante après correction, le débat sur l'effet « boomerang » des démentis, et la différence avec l'effet de simple exposition. Données arrêtées au 19 octobre 2026.
 arret: 19 octobre 2026

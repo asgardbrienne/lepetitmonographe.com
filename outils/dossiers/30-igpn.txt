@@ -2,6 +2,8 @@ fichier: dossier-usage-force-police.html
 rubrique: affaires
 titre: Usage de la force par la police : ce que disent les chiffres de l'IGPN
 titre_court: L'usage de la force par la police
+titre_seo: Usage de la force par la police : chiffres IGPN
+description: Ce que disent les chiffres de l'IGPN sur l'usage de la force par la police : enquêtes, tirs, sanctions. Ils mesurent l'activité de l'inspection, pas les violences.
 chapeau: L'Inspection générale de la police nationale publie chaque année le nombre d'enquêtes judiciaires qu'elle mène. Ces chiffres mesurent l'activité de l'inspection, pas le nombre de violences commises.
 resume: Fonctionnement et saisine de l'IGPN, séries d'enquêtes depuis 2016, tirs mortels et tirs sur véhicules, suites disciplinaires, signalements des usagers, contrôle externe par le Défenseur des droits, débat sur la loi de 2017 et la présomption de légitime défense, et limites de ces statistiques. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

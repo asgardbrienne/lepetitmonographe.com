@@ -2,6 +2,8 @@ fichier: dossier-prix-electricite.html
 rubrique: economie
 titre: Prix de l'électricité : ce qui a changé avec la fin de l'Arenh
 titre_court: Le prix de l'électricité
+titre_seo: Prix de l'électricité après la fin de l'Arenh
+description: Depuis le 1er janvier 2026, l'Arenh a disparu et son remplaçant ne s'est pas déclenché. Ce qui change pour le prix de l'électricité, explications sourcées.
 chapeau: Depuis le 1er janvier 2026, le mécanisme qui permettait d'acheter l'électricité nucléaire d'EDF à prix fixe a disparu. Son remplaçant ne s'est pas déclenché en 2026.
 resume: Tarif réglementé, fin de l'Arenh, versement nucléaire universel et ce qui détermine la facture. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

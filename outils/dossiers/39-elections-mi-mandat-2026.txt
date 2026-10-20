@@ -2,6 +2,8 @@ fichier: dossier-elections-mi-mandat-2026.html
 rubrique: monde
 titre: Élections de mi-mandat américaines du 3 novembre 2026 : ce qui est en jeu
 titre_court: Mi-mandat américain 2026
+titre_seo: Mi-mandat américain 2026 : les enjeux
+description: Élections de mi-mandat du 3 novembre 2026 : toute la Chambre et un tiers du Sénat renouvelés. Les règles, les chiffres et ce que le Congrès peut changer.
 chapeau: Le 3 novembre, les Américains renouvellent toute la Chambre des représentants et un tiers du Sénat. Le résultat décidera si Donald Trump garde un Congrès de son camp pour les deux dernières années de son mandat. Les règles, les chiffres, et ce que le Congrès peut changer sur les sanctions, les droits de douane ou les guerres.
 resume: Les sièges en jeu, la majorité actuelle, ce que les élections de mi-mandat ont produit dans le passé, les pouvoirs du Congrès et les scénarios. Données arrêtées au 18 octobre 2026.
 arret: 18 octobre 2026

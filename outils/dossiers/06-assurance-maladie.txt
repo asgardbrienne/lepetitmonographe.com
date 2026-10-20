@@ -2,6 +2,8 @@ fichier: dossier-assurance-maladie.html
 rubrique: economie
 titre: Assurance maladie : où va l'argent, et ce que l'on sait des arrêts de travail
 titre_court: Assurance maladie et arrêts de travail
+titre_seo: Assurance maladie et arrêts de travail
+description: Plus de 270 milliards d'euros par an : où va l'argent de l'assurance maladie, et pourquoi les indemnités journalières des arrêts de travail augmentent si vite.
 chapeau: L'objectif de dépenses d'assurance maladie dépasse 270 milliards d'euros par an. Les indemnités journalières en représentent près de 18 milliards en 2025 et augmentent plus vite que l'ensemble des soins de ville.
 resume: Répartition des dépenses entre ville, hôpital et médico-social, évolution des indemnités journalières, contrôles et économies prévues. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026

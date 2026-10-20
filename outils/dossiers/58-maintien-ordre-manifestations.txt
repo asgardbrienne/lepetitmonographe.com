@@ -2,6 +2,8 @@ fichier: dossier-maintien-ordre-manifestations.html
 rubrique: politique
 titre: Mouvements sociaux : comment Emmanuel Macron et ses gouvernements construisent leur réponse, des gilets jaunes au 17 octobre 2026
 titre_court: Mouvements sociaux et ordre public
+titre_seo: Macron face aux mouvements sociaux
+description: Des gilets jaunes au 17 octobre 2026 : comment le pouvoir répond aux mouvements sociaux, ce que les autorités indépendantes ont établi sur les violences policières.
 chapeau: À chaque crise sociale depuis 2018, la parole officielle suit un schéma reconnaissable : condamnation des violences d'abord, distinction entre manifestants et casseurs, fermeté, puis reconnaissance de revendications légitimes. Ce discours est documenté, comme le sont les violences commises contre les forces de l'ordre. Les blessures causées par les forces de l'ordre, constatées par des autorités indépendantes, y sont presque absentes. Ce que montrent les textes, ce que l'on sait des effets de ce cadrage, et ce qui ne peut pas être affirmé sur son intention.
 resume: Trois niveaux d'analyse : le discours du pouvoir, de l'allocution du 10 décembre 2018 à celle du 18 octobre 2026 ; ce que ce discours laisse de côté, au regard des constats du Conseil constitutionnel, du Conseil d'État, de la Défenseure des droits, du Conseil de l'Europe et de l'ONU ; les effets connus du cadrage sur l'opinion ; et la question de l'intention, qui reste sans preuve. Avec le meilleur argument du gouvernement. Données arrêtées au 19 octobre 2026.
 arret: 19 octobre 2026
