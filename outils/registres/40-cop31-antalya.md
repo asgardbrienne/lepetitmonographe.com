@@ -21,3 +21,11 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Fiches abrégées sur le modèle de la bible 13.4. Aucune donnée ajoutée au texte.
+
+- **V01** : emplacement : section « Qui organise, et comment », après la pré-COP. Question pour le lecteur : Quelles étapes mènent à Antalya ? Type : frise. Informations montrées : retrait américain notifié puis effectif, contribution UE, COP30, pré-COP, COP31, sommet [1][2][5][6][7][8][10]. Limite : deux événements prévus ; intervalles non à l'échelle. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).
+
+- **V02** : emplacement : fin de la section « Ce qui a été décidé à Belém ». Question pour le lecteur : Que contient l'issue de Belém et que laisse-t-elle de côté ? Type : tableau. Informations montrées : fossiles, déforestation, adaptation, financement, initiatives volontaires [7][8]. Limite : sources secondaires ; feuilles de route annoncées hors texte négocié. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).

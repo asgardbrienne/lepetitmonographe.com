@@ -48,6 +48,17 @@ voir_aussi: dossier-acquittement-prescription.html, dossier-temoignage-erreur-si
 
 [Fait établi] En France, aucune statistique publique consultée ne mesure la part des plaintes pour violences sexuelles reconnues comme mensongères. La dénonciation d'un fait que l'on sait totalement ou partiellement inexact est une infraction distincte, la dénonciation calomnieuse ; les sources consultées n'en donnent pas de décompte propre aux violences sexuelles.
 
+[Figure] tableau
+titre: Pourquoi les estimations de fausses accusations divergent autant
+colonnes: Source | Champ | Résultat | Définition retenue
+donnees:
+- Lisak et coauteurs, 2010 [10] | 136 signalements reçus en dix ans par une grande université américaine | 8 cas, soit 5,9 % ; 2 % à 10 % en rapprochant d'autres travaux | Allégations classées fausses après enquête
+- Rumney, 2006 [11] | Revue d'études publiées | D'environ 1,5 % à 90 % selon les études | Variable : fausseté établie par une enquête, ou plaintes retirées ou classées
+- France | Aucune statistique publique consultée | Inconnu | Sans objet
+source: Lisak et coauteurs, Violence Against Women, 2010 [10] ; Rumney, Cambridge Law Journal, 2006 [11]
+lecture: L'écart entre les chiffres publiés tient d'abord à la définition de ce qui est compté comme une fausse accusation.
+note: Une plainte qui n'aboutit pas n'est pas une fausse plainte, et une fausse plainte jamais découverte n'apparaît dans aucune statistique.
+
 [Témoignage] Dans l'enquête Ipsos réalisée en novembre 2021 pour l'association Mémoire traumatique et victimologie, 37 % des personnes interrogées estimaient « fréquent » qu'une personne accuse quelqu'un de viol « par déception amoureuse ou pour se venger » [16]. Ce sondage en ligne, mené du 15 au 17 novembre 2021 selon la méthode des quotas auprès de 1 035 personnes, a été commandé par une association engagée sur ce sujet ; ses formulations n'ont pas été reprises par une enquête publique.
 
 ## Porter plainte tard, ou ne pas porter plainte
@@ -99,6 +110,18 @@ source: SSMSI, repris par l'Observatoire national des violences faites aux femme
 [Témoignage] Dans la même enquête Ipsos pour l'association Mémoire traumatique et victimologie, 55 % des personnes interrogées adhéraient à au moins une circonstance faisant peser une part de responsabilité sur la victime (tenue, flirt, alcool, fait d'aller seule chez un inconnu), 61 % des hommes et 49 % des femmes [16]. Les mêmes réserves de méthode s'appliquent que pour le chiffre cité plus haut.
 
 [Interprétation] Un stéréotype n'est pas faux parce qu'il est un stéréotype : la question est de savoir s'il permet de distinguer une plainte fondée d'une plainte infondée. Les travaux cités dans ce dossier montrent que les comportements jugés « incohérents » (délai, absence de résistance, maintien du contact) sont fréquents chez des personnes dont l'agression a été prise en charge ou reconnue. Ils ne montrent pas qu'ils seraient plus fréquents chez les auteurs de fausses accusations, faute de données sur ces dernières.
+
+[Figure] tableau
+titre: Quatre comportements jugés « incohérents » et ce qu'en disent les sources
+colonnes: Comportement | Ce que montrent les sources | Limite de la source
+donnees:
+- Porter plainte tard | Délai médian entre les faits et la plainte passé de 61 jours en 2016 à 173 jours en 2024 [1] | Plaintes enregistrées seulement ; ne dit rien de la véracité des faits [1]
+- Ne pas s'être débattu | 70 % d'immobilité tonique significative déclarée par 298 femmes reçues à un centre d'urgence de Stockholm [9] | Échantillon non représentatif de toutes les victimes ; mesure déclarative [9]
+- Rester en contact avec l'auteur désigné | L'agresseur est le plus souvent un proche dans les témoignages reçus par la CIIVISE : père 27 %, frère 19 % [4] | Appel à témoignages, non représentatif ; ne mesure pas le maintien du contact [4]
+- Se souvenir de façon incomplète | Imprécisions fréquentes chez des témoins sincères, point d'accord des deux camps du débat sur la mémoire [12][13] | L'amnésie dissociative reste disputée entre chercheurs [12][13][18]
+source: SSMSI et Observatoire national des violences faites aux femmes [1] ; CIIVISE [4] ; Möller et coauteurs, 2017 [9] ; Otgaar et coauteurs, 2019 [12] ; Brewin et coauteurs, 2019 [13] ; CN2R [18]
+lecture: Ces comportements sont fréquents chez des personnes dont l'agression a été prise en charge ou reconnue ; aucun ne permet, à lui seul, de dire qu'une plainte est fondée ou infondée.
+note: Faute de données sur les fausses accusations, on ne sait pas si ces comportements y sont plus ou moins fréquents.
 
 ## Quand les institutions sont condamnées pour leurs propos
 

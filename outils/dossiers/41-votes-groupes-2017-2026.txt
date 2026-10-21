@@ -57,6 +57,17 @@ verifie: 18 octobre 2026
 
 [Scrutins] synthese 17
 
+[Figure] tableau
+titre: Trois législatures, trois rapports de force
+colonnes: Législature | Majorité absolue | Votes solennels sur un texte | Textes rejetés
+donnees:
+- XVe (2017-2022) | Détenue par le seul groupe La République en Marche jusqu'au printemps 2020 [1] | 102 [1] | 1 : programmation pour l'hôpital public, 18 juin 2020 [1]
+- XVIe (2022-2024) | Aucun groupe ; 250 membres pour les trois groupes soutenant le gouvernement en juillet 2022 [1] | 35 [1] | 1 : programmation des finances publiques 2023-2027, 25 octobre 2022 [1]
+- XVIIe (depuis 2024) | Aucune ; onze groupes [1] | 69 au 16 octobre 2026 [1] | 3 : premières parties des projets de loi de finances pour 2025 et 2026, programmation énergie et climat [1]
+source: Assemblée nationale, données ouvertes des scrutins, téléchargées le 18 octobre 2026 [1]
+lecture: Sur les 206 votes solennels depuis 2017, 5 textes ont été rejetés, dont 3 depuis 2024.
+note: Les législatures n'ont pas la même durée : cinq ans pour la XVe, deux ans pour la XVIe, un peu plus de deux ans pour la XVIIe à la date d'arrêt. La majorité absolue est de 289 sièges.
+
 ## Les 5 textes rejetés, groupe par groupe
 
 [Fait établi] Depuis 2017, cinq textes soumis à un vote solennel ont été rejetés par l'Assemblée : un pendant la XVe législature, un pendant la XVIe et trois depuis 2024. Pour chacun, le tableau donne le nombre de voix pour, contre et d'abstentions de chaque groupe, et le nombre de ses membres qui n'ont pas voté [1].
@@ -87,6 +98,17 @@ note: Le tableau de synthèse de la même page indique 3 engagements pour Franç
 ## Les motions de censure
 
 [Fait établi] Une motion de censure est adoptée si elle recueille la majorité absolue des membres de l'Assemblée ; seuls les votes « pour » sont comptés [2]. Le tableau ci-dessous recense les 62 motions votées depuis 2017, avec le nombre de voix « pour » apportées par chaque groupe [1].
+
+[Figure] arbre
+titre: Le 49.3 et la motion de censure : ce qui peut se passer
+donnees:
+- Le Premier ministre engage la responsabilité du gouvernement sur un texte (article 49, alinéa 3) [3]
+  - Aucune motion de censure n'est adoptée : le texte est considéré comme adopté, sans vote sur le texte lui-même [3]
+  - Une motion de censure obtient la majorité absolue des membres de l'Assemblée, seuls les « pour » étant comptés [2][3]
+    - Seul cas depuis 2017 : le 4 décembre 2024, par 331 voix, entraînant la chute du gouvernement de Michel Barnier [1][3]
+source: Assemblée nationale, fiche de synthèse n° 56 [2] et tableau des engagements de responsabilité et motions de censure [3] ; données ouvertes des scrutins [1]
+lecture: Un texte soumis au 49.3 est considéré comme adopté, sauf si une motion de censure réunit la majorité absolue des membres de l'Assemblée, ce qui n'est arrivé qu'une fois depuis 2017.
+note: Schéma simplifié : il ne montre ni les délais ni les conditions de dépôt d'une motion de censure.
 
 [Scrutins] censures
 

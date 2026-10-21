@@ -22,3 +22,13 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Fiches abrégées sur le modèle de la bible 13.4. Aucune donnée ajoutée au texte.
+
+- **V01** : emplacement : après l'encadré de définitions, avant « Une question mal posée ». Question pour le lecteur : Emprise, contrôle coercitif, sujétion : quelle différence en droit ? Type : tableau. Informations montrées : définition et place dans le droit de chaque notion [1][2][5][7]. Limite : simplifié ; conditions du délit de sujétion rappelées en note. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).
+
+- **V02** : emplacement : section « Ce que disent les enquêtes en France », après le premier paragraphe. Question pour le lecteur : Les victimes portent-elles plainte de la même façon selon le type de violences ? Type : barres-h. Informations montrées : taux de plainte 2023 : ensemble 19 %, physiques 30 %, verbales ou psychologiques 20 %, sexuelles 12 % [3]. Limite : déclaratif ; la ligne « Ensemble » n'est pas une somme. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).
+
+- **V03** : emplacement : section « Le contrôle coercitif », après le paragraphe sur la loi intégrale. Question pour le lecteur : Où en est le contrôle coercitif dans le droit ? Type : frise. Informations montrées : 31 janvier 2024, 28 janvier 2025, 2 et 13 octobre 2026, examen au Sénat à venir [5][6][7][8]. Limite : intervalles non à l'échelle ; texte du 13 octobre connu par sources secondaires ; date de l'examen au Sénat de 2025 non précisée dans le dossier. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).

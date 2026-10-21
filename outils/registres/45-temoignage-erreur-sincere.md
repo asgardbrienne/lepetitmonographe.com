@@ -22,3 +22,11 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Fiches abrégées sur le modèle de la bible 13.4. Aucune donnée ajoutée au texte.
+
+- **V01** : emplacement : fin de la section « L'identification d'un suspect ». Question pour le lecteur : Quand la confiance d'un témoin est-elle un bon indice ? Type : tableau. Informations montrées : trois situations selon Wixted et Wells [4][7]. Limite : position d'une équipe, réserve de Loftus et Greenspan en note [4]. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).
+
+- **V02** : emplacement : section « La parole des enfants », après la revue sur le protocole NICHD. Question pour le lecteur : Dans quel ordre le protocole NICHD pose-t-il les questions ? Type : etapes. Informations montrées : récit libre, questions ouvertes, questions fermées en dernier recours [6]. Limite : schéma simplifié ; évaluation faite par les concepteurs du protocole. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).

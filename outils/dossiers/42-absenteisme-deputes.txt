@@ -30,6 +30,19 @@ verifie: 18 octobre 2026
 
 [Interprétation] Un hémicycle peu rempli ne signifie pas que les députés ne travaillent pas : les commissions, les délégations et les missions se réunissent souvent en même temps que la séance, et les députés tiennent des permanences dans leur circonscription [6]. À l'inverse, un vote enregistré ne prouve pas une présence attentive pendant tout le débat. Les chiffres qui suivent sont des indices, pas une mesure complète du travail parlementaire.
 
+[Figure] tableau
+titre: Ce que chaque source permet de mesurer sur la présence des députés
+colonnes: Source | Depuis quand | Ce qu'elle montre | Ce qu'elle ne montre pas
+donnees:
+- Présence dans l'hémicycle | Jamais relevée par les services de l'Assemblée [5] | Rien | Qui assiste aux débats
+- Votes à main levée | Ni enregistrés ni publiés nominativement [2] | Le résultat du vote | Le vote de chaque député
+- Scrutins publics | Vote de chaque député publié depuis 2014 ; données ouvertes depuis 2012 [2][3] | Qui a voté, y compris par délégation | Une présence attentive pendant tout le débat
+- Indicateurs de NosDéputés.fr | 2007 [4] | Semaines d'activité détectée, présences relevées en commission [4] | Des pans importants du travail ; méthode modifiée en 2018 [1][5]
+- Travail en circonscription | Aucun indicateur public | Rien | Les permanences tenues en circonscription [6]
+source: Next, d'après Regards Citoyens [5] ; Assemblée nationale [2][3] ; NosDéputés.fr [4] ; Public Sénat [1][6]
+lecture: Aucune des sources disponibles ne mesure la présence dans l'hémicycle ; toutes les statistiques de ce dossier reposent sur des votes ou des activités enregistrés.
+note: Les commissions relèvent les présences, ce qui alimente les indicateurs de NosDéputés.fr. Un vote par délégation est légal dans les cas prévus par l'ordonnance de 1958 [2].
+
 ## Les votes solennels : une participation élevée et stable
 
 [Fait établi] Les votes solennels sont fixés à l'avance par la Conférence des présidents, généralement le mardi après les questions au gouvernement, pour favoriser la présence du plus grand nombre [2]. D'après les données ouvertes de l'Assemblée, le nombre médian de votants à ces scrutins a été de 542 pendant la XIVe législature, 554 pendant la XVe, 543 pendant la XVIe et 532 depuis 2024, pour 577 sièges [3].

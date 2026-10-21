@@ -30,11 +30,33 @@ corrections: Le 21 octobre 2026, la phrase sur le décret américain du 16 octob
 
 [Interprétation] L'écart entre ces chiffres va de un à soixante-cinq. Les déclarations des belligérants ne sont pas vérifiables de façon indépendante ; les évaluations de l'ISW ne sont pas infaillibles, mais elles indiquent leurs sources. Selon ces évaluations, la ligne de front a peu bougé en 2026.
 
+[Figure] tableau
+titre: Les gains russes en 2026 selon Moscou et selon l'ISW
+colonnes: Indicateur | Déclaration de Vladimir Poutine, mi-octobre | Évaluation de l'ISW
+donnees:
+- Territoire pris par la Russie depuis le 1er janvier 2026 | Environ 6 500 km² [2] | Environ 100 km² [2]
+- Localités prises depuis le 1er janvier 2026 | 310 [2] | 69 [2]
+- Part de la région de Donetsk encore tenue par l'Ukraine | Environ 10 % [2] | Environ 20,4 % [2]
+source: Institute for the Study of War et Critical Threats, « Russian Offensive Campaign Assessment, October 16, 2026 », 16 octobre 2026 [2]
+lecture: Pour le territoire pris depuis janvier, le chiffre avancé par Moscou est environ soixante-cinq fois supérieur à l'évaluation de l'ISW.
+note: Les deux colonnes ne sont pas de même nature. La première est une déclaration de belligérant, rapportée par l'ISW et invérifiable de façon indépendante ; la seconde est une estimation fondée sur des images géolocalisées, plus prudente mais pas infaillible.
+
 ## Les civils et l'énergie
 
 [Fait établi] La mission de surveillance des droits de l'homme des Nations unies en Ukraine (HRMMU) a recensé en septembre 2026 au moins 328 civils tués et 2 105 blessés, contre 249 tués et 1 068 blessés en septembre 2025. À Kyiv, des victimes civiles ont été enregistrées 22 jours sur 30 [3].
 
 [Fait établi] Ces chiffres sont des minimums vérifiés. Dans les territoires occupés par la Russie, la mission a pu vérifier 18 morts et 44 blessés en septembre et précise que « le nombre réel est probablement nettement plus élevé », faute d'accès [3].
+
+[Figure] groupes
+titre: Les victimes civiles vérifiées par l'ONU ont augmenté entre septembre 2025 et septembre 2026
+unite: Nombre de civils tués ou blessés en Ukraine au cours du mois de septembre, minimums vérifiés par la HRMMU
+series: Septembre 2025 | Septembre 2026
+donnees:
+- Tués | 249 | 328
+- Blessés | 1068 | 2105
+source: Mission de surveillance des droits de l'homme des Nations unies en Ukraine, communiqué du 16 octobre 2026 [3]
+lecture: En septembre 2026, la mission a vérifié au moins 328 civils tués et 2 105 blessés, contre 249 et 1 068 un an plus tôt.
+note: Ce sont des minimums vérifiés. Dans les territoires occupés par la Russie, la mission estime que le nombre réel est probablement nettement plus élevé, faute d'accès. Deux mois seulement sont comparés : la figure ne montre pas l'évolution entre eux.
 
 [Fait établi] Le 30 août, le ministère russe de la Défense a annoncé préparer des « frappes massives » contre les installations énergétiques ukrainiennes. Les 13 et 14 octobre, des frappes ont touché les trois principales centrales de Kyiv ; environ 600 000 habitants ont été temporairement privés d'électricité, selon les autorités ukrainiennes. Les forces ukrainiennes ont de leur côté revendiqué 82 attaques contre des installations énergétiques en Russie et dans les territoires occupés [3].
 
@@ -45,6 +67,20 @@ corrections: Le 21 octobre 2026, la phrase sur le décret américain du 16 octob
 [Témoignage] Selon des sources anonymes citées par l'agence Reuters et reprises par Meduza, les émissaires américains ont présenté à Kyiv l'accord sur le diesel russe (détaillé dans notre dossier <a href="dossier-ukraine-cout-europe-france.html">sur le coût de l'aide à l'Ukraine</a>) comme un moyen de ramener le Kremlin à la table, et ont transmis la demande de Donald Trump que l'Ukraine cesse de frapper les raffineries russes. La délégation ukrainienne n'a rien accepté formellement, mais s'est dite prête à une trêve sur l'énergie si la Russie la respectait aussi [4].
 
 [Témoignage] Le secrétaire d'État Marco Rubio a déclaré début octobre qu'il ne semblait pas y avoir, pour l'instant, de « perspectives de règlement négocié » ; le porte-parole du Kremlin, Dmitri Peskov, s'est dit d'accord avec ce constat [7].
+
+[Figure] frise
+titre: Diplomatie et frappes, de fin août à mi-octobre 2026
+donnees:
+- 30 août 2026 | Le ministère russe de la Défense annonce préparer des « frappes massives » contre les installations énergétiques ukrainiennes [3]. | Fait établi
+- Début septembre 2026 | Les émissaires américains rencontrent Vladimir Poutine à Moscou, puis des responsables ukrainiens à Kyiv, sans percée [6]. | Fait établi
+- Début octobre 2026 | Marco Rubio ne voit pas, pour l'instant, de « perspectives de règlement négocié » ; Dmitri Peskov approuve ce constat [7]. | Témoignage
+- 9 octobre 2026 | Rencontre de Miami avec une délégation ukrainienne, prévue sur deux jours, achevée au bout d'un seul, sans accord [4]. | Fait établi
+- 10 octobre 2026 | Donald Trump déclare qu'il est « temps que l'Ukraine ait un nouveau président » [8]. | Témoignage
+- 13 et 14 octobre 2026 | Des frappes touchent les trois principales centrales de Kyiv [3]. | Fait établi
+- 16 octobre 2026 | Un décret présidentiel américain écarte la plupart des sanctions de la loi de septembre contre la Russie [9]. | Fait établi
+source: HRMMU [3], Meduza d'après Reuters [4], NPR [6], NBC News [7], UPI [8], Maison-Blanche [9]
+lecture: En sept semaines, aucune des rencontres diplomatiques n'a abouti à un accord, et les trois principales centrales de Kyiv ont été frappées les 13 et 14 octobre.
+note: Les intervalles ne sont pas représentés à l'échelle. La succession des dates n'établit pas de lien de cause entre les événements : le décret du 16 octobre invoque l'intérêt national des États-Unis et ne mentionne pas les négociations [9].
 
 ## Ce que demande chaque camp
 

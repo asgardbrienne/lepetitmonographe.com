@@ -22,3 +22,11 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Fiches abrégées sur le modèle de la bible 13.4. Aucune donnée ajoutée au texte.
+
+- **V01** : emplacement : fin de la section XVIIe législature, après le bloc [Scrutins] synthese 17 (non modifié). Question pour le lecteur : Comment le rapport de force a-t-il changé d'une législature à l'autre ? Type : tableau. Informations montrées : majorité absolue, nombre de votes solennels, textes rejetés par législature [1]. Limite : législatures de durées inégales, signalé en note. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).
+
+- **V02** : emplacement : section « Les motions de censure », avant le bloc [Scrutins] censures (non modifié). Question pour le lecteur : Que se passe-t-il après un 49.3 ? Type : arbre. Informations montrées : mécanisme du 49.3, règle de la majorité absolue, censure du 4 décembre 2024 [1][2][3]. Limite : simplifié : ni délais ni conditions de dépôt. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).

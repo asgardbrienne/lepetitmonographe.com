@@ -25,6 +25,17 @@ voir_aussi: dossier-feminicides-chiffres.html, dossier-parole-violences-sexuelle
 
 [À noter] « Emprise » est un mot du langage courant, de la clinique et, désormais, de quelques textes juridiques ; aucune des sources consultées n'en donne une définition partagée par tous. Ce dossier n'établit aucun diagnostic sur une personne et n'examine aucune affaire. Contrôle coercitif : schéma de comportements répétés par lesquels une personne restreint la liberté d'une autre (surveillance, isolement, contrôle de l'argent, menaces), notion diffusée par le sociologue américain Evan Stark dans un livre publié en 2007 [5]. Sujétion : état de dépendance psychologique ou physique, notion utilisée par le code pénal pour l'abus de faiblesse et, depuis 2024, pour un délit autonome [2].
 
+[Figure] tableau
+titre: Trois notions voisines, trois places différentes dans le droit
+colonnes: Notion | Ce qu'elle désigne | Place dans le droit français
+donnees:
+- Emprise | Mot du langage courant et de la clinique, sans définition partagée dans les sources consultées | Employé par la loi du 30 juillet 2020 sur le signalement médical, sans être défini [1]
+- Contrôle coercitif | Comportements répétés restreignant la liberté d'une personne : surveillance, isolement, contrôle de l'argent, menaces [5] | Pas inscrit dans le code pénal ; utilisé par la cour d'appel de Poitiers pour caractériser des infractions existantes [5][7]
+- Sujétion psychologique ou physique | État de dépendance psychologique ou physique [2] | Délit autonome depuis la loi du 10 mai 2024, article 223-15-3 du code pénal [2]
+source: Weka, source secondaire sur la loi du 30 juillet 2020 [1] ; Conseil constitutionnel, décision du 7 mai 2024 [2] ; Yvonne Muller, Le Club des juristes, 2024 [5] ; NosParlementaires [7]
+lecture: Seule la sujétion constitue aujourd'hui un délit autonome ; l'emprise est un mot de la loi sans définition, et le contrôle coercitif une notion utilisée par des juges sans être inscrite dans le code pénal.
+note: Tableau simplifié : la sujétion est aussi utilisée pour l'abus de faiblesse, et le délit de 2024 n'est puni que si la sujétion entraîne une atteinte grave à la santé ou un acte gravement préjudiciable [2].
+
 ## Une question mal posée
 
 [Interprétation] « Pourquoi n'est-elle pas partie ? » suppose qu'il suffirait de vouloir partir, et que rester révèlerait soit l'absence de violences, soit un consentement. Les travaux présentés ici décrivent plutôt un ensemble de contraintes : dépendance matérielle, peur, enfants, isolement, espoir de changement, honte. Ils ne permettent pas d'en déduire que toute personne restée était sous emprise, ni que toute relation conflictuelle relève de l'emprise.
@@ -34,6 +45,18 @@ voir_aussi: dossier-feminicides-chiffres.html, dossier-parole-violences-sexuelle
 ## Ce que disent les enquêtes en France
 
 [Fait établi] Selon l'enquête « Vécu et ressenti en matière de sécurité » du SSMSI, 19 % des femmes déclarant avoir subi des violences au sein du couple en 2023 ont porté plainte : 30 % pour des violences physiques, 20 % pour des violences verbales ou psychologiques, 12 % pour des violences sexuelles. 75 % en ont parlé à des proches, 33 % à un psychiatre ou un psychologue, et 19 % n'en ont parlé à personne [3].
+
+[Figure] barres-h
+titre: Les violences physiques au sein du couple donnent plus souvent lieu à une plainte
+unite: Part des femmes déclarant avoir subi des violences au sein du couple en 2023 qui ont porté plainte, en %, selon le type de violences, enquête Vécu et ressenti en matière de sécurité
+donnees:
+- Ensemble des violences au sein du couple | 19
+- Violences physiques | 30
+- Violences verbales ou psychologiques | 20
+- Violences sexuelles | 12
+source: SSMSI, enquête « Vécu et ressenti en matière de sécurité », repris par l'Observatoire national des violences faites aux femmes [3]
+lecture: Parmi les femmes déclarant des violences au sein du couple en 2023, 19 % ont porté plainte ; 30 % pour des violences physiques, 12 % pour des violences sexuelles.
+note: Données déclaratives. La ligne « Ensemble » porte sur toutes les femmes déclarant des violences au sein du couple ; elle ne s'obtient pas en additionnant les autres lignes.
 
 [Fait établi] Parmi celles qui n'ont pas porté plainte et ont donné une raison, 19 % pensaient que cela « ne servirait à rien », 9 % que leur témoignage ne serait pas pris au sérieux, 18 % que ce n'était pas assez grave, et 7 % que cela aurait représenté une épreuve supplémentaire [3].
 
@@ -46,6 +69,18 @@ voir_aussi: dossier-feminicides-chiffres.html, dossier-parole-violences-sexuelle
 [État de la procédure] Le 31 janvier 2024, la cour d'appel de Poitiers a rendu cinq arrêts qui reprennent un même paragraphe définissant le contrôle coercitif comme « les manœuvres délibérées et répétées de déstabilisation psychologique, sociale et physique » ayant pour effet de réduire la capacité d'agir de la victime. La cour s'en est servie pour caractériser des infractions existantes, comme le harcèlement entre conjoints, et non pour créer une infraction nouvelle [5].
 
 [Fait établi] Une proposition de loi adoptée par l'Assemblée nationale le 28 janvier 2025 faisait du contrôle coercitif un délit ; le Sénat l'a redéfini comme une forme de harcèlement conjugal, et le texte n'a pas abouti [6]. Dans la proposition de loi dite « intégrale » contre les violences sexuelles et sexistes, l'Assemblée a rejeté le 2 octobre 2026 les trois rédactions qui devaient introduire le contrôle coercitif, selon le site NosParlementaires ; le texte a été adopté en première lecture le 13 octobre 2026 par 503 voix pour, aucune contre et 67 abstentions, et doit être examiné par le Sénat [7][8].
+
+[Figure] frise
+titre: Le contrôle coercitif, de la cour d'appel de Poitiers au Parlement
+donnees:
+- 31 janvier 2024 | La cour d'appel de Poitiers rend cinq arrêts qui définissent le contrôle coercitif pour caractériser des infractions existantes [5]. | Décision de justice
+- 28 janvier 2025 | L'Assemblée adopte un texte qui en fait un délit ; le Sénat le redéfinit en harcèlement conjugal, et le texte n'aboutit pas [6]. | Procédure parlementaire
+- 2 octobre 2026 | Dans la loi dite « intégrale », l'Assemblée rejette les trois rédactions qui devaient introduire le contrôle coercitif [7]. | Procédure parlementaire
+- 13 octobre 2026 | La loi intégrale est adoptée en première lecture par 503 voix pour, aucune contre et 67 abstentions [7][8]. | Procédure parlementaire
+- À venir | Examen de la loi intégrale par le Sénat [8]. | Prévu
+source: Yvonne Muller, Le Club des juristes, 2024 et 2026 [5][6] ; NosParlementaires, source secondaire [7] ; LCP [8]
+lecture: Au 13 octobre 2026, le contrôle coercitif n'est pas inscrit dans le code pénal ; une cour d'appel l'emploie depuis janvier 2024 pour caractériser des infractions existantes.
+note: Les intervalles ne sont pas représentés à l'échelle. La version définitive du texte du 13 octobre n'a été consultée qu'à travers des sources secondaires [7][8].
 
 [Débat] Les partisans d'une infraction autonome estiment qu'elle permettrait d'intervenir avant les violences physiques, et de saisir ce que chaque fait, pris isolément, ne montre pas. La juriste Yvonne Muller, favorable à une incrimination, relève les difficultés : définir l'infraction de façon assez précise pour respecter le principe de légalité, la distinguer du harcèlement conjugal et des violences psychologiques déjà réprimées, et éviter qu'elle soit retournée contre des victimes [5][6].
 

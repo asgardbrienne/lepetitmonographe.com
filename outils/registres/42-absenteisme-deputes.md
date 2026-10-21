@@ -22,3 +22,9 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Fiches abrégées sur le modèle de la bible 13.4. Aucune donnée ajoutée au texte.
+
+- **V01** : emplacement : fin de la section « Ce que l'on peut mesurer, et ce que l'on ne peut pas ». Question pour le lecteur : Que mesure, et que ne mesure pas, chaque source sur la présence des députés ? Type : tableau. Informations montrées : hémicycle, main levée, scrutins publics, NosDéputés.fr, circonscription [1][2][3][4][5][6]. Limite : synthèse qualitative ; aucun chiffre nouveau. Le dossier avait déjà quatre graphiques en barres : un seul visuel ajouté, de forme différente ; pas de frise des règles, qui doublerait la liste chronologique existante. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).

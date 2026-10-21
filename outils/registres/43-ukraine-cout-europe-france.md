@@ -28,3 +28,11 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable après les corrections faites ce jour.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Fiches abrégées sur le modèle de la bible 13.4. Aucune donnée ajoutée au texte.
+
+- **V01** : emplacement : section « Ce que la France a donné », après le chiffre du gouvernement. Question pour le lecteur : Pourquoi les montants de l'aide française diffèrent-ils ? Type : tableau. Informations montrées : 7,9 milliards (Kiel, bilatéral), 18,3 milliards (Kiel, part UE), 6,5 milliards (gouvernement, militaire) [1][3][4][5]. Limite : périodes et périmètres différents, dons et prêts mêlés : non comparables terme à terme, dit en titre et en note. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).
+
+- **V02** : emplacement : section « Si la France ou l'Europe se retiraient », après le paragraphe [Débat] sur le rapport Corisk. Question pour le lecteur : Que chiffrent les deux scénarios du rapport norvégien ? Type : tableau. Informations montrées : fourchettes de coût sur quatre ans par scénario [12]. Limite : estimations sur hypothèses fortes, auteurs favorables à un soutien accru, guerre réelle et reconstruction exclues. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).

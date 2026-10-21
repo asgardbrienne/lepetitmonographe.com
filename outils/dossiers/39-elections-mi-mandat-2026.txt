@@ -33,6 +33,17 @@ verifie: 18 octobre 2026
 
 [Fait établi] Au 18 octobre 2026, la Chambre compte 218 républicains, 214 démocrates, 1 indépendant et 2 sièges vacants, selon le greffier de la Chambre [1]. Le Sénat compte 53 républicains, 45 démocrates et 2 indépendants, selon le site officiel du Sénat [2].
 
+[Figure] tableau
+titre: Les deux chambres du Congrès avant le vote du 3 novembre 2026
+colonnes: | Chambre des représentants | Sénat
+donnees:
+- Mandat | Deux ans, élu par circonscription [5] | Six ans, élu par État ; un tiers renouvelé tous les deux ans [5]
+- Sièges en jeu le 3 novembre 2026 | Les 435 sièges [1] | 35 sièges sur 100, dont deux élections partielles (Floride, Ohio) [4]
+- Seuil de majorité | 218 sièges lorsque tous sont pourvus [5] | 51 voix, ou 50 plus celle du vice-président [5]
+- Composition au 18 octobre 2026 | 218 républicains, 214 démocrates, 1 indépendant, 2 sièges vacants [1] | 53 républicains, 45 démocrates, 2 indépendants [2]
+source: Greffier de la Chambre [1], Sénat des États-Unis [2], 270toWin [4], Constitution des États-Unis [5]
+lecture: Les républicains détiennent aujourd'hui la majorité dans les deux chambres ; toute la Chambre et un tiers du Sénat sont renouvelés.
+
 ## Ce que montre l'histoire
 
 [Fait établi] L'American Presidency Project, de l'université de Californie à Santa Barbara, recense les sièges gagnés ou perdus par le parti du président lors de chaque élection de mi-mandat depuis 1934 [3].
@@ -86,6 +97,17 @@ Ces scénarios décrivent les conséquences institutionnelles de chaque résulta
 [Hypothèse] **Les démocrates prennent les deux chambres.** Le Congrès pourrait voter des textes sur les droits de douane, les sanctions ou l'usage de la force, mais le président garderait son veto. Sans majorité des deux tiers, ces textes resteraient bloqués [5].
 
 [Hypothèse] **Un résultat contesté ou tardif.** Dans les élections serrées, les dépouillements et recours peuvent prendre plusieurs semaines. Indice à suivre : le nombre d'élections classées « incertaines » la veille du vote.
+
+[Figure] arbre
+titre: Trois résultats possibles et leurs conséquences institutionnelles
+donnees:
+- Résultat des élections au Congrès du 3 novembre 2026
+  - Républicains majoritaires dans les deux chambres : le président garde un Congrès de son camp jusqu'en janvier 2029 [5]
+  - Démocrates majoritaires à la Chambre seulement : ils en contrôlent l'ordre du jour, les commissions et l'initiative des lois fiscales [5]
+  - Démocrates majoritaires dans les deux chambres : textes possibles sur droits de douane, sanctions ou usage de la force, mais soumis au veto [5]
+source: Constitution des États-Unis, transcription des Archives nationales [5]
+lecture: Dans tous les cas, le président conserve son veto, que seule une majorité des deux tiers dans chaque chambre peut surmonter.
+note: Ce sont des hypothèses, pas des prévisions ni des préférences. Le schéma ne traite pas le cas d'un Sénat démocrate avec une Chambre républicaine, ni celui d'un résultat contesté ou tardif.
 
 ## Ce qu'on ne sait pas
 - **Le résultat** : les classements d'octobre ne sont pas des résultats.

@@ -24,3 +24,13 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Fiches abrégées sur le modèle de la bible 13.4. Aucune donnée ajoutée au texte.
+
+- **V01** : emplacement : section « Les fausses accusations », après le paragraphe sur la France. Question pour le lecteur : Pourquoi les taux publiés de fausses accusations varient-ils autant ? Type : tableau. Informations montrées : Lisak 2010 (5,9 %, 2 à 10 %), Rumney 2006 (1,5 à 90 %), absence de statistique française [10][11]. Limite : aucune mesure française ; une plainte non aboutie n'est pas une fausse plainte. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).
+
+- **V02** : emplacement : fin de la section « Stéréotypes : la victime idéale ». Question pour le lecteur : Que disent les sources des comportements jugés incohérents ? Type : tableau. Informations montrées : délai de plainte [1], immobilité tonique [9], proximité de l'agresseur [4], mémoire [12][13][18]. Limite : chaque ligne porte la limite de sa source ; aucun comportement ne prouve une plainte fondée ou infondée. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).
+
+- **Visuel écarté** : un graphique en barres des raisons de ne pas porter plainte (27 %, 21 %, 13 %, 11 %) a été envisagé puis abandonné : le paragraphe source ne précise pas clairement le champ (année, type de violences), et la consigne interdit de tirer une figure d'un passage ambigu.

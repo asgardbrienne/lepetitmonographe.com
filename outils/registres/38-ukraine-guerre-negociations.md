@@ -28,3 +28,13 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Fiches abrégées sur le modèle de la bible 13.4. Aucune donnée ajoutée au texte.
+
+- **V01** : emplacement : section « Le front : deux récits incompatibles », après le paragraphe d'interprétation. Question pour le lecteur : De combien diffèrent les chiffres de Moscou et ceux de l'ISW ? Type : tableau. Informations montrées : gains territoriaux, localités, part de Donetsk tenue par l'Ukraine, déclaration de Poutine et estimation ISW [2]. Limite : une déclaration de belligérant et une estimation ne sont pas de même nature ; note explicite. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).
+
+- **V02** : emplacement : section « Les civils et l'énergie », après le paragraphe sur les minimums vérifiés. Question pour le lecteur : Le bilan civil s'est-il alourdi en un an ? Type : groupes (barres). Informations montrées : tués et blessés vérifiés, septembre 2025 et septembre 2026 [3]. Limite : minimums vérifiés ; territoires occupés sous-comptés ; deux mois seulement comparés. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).
+
+- **V03** : emplacement : fin de la section « Les négociations ». Question pour le lecteur : Dans quel ordre se sont succédé rencontres, déclarations et frappes ? Type : frise. Informations montrées : 30 août, début septembre, début octobre, 9, 10, 13-14 et 16 octobre 2026 [3][4][6][7][8][9]. Limite : succession sans lien de cause ; intervalles non à l'échelle ; le décret ne mentionne pas les négociations. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).

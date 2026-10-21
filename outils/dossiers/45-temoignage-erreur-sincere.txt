@@ -43,11 +43,32 @@ voir_aussi: dossier-outreau.html, dossier-acquittement-prescription.html, dossie
 
 [Débat] Elizabeth Loftus et Rachel Greenspan ont publié un commentaire dans le même numéro de la revue, sous le titre « Si je suis certain, est-ce vrai ? », qui insiste sur les limites de cette conclusion hors des conditions idéales [4]. Les deux positions convergent sur un point : c'est la procédure de recueil qui conditionne la valeur de la confiance du témoin.
 
+[Figure] tableau
+titre: Quand la confiance d'un témoin renseigne sur l'exactitude, selon Wixted et Wells
+colonnes: Situation | Conclusion de Wixted et Wells (2017)
+donnees:
+- Forte confiance, notée dès la première identification, recueillie dans des conditions rigoureuses | Forte exactitude en général [4][7]
+- Faible confiance | « Signale toujours un risque élevé d'erreur » [4][7]
+- Confiance exprimée au procès, après des identifications répétées ou un retour approbateur | N'est plus informative [4][7]
+source: Wixted et Wells, Psychological Science in the Public Interest, 2017 [4][7] ; commentaire de Loftus et Greenspan dans le même numéro [4]
+lecture: Selon Wixted et Wells, la confiance d'un témoin n'est informative que si elle est notée tôt, lors d'une procédure rigoureuse : une seule présentation, par un enquêteur qui ignore qui est le suspect.
+note: Position d'une équipe de chercheurs : Loftus et Greenspan insistent, dans le même numéro, sur les limites de cette conclusion hors des conditions idéales [4]. Les deux équipes s'accordent sur le rôle décisif de la procédure de recueil.
+
 ## La parole des enfants
 
 [Fait établi] Une revue de la littérature publiée en 1993 par les psychologues Stephen Ceci et Maggie Bruck conclut qu'il existe des différences d'âge fiables dans la suggestibilité, les plus jeunes enfants étant les plus sensibles aux suggestions, mais que « même de très jeunes enfants » sont capables de rapporter beaucoup d'éléments utiles à une enquête [5].
 
 [Fait établi] Une revue publiée en 2007 par l'équipe qui a conçu le protocole NICHD indique que des études contrôlées montrent une amélioration nette de la qualité des entretiens lorsque les enquêteurs l'utilisent : récit libre d'abord, questions ouvertes ensuite, questions fermées en dernier recours [6]. Les auteurs étant les concepteurs du protocole, leur évaluation n'est pas indépendante.
+
+[Figure] etapes
+titre: L'ordre des questions dans le protocole NICHD
+donnees:
+- Récit libre | En premier [6]
+- Questions ouvertes | Ensuite [6]
+- Questions fermées | En dernier recours seulement [6]
+source: Lamb et coauteurs, revue publiée en 2007 par l'équipe qui a conçu le protocole [6]
+lecture: Le protocole fait passer le récit libre avant les questions ouvertes, et ne recourt aux questions fermées qu'en dernier lieu.
+note: Schéma simplifié : le protocole comporte d'autres phases que le dossier ne détaille pas. Son évaluation, faite par ses concepteurs, n'est pas indépendante.
 
 [Interprétation] Ces deux travaux répondent à deux positions souvent opposées dans le débat public. La première affirme que « les enfants ne mentent pas » ; la seconde que leur parole est trop malléable pour fonder une accusation. La recherche ne valide ni l'une ni l'autre : la fiabilité de la parole d'un enfant dépend largement de la manière dont elle a été recueillie.
 

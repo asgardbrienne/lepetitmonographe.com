@@ -27,6 +27,20 @@ verifie: 18 octobre 2026
 
 [Fait établi] Une réunion préparatoire, la pré-COP, s'est tenue du 5 au 8 octobre 2026 aux Fidji et aux Tuvalu. Elle n'a pas produit de texte négocié ; les pays du Pacifique y ont mis en avant trois priorités : garder 1,5 °C à portée, faire parvenir les financements à ceux qui en ont besoin, et placer l'océan au cœur des discussions [6]. Un sommet des chefs d'État et de gouvernement est prévu à Antalya les 11 et 12 novembre [6].
 
+[Figure] frise
+titre: De Belém à Antalya, les étapes jusqu'à la COP31
+donnees:
+- 27 janvier 2025 | Les États-Unis notifient à l'ONU leur retrait de l'accord de Paris [5]. | Fait établi
+- 5 novembre 2025 | Le Conseil de l'UE approuve la contribution européenne pour 2035 [10]. | Fait établi
+- Novembre 2025 | La COP30 de Belém se conclut sans mention des combustibles fossiles [7][8]. | Fait établi
+- 27 janvier 2026 | Le retrait des États-Unis de l'accord de Paris prend effet [5]. | Fait établi
+- 5 au 8 octobre 2026 | Pré-COP aux Fidji et aux Tuvalu, sans texte négocié [6]. | Fait établi
+- 9 au 20 novembre 2026 | COP31 à Antalya, présidée par la Turquie, négociations dirigées par l'Australie [1][2]. | Prévu
+- 11 et 12 novembre 2026 | Sommet des chefs d'État et de gouvernement à Antalya [6]. | Prévu
+source: ONU, Collection des traités [5] ; Conseil de l'UE [10] ; Carbon Brief [7] ; Climate Home News [8] ; PINA [6] ; CCNUCC [1] ; gouvernement australien [2]
+lecture: La COP31 s'ouvre moins d'un an après que le retrait américain de l'accord de Paris a pris effet.
+note: Les intervalles ne sont pas représentés à l'échelle. Les deux dernières lignes sont des événements prévus à la date d'arrêt du dossier.
+
 ## Ce qui a été décidé à Belém
 
 [Fait établi] La COP30, tenue à Belém au Brésil en novembre 2025, s'est conclue par une décision dite du « mutirão mondial ». Ce texte ne mentionne pas les combustibles fossiles et ne contient pas de feuille de route pour en sortir [7][8].
@@ -36,6 +50,19 @@ verifie: 18 octobre 2026
 [Fait établi] Le texte « appelle » les pays à au moins tripler les financements consacrés à l'adaptation d'ici 2035, sans fixer d'année de référence. Il prend acte de l'objectif fixé en 2024 à Bakou : 300 milliards de dollars par an de financements climatiques des pays développés vers les pays en développement d'ici 2035, avec l'ambition de mobiliser 1 300 milliards par an au total [7].
 
 [Fait établi] Deux initiatives volontaires ont été lancées : la « mission de Belém vers 1,5 °C » et un « accélérateur de mise en œuvre » qui invite les pays à préparer des plans de mise en œuvre ; des séances d'information sont prévues à la COP31 [7].
+
+[Figure] tableau
+titre: Ce que prévoit l'issue de Belém, et ce qu'elle ne fixe pas
+colonnes: Sujet | Ce que prévoient le texte ou la présidence | Ce qui n'y figure pas
+donnees:
+- Combustibles fossiles | La présidence brésilienne annonce une feuille de route de sortie, hors négociations officielles, pour la COP suivante [7] | Toute mention des fossiles dans le texte, et toute feuille de route négociée [7][8]
+- Déforestation | Une seconde feuille de route annoncée par la présidence, hors négociations [7] | Son contenu, non publié à la date d'arrêt du dossier
+- Adaptation | Un appel à au moins tripler les financements d'ici 2035 [7] | L'année de référence du triplement [7]
+- Financement climatique | Prise d'acte de l'objectif de Bakou : 300 milliards de dollars par an d'ici 2035, ambition de 1 300 milliards [7] | Un objectif nouveau : celui-ci a été fixé en 2024 [7]
+- Mise en œuvre | Deux initiatives volontaires : mission de Belém vers 1,5 °C, accélérateur de mise en œuvre [7] | Une obligation : ces initiatives sont volontaires [7]
+source: Carbon Brief [7] et Climate Home News [8], sources secondaires, novembre 2025
+lecture: Les engagements les plus précis issus de Belém portent sur l'adaptation et le financement ; la question des combustibles fossiles a été renvoyée hors du texte négocié.
+note: Les feuilles de route sont des annonces de la présidence brésilienne, pas des éléments de la décision négociée. Synthèse établie à partir de sources secondaires.
 
 ## L'écart entre les promesses et l'objectif
 

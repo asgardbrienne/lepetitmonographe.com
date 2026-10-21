@@ -57,6 +57,17 @@ source: Institut de Kiel, Ukraine Support Tracker, 31e version, données au 31 a
 
 [Fait établi] Le gouvernement publie son propre chiffre, sur un périmètre différent. Le rapport au Parlement 2026 sur les exportations d'armement estime le soutien militaire de la France à 6,5 milliards d'euros du 24 février 2022 au 31 décembre 2025, en incluant ses engagements au titre de la Facilité européenne pour la paix (environ 18 % des engagements des États membres, jusqu'à 2,1 milliards sur toute la période). Il évalue à plus de 940 millions d'euros les matériels livrés en 2025 [4][5]. Interrogé par franceinfo en septembre 2026, le ministère des Armées a refusé d'avancer un chiffre global [3].
 
+[Figure] tableau
+titre: L'aide française à l'Ukraine selon trois calculs qui ne se comparent pas directement
+colonnes: Montant | Calculé par | Période | Périmètre
+donnees:
+- 7,9 milliards d'euros | Institut de Kiel [1] | Février 2022 à août 2026 | Aide bilatérale : 6,2 milliards militaire, 0,9 humanitaire, 0,8 financière directe
+- 18,3 milliards d'euros | Institut de Kiel [3] | Jusqu'en juin 2026 | Part de la France dans l'aide passée par l'UE, par application de sa part dans le budget européen
+- 6,5 milliards d'euros | Gouvernement, rapport au Parlement 2026 [4][5] | 24 février 2022 au 31 décembre 2025 | Soutien militaire, engagements au titre de la Facilité européenne pour la paix compris
+source: Institut de Kiel, 31e version [1], repris par franceinfo [3] ; rapport au Parlement 2026 sur les exportations d'armement [4] ; FOB, source secondaire [5]
+lecture: Le chiffre du gouvernement porte sur le seul soutien militaire jusqu'à fin 2025 ; ceux de l'Institut de Kiel couvrent d'autres périodes et d'autres types d'aide.
+note: Les périodes et les périmètres diffèrent : ces montants ne se comparent pas terme à terme. Les deux premiers mêlent dons et prêts ; la part attribuée à la France dans l'aide européenne est une convention de calcul de l'Institut de Kiel, pas un chiffre du gouvernement.
+
 [Fait établi] **Le matériel.** Le même rapport cite parmi les matériels fournis les canons CAESAR, les avions Mirage 2000, les bombes guidées AASM, les missiles SCALP et des systèmes de défense sol-air (Mistral, Crotale, et le système Mamba, ou SAMP/T, avec ses missiles Aster). Pour la seule année 2025, il recense notamment 3 chars, 42 véhicules blindés et 4 avions de combat cédés sur les stocks des armées, 214 missiles cédés et 67 canons de 155 mm livrés. Plus de 22 000 soldats ukrainiens ont été formés par les armées françaises en Pologne et en France [4].
 
 [Fait établi] **L'industrie.** Une lettre d'intention signée en novembre 2025 par Emmanuel Macron et Volodymyr Zelensky prévoit l'acquisition par l'Ukraine d'avions Rafale et de systèmes de défense aérienne SAMP/T NG [4]. Les commandes ukrainiennes enregistrées par l'industrie française ont atteint 781 millions d'euros en 2025 [4]. Une partie des achats de matériel français pour l'Ukraine est payée par d'autres États : le Danemark a promis 117 millions d'euros pour des CAESAR, la Norvège 365 millions pour des bombes AASM [5].
@@ -102,6 +113,16 @@ source: Institut de Kiel, Ukraine Support Tracker, 31e version, données au 31 a
 [Estimation] **Ce que coûterait une victoire russe, selon le centre norvégien Corisk et l'Institut norvégien des affaires internationales (NUPI).** Leur rapport de novembre 2025 compare deux scénarios sur quatre ans. Si la Russie impose un accord à ses conditions, 6 à 11 millions d'Ukrainiens supplémentaires chercheraient refuge en Europe, pour un coût de 524 à 952 milliards d'euros ; avec le renforcement militaire du flanc est, le coût total pour l'Europe atteindrait 1 205 à 1 633 milliards d'euros. Si l'Europe arme l'Ukraine pour qu'elle reprenne l'avantage, le coût serait de 522 à 838 milliards, réductible de moitié par la confiscation des avoirs russes [12].
 
 [Débat] Les auteurs de ce rapport recommandent eux-mêmes un soutien accru à l'Ukraine [12]. Ses chiffres dépendent d'hypothèses fortes : le nombre de réfugiés, un coût moyen de 25 000 euros par réfugié et par an, et une capacité de l'Ukraine à reprendre l'offensive si elle est mieux armée. Il exclut le coût d'une guerre réelle et de la reconstruction [12]. Nous n'avons pas trouvé d'étude de même ampleur aboutissant à la conclusion inverse ; cela ne prouve pas que ses chiffres soient justes, seulement qu'ils ne sont pas contestés par un travail équivalent.
+
+[Figure] tableau
+titre: Deux scénarios chiffrés sur quatre ans par Corisk et le NUPI
+colonnes: Scénario | Hypothèses principales | Coût estimé pour l'Europe sur quatre ans
+donnees:
+- La Russie impose un accord à ses conditions | 6 à 11 millions d'Ukrainiens supplémentaires cherchent refuge en Europe ; renforcement militaire du flanc est [12] | 1 205 à 1 633 milliards d'euros, dont 524 à 952 milliards liés aux réfugiés [12]
+- L'Europe arme l'Ukraine pour qu'elle reprenne l'avantage | L'Ukraine, mieux armée, reprend l'offensive [12] | 522 à 838 milliards d'euros, réductibles de moitié par la confiscation des avoirs russes [12]
+source: Corisk et Institut norvégien des affaires internationales (NUPI), rapport de novembre 2025 [12]
+lecture: Selon ce rapport, le coût pour l'Europe serait plus élevé dans le scénario d'un accord imposé par la Russie que dans celui d'une Ukraine mieux armée.
+note: Estimations construites sur des hypothèses fortes (nombre de réfugiés, coût moyen de 25 000 euros par réfugié et par an, capacité de l'Ukraine à reprendre l'offensive), pas des prévisions. Elles excluent le coût d'une guerre réelle et de la reconstruction. Les auteurs recommandent un soutien accru à l'Ukraine.
 
 [Estimation] **Ce que coûterait une défense de l'Europe sans les États-Unis.** En février 2025, deux économistes de l'Institut de Kiel et du centre Bruegel estimaient que remplacer l'aide militaire américaine à l'Ukraine ne coûterait à l'UE que 0,12 % de son PIB. En revanche, un accord russo-américain qui laisserait la Russie poursuivre son réarmement obligerait l'Europe à augmenter ses dépenses de défense d'environ 250 milliards d'euros par an et à se doter de capacités équivalentes à 300 000 soldats américains [11]. Il s'agit d'une première estimation, centrée sur la guerre terrestre, qui exclut la dissuasion nucléaire et les menaces hybrides.
 

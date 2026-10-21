@@ -23,3 +23,11 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Fiches abrégées sur le modèle de la bible 13.4. Aucune donnée ajoutée au texte.
+
+- **V01** : emplacement : section « Le Congrès sortant ». Question pour le lecteur : Qu'est-ce qui est en jeu dans chaque chambre ? Type : tableau. Informations montrées : mandat, sièges en jeu, seuil de majorité, composition au 18 octobre 2026 [1][2][4][5]. Limite : photographie au 18 octobre 2026. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).
+
+- **V02** : emplacement : fin de la section « Ce que cela peut changer ». Question pour le lecteur : Que change chaque résultat pour les pouvoirs du Congrès ? Type : arbre. Informations montrées : trois scénarios et leurs conséquences constitutionnelles [5]. Limite : hypothèses, ni prévision ni préférence ; cas Sénat démocrate et Chambre républicaine, et résultat contesté, non traités. Statut : données vérifiées dans le texte (aucune donnée nouvelle ; rendu mobile non testé, generer.py non lancé).
