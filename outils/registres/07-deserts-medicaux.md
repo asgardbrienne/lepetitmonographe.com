@@ -30,3 +30,22 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Statut : données vérifiées dans le texte (aucune donnée nouvelle ; mêmes appels de note). Test mobile : à faire (pages non régénérées, generer.py non lancé). Contrôle : verifier_dossier.py OK, rendu de la figure testé avec figures.rendre.
+
+- V01
+  - Emplacement : section « Pourquoi il manque des médecins », après le paragraphe sur le numerus clausus et la loi Neuder.
+  - Question pour le lecteur : Qui fixe le nombre d'étudiants en médecine, et depuis quand ?
+  - Type : frise.
+  - Informations montrées et appels de note : 1971 numerus clausus, 2020 numerus apertus [4], loi n° 2025-580 du 27 juin 2025 [5].
+  - Limite : étapes non à l'échelle ; sources secondaires ; ne montre pas le nombre de places.
+  - Statut : données vérifiées dans le texte.
+- V02
+  - Emplacement : section « Les solutions en débat », après le paragraphe sur la proposition de loi Garot.
+  - Question pour le lecteur : En quoi les versions de l'Assemblée et du Sénat diffèrent-elles ?
+  - Type : tableau.
+  - Informations montrées et appels de note : contenu et votes du 7 mai 2025 [8] et du 11 juin 2026 [6][9].
+  - Limite : simplifié (autres articles non détaillés) ; texte non adopté définitivement.
+  - Statut : données vérifiées dans le texte.

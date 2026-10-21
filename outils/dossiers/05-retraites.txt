@@ -30,6 +30,18 @@ corrections: Les ressources sont actualisées avec le rapport du COR de juin 202
 
 [Estimation] Une analyse syndicale du rapport 2025 du COR (UNSA Retraités) donne la répartition suivante pour 2024 : 65,1 % de cotisations sociales, 11,7 % de contributions de l'État en tant qu'employeur, 15 % d'impôts et taxes affectés et de transferts de TVA, 8,2 % de subventions d'équilibre de certains régimes spéciaux [4]. Cette ventilation est un calcul du syndicat, cohérent avec les ordres de grandeur du COR mais non publié sous cette forme par le COR.
 
+[Figure] barres-h
+titre: Répartition des ressources du système de retraite en 2024, selon un calcul syndical
+unite: Part des ressources, en %, 2024
+donnees:
+- Cotisations sociales | 65,1
+- Impôts et taxes affectés, transferts de TVA | 15
+- Contributions de l'État employeur | 11,7
+- Subventions d'équilibre de régimes spéciaux | 8,2
+lecture: Selon le calcul de l'UNSA Retraités à partir du rapport 2025 du COR, les cotisations sociales représentent environ les deux tiers des ressources du système en 2024.
+note: Calcul d'un syndicat, cohérent avec les ordres de grandeur du COR mais non publié sous cette forme par le COR. Le montant de plusieurs de ces ressources dépend de décisions publiques et présente un caractère conventionnel.
+source: UNSA Retraités, « Analyse du rapport du COR 2025 », juillet 2025 (source secondaire) [4] ; COR, rapport annuel de juin 2025 [1]
+
 [Fait établi] Une partie des impôts affectés compense des exonérations de cotisations décidées par l'État : selon la Cour des comptes, c'est notamment ce qui explique la hausse de leur part [3]. Le COR souligne que le montant de ces ressources dépend de décisions publiques et présente donc un caractère conventionnel [1][2].
 
 ## Le solde
@@ -50,6 +62,17 @@ note: Projections : elles dépendent d'hypothèses de productivité, de chômage
 source: Conseil d'orientation des retraites, rapport annuel de juin 2026 [2]
 
 [Débat] Le niveau du déficit dépend du traitement des produits financiers et de la contribution de l'État au régime de ses fonctionnaires, qui est par construction à l'équilibre. Le COR relève lui-même que ce cadre comptable « tend à masquer la fragilité persistante du régime des fonctionnaires de l'État », qui comptait 1,29 cotisant par retraité en 2020, contre 2,05 pour l'ensemble des régimes [2]. La Cour des comptes observe que la contribution de l'État mêle une cotisation d'employeur, le financement de dépenses non contributives et un solde d'équilibre, « sans qu'il soit possible de les distinguer » : il existe donc « autant de formules de calcul que de conventions comptables », ces présentations étant sans incidence sur la charge totale supportée par les finances publiques [3]. À l'inverse, l'UNSA Retraités juge que « le système des retraites français est solide » et dénonce « l'alarmisme » qui a entouré la réforme de 2023 [4]. Ces lectures ne s'opposent pas sur les chiffres mais sur la convention retenue et l'horizon considéré.
+
+[Figure] tableau
+titre: Trois lectures du solde du système de retraite
+colonnes: Source | Ce qu'elle relève
+donnees:
+- Conseil d'orientation des retraites | Déficit de 5,1 milliards d'euros en 2025 ; le cadre comptable « tend à masquer la fragilité persistante » du régime des fonctionnaires de l'État [2]
+- Cour des comptes | Contribution de l'État aux composantes indistinctes : « autant de formules de calcul que de conventions comptables », sans incidence sur la charge totale [3]
+- UNSA Retraités | « Le système des retraites français est solide » ; critique de « l'alarmisme » autour de la réforme de 2023 [4]
+lecture: Ces lectures ne s'opposent pas sur les chiffres mais sur la convention retenue et l'horizon considéré.
+note: Le déficit 2025 estimé par le COR s'entend hors charges et produits financiers.
+source: COR, rapport annuel de juin 2026 [2] ; Cour des comptes, 20 février 2025 [3] ; UNSA Retraités, juillet 2025 (source secondaire) [4]
 
 ## Ce qu'on ne sait pas
 - **L'équilibre à long terme.** Les projections du COR à 2070 dépendent d'hypothèses de productivité, de chômage, de natalité et de solde migratoire dont chacune peut changer fortement le résultat.

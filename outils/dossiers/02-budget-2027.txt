@@ -59,6 +59,18 @@ source: Présentation du gouvernement, reprise par la Fondation IFRAP ; audition
 
 [Expertise] Devant le Sénat le 7 octobre 2026, la présidente du HCFP a jugé le chiffre de croissance de 1 % « optimiste » et « un peu supérieur au consensus des prévisionnistes » : avec les prévisions d'autres organismes, 0,7 % pour l'Observatoire français des conjonctures économiques (OFCE) et l'institut Rexecode, 0,9 % pour la Banque de France, le déficit 2027 serait plutôt de 5,2 % ou 5,3 % du PIB [6].
 
+[Figure] barres-h
+titre: Prévisions de croissance pour 2027 citées devant le Sénat
+unite: Croissance du PIB en 2027, en %, prévisions
+donnees:
+- Gouvernement (projet de budget) | 1,0*
+- Banque de France | 0,9*
+- OFCE | 0,7*
+- Rexecode | 0,7*
+lecture: Le gouvernement retient 1 % de croissance en 2027, au-dessus des prévisions de la Banque de France (0,9 %), de l'OFCE et de Rexecode (0,7 %) citées par la présidente du HCFP.
+note: Prévisions d'organismes différents, dont la date d'établissement n'est pas précisée dans la source. Avec ces prévisions, le déficit 2027 serait plutôt de 5,2 % ou 5,3 % du PIB selon la présidente du HCFP, contre 5,0 % visés par le gouvernement.
+source: Audition de la présidente du HCFP devant le Sénat, 7 octobre 2026, rapportée par Public Sénat (source secondaire) [6]
+
 [Expertise] Le HCFP juge « très peu vraisemblable » un retour du déficit sous 3 % du PIB en 2029, sauf évolutions conjoncturelles très favorables [2].
 
 [À noter] La loi de finances initiale pour 2026 visait un déficit de 5,0 % du PIB [6]. Le projet de loi de finances pour 2027 le prévoit désormais à 5,4 % [1], après avoir ramené la prévision de croissance 2026 de 1 % à 0,5 %, une prévision jugée « plausible » devant le Sénat par Michaël Zemmour, membre du HCFP [6]. Ce chiffre n'est pas encore définitif : le déficit 2026 sera publié par l'Insee au printemps 2027.
@@ -66,6 +78,17 @@ source: Présentation du gouvernement, reprise par la Fondation IFRAP ; audition
 ## Les collectivités locales
 
 [Estimation] L'effort direct demandé aux collectivités locales est de 5,5 milliards d'euros selon le gouvernement [3]. Selon une analyse publiée par le blog FMPC, consacré à la gestion des collectivités, il atteindrait 7 milliards en incluant la hausse des cotisations de retraite des agents territoriaux et hospitaliers versées à leur caisse, la CNRACL [4] ; la Fondation IFRAP l'évalue pour sa part à 6,2 milliards [5]. La différence tient au périmètre retenu.
+
+[Figure] tableau
+titre: L'effort demandé aux collectivités locales en 2027 : trois chiffrages
+colonnes: Chiffrage | Montant | Ce qui est compté
+donnees:
+- Gouvernement | 5,5 milliards d'euros [3] | L'effort direct demandé aux collectivités
+- Fondation IFRAP | 6,2 milliards d'euros [5] | Évaluation propre de la fondation, périmètre non détaillé ici
+- Blog FMPC | 7 milliards d'euros [4] | L'effort direct et la hausse des cotisations de retraite des agents territoriaux et hospitaliers versées à la CNRACL
+lecture: Les trois montants ne se contredisent pas nécessairement : ils ne retiennent pas le même périmètre.
+note: Le chiffre du gouvernement et celui du blog FMPC sont rapportés par des sources secondaires ; le montant final dépendra du budget voté.
+source: Touteleurope.eu, 2 octobre 2026 [3] ; blog FMPC, octobre 2026 [4] ; Fondation IFRAP, 2 octobre 2026 [5]
 
 ## Ce qu'on ne sait pas
 - **Le budget qui sera voté.** Le texte va être examiné et modifié par le Parlement ; sa forme finale et les conditions de son adoption ne sont pas connues.

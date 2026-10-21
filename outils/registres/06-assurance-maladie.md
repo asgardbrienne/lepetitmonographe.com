@@ -26,3 +26,22 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Statut : données vérifiées dans le texte (aucune donnée nouvelle ; mêmes appels de note). Test mobile : à faire (pages non régénérées, generer.py non lancé). Contrôle : verifier_dossier.py OK, rendu de la figure testé avec figures.rendre.
+
+- V01
+  - Emplacement : section « Où va l'argent », après le paragraphe sur l'Ondam 2027.
+  - Question pour le lecteur : Comment se répartit l'Ondam et comment évolue-t-il entre 2026 et 2027 ?
+  - Type : groupes.
+  - Informations montrées et appels de note : quatre sous-objectifs, loi pour 2026 [5] et projet pour 2027 [1].
+  - Limite : 2026 = loi initiale (objectif total révisé depuis, révision par sous-objectif non disponible) ; 2027 = projet ; autres sous-objectifs non représentés ; source secondaire pour 2026.
+  - Statut : données vérifiées dans le texte.
+- V02
+  - Emplacement : section « Les arrêts de travail », après le paragraphe sur 2014-2019 et 2019-2025.
+  - Question pour le lecteur : Les dépenses d'arrêts maladie accélèrent-elles depuis la crise sanitaire ?
+  - Type : groupes.
+  - Informations montrées et appels de note : 3,7 et 4,4 % par an (moins de trois mois), 4,1 et 6,7 % (plus de trois mois) [3].
+  - Limite : dépenses en euros : effet salaires et effet volume non séparés ; aucune cause montrée.
+  - Statut : données vérifiées dans le texte.

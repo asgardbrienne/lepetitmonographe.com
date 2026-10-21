@@ -28,3 +28,22 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Statut : données vérifiées dans le texte (aucune donnée nouvelle ; mêmes appels de note). Test mobile : à faire (pages non régénérées, generer.py non lancé). Contrôle : verifier_dossier.py OK, rendu de la figure testé avec figures.rendre.
+
+- V03
+  - Emplacement : fin de « Ce que coûte la dette », après le paragraphe sur les intérêts en comptabilité nationale.
+  - Question pour le lecteur : Pourquoi lit-on 72,9, 91,2 ou 3 595,5 milliards selon les articles ?
+  - Type : tableau.
+  - Informations montrées et appels de note : dette de Maastricht et dette nette fin juin 2026 [1], charge de la dette de l'État 2027 [2], intérêts des administrations publiques 2027 [9].
+  - Limite : deux prévisions ; le chiffre de 91,2 milliards vient d'une source secondaire ; ne dit rien de la soutenabilité.
+  - Statut : données vérifiées dans le texte.
+- V04
+  - Emplacement : section « Le débat », après le paragraphe exposant les deux positions.
+  - Question pour le lecteur : Sur quoi les deux lectures du risque divergent-elles ?
+  - Type : tableau.
+  - Informations montrées et appels de note : arguments des deux positions tels que résumés dans le texte, ratio en hausse depuis 2024 [7], écart avec la zone euro [5].
+  - Limite : simplification ; positions non attribuées à des auteurs ; ne tranche pas.
+  - Statut : données vérifiées dans le texte.

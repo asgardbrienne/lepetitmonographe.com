@@ -25,3 +25,22 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable ; amélioration du titre recommandée.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Statut : données vérifiées dans le texte (aucune donnée nouvelle ; mêmes appels de note). Test mobile : à faire (pages non régénérées, generer.py non lancé). Contrôle : verifier_dossier.py OK, rendu de la figure testé avec figures.rendre.
+
+- V02
+  - Emplacement : section « Les prix, les loyers et le crédit », après le paragraphe sur l'indice Notaires-Insee.
+  - Question pour le lecteur : Les prix baissent-ils de la même façon pour les maisons et les appartements ?
+  - Type : barres-h.
+  - Informations montrées et appels de note : -1,3 %, -0,1 %, -0,8 % sur un an au deuxième trimestre 2026 [2].
+  - Limite : données provisoires ; un seul trimestre.
+  - Statut : données vérifiées dans le texte.
+- V03
+  - Emplacement : même section, après le paragraphe sur les loyers.
+  - Question pour le lecteur : Les loyers ont-ils augmenté autant dans le parc libre et dans le parc social ?
+  - Type : barres-h.
+  - Informations montrées et appels de note : +1,5 % secteur libre, +3,9 % secteur social en 2025 [1].
+  - Limite : ensemble des baux, pas les nouveaux baux ; une seule année.
+  - Statut : données vérifiées dans le texte.

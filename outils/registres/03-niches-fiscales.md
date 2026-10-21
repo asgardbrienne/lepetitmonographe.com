@@ -26,3 +26,22 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Statut : données vérifiées dans le texte (aucune donnée nouvelle ; mêmes appels de note). Test mobile : à faire (pages non régénérées, generer.py non lancé). Contrôle : verifier_dossier.py OK, rendu de la figure testé avec figures.rendre.
+
+- V01
+  - Emplacement : section « Combien elles coûtent », après le paragraphe sur l'écart entre chiffrages initiaux et coûts constatés.
+  - Question pour le lecteur : Le coût des niches est-il connu à l'avance ?
+  - Type : groupes.
+  - Informations montrées et appels de note : 2024 : 78,4 prévu, 89,4 définitif ; 2025 : 85,1 prévu, 91,8 estimé [2].
+  - Limite : 2025 encore provisoire ; la part du pacte Dutreil dans l'écart n'est pas représentée, le texte ne l'attribuant pas clairement à une année.
+  - Statut : données vérifiées dans le texte.
+- V02
+  - Emplacement : même section, après le paragraphe sur la convention TVA.
+  - Question pour le lecteur : Combien change le total si l'on compte la TVA autrement ?
+  - Type : groupes.
+  - Informations montrées et appels de note : 89,4 et 91,8 (convention actuelle), 103,1 et 105,6 (ancienne convention) [2].
+  - Limite : 13 % des dispositifs sans coût connu ; total = ordre de grandeur.
+  - Statut : données vérifiées dans le texte.

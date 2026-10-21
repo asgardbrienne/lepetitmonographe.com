@@ -49,6 +49,18 @@ source: Projet de loi de finances pour 2027, déposé le 1er octobre 2026 [2]
 
 [Estimation] En comptabilité nationale, qui couvre l'ensemble des administrations publiques, les intérêts atteindraient 91,2 milliards d'euros en 2027, contre 79,2 milliards en 2026, selon le dossier de presse du Gouvernement repris par la presse spécialisée [9]. Le rapport sur la dette des administrations publiques exprime la même prévision en part de richesse produite : 2,6 % du PIB en 2026, 2,9 % en 2027 et 3,7 % en 2030 [7]. Les deux prévisions, 72,9 et 91,2 milliards, ne se contredisent pas : elles ne portent pas sur le même périmètre. Le chiffre de 91 milliards cité dans le débat public correspond au second.
 
+[Figure] tableau
+titre: Quatre chiffres de la dette, quatre objets différents
+colonnes: Chiffre | Ce qu'il mesure | Périmètre | Montant
+donnees:
+- Dette au sens de Maastricht | Dette brute accumulée, fin juin 2026 | État, sécurité sociale, collectivités locales | 3 595,5 milliards d'euros, 119,0 % du PIB [1]
+- Dette nette | Dette brute moins certains actifs financiers, fin juin 2026 | Ensemble des administrations publiques | 3 366,8 milliards d'euros, 111,4 % du PIB [1]
+- Charge de la dette de l'État | Coût annuel des emprunts de l'État, prévision pour 2027 | État, y compris la dette reprise de SNCF Réseau | 72,9 milliards d'euros [2]
+- Intérêts en comptabilité nationale | Intérêts versés, prévision pour 2027 | Ensemble des administrations publiques | 91,2 milliards d'euros [9]
+lecture: Les deux premières lignes sont des stocks accumulés, les deux dernières des coûts annuels prévus ; 72,9 et 91,2 milliards ne se contredisent pas, car ils ne couvrent pas le même périmètre.
+note: Les deux dernières lignes sont des prévisions. Le chiffre de 91,2 milliards provient d'une source secondaire qui reprend le dossier de presse du Gouvernement.
+source: Insee, Informations rapides n° 239, 29 septembre 2026 [1] ; projet de loi de finances pour 2027 [2] ; Legifiscal, 1er octobre 2026, d'après le dossier de presse du Gouvernement [9]
+
 [Estimation] Le tableau de financement du projet de loi de finances prévoit un besoin de financement de l'État de 339,7 milliards d'euros en 2027 [2]. Selon l'Agence France Trésor, citée par l'AFP, c'est 28 milliards de plus que le besoin de financement 2026 actualisé [3]. Ce besoin couvre le déficit de l'année et le remboursement des emprunts qui arrivent à échéance.
 
 [Interprétation] La charge d'intérêts augmente parce que la dette émise quand les taux étaient très bas, notamment pendant la crise sanitaire, est progressivement remplacée par de la dette émise à des taux plus élevés. Cet effet est progressif : selon le rapport sur la dette des administrations publiques publié en octobre 2026, la maturité moyenne de la dette de l'État s'élève à 8,5 ans [7]. Une hausse des taux ne se répercute donc que lentement sur l'ensemble du stock, mais elle continue de peser plusieurs années.
@@ -80,6 +92,16 @@ source: Eurostat, communiqué du 21 juillet 2026 [5]
 [Débat] Il n'existe pas de seuil reconnu au-delà duquel une dette devient insoutenable. La dette brute du Japon dépasse 200 % du PIB : environ 251 % en 2025 selon les estimations du FMI reprises par BNP Paribas [8], sans crise de financement, quand d'autres pays ont connu des crises avec des ratios bien plus bas. La différence tient notamment à la part de la dette détenue par les résidents et par la banque centrale.
 
 [Débat] Une première position souligne que la France emprunte sans difficulté, que sa dette est longue et que les prêteurs restent nombreux : le risque d'un défaut est jugé très faible. Une seconde position souligne que la charge d'intérêts croît plus vite que les autres dépenses et réduit les marges de l'État, que le ratio français augmente de nouveau depuis 2024 [7] et reste bien supérieur à la moyenne de la zone euro [5], et qu'une hausse des taux peut devenir auto-entretenue. Les deux positions s'appuient sur des faits exacts ; elles diffèrent surtout sur l'horizon considéré et le poids donné au risque de perte de confiance.
+
+[Figure] tableau
+titre: Deux lectures du risque lié à la dette française
+colonnes: Lecture | Arguments avancés | Ce qu'elle met en avant
+donnees:
+- Un risque de défaut jugé très faible | La France emprunte sans difficulté, sa dette est longue, les prêteurs restent nombreux | Les conditions actuelles de financement
+- Des marges qui se réduisent | Intérêts plus dynamiques que les autres dépenses ; ratio en hausse depuis 2024 [7], bien au-dessus de la moyenne de la zone euro [5] | Le risque d'une hausse des taux auto-entretenue
+lecture: Les deux lectures s'appuient sur des faits exacts ; elles diffèrent surtout sur l'horizon considéré et le poids donné au risque de perte de confiance.
+note: Tableau simplifié : il résume deux positions présentes dans le débat public, sans les attribuer à des auteurs précis.
+source: Rapport sur la dette des administrations publiques, octobre 2026 [7] ; Eurostat, 21 juillet 2026 [5]
 
 [Expertise] Le Haut Conseil des finances publiques, organisme indépendant placé auprès de la Cour des comptes, juge « très peu vraisemblable » le retour du déficit public sous 3 % du PIB en 2029, sauf évolutions conjoncturelles très favorables [6].
 

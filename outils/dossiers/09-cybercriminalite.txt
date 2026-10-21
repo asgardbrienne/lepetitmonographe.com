@@ -28,6 +28,19 @@ corrections: Les revendications d'attaques par rançongiciel visant la France n'
 
 [Fait établi] Les atteintes aux biens commises avec un outil numérique, essentiellement des escroqueries, atteignent 280 500 en 2025 (+14 %), dont 58 300 plaintes déposées via la plateforme en ligne Thésée, dédiée aux escroqueries sur internet [1]. Les atteintes à la personne, comme le harcèlement ou les menaces en ligne, augmentent de 13 %, les atteintes aux institutions de 19 % et les infractions à la législation spécifique au numérique de 4 % [1].
 
+[Figure] barres-h
+titre: Évolution des infractions liées au numérique enregistrées en 2025, par catégorie
+unite: Variation 2025 par rapport à 2024, en %, crimes et délits enregistrés par la police et la gendarmerie
+donnees:
+- Atteintes aux institutions | 19
+- Atteintes aux biens | 14
+- Atteintes à la personne | 13
+- Législation spécifique au numérique | 4
+- Ensemble | 14
+lecture: Toutes les catégories d'infractions liées au numérique enregistrées progressent en 2025, de 4 % pour la législation spécifique au numérique à 19 % pour les atteintes aux institutions.
+note: Infractions enregistrées et non infractions commises : une hausse peut aussi refléter une plus grande facilité à porter plainte, notamment depuis la plateforme Thésée. Les catégories n'ont pas le même poids : les atteintes aux biens représentent 280 500 faits sur 453 200.
+source: SSMSI, Interstats Info rapide n° 60, février 2026 [1]
+
 [Fait établi] Les atteintes aux systèmes de traitement automatisé de données, c'est-à-dire les attaques visant le fonctionnement des outils numériques eux-mêmes, représentent 17 600 faits en 2025, en hausse de 4 % [1].
 
 [À noter] Une hausse des infractions enregistrées peut refléter une hausse des faits, mais aussi une plus grande facilité à porter plainte. Le SSMSI indique que la création de la plateforme Thésée, en mars 2022, a conduit à un transfert partiel des signalements vers ce dispositif en ligne [1]. Les deux effets ne peuvent pas être séparés avec ces seules données.
@@ -39,6 +52,15 @@ corrections: Les revendications d'attaques par rançongiciel visant la France n'
 [Fait établi] Selon le même rapport, les revendications d'attaques par rançongiciel ciblant la France ont augmenté de 36 % en 2025, avec 177 revendications recensées ; les groupes Qilin et Brain Cypher concentrent 55,6 % de ces revendications [2].
 
 [À noter] Une revendication publiée par un groupe criminel n'est pas une attaque vérifiée : ces décomptes mesurent l'activité déclarée des attaquants, pas le nombre de victimes.
+
+[Figure] tableau
+titre: Deux décomptes du ministère de l'Intérieur, deux objets différents
+colonnes: Décompte | Ce qu'il compte | En 2025 | Ce qu'il ne mesure pas
+donnees:
+- SSMSI | Crimes et délits liés au numérique enregistrés par la police et la gendarmerie | 453 200, en hausse de 14 % [1] | Les faits ni signalés ni déclarés ; les contraventions
+- COMCYBER-MI | Revendications ou annonces de cyberattaques visant la France | 1 347, contre 1 062 en 2024 [2] | Les attaques vérifiées et le nombre de victimes
+lecture: Le premier décompte porte sur les infractions enregistrées, le second sur l'activité déclarée des attaquants ; aucun ne donne le nombre réel de victimes.
+source: SSMSI, Interstats Info rapide n° 60, février 2026 [1] ; COMCYBER-MI, rapport annuel sur la cybercriminalité 2026, avril 2026 [2]
 
 ## Ce qu'on ne sait pas
 - **Le nombre réel de victimes.** Les infractions enregistrées ne comprennent pas les faits non déclarés ; leur part pour 2025 n'est pas connue à partir de ces données.

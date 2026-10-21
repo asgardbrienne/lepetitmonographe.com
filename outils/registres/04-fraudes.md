@@ -28,3 +28,15 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Statut : données vérifiées dans le texte (aucune donnée nouvelle ; mêmes appels de note). Test mobile : à faire (pages non régénérées, generer.py non lancé). Contrôle : verifier_dossier.py OK, rendu de la figure testé avec figures.rendre.
+
+- V02
+  - Emplacement : fin de « La fraude estimée », avant « Le débat ».
+  - Question pour le lecteur : Quelle différence entre fraude détectée, recouvrée et estimée ?
+  - Type : tableau.
+  - Informations montrées et appels de note : 17,1 milliards notifiés, 11,4 encaissés par la DGFiP, 1,5 milliard redressé et 100 millions recouvrés pour travail dissimulé [1], 14 milliards estimés par le HCFiPS [2], absence d'estimation de la fraude fiscale [6].
+  - Limite : exemples de périmètres différents, non comparables d'une ligne à l'autre.
+  - Statut : données vérifiées dans le texte.

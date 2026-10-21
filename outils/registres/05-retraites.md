@@ -28,3 +28,22 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable après les corrections faites.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Statut : données vérifiées dans le texte (aucune donnée nouvelle ; mêmes appels de note). Test mobile : à faire (pages non régénérées, generer.py non lancé). Contrôle : verifier_dossier.py OK, rendu de la figure testé avec figures.rendre.
+
+- V02
+  - Emplacement : section « D'où vient l'argent », après le paragraphe sur le calcul de l'UNSA Retraités.
+  - Question pour le lecteur : D'où viennent les ressources des retraites ?
+  - Type : barres-h.
+  - Informations montrées et appels de note : 65,1 %, 15 %, 11,7 %, 8,2 % pour 2024 [4] ; caractère conventionnel [1].
+  - Limite : calcul syndical (source secondaire), non publié sous cette forme par le COR ; signalé dans le titre et la note.
+  - Statut : données vérifiées dans le texte.
+- V03
+  - Emplacement : section « Le solde », après le paragraphe [Débat].
+  - Question pour le lecteur : Pourquoi le COR, la Cour des comptes et un syndicat lisent-ils différemment le même solde ?
+  - Type : tableau.
+  - Informations montrées et appels de note : citations du COR [2], de la Cour des comptes [3] et de l'UNSA Retraités [4] déjà présentes dans le texte.
+  - Limite : ne tranche pas entre les lectures ; déficit 2025 hors produits financiers.
+  - Statut : données vérifiées dans le texte.

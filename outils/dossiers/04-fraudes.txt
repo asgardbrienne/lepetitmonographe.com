@@ -55,6 +55,17 @@ source: Haut Conseil du financement de la protection sociale, note du 13 janvier
 
 [À noter] Une estimation de fraude repose sur des contrôles aléatoires extrapolés à l'ensemble des dossiers. Sa marge d'incertitude est importante et sa méthode change d'une année à l'autre.
 
+[Figure] tableau
+titre: Détecté, recouvré, estimé : trois mesures différentes de la fraude
+colonnes: Mesure | Ce qu'elle compte | Exemples pour 2025
+donnees:
+- Montant détecté ou redressé | Ce que les administrations réclament après leurs contrôles | 17,1 milliards d'euros de droits et pénalités fiscaux notifiés ; 1,5 milliard redressé par les Urssaf pour travail dissimulé [1]
+- Montant recouvré | Ce qui est effectivement encaissé, souvent plus tard et en partie seulement | 11,4 milliards encaissés par la DGFiP, y compris sur des créances antérieures ; 100 millions recouvrés pour travail dissimulé [1]
+- Montant estimé | Évaluation statistique de l'ensemble de la fraude, y compris non détectée | Environ 14 milliards d'euros de fraude sociale selon le HCFiPS [2]
+lecture: Pour le travail dissimulé, les Urssaf ont redressé 1,5 milliard d'euros en 2025 et recouvré 100 millions à ce titre : un montant redressé n'est pas un montant encaissé.
+note: Les exemples ne se comparent pas d'une ligne à l'autre : ils portent sur des périmètres différents (fraude fiscale, cotisations sociales, ensemble de la fraude sociale). Il n'existe pas d'estimation officielle récente de la fraude fiscale totale [6].
+source: Ministères économiques et sociaux, 8 avril 2026 [1] ; HCFiPS, 13 janvier 2026 [2] ; Public Sénat, 16 décembre 2025 [6]
+
 ## Le débat
 
 [Débat] Une partie du débat public se concentre sur la fraude aux prestations sociales commise par des assurés. Une autre insiste sur la fraude fiscale des entreprises et des ménages aisés et sur le travail dissimulé. Selon l'estimation du HCFiPS, un peu plus de la moitié de la fraude sociale (52 %) provient des cotisations non versées, le reste des prestations [2] ; ils ne permettent pas de comparer avec précision fraude fiscale et fraude sociale, faute d'estimation officielle récente de la fraude fiscale totale.

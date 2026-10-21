@@ -46,7 +46,28 @@ source: Ministère chargé du logement, compte du logement, septembre 2026 [1]
 
 [Fait établi] Selon l'indice Notaires-Insee, les prix des logements anciens reculent de 1,0 % au deuxième trimestre 2026 (données provisoires corrigées des variations saisonnières) et de 0,8 % sur un an : -1,3 % pour les maisons et -0,1 % pour les appartements [2]. Sur l'ensemble de l'année 2025, ils avaient augmenté de 0,8 %, après -4,0 % en 2024 [1].
 
+[Figure] barres-h
+titre: Prix des logements anciens sur un an, au deuxième trimestre 2026
+unite: Variation sur un an, en %, données provisoires
+donnees:
+- Maisons | -1,3
+- Appartements | -0,1
+- Ensemble | -0,8
+lecture: Au deuxième trimestre 2026, les prix des logements anciens reculent de 0,8 % sur un an, davantage pour les maisons (-1,3 %) que pour les appartements (-0,1 %).
+note: Données provisoires. Sur le seul deuxième trimestre, les prix reculent de 1,0 % (données corrigées des variations saisonnières).
+source: Insee, indice Notaires-Insee, Informations rapides n° 216, 8 septembre 2026 [2]
+
 [Fait établi] Selon le compte du logement, les loyers du secteur libre ont augmenté de 1,5 % en 2025 et ceux du secteur social de 3,9 % [1].
+
+[Figure] barres-h
+titre: Hausse des loyers en 2025, secteur libre et secteur social
+unite: Variation sur un an, en %, 2025
+donnees:
+- Secteur libre | 1,5
+- Secteur social | 3,9
+lecture: En 2025, les loyers du secteur social ont augmenté de 3,9 %, contre 1,5 % dans le secteur libre, selon le compte du logement.
+note: Ces évolutions portent sur l'ensemble des baux, pas sur les seuls loyers des nouveaux baux, mal mesurés à l'échelle nationale.
+source: SDES, rapport du compte du logement 2025, septembre 2026 [1]
 
 [Fait établi] Selon la Banque de France, citée par Meilleurtaux, le taux moyen des nouveaux crédits à l'habitat hors renégociations atteint 3,30 % en juillet 2026, après 3,27 % en juin [4]. Une autre série de la Banque de France, reprise par Boursedescrédits, donne 3,18 % en juillet après 3,16 % en juin [6]. Les deux séries, dont la méthode diffère, indiquent une légère hausse.
 

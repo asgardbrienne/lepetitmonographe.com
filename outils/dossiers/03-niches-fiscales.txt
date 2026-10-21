@@ -38,7 +38,29 @@ La frontière entre une niche et la « norme » est en partie conventionnelle. C
 
 [À noter] Les chiffrages initiaux se sont révélés inférieurs aux coûts constatés ces dernières années : les dépenses fiscales de 2024, estimées à 78,4 milliards d'euros dans le projet de loi de finances pour 2024, ont été chiffrées définitivement à 89,4 milliards ; pour 2025, le budget prévoyait 85,1 milliards, le chiffrage a ensuite été porté à 91,8 milliards. Près de la moitié de cet écart (3,2 milliards) vient de la révision du coût du pacte Dutreil, un allègement des droits de donation et de succession sur la transmission d'entreprises [2].
 
+[Figure] groupes
+titre: Coût des dépenses fiscales : chiffrage du budget et chiffrage ultérieur
+unite: Milliards d'euros, dépenses fiscales de l'État
+series: Chiffrage du budget de l'année | Chiffrage ultérieur de la Cour des comptes
+donnees:
+- 2024 | 78,4 | 89,4
+- 2025 | 85,1 | 91,8
+lecture: Les dépenses fiscales de 2024, estimées à 78,4 milliards d'euros dans le budget, ont été chiffrées définitivement à 89,4 milliards ; pour 2025, le chiffrage est passé de 85,1 à 91,8 milliards.
+note: 2024 : coût définitif ; 2025 : coût estimé, encore provisoire. Chiffres selon la convention de calcul de la TVA en vigueur depuis le projet de loi de finances pour 2024.
+source: Cour des comptes, « Le budget de l'État en 2025 : résultats et gestion », avril 2026 [2]
+
 [À noter] Selon la Cour des comptes, sur les 474 dépenses fiscales recensées en 2025, 13 % n'ont pas de coût connu et, pour 42 %, le nombre de bénéficiaires est inconnu. Depuis le projet de loi de finances pour 2024, les dépenses fiscales liées à la TVA ne sont plus comptées que pour la part de TVA revenant à l'État : avec l'ancienne convention, le coût atteindrait 103,1 milliards d'euros pour 2024 et 105,6 milliards pour 2025 [2]. Le total publié est donc un ordre de grandeur, pas une mesure exacte.
+
+[Figure] groupes
+titre: Le total des dépenses fiscales dépend de la convention de calcul de la TVA
+unite: Milliards d'euros, dépenses fiscales de l'État
+series: Convention actuelle (part de TVA revenant à l'État) | Ancienne convention
+donnees:
+- 2024 | 89,4 | 103,1
+- 2025 | 91,8 | 105,6
+lecture: Calculé selon l'ancienne convention, le coût des dépenses fiscales atteindrait 105,6 milliards d'euros en 2025, contre 91,8 milliards selon la convention actuelle.
+note: La convention actuelle s'applique depuis le projet de loi de finances pour 2024. 2025 : coût estimé. Le chiffrage reste incomplet : 13 % des dépenses fiscales de 2025 n'ont pas de coût connu.
+source: Cour des comptes, « Le budget de l'État en 2025 : résultats et gestion », avril 2026 [2]
 
 ## Ce que l'on sait de leur efficacité
 

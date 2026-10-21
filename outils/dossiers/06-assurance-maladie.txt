@@ -28,6 +28,19 @@ corrections: Les économies prévues sur les indemnités journalières en 2027 s
 
 [Fait établi] Pour 2027, le projet fixe l'Ondam à 278,7 milliards d'euros : 118,3 milliards pour les soins de ville, 116,0 milliards pour les établissements de santé, 18,8 milliards pour les personnes âgées et 16,3 milliards pour le handicap [1]. Il prévoit 5,1 milliards d'euros d'économies nouvelles, dont 2,1 milliards sur les produits de santé et 1 milliard sur les indemnités journalières d'assurance maladie, pour financer 1,2 milliard de dépenses nouvelles [1]. Il s'agit d'un projet : le Parlement peut modifier ces montants.
 
+[Figure] groupes
+titre: Les principaux sous-objectifs de l'Ondam en 2026 et 2027
+unite: Milliards d'euros
+series: 2026 (loi de financement) | 2027 (projet de loi)
+donnees:
+- Soins de ville | 117,5 | 118,3
+- Établissements de santé | 112,8 | 116,0
+- Personnes âgées (établissements et services) | 18,3 | 18,8
+- Personnes handicapées (établissements et services) | 16 | 16,3
+lecture: Le projet pour 2027 prévoit 118,3 milliards d'euros pour les soins de ville et 116,0 milliards pour les établissements de santé, contre 117,5 et 112,8 milliards dans la loi pour 2026.
+note: 2027 : projet, modifiable par le Parlement. 2026 : montants de la loi de financement initiale ; le projet pour 2027 ramène l'objectif total 2026 de 274,4 à 273,3 milliards, révision non détaillée ici par sous-objectif. Les autres sous-objectifs, dont le fonds d'intervention régional, ne sont pas représentés. La hausse annoncée de 2,0 % s'entend à champ constant.
+source: Loi de financement pour 2026, d'après la Banque des Territoires (source secondaire) [5] ; projet de loi de financement pour 2027 [1]
+
 [Fait établi] Selon la Cour des comptes, les dépenses de soins de ville atteignent 113,7 milliards d'euros en 2025 (montant provisoire), dont 35,0 milliards de produits de santé et 17,9 milliards d'indemnités journalières, ce dernier poste étant en hausse de 4,6 % sur un an, contre 3,5 % pour l'ensemble des soins de ville [2]. La Cour note une hausse marquée des arrêts liés aux accidents du travail et des arrêts maladie de plus de trois mois [2].
 
 ## Les arrêts de travail
@@ -35,6 +48,17 @@ corrections: Les économies prévues sur les indemnités journalières en 2027 s
 [Fait établi] Pour le seul régime général (hors arrêts liés au Covid, à la grippe et hors professions libérales), les indemnités journalières de maladie représentent près de 11,3 milliards d'euros en 2025 [3]. Ce périmètre est plus étroit que celui des 17,9 milliards cités par la Cour des comptes pour l'ensemble des indemnités journalières des soins de ville : les deux chiffres ne se comparent pas directement. Leur croissance a ralenti à 2,3 % en 2025, contre 6,4 % en 2024, principalement du fait de la baisse du plafond de revenu pris en compte, passé de 1,8 à 1,4 fois le Smic au 1er avril 2025 [3].
 
 [Fait établi] Entre 2019 et 2025, les dépenses liées aux arrêts maladie de moins de trois mois ont augmenté de 4,4 % par an en moyenne et celles des arrêts de plus de trois mois de 6,7 % par an, contre respectivement 3,7 % et 4,1 % entre 2014 et 2019 [3].
+
+[Figure] groupes
+titre: Croissance des dépenses d'arrêts maladie, avant et depuis la crise sanitaire
+unite: Croissance annuelle moyenne des dépenses, en %
+series: 2014-2019 | 2019-2025
+donnees:
+- Arrêts de moins de trois mois | 3,7 | 4,4
+- Arrêts de plus de trois mois | 4,1 | 6,7
+lecture: Entre 2019 et 2025, les dépenses liées aux arrêts maladie de plus de trois mois ont augmenté de 6,7 % par an en moyenne, contre 4,1 % entre 2014 et 2019.
+note: Il s'agit de dépenses en euros : leur hausse reflète à la fois l'évolution des salaires, sur lesquels les indemnités sont calculées, et celle du nombre et de la durée des arrêts. Le graphique ne permet pas de séparer ces effets.
+source: Direction de la sécurité sociale, rapport d'évaluation des politiques de sécurité sociale (maladie), édition 2026 [3]
 
 [Interprétation] Une partie de la hausse est un effet prix : quand les salaires augmentent, les indemnités, calculées sur le salaire, augmentent aussi. Une autre partie tient au nombre et à la durée des arrêts. La Cour des comptes juge l'accélération depuis la crise sanitaire « pour partie inexpliquée », même si le vieillissement de la population active et la hausse des salaires y contribuent [2].
 

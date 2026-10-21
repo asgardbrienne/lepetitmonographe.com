@@ -34,6 +34,16 @@ corrections: Le chiffre de 12,3 millions d'habitants sous le seuil de 2,5 consul
 
 [Fait établi] De 1971 à 2020, le nombre d'étudiants admis en deuxième année de médecine était limité par un quota national, le numerus clausus, remplacé à la rentrée 2020 par un « numerus apertus » : chaque université fixe ses capacités d'accueil selon des objectifs pluriannuels [4]. La loi n° 2025-580 du 27 juin 2025, dite loi Neuder, ne supprime pas ce système mais le modifie : les besoins de santé du territoire deviennent le critère prioritaire, les capacités de formation n'étant prises en compte qu'« à titre subsidiaire » [5]. Le gouvernement l'avait présentée comme la « fin du numerus apertus » [7].
 
+[Figure] frise
+titre: Du numerus clausus à la loi de 2025 : qui fixe le nombre d'étudiants en médecine
+donnees:
+- 1971 | Début de la limitation par un quota national, le numerus clausus, du nombre d'étudiants admis en deuxième année [4] | Fait établi
+- Rentrée 2020 | Le « numerus apertus » remplace le quota : chaque université fixe ses capacités selon des objectifs pluriannuels [4] | Fait établi
+- 27 juin 2025 | Loi n° 2025-580, dite loi Neuder : les besoins de santé du territoire deviennent le critère prioritaire [5] | Fait établi
+lecture: Depuis 2020, il n'existe plus de quota national ; la loi de 2025 modifie le numerus apertus sans le supprimer.
+note: Étapes non représentées à l'échelle du temps.
+source: Santé Orientation, 19 août 2026, mis à jour le 9 octobre 2026 (source secondaire) [4] ; Fédération hospitalière de France, 2025 (source secondaire) [5]
+
 [Estimation] Le nombre de places ouvertes en deuxième année de médecine est passé d'environ 9 500 en 2019 à environ 12 000 annoncées pour 2026, selon un site d'orientation qui précise que le dernier chiffre national consolidé (2025-2026) est d'environ 10 800 [4]. Aucun chiffre officiel consolidé pour 2026 n'a été trouvé.
 
 [Fait établi] Selon la Drees, la hausse récente du nombre de médecins est tirée en partie par les médecins diplômés à l'étranger (11 % des effectifs début 2026, contre 7 % en 2012) ; le reste correspond au solde entre départs à la retraite et nouvelles générations diplômées [3].
@@ -43,6 +53,16 @@ corrections: Le chiffre de 12,3 millions d'habitants sous le seuil de 2,5 consul
 ## Les solutions en débat
 
 [Fait établi] La proposition de loi dite Garot, adoptée en première lecture par l'Assemblée nationale le 7 mai 2025 par 99 voix contre 9, prévoit de soumettre l'installation des médecins à une autorisation de l'agence régionale de santé : dans les zones déjà bien pourvues, elle serait conditionnée au départ d'un confrère [8]. Au Sénat, la commission des affaires sociales a réécrit l'article 1er pour conditionner l'installation hors zone sous-dense à un engagement d'exercice partiel en zone sous-dotée ; le 11 juin 2026, les sénateurs ont adopté cet article 1er par 215 voix contre 118, mais l'examen du texte n'a pas pu aboutir et, selon Egora, « pourrait ne pas reprendre avant plusieurs mois » [6] [9].
+
+[Figure] tableau
+titre: La proposition de loi Garot : deux versions de la régulation de l'installation
+colonnes: Étape | Ce que prévoit le texte | Vote
+donnees:
+- Assemblée nationale, première lecture | Installation soumise à autorisation de l'agence régionale de santé ; en zone bien pourvue, conditionnée au départ d'un confrère [8] | Texte adopté le 7 mai 2025 par 99 voix contre 9 [8]
+- Sénat, article 1er réécrit en commission | Installation hors zone sous-dense conditionnée à un engagement d'exercice partiel en zone sous-dotée [6] | Article 1er adopté le 11 juin 2026 par 215 voix contre 118 ; examen du texte non achevé [6][9]
+lecture: Les deux assemblées n'ont pas retenu le même mécanisme, et le texte n'est pas définitivement adopté à la date d'arrêt des données.
+note: Tableau simplifié : il ne détaille pas les autres articles de la proposition de loi.
+source: Caducée, 9 mai 2025 [8] ; Egora, 11 juin 2026 [6] ; Sénat, compte rendu intégral du 11 juin 2026 [9]
 
 [Débat] Les partisans de la régulation soulignent que les mesures incitatives, aides financières et maisons de santé, n'ont pas suffi à résorber les inégalités, et que d'autres professions de santé, comme les pharmaciens ou les infirmiers, connaissent déjà des règles d'installation. Les opposants, dont le Conseil national de l'Ordre des médecins, estiment que la régulation « ne répond pas aux difficultés d'accès aux soins » et risque d'affaiblir les vocations et l'attractivité de l'exercice libéral ; ils privilégient l'incitation et l'organisation coordonnée des soins [10].
 
