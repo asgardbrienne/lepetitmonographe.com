@@ -768,3 +768,5 @@ a:hover .fleche { transform: translateX(3px); }
 .definition-monographie p:last-child { margin-bottom: 0; }
 
 .liste-mesures { margin: 0 0 18px; padding-left: 1.2em; display: grid; gap: 8px; max-width: 760px; }
+
+.sources-chiffres { margin: 18px 0 0; font-size: .8125rem; color: var(--encre-douce); max-width: 860px; }

@@ -306,7 +306,7 @@ DOSSIERS = {
 # ---------- Livres ----------
 _couvs = "".join(f'<img src="{couv}" alt="" width="142" height="231">' for c in ["c-economie", "c-pouvoirs", "c-affaires"] for _t, _r, _l, couv in LIVRES[c])
 livres = tete_visuel("Monographies", "Monographies",
-                     "Des ouvrages de référence pour comprendre en profondeur les grands enjeux français. Quand un article ne suffit plus, le livre approfondit l'ensemble du dossier : deux collections, une même méthode.",
+                     "Des livres documentaires pour approfondir un sujet de bout en bout, avec la même méthode que les dossiers du site. Deux collections : Pouvoirs &amp; Société, Affaires &amp; Enquêtes.",
                      f'<span class="couvertures-eventail">{_couvs}</span>') + "\n" + section("""      <div class="encart-methode definition-monographie">
         <h2>Qu'est-ce qu'une monographie ?</h2>
         <p>Une monographie est une « étude détaillée et complète d'un sujet particulier relativement restreint et se présentant normalement en un seul ouvrage », selon la définition de l'<a href="https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8353257/monographie" rel="noopener">Office québécois de la langue française</a>. Autrement dit : un livre entier consacré à un seul sujet, traité à fond.</p>
@@ -361,7 +361,7 @@ def liste_etiq(items):
 regles = "\n".join(f'''        <li><h3>{t}</h3><p>{d}</p></li>''' for t, d in REGLES)
 _statuts_cartes = "\n".join(f'''        <li class="statut-carte statut-carte-{k}"><span class="statut-icone">{ICONES_STATUTS[k]}</span><strong>{t}</strong> <span>{d}</span></li>''' for k, t, d in STATUTS_ACCUEIL)
 methode = tete_visuel("Méthode", "Notre méthode",
-                      "Une information rigoureuse, claire et sourcée. Nos dossiers distinguent cinq niveaux de lecture pour mieux comprendre les débats publics. Rigueur, impartialité, traçabilité, contradiction, transparence.",
+                      "Comment les dossiers sont préparés, vérifiés et corrigés : douze règles, trois formats et cinq statuts d'information, appliqués de la même manière quel que soit le sujet ou le camp concerné.",
                       '<img src="assets/images/methode.jpg" alt="La voûte de la salle Labrouste, à la Bibliothèque nationale de France" width="1400" height="770">',
                       'Salle Labrouste, Paris. Photo : <a href="https://commons.wikimedia.org/wiki/File:Biblioth%C3%A8que_nationale_de_France_Salle_Labrouste_Vo%C3%BBte.jpg" target="_blank" rel="noopener">Stefan Drößler, CC BY 4.0, recadrée, Wikimedia Commons</a>') + "\n" + section(f"""      <ul class="statuts-cartes">
 {_statuts_cartes}
@@ -415,9 +415,9 @@ apropos = tete("À propos", "Le Petit Monographe", "Une publication indépendant
         <p>La méthode repose sur un principe simple : distinguer ce qui est établi de ce qui relève de l'interprétation, du débat ou de l'hypothèse. Chaque dossier s'appuie sur des sources identifiées et datées : données publiques, rapports officiels, décisions de justice, travaux parlementaires, archives, auditions et autres documents vérifiables. Lorsque les sources divergent ou qu'un élément demeure incertain, cette incertitude est signalée.</p>
         <p>Dans les affaires judiciaires, les faits établis, les accusations, les témoignages, les expertises et les hypothèses sont présentés séparément, dans le respect de la présomption d'innocence et de l'état réel des procédures.</p>
         <p>L'objectif n'est pas de dire au lecteur ce qu'il doit penser, mais de lui donner les éléments nécessaires pour comprendre, vérifier et se forger sa propre opinion.</p>
-        <h2>Pourquoi les dossiers ne sont pas signés</h2>
-        <p>Le Petit Monographe est édité par une personne physique, à titre non professionnel. Comme la loi le permet dans ce cas, son identité a été communiquée à l'hébergeur et n'est pas rendue publique (voir les <a href="mentions-legales.html">mentions légales</a>).</p>
-        <p>Ce choix a une raison éditoriale : un dossier doit convaincre par ses sources, pas par le nom ou la notoriété de la personne qui l'écrit. C'est pourquoi l'anonymat s'accompagne d'obligations plus strictes que celles d'un article signé : chaque affirmation importante renvoie à une source publique que le lecteur peut ouvrir, chaque dossier porte sa date d'arrêt des données, et toute correction est rendue publique.</p>
+        <h2>Pourquoi les dossiers sont signés Le Petit Monographe</h2>
+        <p>Les dossiers sont publiés sous la responsabilité de la directrice de la publication (voir les <a href="mentions-legales.html">mentions légales</a>). Ils portent le nom du site plutôt qu'un nom d'auteur pour une raison éditoriale : un dossier doit convaincre par ses sources, pas par la notoriété de la personne qui l'écrit.</p>
+        <p>Cela suppose des obligations précises : chaque affirmation importante renvoie à une source publique que le lecteur peut ouvrir, chaque dossier porte sa date d'arrêt des données et son format, et toute correction de fond est rendue publique.</p>
         <p>La responsabilité éditoriale n'est pas diluée pour autant. Une erreur, une source mal citée ou un oubli peuvent être signalés par la page <a href="contact.html">Contact</a> ; ils sont examinés et, si le signalement est fondé, corrigés et inscrits dans l'<a href="methode.html#errata">historique des corrections</a>.</p>
         <h2>Comment un dossier est vérifié avant publication</h2>
         <ol>
@@ -472,12 +472,12 @@ page("confidentialite.html", "Confidentialité", "Politique de confidentialité 
 
 # ---------- Fiche livre : Macron ----------
 CHIFFRES = [
-    ("7,1 %", "Taux de chômage au début de 2023, le plus bas depuis 1982 hors confinement ; il remonte à 8,3 % mi-2026", "Chapitre 11"),
-    ("69,3 %", "Taux d'emploi des 15-64 ans en 2025, un record depuis le début de la mesure, en 1975", "Chapitre 11"),
-    ("+1 364 Md€", "Hausse de la dette publique entre mi-2017 et mi-2026", "Chapitre 11"),
-    ("15,4 %", "Taux de pauvreté en 2023 et 2024, un record depuis le début de la série, en 1996", "Chapitre 11"),
-    ("7", "Premiers ministres en neuf ans, dont quatre depuis la dissolution de 2024", "Chapitre 5"),
-    ("16 %", "Opinions favorables au président en septembre 2026 (Ipsos BVA)", "Chapitre 5"),
+    ("7,1 %", "Taux de chômage au premier trimestre 2023, un niveau inédit depuis 1982 hors baisse ponctuelle du premier confinement ; il remonte à 8,3 % au deuxième trimestre 2026", "Chapitre 11"),
+    ("69,3 %", "Taux d'emploi des 15-64 ans en 2025, le plus haut depuis que l'Insee le mesure (1975)", "Chapitre 11"),
+    ("+1 364 Md€", "Hausse de la dette publique, en euros courants, entre fin juin 2017 (2 231,7 Md€) et fin juin 2026 (3 595,5 Md€)", "Chapitre 11"),
+    ("15,4 %", "Taux de pauvreté monétaire en 2023 et en 2024, le plus haut depuis le début de la série (1996)", "Chapitre 11"),
+    ("7", "Premiers ministres en neuf ans, dont trois nommés depuis la dissolution de 2024", "Chapitre 5"),
+    ("16 %", "Jugements favorables sur l'action du président, baromètre Ipsos BVA-CESI de septembre 2026", "Chapitre 5"),
 ]
 chiffres = "\n".join(f'''        <article><span class="num" style="font-size:1.9rem;color:var(--encre)">{c}</span><p>{d}</p><p style="margin-top:10px;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--marque)">{ch}</p></article>''' for c, d, ch in CHIFFRES)
 ENCADRES = [
@@ -525,10 +525,11 @@ macron = f'''  <section class="tete-page c-pouvoirs">
         <p>Pour ses soutiens, Emmanuel Macron a modernisé un pays bloqué, fait reculer le chômage, rendu la France attractive et tenu dans la tempête : gilets jaunes, pandémie, guerre en Ukraine, crise de l'énergie. Pour ses opposants, il a gouverné pour les plus aisés, contourné le Parlement, creusé la dette et ouvert la voie à l'extrême droite. Les deux récits contiennent des faits exacts. Aucun ne suffit.</p>
         <p>Ce livre ne prend pas parti. Il pose une question simple : qu'a promis Emmanuel Macron, qu'a-t-il fait, avec quels résultats et par quelles méthodes ? Il répond avec les données publiques, les décisions de justice, les rapports parlementaires et les évaluations d'organismes indépendants.</p>
       </div>""") + "\n" + section(f"""      <h2>Le bilan en six chiffres</h2>
-      <p class="intro">Six nombres résument neuf ans de pouvoir, dans un sens comme dans l'autre. Chacun est détaillé et sourcé dans le chapitre indiqué.</p>
+      <p class="intro">Six repères chiffrés, favorables ou défavorables au bilan. Aucun ne résume à lui seul neuf ans de pouvoir ; chacun est détaillé dans le chapitre indiqué.</p>
       <div class="grille-methode">
 {chiffres}
-      </div>""") + "\n" + section(f"""      <h2>Chaque information porte son étiquette</h2>
+      </div>
+      <p class="sources-chiffres">Sources : Insee, <a href="https://www.insee.fr/fr/statistiques/7619798">Informations rapides n° 124, 17 mai 2023</a> et <a href="https://www.insee.fr/fr/statistiques/9032359">n° 192, 7 août 2026</a> (chômage) ; <a href="https://www.insee.fr/fr/statistiques/8901327">Insee Première n° 2096, 2026</a> (emploi) ; <a href="https://www.insee.fr/fr/statistiques/3129002">Informations rapides n° 258, 29 septembre 2017</a> et <a href="https://www.insee.fr/fr/statistiques/9053525">n° 239, 29 septembre 2026</a> (dette, au sens de Maastricht) ; <a href="https://insee.fr/fr/statistiques/9019316">Insee Première n° 2117, 2026</a> (pauvreté, France métropolitaine) ; <a href="https://www.ipsos.com/sites/default/files/ct/news/documents/2026-09/Ipsos-bva-CESI-La-Tribune-Dimanche-Barometre-Politique-septembre-2026-web.pdf">baromètre Ipsos BVA-CESI pour La Tribune Dimanche, terrain du 9 au 10 septembre 2026</a>.</p>""") + "\n" + section(f"""      <h2>Chaque information porte son étiquette</h2>
       <p class="intro">Dans le texte, des encadrés de couleur distinguent la nature de chaque information. Ils permettent de savoir, d'un coup d'œil, si l'on lit un fait, une critique, une défense ou une vérification.</p>
       <div class="etiquettes">
 {encadres}
@@ -586,7 +587,7 @@ comptes = f'''  <section class="tete-page c-economie">
     </div>
   </section>
 ''' + section("""      <div class="prose">
-        <p>La dette publique atteint 119 % du PIB. Le déficit reste durablement élevé et la charge d'intérêts augmente rapidement. Dans le même temps, la France doit financer ses retraites, sa santé, ses services publics et faire face au vieillissement de sa population.</p>
+        <p>Le livre part d'un constat chiffré : la dette publique atteignait 119,0 % du PIB fin juin 2026, selon l'<a href="https://www.insee.fr/fr/statistiques/9053525">Insee</a>, le déficit reste élevé et la charge d'intérêts augmente (voir le dossier sur <a href="dossier-dette-publique.html">la dette publique</a>). Dans le même temps, la France doit financer ses retraites, sa santé, ses services publics et faire face au vieillissement de sa population.</p>
         <p>Faut-il augmenter les impôts, réduire les dépenses, réformer les retraites, travailler davantage, ou existe-t-il une autre voie ? Ce livre part des chiffres pour examiner les solutions possibles, leurs effets et leurs limites.</p>
         <h2>Un diagnostic des finances publiques</h2>
         <p>Dette publique, déficit, fiscalité, retraites, santé, niches fiscales, fraude sociale, emploi des seniors, dépenses de l'État : le livre suit l'argent public et identifie les principales sources de dérive. L'analyse s'appuie notamment sur les données de l'Insee, de la Cour des comptes, de la Banque de France, de l'OCDE, d'Eurostat et sur des rapports parlementaires.</p>
@@ -632,7 +633,7 @@ sources_html = "\n".join(f'          <li id="source-{i}">{t} <a href="{u}" rel="
 
 _CHOMAGE_ESSENTIEL = '''
             <li>Le taux de chômage est de 8,3 % au deuxième trimestre 2026, son plus haut niveau depuis le troisième trimestre 2020, après un point bas de 7,1 % début 2023 (champ hors Mayotte).{note(1)}{note(5)}</li>
-            <li>Le taux d'emploi des 15-64 ans a atteint 69,3 % en moyenne en 2025, un niveau inédit depuis 1975. Il recule depuis : 69,0 % au deuxième trimestre 2026.{note(2)}{note(1)}</li>
+            <li>Le taux d'emploi des 15-64 ans a atteint 69,3 % en moyenne en 2025, son plus haut niveau depuis que l'Insee le mesure (1975). Il recule depuis : 69,0 % au deuxième trimestre 2026.{note(2)}{note(1)}</li>
             <li>Les deux chiffres n'ont pas le même dénominateur. Le chômage peut monter si davantage de personnes cherchent un emploi, même quand le nombre de personnes en emploi ne baisse pas.</li>
             <li>Selon l'Insee, les bénéficiaires du RSA et les jeunes inscrits à France Travail, publics visés par la loi pour le plein emploi, contribuent pour près de la moitié de la hausse du chômage depuis fin 2024 (+0,44 point sur +0,98 point). Cette contribution comptable ne distingue pas l'effet de la loi de celui de la conjoncture.{note(1)}</li>
           '''
@@ -672,14 +673,14 @@ _CHOMAGE_CORPS = f'''        <h2>Deux chiffres, deux dénominateurs</h2>
         <h2>Pourquoi les deux chiffres divergent</h2>
 {encadre("Fait établi", f"<p>La population active a augmenté : le taux d'activité des 15-64 ans a atteint 75,1 % en 2025, son plus haut niveau depuis 1975.{note(2)} La hausse de l'emploi des seniors y contribue : 61,7 % des 55-64 ans étaient en emploi en 2025.{note(6)}</p>")}
 {encadre("Interprétation", f"<p>Selon le Conseil d'orientation des retraites, la hausse de l'emploi des seniors résulte en grande partie des réformes des retraites successives, dont celle de 2023, qui a reculé l'âge légal de départ : le taux d'emploi des 60-64 ans a progressé de 2,0 points en 2025, à 44,4 %. La loi de financement de la sécurité sociale pour 2026 a suspendu cette réforme : l'âge de 64 ans ne sera atteint qu'à partir de la génération 1969, au lieu de 1968.{note(6)}</p>")}
-{encadre("Interprétation", f"<p>Lorsque la population active augmente plus vite que le nombre d'emplois, le chômage monte même si l'emploi ne baisse pas. Plusieurs économistes cités dans la presse avancent cette explication. Elle ne suffit plus pour 2026 : l'emploi salarié privé recule aussi sur un an au deuxième trimestre 2026.{note(3)} La hausse du chômage ne vient donc plus seulement de la croissance de la population active.</p>")}
+{encadre("Interprétation", f"<p>Lorsque la population active augmente plus vite que le nombre d'emplois, le chômage monte mécaniquement même si l'emploi ne baisse pas. Cette explication arithmétique ne suffit plus pour 2026 : l'emploi salarié privé recule aussi sur un an au deuxième trimestre 2026.{note(3)} La hausse du chômage ne vient donc plus seulement de la croissance de la population active.</p>")}
 
         <h2>Deux lectures de la situation</h2>
         <div class="deux-lectures">
           <div>
             <p class="surtitre">Lecture 1</p>
             <h3>Une amélioration de fond</h3>
-            <p>Le taux d'emploi reste proche de son record historique et l'emploi des seniors progresse fortement. La hausse du chômage reflète en partie l'arrivée sur le marché du travail de personnes qui en étaient absentes. Le chômage reste 2,2 points sous son pic de mi-2015.</p>
+            <p>Le taux d'emploi reste proche de son plus haut niveau mesuré depuis 1975 et l'emploi des seniors progresse fortement. La hausse du chômage reflète en partie l'arrivée sur le marché du travail de personnes qui en étaient absentes. Le chômage reste 2,2 points sous son pic de mi-2015.</p>
           </div>
           <div>
             <p class="surtitre">Lecture 2</p>
@@ -699,11 +700,12 @@ _CHOMAGE_INCONNUES = f'''        <ul class="liste-inconnues">
 _CHOMAGE_HISTORIQUE = '''
           <li>8 octobre 2026 : première publication.</li>
           <li>13 octobre 2026 : chiffres, dates et décisions relus sur les sources d'origine. Contribution de la loi pour le plein emploi chiffrée par l'Insee, suspension de la réforme des retraites et dates des sources ajoutées.</li>
+          <li>21 octobre 2026 : relecture selon la bible éditoriale. Le record du taux d'emploi est formulé comme l'Insee le fait (« plus haut niveau depuis que l'Insee le mesure, en 1975 ») ; une explication attribuée à « plusieurs économistes cités dans la presse », sans source, est retirée.</li>
         '''
 DOSSIER_CHOMAGE = {"fichier": "dossier-chomage-emploi.html", "rubrique": "economie",
     "titre": "Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres",
     "titre_court": "Chômage et emploi", "format": "Explicatif",
-    "chapeau": "Après trois années de quasi-stabilité, le taux de chômage augmente depuis début 2025 alors que le taux d'emploi a atteint en 2025 son plus haut niveau depuis 1975. Les deux chiffres sont exacts. Ils ne mesurent pas la même chose.",
+    "chapeau": "Après trois années de quasi-stabilité, le taux de chômage augmente depuis début 2025 alors que le taux d'emploi a atteint en 2025 son plus haut niveau depuis que l'Insee le mesure, en 1975. Les deux chiffres sont exacts. Ils ne mesurent pas la même chose.",
     "resume": "Deux indicateurs qui semblent se contredire et mesurent des choses différentes. Données arrêtées au 8 octobre 2026.",
     "arret": "8 octobre 2026", "publication": "8 octobre 2026", "verifie": "13 octobre 2026",
     "image": "assets/images/dossier-chomage-emploi.jpg", "image_alt": "La cour de l'hôtel du Châtelet, siège du ministère du Travail, à Paris",
