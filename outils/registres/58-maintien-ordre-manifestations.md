@@ -31,3 +31,28 @@ Document interne. Mode : AUDIT puis RÉNOVATION (révision ciblée), 21 octobre 
 
 ## Verdict
 Publiable après ces corrections, sous réserve de la relecture du document de l'ONU. Validation humaine recommandée (sujet sensible, faits récents).
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Aucune donnée nouvelle ajoutée au texte ; chaque visuel ne reprend que des éléments déjà présents et sourcés, avec les mêmes appels de note.
+
+- VISUEL V01
+  - EMPLACEMENT : fin de « Méthode »
+  - QUESTION POUR LE LECTEUR : Qu'est-ce qui est documenté, mesurable ou seulement hypothétique dans ce dossier ?
+  - TYPE : tableau comparatif
+  - INFORMATION MONTRÉE ET APPELS : les trois niveaux d'analyse annoncés dans le [À noter] et leurs sources
+  - LIMITE : schéma de méthode ; ne dit rien du fond. Conçu pour empêcher toute lecture qui prêterait une intention
+  - ALTERNATIVE TEXTUELLE : tableau ou liste HTML lisible par les lecteurs d'écran (rendu par figures.py)
+  - TEST MOBILE : non fait (generer.py non lancé, conformément à la consigne)
+  - STATUT : données vérifiées dans le texte du dossier
+
+- VISUEL V02
+  - EMPLACEMENT : fin de « Niveau 1 », après l'interprétation qui compare les crises
+  - QUESTION POUR LE LECTEUR : Que disent, thème par thème, les trois interventions du corpus ?
+  - TYPE : tableau comparatif (thème x date)
+  - INFORMATION MONTRÉE ET APPELS : citations et mesures déjà dans le texte [1][5][24][25] ; ligne « manifestants blessés » reprise de l'Essentiel et de la section suivante
+  - LIMITE : cases « non étudiée ici » signalées comme non examinées ; l'absence d'un thème ne prouve pas une intention (note)
+  - ALTERNATIVE TEXTUELLE : tableau ou liste HTML lisible par les lecteurs d'écran (rendu par figures.py)
+  - TEST MOBILE : non fait (generer.py non lancé, conformément à la consigne)
+  - STATUT : données vérifiées dans le texte du dossier
+

@@ -24,3 +24,28 @@ Document interne. Mode : AUDIT puis RÉNOVATION (révision ciblée), 21 octobre 
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Aucune donnée nouvelle ajoutée au texte ; chaque visuel ne reprend que des éléments déjà présents et sourcés, avec les mêmes appels de note.
+
+- VISUEL V01
+  - EMPLACEMENT : après le paragraphe sur le retrait et les votes (« Les règles du délibéré »)
+  - QUESTION POUR LE LECTEUR : Dans quel ordre la cour délibère-t-elle et vote-t-elle ?
+  - TYPE : schéma en étapes
+  - INFORMATION MONTRÉE ET APPELS : retrait commun, vote sur la culpabilité (7 voix sur 9, bulletins blancs favorables), vote sur la peine, feuille de motivation depuis 2012 [1][2]
+  - LIMITE : schéma de la première instance ; l'appel (9 jurés, 8 voix) est en note
+  - ALTERNATIVE TEXTUELLE : tableau ou liste HTML lisible par les lecteurs d'écran (rendu par figures.py)
+  - TEST MOBILE : non fait (generer.py non lancé, conformément à la consigne)
+  - STATUT : données vérifiées dans le texte du dossier
+
+- VISUEL V02
+  - EMPLACEMENT : après l'interprétation sur la règle de majorité
+  - QUESTION POUR LE LECTEUR : Qui juge un crime, et quelle majorité faut-il pour condamner ?
+  - TYPE : tableau comparatif
+  - INFORMATION MONTRÉE ET APPELS : composition, compétence et majorité : assises premier ressort, appel, cour criminelle [1]
+  - LIMITE : nombre de magistrats en appel et majorité de la cour criminelle non repris (case signalée)
+  - ALTERNATIVE TEXTUELLE : tableau ou liste HTML lisible par les lecteurs d'écran (rendu par figures.py)
+  - TEST MOBILE : non fait (generer.py non lancé, conformément à la consigne)
+  - STATUT : données vérifiées dans le texte du dossier
+

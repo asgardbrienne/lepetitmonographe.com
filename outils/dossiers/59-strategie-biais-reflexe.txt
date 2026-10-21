@@ -30,6 +30,18 @@ corrections: Le 21 octobre 2026, la citation présidentielle du 18 octobre 2026 
 
 [À noter] La méthode est celle des hypothèses concurrentes, utilisée en analyse du renseignement et en sciences sociales : pour chaque explication, on se demande ce que l'on devrait observer si elle était juste, puis on vérifie dans les sources. Un fait compatible avec les trois hypothèses ne permet pas de trancher ; seuls comptent les faits qui en favorisent une ou en contredisent une. Les sources principales sont les textes officiels de 2018, 2019 et 2026 [1][2][3], le rapport de la commission d'enquête de l'Assemblée nationale sur le maintien de l'ordre publié le 20 janvier 2021 [7], les décisions des juridictions [8][9][10][12] et les constats des autorités de contrôle [15][16].
 
+[Figure] etapes
+titre: La méthode des hypothèses concurrentes, telle qu'elle est appliquée dans ce dossier
+donnees:
+- Trois explications | Stratégie consciente, biais institutionnel, réflexe sécuritaire ; elles ne s'excluent pas
+- Prédictions | Pour chacune, ce que l'on devrait observer si elle était juste
+- Vérification | Confrontation aux sources : textes officiels, commission d'enquête, décisions de justice, autorités de contrôle [1][2][3][7][8][9][10][12][15][16]
+- Tri des faits | Un fait compatible avec les trois ne tranche rien ; seuls comptent ceux qui en favorisent ou en contredisent une
+- Bilan point par point | Laquelle est la mieux étayée sur chaque point, sans en retenir une seule
+source: Méthode de ce dossier ; sources numérotées en fin de page
+lecture: Chaque explication est jugée sur ce qu'elle prédit, et seuls les faits qui départagent les hypothèses servent à conclure.
+note: La méthode ne garantit pas une réponse tranchée : le dossier conclut que les documents ne permettent pas de retenir une seule explication.
+
 ## Hypothèse 1 : une stratégie politique consciente
 
 [Hypothèse] Si la mise en avant de l'ordre public était un choix délibéré pour détourner l'attention des revendications, on devrait observer : des qualifications politiques avancées avant les preuves ; une communication alignée entre responsables ; des références explicites à un bénéfice politique ; l'absence de concessions sur le fond ; idéalement, des consignes ou documents internes.
@@ -100,6 +112,17 @@ note: La frise retient les outils annoncés publiquement ; elle n'est pas un inv
 ## Ce que l'on peut conclure
 
 [Interprétation] Les documents ne permettent pas de répondre par une seule des trois explications. Ils dessinent un ensemble cohérent : des institutions dont l'organisation et la doctrine favorisent une réponse par la force, documentées par l'Assemblée nationale et l'ONU ; une répétition des mêmes outils après chaque crise, plusieurs fois corrigée par les juges ; et, au niveau politique, des choix de mots qui désignent des adversaires avant que la justice ne se prononce. Le dernier point est compatible avec une stratégie, mais il est aussi compatible avec une réaction à chaud. Établir une stratégie délibérée d'étouffement des revendications supposerait des preuves qui, à la date d'arrêt des données, n'existent pas dans les sources publiques.
+
+[Figure] tableau
+titre: Les trois explications confrontées aux sources, point par point
+colonnes: Explication | Ce qui l'étaye | Ce qui la nuance ou la contredit | Bilan
+donnees:
+- Stratégie consciente | Qualifications politiques avancées avant les constats judiciaires, comme « écoterrorisme » et « ultragauche » [3][11][13][19] | Concessions en décembre 2018 [1] ; fautes reconnues [6][22] ; aucun document interne trouvé | Étayée sur le choix des mots, non démontrée dans l'intention
+- Biais institutionnel | Unités spécialisées réduites, unités moins formées, LBD jugé « pas nécessairement pertinent », réticences à la désescalade, contrôle rattaché au ministère [7][15][16] | Institutions non monolithiques ; décisions les plus restrictives prises par le législateur ou le gouvernement [7][8][12] | La mieux documentée ; n'explique pas seule le choix des mots
+- Réflexe sécuritaire | Un nouvel outil après chaque crise, plusieurs censurés ou annulés ; grenades réautorisées neuf jours après leur suspension [8][9][10][12][17][18] | Mesures de retenue [7][17] ; une réponse répétée peut répondre à des violences répétées | Étayée par la répétition ; se distingue mal du biais institutionnel
+source: Sources numérotées du dossier, 2018-2026
+lecture: Aucune explication ne s'impose seule ; les documents permettent de dire laquelle est la mieux étayée sur chaque point.
+note: Les trois explications ne s'excluent pas ; le tableau résume les sections du dossier et ne mesure pas un poids relatif. Établir une stratégie délibérée supposerait des preuves absentes des sources publiques à la date d'arrêt des données.
 
 [Proposition] Trois éléments permettraient de trancher davantage : l'accès aux travaux d'une commission d'enquête, comme celle que la présidente de l'Assemblée nationale a annoncé le 18 octobre 2026 vouloir proposer, sans que sa création soit décidée à la date d'arrêt des données ; la publication systématique d'un bilan des personnes blessées en manifestation, quel que soit leur camp ; et une évaluation publique des recommandations de 2021 de la commission d'enquête et de 2025 du Comité contre la torture, mesure par mesure.
 

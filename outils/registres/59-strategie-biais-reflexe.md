@@ -31,3 +31,28 @@ Document interne. Mode : AUDIT puis RÉNOVATION (révision ciblée), 21 octobre 
 
 ## Verdict
 Publiable après ces corrections, sous réserve de la relecture du document de l'ONU. Validation humaine recommandée.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Aucune donnée nouvelle ajoutée au texte ; chaque visuel ne reprend que des éléments déjà présents et sourcés, avec les mêmes appels de note.
+
+- VISUEL V01
+  - EMPLACEMENT : fin de « Méthode »
+  - QUESTION POUR LE LECTEUR : Comment le dossier départage-t-il trois explications ?
+  - TYPE : schéma en étapes
+  - INFORMATION MONTRÉE ET APPELS : les étapes de la méthode des hypothèses concurrentes telles que décrites dans le texte
+  - LIMITE : ne garantit pas un résultat tranché
+  - ALTERNATIVE TEXTUELLE : tableau ou liste HTML lisible par les lecteurs d'écran (rendu par figures.py)
+  - TEST MOBILE : non fait (generer.py non lancé, conformément à la consigne)
+  - STATUT : données vérifiées dans le texte du dossier
+
+- VISUEL V02
+  - EMPLACEMENT : « Ce que l'on peut conclure », après le premier paragraphe
+  - QUESTION POUR LE LECTEUR : Que retenir, point par point, de chaque explication ?
+  - TYPE : tableau comparatif
+  - INFORMATION MONTRÉE ET APPELS : éléments qui étayent, éléments qui nuancent et bilan de chaque section, avec leurs appels [1][3][6]-[19][22]
+  - LIMITE : résumé des sections, pas un poids relatif ; formulations du bilan reprises des interprétations du texte, sans les durcir
+  - ALTERNATIVE TEXTUELLE : tableau ou liste HTML lisible par les lecteurs d'écran (rendu par figures.py)
+  - TEST MOBILE : non fait (generer.py non lancé, conformément à la consigne)
+  - STATUT : données vérifiées dans le texte du dossier
+

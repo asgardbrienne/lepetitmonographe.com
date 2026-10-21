@@ -48,11 +48,34 @@ corrections: Le 21 octobre 2026, le résumé mentionnait à tort deux enquêtes 
 
 [Fait établi] La méta-analyse de Shauna Bowes, Thomas Costello et Arber Tasimi, publiée en 2023, porte sur 170 études, 257 échantillons, 52 variables et 158 473 participants. Les corrélats les plus forts de la pensée conspirationniste sont la perception de dangers et de menaces, le recours à l'intuition et les croyances ou expériences inhabituelles, et une attitude d'antagonisme et de sentiment de supériorité. Les auteurs relèvent une forte hétérogénéité des résultats et des limites selon le type de complot [6].
 
+[Figure] tableau
+titre: Les explications de l'adhésion aux théories du complot, et ce qui les soutient
+colonnes: Explication | Ce que montrent les études | Type de preuve
+donnees:
+- Besoin d'unicité | Association « modeste mais solide » [3] ; le renforcer augmentait l'adhésion dans deux expériences [2] | Corrélations et expériences [2][3]
+- Besoin de contrôle | Six expériences favorables en 2008 [5] ; effet global faible et non significatif selon une méta-analyse de 2020 [4] | Expériences, puis méta-analyse [4][5]
+- Perception de menaces, intuition, croyances inhabituelles, antagonisme | Corrélats les plus forts sur 170 études, avec une forte hétérogénéité [6] | Méta-analyse, d'études en majorité corrélationnelles [6]
+- Satisfaction des besoins | Rien n'indique, à ce jour, que ces croyances satisfont les besoins qui y conduisent [1] | Synthèse de la littérature [1]
+source: Douglas, Sutton et Cichocka, 2017 [1] ; Lantian et coauteurs, 2017 [2] ; Imhoff et Lamberty, 2017 [3] ; Stojanov et Halberstadt, 2020 [4] ; Whitson et Galinsky, 2008 [5] ; Bowes, Costello et Tasimi, 2023 [6]
+lecture: Le besoin d'unicité est soutenu par des corrélations et des expériences ; le besoin de contrôle, souvent présenté comme établi, ne l'est pas par les expériences regroupées en 2020.
+note: Ces travaux décrivent des tendances moyennes dans des échantillons ; ils ne permettent de qualifier aucune personne. Une corrélation n'établit pas une cause.
+
 ## En France : ce que mesurent les sondages
 
 [Fait établi] La deuxième vague de l'enquête de la Fondation Jean-Jaurès et de Conspiracy Watch, réalisée par l'Ifop en décembre 2018 auprès de 1 760 personnes, conclut que deux Français sur trois sont « relativement hermétiques » au complotisme, mais que 21 % sont d'accord avec au moins cinq des dix énoncés complotistes proposés et 35 % avec aucun. 28 % des 18-24 ans adhèrent à cinq énoncés ou plus, contre 9 % des 65 ans et plus [7].
 
 [Débat] La mesure elle-même pose question. La même enquête utilise une échelle internationale de « mentalité conspirationniste » composée d'énoncés comme « les politiciens ne nous disent généralement pas ce qui motive réellement leurs décisions » ou « les agences gouvernementales surveillent étroitement les citoyens » : chacun recueille l'accord d'une majorité de répondants [7]. Certains de ces énoncés peuvent exprimer une méfiance raisonnable autant qu'une pensée conspirationniste. Les résultats dépendent donc fortement des énoncés choisis, ce que l'enquête reconnaît en explicitant ses choix méthodologiques [7].
+
+[Figure] barres-h
+titre: Accord avec au moins cinq des dix énoncés complotistes proposés, selon l'âge, en décembre 2018
+unite: % des personnes interrogées, France, enquête Ifop de décembre 2018 (1 760 personnes)
+donnees:
+- Ensemble | 21
+- 18-24 ans | 28
+- 65 ans et plus | 9
+source: Fondation Jean-Jaurès et Conspiracy Watch, enquête Ifop de décembre 2018, publiée le 6 février 2019 [7]
+lecture: En décembre 2018, 21 % des personnes interrogées étaient d'accord avec au moins cinq des dix énoncés proposés : 28 % chez les 18-24 ans, 9 % chez les 65 ans et plus.
+note: Les tranches d'âge intermédiaires ne sont pas reprises dans ce dossier. Les résultats dépendent fortement des énoncés choisis, dont certains peuvent exprimer une méfiance raisonnable [7].
 
 ## Doute légitime et pensée conspirationniste
 

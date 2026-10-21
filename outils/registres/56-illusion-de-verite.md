@@ -19,3 +19,38 @@ Document interne. Mode : AUDIT puis RÉNOVATION (retouche légère), 21 octobre 
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Aucune donnée nouvelle ajoutée au texte ; chaque visuel ne reprend que des éléments déjà présents et sourcés, avec les mêmes appels de note.
+
+- VISUEL V01
+  - EMPLACEMENT : fin de « L'effet de vérité », après la méta-analyse de 2010
+  - QUESTION POUR LE LECTEUR : Pourquoi la répétition rend-elle une affirmation plus crédible ?
+  - TYPE : schéma en étapes
+  - INFORMATION MONTRÉE ET APPELS : dispositif expérimental (exposition, répétition) puis explication par la fluidité, étiquetée Interprétation [1][3]
+  - LIMITE : explication proposée, non démontrée étape par étape ; autres explications en note [2]
+  - ALTERNATIVE TEXTUELLE : tableau ou liste HTML lisible par les lecteurs d'écran (rendu par figures.py)
+  - TEST MOBILE : non fait (generer.py non lancé, conformément à la consigne)
+  - STATUT : données vérifiées dans le texte du dossier
+
+- VISUEL V02
+  - EMPLACEMENT : fin de « Quand un démenti ne suffit pas »
+  - QUESTION POUR LE LECTEUR : Qu'est-ce qui réduit l'influence d'une information corrigée ?
+  - TYPE : tableau comparatif
+  - INFORMATION MONTRÉE ET APPELS : quatre conditions de l'expérience Ecker, Lewandowsky et Tang 2010 [7]
+  - LIMITE : une seule étude de laboratoire
+  - ALTERNATIVE TEXTUELLE : tableau ou liste HTML lisible par les lecteurs d'écran (rendu par figures.py)
+  - TEST MOBILE : non fait (generer.py non lancé, conformément à la consigne)
+  - STATUT : données vérifiées dans le texte du dossier
+
+- VISUEL V03
+  - EMPLACEMENT : fin de « Le débat sur l'effet boomerang »
+  - QUESTION POUR LE LECTEUR : Quelle différence entre effet de vérité, influence persistante, effet boomerang et simple exposition ?
+  - TYPE : tableau de notions
+  - INFORMATION MONTRÉE ET APPELS : définitions et état des sources [1][3][6][7][8][9][10]
+  - LIMITE : synthèse des passages du dossier, pas de la littérature entière
+  - ALTERNATIVE TEXTUELLE : tableau ou liste HTML lisible par les lecteurs d'écran (rendu par figures.py)
+  - TEST MOBILE : non fait (generer.py non lancé, conformément à la consigne)
+  - STATUT : données vérifiées dans le texte du dossier
+

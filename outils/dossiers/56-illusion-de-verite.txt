@@ -31,6 +31,17 @@ image_lien: https://commons.wikimedia.org/wiki/File:Pole_loudspeaker,_Maria_Elle
 
 [Fait établi] La méta-analyse d'Alice Dechêne et de ses coauteurs, publiée en 2010, porte sur 51 études. Elle confirme l'effet et montre qu'il est plus fort lorsqu'on compare des affirmations répétées à des affirmations nouvelles que lorsqu'on compare une même affirmation lors de sa première et de sa seconde présentation, ce qui suggère des processus différents. Les auteurs interprètent l'ensemble par la fluidité de traitement [3].
 
+[Figure] etapes
+titre: L'explication par la fluidité, proposée pour rendre compte de l'effet de vérité
+donnees:
+- Première rencontre | Une affirmation plausible est lue ou entendue [1]
+- Nouvelle rencontre | La même affirmation est présentée de nouveau [1][3]
+- Traitement plus facile | Déjà vue, elle est traitée avec plus de fluidité [3] | Interprétation
+- Jugement de vérité | Cette facilité est interprétée comme un signe de vérité [3] | Interprétation
+source: Hasher, Goldstein et Toppino, 1977 [1] ; Dechêne et coauteurs, méta-analyse de 51 études, 2010 [3]
+lecture: Les deux premières étapes décrivent le dispositif des expériences ; les deux dernières, l'explication retenue par la méta-analyse de 2010, qui n'est pas la seule proposée.
+note: D'autres explications sont discutées : fréquence, reconnaissance, familiarité, cohérence avec des références déjà connues [2]. L'effet augmente la crédibilité perçue ; il ne fait pas passer chacun du faux au vrai.
+
 ## Savoir ne suffit pas
 
 [Fait établi] En 2015, Lisa Fazio et ses coauteurs ont testé l'hypothèse selon laquelle la connaissance limite l'effet : répéter que « l'océan Atlantique est le plus grand océan de la Terre » ne devrait pas le faire croire. Contrairement à cette hypothèse, l'effet apparaissait même lorsque les participants connaissaient la bonne réponse. Selon les auteurs, les personnes se fient parfois à la fluidité alors que la connaissance leur est disponible [4].
@@ -49,11 +60,34 @@ image_lien: https://commons.wikimedia.org/wiki/File:Pole_loudspeaker,_Maria_Elle
 
 [Fait établi] En 2010, Ullrich Ecker, Stephan Lewandowsky et David Tang ont montré que cette influence persiste même quand la correction est bien mémorisée. Un avertissement précis donné au départ la réduit sans l'éliminer ; un avertissement général est encore moins efficace ; l'ajout d'une explication de remplacement plausible la réduit davantage, sans la supprimer [7].
 
+[Figure] tableau
+titre: Ce qui réduit l'influence d'une information corrigée, dans une expérience de 2010
+colonnes: Ce qui accompagne la correction | Effet observé
+donnees:
+- Correction seule | L'information corrigée continue d'influencer, même quand la correction est bien mémorisée [7]
+- Avertissement général donné au départ | Encore moins efficace qu'un avertissement précis [7]
+- Avertissement précis donné au départ | Réduit l'influence sans l'éliminer [7]
+- Explication de remplacement plausible | Réduit davantage l'influence, sans la supprimer [7]
+source: Ecker, Lewandowsky et Tang, Memory & Cognition, décembre 2010 [7]
+lecture: Aucune des conditions testées ne supprime entièrement l'influence de l'information corrigée ; l'explication de remplacement est celle qui la réduit le plus.
+note: Une étude de laboratoire ; elle ne mesure pas l'efficacité des formats de correction utilisés par les médias français.
+
 ## Le débat sur l'effet « boomerang »
 
 [Débat] Une idée répandue veut qu'un démenti puisse renforcer la croyance qu'il combat, soit parce qu'il répète l'information fausse, soit parce qu'il heurte les convictions du lecteur. La revue publiée en 2020 par Briony Swire-Thompson, Joseph DeGutis et David Lazer relève que des études récentes ne l'ont pas retrouvé, même dans des conditions théoriquement favorables, et conclut que l'effet boomerang « n'est pas un phénomène empirique solide », tout en recommandant de meilleures mesures pour trancher [8]. L'étude de Thomas Wood et Ethan Porter publiée en 2019 va dans le même sens [10].
 
 [Interprétation] Les deux constats sont compatibles : une correction n'efface pas complètement une fausse information, mais elle réduit en général la croyance plutôt qu'elle ne la renforce. La recherche plaide donc pour corriger, en donnant une explication de remplacement et en évitant de répéter l'information fausse plus que nécessaire.
+
+[Figure] tableau
+titre: Quatre notions voisines, à ne pas confondre
+colonnes: Notion | Ce qu'elle désigne | Ce que disent les sources du dossier
+donnees:
+- Effet de vérité | Une affirmation déjà rencontrée est jugée plus vraie [1][3] | Confirmé par une méta-analyse de 51 études [3]
+- Influence persistante | Une information corrigée continue d'influencer le raisonnement [6] | Réduite par des avertissements et une explication de remplacement, sans être supprimée [7]
+- Effet boomerang | Un démenti renforcerait la croyance qu'il combat [8] | « Pas un phénomène empirique solide », selon une revue de 2020 [8][10]
+- Effet de simple exposition | Un objet rencontré plusieurs fois est davantage apprécié [9] | Il porte sur l'attrait, pas sur la vérité [9]
+source: Hasher et coauteurs, 1977 [1] ; Dechêne et coauteurs, 2010 [3] ; Lewandowsky et coauteurs, 2012 [6] ; Ecker et coauteurs, 2010 [7] ; Swire-Thompson et coauteurs, 2020 [8] ; Zajonc, 1968 [9] ; Wood et Porter, 2019 [10]
+lecture: Une correction n'efface pas complètement une fausse information, mais elle réduit en général la croyance plutôt qu'elle ne la renforce.
 
 ## Ce qu'on ne sait pas
 - **La durée de l'effet dans la vie réelle**, au-delà des délais de quelques semaines testés en laboratoire.

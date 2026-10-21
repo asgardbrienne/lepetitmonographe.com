@@ -40,6 +40,20 @@ corrections: Le 21 octobre 2026, les taux de renouvellement de La Réunion et de
 
 [Débat] Les chiffres sur le renouvellement divergent. La Cour des comptes donne pour le SMGEAG un taux de renouvellement de 0,62 % par an en 2022, proche de l'objectif national de 0,5 %, « sans pour autant qu'aucune véritable amélioration de la qualité du service ne soit perceptible » [1]. Ce taux correspondrait à environ 160 ans pour renouveler tout le réseau, contre 208 ans selon la chambre régionale. Les périmètres et les années ne sont pas les mêmes, et le rapport définitif de la chambre n'a pas pu être consulté.
 
+[Figure] frise
+titre: L'eau en Guadeloupe : de la dégradation du service au plan d'urgence de 2026
+donnees:
+- 2005-2015 | Retrait de l'ingénierie publique de l'État, réforme de l'intercommunalité, difficultés du SIAEAG : « quasi-abandon de l'investissement », selon la Cour des comptes [1]. | Fait établi
+- 2014 | Départ de l'opérateur privé ; les tours d'eau s'imposent « progressivement comme un mode de gestion à part entière » [1]. | Fait établi
+- 15 mai 2020 | Le juge des référés enjoint au SIAEAG de fournir de l'eau en bouteille à des habitants de Saint-François [14]. | Décision de justice
+- 29 avril 2021 | Une loi crée le syndicat unique, le SMGEAG [1]. | Fait établi
+- 1er septembre 2021 | Le SMGEAG remplace les anciens gestionnaires, sauf à Marie-Galante [1]. | Fait établi
+- 10 février 2023 | Plainte du collectif La Goutte d'Eau visant le SMGEAG, le SIAEAG, une communauté d'agglomération « et toute personne » que l'enquête mettrait en cause [15]. | État de la procédure
+- 24 juin 2026 | Congrès des élus : vote d'un plan d'urgence et demande d'une opération d'intérêt national [9]. | Fait établi
+source: Cour des comptes, janvier 2025 [1] ; tribunal administratif de la Guadeloupe, 15 mai 2020 [14] ; Ligue des droits de l'Homme, 15 mai 2025 [15] ; L'info durable avec AFP, 25 juin 2026 [9]
+lecture: La dégradation du service est antérieure de plusieurs années à la création du syndicat unique en 2021 ; les tours d'eau se sont imposés progressivement après le départ de l'opérateur privé en 2014.
+note: Frise non proportionnelle au temps. Une information judiciaire contre X est aussi ouverte à Paris, pour des faits commis entre 2017 et 2024 ; aucune mise en examen n'est connue à la date d'arrêt des données [16].
+
 ## Martinique : un réseau fragile en saison sèche
 
 [Fait établi] En Martinique, le réseau compte 3 800 km de canalisations ; la production annuelle est de 40 millions de m³ pour 23 millions de m³ consommés, soit un taux de perte global « d'environ 42 % », avec de fortes différences entre intercommunalités. Le taux de renouvellement est d'environ 0,2 % par an, inférieur à l'objectif national [1]. La Martinique ne connaît pas de tours d'eau permanents, mais des coupures tournantes en saison sèche : en juillet 2026, à Fort-de-France, au Lamentin et à Schœlcher, faute de débit suffisant à l'usine de Didier [18].
@@ -55,6 +69,18 @@ corrections: Le 21 octobre 2026, les taux de renouvellement de La Réunion et de
 ## Mayotte : la pluie, les tours d'eau et le choléra
 
 [Fait établi] À Mayotte, la ressource dépend « à 95 % de la pluviométrie », selon le gouvernement en 2023 [20]. Les deux retenues collinaires ne sont pas la seule source : en 2021, les prélèvements venaient à 47 % des rivières, à 24 % des forages, à 17 % des retenues et à 12 % de l'eau de mer dessalée, selon l'ARS [19]. Les rivières et les retenues dépendent toutes deux des pluies, d'où la vulnérabilité de l'île aux sécheresses.
+
+[Figure] barres-h
+titre: À Mayotte, les rivières fournissaient près de la moitié des prélèvements d'eau en 2021
+unite: % des prélèvements d'eau destinée à la consommation humaine, Mayotte, 2021
+donnees:
+- Rivières | 47
+- Forages | 24
+- Retenues collinaires | 17
+- Eau de mer dessalée | 12
+source: ARS Mayotte, bilan de la qualité des eaux destinées à la consommation humaine, année 2021, septembre 2022 [19]
+lecture: En 2021, les rivières fournissaient 47 % des prélèvements et les retenues collinaires 17 % ; rivières et retenues dépendent toutes deux des pluies.
+note: Données de 2021, antérieures à la sécheresse de 2023 et au cyclone Chido de décembre 2024 ; aucune répartition plus récente n'a été consultée.
 
 [Fait établi] Les crises sont récurrentes. En août 2023, après une sécheresse que le gouvernement juge « inédite depuis 26 ans », le préfet annonce des coupures de 48 heures sur toute l'île à partir du 4 septembre, soit l'eau un jour sur trois [20][21]. Fin décembre 2023, près de 400 000 litres d'eau en bouteille sont distribués chaque jour, avec environ 580 agents de l'État mobilisés, selon le Conseil d'État [25]. Après le cyclone Chido de décembre 2024, le Premier ministre rappelle que « la distribution était déjà insuffisante » [36].
 
@@ -92,6 +118,18 @@ note: Valeurs arrondies par la Cour pour la Martinique, La Réunion et Mayotte ;
 [Fait établi] La loi confie la distribution de l'eau potable aux communes, puis à leurs intercommunalités ; l'État intervient par le contrôle sanitaire des ARS, les préfets et les financements [35]. La Cour des comptes estime que les services de l'État ont longtemps « soutenu voire suppléé » les communes d'outre-mer, et que la fin de cet appui technique, « combinée localement à des difficultés de gouvernance et de leadership politique », explique en partie « depuis la fin des années 1990, une longue période de sous-investissement et de négligence de leur part dans l'entretien des réseaux » [1].
 
 [Fait établi] La commission d'enquête de l'Assemblée nationale sur l'eau, présidée par Mathilde Panot et dont le rapporteur était Olivier Serva, a parlé en 2021 d'un « État qui n'a pas écouté les signaux de la dégradation du service et qui a failli dans son rôle de conseil », tout en relevant que « les élus portent une part de responsabilité » [10]. Les experts de l'ONU attribuent en 2024 la situation guadeloupéenne à « de nombreuses années de négligence de la part des opérateurs privés, des collectivités locales et de l'Etat » [5].
+
+[Figure] tableau
+titre: Le partage des responsabilités, selon la loi et selon trois rapports
+colonnes: Source | Ce qu'elle dit de l'État | Ce qu'elle dit des collectivités et des opérateurs
+donnees:
+- La loi [35] | Contrôle sanitaire par les ARS, rôle des préfets, financements [35] | La distribution de l'eau potable revient aux communes, puis à leurs intercommunalités [35]
+- Cour des comptes, 2025 [1] | La fin de son appui technique a contribué au sous-investissement [1] | « Sous-investissement et négligence » des communes depuis la fin des années 1990, avec des « difficultés de gouvernance » [1]
+- Commission d'enquête de l'Assemblée nationale, 2021 [10] | Un État qui « a failli dans son rôle de conseil » [10] | « Les élus portent une part de responsabilité » [10]
+- Experts de l'ONU, 2024 [5] | « Négligence » de l'État, parmi d'autres acteurs [5] | « Négligence » des opérateurs privés et des collectivités locales [5]
+source: Portail de l'État sur les collectivités locales [35] ; Cour des comptes, janvier 2025 [1] ; Assemblée nationale, rapport n° 4376, 15 juillet 2021 [10] ; ONU Info, 28 mars 2024 [5]
+lecture: Aucune des trois analyses n'attribue la situation à un seul acteur : toutes partagent les responsabilités entre l'État et les acteurs locaux, en des termes différents.
+note: Formulations résumées ; les citations complètes figurent dans le texte. Ces rapports n'ont pas la valeur d'une décision de justice.
 
 [Fait établi] Le plan Eau DOM, lancé en 2016 pour dix ans, a engagé 889 millions d'euros, dont 410 millions de subventions de l'État et 479 millions de prêts ; les besoins recensés dans les contrats de progrès s'élèvent à 2,3 milliards d'euros pour les six territoires concernés. La Cour juge la logique de conditionnalité des aides « inaboutie » [1].
 

@@ -24,3 +24,28 @@ Document interne, non publié (Bible v1.0, chapitres 8 et 10). Mode : AUDIT puis
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Aucune donnée nouvelle ajoutée au texte ; chaque visuel ne reprend que des éléments déjà présents et sourcés, avec les mêmes appels de note.
+
+- VISUEL V01
+  - EMPLACEMENT : après « Le meilleur argument contraire », à la suite du paragraphe d'interprétation
+  - QUESTION POUR LE LECTEUR : Pourquoi le chiffre des « juges affamés » ne prouve-t-il pas un effet de la faim ?
+  - TYPE : tableau comparatif
+  - INFORMATION MONTRÉE ET APPELS : trois explications de la même courbe (Danziger 2011, Weinshall-Margel et Shapard 2011, Glöckner 2016) [1][2][3]
+  - LIMITE : ne tranche pas le débat ; les explications ne s'excluent pas entièrement
+  - ALTERNATIVE TEXTUELLE : tableau ou liste HTML lisible par les lecteurs d'écran (rendu par figures.py)
+  - TEST MOBILE : non fait (generer.py non lancé, conformément à la consigne)
+  - STATUT : données vérifiées dans le texte du dossier
+
+- VISUEL V02
+  - EMPLACEMENT : fin de « Des effets mesurés plus modestes »
+  - QUESTION POUR LE LECTEUR : Que mesurent exactement les études sur de grandes séries, et où ?
+  - TYPE : tableau comparatif
+  - INFORMATION MONTRÉE ET APPELS : terrain, période, effet moyen et précision de Eren et Mocan [4], Philippe et Ouss [5][7], Chen et Philippe [6]
+  - LIMITE : effets moyens, non comparables entre eux ; ne disent rien d'une décision particulière
+  - ALTERNATIVE TEXTUELLE : tableau ou liste HTML lisible par les lecteurs d'écran (rendu par figures.py)
+  - TEST MOBILE : non fait (generer.py non lancé, conformément à la consigne)
+  - STATUT : données vérifiées dans le texte du dossier
+

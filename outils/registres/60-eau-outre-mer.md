@@ -24,3 +24,38 @@ Document interne. Mode : AUDIT puis RÉNOVATION (retouche ciblée), 21 octobre 2
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Aucune donnée nouvelle ajoutée au texte ; chaque visuel ne reprend que des éléments déjà présents et sourcés, avec les mêmes appels de note.
+
+- VISUEL V01
+  - EMPLACEMENT : section Mayotte, après le paragraphe sur la dépendance à la pluie
+  - QUESTION POUR LE LECTEUR : D'où vient l'eau prélevée à Mayotte ?
+  - TYPE : barres horizontales
+  - INFORMATION MONTRÉE ET APPELS : rivières 47 %, forages 24 %, retenues 17 %, dessalement 12 %, ARS 2021 [19]
+  - LIMITE : données de 2021, avant la sécheresse de 2023 et Chido ; corrige visuellement le chiffre circulant sur les « deux retenues »
+  - ALTERNATIVE TEXTUELLE : tableau ou liste HTML lisible par les lecteurs d'écran (rendu par figures.py)
+  - TEST MOBILE : non fait (generer.py non lancé, conformément à la consigne)
+  - STATUT : données vérifiées dans le texte du dossier
+
+- VISUEL V02
+  - EMPLACEMENT : fin de la section Guadeloupe, après le [Débat] sur le renouvellement
+  - QUESTION POUR LE LECTEUR : Dans quel ordre la crise de l'eau guadeloupéenne s'est-elle installée ?
+  - TYPE : frise
+  - INFORMATION MONTRÉE ET APPELS : 2005-2015, 2014, ordonnance du 15 mai 2020 [14], loi du 29 avril 2021 et 1er septembre 2021 [1], plainte du 10 février 2023 [15], congrès du 24 juin 2026 [9]
+  - LIMITE : frise non proportionnelle ; information judiciaire contre X en note, sans date d'ouverture, aucune mise en examen connue [16] ; condamnation de 2019 de l'ancien président du SIAEAG volontairement non reprise (caractère définitif inconnu)
+  - ALTERNATIVE TEXTUELLE : tableau ou liste HTML lisible par les lecteurs d'écran (rendu par figures.py)
+  - TEST MOBILE : non fait (generer.py non lancé, conformément à la consigne)
+  - STATUT : données vérifiées dans le texte du dossier
+
+- VISUEL V03
+  - EMPLACEMENT : « Qui est responsable ? », après le paragraphe commission d'enquête et ONU
+  - QUESTION POUR LE LECTEUR : Qui est compétent, et comment les rapports répartissent-ils les responsabilités ?
+  - TYPE : tableau comparatif
+  - INFORMATION MONTRÉE ET APPELS : la loi [35], Cour des comptes [1], commission d'enquête 2021 [10], experts de l'ONU 2024 [5]
+  - LIMITE : formulations résumées ; rapports sans valeur de décision de justice
+  - ALTERNATIVE TEXTUELLE : tableau ou liste HTML lisible par les lecteurs d'écran (rendu par figures.py)
+  - TEST MOBILE : non fait (generer.py non lancé, conformément à la consigne)
+  - STATUT : données vérifiées dans le texte du dossier
+

@@ -32,7 +32,29 @@ corrections: Le 21 octobre 2026, la date d'entrée en vigueur de la motivation o
 
 [Fait établi] Après les débats, président, assesseurs et jurés se retirent ensemble et votent à bulletin secret sur la culpabilité, puis, en cas de condamnation, sur la peine. La peine maximale ne peut être prononcée qu'à la majorité de 7 voix au moins [1].
 
+[Figure] etapes
+titre: Le délibéré de la cour d'assises en premier ressort, étape par étape
+donnees:
+- Retrait | Après les débats, président, assesseurs et jurés se retirent ensemble ; le délibéré est secret [1]
+- Vote sur la culpabilité | À bulletin secret ; au moins 7 voix sur 9 pour toute décision défavorable à l'accusé ; bulletins blancs ou nuls en sa faveur [1]
+- Vote sur la peine, en cas de condamnation | À bulletin secret ; la peine maximale exige au moins 7 voix [1]
+- Motivation | La décision est motivée au moyen d'une feuille de motivation, obligatoire depuis le 1er janvier 2012 [1][2]
+source: Service public, fiche « Procès devant la cour d'assises ou la cour criminelle », vérifiée le 30 septembre 2024 [1] ; thèse de Célia Gissinger-Bosse, 2012 [2]
+lecture: Magistrats et jurés délibèrent et votent ensemble, d'abord sur la culpabilité, puis, seulement en cas de condamnation, sur la peine.
+note: Schéma simplifié de la première instance. En appel, les jurés sont 9 et la majorité requise pour une décision défavorable à l'accusé est de 8 voix [1].
+
 [Interprétation] La règle de majorité a une conséquence arithmétique : avec 9 votants en première instance, une condamnation exige 7 voix ; même si les 3 magistrats votent la culpabilité, il faut encore 4 jurés sur 6. Les jurés ne peuvent donc pas être mis en minorité par les magistrats pour une condamnation.
+
+[Figure] tableau
+titre: Qui juge les crimes, et à quelle majorité
+colonnes: Juridiction | Composition | Ce qu'elle juge | Décision défavorable à l'accusé
+donnees:
+- Cour d'assises, premier ressort | 3 magistrats et 6 jurés tirés au sort [1] | Crimes punis de plus de 20 ans de réclusion [1] | Au moins 7 voix sur 9 [1]
+- Cour d'assises d'appel | Magistrats et 9 jurés [1] | Appels [1] | Au moins 8 voix [1]
+- Cour criminelle, depuis le 1er janvier 2023 | Juges professionnels uniquement [1] | Crimes punis de 15 à 20 ans commis par des majeurs, hors récidive légale et sauf à Mayotte [1] | Règle non détaillée dans ce dossier
+source: Service public, fiche « Procès devant la cour d'assises ou la cour criminelle », vérifiée le 30 septembre 2024 [1]
+lecture: En premier ressort, une condamnation exige au moins 4 jurés sur 6, même si les 3 magistrats votent la culpabilité.
+note: Le nombre de magistrats de la cour d'assises d'appel et la règle de majorité de la cour criminelle ne sont pas repris dans ce dossier.
 
 ## Comment un juré se forge une conviction
 

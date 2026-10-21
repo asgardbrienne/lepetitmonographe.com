@@ -30,6 +30,17 @@ corrections: Le 19 octobre 2026, ajout des vidéos de Paris, Dijon et Limoges et
 
 [À noter] Le corpus principal comprend trois textes officiels intégraux : l'adresse aux Français du 10 décembre 2018 [1], la conférence de presse du Premier ministre Édouard Philippe du 18 mars 2019 [5] et l'adresse aux Français du 18 octobre 2026 [24]. Il est complété par les réponses des ministres au Parlement [3][9] et par des déclarations rapportées par la presse [4][10][26]. Ces textes sont comparés aux décisions des juridictions et des autorités indépendantes, aux chiffres officiels et aux sondages publiés. Le dossier ne prétend pas mesurer l'ensemble de la communication gouvernementale.
 
+[Figure] tableau
+titre: Trois niveaux d'analyse, trois degrés de preuve
+colonnes: Niveau | Ce qui est examiné | Sources | Ce que l'on peut en dire
+donnees:
+- 1. Le discours du pouvoir | Allocutions, conférence de presse, réponses au Parlement, déclarations | Textes officiels et presse [1][3][4][5][9][10][24][26] | Documenté
+- 2. Les effets du cadrage | L'opinion et le débat public | Sondages et recherches [2][13][29][30] | En partie mesurable, avec des limites
+- 3. L'intention | Ce qui guiderait ce discours | Aucun document trouvé : ni consignes, ni notes internes | Hypothèse non démontrée
+source: Méthode de ce dossier ; sources numérotées en fin de page
+lecture: Le dossier sépare ce qui est documenté, le discours, ce qui est en partie mesurable, ses effets, et ce qui reste une hypothèse faute de preuve, l'intention.
+note: La section « Ce que le discours laisse de côté » confronte le niveau 1 aux constats des juridictions et des autorités indépendantes [6][8][11][15][16].
+
 ## Niveau 1 : le discours du pouvoir
 
 [Fait établi] Le 10 décembre 2018, après plusieurs samedis de violences, Emmanuel Macron ouvre son allocution par les violences, qui « ne bénéficieront d'aucune indulgence », et par « le jeu des opportunistes qui ont essayé de profiter des colères sincères ». Il ajoute aussitôt qu'il ne veut pas réduire l'indignation de « beaucoup de Français » à ces comportements, la juge « juste à bien des égards » et déclare : « Je prends ma part de cette responsabilité. » Il annonce une hausse de 100 euros par mois du salaire au niveau du SMIC dès 2019, des heures supplémentaires sans impôts ni charges, une prime de fin d'année défiscalisée et l'annulation de la hausse de CSG pour les retraités touchant moins de 2 000 euros par mois [1].
@@ -61,6 +72,19 @@ source: Textes officiels, décisions et médias cités en sources, 2018-2026
 lecture: Les déclarations politiques alternent avec des décisions d'autorités indépendantes qui portent sur les règles du maintien de l'ordre elles-mêmes.
 
 [Interprétation] D'une crise à l'autre, l'ordre des thèmes est constant : la violence vient en premier, la fermeté ensuite, les revendications après. La distinction entre casseurs et manifestants est affirmée à chaque fois [1][5][24], ce qui contredit l'idée d'un discours qui assimilerait tous les manifestants aux casseurs. Deux évolutions se dessinent. La réponse sociale annoncée est chiffrée et immédiate en 2018, elle est renvoyée à des concertations en 2026. Et, en 2026, le président prête un seul but, « abîmer la République et voler le débat », à ceux qui expliquent que l'urgence est « d'aller dans la rue, de manifester, de créer le désordre », en rappelant que l'élection présidentielle a lieu dans six mois [24]. La phrase peut se lire comme visant d'abord les appels au désordre ; elle peut aussi se lire comme une mise en cause de l'appel à manifester lui-même, ce qui irait au-delà de la condamnation des violences. Le texte ne permet pas de trancher entre ces deux lectures.
+
+[Figure] tableau
+titre: Les trois interventions du corpus, thème par thème
+colonnes: Thème | 10 décembre 2018 | 18 mars 2019 | 18 octobre 2026
+donnees:
+- Violences | Elles « ne bénéficieront d'aucune indulgence » [1] | Doctrine renforcée, « unités anticasseurs » [5] | « Factieux » d'ultragauche ; « ceux qui ont détruit doivent payer » [24][25]
+- Distinction avec les manifestants | Indignation jugée « juste à bien des égards » [1] | « Je ne confonds pas les casseurs et la très grande majorité des gilets jaunes » [5] | « Revendications légitimes » de « plusieurs centaines de milliers » de manifestants [24]
+- Réponse sociale annoncée | Mesures chiffrées pour le pouvoir d'achat [1] | Non étudiée ici ; le débat est jugé « un succès » [5] | Renvoi à des initiatives internationales sur l'énergie et à des concertations [24]
+- Mesures d'ordre public | Non étudiées ici | Interdictions de manifester dans certains quartiers, nouveau préfet de police [5] | Les préfets pourront interdire certains rassemblements [24]
+- Manifestants blessés par les forces de l'ordre | Non mentionnés [1] | Non mentionnés [5] | Non mentionnés ; « les nombreux blessés », sans préciser qui ils sont [24]
+source: Présidence de la République, 10 décembre 2018 et 18 octobre 2026 [1][24] ; conférence de presse du Premier ministre, 18 mars 2019 [5] ; LCP, 18 octobre 2026 [25]
+lecture: Les trois interventions condamnent les violences et distinguent casseurs et manifestants ; la réponse sociale change de nature entre 2018 et 2026 ; aucune ne mentionne de manifestant blessé par les forces de l'ordre.
+note: Corpus de trois textes, qui ne couvre pas l'ensemble de la communication gouvernementale. « Non étudiée ici » signale un point que le dossier n'a pas examiné, pas une absence dans le texte. L'absence d'un thème dans un discours est un constat ; elle ne prouve pas une intention.
 
 ## Ce que le discours laisse de côté
 

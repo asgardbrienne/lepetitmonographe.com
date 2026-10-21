@@ -38,6 +38,17 @@ corrections: Le 21 octobre 2026, précision ajoutée sur l'étude de Philippe et
 
 [Interprétation] L'étude de 2011 ne démontre donc pas que la faim ou la fatigue changent les décisions des juges. Elle n'est pas pour autant réfutée : d'autres explications rendent compte du même chiffre, et la question de l'effet de la fatigue reste ouverte. Le résultat le plus solide est méthodologique : un effet spectaculaire tiré de l'ordre des dossiers suppose de connaître la façon dont cet ordre est fixé.
 
+[Figure] tableau
+titre: Une même courbe, trois explications en débat
+colonnes: Explication | Ce qu'elle suppose | Sur quoi elle s'appuie
+donnees:
+- Effet de facteurs étrangers au dossier (Danziger et coauteurs, 2011) | Les décisions favorables baissent au fil de la session et remontent après la pause repas [1] | La courbe observée : environ 65 %, presque zéro, puis environ 65 % après la pause [1]
+- Ordre non aléatoire des dossiers (Weinshall-Margel et Shapard, 2011) | Les détenus sans avocat, moins souvent libérés, passent en général en fin de session [2][3] | Des entretiens avec des intervenants, dont un juge ; les auteurs de 2011 répondent que la tendance se maintient [2][3]
+- Planification rationnelle (Glöckner, 2016) | Les décisions favorables sont plus longues ; le juge évite d'en commencer une juste avant la pause [3] | Une simulation qui produit un effet d'ampleur comparable [3]
+source: Danziger, Levav et Avnaim-Pesso, PNAS, avril 2011 [1] ; Weinshall-Margel et Shapard, PNAS, octobre 2011 [2] ; Glöckner, Judgment and Decision Making, novembre 2016 [3]
+lecture: Le même chiffre peut s'expliquer de plusieurs façons : l'étude de 2011 ne démontre pas un effet de la faim ou de la fatigue, sans être réfutée pour autant.
+note: Les explications ne s'excluent pas entièrement, et le débat entre les auteurs n'est pas clos. La question de l'effet de la fatigue reste ouverte.
+
 ## Des effets mesurés plus modestes
 
 [Fait établi] Ozkan Eren et Naci Mocan ont étudié l'ensemble des décisions des tribunaux pour mineurs d'un État américain entre 1996 et 2012. Après une défaite inattendue de l'équipe universitaire de football de l'État, la durée des peines prononcées augmente pendant la semaine suivante ; les victoires inattendues ou les défaites attendues n'ont pas d'effet. L'effet est supporté de façon asymétrique par les prévenus noirs et il est plus fort chez les juges diplômés de l'université de l'équipe [4].
@@ -49,6 +60,17 @@ corrections: Le 21 octobre 2026, précision ajoutée sur l'étude de Philippe et
 [Fait établi] Daniel Chen et Arnaud Philippe ont examiné 4,8 millions de décisions en France et dans les tribunaux fédéraux américains. Le jour de l'anniversaire du prévenu, les peines prononcées en France sont environ 5 % plus courtes ; les juges fédéraux américains arrondissent aussi les peines à la baisse. Aucune indulgence n'apparaît les jours précédant ou suivant l'anniversaire [6].
 
 [Interprétation] Ces trois études reposent sur de très grands nombres de décisions et sur des événements extérieurs que les parties ne contrôlent pas, ce qui limite les biais de sélection. Les effets mesurés en moyenne sont limités, sans commune mesure avec la chute de 65 % à presque zéro annoncée en 2011. Ils indiquent que les juges et les jurés, comme tout décideur, ne sont pas entièrement à l'abri des émotions et du contexte.
+
+[Figure] tableau
+titre: Trois études sur de grandes séries de décisions : terrain et effet moyen mesuré
+colonnes: Étude | Terrain | Effet moyen mesuré | Précision
+donnees:
+- Eren et Mocan, 2018 | Tribunaux pour mineurs d'un État américain, 1996-2012 [4] | Peines plus longues la semaine suivant une défaite inattendue de l'équipe universitaire de football [4] | Pas d'effet des victoires inattendues ni des défaites attendues [4]
+- Philippe et Ouss, 2018 | Cours d'assises françaises, 2004-2010 [5][7] | Peines plus longues de trois mois après une couverture télévisée de faits criminels [5] | Effet absent dans les juridictions de seuls magistrats ; acquittement non modifié [7]
+- Chen et Philippe, 2023 | 4,8 millions de décisions, France et tribunaux fédéraux américains [6] | En France, peines environ 5 % plus courtes le jour de l'anniversaire du prévenu [6] | Aucune indulgence les jours précédant ou suivant l'anniversaire [6]
+source: Eren et Mocan, juillet 2018 [4] ; Philippe et Ouss, octobre 2018 et note IPP n° 22, janvier 2016 [5][7] ; Chen et Philippe, juillet 2023 [6]
+lecture: Ces effets sont des moyennes sur de grandes séries ; ils ne permettent pas de dire qu'une décision particulière a été influencée par l'actualité ou par l'humeur.
+note: Terrains, périodes et mesures diffèrent : les trois effets ne se comparent pas entre eux. La transposition des résultats américains à la France n'est pas établie [4].
 
 ## Ce que ces études ne disent pas
 
