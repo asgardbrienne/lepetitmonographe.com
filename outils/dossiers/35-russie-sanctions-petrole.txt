@@ -13,14 +13,14 @@ image: assets/images/russie-sanctions-petrole.jpg
 image_alt: Un navire pétrolier en mer du Nord, devant un parc éolien et une plateforme
 image_credit: ImagePerson, CC BY 4.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Oil_Tanker_in_North_Sea_3928.jpg
-verifie: 18 octobre 2026
-corrections: Ajout le même jour d'une section sur les élections de mi-mandat et l'effet attendu sur les prix des carburants.
+verifie: 21 octobre 2026
+corrections: Ajout le même jour d'une section sur les élections de mi-mandat et l'effet attendu sur les prix des carburants. Le 21 octobre 2026, la composition du Congrès et le nombre de sièges du Sénat en jeu sont rattachés à des sources (Sénat, greffier de la Chambre, 270toWin), la levée partielle de l'interdiction russe d'exporter du diesel est présentée comme une information de TASS non confirmée, et il est précisé que l'examen par le Congrès prévu par la loi Graham (section 117) ne vise que la levée définitive des sanctions, pas les dérogations.
 ---
 ## Essentiel
 - Le 9 octobre 2026, le Trésor américain a autorisé jusqu'au 7 avril 2027 les transactions liées à la vente et à l'importation de diesel d'origine russe, y compris aux États-Unis [3].
 - Le 16 octobre, Donald Trump a signé un décret qui écarte l'application de presque toutes les sanctions et de tous les droits de douane prévus par une loi qu'il avait promulguée le 18 septembre, deux jours avant leur date limite d'application [1][4].
 - Ces mesures nouvelles ne s'ajoutent donc pas. Les sanctions américaines déjà en vigueur avant cette loi ne sont pas levées par le décret [1].
-- Donald Trump justifie l'accord par la baisse des prix des carburants, à quelques semaines des élections de mi-mandat du 3 novembre, où il n'est pas candidat mais où sa majorité au Congrès est en jeu. Les analystes cités jugent l'effet sur les prix faible [22][24].
+- Donald Trump justifie l'accord par la baisse des prix des carburants, à quelques semaines des élections de mi-mandat du 3 novembre, où il n'est pas candidat mais où la majorité républicaine au Congrès est en jeu. Les analystes cités jugent l'effet sur les prix faible [22][24].
 - L'« accord » sur le diesel annoncé par Donald Trump n'a pas de texte public. Le 15 octobre, le vice-Premier ministre russe Alexandre Novak indiquait qu'un contrat commercial restait à conclure [7][8].
 
 ## La licence sur le diesel russe
@@ -29,7 +29,9 @@ corrections: Ajout le même jour d'une section sur les élections de mi-mandat e
 
 [Fait établi] Le même jour, Donald Trump a annoncé sur son réseau social, après un appel avec Vladimir Poutine, que la Russie mettrait sur le marché 300 000 tonnes de diesel « immédiatement », 500 000 tonnes en novembre, puis 1 million de tonnes et enfin 3 millions de tonnes selon l'état de ses raffineries, soit jusqu'à 4,8 millions de tonnes au total [7]. Ces volumes sont ceux annoncés par la Maison-Blanche : aucun texte d'accord n'a été publié [6].
 
-[Fait établi] La Russie interdisait elle-même l'exportation de diesel depuis le 8 juillet 2026, après des frappes de drones ukrainiens sur ses raffineries [7]. Selon l'agence d'État russe TASS, le gouvernement russe a partiellement levé cette interdiction à compter du 10 octobre [8].
+[Fait établi] La Russie interdisait elle-même l'exportation de diesel depuis le 8 juillet 2026, après des frappes de drones ukrainiens sur ses raffineries [7].
+
+[Allégation] Selon l'agence d'État russe TASS, le gouvernement russe a partiellement levé cette interdiction à compter du 10 octobre [8].
 
 [Allégation] Le 15 octobre, Alexandre Novak a déclaré qu'il fallait encore « conclure un contrat, charger le carburant, affréter un navire », et que les premières livraisons vers les États-Unis pourraient intervenir dans « au moins deux à trois semaines » [8]. Ces déclarations proviennent d'un média d'État russe et ne sont pas confirmées de façon indépendante.
 
@@ -78,7 +80,7 @@ lecture: La loi a été écartée moins d'un mois après sa promulgation, une se
 
 ## Les élections du 3 novembre
 
-[Fait établi] Le 3 novembre 2026, les Américains renouvellent toute la Chambre des représentants et 35 des 100 sièges du Sénat ; les républicains détiennent aujourd'hui les deux chambres (voir notre dossier <a href="dossier-elections-mi-mandat-2026.html">sur les élections de mi-mandat</a>). Donald Trump n'est pas candidat : son mandat court jusqu'en janvier 2029 quel que soit le résultat. L'enjeu pour lui est de conserver un Congrès de son camp pour les deux dernières années de sa présidence.
+[Fait établi] Le 3 novembre 2026, les Américains renouvellent toute la Chambre des représentants et 35 des 100 sièges du Sénat ; les républicains détiennent aujourd'hui les deux chambres [25][26][27] (voir notre dossier <a href="dossier-elections-mi-mandat-2026.html">sur les élections de mi-mandat</a>). Donald Trump n'est pas candidat : son mandat court jusqu'en janvier 2029 quel que soit le résultat. L'enjeu pour lui est de conserver un Congrès de son camp pour les deux dernières années de sa présidence.
 
 [Fait établi] Le prix des carburants est au centre de la campagne. Selon l'EIA, citée par le Council on Foreign Relations (CFR), le diesel coûtait en moyenne 6,18 dollars le gallon le 12 octobre, contre 3,48 dollars au début de l'année ; l'inflation annuelle a atteint 3,7 % en septembre [22]. L'essence coûtait en moyenne 4,36 dollars le gallon le 12 octobre selon l'association automobile AAA, 39 % de plus que le jour du retour de Donald Trump à la Maison-Blanche, le 20 janvier 2025 [23].
 
@@ -90,7 +92,7 @@ lecture: La loi a été écartée moins d'un mois après sa promulgation, une se
 
 [Expertise] **Un effet sur les prix jugé faible.** Selon le CFR, qui cite le cabinet Kpler, le déficit mondial de diesel atteint environ un million de barils par jour ; les 300 000 tonnes annoncées pour octobre couvriraient environ les trois quarts d'une journée de consommation américaine, selon un calcul du Guardian, et la totalité des volumes promis, environ trois semaines de consommation mondiale, selon le Wall Street Journal [22]. L'analyste Dan Pickering parle d'une hausse de l'offre de « 5 à 6 % » d'ici la fin de l'année, « utile mais pas décisive », et estime que l'annonce relève « davantage de la politique » [24]. La capacité même de la Russie à livrer est mise en doute, ses raffineries étant endommagées par les frappes ukrainiennes [15][22].
 
-[Débat] Le meilleur argument en faveur de la décision : tout volume supplémentaire compte sur un marché très tendu, les contrats à terme sur le diesel ont reculé d'environ 4 % le jour de l'annonce [24], et le diesel pèse directement sur les coûts des agriculteurs et des transporteurs. Ses limites : les volumes restent faibles face au déficit mondial [22], et l'EIA place la situation dans le golfe Persique, non l'offre russe, au centre de ses prévisions de prix [13]. Une mesure aux effets surtout attendus avant le 3 novembre ne règle pas le déséquilibre de fond du marché.
+[Débat] Le meilleur argument en faveur de la décision : tout volume supplémentaire compte sur un marché très tendu, les contrats à terme sur le diesel ont reculé d'environ 4 % le jour de l'annonce [24], et le diesel pèse directement sur les coûts des agriculteurs et des transporteurs. Ses limites : les volumes restent faibles face au déficit mondial [22], et l'EIA place la situation dans le golfe Persique, non l'offre russe, au centre de ses prévisions de prix [13]. Les deux constats ne s'excluent pas : un apport ponctuel peut peser sur les cours à court terme sans résoudre le déséquilibre de fond que décrivent l'EIA et l'AIE [13][15].
 
 ## Ce que cela pèse
 
@@ -132,7 +134,7 @@ Les décisions sont récentes. Personne ne peut dire aujourd'hui lesquelles de c
 
 [Hypothèse] **Un écart grandissant entre Washington et l'Europe.** L'UE poursuit sa sortie du gaz russe sur une base juridique indépendante des sanctions [19], tandis que Washington écarte de nouvelles mesures. Cet écart pourrait peser sur la coordination occidentale face à la Russie. Indice à suivre : la position de l'UE sur ses prochains paquets de sanctions.
 
-[Hypothèse] **Un rapport de force au Congrès.** La loi a été votée par de larges majorités [5] et des élus des deux partis contestent la dérogation [10][11]. La loi ne prévoit pas de vote du Congrès pour annuler une dérogation [2] ; le Congrès devrait adopter un nouveau texte, que le président pourrait bloquer par son veto.
+[Hypothèse] **Un rapport de force au Congrès.** La loi a été votée par de larges majorités [5] et des élus des deux partis contestent la dérogation [10][11]. La loi ne prévoit pas de vote du Congrès pour annuler une dérogation : la procédure d'examen par le Congrès qu'elle organise (section 117) ne vise que la levée définitive des sanctions [2] ; le Congrès devrait adopter un nouveau texte, que le président pourrait bloquer par son veto.
 
 ## Ce qu'on ne sait pas
 - **Le contenu du rapport** remis au Congrès pour justifier la dérogation : il n'a pas été publié.
@@ -167,3 +169,6 @@ Les décisions sont récentes. Personne ne peut dire aujourd'hui lesquelles de c
 - Council on Foreign Relations, Mary Kate Godfrey, « Trump's Russian Diesel Deal, Explained », 16 octobre 2026. | https://www.cfr.org/articles/trumps-russian-diesel-deal-explained
 - CNN, « Fact check: Breaking down Trump's rosy comparison to gas prices under Biden », 13 octobre 2026. | https://www.cnn.com/2026/10/13/politics/fact-check-trump-gas-prices-under-biden
 - CNN, Kevin Liptak et al., « Trump says Ukraine should get a new leader as he spars with Zelensky over US-Russia diesel deal », 9 octobre 2026, mis à jour le 11 octobre. | https://www.cnn.com/2026/10/09/politics/trump-putin-russian-diesel
+- Sénat des États-Unis, « Senators of the 119th Congress », composition du Sénat, consultée le 21 octobre 2026. | https://www.senate.gov/senators/index.htm
+- Greffier de la Chambre des représentants (Office of the Clerk), page d'accueil, composition de la Chambre, consultée le 21 octobre 2026. | https://clerk.house.gov/
+- Source secondaire : 270toWin, « Cook Political Report 2026 Senate Race Ratings », 6 octobre 2026, nombre de sièges en jeu. | https://www.270towin.com/2026-senate-election/cook-political-report-2026-senate

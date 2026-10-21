@@ -13,11 +13,12 @@ image: assets/images/iran-ormuz-carburants.jpg
 image_alt: Vue satellite du détroit d'Ormuz, entre l'Iran et la péninsule arabique
 image_credit: MODIS Land Rapid Response Team, NASA GSFC, domaine public, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg
-verifie: 18 octobre 2026
+verifie: 21 octobre 2026
+corrections: Le 21 octobre 2026, la révision des prévisions de l'EIA est précisée : il s'agit d'un relèvement de 14 dollars de la prévision du quatrième trimestre 2026, et non d'une révision de l'ensemble des prévisions ; le passage sur les engrais ne présente plus comme acquise une hausse de leur prix, qu'aucune source citée ne chiffre.
 ---
 ## Essentiel
 - Le 28 février 2026, les États-Unis et Israël ont commencé à frapper l'Iran. L'Iran a riposté dans toute la région et s'en est pris aux navires qui traversent le détroit d'Ormuz [1].
-- Avant la guerre, environ 20 millions de barils de pétrole y passaient chaque jour, soit environ 20 % de la consommation mondiale [2]. Au deuxième trimestre 2026, ce flux est tombé à 4,9 millions de barils par jour [3].
+- Avant la guerre, environ 20 millions de barils de pétrole y passaient chaque jour, soit environ 20 % de la consommation mondiale [2]. Au deuxième trimestre 2026, ce flux est tombé à 4,9 millions de barils par jour, selon une estimation de l'EIA [3].
 - En France, le gazole est passé de 1,650 euro le litre la semaine du 23 février à 2,328 euros la semaine du 12 octobre 2026, selon le bulletin pétrolier de la Commission européenne [5].
 - Un cessez-le-feu en avril puis un accord en juin n'ont pas tenu. À la mi-octobre, les attaques contre les navires se poursuivent et aucune négociation n'aboutit [1][7].
 
@@ -60,7 +61,7 @@ lecture: Les périodes de trêve ont été courtes ; depuis juillet, la guerre a
 [Fait établi] Le CRS relève l'évolution du prix du baril de Brent (contrat à échéance la plus proche), la référence du pétrole en Europe [1].
 
 [Figure] barres
-titre: Le prix du baril a suivi les phases de la guerre
+titre: Le prix du baril de Brent à quelques dates de la guerre
 unite: Brent, dollars par baril, contrat à échéance la plus proche, à des dates choisies de 2026
 donnees:
 - 1er janv. | 60,85
@@ -76,7 +77,7 @@ note: Dates non régulières, choisies par le CRS. Ce sont des relevés ponctuel
 
 [Fait établi] Selon l'EIA, le Brent a atteint 131 dollars le 15 septembre 2026, après des attaques contre l'oléoduc saoudien qui permet de contourner le détroit [4].
 
-[Estimation] Dans ses prévisions du 6 octobre, l'EIA table sur un Brent à 105 dollars en moyenne au quatrième trimestre 2026, puis à 84 dollars en moyenne en 2027, en supposant que les flux du Moyen-Orient restent perturbés jusqu'à la fin de l'année et que la production se rétablisse ensuite [4]. Ces prévisions dépendent entièrement de cette hypothèse ; l'EIA les a révisées de 14 dollars en un mois [4].
+[Estimation] Dans ses prévisions du 6 octobre, l'EIA table sur un Brent à 105 dollars en moyenne au quatrième trimestre 2026, puis à 84 dollars en moyenne en 2027, en supposant que les flux du Moyen-Orient restent perturbés jusqu'à la fin de l'année et que la production se rétablisse ensuite [4]. Ces prévisions dépendent entièrement de cette hypothèse ; l'EIA a relevé de 14 dollars en un mois sa prévision pour le quatrième trimestre [4].
 
 ## À la pompe en France
 
@@ -111,7 +112,7 @@ note: Semaines non consécutives. Prix moyens nationaux relevés le lundi ; les 
 
 [Fait établi] Le détroit voit aussi passer une part importante des engrais échangés dans le monde. Le 24 août 2026, le secrétaire général de l'ONU, António Guterres, a proposé un mécanisme pour sécuriser leur passage, en avertissant que l'approvisionnement alimentaire mondial ne doit pas devenir un « dommage collatéral » du conflit. L'ONU précise que ce mécanisme ne peut être mis en œuvre qu'avec l'accord des belligérants [8].
 
-[Interprétation] La hausse des engrais pèse sur les coûts agricoles avec un décalage, au moment des semis et des récoltes suivantes. Son effet sur les prix alimentaires en France n'est pas chiffré par une source officielle à la date d'arrêt du dossier.
+[Interprétation] Une perturbation durable des livraisons d'engrais pèserait sur les coûts agricoles avec un décalage, au moment des semis et des récoltes suivantes. Les sources consultées ne chiffrent ni l'évolution du prix des engrais ni son effet sur les prix alimentaires en France à la date d'arrêt du dossier.
 
 ## Ce que cela peut changer
 
@@ -141,4 +142,4 @@ Le CRS a décrit en septembre cinq évolutions possibles, qui ne s'excluent pas 
 - Commission européenne, Weekly Oil Bulletin, historique des prix à la consommation, données au 12 octobre 2026. | https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en
 - Direction générale des finances publiques, « Extension de l'aide de 100 € pour les travailleurs grands rouleurs », 1er octobre 2026, modifié le 15 octobre 2026. | https://www.impots.gouv.fr/actualite/extension-de-laide-de-100-eu-pour-les-travailleurs-grands-rouleurs
 - CNN, Jessie Yeung, Isaac Yee et Teele Rebane, « Two cargo ships sunk in Strait of Hormuz as Iran ramps up attacks in run-up to midterms », 15 octobre 2026, repris par Yahoo News. | https://www.yahoo.com/news/world/articles/two-cargo-ships-sunk-strait-040601096.html
-- The National, « UN chief proposes mechanism to protect fertiliser flow through Strait of Hormuz », 24 août 2026. | https://www.thenationalnews.com/news/us/2026/08/24/un-chief-proposes-mechanism-to-protect-fertiliser-flow-through-strait-of-hormuz/
+- Source secondaire : The National, « UN chief proposes mechanism to protect fertiliser flow through Strait of Hormuz », 24 août 2026. | https://www.thenationalnews.com/news/us/2026/08/24/un-chief-proposes-mechanism-to-protect-fertiliser-flow-through-strait-of-hormuz/

@@ -13,8 +13,8 @@ image: assets/images/ia-ecole.jpg
 image_alt: Salle de classe vide
 image_credit: -Marlith-, CC BY 2.0, recadrée, Flickr
 image_lien: https://www.flickr.com/photos/22419112@N08/2533256880
-verifie: 13 octobre 2026
-corrections: Le 13 octobre 2026, la formation des élèves a été précisée (parcours Pix IA rendus obligatoires en 4e, 2de et 1re année de CAP par le Bulletin officiel du 5 février 2026) ; les résultats PISA 2025 publiés en septembre 2026 ont été ajoutés, dont la part d'élèves français utilisant l'IA ; les sources secondaires faibles ont été remplacées.
+verifie: 21 octobre 2026
+corrections: Le 13 octobre 2026, la formation des élèves a été précisée (parcours Pix IA rendus obligatoires en 4e, 2de et 1re année de CAP par le Bulletin officiel du 5 février 2026) ; les résultats PISA 2025 publiés en septembre 2026 ont été ajoutés, dont la part d'élèves français utilisant l'IA ; les sources secondaires faibles ont été remplacées. Le 21 octobre 2026, l'exemple des élèves en difficulté recourant davantage à l'IA est attribué à la chercheuse Margarida Romero, auteure de l'article cité, et non plus à l'OCDE.
 ---
 ## Essentiel
 - Le ministère de l'Éducation nationale a publié le 14 juin 2025 un cadre d'usage de l'IA en éducation, élaboré après une consultation menée de janvier à mai 2025 [1][2].
@@ -36,7 +36,7 @@ corrections: Le 13 octobre 2026, la formation des élèves a été précisée (p
 
 [Fait établi] PISA 2025, dont les résultats ont été publiés par l'OCDE en septembre 2026, porte sur plus de 760 000 élèves de 15 ans dans 91 pays et économies [6][8]. En France, 37 % des élèves déclarent utiliser au moins une fois par semaine des chatbots d'IA pour les aider à apprendre (moyenne de l'OCDE : 46 %), et 15 % disent ne jamais ou presque jamais en utiliser pour les tâches scolaires étudiées (moyenne de l'OCDE : 14 %) [6].
 
-[Fait établi] Après prise en compte du milieu socio-économique, les élèves qui n'utilisent jamais l'IA obtiennent en moyenne de meilleurs résultats en sciences que les utilisateurs ; les usages consistant à résumer des textes ou rédiger des devoirs sont associés à des performances plus faibles [8]. L'OCDE souligne que cette association ne permet pas d'établir de relation causale : des élèves en difficulté peuvent, par exemple, recourir davantage à l'IA [7]. Les élèves qui utilisent l'IA chaque semaine pour apprendre devancent toutefois les non-utilisateurs, avec un écart limité, et l'avantage est plus net chez ceux qui sont régulièrement invités à évaluer la qualité des réponses de l'IA [8].
+[Fait établi] Après prise en compte du milieu socio-économique, les élèves qui n'utilisent jamais l'IA obtiennent en moyenne de meilleurs résultats en sciences que les utilisateurs ; les usages consistant à résumer des textes ou rédiger des devoirs sont associés à des performances plus faibles [8]. L'OCDE souligne que cette association ne permet pas d'établir de relation causale ; comme le relève la chercheuse Margarida Romero, des élèves en difficulté peuvent, par exemple, recourir davantage à l'IA [7]. Les élèves qui utilisent l'IA chaque semaine pour apprendre devancent toutefois les non-utilisateurs, avec un écart limité, et l'avantage est plus net chez ceux qui sont régulièrement invités à évaluer la qualité des réponses de l'IA [8].
 
 [Interprétation] Selon Andreas Schleicher, directeur de l'éducation et des compétences de l'OCDE, cité par la presse spécialisée, la technologie aide lorsqu'elle soutient l'effort cognitif de l'élève et peut nuire lorsqu'elle le court-circuite [8].
 
@@ -44,7 +44,7 @@ corrections: Le 13 octobre 2026, la formation des élèves a été précisée (p
 
 ## Le débat
 
-[Débat] Pour les uns, l'IA peut personnaliser l'apprentissage et soulager les enseignants ; l'école doit former les élèves à un outil qu'ils utilisent déjà. Pour les autres, son usage généralisé menace l'apprentissage de l'écriture et du raisonnement, rend l'évaluation des devoirs à la maison difficile et pose des questions de protection des données et d'impact environnemental ; le syndicat SUD éducation a ainsi critiqué la formation des élèves par la plateforme Pix et jugé insuffisante la prise en compte des effets environnementaux [10]. Les études disponibles, encore récentes et en partie corrélationnelles, ne permettent pas de trancher de manière générale.
+[Débat] Pour ses promoteurs, l'IA peut personnaliser l'apprentissage et soulager les enseignants, et l'école doit former les élèves à un outil qu'ils utilisent déjà ; c'est la logique de la feuille de route du ministère, qui prévoit une IA au service des enseignants et l'expérimentation d'un tuteur IA [3]. Pour ses critiques, son usage généralisé menace l'apprentissage de l'écriture et du raisonnement, rend l'évaluation des devoirs à la maison difficile et pose des questions de protection des données et d'impact environnemental ; le syndicat SUD éducation a ainsi critiqué la formation des élèves par la plateforme Pix et jugé insuffisante la prise en compte des effets environnementaux [10]. Les études disponibles, encore récentes et en partie corrélationnelles, ne permettent pas de trancher de manière générale.
 
 ## Ce qu'on ne sait pas
 - **L'effet à long terme** sur les compétences des élèves.

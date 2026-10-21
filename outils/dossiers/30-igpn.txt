@@ -13,13 +13,13 @@ image: assets/images/igpn.jpg
 image_alt: Le bâtiment de la préfecture de police, sur l'île de la Cité, à Paris
 image_credit: ZeusUpsistos, CC BY-SA 4.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Pr%C3%A9fecture_de_Police_Paris.jpg
-verifie: 13 octobre 2026
-corrections: Le constat sur les cellules locales de déontologie était attribué à tort à la réponse du gouvernement : il figure dans la question du député, qui cite un rapport de l'ONG Flagrant déni. Le texte sur l'usage des armes est une proposition de loi adoptée en première lecture par l'Assemblée nationale le 7 juillet 2026, et non un projet du gouvernement. Le 16 octobre 2026, le dossier a été approfondi : fonctionnement et saisine de l'IGPN, série complète des enquêtes pour usage de la force depuis 2016 tirée du rapport annuel 2024, enquêtes administratives et propositions de sanction, plateforme de signalement, tirs sur véhicules et débat sur la loi de 2017, contrôle par le Défenseur des droits et l'inspection de la gendarmerie, avec deux graphiques et sept sources nouvelles.
+verifie: 21 octobre 2026
+corrections: Le constat sur les cellules locales de déontologie était attribué à tort à la réponse du gouvernement : il figure dans la question du député, qui cite un rapport de l'ONG Flagrant déni. Le texte sur l'usage des armes est une proposition de loi adoptée en première lecture par l'Assemblée nationale le 7 juillet 2026, et non un projet du gouvernement. Le 16 octobre 2026, le dossier a été approfondi : fonctionnement et saisine de l'IGPN, série complète des enquêtes pour usage de la force depuis 2016 tirée du rapport annuel 2024, enquêtes administratives et propositions de sanction, plateforme de signalement, tirs sur véhicules et débat sur la loi de 2017, contrôle par le Défenseur des droits et l'inspection de la gendarmerie, avec deux graphiques et sept sources nouvelles. Le 21 octobre 2026, la hausse des saisines pour atteinte à la probité est recalculée (341 contre 234, soit environ 46 %, franceinfo indiquant 45 %), et la lecture du graphique des tirs sur véhicules ne présente plus 2017 comme un sommet, les années 2018 et 2019 manquant dans la source.
 ---
 ## Essentiel
 - En 2025, l'IGPN a mené 1 007 enquêtes judiciaires, contre 914 en 2024 ; 322 portaient sur l'usage de la force, contre 428 en 2024, 519 en 2023 et 868 en 2019 [1][2][7].
 - Douze personnes sont mortes à la suite de tirs policiers en 2025, contre seize en 2024 ; le nombre de blessés graves recensés est passé de 72 à 86 [1].
-- L'IGPN a été saisie de 341 atteintes à la probité en 2025, contre 234 en 2024, soit une hausse de 45 % [1][2].
+- L'IGPN a été saisie de 341 atteintes à la probité en 2025, contre 234 en 2024, soit une hausse d'environ 46 % (45 % selon franceinfo) [1][2].
 - L'IGPN ne prononce aucune sanction : elle enquête, puis propose ; en 2024, elle a proposé un classement pour 34 % des agents visés par ses enquêtes administratives et un conseil de discipline pour 32 % [7].
 - Ces chiffres ne couvrent pas la gendarmerie et ne comptent que les affaires confiées à l'IGPN, qui n'est saisie que des cas les plus graves selon son directeur [1][7].
 
@@ -77,7 +77,7 @@ donnees:
 - Enquêtes judiciaires (total) | 914 | 1007
 - dont usage de la force | 428 | 322
 - Saisines pour atteinte à la probité | 234 | 341
-lecture: Les saisines pour atteinte à la probité passent de 234 en 2024 à 341 en 2025, soit une hausse de 45 %.
+lecture: Les saisines pour atteinte à la probité passent de 234 en 2024 à 341 en 2025, soit une hausse d'environ 46 %.
 note: Les saisines pour probité comptent des infractions ; elles ont donné lieu à 235 enquêtes en 2025, une enquête pouvant porter sur plusieurs infractions.
 source: Rapport annuel 2025 de l'IGPN, repris par franceinfo et l'AFP (sources secondaires) [1][2]
 
@@ -141,7 +141,7 @@ donnees:
 - 2021 | 157
 - 2022 | 138
 - 2023 | 79
-lecture: Le nombre de tirs sur des véhicules en mouvement culmine en 2017, année de la nouvelle loi, puis recule jusqu'à 79 en 2023.
+lecture: Parmi les années disponibles, le nombre de tirs sur des véhicules en mouvement le plus élevé est celui de 2017, année de la nouvelle loi ; il est de 79 en 2023. Les années 2018 et 2019 manquent : on ne peut pas dire si 2017 est un sommet.
 note: Axe non continu : les années 2013 à 2015, 2018 et 2019 ne figurent pas dans la réponse ministérielle. La mission d'information de l'Assemblée nationale donne 205 tirs pour 2017 et 140 pour 2022.
 source: Ministère de l'Intérieur, réponse à la question écrite n° 549, JO du 3 décembre 2024 [9]
 
@@ -173,7 +173,7 @@ source: Ministère de l'Intérieur, réponse à la question écrite n° 549, JO 
 - **Les sanctions effectivement prononcées** à la suite des propositions de l'IGPN, que son rapport ne détaille pas.
 
 ## Sources
-- franceinfo, « Tirs mortels en baisse, affaires de corruption en hausse... Quatre infos à retenir du rapport annuel de l'IGPN, "la police des polices" », 23 septembre 2026. | https://www.franceinfo.fr/faits-divers/police/tirs-mortels-en-baisse-affaires-de-corruption-en-hausse-quatre-infos-a-retenir-du-rapport-annuel-de-l-igpn-la-police-des-polices_8206238.html
+- Source secondaire : franceinfo, « Tirs mortels en baisse, affaires de corruption en hausse... Quatre infos à retenir du rapport annuel de l'IGPN, "la police des polices" », 23 septembre 2026. | https://www.franceinfo.fr/faits-divers/police/tirs-mortels-en-baisse-affaires-de-corruption-en-hausse-quatre-infos-a-retenir-du-rapport-annuel-de-l-igpn-la-police-des-polices_8206238.html
 - Source secondaire : AFP, repris par 20 minutes (Suisse), « France : les enquêtes visant des policiers corrompus explosent », 23 septembre 2026. | https://www.20min.ch/fr/story/france-les-enquetes-visant-des-policiers-corrompus-explosent-103637864
 - Assemblée nationale, question écrite n° 11781 de M. Abdelkader Lahmar, « Police des polices : à quand une réelle transparence ? », publiée au JO le 16 décembre 2025, réponse du ministère de l'Intérieur publiée le 11 août 2026. | https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE11781.pdf
 - Assemblée nationale, texte adopté n° 328, proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre dans l'exercice de leurs fonctions, 7 juillet 2026. | https://www.assemblee-nationale.fr/dyn/17/textes/l17t0328_texte-adopte-seance.pdf
@@ -182,7 +182,7 @@ source: Ministère de l'Intérieur, réponse à la question écrite n° 549, JO 
 - Inspection générale de la police nationale, Rapport annuel 2024, octobre 2025 (publié sur vie-publique.fr). | https://www.vie-publique.fr/files/rapport/pdf/300479.pdf
 - Inspection générale de la police nationale, Rapport annuel 2014 (copie hébergée par DocumentCloud). | https://assets.documentcloud.org/documents/6940576/2014-Rapport-IGPN.pdf
 - Assemblée nationale, question écrite n° 549 (17e législature) de M. Aurélien Saintoul, « Loi relative à la sécurité publique dite "loi Cazeneuve" de 2017 », réponse du ministère de l'Intérieur publiée au JO le 3 décembre 2024. | https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE549.pdf
-- LCP, « Tirs lors de refus d'obtempérer : la mission d'information ne se prononce pas sur les conséquences de la loi Cazeneuve de 2017 », 29 mai 2024. | https://lcp.fr/actualites/tirs-lors-de-refus-d-obtemperer-la-mission-d-information-ne-se-prononce-pas-sur-les
+- Source secondaire : LCP, « Tirs lors de refus d'obtempérer : la mission d'information ne se prononce pas sur les conséquences de la loi Cazeneuve de 2017 », 29 mai 2024. | https://lcp.fr/actualites/tirs-lors-de-refus-d-obtemperer-la-mission-d-information-ne-se-prononce-pas-sur-les
 - Défenseur des droits, « 82e cycle d'examen de la France par le Comité contre la torture des Nations unies : contribution du Défenseur des droits », mars 2025. | https://www.defenseurdesdroits.fr/sites/default/files/2025-05/DDD_Contribution-a-examen-du-Comite-contre-la-torture_FR_mars-2025.pdf
 - Gendarmerie nationale, Gendinfo, « Publication du rapport annuel de l'IGGN », 27 juillet 2026. | https://www.gendarmerie.interieur.gouv.fr/gendinfo/actualites/2026/publication-du-rapport-annuel-de-l-iggn
 - Sénat, proposition de loi n° 866 (2025-2026) adoptée par l'Assemblée nationale visant à reconnaître une présomption de légitime défense pour les forces de l'ordre dans l'exercice de leurs fonctions, enregistrée le 7 juillet 2026. | https://www.senat.fr/leg/ppl25-866.html

@@ -77,7 +77,7 @@ source: Assemblée nationale, rapport de la commission des lois du 10 juin 2026,
 
 [Estimation] Le même rapport de l'Assemblée nationale indique qu'il faut « désormais six ans en moyenne pour juger un viol et huit ans pour un homicide ». Le rapport ne précise pas le mode de calcul de ces durées, et nous n'avons pas trouvé de série statistique publiée par le ministère qui les détaille [3].
 
-[Fait établi] Lors de l'examen du texte en commission, la rapporteure Laure Miller a indiqué qu'en 2026, dix-neuf personnes accusées de crimes graves devraient être remises en liberté faute d'avoir été jugées dans les délais légaux [3]. Le compte rendu ne précise pas la source de ce chiffre. Le garde des Sceaux a indiqué, à la même occasion, que 23 000 personnes étaient en détention provisoire en France, et que la Cour européenne des droits de l'homme avait jugé à deux reprises en 2025 que des délais d'audiencement criminels étaient déraisonnables [3] ; nous n'avons pas retrouvé ces deux arrêts.
+[Témoignage] Lors de l'examen du texte en commission, la rapporteure Laure Miller a indiqué qu'en 2026, dix-neuf personnes accusées de crimes graves devraient être remises en liberté faute d'avoir été jugées dans les délais légaux [3]. Le compte rendu ne précise pas la source de ce chiffre. Le garde des Sceaux a indiqué, à la même occasion, que 23 000 personnes étaient en détention provisoire en France, et que la Cour européenne des droits de l'homme avait jugé à deux reprises en 2025 que des délais d'audiencement criminels étaient déraisonnables [3] ; nous n'avons pas retrouvé ces deux arrêts.
 
 [Interprétation] Selon les rapporteures, l'engorgement ne vient pas d'une baisse de la capacité de jugement mais d'un afflux de dossiers criminels : le garde des Sceaux a indiqué au Sénat, le 7 avril 2026, que le nombre de personnes mises en cause dans une procédure criminelle était passé de 10 000 à 30 000 depuis 2016, une hausse que le rapport relie principalement à l'augmentation des plaintes pour viol [3]. Devant les députés, le ministre a aussi cité l'ouverture d'informations judiciaires pour viol, passée selon lui de 10 000 en 2017 à 32 000, et la hausse des affaires de criminalité organisée [3]. D'autres facteurs, comme les effectifs de magistrats et de greffiers, sont régulièrement avancés dans le débat public ; leur poids respectif n'est pas établi.
 
@@ -142,7 +142,7 @@ lecture: Sur les 1 500 recrutements de magistrats prévus entre 2023 et 2027, 59
 note: Données de la direction des services judiciaires transmises en novembre 2025 ; les années 2025 à 2027 sont des prévisions (hachurées). Il s'agit de recrutements, pas de créations nettes de postes.
 source: Sénat, avis n° 145 de la commission des lois sur le projet de loi de finances pour 2026, 24 novembre 2025 [7]
 
-[Fait établi] Le garde des Sceaux a indiqué devant les députés en juin 2026 que 441 nouveaux magistrats devaient arriver en juridiction en septembre 2026, et que la cour criminelle départementale mobilise cinq magistrats professionnels là où la cour d'assises en mobilisait trois aux côtés des jurés, ce qui absorbe selon lui une partie des renforts [3].
+[Témoignage] Le garde des Sceaux a indiqué devant les députés en juin 2026 que 441 nouveaux magistrats devaient arriver en juridiction en septembre 2026, et que la cour criminelle départementale mobilise cinq magistrats professionnels là où la cour d'assises en mobilisait trois aux côtés des jurés, ce qui absorbe selon lui une partie des renforts [3].
 
 ## Ce qui fait débat
 
@@ -158,7 +158,7 @@ source: Sénat, avis n° 145 de la commission des lois sur le projet de loi de f
 
 [Proposition] Multiplier les cours criminelles dans un même département : le garde des Sceaux a demandé aux députés, en juin 2026, de pouvoir créer soixante-quatre cours criminelles supplémentaires dans des tribunaux existants, la loi n'en prévoyant qu'une par département [3]. Le texte examiné par l'Assemblée nationale assouplissait les règles de fixation du siège de l'audience [3] ; nous n'avons pas vérifié la rédaction définitive de cette disposition ni trouvé de bilan du nombre de cours effectivement créées.
 
-[Proposition] Rétablir une procédure de jugement des crimes reconnus : défendue par le gouvernement et une partie de la majorité, elle a été retirée en juin 2026 face à l'opposition des avocats et d'une partie des magistrats [10]. Lors de l'examen du budget au Sénat, une sénatrice a estimé qu'un tel dispositif ne permettrait de traiter qu'environ 10 % des affaires criminelles [7].
+[Proposition] Réintroduire une procédure de jugement des crimes reconnus : défendue par le gouvernement et une partie de la majorité, elle a été retirée en juin 2026, alors que les avocats et une partie des magistrats s'y opposaient [10]. Lors de l'examen du budget au Sénat, une sénatrice a estimé qu'un tel dispositif ne permettrait de traiter qu'environ 10 % des affaires criminelles [7].
 
 [Proposition] Créer une juridiction spécialisée dans les violences sexuelles et sexistes : la piste a été évoquée au Sénat en novembre 2025 en référence au modèle espagnol, et le garde des Sceaux a jugé la question « ouverte » [7]. Son coût et son effet sur les délais n'ont pas été chiffrés publiquement.
 
