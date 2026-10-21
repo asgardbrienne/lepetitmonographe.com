@@ -41,6 +41,20 @@ voir_aussi: dossier-temoignage-erreur-sincere.html, dossier-acquittement-prescri
 
 [Fait établi] Les condamnés de Saint-Omer qui contestent leur culpabilité font appel. L'affaire est rejugée par une autre cour d'assises, celle de Paris, statuant en appel, qui acquitte les six appelants. Les quatre accusés condamnés qui n'ont pas fait appel voient leur condamnation devenir définitive [1][4]. Les faits reprochés à l'un des acquittés pour la période où il était mineur relevaient d'une autre juridiction, la cour d'assises des mineurs, ce qui explique le troisième procès, à Rennes, en 2015 [1][5].
 
+[Figure] etapes
+titre: Le parcours de l'affaire, du signalement au procès en appel
+donnees:
+- Signalement | Les services sociaux saisissent le parquet de Boulogne-sur-Mer après des confidences d'enfants, en décembre 2000 [1][4]. | Procédure
+- Garde à vue | Les parents des premiers enfants qui ont parlé sont placés en garde à vue le 20 février 2001 [1][4]. | Procédure
+- Information judiciaire | Le procureur de la République saisit un juge d'instruction en février 2001 [4]. | Procédure
+- Mises en examen | Dix-huit personnes sont mises en examen, la plupart placées en détention provisoire par le JLD [1][4]. | Procédure
+- Mise en accusation | Ordonnance du 13 mars 2003 ; la chambre de l'instruction de Douai confirme le renvoi de dix-sept accusés [1][4]. | Procédure
+- Cour d'assises du Pas-de-Calais, à Saint-Omer | 2 juillet 2004 : dix condamnations, sept acquittements [1][2]. | Décision de justice
+- Cour d'assises de Paris, en appel | 1er décembre 2005 : les six appelants sont acquittés ; les quatre condamnations sans appel sont définitives [1][4]. | Décision de justice
+source: Rapport de la commission d'enquête de l'Assemblée nationale, 6 juin 2006 [4], Wikipédia [1] et La Déferlante [2] (sources secondaires)
+lecture: Entre le signalement de décembre 2000 et l'arrêt d'appel de décembre 2005, l'affaire passe par sept étapes successives, dont deux procès d'assises.
+note: Schéma simplifié : il ne montre ni les réquisitoires supplétifs, ni les demandes de mise en liberté, ni le procès de 2015 devant la cour d'assises des mineurs d'Ille-et-Vilaine [5].
+
 ## La chronologie
 
 [Figure] frise
@@ -128,6 +142,21 @@ source: Rapport de la commission d'enquête, 6 juin 2006, et décisions de justi
 [Fait établi] La même loi prévoyait de remplacer le juge d'instruction par un collège de trois juges pour les principaux actes de l'instruction. Son entrée en vigueur a été reportée à plusieurs reprises, jusqu'au 1er janvier 2017, faute notamment des plus de trois cents postes de juges d'instruction nécessaires. En mai 2016, l'Assemblée nationale adopte, lors de l'examen du projet de loi sur la justice du XXIe siècle, un amendement qui abroge ces dispositions [8].
 
 [Fait établi] Sur la responsabilité des magistrats, la loi n° 2007-287 du 5 mars 2007, distincte de la loi n° 2007-291 du même jour sur la procédure pénale, crée une nouvelle sanction disciplinaire, l'interdiction d'être nommé ou désigné dans des fonctions de juge unique pendant cinq ans au plus, mais ses dates d'entrée en vigueur ne permettaient pas de l'appliquer aux magistrats mis en cause dans l'affaire. La révision constitutionnelle du 23 juillet 2008 prévoit que les justiciables pourront saisir eux-mêmes le Conseil supérieur de la magistrature (CSM) en matière disciplinaire, dans des conditions fixées par une loi organique alors en discussion [10].
+
+[Figure] tableau
+titre: Ce que les réformes ont prévu, et ce qu'il en est advenu
+colonnes: Mesure | Texte | Ce que disent les sources
+donnees:
+- Pôles de l'instruction | Loi n° 2007-291 du 5 mars 2007 [6][7] | Créés dans de nombreuses juridictions [6][7]
+- Enregistrement audiovisuel des interrogatoires | Loi n° 2007-291 [6][7] | Rendu obligatoire [6][7]
+- Avocat lors du débat devant le JLD | Loi n° 2007-291 [6][7] | Présence rendue obligatoire [6][7]
+- Collège de trois juges d'instruction | Loi n° 2007-291 [8] | Entrée en vigueur reportée, puis abrogation adoptée par l'Assemblée nationale en mai 2016 [8]
+- Interdiction d'être nommé juge unique, cinq ans au plus | Loi n° 2007-287 du 5 mars 2007 [10] | Inapplicable aux magistrats mis en cause dans l'affaire, en raison des dates d'entrée en vigueur [10]
+- Saisine du CSM par les justiciables | Révision constitutionnelle du 23 juillet 2008 [10] | Renvoyée à une loi organique, en discussion en 2010 [10]
+- Suppression du juge d'instruction | Projet présenté en 2009 [1] | Abandonné en 2010 [1]
+source: Circulaire de la DACG du 25 mai 2007 [6], rapport d'activité 2007 de l'Assemblée nationale [7], amendement n° 392 du 12 mai 2016 [8], question écrite n° 48840 et réponse ministérielle [10], Wikipédia [1]
+lecture: La collégialité de l'instruction prévue en 2007 n'est jamais entrée en vigueur, et la nouvelle sanction disciplinaire ne pouvait pas s'appliquer aux magistrats mis en cause dans l'affaire.
+note: Tableau limité aux mesures citées dans ce dossier. Le texte définitif de 2016 supprimant la collégialité n'a pas été consulté, seul l'amendement adopté l'a été [8].
 
 [Fait établi] Le CSM inflige au juge d'instruction une « réprimande avec inscription au dossier », sanction bien inférieure à la suspension d'un an demandée par le ministère de la Justice. La décision est datée du 24 avril 2009 par la presse et du 25 avril par une question écrite parlementaire [9][10].
 

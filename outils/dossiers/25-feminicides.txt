@@ -36,6 +36,21 @@ voir_aussi: dossier-emprise.html
 
 [Fait établi] À la suite du Grenelle des violences conjugales organisé par le gouvernement fin 2019, la loi du 28 décembre 2019 a supprimé l'exigence d'une plainte préalable pour obtenir une ordonnance de protection, imposé au juge de statuer dans un délai maximal de six jours à compter de la fixation de l'audience, élargi le recours au bracelet anti-rapprochement et simplifié l'attribution du téléphone grave danger [7]. La loi du 30 juillet 2020 a créé l'infraction de harcèlement par conjoint ayant conduit au suicide ou à sa tentative, punie de dix ans d'emprisonnement et de 150 000 euros d'amende [1], et permis aux médecins et soignants de signaler au procureur, sans l'accord de la victime, des violences conjugales mettant sa vie en danger immédiat lorsqu'elle se trouve sous emprise [8]. Selon le ministère de la Justice, la loi du 13 juin 2024 a porté la durée de l'ordonnance de protection à douze mois et créé une ordonnance provisoire de protection immédiate délivrée en vingt-quatre heures sur réquisition du procureur [3].
 
+[Figure] frise
+titre: Ce que la loi a changé depuis 1992 pour les violences au sein du couple
+donnees:
+- 22 juillet 1992 | Circonstance aggravante pour des violences ou un meurtre commis par le conjoint ou le concubin [5]. | Fait établi
+- À partir de 2006 | Extension à de nouvelles infractions, comme le viol et les agressions sexuelles [5]. | Fait établi
+- 9 juillet 2010 | Création de l'ordonnance de protection ; prise en compte des violences psychologiques [7]. | Fait établi
+- 27 janvier 2017 | Circonstance aggravante pour les crimes commis en raison du sexe de la victime, non cumulable avec la conjugalité [5]. | Fait établi
+- 3 août 2018 | La circonstance liée au couple s'applique même sans cohabitation [1]. | Fait établi
+- 28 décembre 2019 | Ordonnance de protection sans plainte préalable, décision sous six jours, bracelet anti-rapprochement élargi [7]. | Fait établi
+- 30 juillet 2020 | Délit de harcèlement ayant conduit au suicide ou à sa tentative ; signalement par les soignants sans accord de la victime, sous conditions [1][8]. | Fait établi
+- 13 juin 2024 | Ordonnance de protection portée à douze mois ; ordonnance provisoire de protection immédiate en vingt-quatre heures, selon le ministère de la Justice [3]. | Fait établi
+source: Assemblée nationale, rapport d'information sur la reconnaissance du terme de féminicide [5] ; Observatoire national des violences faites aux femmes, novembre 2025 [1] ; réponse du ministère de la Justice, 23 juin 2026 [3] ; Banque des territoires [7] et Weka [8] (sources secondaires)
+lecture: Le droit français n'a pas créé d'infraction de féminicide : depuis 1992, il a ajouté des circonstances aggravantes, une infraction spécifique et des mesures de protection.
+note: Frise limitée aux lois citées dans ce dossier ; les intervalles entre les dates ne sont pas représentés à l'échelle.
+
 ## Ce que compte le ministère
 
 [Fait établi] La délégation aux victimes du ministère de l'Intérieur publie chaque année une étude nationale sur les morts violentes au sein du couple, construite à partir des télégrammes et synthèses de la police et de la gendarmerie. Elle compte les assassinats, meurtres, empoisonnements et violences ayant entraîné la mort commis sur une partenaire ou ancienne partenaire, en France, outre-mer compris. Pour 2024, elle recense 107 femmes tuées par leur conjoint ou ex-conjoint, contre 96 en 2023, soit une hausse d'environ 11 %, et 31 hommes tués dans le même cadre [1].
@@ -121,6 +136,18 @@ source: SSMSI, base des victimes de crimes et délits enregistrés en 2024, repr
 [Fait établi] Le périmètre n'est pas le même : le ministère compte les meurtres au sein du couple, actuel ou passé ; certains collectifs incluent d'autres liens. La méthode diffère aussi : remontées des services d'enquête d'un côté, veille de presse de l'autre [1][2][4].
 
 [Interprétation] Un décompte par veille de presse peut inclure des cas encore non qualifiés par la justice, et en manquer d'autres non médiatisés. Un décompte administratif dépend de la qualification initiale des faits. Aucun des deux n'est « le vrai chiffre » ; ils répondent à des questions différentes.
+
+[Figure] tableau
+titre: Quatre décomptes qui ne mesurent pas la même chose
+colonnes: Source | Ce qui est compté | Méthode | Chiffre cité dans ce dossier
+donnees:
+- Ministère de l'Intérieur, délégation aux victimes | Femmes tuées par leur conjoint ou ex-conjoint | Remontées de la police et de la gendarmerie, vérifiées et harmonisées [1] | 107 en 2024 [1]
+- Ministère de la Justice, DACG | Homicides conjugaux, victimes des deux sexes | Recensement propre au ministère [3] | 96 femmes tuées par des hommes en 2025, sur 113 homicides conjugaux [3]
+- Collectif « Féminicides par compagnons ou ex » | Femmes tuées par leur compagnon ou ex-compagnon | Revue de presse quotidienne [4] | « A minima » 98 en 2025 [4]
+- Inter Orga Féminicides, dont #NousToutes | Meurtres ou suicides forcés de femmes en raison de leur genre, quel que soit le lien avec l'auteur | Décompte associatif [1][2] | 141 en 2024 [1]
+source: Observatoire national des violences faites aux femmes, novembre 2025 [1] ; #NousToutes [2] ; réponse du ministère de la Justice, 23 juin 2026 [3] ; collectif « Féminicides par compagnons ou ex » [4]
+lecture: Les chiffres diffèrent d'abord parce que les décomptes ne retiennent pas le même périmètre : le couple pour trois d'entre eux, tous les liens avec l'auteur pour l'Inter Orga Féminicides.
+note: Les années ne sont pas les mêmes (2024 ou 2025) : ces chiffres ne se comparent pas terme à terme. Pour 2025, la presse rapporte 111 femmes tuées selon le ministère de l'Intérieur [13][14] et 164 cas au 31 décembre 2025 selon l'Inter Orga Féminicides [3].
 
 ## Ce que montrent les enquêtes sur les violences antérieures
 

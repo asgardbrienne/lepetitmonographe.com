@@ -60,6 +60,18 @@ source: Décisions de justice rapportées par la presse ; voir les sources du do
 
 [Expertise] Lors de l'instruction, un premier expert en écritures et une contre-expertise ont attribué les inscriptions à la victime ; selon Wikipédia, le premier expert a reconnu à l'audience une part d'incertitude. Une expertise présentée par la défense en 1999 a conclu que l'écriture n'était pas celle de la victime, et deux expertes désignées ensuite par la commission de révision ont estimé qu'on ne pouvait pas « raisonnablement comparer » des écrits produits dans des conditions aussi différentes [1]. Ces expertises divergentes n'ont pas permis d'établir avec certitude l'auteur des inscriptions [1][10].
 
+[Figure] tableau
+titre: Les inscriptions de la cave : des expertises divergentes
+colonnes: Expertise | Conclusion rapportée
+donnees:
+- Premier expert en écritures, pendant l'instruction | Attribue les inscriptions à la victime ; reconnaît à l'audience une part d'incertitude, selon Wikipédia [1]
+- Contre-expertise, pendant l'instruction | Attribue les inscriptions à la victime [1]
+- Expertise présentée par la défense, 1999 | L'écriture n'est pas celle de la victime [1]
+- Deux expertes désignées par la commission de révision | On ne peut pas « raisonnablement comparer » des écrits produits dans des conditions aussi différentes [1]
+source: Wikipédia, « Affaire Omar Raddad » (source secondaire) [1] ; Assemblée nationale, rapport d'information n° 1598, 4 décembre 2013 [10]
+lecture: Les expertises successives n'ont pas permis d'établir avec certitude l'auteur des inscriptions [1][10].
+note: Conclusions rapportées par une source secondaire ; les rapports d'expertise n'ont pas été consultés. L'expertise présentée par la défense est une expertise de partie, non une expertise judiciaire.
+
 [Fait établi] La date et l'heure du crime ont été disputées : l'accusation retenait le dimanche 23 juin à la mi-journée, moment pour lequel l'emploi du temps donné par l'accusé n'a pas été confirmé par les personnes interrogées ; une erreur de date dans un rapport, relevée par la défense, a nourri la controverse [1]. Dans le cadre de la première demande de révision, la commission a désigné trois experts pour déterminer la date de la mort, selon le rapport de l'Assemblée nationale de 2013 [10].
 
 [Fait établi] Selon Wikipédia, les premières analyses n'ont relevé aucune trace de l'accusé sur la scène du crime, ni de trace de la victime sur ses vêtements, et aucune empreinte digitale exploitable [1]. La condamnation repose donc sur l'appréciation de l'ensemble des éléments par la cour d'assises, dont l'arrêt n'était pas motivé à l'époque [15].
@@ -71,6 +83,19 @@ source: Décisions de justice rapportées par la presse ; voir les sources du do
 [Fait établi] La révision n'est pas un appel : elle ne remet en cause une condamnation définitive que si un élément nouveau apparaît. Depuis la loi du 23 juin 1989, l'article 622 du code de procédure pénale permet la révision lorsqu'un fait nouveau ou un élément inconnu de la juridiction au jour du procès est « de nature à faire naître un doute sur la culpabilité du condamné ». En 1989, le législateur a volontairement écarté la notion de « doute sérieux » ; selon le rapport de l'Assemblée nationale de 2013, la pratique a pourtant continué d'exiger, dans les faits, un doute sérieux [10].
 
 [Fait établi] La demande passe d'abord par une commission qui l'instruit et peut ordonner des recherches, auditions et expertises, puis, si elle l'estime fondée, la transmet à la Cour de révision, qui statue. Le rapport de 2013 cite l'affaire Raddad comme exemple d'investigations « extrêmement poussées » de la commission : experts sur la date de la mort, auditions, experts en écritures, analyses génétiques [10].
+
+[Figure] arbre
+titre: Le parcours d'une demande de révision, et où se sont arrêtées celles de l'affaire
+donnees:
+- Requête examinée par la commission, qui peut ordonner recherches, auditions et expertises [10]
+  - Requête irrecevable ou rejetée : la condamnation reste définitive [10]
+    - Requête du 24 juin 2021 : rejetée par la commission d'instruction le 13 octobre 2022 [3][5]
+  - Requête transmise à la Cour de révision, qui statue [10]
+    - Rejet : demande transmise le 25 juin 2001, rejetée le 20 novembre 2002 [1][6]
+    - Annulation de la condamnation : 51 cas de 1989 à 2013, délits et crimes confondus [10]
+source: Assemblée nationale, rapport d'information n° 1598, 4 décembre 2013 [10] ; Wikipédia [1], Le JDD [3], ICI [5], Le Monde [6] (sources secondaires)
+lecture: La première demande a atteint la Cour de révision, qui l'a rejetée ; la seconde a été arrêtée au stade de la commission d'instruction.
+note: Schéma simplifié. Depuis la loi du 20 juin 2014, la juridiction est la Cour de révision et de réexamen [11][13]. Une annulation ne signifie pas toujours un acquittement ultérieur [10].
 
 [Fait établi] La loi du 20 juin 2014, publiée au Journal officiel du 21 juin 2014, a réformé la procédure [12]. Le texte voté par le Sénat le 29 avril 2014, puis adopté sans modification par l'Assemblée nationale le 11 juin 2014, crée une Cour de révision et de réexamen, prévoit qu'un élément nouveau puisse être « de nature à établir l'innocence du condamné ou à faire naître un doute sur sa culpabilité », impose au parquet, avant toute destruction des scellés d'une affaire jugée par une cour d'assises, d'en avertir le condamné, qui peut s'y opposer, et de réexaminer la question tous les cinq ans, et rend obligatoire l'enregistrement sonore des débats de cour d'assises [11][13].
 
@@ -106,6 +131,18 @@ source: Assemblée nationale, rapport d'information n° 1598 sur la révision de
 [Fait établi] La commission d'instruction a estimé que « la découverte de nouvelles empreintes ne suffit pas, à elle seule, à établir leur rapport avec les faits, ces traces ayant pu être laissées antérieurement ou postérieurement au meurtre » ; elle a jugé qu'il en allait de même pour les éléments de l'enquête de gendarmerie [3]. Elle n'a pas jugé justifié le recours à un portrait-robot génétique ou à des recherches en parentèle [1]. Nous n'avons pas consulté le texte intégral de la décision.
 
 [Interprétation] Les deux rejets reposent sur le même raisonnement : une trace génétique étrangère n'est un élément nouveau utile que si l'on peut la rattacher au moment du crime. Or les scellés ont été manipulés pendant des années par des enquêteurs, experts et autres intervenants, ce qui rend la datation impossible selon la juridiction. La défense estime au contraire que la localisation et la répétition des traces dans le sang suffisent à faire naître un doute [3][6][7].
+
+[Figure] tableau
+titre: Deux demandes de révision, un même motif de rejet
+colonnes: Point | Première demande | Deuxième demande
+donnees:
+- Élément nouveau invoqué | ADN masculins « en très faible proportion », différents de celui du condamné, mis en évidence en 2001 [1][6] | Quatre profils masculins non identifiés relevés en 2015, notes d'un expert de la défense, enquête de gendarmerie de 2002 à 2004 [2][3][6]
+- Juridiction qui a statué | Cour de révision, saisie par la commission le 25 juin 2001 [1][6] | Commission d'instruction de la Cour de révision [3][5]
+- Décision | Rejet, 20 novembre 2002 [1][6] | Rejet, 13 octobre 2022 [3][5]
+- Motif rapporté | « Impossible de déterminer à quel moment » ces traces ont été laissées par rapport au meurtre [1][6] | Les traces ont pu être laissées « antérieurement ou postérieurement au meurtre » [3]
+source: Wikipédia [1], Arab News en français avec AFP [2], Le JDD [3], ICI [5], Le Monde [6] (sources secondaires)
+lecture: Dans les deux cas, la juridiction a estimé que les traces génétiques ne pouvaient pas être rattachées au moment du crime ; la condamnation de 1994 reste définitive.
+note: Le texte intégral des deux décisions n'a pas été consulté. Les profils ADN n'ont été attribués à personne, et les sources ne font état d'aucune poursuite contre une autre personne [3][6].
 
 ## Ce qui fait débat
 

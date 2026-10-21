@@ -71,6 +71,19 @@ source: Comptes rendus de 20 Minutes, ICI (France Bleu), franceinfo et Sud Radio
 
 [Fait établi] Sa compagne, sœur de l'une des victimes, a été condamnée à trois ans d'emprisonnement, dont un avec sursis probatoire, avec mandat de dépôt, pour atteinte à l'intégrité de cadavres (recel de cadavres selon franceinfo) et modification de la scène de crime ; l'altération du discernement n'a pas été retenue pour elle [1][2][6]. Les avocats généraux avaient requis contre elle la peine maximale, trois ans ferme [13].
 
+[Figure] tableau
+titre: De la mise en examen au verdict : qualifications et peines
+colonnes: Étape | Le principal accusé | Sa compagne
+donnees:
+- Mise en examen, 6 mars 2017 | Assassinats et atteinte à l'intégrité d'un cadavre [7][9][10] | Modification de l'état des lieux d'un crime et recel de cadavres [7][9][10]
+- Renvoi devant la cour d'assises | Meurtre précédé, accompagné ou suivi d'un autre crime, et atteinte à l'intégrité de cadavres [10] | Non précisé dans les sources consultées
+- Réquisitions | Réclusion criminelle à perpétuité, avec 22 ans de sûreté [2][5] | Trois ans ferme, la peine maximale [13]
+- Verdict, 7 juillet 2021 | 30 ans de réclusion ; altération du discernement retenue ; sûreté légale de 15 ans [2][3] | Trois ans d'emprisonnement, dont un avec sursis probatoire ; altération non retenue [1][2][6]
+- Après le verdict | Pas d'appel pénal ; appel du volet civil annoncé le 20 juillet 2021 [3][4] | Non précisé dans les sources consultées
+source: Comptes rendus de Sud Radio [7], 20 Minutes [9], ICI (France Bleu) [2][3][4][5][6][10], franceinfo [1] et AFP [13] (sources secondaires)
+lecture: Mis en examen pour assassinats, le principal accusé a été renvoyé et condamné pour meurtres, qualification sans préméditation ; la peine prononcée est inférieure aux réquisitions.
+note: Ni l'ordonnance de mise en accusation ni l'arrêt de la cour d'assises n'ont été consultés : les qualifications sont celles que rapporte la presse.
+
 ## Ce que l'enquête a établi : éléments matériels
 
 [Élément matériel] Au domicile, les enquêteurs relèvent des traces de sang, en partie nettoyées, dans plusieurs pièces. Les analyses identifient le sang du père, de la mère et du fils ; celui de la fille n'est pas identifié à ce stade [9][10].
@@ -98,6 +111,18 @@ source: Comptes rendus de 20 Minutes, ICI (France Bleu), franceinfo et Sud Radio
 [Fait établi] L'accusé était convaincu que son beau-frère avait subtilisé un trésor de lingots d'or découvert à Brest ; franceinfo le qualifie de « trésor imaginaire », et son existence n'a jamais été établie [1].
 
 [Fait établi] Les enquêteurs ont analysé les comptes du couple tué, et les juges d'instruction ont lancé des commissions rogatoires internationales, notamment à Andorre, à Monaco et en Suisse : aucune trace de compte caché ni de rentrée d'argent soudaine n'a été trouvée, et personne dans la famille n'a dit avoir vu de lingot [11]. Le conflit avait éclaté lors d'un déjeuner familial en juillet 2014 [11].
+
+[Figure] tableau
+titre: Les déclarations de l'accusé et les éléments de l'enquête
+colonnes: Point | Déclarations de l'accusé | Éléments de l'enquête et expertises
+donnees:
+- Circonstances | Il dit avoir été « assailli » par le père, armé d'un pied-de-biche, et s'être défendu [1][8][10] | Selon France 3, les projections de sang indiqueraient que les enfants ont été tués dans leur sommeil [12]
+- Préméditation | Il la conteste depuis son interpellation [1][8] | L'enquête n'a pas permis de la retenir, selon ICI (France Bleu) [10]
+- Contacts avec la famille | Il avait déclaré aux policiers ne plus en avoir [9][10] | Son ADN est relevé sur un verre de la cuisine et dans la voiture du fils [9][10]
+- Le « trésor » | Il était convaincu que son beau-frère s'était approprié des lingots d'or [1] | Aucun compte caché ni aucune rentrée d'argent soudaine n'ont été trouvés [11]
+source: franceinfo [1][11], ICI (France Bleu) [10], 20 Minutes [9], France 3 [12] (sources secondaires)
+lecture: La préméditation, contestée par l'accusé, n'a pas été retenue ; ses autres déclarations ont été confrontées à des éléments matériels et à des expertises qui ne les confirment pas.
+note: Le déroulement exact des faits n'a pas été établi : l'avocat général a déclaré à l'audience qu'on ne savait « même pas de quoi ils sont morts » [5]. Une expertise éclaire la cour sans la lier.
 
 ## Les expertises psychiatriques
 

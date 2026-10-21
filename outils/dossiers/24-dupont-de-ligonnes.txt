@@ -90,6 +90,17 @@ source: Presse (AFP, ICI, RTL, La Libre Belgique) et déclarations du parquet de
 
 [Interprétation] Ces thèses n'ont pas le même poids : l'identification des victimes repose sur des autopsies et des analyses ADN, quand la thèse de l'exfiltration ne s'appuie sur aucun élément vérifié publié [3]. Entre fuite et décès, en revanche, aucune source publiée ne permet de trancher.
 
+[Figure] tableau
+titre: Les thèses sur le sort du disparu : appuis et limites
+colonnes: Thèse | Sur quoi elle s'appuie | Sa limite
+donnees:
+- Suicide peu après la disparition | Aucune trace certaine depuis le 15 avril 2011 ; terrain proche de l'hôtel pas entièrement exploré [5] | Aucun corps retrouvé malgré plusieurs fouilles dans le Var [3]
+- Fuite durable à l'étranger | Sa connaissance des États-Unis ; des signalements, dont celui du Texas en 2026 [3][4] | Aucun signalement vérifié depuis 2011 n'a établi de trace certaine [2][3]
+- Exfiltration de toute la famille vers les États-Unis | Livre de sa sœur, publié en mars 2024 [3] | Victimes identifiées par autopsies et ADN ; « rien ne permet de donner judiciairement du crédit » à cette version, selon le procureur [3]
+source: ICI Loire Océan, 27 mars 2026 [3] ; AFP via La DH, 3 avril 2021 [5] ; RTL [2] ; Actu Forces de l'ordre [4] (source secondaire)
+lecture: Aucune de ces thèses n'est établie ; la troisième se heurte à l'identification des victimes, et aucune source publiée ne permet de trancher entre les deux premières.
+note: Le disparu n'a jamais été jugé et reste présumé innocent [1][3].
+
 ## Les pistes et les signalements
 
 [Fait établi] En juin 2026, le procureur de la République de Nantes indiquait que les « extrêmement nombreuses informations » reçues depuis quinze ans avaient été vérifiées, « jusqu'ici sans succès » [2]. RTL évalue à plus de 1 850 le nombre de signalements examinés depuis 2011 [2]. En 2016, selon une source proche du dossier citée par ICI, les enquêteurs recevaient en moyenne un signalement de ce type par semaine [3].
@@ -105,6 +116,21 @@ source: Presse (AFP, ICI, RTL, La Libre Belgique) et déclarations du parquet de
 [Allégation] Le 24 mars 2026, le bureau du shérif du comté de Brewster, au Texas, a diffusé un appel à témoins évoquant une possible observation en 2020, avant de préciser qu'il ne disposait d'aucun nouvel élément de preuve. Le procureur de Nantes a déclaré que ni le juge d'instruction, ni le parquet, ni les enquêteurs n'avaient été informés de cette diffusion [3]. Aucun élément publié ne confirme cette observation.
 
 [À noter] Depuis 2011, de nombreuses pistes présentées comme sérieuses se sont révélées fausses, dont l'interpellation à tort d'un homme à Glasgow en 2019 [3]. Une « piste » relayée par les médias ou les réseaux sociaux n'est pas un fait établi.
+
+[Figure] tableau
+titre: Pistes vérifiées depuis 2011 et résultat des vérifications
+colonnes: Piste | Vérification | Résultat
+donnees:
+- Client d'un hôtel de Dieppe, 2013 | Comparaison ADN | Ne correspond pas [3]
+- Ossements trouvés près de Fréjus, 2015 | Comparaison ADN | Ne correspondent pas [3]
+- Lettre « Je suis encore vivant », juillet 2015 | Expertise de la police judiciaire | « Très peu de probabilités » qu'il en soit l'auteur [3]
+- Homme interpellé dans l'Allier, 2016 | Non précisée dans les sources | Un sosie [3]
+- Homme interpellé à Glasgow, octobre 2019 | Empreintes annoncées comme concordantes, puis test ADN | Mis hors de cause le lendemain [3][7]
+- Appel à témoins du Texas, mars 2026 | Diffusé sans information du juge ni du parquet [3] | Aucun nouvel élément de preuve, selon le shérif lui-même [3]
+- Compte de forum « Epsilon », juin 2026 | Vérifications annoncées par le parquet de Nantes [2] | Aucun résultat publié au 13 octobre 2026
+source: ICI Loire Océan, 27 mars 2026 [3] ; RTL, juin 2026 [2] ; AFP via La Libre Belgique, octobre 2019 [7]
+lecture: Aucune des pistes vérifiées n'a permis d'établir une trace certaine du disparu ; le résultat des vérifications annoncées en juin 2026 n'est pas publié.
+note: Sélection des pistes citées dans ce dossier ; RTL évalue à plus de 1 850 les signalements examinés depuis 2011 [2]. Les personnes interpellées à tort ne sont pas nommées.
 
 ## Ce qu'on ne sait pas
 - **Où se trouve le suspect, et s'il est vivant.**

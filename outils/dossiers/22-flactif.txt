@@ -43,6 +43,18 @@ corrections: Le 13 octobre 2026, ajout de la demande de libération conditionnel
 
 [Fait établi] Condamné à perpétuité avec 22 ans de sûreté et détenu depuis septembre 2003, il pouvait demander un aménagement de peine à partir de septembre 2025 selon ICI (France Bleu) ; franceinfo écrit qu'il le pouvait « en 2026 » [2][3]. Sa demande, déposée en septembre 2025, suppose une évaluation de dangerosité préalable par le Centre national d'évaluation [3].
 
+[Figure] etapes
+titre: Où en est la demande de libération conditionnelle
+donnees:
+- Fin de la période de sûreté | Détenu depuis septembre 2003, il peut demander un aménagement de peine à partir de septembre 2025 selon ICI, « en 2026 » selon franceinfo [2][3]. | Fait établi
+- Dépôt de la requête | 12 septembre 2025 : demande de libération conditionnelle avec placement extérieur probatoire [3]. | Procédure
+- Expertise et évaluation de dangerosité | Obligatoires, par le Centre national d'évaluation, avant tout examen de la demande [3]. | Procédure
+- Audience du tribunal de l'application des peines | Aucune date fixée au 3 mars 2026, selon le parquet de Nancy [3]. | Procédure
+- Décision | Aucune décision publiée trouvée au 21 octobre 2026. | Non connu
+source: Parquet de Nancy, cité par franceinfo, 3 mars 2026 [3] ; ICI (France Bleu) [2] (sources secondaires)
+lecture: La demande a été déposée en septembre 2025 ; son examen par le tribunal suppose d'abord une expertise et une évaluation de dangerosité.
+note: Les étapes 3 et 4 sont celles que décrit le parquet de Nancy [3] ; leur avancement réel depuis mars 2026 n'est pas connu.
+
 ## La chronologie
 
 [Figure] frise
@@ -71,6 +83,16 @@ source: Gendarmerie nationale, presse (JDD, AFP, ICI, franceinfo) ; voir les sou
 
 [À noter] Les sources ne concordent pas toutes. La page de la gendarmerie, qui reprend un récit du site Les Jours, indique une « peine de sûreté de dix ans » et des peines de sept à dix ans pour le couple d'amis [5] ; les comptes rendus d'audience et les dépêches retiennent 22 ans de sûreté et 15, 10 et 7 ans pour les trois coaccusés [1][2][3][8]. Nous retenons ces derniers chiffres, concordants entre plusieurs médias.
 
+[Figure] tableau
+titre: Peines et qualification : ce que disent les sources
+colonnes: Point | Comptes rendus d'audience et dépêches | Page de la gendarmerie | Ce que retient ce dossier
+donnees:
+- Période de sûreté | 22 ans [1][2][3][8] | Dix ans [5] | 22 ans, chiffre concordant entre plusieurs médias
+- Peines des trois coaccusés | 15, 10 et 7 ans [1][2] | Sept à dix ans pour le couple d'amis [5] | 15, 10 et 7 ans
+- Qualification retenue | « Assassinat » pour L'Express ; « assassinat » puis « meurtres » pour l'AFP [4][8] | Non utilisée sur ce point | Non vérifiée : l'arrêt n'a pas été consulté
+source: France 3 [1], ICI (France Bleu) [2], franceinfo [3], L'Express [4], AFP [8] (sources secondaires) ; Gendarmerie nationale, page « Grandes affaires criminelles » [5]
+lecture: Les comptes rendus d'audience et les dépêches concordent sur 22 ans de sûreté et sur des peines de 15, 10 et 7 ans ; la page de la gendarmerie, qui reprend un récit du site Les Jours, donne d'autres chiffres.
+
 [Interprétation] La haine et la jalousie à l'égard de la réussite de la famille sont présentées comme le mobile dans des comptes rendus de presse, avec réserve (« animé semble-t-il par la haine et la jalousie ») [2]. La gendarmerie évoque « la cupidité, la jalousie et la haine envers une famille mal-aimée » [5]. Le mobile retenu exactement par la cour n'a pas été vérifié dans l'arrêt.
 
 ## Ce que l'enquête a établi
@@ -94,6 +116,16 @@ source: Gendarmerie nationale, presse (JDD, AFP, ICI, franceinfo) ; voir les sou
 [Témoignage] Au procès, le fils aîné de la mère de famille, qui devait arriver au chalet le jour des faits, interpelle l'accusé : « S'il y avait deux personnes avec vous, j'aimerais bien savoir qui c'est. » L'accusé répond : « Non, je ne peux rien vous dire », puis : « Mettez-moi tout sur le dos, au moins vous aurez un coupable » [9].
 
 [Interprétation] La cour d'assises a condamné l'accusé comme seul auteur des meurtres et ses coaccusés pour complicité, selon la presse [1][2]. L'hypothèse d'autres intervenants, que l'accusé a laissé entendre sans l'étayer, n'a pas été retenue par la justice [2][9].
+
+[Figure] tableau
+titre: La version de l'accusé et ce qu'en disent les expertises
+colonnes: Point | Déclarations de l'accusé | Expertises et décision
+donnees:
+- Ordre des faits | Le père tué d'abord, d'un coup de feu accidentel, puis la mère et les enfants, pour supprimer les témoins [5] | Les enfants tués en premier, la mère à son retour au chalet, le père en dernier, selon la gendarmerie [5]
+- Autres intervenants | Il laisse entendre à l'audience qu'il y en aurait eu, sans l'étayer [9] | Hypothèse non retenue par la justice, selon la presse [2][9]
+source: Gendarmerie nationale, « Grandes affaires criminelles » [5] ; ICI (France Bleu) [2] et Le Parisien [9] (sources secondaires)
+lecture: Les expertises citées par la gendarmerie ne confirment pas la version donnée par l'accusé lors de ses aveux ; il a refusé de s'expliquer au procès.
+note: L'arrêt n'a pas été consulté : le déroulement retenu par la cour n'est connu que par la presse et par la gendarmerie. L'ordre des faits est une reconstitution d'expertise.
 
 [Témoignage] Après le désistement d'appel, les parties civiles y ont vu « un aveu » ; la mère de Graziella Ortolano a déclaré : « on ne connaît toujours pas la vérité » [7]. L'accusé a accepté la peine sans préciser s'il se reconnaissait l'auteur des faits [7].
 

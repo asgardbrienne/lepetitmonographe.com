@@ -34,3 +34,40 @@ Pas de correction factuelle : `corrections` et `verifie` inchangés.
 ## Verdict
 
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode RÉNOVATION (narration visuelle). Chaque visuel ne reprend que des éléments déjà présents et sourcés dans le texte du dossier, avec les mêmes appels de note ; aucune donnée nouvelle n'a été ajoutée au texte. Rendu non testé (generer.py non lancé, conformément à la consigne) ; lecture du bloc vérifiée avec figures.lire et figures.rendre, contrôle verifier_dossier.py OK.
+
+### V01 : Le procès de 1996 et les règles adoptées depuis
+
+- EMPLACEMENT : fin de « La procédure de 1996 expliquée ».
+- QUESTION POUR LE LECTEUR : Pourquoi le verdict de 1996 n'a-t-il ni appel ni motivation ?
+- TYPE : tableau comparatif (Règle | En 1996 | Depuis les réformes), 2 lignes.
+- INFORMATION MONTRÉE ET APPELS DE NOTE : Le verdict de 1996 ne pouvait pas être rejugé en appel et n'était pas motivé : aucun document n'explique quels arguments la cour a retenus. Appels : [12].
+- LIMITE : Ces réformes générales ne s'appliquaient pas à ce procès [12]. Nous n'avons pas trouvé de source indiquant si un pourvoi a été formé.
+- ALTERNATIVE TEXTUELLE : schéma rendu en HTML (liste ou tableau), lisible par les lecteurs d'écran ; pas d'image.
+- TEST MOBILE : à faire après génération.
+- STATUT : données vérifiées dans le texte du dossier (pas de nouvelle source consultée).
+
+### V02 : Ce que soutenaient l'accusation, la défense et les experts en 1996
+
+- EMPLACEMENT : fin de « Accusation, défense, expertises ».
+- QUESTION POUR LE LECTEUR : Sur quoi portait le débat du procès, puisque les faits n'étaient pas contestés ?
+- TYPE : tableau comparatif (Acteur | Position rapportée | Sur quoi elle s'appuie), 5 lignes.
+- INFORMATION MONTRÉE ET APPELS DE NOTE : Les faits n'étaient pas contestés ; le débat portait sur la préméditation, la sincérité de la tentative de suicide et la responsabilité pénale. Appels : [2][5][6][8][12].
+- LIMITE : Positions résumées à partir de comptes rendus de presse ; l'arrêt et les rapports d'expertise n'ont pas été consultés.
+- ALTERNATIVE TEXTUELLE : schéma rendu en HTML (liste ou tableau), lisible par les lecteurs d'écran ; pas d'image.
+- TEST MOBILE : à faire après génération.
+- STATUT : données vérifiées dans le texte du dossier (pas de nouvelle source consultée).
+
+### V03 : Libération conditionnelle d'un condamné à perpétuité : avant et après la loi du 23 mars 2019
+
+- EMPLACEMENT : « Comment un condamné à perpétuité peut être libéré », après le premier paragraphe.
+- QUESTION POUR LE LECTEUR : Quelles étapes précèdent la libération conditionnelle d'un condamné à perpétuité, et qu'a changé la loi de 2019 ?
+- TYPE : tableau comparatif (Étape | Régime des lois de 2008 et 2011 | Depuis la loi du 23 mars 2019), 3 lignes.
+- INFORMATION MONTRÉE ET APPELS DE NOTE : La loi du 23 mars 2019 a supprimé l'avis de la commission pluridisciplinaire, mais maintenu l'évaluation de dangerosité avant toute libération conditionnelle. Appels : [11].
+- LIMITE : Les sources consultées ne disent pas quelle version de la procédure a été appliquée à la demande déposée en septembre 2018 [2][11]. En appel, c'est la chambre de l'application des peines qui statue [1].
+- ALTERNATIVE TEXTUELLE : schéma rendu en HTML (liste ou tableau), lisible par les lecteurs d'écran ; pas d'image.
+- TEST MOBILE : à faire après génération.
+- STATUT : données vérifiées dans le texte du dossier (pas de nouvelle source consultée).

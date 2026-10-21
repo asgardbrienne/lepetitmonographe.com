@@ -38,9 +38,34 @@ corrections: Les mises en examen de 2017 visaient trois personnes et non trois m
 
 [Fait établi] Depuis, le dossier relève de la chambre de l'instruction de Dijon. Elle l'a rouvert à plusieurs reprises à la demande des parents ou du parquet général : en 2000 pour des analyses ADN sur le timbre d'une lettre, sans résultat, puis le 3 décembre 2008 [1][17][18]. En 2025, c'est le président de la chambre de l'instruction qui dirige l'enquête et qui a prononcé la mise en examen d'octobre 2025 [16]. En 2018, l'annulation des mises en examen de 2017 tenait précisément à cette organisation particulière : elles avaient été décidées par la seule présidente, alors que le code exigeait une décision collégiale [3].
 
+[Figure] etapes
+titre: Qui a conduit l'instruction depuis 1984
+donnees:
+- 1984 à 1986, Épinal | Un juge d'instruction, sous le contrôle de la chambre d'accusation de Nancy ; il est dessaisi en septembre 1986 [1][17][18]. | Procédure
+- Mars 1987, dépaysement | La Cour de cassation annule le renvoi de la mère devant la cour d'assises ; le dossier part à Dijon [17][18]. | Décision de justice
+- 1987 à 1993, Dijon | Un magistrat de Dijon instruit, remplacé en 1990 ; non-lieu en faveur de la mère le 3 février 1993 [17][18]. | Procédure
+- Après 1993, chambre de l'instruction de Dijon | Réouvertures en 2000 et le 3 décembre 2008, à la demande des parents ou du parquet général [1][17][18]. | Procédure
+- 2025, président de la chambre de l'instruction | Il dirige l'enquête et prononce la mise en examen d'octobre 2025 [16]. | Procédure
+source: ICI [17], Lyon Capitale [18], Le Club des juristes [16] et Wikipédia [1] (sources secondaires)
+lecture: L'instruction a été conduite successivement par un juge d'Épinal, par un magistrat de Dijon après le dépaysement de 1987, puis par la chambre de l'instruction de Dijon.
+note: Schéma simplifié : il ne montre pas les juridictions saisies d'autres volets, comme la cour d'assises de la Côte-d'Or en 1993 ou la chambre de l'instruction de Paris en 2020 [1][13].
+
 [Fait établi] La prescription explique la décision du 15 juillet 2026. Selon le parquet général, cité par l'AFP, la qualification d'association de malfaiteurs retenue en 2025 était « de nature délictuelle » et le délai de prescription de ce délit était de trois ans au moment des faits [15]. Le procureur général avait expliqué dès novembre 2025 qu'il existait dans la procédure « un trou » sans acte interruptif entre 1993 et 2000, et qu'une prescription criminelle ne pourrait s'appliquer que si l'association de malfaiteurs était jugée connexe aux crimes [16].
 
 [Débat] Sur cette connexité, des universitaires cités par Le Club des juristes rappelaient une jurisprudence ancienne de la Cour de cassation admettant un lien entre une association de malfaiteurs et les crimes commis en exécution de l'entente ; la défense soutenait au contraire que les faits étaient prescrits [16]. La chambre de l'instruction a donné raison à la défense, avec l'accord du parquet général [15]. Selon l'avocat des parents, les crimes d'enlèvement et d'assassinat ne sont pas couverts par cette décision de prescription [15].
+
+[Figure] arbre
+titre: La question tranchée le 15 juillet 2026 : l'association de malfaiteurs était-elle prescrite ?
+donnees:
+- Mise en examen du 24 octobre 2025 pour association de malfaiteurs, pour des faits de 1982 à 1984 [8]
+  - Si l'infraction est un délit : prescription de trois ans au moment des faits, et aucun acte interruptif entre 1993 et 2000, selon le parquet général [15][16]
+    - Thèse de la défense, rejointe par le parquet général et retenue le 15 juillet 2026 : faits prescrits [2][15]
+  - Si elle est connexe aux crimes : une prescription criminelle pourrait s'appliquer [16]
+    - Appui invoqué : une jurisprudence ancienne de la Cour de cassation, citée par des universitaires ; thèse non retenue [15][16]
+- Hors de cette décision : l'enlèvement et l'assassinat de l'enfant, que l'avocat des parents dit non couverts par la prescription [15]
+source: France 3 avec AFP [2], ICI [12], Le Temps avec AFP [15], Le Club des juristes [16], franceinfo [8]
+lecture: La chambre de l'instruction a jugé les faits prescrits, ce qui ne dit rien de leur réalité ; l'information judiciaire reste ouverte pour la mort de l'enfant.
+note: Raisonnement rapporté par la presse, le parquet général et les avocats ; le texte de la décision n'a pas été consulté. La personne mise en examen n'a jamais été jugée et reste présumée innocente.
 
 [État de la procédure] Les parents ont décidé de ne pas se pourvoir en cassation contre la décision du 15 juillet 2026, afin de ne pas « rallonger la procédure », selon leur avocat [15]. Ils attendent les résultats d'expertises génétiques et stylométriques en cours [12][15].
 
@@ -108,6 +133,19 @@ Les défaillances des premiers mois de l'enquête sont reconnues par de nombreux
 [Expertise] Des expertises vocales réalisées au début de l'enquête avaient retenu plusieurs voix possibles sans identifier l'auteur, puis avaient été annulées pour irrégularités de forme ; une autre expertise de 1985 avait conclu à une femme déguisant sa voix [9]. En octobre 2010, la cour d'appel de Dijon a accepté que les enregistrements soient comparés aux voix des protagonistes recueillies à l'époque par les journalistes ; la mauvaise qualité des enregistrements limite la portée de l'exercice [9]. En mars 2024, la chambre de l'instruction de Dijon a ordonné, à la demande des parents, de nouvelles comparaisons génétiques et une étude de faisabilité d'expertises vocales sur ces enregistrements [10]. En janvier 2026, le procureur général indiquait que les analyses ADN n'avaient pas apporté de nouvel élément [11]. Nous n'avons trouvé, au 13 octobre 2026, aucune publication établissant qu'une expertise aurait identifié la voix du corbeau.
 
 [À noter] Selon un spécialiste cité, il n'existe pas d'« empreinte vocale » comparable à une empreinte digitale : même avec de bons enregistrements, l'identification certaine d'une voix est impossible [9].
+
+[Figure] tableau
+titre: Les expertises sur le « corbeau » et leur statut
+colonnes: Expertise | Ce qu'en rapportent les sources | Statut au 13 octobre 2026
+donnees:
+- Expertises vocales du début de l'enquête | Plusieurs voix possibles, sans auteur identifié [9] | Annulées pour irrégularités de forme [9]
+- Expertise vocale de 1985 | Une femme déguisant sa voix [9] | Aucun auteur identifié [9]
+- Stylométrie versée au dossier en 2021 | Les lettres viendraient de cinq auteurs différents [14] | Rapport non publié [14]
+- Analyses en écriture et en stylométrie | Désignent la grand-tante comme autrice possible de plusieurs lettres, selon la presse [4][8] | Contestées par sa défense ; contre-expertise confiée en janvier 2026, sans résultat publié [11][12]
+- Comparaisons génétiques ordonnées en mars 2024 | Pas de nouvel élément, selon le procureur général en janvier 2026 [10][11] | Étude de faisabilité d'expertises vocales ordonnée en même temps [10]
+source: Police-Scientifique.com [9], La Libre Belgique avec AFP [14], INA [4], franceinfo [8][10][11], ICI [12]
+lecture: Aucune de ces expertises ne vaut jugement : aucune décision de justice n'a établi qui était le corbeau, et la grand-tante, jamais jugée, reste présumée innocente.
+note: Une expertise est une opinion technique, que peut discuter une contre-expertise. Selon un spécialiste cité, il n'existe pas d'« empreinte vocale » comparable à une empreinte digitale [9].
 
 [État de la procédure] Le 15 juillet 2026, les faits d'association de malfaiteurs reprochés à la grand-tante ont été déclarés prescrits [2][12]. Sauf décision contraire d'une juridiction supérieure, aucune juridiction ne jugera donc ces faits la concernant. Elle n'a jamais été jugée ni condamnée et reste présumée innocente.
 

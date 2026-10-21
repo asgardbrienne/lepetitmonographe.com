@@ -31,3 +31,29 @@ Aucun bloquant.
 ## Verdict
 
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode RÉNOVATION (narration visuelle). Chaque visuel ne reprend que des éléments déjà présents et sourcés dans le texte du dossier, avec les mêmes appels de note ; aucune donnée nouvelle n'a été ajoutée au texte. Rendu non testé (generer.py non lancé, conformément à la consigne) ; lecture du bloc vérifiée avec figures.lire et figures.rendre, contrôle verifier_dossier.py OK.
+
+### V01 : Les thèses sur le sort du disparu : appuis et limites
+
+- EMPLACEMENT : fin de « Les thèses en présence ».
+- QUESTION POUR LE LECTEUR : Sur quoi repose chaque thèse et quelle est sa limite ?
+- TYPE : tableau comparatif (Thèse | Sur quoi elle s'appuie | Sa limite), 3 lignes.
+- INFORMATION MONTRÉE ET APPELS DE NOTE : Aucune de ces thèses n'est établie ; la troisième se heurte à l'identification des victimes, et aucune source publiée ne permet de trancher entre les deux premières. Appels : [2][3][4][5].
+- LIMITE : Le disparu n'a jamais été jugé et reste présumé innocent [1][3].
+- ALTERNATIVE TEXTUELLE : schéma rendu en HTML (liste ou tableau), lisible par les lecteurs d'écran ; pas d'image.
+- TEST MOBILE : à faire après génération.
+- STATUT : données vérifiées dans le texte du dossier (pas de nouvelle source consultée).
+
+### V02 : Pistes vérifiées depuis 2011 et résultat des vérifications
+
+- EMPLACEMENT : fin de « Les pistes et les signalements ».
+- QUESTION POUR LE LECTEUR : Comment les pistes ont-elles été vérifiées et avec quel résultat ?
+- TYPE : tableau comparatif (Piste | Vérification | Résultat), 7 lignes.
+- INFORMATION MONTRÉE ET APPELS DE NOTE : Aucune des pistes vérifiées n'a permis d'établir une trace certaine du disparu ; le résultat des vérifications annoncées en juin 2026 n'est pas publié. Appels : [2][3][7].
+- LIMITE : Sélection des pistes citées dans ce dossier ; RTL évalue à plus de 1 850 les signalements examinés depuis 2011 [2]. Les personnes interpellées à tort ne sont pas nommées.
+- ALTERNATIVE TEXTUELLE : schéma rendu en HTML (liste ou tableau), lisible par les lecteurs d'écran ; pas d'image.
+- TEST MOBILE : à faire après génération.
+- STATUT : données vérifiées dans le texte du dossier (pas de nouvelle source consultée).

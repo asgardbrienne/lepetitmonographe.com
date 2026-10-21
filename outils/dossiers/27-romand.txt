@@ -71,6 +71,16 @@ source: Décisions et communiqués judiciaires rapportés par la presse ; voir l
 
 [Fait établi] Après quatre heures de délibéré, selon Europe 1, la cour prononce la réclusion criminelle à perpétuité assortie d'une période de sûreté de 22 ans, que le média présente comme « la peine maximum » [6].
 
+[Figure] tableau
+titre: Le procès de 1996 et les règles adoptées depuis
+colonnes: Règle | En 1996 | Depuis les réformes
+donnees:
+- Appel du verdict | Impossible ; seul un pourvoi en cassation, limité au contrôle du droit, était ouvert [12] | Depuis la loi du 15 juin 2000, une autre cour d'assises peut rejuger entièrement l'affaire [12]
+- Motivation de l'arrêt | La cour répondait par oui ou par non à une liste de questions [12] | Motivation imposée par une réforme de 2011 [12]
+source: Conseil constitutionnel, commentaire de la décision n° 2011-113/115 QPC du 1er avril 2011 [12]
+lecture: Le verdict de 1996 ne pouvait pas être rejugé en appel et n'était pas motivé : aucun document n'explique quels arguments la cour a retenus.
+note: Ces réformes générales ne s'appliquaient pas à ce procès [12]. Nous n'avons pas trouvé de source indiquant si un pourvoi a été formé.
+
 ## Accusation, défense, expertises
 
 [Débat] L'avocat général, Jean-Olivier Viout, soutenait la préméditation, en invoquant des achats préalables (somnifères, munitions, bombes lacrymogènes, bidons d'essence), et contestait la sincérité de la tentative de suicide finale, en relevant les précautions prises pour être secouru [6]. Dans son réquisitoire, il s'était exclamé : « C'est à devenir fou ! » [8]. La défense plaidait au contraire l'engrenage d'un homme pris au piège de ses mensonges ; la thèse du suicide sincère était aussi soutenue, selon Europe 1, par des experts psychiatres [6]. La cour a prononcé la peine la plus lourde, sans que l'on puisse, faute de motivation écrite, savoir précisément quels arguments elle a retenus [6][12].
@@ -80,6 +90,19 @@ source: Décisions et communiqués judiciaires rapportés par la presse ; voir l
 [Témoignage] Interrogé par la présidente de la cour sur ses raisons, il répond, selon le récit qu'en donne l'écrivain Emmanuel Carrère : « Je me suis posé tous les jours la question pendant vingt ans. Je n'ai pas de réponse » [8]. Cette déclaration de l'accusé n'est pas une explication établie par la justice.
 
 [Interprétation] Le procès a établi les faits et la responsabilité pénale ; il n'a pas fourni d'explication complète du passage à l'acte. Emmanuel Carrère, qui a assisté au procès et correspondu avec lui, en a tiré le livre L'Adversaire (2000), adapté au cinéma en 2002, sans avoir, selon Le Temps, réussi à « dénouer les fils de sa dérive mythomane » [5][8].
+
+[Figure] tableau
+titre: Ce que soutenaient l'accusation, la défense et les experts en 1996
+colonnes: Acteur | Position rapportée | Sur quoi elle s'appuie
+donnees:
+- Accusation | Préméditation ; tentative de suicide finale non sincère [6] | Achats préalables (somnifères, munitions, bombes lacrymogènes, bidons d'essence) ; précautions prises pour être secouru [6]
+- Défense | L'engrenage d'un homme pris au piège de ses mensonges ; suicide sincère [6] | Thèse du suicide sincère également soutenue par des experts psychiatres, selon Europe 1 [6]
+- Experts psychiatres | Responsable de ses actes, sans trouble atténuant sa responsabilité pénale [2][6] | Description d'un « mythomane atteint d'une pathologie narcissique » [2]
+- Accusé | Ne nie pas les faits ; dit ne pas avoir de réponse sur ses raisons [6][8] | Déclarations à l'audience, rapportées par Europe 1 et par Emmanuel Carrère [6][8]
+- Cour d'assises | Perpétuité avec 22 ans de sûreté [5][6] | Arrêt non motivé : les arguments retenus ne sont pas connus [6][12]
+source: Europe 1 [6], Le Quotidien du médecin [2], Slate [8], Le Temps [5] (sources secondaires) ; Conseil constitutionnel [12]
+lecture: Les faits n'étaient pas contestés ; le débat portait sur la préméditation, la sincérité de la tentative de suicide et la responsabilité pénale.
+note: Positions résumées à partir de comptes rendus de presse ; l'arrêt et les rapports d'expertise n'ont pas été consultés.
 
 ## L'exécution de la peine
 
@@ -94,6 +117,17 @@ source: Décisions et communiqués judiciaires rapportés par la presse ; voir l
 ## Comment un condamné à perpétuité peut être libéré
 
 [Fait établi] Selon une réponse du ministère de la Justice publiée le 21 mai 2019, les lois du 25 février 2008 et du 10 août 2011 ont rendu obligatoire, avant toute libération conditionnelle d'un condamné à la réclusion criminelle à perpétuité, l'avis d'une commission pluridisciplinaire des mesures de sûreté, qui devait faire placer le condamné au centre national d'évaluation pour une évaluation pluridisciplinaire de dangerosité assortie d'une expertise médicale. La loi du 23 mars 2019 a supprimé l'avis de la commission, jugé redondant : le tribunal de l'application des peines peut désormais statuer directement après l'évaluation, qui reste exigée [11].
+
+[Figure] tableau
+titre: Libération conditionnelle d'un condamné à perpétuité : avant et après la loi du 23 mars 2019
+colonnes: Étape | Régime des lois de 2008 et 2011 | Depuis la loi du 23 mars 2019
+donnees:
+- Évaluation pluridisciplinaire de dangerosité au Centre national d'évaluation, avec expertise médicale | Obligatoire [11] | Toujours exigée [11]
+- Avis de la commission pluridisciplinaire des mesures de sûreté | Obligatoire [11] | Supprimé, jugé redondant [11]
+- Décision du tribunal de l'application des peines | Après l'avis de la commission [11] | Directement après l'évaluation [11]
+source: Assemblée nationale, question écrite n° 19156 et réponse du ministère de la Justice, 21 mai 2019 [11]
+lecture: La loi du 23 mars 2019 a supprimé l'avis de la commission pluridisciplinaire, mais maintenu l'évaluation de dangerosité avant toute libération conditionnelle.
+note: Les sources consultées ne disent pas quelle version de la procédure a été appliquée à la demande déposée en septembre 2018 [2][11]. En appel, c'est la chambre de l'application des peines qui statue [1].
 
 [Fait établi] La même réponse rappelle que les juridictions de l'application des peines doivent prendre en considération les intérêts de la victime ou de la partie civile, et que l'avocat de la partie civile peut assister au débat contradictoire et présenter ses observations lorsque la demande concerne une longue peine [11]. Dans l'affaire Romand, les frères de l'épouse tuée étaient représentés lors de l'audience de janvier 2019 [9].
 

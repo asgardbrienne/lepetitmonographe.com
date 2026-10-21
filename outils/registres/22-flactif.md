@@ -37,3 +37,40 @@ Champs `corrections` et `verifie` mis à jour.
 ## Verdict
 
 Publiable après les corrections faites.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode RÉNOVATION (narration visuelle). Chaque visuel ne reprend que des éléments déjà présents et sourcés dans le texte du dossier, avec les mêmes appels de note ; aucune donnée nouvelle n'a été ajoutée au texte. Rendu non testé (generer.py non lancé, conformément à la consigne) ; lecture du bloc vérifiée avec figures.lire et figures.rendre, contrôle verifier_dossier.py OK.
+
+### V01 : Où en est la demande de libération conditionnelle
+
+- EMPLACEMENT : fin de « La procédure expliquée ».
+- QUESTION POUR LE LECTEUR : Par quelles étapes passe la demande de 2025 et où en est-elle ?
+- TYPE : schéma en étapes, 5 lignes.
+- INFORMATION MONTRÉE ET APPELS DE NOTE : La demande a été déposée en septembre 2025 ; son examen par le tribunal suppose d'abord une expertise et une évaluation de dangerosité. Appels : [2][3].
+- LIMITE : Les étapes 3 et 4 sont celles que décrit le parquet de Nancy [3] ; leur avancement réel depuis mars 2026 n'est pas connu.
+- ALTERNATIVE TEXTUELLE : schéma rendu en HTML (liste ou tableau), lisible par les lecteurs d'écran ; pas d'image.
+- TEST MOBILE : à faire après génération.
+- STATUT : données vérifiées dans le texte du dossier (pas de nouvelle source consultée).
+
+### V02 : Peines et qualification : ce que disent les sources
+
+- EMPLACEMENT : après l'encadré « Les sources ne concordent pas toutes ».
+- QUESTION POUR LE LECTEUR : Pourquoi le dossier retient 22 ans de sûreté et 15, 10 et 7 ans pour les coaccusés ?
+- TYPE : tableau comparatif (Point | Comptes rendus d'audience et dépêches | Page de la gendarmerie | Ce que retient ce dossier), 3 lignes.
+- INFORMATION MONTRÉE ET APPELS DE NOTE : Les comptes rendus d'audience et les dépêches concordent sur 22 ans de sûreté et sur des peines de 15, 10 et 7 ans ; la page de la gendarmerie, qui reprend un récit du site Les Jours, donne d'autres chiffres. Appels : [1][2][3][4][5][8].
+- LIMITE : Schéma limité aux éléments cités dans le dossier.
+- ALTERNATIVE TEXTUELLE : schéma rendu en HTML (liste ou tableau), lisible par les lecteurs d'écran ; pas d'image.
+- TEST MOBILE : à faire après génération.
+- STATUT : données vérifiées dans le texte du dossier (pas de nouvelle source consultée).
+
+### V03 : La version de l'accusé et ce qu'en disent les expertises
+
+- EMPLACEMENT : « Versions de l'accusé et expertises », après l'interprétation sur le seul auteur.
+- QUESTION POUR LE LECTEUR : En quoi la version des aveux diffère-t-elle de la reconstitution des experts ?
+- TYPE : tableau comparatif (Point | Déclarations de l'accusé | Expertises et décision), 2 lignes.
+- INFORMATION MONTRÉE ET APPELS DE NOTE : Les expertises citées par la gendarmerie ne confirment pas la version donnée par l'accusé lors de ses aveux ; il a refusé de s'expliquer au procès. Appels : [2][5][9].
+- LIMITE : L'arrêt n'a pas été consulté : le déroulement retenu par la cour n'est connu que par la presse et par la gendarmerie. L'ordre des faits est une reconstitution d'expertise.
+- ALTERNATIVE TEXTUELLE : schéma rendu en HTML (liste ou tableau), lisible par les lecteurs d'écran ; pas d'image.
+- TEST MOBILE : à faire après génération.
+- STATUT : données vérifiées dans le texte du dossier (pas de nouvelle source consultée).

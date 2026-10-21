@@ -39,6 +39,19 @@ corrections: Le procès en appel de 2018 avait aussi condamné le compagnon à v
 
 [Fait établi] La Cour de cassation, saisie d'un pourvoi, ne réexamine pas les faits : elle contrôle l'application du droit [15]. Lorsqu'elle annule un arrêt de cour d'assises, l'affaire est renvoyée devant une autre cour d'assises, qui la rejuge entièrement, comme ce fut le cas en 2019 avec le renvoi devant la cour d'assises du Rhône [4][6].
 
+[Figure] tableau
+titre: Trois cours d'assises et deux décisions de la Cour de cassation
+colonnes: Juridiction et date | Rôle | La mère | Son compagnon
+donnees:
+- Cour d'assises du Puy-de-Dôme, novembre 2016 | Premier jugement ; appel du parquet [3][5][7] | Acquittée des violences mortelles ; cinq ans pour quatre délits [1][3] | Vingt ans de réclusion [1][3]
+- Cour d'assises de la Haute-Loire, février 2018 | Appel : une autre cour d'assises rejuge toute l'affaire [3][9][11] | Vingt ans de réclusion [3][9] | Vingt ans de réclusion [3][9]
+- Cour de cassation, 20 février 2019 | Contrôle du droit, sans réexamen des faits [4][15] | Arrêt de 2018 annulé, faute de motivation du rejet d'une demande de renvoi [4] | Affaire renvoyée avec celle de la mère devant la cour d'assises du Rhône [4]
+- Cour d'assises du Rhône, décembre 2020 | Cour de renvoi : nouveau jugement complet [2][4][6] | Vingt ans de réclusion [2] | Dix-huit ans de réclusion [2]
+- Cour de cassation, 16 février 2022 | Examen du pourvoi de la mère [3][8] | Pourvoi non admis : condamnation définitive [3][8] | Définitive selon Ouest-France ; existence d'un pourvoi non documentée [8]
+source: ICI [2], Zoomdici [3], Europe 1 avec AFP [4], Lyon Capitale [5][9], Tendance Ouest avec AFP [6], 20 Minutes [7], Ouest-France [8], Wikipédia [1] (sources secondaires) ; Conseil constitutionnel [11] ; data.gouv.fr [15]
+lecture: La mère, acquittée des violences mortelles en 2016, a été condamnée pour ces faits par les deux cours d'assises suivantes ; seule la décision de 2020 est devenue définitive.
+note: Qualification retenue à Lyon : violences volontaires ayant entraîné la mort [2]. Les feuilles de motivation n'ont pas été consultées ; la session interrompue d'octobre 2017 n'est pas représentée.
+
 ## Chronologie détaillée
 
 [Figure] frise
@@ -88,6 +101,18 @@ source: Décisions judiciaires rapportées par la presse ; voir les sources du d
 [Élément matériel] Aucun élément matériel décisif sur le lieu de la sépulture n'a été produit : selon l'ancien directeur régional de la police judiciaire de Clermont-Ferrand, entendu en 2020, les recherches ont couvert un espace de 300 kilomètres carrés, avec des équipes cynophiles et des militaires, sans retrouver le corps [7]. Les deux accusés ont dit l'avoir enterré près du lac d'Aydat, sans pouvoir localiser l'endroit [13][14].
 
 [Interprétation] Après le verdict de 2018, le président de la cour d'assises de la Haute-Loire avait résumé la difficulté du dossier : « Les mensonges, les incohérences, la variabilité n'ont pas permis d'appréhender le contexte exact du décès » [9]. Les condamnations reposent donc sur l'appréciation globale des déclarations et des circonstances par trois cours d'assises successives, qui en ont tiré des conclusions différentes pour la mère.
+
+[Figure] tableau
+titre: Ce qui est jugé, reconnu, déclaré ou inconnu
+colonnes: Niveau d'information | Ce qu'il recouvre
+donnees:
+- Décision de justice définitive | La mère et son ancien compagnon sont coupables de violences volontaires ayant entraîné la mort de l'enfant : vingt et dix-huit ans de réclusion [2][8]
+- Reconnu par les deux intéressés en septembre 2013 | La disparition dans le parc était un mensonge ; l'enfant était morte et son corps a été dissimulé [5][7][13]
+- Déclarations divergentes | Chacun a donné une version différente de la cause de la mort ; ces versions ont varié [5][7]
+- Non établi | La cause médicale du décès, faute d'autopsie, le lieu où se trouve le corps et le « contexte exact du décès » [1][7][9]
+source: ICI [2], Ouest-France [8], Lyon Capitale [5][9], 20 Minutes [7], DH avec AFP [13], Wikipédia [1] (sources secondaires)
+lecture: Les condamnations sont définitives, mais elles n'ont établi ni la cause médicale de la mort ni le lieu où se trouve le corps.
+note: Les déclarations des accusés, contradictoires et variables, ne constituent pas à elles seules une preuve des faits [5][7].
 
 ## Ce qui reste incertain
 
