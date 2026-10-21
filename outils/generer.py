@@ -1277,4 +1277,4 @@ with open(os.path.join(OUT, "flux.xml"), "w", encoding="utf-8") as _x:
                  f"    <description>{_html.escape(_texte_brut(_i['resume']))}</description>\n  </item>\n")
     _x.write("</channel>\n</rss>\n")
 with open(os.path.join(OUT, "robots.txt"), "w", encoding="utf-8") as _r:
-    _r.write("User-agent: *\nAllow: /\n\nSitemap: https://lepetitmonographe.com/sitemap.xml\n")
+    _r.write("User-agent: *\nAllow: /\nDisallow: /outils/\nDisallow: /CLAUDE.md\nDisallow: /README.md\n\nSitemap: https://lepetitmonographe.com/sitemap.xml\n")

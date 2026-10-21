@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /outils/
+Disallow: /CLAUDE.md
+Disallow: /README.md
 
 Sitemap: https://lepetitmonographe.com/sitemap.xml

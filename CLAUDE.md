@@ -19,6 +19,20 @@ Toute rédaction ou modification de contenu sur ce site applique ces règles san
 
 **Formule :** Rigueur. Impartialité. Traçabilité. Contradiction. Transparence.
 
+## Bible éditoriale, journalistique et visuelle (v1.0, 21 octobre 2026)
+
+Le référentiel complet est `outils/bible-editoriale-v1.0.md`. Il s'applique à toute création, audit, rénovation, mise à jour ou validation. La page publique « Notre méthode » prime en cas de divergence. Points d'application permanents :
+
+- Ordre de priorité : droit et respect des personnes, puis faits et sources, puis les douze règles et les cinq statuts, puis la bible, puis les consignes du sujet. Une exigence de style, de SEO ou de rapidité ne modifie jamais une information.
+- Annoncer le mode de travail (CRÉATION, AUDIT, RÉNOVATION, MISE À JOUR, VALIDATION). Ne jamais prétendre avoir ouvert une URL, lu un document en entier, vérifié un chiffre ou testé un rendu mobile si ce n'est pas le cas.
+- Chaque nouveau dossier a son registre de travail interne dans `outils/registres/NN-slug.md`, sur le modèle `outils/registres/MODELE.md` : fiche d'angle, journal de recherche, registre des affirmations, storyboard visuel, contrôle qualité. Ces fichiers ne sont pas publiés comme pages.
+- Format honnête (bible 3.2) : article explicatif, analyse, enquête documentaire, investigation originale. Un texte n'est pas une « enquête » parce qu'il est long ou très sourcé.
+- Un visuel est prévu dès le plan et seulement s'il fait comprendre quelque chose : question pédagogique, source, période, limite, texte alternatif. L'absence de visuel inutile est une décision de qualité. Aucune donnée fabriquée.
+- Trois relectures distinctes avant mise en ligne : factuelle et juridique, critique et méthodologique, pédagogique et visuelle. Elles ne sont pas présentées comme une validation indépendante.
+- Conditions d'arrêt (bible 10.2) : source ou citation inventée ou non consultée, chiffre déterminant non vérifié, accusation non étayée, motif judiciaire supposé, illustration générée présentée comme document, correction antérieure supprimée sans le dire, contradiction entre chapô, texte, graphique et conclusion. Dans ces cas, le dossier est « non publiable en l'état » et on dit précisément ce qui manque.
+- Rénovation d'un dossier existant : améliorer sans effacer. Conserver URL, ancres, sources, crédits et historique ; auditer d'abord, classer les problèmes (bloquant, majeur, amélioration, optionnel), puis modifier ; une correction de fond figure dans l'historique public.
+- Rendu à l'autrice après chaque travail : sources réellement consultées et non consultées, points non vérifiés, tests effectués (rendu, liens), verdict. Une demande explicite de l'autrice d'écrire et de publier vaut autorisation de mise en ligne.
+
 ## Règles pratiques
 
 - Aucun chiffre, aucune date, aucune décision de justice ne vient de mémoire ou d'une liste générée par une IA : chaque élément est vérifié à sa source avant d'être écrit.
