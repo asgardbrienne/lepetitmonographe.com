@@ -13,11 +13,12 @@ image: assets/images/ukraine-guerre-negociations.jpg
 image_alt: Le bâtiment de la Verkhovna Rada, le Parlement ukrainien, au bout de la rue Hrouchevsky à Kyiv
 image_credit: Wadco2, CC BY-SA 3.0, recadrée et plaque d'immatriculation floutée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Parliament_of_Ukraine._Listed_ID_80-382-0099.SW._-_Mykhaila_Hrushevskoho_Street,_Pechersk_Raion,_Kiev._-_Pechersk_28_09_13_452.jpg
-verifie: 18 octobre 2026
+verifie: 21 octobre 2026
+corrections: Le 21 octobre 2026, la phrase sur le décret américain du 16 octobre a été corrigée : le décret invoque l'intérêt national des États-Unis et ne mentionne pas les négociations ; l'hypothèse sur les « cadeaux à Poutine » ne présente plus la dérogation aux sanctions, postérieure à cette déclaration, comme visée par elle.
 ---
 ## Essentiel
-- La Russie occupe environ 20 % du territoire ukrainien, selon le Council on Foreign Relations [1]. Les gains revendiqués par Moscou depuis janvier 2026 sont très supérieurs à ceux que constatent les analystes indépendants [2].
-- En septembre 2026, au moins 328 civils ont été tués et 2 105 blessés en Ukraine, selon la mission de surveillance des droits de l'homme de l'ONU : un bilan supérieur de 85 % à celui de septembre 2025 [3].
+- La Russie occupe environ 20 % du territoire ukrainien, selon le Council on Foreign Relations [1]. Les gains revendiqués par Moscou depuis janvier 2026 sont très supérieurs à ceux qu'évalue l'Institute for the Study of War, centre d'analyse américain [2].
+- En septembre 2026, au moins 328 civils ont été tués et 2 105 blessés en Ukraine, selon la mission de surveillance des droits de l'homme de l'ONU : tués et blessés confondus, 85 % de victimes de plus qu'en septembre 2025 [3].
 - Le 9 octobre, des discussions à Miami entre les émissaires américains et une délégation ukrainienne se sont achevées au bout d'un jour, sans accord [4].
 - L'Union européenne a adopté en avril 2026 un prêt de 90 milliards d'euros à l'Ukraine pour 2026 et 2027 [5].
 
@@ -41,7 +42,7 @@ verifie: 18 octobre 2026
 
 [Fait établi] Début septembre 2026, les émissaires américains Steve Witkoff et Jared Kushner ont rencontré Vladimir Poutine à Moscou, puis des responsables ukrainiens à Kyiv, sans percée [6]. Le 9 octobre, une délégation ukrainienne conduite par Kyrylo Budanov et Roustem Oumerov les a retrouvés à Miami, en présence de conseillers de sécurité français, allemand et britannique, de la Commission européenne et de l'OTAN. La rencontre, prévue sur deux jours, s'est achevée au bout d'un seul [4].
 
-[Témoignage] Selon des sources anonymes citées par l'agence Reuters et reprises par Meduza, les émissaires américains ont présenté à Kyiv l'accord sur le diesel russe comme un moyen de ramener le Kremlin à la table, et ont transmis la demande de Donald Trump que l'Ukraine cesse de frapper les raffineries russes. La délégation ukrainienne n'a rien accepté formellement, mais s'est dite prête à une trêve sur l'énergie si la Russie la respectait aussi [4].
+[Témoignage] Selon des sources anonymes citées par l'agence Reuters et reprises par Meduza, les émissaires américains ont présenté à Kyiv l'accord sur le diesel russe (détaillé dans notre dossier <a href="dossier-ukraine-cout-europe-france.html">sur le coût de l'aide à l'Ukraine</a>) comme un moyen de ramener le Kremlin à la table, et ont transmis la demande de Donald Trump que l'Ukraine cesse de frapper les raffineries russes. La délégation ukrainienne n'a rien accepté formellement, mais s'est dite prête à une trêve sur l'énergie si la Russie la respectait aussi [4].
 
 [Témoignage] Le secrétaire d'État Marco Rubio a déclaré début octobre qu'il ne semblait pas y avoir, pour l'instant, de « perspectives de règlement négocié » ; le porte-parole du Kremlin, Dmitri Peskov, s'est dit d'accord avec ce constat [7].
 
@@ -51,7 +52,9 @@ verifie: 18 octobre 2026
 
 [Témoignage] **L'Ukraine.** Volodymyr Zelensky exclut de céder les territoires de Donetsk encore tenus par ses forces [7]. Après l'accord sur le diesel, il a déclaré que « les cadeaux à Poutine n'apporteront pas la paix » [8].
 
-[Témoignage] **Les États-Unis.** Washington pousse à un accord et a écarté le 16 octobre de nouvelles sanctions contre la Russie en invoquant les négociations [9]. Le 10 octobre, Donald Trump a déclaré qu'il était « temps que l'Ukraine ait un nouveau président » [8].
+[Fait établi] **Les États-Unis.** Le 16 octobre, un décret présidentiel a écarté la plupart des sanctions prévues par une loi votée en septembre contre la Russie ; il invoque l'« intérêt national » des États-Unis, sans mentionner les négociations [9].
+
+[Témoignage] Washington pousse à un accord. Le 10 octobre, Donald Trump a déclaré qu'il était « temps que l'Ukraine ait un nouveau président » [8].
 
 [Expertise] L'ISW estime que le Kremlin refuse toute concession diplomatique ou territoriale et reste attaché à ses buts de guerre initiaux, qu'il cherche à atteindre par la force [2]. C'est l'analyse d'un centre dont les travaux sont publics et sourcés, mais qui n'a pas accès aux discussions internes du pouvoir russe.
 
@@ -67,7 +70,7 @@ Les scénarios ci-dessous ne sont pas des prévisions. Ils décrivent ce que cha
 
 [Hypothèse] **Un hiver de frappes croisées.** Si les frappes russes sur le réseau électrique et les frappes ukrainiennes sur les raffineries russes se poursuivent [2][3], le bilan civil continuera de s'alourdir. La pression américaine pour arrêter les frappes sur les raffineries [4] montre que ce sujet relie la guerre au prix mondial des carburants.
 
-[Hypothèse] **Un accord qui consacre des pertes territoriales.** Les décisions américaines d'octobre (accord sur le diesel, dérogation aux sanctions, déclaration sur le président ukrainien) ont été critiquées à Kyiv comme des « cadeaux à Poutine » [8][9]. Si la pression américaine porte surtout sur l'Ukraine, celle-ci pourrait être poussée à accepter des concessions qu'elle refuse aujourd'hui [7]. Rien n'indique à ce stade que son gouvernement y soit prêt.
+[Hypothèse] **Un accord qui consacre des pertes territoriales.** Après l'accord sur le diesel, Volodymyr Zelensky a déclaré que « les cadeaux à Poutine n'apporteront pas la paix » [8] ; la dérogation aux sanctions a suivi le 16 octobre [9]. Si la pression américaine porte surtout sur l'Ukraine, celle-ci pourrait être poussée à accepter des concessions qu'elle refuse aujourd'hui [7]. Rien n'indique à ce stade que son gouvernement y soit prêt.
 
 [Hypothèse] **Une Europe en premier soutien.** Le prêt de 90 milliards fait de l'UE le principal financeur de l'Ukraine pour 2026 et 2027 [5]. Si le soutien américain se réduit, le poids du conflit reposera davantage sur les budgets européens, y compris sur la garantie apportée par le budget de l'Union [5].
 
@@ -81,7 +84,7 @@ Les scénarios ci-dessous ne sont pas des prévisions. Ils décrivent ce que cha
 - Council on Foreign Relations, Global Conflict Tracker, « War in Ukraine », mis à jour le 15 octobre 2026. | https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine
 - Institute for the Study of War et Critical Threats, Kateryna Shymkiv, Nikolai Sundstrom, Christina Harward et George Barros, « Russian Offensive Campaign Assessment, October 16, 2026 », 16 octobre 2026. | https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-october-16-2026
 - Mission de surveillance des droits de l'homme des Nations unies en Ukraine, « Civilian casualties remain at record levels amid intensifying attacks on energy as winter approaches », 16 octobre 2026. | https://ukraine.ohchr.org/en/Civilian-casualties-remain-at-record-levels-amid-intensifying-attacks-on-energy-as-winter-approaches
-- Meduza, d'après Reuters, « Witkoff and Kushner told Kyiv that a diesel deal with Russia would help bring the Kremlin back to the negotiating table », 13 octobre 2026. | https://meduza.io/en/news/2026/10/13/reuters-witkoff-and-kushner-told-kyiv-that-a-diesel-deal-with-russia-would-help-bring-the-kremlin-back-to-the-negotiating-table
+- Source secondaire : Meduza, d'après Reuters, « Witkoff and Kushner told Kyiv that a diesel deal with Russia would help bring the Kremlin back to the negotiating table », 13 octobre 2026. | https://meduza.io/en/news/2026/10/13/reuters-witkoff-and-kushner-told-kyiv-that-a-diesel-deal-with-russia-would-help-bring-the-kremlin-back-to-the-negotiating-table
 - Conseil de l'Union européenne, « Council finalises €90 billion support loan to Ukraine », 23 avril 2026. | https://www.consilium.europa.eu/en/press/press-releases/2026/04/23/council-finalises-90-billion-support-loan-to-ukraine/
 - NPR, « Witkoff and Kushner call Kyiv talks "substantive" after Moscow Putin meeting », 6 septembre 2026. | https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow
 - NBC News, « Jared Kushner and Steve Witkoff to discuss "new" peace plan with Ukrainian delegation, sources say », 9 octobre 2026. | https://www.nbcnews.com/world/ukraine/russia-war-kushner-witkoff-discuss-new-peace-plan-rcna602463

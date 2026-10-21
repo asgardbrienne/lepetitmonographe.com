@@ -5,7 +5,7 @@ titre: Guerre en Ukraine : ce que l'aide coûte à l'Europe et à la France, et 
 titre_court: Ukraine, le coût pour l'Europe et la France
 titre_seo: Aide à l'Ukraine : le coût pour la France
 description: Combien la France et l'Europe ont donné à l'Ukraine, sous quelle forme, et ce que coûterait un retrait : montants vérifiés, matériel livré, estimations et limites.
-chapeau: Combien la France et l'Europe ont-elles donné à l'Ukraine, sous quelle forme, et que se passerait-il si elles arrêtaient ? Les montants vérifiés, le matériel livré, les estimations du coût d'une victoire russe et leurs limites, et ce que change le rapprochement entre Washington et Moscou.
+chapeau: Combien la France et l'Europe ont-elles donné à l'Ukraine, sous quelle forme, et que se passerait-il si elles arrêtaient ? Les montants vérifiés, le matériel livré, les estimations du coût d'une victoire russe et leurs limites, et ce que changent les décisions américaines d'octobre 2026.
 resume: L'aide européenne et française en chiffres, le matériel livré, ce que coûterait un retrait selon les études disponibles, le coût d'une guerre qui dure et les décisions américaines d'octobre 2026. Données arrêtées au 18 octobre 2026.
 arret: 18 octobre 2026
 publication: 18 octobre 2026
@@ -13,12 +13,13 @@ image: assets/images/ukraine-cout-europe-france.jpg
 image_alt: Un canon automoteur CAESAR 8x8 de fabrication française en service dans l'armée ukrainienne, lors d'un entraînement dans la région de Jytomyr en juin 2024
 image_credit: service de presse du 199e centre d'entraînement des forces d'assaut aérien ukrainiennes, CC BY 4.0, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Nexter_caesar_8x8_ukraine_dshv_01.jpg
-verifie: 18 octobre 2026
+verifie: 21 octobre 2026
+corrections: Le 21 octobre 2026, le graphique sur l'aide rapportée au PIB a été retitré et complété : il présente une sélection de pays, et la France occupe le 22e rang sur 41 donateurs dans le classement de l'Institut de Kiel, ce qui ne permet pas de la dire « parmi les plus faibles » ; la moyenne annuelle de 6 milliards d'euros est attribuée au Monde, repris par franceinfo, et non à franceinfo.
 ---
 ## Essentiel
 - De février 2022 à fin août 2026, les pays européens et les institutions de l'UE ont alloué 236 milliards d'euros d'aide à l'Ukraine, contre 115 milliards pour les États-Unis, selon l'Institut de Kiel. Les États-Unis n'ont plus rien alloué de nouveau depuis début 2025 [1][6].
 - La France a alloué 7,9 milliards d'euros d'aide bilatérale, dont 6,2 milliards d'aide militaire, auxquels s'ajoutent 18,3 milliards versés via l'Union européenne jusqu'en juin 2026, selon le calcul de l'Institut de Kiel : environ 6 milliards par an au total, dont une partie en prêts [1][3]. Le gouvernement chiffre son soutien militaire à 6,5 milliards jusqu'à fin 2025 [4].
-- Rapportée à sa richesse, l'aide bilatérale française (0,3 % du PIB de 2021) est dix fois plus faible que celle du Danemark ou de l'Estonie [1].
+- Rapportée à sa richesse, l'aide bilatérale française (0,3 % du PIB de 2021) est environ dix fois plus faible que celle du Danemark ou de l'Estonie [1].
 - Les études qui chiffrent une victoire russe aboutissent à des coûts supérieurs à ceux de l'aide (jusqu'à 1 600 milliards d'euros sur quatre ans pour l'Europe selon un centre norvégien), mais ce sont des scénarios construits sur des hypothèses fortes, pas des prévisions [11][12].
 - En octobre 2026, Washington a autorisé le diesel russe, écarté les sanctions d'une loi votée un mois plus tôt et évoqué le transfert d'avoirs russes gelés sous son contrôle, ce que plusieurs dirigeants européens ont refusé [20][21][23].
 
@@ -52,7 +53,7 @@ source: Institut de Kiel, Ukraine Support Tracker, 31e version, données au 31 a
 
 [Fait établi] Selon l'Institut de Kiel, la France a alloué 7,9 milliards d'euros d'aide bilatérale de février 2022 à août 2026 : 6,2 milliards d'aide militaire, 0,9 milliard d'aide humanitaire et 0,8 milliard d'aide financière directe [1]. Elle est aussi, après l'Allemagne, le deuxième contributeur à l'aide passée par l'Union européenne : l'Institut lui attribue 18,3 milliards d'euros jusqu'en juin 2026, en appliquant sa part dans le budget européen au total de l'aide de l'UE [3].
 
-[Estimation] Additionnés, ces montants font 26,2 milliards d'euros en un peu moins de quatre ans et demi, soit environ 6 milliards par an. Selon le calcul de franceinfo, cela représente 1,3 % des dépenses annuelles moyennes de l'État de 2022 à 2025 et 4 % du déficit public annuel moyen sur la même période [3]. Ce total mélange des dons et des prêts appelés à être remboursés, et la part attribuée à la France dans l'aide européenne est une convention de calcul de l'Institut de Kiel, pas un chiffre du gouvernement.
+[Estimation] Additionnés, ces montants font 26,2 milliards d'euros en un peu moins de quatre ans et demi, soit environ 6 milliards par an. Cette moyenne annuelle est un calcul du Monde, repris par franceinfo, qui indique que ces 6 milliards représentent 1,3 % des dépenses annuelles moyennes de l'État de 2022 à 2025 et 4 % du déficit public annuel moyen sur la même période [3]. Ce total mélange des dons et des prêts appelés à être remboursés, et la part attribuée à la France dans l'aide européenne est une convention de calcul de l'Institut de Kiel, pas un chiffre du gouvernement.
 
 [Fait établi] Le gouvernement publie son propre chiffre, sur un périmètre différent. Le rapport au Parlement 2026 sur les exportations d'armement estime le soutien militaire de la France à 6,5 milliards d'euros du 24 février 2022 au 31 décembre 2025, en incluant ses engagements au titre de la Facilité européenne pour la paix (environ 18 % des engagements des États membres, jusqu'à 2,1 milliards sur toute la période). Il évalue à plus de 940 millions d'euros les matériels livrés en 2025 [4][5]. Interrogé par franceinfo en septembre 2026, le ministère des Armées a refusé d'avancer un chiffre global [3].
 
@@ -63,7 +64,7 @@ source: Institut de Kiel, Ukraine Support Tracker, 31e version, données au 31 a
 [Fait établi] Depuis 2024, le gouvernement ne publie plus le détail de son aide militaire, ce que relevait en septembre 2026 un député de La France insoumise [3][5]. Le fonds de soutien à l'Ukraine créé en 2022 n'a pas été reconduit, et une proposition sénatoriale de nouveau fonds de 100 millions d'euros n'a pas été retenue lors de l'actualisation de la loi de programmation militaire [5].
 
 [Figure] barres-h
-titre: Rapportée à la richesse nationale, l'aide bilatérale de la France reste parmi les plus faibles
+titre: Rapportée à la richesse nationale, l'aide bilatérale de la France est loin derrière celle des pays nordiques et baltes
 unite: Aide bilatérale allouée de février 2022 à août 2026, en % du PIB de 2021
 donnees:
 - Danemark | 3,49
@@ -79,7 +80,7 @@ donnees:
 - Italie | 0,24
 - Espagne | 0,22
 lecture: Le Danemark a alloué à l'Ukraine l'équivalent de 3,49 % de son PIB de 2021, la France 0,32 %.
-note: Aide bilatérale seulement : la part de chaque pays dans l'aide passée par l'Union européenne n'est pas comptée, ce qui désavantage les pays de l'UE par rapport aux pays tiers (Norvège, Royaume-Uni, États-Unis). Le PIB de référence est celui de 2021, avant la guerre.
+note: Sélection de douze pays : dans le classement complet de l'Institut de Kiel, qui compte 41 donateurs, la France est au 22e rang. Aide bilatérale seulement : la part de chaque pays dans l'aide passée par l'Union européenne n'est pas comptée, ce qui désavantage les pays de l'UE par rapport aux pays tiers (Norvège, Royaume-Uni, États-Unis). Le PIB de référence est celui de 2021, avant la guerre.
 source: Institut de Kiel, Ukraine Support Tracker, 31e version, données au 31 août 2026 [1]
 
 ## Ce que l'Ukraine doit financer
@@ -118,7 +119,7 @@ source: Institut de Kiel, Ukraine Support Tracker, 31e version, données au 31 a
 
 ## Washington et Moscou : ce qui a changé en octobre 2026
 
-[Fait établi] Il n'existe ni traité ni alliance formelle entre les États-Unis et la Russie. Ce qui est documenté, c'est une série de décisions américaines favorables à Moscou ou défavorables à Kyiv, prises en quelques jours, alors que le prix du diesel augmentait fortement après l'arrêt des exportations russes de diesel en juillet et la guerre américaine contre l'Iran [19].
+[Fait établi] Il n'existe ni traité ni alliance formelle entre les États-Unis et la Russie. Ce qui est documenté, c'est une série de décisions américaines prises en quelques jours, sur le diesel russe, les sanctions, les avoirs russes gelés et Starlink, alors que le prix du diesel augmentait fortement après l'arrêt des exportations russes de diesel en juillet et la guerre américaine contre l'Iran [19].
 
 [Figure] frise
 titre: Dix jours de décisions américaines
@@ -171,10 +172,10 @@ Les scénarios ci-dessous ne sont pas des prévisions. Ils décrivent ce que cha
 - Commission de régulation de l'énergie, communiqué « Charges de service public de l'énergie », 23 juillet 2024. | https://cre.fr/fileadmin/Documents/Communiques_de_presse/2024/240723_CP_CSPE.pdf
 - Insee, Note de conjoncture, « Prix à la consommation », mars 2023. | https://insee.fr/fr/statistiques/fichier/6967912/ndc-mars-2023-prix-consommation.pdf
 - Ministère des Armées, « Projet de loi de finances des Armées 2027 : LPM année 4 », 8 octobre 2026. | https://www.defense.gouv.fr/ministere/politique-defense/loi-programmation-militaire-2024-2030/projet-loi-finances-armees-2027-lpm-annee-4
-- Boursorama avec AFP, « Des actions "hostiles directes" et "violentes" : la France doit s'attendre à être ciblée par des opérations de guerre hybride, prévient la DGSI », 27 août 2026. | https://www.boursorama.com/actualite-economique/actualites/des-actions-hostiles-directes-et-violentes-la-france-doit-s-attendre-a-etre-ciblee-par-des-operations-de-guerre-hybride-previent-la-dgsi-4d07d2d99bf2a49c3ce285290050cd07
+- Source secondaire : Boursorama avec AFP, « Des actions "hostiles directes" et "violentes" : la France doit s'attendre à être ciblée par des opérations de guerre hybride, prévient la DGSI », 27 août 2026. | https://www.boursorama.com/actualite-economique/actualites/des-actions-hostiles-directes-et-violentes-la-france-doit-s-attendre-a-etre-ciblee-par-des-operations-de-guerre-hybride-previent-la-dgsi-4d07d2d99bf2a49c3ce285290050cd07
 - CNN, Kevin Liptak et al., « Trump says Ukraine should get a new leader as he spars with Zelensky over US-Russia diesel deal », 9 octobre 2026, mis à jour le 11 octobre. | https://www.cnn.com/2026/10/09/politics/trump-putin-russian-diesel
 - Office of Foreign Assets Control, Trésor américain, General License No. 135, 9 octobre 2026. | https://ofac.treasury.gov/media/937216/download?inline
 - Maison-Blanche, décret « Implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 », 16 octobre 2026. | https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/
 - Source secondaire : The Kyiv Independent, Dmytro Basmat, « Order limiting Starlink access for Ukraine's military came from within White House, Reuters reports », 16 octobre 2026. | https://kyivindependent.com/order-limiting-starlink-access-for-ukraines-military-came-from-within-white-house-reuters-reports/
-- The Kyiv Independent, Chris Powers, « Europe shuts US out of Russian assets conversation », 15 octobre 2026. | https://kyivindependent.com/europe-shuts-us-out-of-russian-assets-conversation/
-- Euronews, Jorge Liboreiro, « EU triggers emergency clause to indefinitely immobilise Russian assets », 11 décembre 2025. | https://www.euronews.com/my-europe/2025/12/11/eu-triggers-emergency-clause-to-indefinitely-immobilise-russian-assets
+- Source secondaire : The Kyiv Independent, Chris Powers, « Europe shuts US out of Russian assets conversation », 15 octobre 2026. | https://kyivindependent.com/europe-shuts-us-out-of-russian-assets-conversation/
+- Source secondaire : Euronews, Jorge Liboreiro, « EU triggers emergency clause to indefinitely immobilise Russian assets », 11 décembre 2025. | https://www.euronews.com/my-europe/2025/12/11/eu-triggers-emergency-clause-to-indefinitely-immobilise-russian-assets

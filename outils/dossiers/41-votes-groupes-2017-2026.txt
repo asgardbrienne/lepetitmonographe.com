@@ -25,15 +25,15 @@ verifie: 18 octobre 2026
 
 [Fait établi] La plupart des votes à l'Assemblée ont lieu à main levée ; ils ne sont ni enregistrés ni publiés nominativement. Seuls les scrutins publics le sont. Parmi eux, la Conférence des présidents peut décider d'un vote solennel, « généralement sur les votes d'ensemble sur des textes majeurs », à un moment fixé pour favoriser la présence du plus grand nombre de députés [2].
 
-[Proposition] Ce dossier retient donc tous les votes solennels sur l'ensemble d'un texte (ou sur son article unique), plus toutes les motions de censure. Ce choix n'est pas le nôtre : c'est l'Assemblée elle-même qui désigne les textes jugés majeurs. Il évite de sélectionner des votes qui avantageraient un camp.
+[À noter] Ce dossier retient donc tous les votes solennels sur l'ensemble d'un texte (ou sur son article unique), plus toutes les motions de censure. Ce critère est le nôtre ; en revanche, la liste des textes soumis à un vote solennel est fixée par l'Assemblée elle-même. Ce critère évite que nous choisissions nous-mêmes des votes qui avantageraient un camp.
 
 [Fait établi] Ce corpus ne couvre pas : les milliers de votes sur des amendements ou des articles, les textes adoptés à main levée, les votes du Sénat, ni les textes adoptés sans vote par le 49.3 [2][3].
 
-[Fait établi] **Comment lire les graphiques.** Pour chaque texte, la « position du groupe » est le choix le plus fréquent parmi ses membres qui ont voté. Un groupe peut être divisé : le détail des voix s'affiche au survol de chaque groupe et sur la page officielle du scrutin, accessible par le titre du texte. Les couleurs sont les mêmes pour tous : bleu nuit pour « pour », or pour « contre », gris pour l'abstention. Aucune couleur de parti n'est utilisée.
+[À noter] **Comment lire les graphiques.** Pour chaque texte, la « position du groupe » est le choix le plus fréquent parmi ses membres qui ont voté. Un groupe peut être divisé : le détail des voix s'affiche au survol de chaque groupe et sur la page officielle du scrutin, accessible par le titre du texte. Les couleurs sont les mêmes pour tous : bleu nuit pour « pour », or pour « contre », gris pour l'abstention. Aucune couleur de parti n'est utilisée.
 
 [Fait établi] Les noms et la composition des groupes ont changé d'une législature à l'autre, et parfois en cours de législature. Ils sont affichés tels qu'ils étaient au moment du vote, d'après les données officielles [1].
 
-[Fait établi] **Les non-inscrits.** Les députés qui n'appartiennent à aucun groupe sont classés par l'Assemblée dans une même catégorie, les « non-inscrits ». Comme ils n'ont pas de position commune, nous les répartissons selon le parti auquel chacun s'est rattaché dans sa déclaration annuelle : un parti qui compte au moins trois non-inscrits forme une ligne, par exemple « RN (NI) » ; les autres sont regroupés sous « Autres NI ». Les déclarations de rattachement commencent en décembre 2017 ; pour les votes antérieurs, nous retenons la première déclaration de chaque député [1].
+[À noter] **Les non-inscrits.** Les députés qui n'appartiennent à aucun groupe sont classés par l'Assemblée dans une même catégorie, les « non-inscrits ». Comme ils n'ont pas de position commune, nous les répartissons selon le parti auquel chacun s'est rattaché dans sa déclaration annuelle : un parti qui compte au moins trois non-inscrits forme une ligne, par exemple « RN (NI) » ; les autres sont regroupés sous « Autres NI ». Les déclarations de rattachement commencent en décembre 2017 ; pour les votes antérieurs, nous retenons la première déclaration de chaque député [1].
 
 [Fait établi] **Une limite des données officielles.** Pour 8 scrutins de 2020 et 2021, la somme des votes publiés groupe par groupe ne correspond pas au total officiel du scrutin, à une ou quelques dizaines de voix près. Les totaux affichés sont les totaux officiels ; le détail par groupe reprend les données publiées [1].
 
@@ -82,7 +82,7 @@ source: Assemblée nationale, « Engagements de responsabilité du Gouvernement 
 lecture: Sur les 31 recours au 49.3 depuis 2017, 23 ont eu lieu sous le gouvernement d'Élisabeth Borne, principalement sur des textes budgétaires.
 note: Le tableau de synthèse de la même page indique 3 engagements pour François Bayrou, alors que le détail en liste 4 ; nous retenons le détail. Les engagements de Sébastien Lecornu proviennent du détail du tableau, la synthèse n'étant pas à jour. Un même texte peut faire l'objet de plusieurs engagements (par partie, par lecture).
 
-[Fait établi] Sur toute la Ve République, le même tableau recense 116 engagements jusqu'en septembre 2025 ; le gouvernement de Michel Rocard (1988-1991) en avait compté 28 [3].
+[Fait établi] Sur toute la Ve République, la synthèse du même tableau, arrêtée en septembre 2025, recense 116 engagements ; le gouvernement de Michel Rocard (1988-1991) en avait compté 28 [3].
 
 ## Les motions de censure
 

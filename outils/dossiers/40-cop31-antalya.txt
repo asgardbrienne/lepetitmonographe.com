@@ -59,7 +59,7 @@ note: Les trois premières barres sont des projections du PNUE ; la dernière es
 
 [Fait établi] Les États-Unis ont notifié leur retrait de l'accord de Paris au secrétaire général de l'ONU le 27 janvier 2025. Selon l'article 28 de l'accord, le retrait prend effet un an après la notification, soit le 27 janvier 2026 [5]. C'est la deuxième fois que les États-Unis quittent cet accord [9].
 
-[Interprétation] Selon le PNUE, la sortie des États-Unis annule à elle seule environ 0,1 °C de l'amélioration des projections [3]. Leur absence pèse aussi sur les négociations financières, puisque l'objectif de Bakou repose sur les contributions des pays développés [7].
+[Estimation] Selon le PNUE, la sortie des États-Unis annule à elle seule environ 0,1 °C de l'amélioration des projections [3]. Leur absence pèse aussi sur les négociations financières, puisque l'objectif de Bakou repose sur les contributions des pays développés [7].
 
 ## La position européenne
 
@@ -92,8 +92,8 @@ Les décisions d'une COP se prennent par consensus : un seul pays peut bloquer u
 - Organisation météorologique mondiale, « WMO confirms 2025 was one of warmest years on record », janvier 2026. | https://wmo.int/news/media-centre/wmo-confirms-2025-was-one-of-warmest-years-record
 - Nations unies, Collection des traités, notification dépositaire C.N.71.2025, retrait des États-Unis de l'accord de Paris. | https://treaties.un.org/doc/Publication/CN/2025/CN.71.2025-Eng.pdf
 - Pacific Islands News Association, « Pacific Pre-COP puts 1.5°C, climate finance and ocean at centre of COP31 », 9 octobre 2026. | https://pina.com.fj/2026/10/09/pacific-pre-cop-puts-1-5c-climate-finance-and-ocean-at-centre-of-cop31/
-- Carbon Brief, « COP30: Key outcomes agreed at the UN climate talks in Belém », novembre 2025. | https://www.carbonbrief.org/cop30-key-outcomes-agreed-at-the-un-climate-talks-in-belem
-- Climate Home News, « What happened at COP30? No fossil fuels deal reached », 22 novembre 2025. | https://www.climatechangenews.com/2025/11/22/cop30-brazil-deal-fossil-fuel-transition-fails-triples-finance-climate-adaptation-what-happened/
-- E&E News, « So long, Paris: US officially leaves landmark climate pact », 27 janvier 2026. | https://www.eenews.net/articles/so-long-paris-us-officially-leaves-landmark-climate-pact/
+- Source secondaire : Carbon Brief, « COP30: Key outcomes agreed at the UN climate talks in Belém », novembre 2025. | https://www.carbonbrief.org/cop30-key-outcomes-agreed-at-the-un-climate-talks-in-belem
+- Source secondaire : Climate Home News, « What happened at COP30? No fossil fuels deal reached », 22 novembre 2025. | https://www.climatechangenews.com/2025/11/22/cop30-brazil-deal-fossil-fuel-transition-fails-triples-finance-climate-adaptation-what-happened/
+- Source secondaire : E&E News, « So long, Paris: US officially leaves landmark climate pact », 27 janvier 2026. | https://www.eenews.net/articles/so-long-paris-us-officially-leaves-landmark-climate-pact/
 - Conseil de l'Union européenne, réunion du Conseil « Environnement » des 4 et 5 novembre 2025. | https://www.consilium.europa.eu/en/meetings/env/2025/11/04-05/
 - Climate Action Tracker, « EU: 2035 NDC », août 2026. | https://climateactiontracker.org/countries/eu/2026-08-03/2035-ndc/

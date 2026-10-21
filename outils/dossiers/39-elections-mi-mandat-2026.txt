@@ -61,13 +61,15 @@ note: Le tableau complet remonte à 1934. Les décomptes peuvent différer lég�
 
 [Estimation] Le Cook Political Report, qui classe chaque élection selon sa compétitivité, a déplacé le 6 octobre trois élections sénatoriales en faveur des démocrates et qualifie désormais la bataille pour le Sénat d'« incertaine » [6]. Pour que les démocrates prennent le Sénat, il leur faudrait gagner quatre sièges nets [6].
 
-[Estimation] Ces classements reposent notamment sur des sondages et des résultats passés. Ce sont des estimations, que le vote peut démentir : ils indiquent un rapport de force à un moment donné, pas une issue. Le Petit Monographe ne relaie aucune préférence pour l'un ou l'autre parti.
+[Estimation] Ces classements reposent notamment sur des sondages et des résultats passés. Ce sont des estimations, que le vote peut démentir : ils indiquent un rapport de force à un moment donné, pas une issue.
+
+[À noter] Le Petit Monographe ne relaie aucune préférence pour l'un ou l'autre parti.
 
 ## Ce que le Congrès peut changer pour le reste du monde
 
 [Fait établi] La Constitution donne au Congrès le pouvoir de lever des droits de douane, de déclarer la guerre et de voter le budget. Le Sénat approuve les traités à la majorité des deux tiers et confirme les nominations. Le Congrès peut passer outre un veto présidentiel avec deux tiers des voix dans chaque chambre [5].
 
-[Fait établi] **Sur les sanctions contre la Russie**, la loi votée en septembre permet au président d'écarter les sanctions par simple certification au Congrès ; elle ne prévoit pas de vote pour annuler cette dérogation [7]. Pour l'imposer malgré tout, le Congrès devrait voter une nouvelle loi, et surmonter un éventuel veto.
+[Fait établi] **Sur les sanctions contre la Russie**, la loi votée en septembre permet au président d'écarter les sanctions par une certification adressée au Congrès ; elle ne prévoit pas de vote pour annuler cette dérogation [7]. Pour l'imposer malgré tout, le Congrès devrait voter une nouvelle loi, et surmonter un éventuel veto.
 
 [Fait établi] **Sur les droits de douane**, la Cour suprême a jugé en février 2026 que la loi d'urgence invoquée par le président ne lui permettait pas d'en imposer [8]. Le droit mondial de 10 % instauré ensuite ne pouvait durer plus de 150 jours sans prolongation par le Congrès, qui ne l'a pas votée [9].
 
@@ -86,7 +88,7 @@ Ces scénarios décrivent les conséquences institutionnelles de chaque résulta
 [Hypothèse] **Un résultat contesté ou tardif.** Dans les élections serrées, les dépouillements et recours peuvent prendre plusieurs semaines. Indice à suivre : le nombre d'élections classées « incertaines » la veille du vote.
 
 ## Ce qu'on ne sait pas
-- **Le résultat**, évidemment : les classements d'octobre ne sont pas des résultats.
+- **Le résultat** : les classements d'octobre ne sont pas des résultats.
 - **La participation**, traditionnellement plus faible qu'aux élections présidentielles.
 - **L'effet des événements des dernières semaines** (prix des carburants, guerre avec l'Iran) sur le vote.
 

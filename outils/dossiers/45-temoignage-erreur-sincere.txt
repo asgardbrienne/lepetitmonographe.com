@@ -17,9 +17,9 @@ image_lien: https://commons.wikimedia.org/wiki/File:Cour_d%27assises_Palais_de_J
 voir_aussi: dossier-outreau.html, dossier-acquittement-prescription.html, dossier-parole-violences-sexuelles.html
 ---
 ## Essentiel
-- La mémoire ne fonctionne pas comme un enregistrement : un souvenir est reconstruit à chaque rappel, et des informations reçues après les faits peuvent s'y incorporer sans que la personne s'en rende compte. Cet « effet de désinformation » est étudié depuis plus de trente ans [1].
+- La mémoire ne fonctionne pas comme un enregistrement : un souvenir est reconstruit à chaque rappel, et des informations reçues après les faits peuvent s'y incorporer sans que la personne s'en rende compte. Cet « effet de désinformation » est étudié depuis les années 1970 [1][2].
 - Aux États-Unis, l'Innocence Project recense une erreur d'identification par un témoin oculaire dans 252 des 367 condamnations annulées grâce à l'ADN, soit 69 %, en avril 2020. Ces cas ne représentent pas l'ensemble des témoignages, mais des erreurs découvertes [3].
-- La recherche ne conclut pas que le témoignage est inutilisable. Une synthèse de 2017 montre qu'une identification faite avec une forte confiance, dès la première fois et dans des conditions rigoureuses, est en général fiable ; la confiance exprimée plus tard, au procès, l'est beaucoup moins [4][7].
+- La recherche ne conclut pas que le témoignage est inutilisable. Selon une synthèse de 2017, une identification faite avec une forte confiance, dès la première fois et dans des conditions rigoureuses, est en général fiable ; la confiance exprimée plus tard, au procès, l'est beaucoup moins. D'autres chercheurs, dont Elizabeth Loftus, insistent sur les limites de cette conclusion hors des conditions idéales [4][7].
 - Les enfants sont plus sensibles aux suggestions que les adultes, mais même de très jeunes enfants peuvent rapporter beaucoup d'éléments exacts ; la qualité de l'entretien pèse lourdement sur le résultat [5][6].
 - En France, l'audition d'un mineur victime d'infractions sexuelles doit être enregistrée. Dans l'affaire d'Outreau, sept auditions de mineurs sur une centaine l'avaient été [8][9].
 
@@ -57,7 +57,7 @@ voir_aussi: dossier-outreau.html, dossier-acquittement-prescription.html, dossie
 
 [Fait établi] Dans l'affaire d'Outreau, la commission d'enquête de l'Assemblée nationale a relevé en 2006 que, sur la centaine d'auditions de mineurs réalisées, seules sept avaient fait l'objet de l'enregistrement audiovisuel prévu par la loi, et que seize enfants avaient été convoqués en même temps au commissariat le 6 mars 2001. Treize des dix-sept accusés ont finalement été acquittés [9].
 
-[Débat] L'affaire d'Outreau est souvent citée comme la démonstration que la parole des enfants n'est pas fiable. Les professionnels de la protection de l'enfance et d'anciens membres de la CIIVISE estiment au contraire qu'elle a installé une méfiance durable envers les enfants victimes. Les deux lectures se rejoignent sur le constat de la commission : les conditions de recueil de la parole étaient défaillantes [9][10].
+[Débat] L'affaire d'Outreau est souvent citée comme la démonstration que la parole des enfants n'est pas fiable. Des professionnels de la protection de l'enfance et d'anciens membres de la CIIVISE, cités par la revue La Déferlante, estiment au contraire qu'elle a installé une méfiance durable envers les enfants victimes. Les deux lectures se rejoignent sur le constat de la commission : les conditions de recueil de la parole étaient défaillantes [9][10].
 
 [Interprétation] Une erreur sincère n'est donc pas seulement une affaire de mémoire individuelle. Elle dépend aussi de la procédure : nombre d'auditions, formulation des questions, enregistrement, formation des enquêteurs, information reçue par le témoin entre les faits et son récit.
 

@@ -108,13 +108,13 @@ note: Le nombre de réunions organisées varie selon les années et les commissi
 - **2014** : les délégations hors des cas légaux sont supprimées pour les scrutins publics ordinaires, et le vote de chaque député est désormais publié pour tous les scrutins publics [2].
 - **2017** : la loi organique du 14 février 2014 interdit le cumul du mandat de député avec une fonction exécutive locale ; en 2017, plus de 38 % des députés élus ont dû abandonner un tel mandat [9].
 
-[Fait établi] Selon le rapport de l'Assemblée qui cite ce chiffre, l'effet du non-cumul sur l'investissement des parlementaires est difficile à mesurer, car d'autres obligations ont été instaurées en même temps, notamment la présence obligatoire en commission et l'encadrement des délégations [9].
+[Interprétation] Le rapport de l'Assemblée qui cite ce chiffre juge l'effet du non-cumul sur l'investissement des parlementaires difficile à mesurer, car d'autres obligations ont été instaurées en même temps, notamment la présence obligatoire en commission et l'encadrement des délégations [9].
 
 ## Et sur toute la Ve République ?
 
 [Fait établi] Les relevés nominatifs ne sont publiés pour tous les scrutins publics que depuis 2014, et les données ouvertes de l'Assemblée ne remontent qu'à 2012 [2][3]. Les indicateurs de NosDéputés.fr commencent en 2007 [4].
 
-[Interprétation] Il n'est donc pas possible de dire, chiffres à l'appui, si les députés des années 1960 à 2000 étaient plus ou moins présents que ceux d'aujourd'hui. Les seuls éléments solides sur cette période portent sur les règles : jusqu'en 1993, la pratique des votes avec la clé de collègues absents rendait les résultats des scrutins peu représentatifs de la présence réelle [2]. Sur la période mesurable, de 2007 à 2026, les indicateurs disponibles ne montrent pas de dégradation : la participation aux votes solennels est restée stable, le nombre de votants aux scrutins ordinaires a augmenté et l'activité mesurée en commission aussi. Seule la part des votes par délégation progresse nettement.
+[Interprétation] Il n'est donc pas possible de dire, chiffres à l'appui, si les députés des années 1960 à 2000 étaient plus ou moins présents que ceux d'aujourd'hui. Les seuls éléments solides sur cette période portent sur les règles : jusqu'en 1993, la pratique des votes avec la clé de collègues absents rendait les résultats des scrutins peu représentatifs de la présence réelle [2]. Sur la période mesurable, de 2007 à 2026, les indicateurs disponibles ne montrent pas de dégradation générale : la participation aux votes solennels est restée du même ordre (entre 86 % et 91 % selon la législature), le nombre de votants aux scrutins ordinaires a augmenté et l'activité mesurée en commission aussi, avec les réserves de méthode indiquées plus haut et sans données NosDéputés.fr après 2024. Une évolution va en sens inverse : la part des voix déléguées lors des votes solennels a doublé depuis 2017, ce qui signale davantage d'absences au moment de ces votes, compensées par des délégations.
 
 ## Ce que cela peut changer
 
@@ -132,12 +132,12 @@ note: Le nombre de réunions organisées varie selon les années et les commissi
 - **Le travail en circonscription**, qui n'est mesuré par aucun indicateur public.
 
 ## Sources
-- Public Sénat avec l'AFP, « Relevés de présence, agenda public : pistes pour mesurer l'activité des députés », 25 juin 2019. | https://www.publicsenat.fr/actualites/politique/releves-de-presence-agenda-public-pistes-pour-mesurer-l-activite-des-deputes
+- Source secondaire : Public Sénat avec l'AFP, « Relevés de présence, agenda public : pistes pour mesurer l'activité des députés », 25 juin 2019. | https://www.publicsenat.fr/actualites/politique/releves-de-presence-agenda-public-pistes-pour-mesurer-l-activite-des-deputes
 - Assemblée nationale, fiche de synthèse n° 56, « Les votes à l'Assemblée nationale ». | https://www.assemblee-nationale.fr/dyn/contenu/telechargement/629143/file/Fiche%2056%20-%20Votes.pdf
 - Assemblée nationale, données ouvertes, scrutins des XIVe à XVIIe législatures et référentiel des acteurs (AMO30), téléchargés le 18 octobre 2026 ; calculs par le script outils/votes_assemblee.py du site. | https://data.assemblee-nationale.fr/travaux-parlementaires/votes
 - Regards Citoyens, NosDéputés.fr, données de synthèse des législatures 2007-2012, 2012-2017, 2017-2022 et 2022-2024, licence ODbL, téléchargées le 18 octobre 2026. | https://www.nosdeputes.fr/synthese
-- Next, « Les présences en hémicycle mieux comptabilisées sur NosDéputés.fr », 27 septembre 2018. | https://next.ink/brief-article/les-presences-en-hemicycle-mieux-comptabilisees-sur-nosdeputes-fr/
-- Public Sénat, Lucie Garnier, « "Absentéisme" des parlementaires en séance ? Ne vous fiez pas aux hémicycles clairsemés ! », 19 juillet 2023. | https://www.publicsenat.fr/actualites/institutions/absenteisme-des-parlementaires-en-seance-ne-vous-fiez-pas-aux-hemicycles-clairsemes
+- Source secondaire : Next, « Les présences en hémicycle mieux comptabilisées sur NosDéputés.fr », 27 septembre 2018. | https://next.ink/brief-article/les-presences-en-hemicycle-mieux-comptabilisees-sur-nosdeputes-fr/
+- Source secondaire : Public Sénat, Lucie Garnier, « "Absentéisme" des parlementaires en séance ? Ne vous fiez pas aux hémicycles clairsemés ! », 19 juillet 2023. | https://www.publicsenat.fr/actualites/institutions/absenteisme-des-parlementaires-en-seance-ne-vous-fiez-pas-aux-hemicycles-clairsemes
 - Assemblée nationale, Règlement de l'Assemblée nationale, articles 42 et 159, version en vigueur. | https://www.assemblee-nationale.fr/dyn/17/divers/texte_reference/02_reglement_assemblee_nationale.html
 - Assemblée nationale, texte adopté n° 292, résolution modifiant le Règlement de l'Assemblée nationale, 27 mai 2009. | https://www.assemblee-nationale.fr/13/ta/ta0292.asp
 - Assemblée nationale, Henri Alfandari, rapport sur la proposition de loi organique visant à renforcer l'ancrage territorial des parlementaires (n° 2076 rect.), 6 mars 2024. | https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L16B2299.html
