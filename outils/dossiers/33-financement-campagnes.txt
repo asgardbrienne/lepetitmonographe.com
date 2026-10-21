@@ -26,7 +26,33 @@ corrections: Le 13 octobre 2026, correction du remboursement public : les candid
 
 [Fait établi] Les ressources d'un candidat à l'élection présidentielle sont limitées : apport personnel, dons de personnes physiques (4 600 euros au plus par donateur pour une même élection, tous candidats confondus), contributions des partis ou groupements politiques, et emprunts auprès d'établissements de crédit ou de partis politiques. Selon le guide de la Commission nationale des comptes de campagne et des financements politiques (CNCCFP), « les emprunts contractés auprès de personnes physiques sont rigoureusement interdits pour financer une campagne présidentielle » [2]. Les particuliers peuvent en revanche prêter, sous conditions, aux partis politiques, qui peuvent à leur tour prêter à leur candidat [5].
 
+[Figure] tableau
+titre: Ce qui peut financer une campagne présidentielle
+colonnes: Ressource | Autorisée pour le candidat ? | Condition ou limite
+donnees:
+- Apport personnel du candidat | Oui [2] | Le remboursement public ne peut pas dépasser l'apport diminué du solde du compte [2]
+- Dons de personnes physiques | Oui [2] | 4 600 euros au plus par donateur pour une même élection, tous candidats confondus [2]
+- Contributions des partis ou groupements politiques | Oui [2] | Modalités non détaillées dans ce dossier
+- Prêts d'établissements de crédit | Oui [2] | Aucun droit au prêt ; un médiateur du crédit peut être saisi [2]
+- Prêts de partis politiques | Oui [2] | Un parti peut lui-même emprunter, sous conditions, à des particuliers [5]
+- Prêts de particuliers au candidat | Non [2] | « Rigoureusement interdits » selon la CNCCFP [2]
+source: CNCCFP, guide 2026-2027 [2] ; cabinet Kohen Avocats (source secondaire) [5]
+lecture: Un particulier ne peut pas prêter directement à un candidat à la présidentielle, mais il peut, sous conditions, prêter à un parti, qui peut prêter au candidat.
+note: Synthèse simplifiée du guide de la CNCCFP ; d'autres règles s'appliquent (plafond des dépenses, mandataire, compte de campagne).
+
 [Fait établi] Tous les candidats dont le compte de campagne est déposé dans les délais et n'est pas rejeté bénéficient d'un remboursement forfaitaire de l'État. Il ne peut excéder ni les dépenses remboursables, ni l'apport personnel du candidat diminué du solde du compte, ni un maximum légal : 4,75 % du plafond des dépenses pour un candidat ayant obtenu moins de 5 % des suffrages exprimés, 47,5 % au-delà [2]. Le montant est arrêté par la CNCCFP après examen du compte, puis versé par le ministère de l'intérieur, diminué de l'avance forfaitaire de 200 000 euros versée à la publication de la liste des candidats [2]. Le montant du plafond des dépenses pour 2027 n'est pas repris ici, faute de l'avoir vérifié sur une source officielle.
+
+[Figure] arbre
+titre: Le remboursement public d'une campagne présidentielle
+donnees:
+- Le compte de campagne est-il déposé dans les délais et non rejeté ?
+  - Non : le remboursement forfaitaire n'est pas dû [2]
+  - Oui : remboursement arrêté par la CNCCFP, plafonné selon le score [2]
+    - Moins de 5 % des suffrages exprimés : 4,75 % du plafond des dépenses au plus [2]
+    - 5 % ou plus : 47,5 % du plafond des dépenses au plus [2]
+source: CNCCFP, guide à l'usage des candidats, édition 2026-2027 [2]
+lecture: Le score de 5 % ne conditionne pas le droit au remboursement, mais son plafond, dix fois plus élevé au-delà de ce seuil.
+note: Schéma simplifié. Le remboursement ne peut pas non plus dépasser les dépenses remboursables ni l'apport personnel diminué du solde du compte ; l'avance de 200 000 euros versée au départ en est déduite [2].
 
 ## La réticence des banques
 

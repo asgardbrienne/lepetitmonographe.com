@@ -56,6 +56,16 @@ lecture: Les périodes de trêve ont été courtes ; depuis juillet, la guerre a
 
 [Estimation] L'EIA estime que les flux de pétrole par le détroit sont tombés à 4,9 millions de barils par jour en moyenne au deuxième trimestre 2026, contre 21,6 millions au dernier trimestre 2025 [3]. Selon la société de suivi maritime Kpler, citée par CNN, 4,1 millions de barils ont franchi le détroit le 12 octobre, moins d'un quart du niveau d'avant-guerre [7].
 
+[Figure] barres
+titre: Le pétrole passant par Ormuz a chuté de plus des trois quarts
+unite: Millions de barils par jour, moyenne trimestrielle estimée par l'EIA
+donnees:
+- 4e trim. 2025 | 21,6
+- 2e trim. 2026 | 4,9
+source: Agence américaine d'information sur l'énergie (EIA) [3]
+lecture: Selon l'EIA, il passait en moyenne 4,9 millions de barils par jour par le détroit au deuxième trimestre 2026, contre 21,6 millions au dernier trimestre 2025.
+note: Estimations de l'EIA. Le relevé de Kpler (4,1 millions de barils le 12 octobre) porte sur une seule journée et une autre méthode : il n'est pas représenté ici [7].
+
 ## Le prix du pétrole
 
 [Fait établi] Le CRS relève l'évolution du prix du baril de Brent (contrat à échéance la plus proche), la référence du pétrole en Europe [1].
@@ -99,6 +109,18 @@ lecture: Le gazole coûtait 0,68 euro de plus par litre la semaine du 12 octobre
 note: Semaines non consécutives. Prix moyens nationaux relevés le lundi ; les prix varient selon les stations et les régions.
 
 [Fait établi] Sur la même période, le sans-plomb 95 est passé de 1,710 à 2,212 euros le litre, et le fioul domestique de 1,204 à 1,893 euro le litre [5].
+
+[Figure] groupes
+titre: Gazole, sans-plomb et fioul domestique : le prix au litre avant la guerre et en octobre
+unite: Prix moyen en France, euros par litre, toutes taxes comprises
+series: Semaine du 23 févr. 2026 | Semaine du 12 oct. 2026
+donnees:
+- Gazole | 1,650 | 2,328
+- Sans-plomb 95 | 1,710 | 2,212
+- Fioul domestique | 1,204 | 1,893
+source: Commission européenne, Weekly Oil Bulletin, données au 12 octobre 2026 [5]
+lecture: Entre la semaine du 23 février et celle du 12 octobre 2026, le fioul domestique a augmenté de 0,69 euro le litre, le gazole de 0,68 euro et le sans-plomb 95 de 0,50 euro.
+note: Deux semaines seulement ; les prix ont varié entre ces deux dates (voir le graphique précédent pour le gazole). Prix moyens nationaux relevés le lundi.
 
 [Fait établi] Le gouvernement verse une aide forfaitaire de 100 euros aux travailleurs « grands rouleurs » pour avril à septembre 2026, et une seconde de 100 euros pour octobre à décembre. Elle vise les actifs qui font au moins 15 km par trajet domicile-travail ou 8 000 km par an pour leur travail, avec un revenu fiscal de référence 2024 d'au plus 22 770 euros par part. Selon l'administration fiscale, 5,5 millions de personnes y sont désormais éligibles. Les bénéficiaires de la première aide reçoivent la seconde automatiquement à partir du 16 octobre ; les autres peuvent la demander à partir du 27 octobre [6].
 

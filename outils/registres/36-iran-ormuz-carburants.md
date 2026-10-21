@@ -26,3 +26,26 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Les données de chaque visuel sont reprises du texte du dossier, avec les mêmes appels de note ; aucune donnée nouvelle n'a été ajoutée au texte. Rendu HTML et mobile non testés (generer.py non lancé, consigne) ; lecture du bloc par figures.lire et figures.rendre vérifiée sans erreur, verifier_dossier.py OK.
+
+- VISUEL V04
+  - Emplacement : Pourquoi le détroit compte autant, après l'estimation de l'EIA sur les flux
+  - Question pour le lecteur : De combien le trafic pétrolier par Ormuz a-t-il chuté ?
+  - Type : barres ([Figure] barres)
+  - Information montrée et appels : 21,6 puis 4,9 millions de barils par jour, moyennes trimestrielles estimées par l'EIA [3]
+  - Limite : Deux points seulement, estimations ; le relevé journalier de Kpler (autre méthode) est exclu et signalé
+  - Test mobile : à faire
+  - Statut : données vérifiées dans le texte
+
+- VISUEL V05
+  - Emplacement : À la pompe en France, après le paragraphe sur le sans-plomb et le fioul
+  - Question pour le lecteur : Tous les carburants ont-ils augmenté de la même façon ?
+  - Type : barres groupées ([Figure] groupes)
+  - Information montrée et appels : Gazole, SP95, fioul, semaines du 23 février et du 12 octobre 2026 [5]
+  - Limite : Deux semaines seulement ; variations intermédiaires non montrées (voir graphique du gazole)
+  - Test mobile : à faire
+  - Statut : données vérifiées dans le texte

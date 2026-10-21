@@ -20,3 +20,26 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Les données de chaque visuel sont reprises du texte du dossier, avec les mêmes appels de note ; aucune donnée nouvelle n'a été ajoutée au texte. Rendu HTML et mobile non testés (generer.py non lancé, consigne) ; lecture du bloc par figures.lire et figures.rendre vérifiée sans erreur, verifier_dossier.py OK.
+
+- VISUEL V01
+  - Emplacement : Les règles, après le paragraphe sur les ressources autorisées
+  - Question pour le lecteur : Qui peut financer une campagne présidentielle, et à quelles conditions ?
+  - Type : tableau comparatif ([Figure] tableau)
+  - Information montrée et appels : Six ressources, autorisées ou non, et leurs limites [2][5]
+  - Limite : Synthèse ; plafond des dépenses non repris (non vérifié) ; [5] est une source secondaire
+  - Test mobile : à faire
+  - Statut : données vérifiées dans le texte
+
+- VISUEL V02
+  - Emplacement : Les règles, après le paragraphe sur le remboursement forfaitaire
+  - Question pour le lecteur : De quoi dépend le remboursement public ?
+  - Type : arbre ([Figure] arbre)
+  - Information montrée et appels : Condition de dépôt et de non-rejet du compte, plafonds de 4,75 % et 47,5 % selon le seuil de 5 % [2]
+  - Limite : Simplifié ; autres plafonds et avance de 200 000 euros en note
+  - Test mobile : à faire
+  - Statut : données vérifiées dans le texte

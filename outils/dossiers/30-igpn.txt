@@ -35,6 +35,19 @@ corrections: Le constat sur les cellules locales de déontologie était attribu�
 
 [À noter] Une enquête judiciaire porte sur une infraction pénale et peut aboutir à un classement sans suite, à des alternatives aux poursuites ou à un procès. Une enquête administrative pré-disciplinaire porte sur un manquement aux obligations professionnelles et peut aboutir à une sanction disciplinaire, indépendamment de la suite pénale. Un « usage de la force » enquêté n'est pas, par définition, un usage illégal de la force : l'enquête sert précisément à le déterminer.
 
+[Figure] arbre
+titre: Les deux types d'enquêtes de l'IGPN, et qui décide de leurs suites
+donnees:
+- Enquête judiciaire : une infraction pénale est suspectée
+  - Confiée par un magistrat, parquet ou juge d'instruction, notamment pour des faits d'une particulière gravité ou complexes [7]
+    - Suites décidées par l'autorité judiciaire : classement sans suite, alternative aux poursuites ou procès
+- Enquête administrative pré-disciplinaire : un manquement à la déontologie est suspecté
+  - Demandée par le ministre de l'Intérieur, le directeur général de la police nationale ou le préfet de police [7]
+    - L'IGPN propose un classement, une sanction ou un conseil de discipline ; le directeur général ou le préfet de police décide [7]
+source: IGPN, rapport annuel 2024, octobre 2025 [7]
+lecture: L'IGPN enquête et propose ; elle ne juge pas et ne sanctionne pas.
+note: Schéma simplifié. L'IGPN ne mène qu'environ 10 % des enquêtes administratives de la police nationale ; elle peut se saisir elle-même lorsqu'elle traite déjà les faits au judiciaire ou après un signalement reçu sur ses plateformes [7]. Les deux procédures sont indépendantes l'une de l'autre.
+
 ## Ce que publie l'IGPN
 
 [Fait établi] Le rapport annuel 2025 de l'IGPN a été présenté le 23 septembre 2026 par son directeur, Stéphane Hardouin. Selon les comptes rendus de franceinfo et de l'AFP, l'IGPN a mené 1 007 enquêtes judiciaires en 2025, contre 914 en 2024. Parmi elles, 322 visaient l'usage de la force, contre 428 en 2024, 519 en 2023 et 868 en 2019, le niveau le plus bas depuis 2015 selon franceinfo [1][2]. Nous n'avons pas trouvé le rapport lui-même en ligne : ces chiffres sont repris de la presse.
@@ -86,6 +99,17 @@ source: Rapport annuel 2025 de l'IGPN, repris par franceinfo et l'AFP (sources s
 [Fait établi] En 2024, l'IGPN a ouvert 168 enquêtes administratives pré-disciplinaires, autant qu'en 2023, contre 192 en 2022 et 288 en 2018 [7]. Elle a relevé 405 manquements, contre 533 en 2023 et 565 en 2022. Sur les 161 enquêtes transmises, 107 ont établi des manquements commis par 175 agents, et 54 n'en ont relevé aucun (89 agents) [7].
 
 [Fait établi] Pour 2024, l'IGPN a proposé un classement pour 89 agents (34 %), une sanction du premier groupe (avertissement, blâme ou exclusion temporaire de moins de trois jours) pour 90 agents (34 %) et un renvoi en conseil de discipline pour 85 agents (32 %) [7]. Pour 23 agents, le directeur général de la police nationale n'a pas suivi ses propositions, ce qu'il peut faire dans un sens plus sévère ou plus clément [7].
+
+[Figure] barres-h
+titre: Ce que l'IGPN a proposé pour les agents visés par ses enquêtes administratives en 2024
+unite: Nombre d'agents, enquêtes administratives pré-disciplinaires transmises en 2024, police nationale
+donnees:
+- Classement | 89
+- Sanction du premier groupe | 90
+- Renvoi en conseil de discipline | 85
+source: IGPN, rapport annuel 2024, octobre 2025 [7]
+lecture: En 2024, l'IGPN a proposé un renvoi en conseil de discipline pour 85 agents, soit environ un tiers des agents concernés.
+note: Ce sont des propositions de l'IGPN, pas les sanctions prononcées : pour 23 agents, le directeur général de la police nationale ne les a pas suivies [7]. Les sanctions du premier groupe sont l'avertissement, le blâme et l'exclusion temporaire de moins de trois jours.
 
 [Fait établi] Parmi les manquements relevés en 2024, l'usage disproportionné de la force a été retenu contre 37 agents dans 21 enquêtes. Le manquement au devoir de loyauté, qui sanctionne notamment la rédaction mensongère d'un procès-verbal ou d'un rapport, a été retenu contre 48 agents, dont 29 pour rédaction mensongère d'un acte [7]. Le rapport relève aussi 98 enquêtes judiciaires pour faux en écriture publique en 2024, citant par exemple des procès-verbaux dénonçant une rébellion « afin de masquer des violences illégitimes » [7].
 

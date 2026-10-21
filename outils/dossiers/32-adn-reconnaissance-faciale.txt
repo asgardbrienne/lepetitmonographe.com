@@ -60,6 +60,16 @@ corrections: Les décisions de 2012 et 2013 attribuées par une source secondair
 
 [Interprétation] L'étude du NIST porte sur des algorithmes testés aux États-Unis en 2019 ; elle ne dit rien des performances de l'outil utilisé par la police française, qui n'ont pas été publiées à notre connaissance [12].
 
+[Figure] tableau
+titre: Ce qu'une correspondance établit, et ce qu'elle ne dit pas
+colonnes: Outil | Ce que la correspondance indique | Ce qu'elle ne dit pas | Limites documentées
+donnees:
+- Profil ADN | À qui appartient l'ADN retrouvé [1][2] | Comment et quand il est arrivé là, ni la présence de la personne ou sa culpabilité [1][2] | Transfert indirect, contamination du matériel de prélèvement [1][2]
+- Comparaison faciale | Une ressemblance calculée par un algorithme, ou une liste de candidats dans une recherche « un à plusieurs » [12] | Qu'une personne de la liste est bien celle de la photo : un faux positif peut y placer un innocent [12] | Taux d'erreur variables selon l'algorithme et le groupe démographique (NIST, 2019) [12]
+source: Futura Sciences (source secondaire) [1] ; Sciences Ouest [2] ; NIST, décembre 2019 [12]
+lecture: Ni une correspondance génétique ni une comparaison faciale ne suffit, à elle seule, à établir qui a commis une infraction.
+note: Les performances de l'outil de comparaison faciale utilisé avec le TAJ n'ont pas été publiées ; l'étude du NIST porte sur des algorithmes testés aux États-Unis [12].
+
 [Allégation] Selon une enquête du média Disclose publiée le 16 mars 2026, policiers et gendarmes utiliseraient la reconnaissance faciale reliée au TAJ depuis leurs téléphones de service lors de contrôles d'identité, alors qu'une instruction du ministère de l'Intérieur de février 2022, que Disclose dit s'être procurée, l'interdit [4]. Disclose s'appuie sur des témoignages ; selon le média, le ministère de l'Intérieur, la police et la gendarmerie n'ont pas répondu à ses questions [4].
 
 [Fait établi] Selon un document du ministère de l'Intérieur cité par Disclose, que nous n'avons pas consulté, les consultations du TAJ associées à la reconnaissance faciale sont passées de 375 000 en 2019 à près d'un million en 2024 ; Disclose précise que ce document ne permet pas de distinguer les usages illégaux des consultations liées à une enquête judiciaire ou administrative [4].
@@ -73,6 +83,18 @@ corrections: Les décisions de 2012 et 2013 attribuées par une source secondair
 [Fait établi] En France, la loi relative aux Jeux olympiques et paralympiques de 2024 a autorisé, à titre expérimental jusqu'au 31 mars 2025, des traitements algorithmiques des images de vidéoprotection pour détecter certains événements. Le Conseil constitutionnel a relevé, en la jugeant conforme (décision n° 2023-850 DC du 17 mai 2023), que ces traitements ne mettent en œuvre « aucune technique de reconnaissance faciale » et n'utilisent aucun système d'identification biométrique [14].
 
 [Fait établi] Dans le secteur privé, la CNIL a infligé le 17 octobre 2022 une amende de 20 millions d'euros à la société américaine Clearview AI, qui avait collecté plus de 20 milliards de photographies sur internet pour commercialiser un moteur de recherche par reconnaissance faciale, sans base légale pour les personnes se trouvant en France ; elle lui a enjoint de supprimer ces données sous deux mois, sous astreinte de 100 000 euros par jour de retard [15].
+
+[Figure] tableau
+titre: Quatre usages de la reconnaissance faciale, quatre régimes différents
+colonnes: Usage | Règle ou décision | Source
+donnees:
+- Identification biométrique « en temps réel » dans l'espace public, par les forces de l'ordre | Interdite depuis le 2 février 2025, sauf trois objectifs limités (victimes et disparus, menace imminente, suspects d'infractions graves) | Règlement européen sur l'IA [13]
+- Comparaison d'une photo avec le fichier TAJ | Jugée encadrée par des garanties appropriées par le Conseil d'État, le 26 avril 2022 | Conseil d'État, selon un commentaire d'avocats [7]
+- Vidéoprotection algorithmique des Jeux de 2024 | Expérimentation jusqu'au 31 mars 2025, sans aucune reconnaissance faciale | Conseil constitutionnel, 17 mai 2023 [14]
+- Moteur de recherche commercial (Clearview AI) | Amende de 20 millions d'euros et injonction de supprimer les données, le 17 octobre 2022 | CNIL [15]
+source: Union européenne [13], Conseil d'État [7], Conseil constitutionnel [14], CNIL [15]
+lecture: Le droit distingue selon l'usage : l'identification en direct dans l'espace public est en principe interdite, la comparaison avec un fichier judiciaire est autorisée et encadrée.
+note: Tableau simplifié. L'usage de la comparaison faciale lors de contrôles d'identité, interdit selon le ministre cité par un député, fait l'objet d'allégations non vérifiées [4][6].
 
 ## L'habilitation à consulter les fichiers
 

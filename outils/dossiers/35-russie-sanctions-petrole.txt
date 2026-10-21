@@ -53,6 +53,19 @@ corrections: Ajout le même jour d'une section sur les élections de mi-mandat e
 
 [Fait établi] Le décret charge le représentant américain au commerce de surveiller les achats de pétrole russe et le contournement des sanctions, et d'informer le président de circonstances qui justifieraient de revenir sur ces dérogations [1].
 
+[Figure] tableau
+titre: Ce qui est écarté, ce qui reste en vigueur
+colonnes: Mesure | Texte d'origine | Situation après le décret du 16 octobre
+donnees:
+- Sanctions de la loi Graham (dirigeants russes, flotte fantôme, Banque centrale, grandes banques) | Loi du 18 septembre 2026 [2] | Écartées pour l'essentiel (sections 102 à 111 et 117), sans date de fin [1]
+- Droits de douane jusqu'à 500 % et 100 % | Loi du 18 septembre 2026, sections 112 et 113 [1][2][5] | Écartés, sans date de fin [1]
+- Sanctions déjà prises au titre de l'urgence nationale, dont Rosneft et Lukoil | Antérieures à la loi Graham [1][21] | Maintenues [1][21]
+- Importations de diesel russe | Licence générale n° 135 de l'OFAC, 9 octobre 2026 [3] | Autorisées jusqu'au 7 avril 2027 [3]
+- Sanctions de l'Union européenne | Droit de l'Union [6] | Non concernées par les décisions américaines [6]
+source: Maison-Blanche [1], Congrès des États-Unis [2], OFAC [3][21], Clyde & Co [6]
+lecture: Le décret écarte les mesures nouvelles de la loi Graham, mais ne lève pas les sanctions américaines qui existaient avant elle.
+note: Tableau simplifié. Une dérogation peut être levée à tout moment par le président ou le secrétaire d'État [1] ; la légalité de la licence diesel est contestée [6].
+
 [Témoignage] Le rapport remis au Congrès n'a pas été rendu public. Le secrétaire d'État Marco Rubio a déclaré que Donald Trump voulait se donner « 60 jours » pour analyser l'effet de ces sanctions sur l'économie américaine et mondiale, compte tenu de la pression sur l'approvisionnement énergétique [11]. Le décret lui-même ne mentionne pas ce délai [1].
 
 [Figure] frise

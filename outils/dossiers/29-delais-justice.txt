@@ -52,6 +52,17 @@ source: Ministère de la Justice, Références statistiques Justice, édition 20
 
 [Fait établi] Toujours en 2024, les affaires renvoyées devant le tribunal correctionnel par un juge d'instruction ou par la chambre de l'instruction sont jugées en moyenne 53,5 mois après leur arrivée au parquet : 7,4 mois pour l'orientation, puis 46,1 mois jusqu'au jugement, « essentiellement pour mener à bien l'instruction », selon le ministère [1].
 
+[Figure] etapes
+titre: Le parcours moyen d'une affaire confiée à un juge d'instruction, en 2024
+donnees:
+- Arrivée de l'affaire au parquet | Point de départ du calcul du délai [1]
+- Orientation de l'affaire | 7,4 mois en moyenne [1]
+- Instruction puis renvoi devant le tribunal correctionnel | 46,1 mois en moyenne jusqu'au jugement, « essentiellement pour mener à bien l'instruction » [1]
+- Première décision au fond | 53,5 mois en moyenne après l'arrivée au parquet [1]
+source: Ministère de la Justice, Références statistiques Justice, édition 2025 (données 2024) [1]
+lecture: En 2024, une affaire passée par un juge d'instruction attend en moyenne près de six fois plus longtemps avant son jugement que l'ensemble des affaires (53,5 mois contre 9,1).
+note: Moyennes en mois de 30 jours, pour les affaires renvoyées devant le tribunal correctionnel par un juge d'instruction ou par la chambre de l'instruction ; hors cours d'assises et cours criminelles départementales. Les moyennes ne s'appliquent pas à chaque dossier.
+
 [Fait établi] Selon l'édition précédente des Références statistiques Justice (données 2023), la durée de l'instruction pour les personnes dont l'information judiciaire s'est terminée en 2023 a été de 37,9 mois en moyenne, de 34,2 mois pour les mineurs et de 44,5 mois pour les personnes ayant bénéficié d'un non-lieu [2]. Devant la commission des lois de l'Assemblée nationale, en juin 2026, le garde des Sceaux a évoqué une durée moyenne d'instruction de 2,9 années, sans en préciser la source ni le périmètre [3] ; ce chiffre est inférieur à celui des statistiques ministérielles de 2023, et nous n'avons pas pu établir à quoi tient l'écart.
 
 [À noter] Ces délais sont calculés par le ministère en jours calendaires convertis en mois de 30 jours. Ils ne couvrent pas les cours d'assises ni les cours criminelles départementales [1].
@@ -103,6 +114,17 @@ donnees:
 source: Assemblée nationale, Conseil constitutionnel, Conseil national des barreaux, LCP ; voir les sources du dossier
 
 [Fait établi] Selon la présentation qu'en fait le Conseil national des barreaux, la loi du 23 juillet 2026 rend la cour criminelle départementale compétente pour les crimes commis en état de récidive légale qui entrent dans son champ, ouvre l'assessorat aux avocats honoraires à compter du 1er janvier 2027, permet au premier président de la cour d'appel de renvoyer une affaire à une autre cour d'assises du ressort lorsqu'elle ne peut être audiencée dans un délai raisonnable, rend contraignant l'accord trouvé en réunion préparatoire sur la liste des témoins et la durée de l'audience, et crée un appel limité aux peines complémentaires [9]. Elle réduit aussi de six à quatre mois le délai pour déposer des requêtes en nullité pendant l'instruction, à compter du 23 octobre 2026 [9].
+
+[Figure] tableau
+titre: Cour d'assises et cour criminelle départementale : ce qui les distingue
+colonnes: Critère | Cour d'assises | Cour criminelle départementale
+donnees:
+- Qui juge | Des magistrats professionnels avec un jury populaire [4][8] | Cinq magistrats professionnels, sans jury [4][8]
+- Quelles affaires | Les crimes [4][8] | Crimes de majeurs punis de quinze ou vingt ans [4][8] ; depuis 2026, aussi en récidive légale [9]
+- Délai initial pour juger un accusé détenu | Un an, droit commun de l'article 181 du code de procédure pénale [9] | Six mois avant la loi de 2026 ; un an depuis, avec une seule prolongation exceptionnelle de six mois [9]
+source: Conseil constitutionnel, décision n° 2026-909 DC [4] ; ministère de la Justice, réponse à la question écrite n° 4594 [8] ; Conseil national des barreaux (source secondaire) [9]
+lecture: La différence principale tient à la présence d'un jury populaire ; depuis la loi du 23 juillet 2026, le délai initial pour juger un accusé détenu est le même devant les deux juridictions.
+note: Tableau simplifié : il ne détaille ni les prolongations possibles devant la cour d'assises, ni l'appel, ni la cour d'assises des mineurs.
 
 [Fait établi] La loi prévoit enfin, lorsque la chambre de l'instruction n'a pas statué à temps sur une demande de mise en liberté, un débat contradictoire de rattrapage puis, à titre exceptionnel, un maintien en détention de cinq jours ouvrables au plus décidé par le premier président de la cour d'appel, avant toute remise en liberté d'office [9]. Le Conseil constitutionnel a jugé ce mécanisme conforme à la Constitution (décision n° 2026-909 DC) [4].
 

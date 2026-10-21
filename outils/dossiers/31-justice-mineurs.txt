@@ -38,7 +38,28 @@ corrections: La proposition de loi présentée comme en cours est devenue la loi
 
 [Fait établi] Le ministère présente la réforme comme un moyen de rendre la justice plus réactive et de mieux prendre en compte les victimes, qui peuvent demander une indemnisation dès le jugement sur la culpabilité [1].
 
+[Figure] etapes
+titre: La procédure de principe devant le juge des enfants ou le tribunal pour enfants
+donnees:
+- Audience d'examen de la culpabilité | Dans un délai de trois mois au plus selon le ministère ; la victime peut demander une indemnisation dès ce jugement [1][2]
+- Mise à l'épreuve éducative | Période de suivi du mineur entre la déclaration de culpabilité et la sanction [2]
+- Audience de prononcé de la sanction | Entre six et neuf mois après l'audience sur la culpabilité [2]
+source: Ministère de la Justice, bilan du 13 octobre 2023 [1] ; direction de la protection judiciaire de la jeunesse, fiche technique sur la procédure [2]
+lecture: Le code sépare en principe le jugement de la culpabilité et celui de la sanction, avec une période éducative entre les deux.
+note: Procédure de principe : la juridiction peut, sous conditions, statuer en une audience unique sur la culpabilité et la sanction [2].
+
 [Fait établi] Le code institue une présomption de non-discernement pour les mineurs de moins de 13 ans. Cette présomption est simple : elle peut être renversée par la preuve contraire. Selon le texte, « est capable de discernement le mineur qui a compris et voulu son acte et qui est apte à comprendre le sens de la procédure pénale dont il fait l'objet » ; ce discernement peut être établi par les déclarations de l'enfant et de son entourage, les éléments de l'enquête ou une expertise [13]. Avant 13 ans, seules des mesures éducatives peuvent être prononcées ; au-delà, les peines encourues sont en principe diminuées de moitié, une atténuation qui peut être écartée pour les mineurs de plus de 16 ans dans des circonstances exceptionnelles [13].
+
+[Figure] tableau
+titre: Discernement et réponse pénale selon l'âge du mineur
+colonnes: Âge | Discernement | Ce qui peut être prononcé
+donnees:
+- Moins de 13 ans | Présumé absent, sauf preuve contraire (présomption simple) [13] | Seulement des mesures éducatives [13]
+- À partir de 13 ans | Pas de présomption de non-discernement [13] | Peines encourues en principe diminuées de moitié [13]
+- Plus de 16 ans | Pas de présomption de non-discernement [13] | L'atténuation de moitié peut être écartée dans des circonstances exceptionnelles [13]
+source: Défenseur des droits, rapport de novembre 2025 [13]
+lecture: Avant 13 ans, le mineur est présumé incapable de discernement, et seules des mesures éducatives peuvent être prononcées.
+note: Tableau simplifié. La loi du 23 juin 2025 prévoyait d'assouplir l'écartement de l'atténuation pour les plus de 16 ans ; cet article a été censuré par le Conseil constitutionnel [7].
 
 [À noter] La mise à l'épreuve éducative est la période entre la déclaration de culpabilité et la sanction, pendant laquelle le mineur fait l'objet d'un suivi. L'audience unique juge culpabilité et sanction en une seule fois. L'« excuse de minorité », expression courante mais impropre selon le Défenseur des droits, désigne l'atténuation de la responsabilité pénale selon l'âge [13]. La protection judiciaire de la jeunesse (PJJ) est la direction du ministère de la Justice chargée de mettre en œuvre les mesures éducatives. Un mineur « mis en cause » est un mineur soupçonné dans une affaire élucidée par la police ou la gendarmerie : ce n'est ni une poursuite ni une condamnation.
 

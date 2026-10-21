@@ -22,3 +22,26 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Les données de chaque visuel sont reprises du texte du dossier, avec les mêmes appels de note ; aucune donnée nouvelle n'a été ajoutée au texte. Rendu HTML et mobile non testés (generer.py non lancé, consigne) ; lecture du bloc par figures.lire et figures.rendre vérifiée sans erreur, verifier_dossier.py OK.
+
+- VISUEL V06
+  - Emplacement : Les délais par procédure, après le paragraphe sur le parcours des affaires renvoyées par un juge d'instruction
+  - Question pour le lecteur : Où passe le temps quand une affaire passe par un juge d'instruction ?
+  - Type : schéma en étapes ([Figure] etapes)
+  - Information montrée et appels : Arrivée au parquet, orientation 7,4 mois, instruction et renvoi 46,1 mois, jugement 53,5 mois en moyenne en 2024 [1]
+  - Limite : Moyennes ; périmètre tribunal correctionnel, hors assises et cours criminelles ; ne décrit pas un dossier individuel
+  - Test mobile : à faire
+  - Statut : données vérifiées dans le texte
+
+- VISUEL V07
+  - Emplacement : Des cours criminelles à la loi de 2026, après le paragraphe sur le contenu de la loi selon le CNB
+  - Question pour le lecteur : Qu'est-ce qui distingue une cour d'assises d'une cour criminelle départementale ?
+  - Type : tableau comparatif ([Figure] tableau)
+  - Information montrée et appels : Composition, compétence, délai initial pour juger un accusé détenu [4][8][9]
+  - Limite : Ne détaille ni les prolongations devant les assises, ni l'appel, ni les mineurs ; [9] est une source secondaire
+  - Test mobile : à faire
+  - Statut : données vérifiées dans le texte

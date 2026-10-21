@@ -35,6 +35,16 @@ verifie: 18 octobre 2026
 
 [Fait établi] Le 24 juillet, ils ont été remplacés par des droits fondés sur la section 301, visant 60 économies jugées défaillantes dans l'interdiction des importations issues du travail forcé. Pour l'Union européenne, le droit est calculé pour que le total, droit habituel compris, atteigne 10 % ; si le droit habituel dépasse déjà 10 %, rien ne s'ajoute. Les produits déjà soumis aux droits sectoriels (section 232) ne sont pas concernés [3][4].
 
+[Figure] etapes
+titre: Trois fondements juridiques successifs pour le droit de douane général
+donnees:
+- Loi d'urgence IEEPA : droits dits « réciproques » | La Cour suprême juge le 20 février 2026 que cette loi n'autorise pas le président à imposer des droits de douane [1] | Fait établi
+- Section 122 de la loi de 1974 : droit mondial de 10 % | Limité à 150 jours sauf prolongation par le Congrès ; expiré le 24 juillet 2026 [3] | Fait établi
+- Section 301 : droits visant 60 économies | Depuis le 24 juillet 2026 ; pour l'UE, 10 % au total, droit habituel compris [3][4] | Fait établi
+source: Cour suprême des États-Unis [1] ; Congressional Research Service [3] ; représentant américain au commerce [4]
+lecture: Le droit général appliqué aux produits européens a changé deux fois de base juridique depuis la décision de la Cour suprême.
+note: Les droits sectoriels (acier, aluminium, automobiles, médicaments), fondés sur la section 232, suivent des règles à part et ne sont pas concernés [3][4].
+
 ## Ce qui s'applique aujourd'hui, produit par produit
 
 [Fait établi] Le service de recherche du Congrès américain (CRS) recense les droits en vigueur au 30 septembre 2026. Les principaux qui concernent l'Europe sont les suivants [3] :
@@ -45,6 +55,19 @@ verifie: 18 octobre 2026
 - **Camions** : 25 % ; **autobus** : 10 % [3].
 
 [Fait établi] Le 1er mai 2026, Donald Trump a annoncé qu'il porterait à 25 % les droits sur les voitures et camions européens, en accusant l'UE de ne pas respecter l'accord. La Commission européenne a rejeté cette accusation et indiqué qu'elle garderait « ses options ouvertes » [9]. Nous n'avons pas trouvé de texte publié au Journal officiel américain appliquant ce taux de 25 % aux voitures européennes à la date d'arrêt du dossier ; le tableau du CRS ne distingue pas le taux appliqué à l'UE [3].
+
+[Figure] frise
+titre: L'accord de 2025 et ses suites, des deux côtés de l'Atlantique
+donnees:
+- 21 août 2025 | Déclaration commune : plafond de 15 % tout compris pour la plupart des produits européens [7]. | Fait établi
+- 1er mai 2026 | Donald Trump annonce une hausse à 25 % des droits sur les voitures et camions européens [9]. | Fait établi
+- 1er juin 2026 | Proclamation américaine : plafond de 15 % pour l'UE sur une liste de dérivés de l'acier et de l'aluminium [5]. | Fait établi
+- 16 juin 2026 | Le Parlement européen approuve les textes d'application de l'accord [2]. | Fait établi
+- 25 juin 2026 | Accord final du Conseil de l'UE [2]. | Fait établi
+- 29 septembre 2026 | Droit de 15 % sur les médicaments brevetés européens, contre 100 % par défaut [6]. | Fait établi
+source: Maison-Blanche [5][7], Conseil de l'UE [2], Baker McKenzie (source secondaire) [6], Al Jazeera [9], Congressional Research Service [3]
+lecture: La mise en œuvre de l'accord de 2025 s'est étalée sur plus d'un an, côté américain comme côté européen.
+note: L'annonce du 1er mai n'avait pas été suivie, à la date d'arrêt du dossier, d'un texte publié fixant ce taux pour les voitures européennes [3].
 
 ## Ce que pèse le marché américain
 

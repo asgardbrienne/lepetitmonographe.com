@@ -30,11 +30,35 @@ corrections: Le 13 octobre 2026, la formation des élèves a été précisée (p
 
 [Fait établi] Une note de service publiée au Bulletin officiel n° 6 du 5 février 2026 rend obligatoires deux parcours Pix consacrés à l'IA pour les élèves de 4e, de 2de et de 1re année de CAP [4]. Selon Pix, plus de 1,5 million d'élèves sont concernés chaque année à partir de 2026 [5]. Ces parcours portent sur le fonctionnement et les enjeux de l'IA et sur un usage éclairé de l'IA générative [5].
 
+[Figure] tableau
+titre: Ce que prévoient les textes officiels pour les élèves
+colonnes: Situation | Ce que prévoient le cadre d'usage ou la note de service
+donnees:
+- Élèves du premier degré | Sensibilisation, sans manipulation directe d'IA générative [2]
+- Élèves à partir de la 4e | Usage pédagogique autorisé, en classe et avec l'enseignant [2]
+- Élèves de 4e, de 2de et de 1re année de CAP | Deux parcours Pix sur l'IA obligatoires depuis le Bulletin officiel du 5 février 2026 [4][5]
+- Devoirs faits avec l'IA sans autorisation | Assimilés à une fraude [2]
+- Services d'IA grand public | Tolérés à condition de n'y saisir aucune donnée personnelle ni sensible [2]
+source: Cadre d'usage de l'IA en éducation, 14 juin 2025, présenté par Localtis (source secondaire) [2] ; Bulletin officiel n° 6 du 5 février 2026 [4] ; Pix [5]
+lecture: L'usage de l'IA générative par les élèves eux-mêmes n'est autorisé qu'à partir de la 4e, en classe et accompagné.
+note: Synthèse simplifiée ; le cadre couvre aussi les usages administratifs et ceux des personnels.
+
 [À noter] Certaines publications évoquent un enseignement hebdomadaire dédié à l'IA en 2de à partir de la rentrée 2027. Nous ne l'avons pas trouvé dans un texte officiel : cette mesure n'est pas établie ici.
 
 ## Ce que montrent les études
 
 [Fait établi] PISA 2025, dont les résultats ont été publiés par l'OCDE en septembre 2026, porte sur plus de 760 000 élèves de 15 ans dans 91 pays et économies [6][8]. En France, 37 % des élèves déclarent utiliser au moins une fois par semaine des chatbots d'IA pour les aider à apprendre (moyenne de l'OCDE : 46 %), et 15 % disent ne jamais ou presque jamais en utiliser pour les tâches scolaires étudiées (moyenne de l'OCDE : 14 %) [6].
+
+[Figure] groupes
+titre: Les élèves français utilisent moins souvent les chatbots d'IA pour apprendre que la moyenne de l'OCDE
+unite: Part des élèves de 15 ans, en %, PISA 2025
+series: France | Moyenne de l'OCDE
+donnees:
+- Utilisent un chatbot d'IA au moins une fois par semaine pour apprendre | 37 | 46
+- N'en utilisent jamais ou presque jamais pour les tâches scolaires étudiées | 15 | 14
+source: OCDE, Résultats du PISA 2025, note pays France, septembre 2026 [6]
+lecture: En 2025, 37 % des élèves français de 15 ans déclarent utiliser un chatbot d'IA au moins une fois par semaine pour apprendre, contre 46 % en moyenne dans l'OCDE.
+note: Déclarations des élèves. Les deux lignes correspondent à deux questions différentes : elles ne s'additionnent pas.
 
 [Fait établi] Après prise en compte du milieu socio-économique, les élèves qui n'utilisent jamais l'IA obtiennent en moyenne de meilleurs résultats en sciences que les utilisateurs ; les usages consistant à résumer des textes ou rédiger des devoirs sont associés à des performances plus faibles [8]. L'OCDE souligne que cette association ne permet pas d'établir de relation causale ; comme le relève la chercheuse Margarida Romero, des élèves en difficulté peuvent, par exemple, recourir davantage à l'IA [7]. Les élèves qui utilisent l'IA chaque semaine pour apprendre devancent toutefois les non-utilisateurs, avec un écart limité, et l'avantage est plus net chez ceux qui sont régulièrement invités à évaluer la qualité des réponses de l'IA [8].
 

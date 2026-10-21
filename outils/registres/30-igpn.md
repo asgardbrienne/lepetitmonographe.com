@@ -23,3 +23,26 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Les données de chaque visuel sont reprises du texte du dossier, avec les mêmes appels de note ; aucune donnée nouvelle n'a été ajoutée au texte. Rendu HTML et mobile non testés (generer.py non lancé, consigne) ; lecture du bloc par figures.lire et figures.rendre vérifiée sans erreur, verifier_dossier.py OK.
+
+- VISUEL V05
+  - Emplacement : Comment fonctionne l'IGPN, après l'encadré « À noter » sur les deux types d'enquêtes
+  - Question pour le lecteur : Qui saisit l'IGPN et qui décide des suites ?
+  - Type : arbre ([Figure] arbre)
+  - Information montrée et appels : Enquête judiciaire confiée par un magistrat ; enquête administrative demandée par le ministre, le DGPN ou le préfet de police ; l'IGPN propose, le DGPN ou le préfet décide [7]
+  - Limite : Simplifié : exceptions d'auto-saisine et part de 10 % des enquêtes administratives données en note ; les suites judiciaires viennent de l'encadré, sans appel de note
+  - Test mobile : à faire
+  - Statut : données vérifiées dans le texte
+
+- VISUEL V06
+  - Emplacement : Des enquêtes aux sanctions, après le paragraphe sur les propositions de 2024
+  - Question pour le lecteur : Que propose l'IGPN pour les agents visés ?
+  - Type : barres horizontales ([Figure] barres-h)
+  - Information montrée et appels : 89 classements, 90 sanctions du premier groupe, 85 renvois en conseil de discipline en 2024 [7]
+  - Limite : Propositions, pas sanctions prononcées ; 23 agents pour lesquels le DGPN n'a pas suivi
+  - Test mobile : à faire
+  - Statut : données vérifiées dans le texte

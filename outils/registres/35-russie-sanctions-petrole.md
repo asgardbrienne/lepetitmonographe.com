@@ -27,3 +27,17 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Les données de chaque visuel sont reprises du texte du dossier, avec les mêmes appels de note ; aucune donnée nouvelle n'a été ajoutée au texte. Rendu HTML et mobile non testés (generer.py non lancé, consigne) ; lecture du bloc par figures.lire et figures.rendre vérifiée sans erreur, verifier_dossier.py OK.
+
+- VISUEL V02
+  - Emplacement : Le décret du 16 octobre, après le paragraphe sur la surveillance confiée au représentant au commerce
+  - Question pour le lecteur : Qu'est-ce qui est écarté et qu'est-ce qui reste ?
+  - Type : tableau comparatif ([Figure] tableau)
+  - Information montrée et appels : Sanctions et droits de la loi Graham écartés [1][2][5], sanctions antérieures maintenues [1][21], licence diesel [3], sanctions de l'UE [6]
+  - Limite : Simplifié ; dérogations révocables ; légalité de la licence contestée, en note
+  - Test mobile : à faire
+  - Statut : données vérifiées dans le texte

@@ -22,3 +22,26 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitres 8 e
 
 ## Verdict
 Publiable.
+
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Les données de chaque visuel sont reprises du texte du dossier, avec les mêmes appels de note ; aucune donnée nouvelle n'a été ajoutée au texte. Rendu HTML et mobile non testés (generer.py non lancé, consigne) ; lecture du bloc par figures.lire et figures.rendre vérifiée sans erreur, verifier_dossier.py OK.
+
+- VISUEL V02
+  - Emplacement : La reconnaissance faciale, après le paragraphe sur la portée de l'étude du NIST
+  - Question pour le lecteur : Que prouve une correspondance ADN ou faciale, et que ne prouve-t-elle pas ?
+  - Type : tableau comparatif ([Figure] tableau)
+  - Information montrée et appels : Ce qu'indiquent et ne disent pas un profil ADN et une comparaison faciale, limites documentées [1][2][12]
+  - Limite : Ne mesure aucun taux d'erreur en France (aucune donnée publique) ; ne suggère la culpabilité de personne
+  - Test mobile : à faire
+  - Statut : données vérifiées dans le texte
+
+- VISUEL V03
+  - Emplacement : Le cadre européen et français, après le paragraphe sur Clearview AI
+  - Question pour le lecteur : Quelles règles s'appliquent selon l'usage de la reconnaissance faciale ?
+  - Type : tableau comparatif ([Figure] tableau)
+  - Information montrée et appels : Temps réel (AI Act) [13], TAJ (Conseil d'État) [7], JO 2024 [14], Clearview (CNIL) [15]
+  - Limite : Simplifié ; les usages lors des contrôles restent des allégations [4][6], signalées en note
+  - Test mobile : à faire
+  - Statut : données vérifiées dans le texte
