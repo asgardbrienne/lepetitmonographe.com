@@ -39,6 +39,36 @@ voir_aussi: dossier-parole-violences-sexuelles.html, dossier-temoignage-erreur-s
 
 [Interprétation] Seules la relaxe et l'acquittement sont des jugements sur la culpabilité rendus après un procès. Le classement sans suite et le non-lieu interviennent avant tout procès. La prescription n'est pas un jugement sur les faits : elle constate qu'il est trop tard pour poursuivre. Présenter une affaire prescrite comme une affaire dans laquelle la personne aurait été « blanchie », ou une affaire classée comme un acquittement, est donc inexact.
 
+[Figure] arbre
+titre: Où une procédure peut s'arrêter sans condamnation
+donnees:
+- Faits signalés au procureur de la République (plainte, signalement)
+  - Classement sans suite : décision du procureur, pas d'un juge, révisable tant que les faits ne sont pas prescrits [3]
+  - Poursuites engagées
+    - Information judiciaire confiée à un juge d'instruction
+      - Non-lieu : pas de charges suffisantes, pas d'auteur identifié ou pas d'infraction ; reprise possible sur charges nouvelles [2]
+      - Renvoi devant un tribunal ou une cour
+    - Procès devant un tribunal ou une cour
+      - Délit ou contravention : relaxe possible par le tribunal correctionnel ou de police [13]
+      - Crime : acquittement possible par la cour d'assises ou la cour criminelle [1]
+      - Ou condamnation
+- Délai de prescription écoulé : le procureur ne peut plus engager de poursuites [3][4]
+source: Service public, fiches sur l'acquittement, le non-lieu, le classement sans suite et la prescription [1][2][3][4] et sur le tribunal correctionnel [13]
+lecture: Le classement sans suite et le non-lieu interviennent avant tout procès ; seules la relaxe et l'acquittement jugent la culpabilité après un procès ; la prescription ne juge rien.
+note: Schéma simplifié : il ne montre ni les voies de recours (appel, pourvoi) ni les procédures alternatives aux poursuites.
+
+[Figure] tableau
+titre: Ce que dit chaque décision, et ce qu'elle ne dit pas
+colonnes: Décision | Qui la prend | Ce qu'elle établit | Ce qu'elle ne dit pas
+donnees:
+- Classement sans suite | Le procureur | Les poursuites ne sont pas engagées, pour l'instant [3] | Que les faits n'ont pas eu lieu ; elle peut être revue
+- Non-lieu | Le juge d'instruction | Il n'y a pas assez de charges, pas d'auteur identifié ou pas d'infraction [2] | Que les faits n'ont pas eu lieu, sauf si c'est le motif retenu ; reprise possible
+- Relaxe | Le tribunal correctionnel ou de police | La culpabilité n'est pas établie [13] | Que la personne qui a dénoncé les faits a menti [7]
+- Acquittement | La cour d'assises ou la cour criminelle | La culpabilité n'est pas établie ; la personne ne peut pas être traitée comme coupable [1][6] | Toujours que les faits n'ont pas eu lieu
+- Prescription | Constat que le délai est écoulé | Il est trop tard pour poursuivre [3][4] | Rien sur l'existence ou l'inexistence des faits
+source: Service public [1][2][3][4][13], Cour européenne des droits de l'homme, arrêts Allen c. Royaume-Uni et Klouvi c. France [6][7]
+lecture: Aucune des cinq décisions ne permet, à elle seule, de conclure que la personne qui a dénoncé les faits a menti, ni que la personne mise en cause est coupable.
+
 ## Ce qu'un acquittement établit
 
 [Fait établi] La présomption d'innocence est garantie notamment par l'article préliminaire du code de procédure pénale, l'article 9 de la Déclaration des droits de l'homme et du citoyen, l'article 9-1 du code civil et l'article 6 § 2 de la Convention européenne des droits de l'homme [14]. Devant la cour d'assises, l'article 304 du code de procédure pénale, qui fixe le serment des jurés, rappelle que « l'accusé est présumé innocent et que le doute doit lui profiter » [5].

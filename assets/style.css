@@ -770,3 +770,34 @@ a:hover .fleche { transform: translateX(3px); }
 .liste-mesures { margin: 0 0 18px; padding-left: 1.2em; display: grid; gap: 8px; max-width: 760px; }
 
 .sources-chiffres { margin: 18px 0 0; font-size: .8125rem; color: var(--encre-douce); max-width: 860px; }
+
+/* Schémas : étapes (organigramme linéaire), arbre de décision, tableau comparatif */
+.etapes { list-style: none; padding: 0 !important; margin: 0; display: grid; gap: 0; counter-reset: none; }
+.etapes li { display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 14px; margin: 0; position: relative; padding-bottom: 22px; }
+.etapes li:last-child { padding-bottom: 0; }
+.etapes li:not(:last-child)::after { content: ""; position: absolute; left: 16px; top: 34px; bottom: 2px; width: 2px; background: var(--or); }
+.etapes li:not(:last-child)::before { content: ""; position: absolute; left: 12px; bottom: 0; border: 5px solid transparent; border-top: 7px solid var(--or); }
+.etape-num { width: 34px; height: 34px; border-radius: 50%; background: var(--nuit); color: #fff; display: grid; place-items: center; font: 700 .875rem/1 var(--sans); }
+.etape-boite { border: 1px solid var(--filet-fort); background: var(--fond, transparent); padding: 10px 14px; display: grid; gap: 4px; font-size: .875rem; line-height: 1.5; color: var(--encre); }
+.etape-boite strong { font-weight: 700; }
+.etape-boite span { color: var(--encre-douce); }
+.etape-boite .frise-statut { justify-self: start; margin-top: 4px; }
+.arbre ul { list-style: none; margin: 0; padding: 0 0 0 22px !important; position: relative; }
+.arbre > ul { padding-left: 0 !important; }
+.arbre li { margin: 0; padding: 6px 0 6px 18px; position: relative; }
+.arbre > ul > li { padding-left: 0; }
+.arbre ul ul li::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; border-left: 2px solid var(--filet-fort); }
+.arbre ul ul li:last-child::before { bottom: auto; height: 1.35em; }
+.arbre ul ul li::after { content: ""; position: absolute; left: 0; top: 1.35em; width: 14px; border-top: 2px solid var(--filet-fort); }
+.arbre-noeud { display: inline-block; border: 1px solid var(--filet-fort); padding: 6px 12px; font-size: .875rem; line-height: 1.45; color: var(--encre); background: var(--blanc); }
+.arbre > ul > li > .arbre-noeud { background: var(--nuit); color: #fff; border-color: var(--nuit); font-weight: 600; }
+.tableau-comparatif th[scope="row"] { font-weight: 600; text-align: left; }
+.tableau-comparatif td, .tableau-comparatif th { vertical-align: top; white-space: normal !important; }
+@media (max-width: 719px) {
+  .tableau-comparatif thead { display: none; }
+  .tableau-comparatif, .tableau-comparatif tbody, .tableau-comparatif tr, .tableau-comparatif th, .tableau-comparatif td { display: block; width: auto; }
+  .tableau-comparatif tr { border-top: 1px solid var(--filet-fort); padding: 12px 0; }
+  .tableau-comparatif th[scope="row"] { font-size: 1rem; padding: 0 0 6px; border: 0; }
+  .tableau-comparatif td { padding: 4px 0; border: 0; }
+  .tableau-comparatif td::before { content: attr(data-label); display: block; font: 700 .625rem/1.4 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--or-texte); }
+}

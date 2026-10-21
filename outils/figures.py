@@ -14,7 +14,14 @@ Un graphique s'écrit dans le fichier d'un dossier comme un bloc, sans ligne vid
     note: Limite méthodologique, rupture de série (facultatif).
 
 Types : barres, barres-h (horizontales, valeurs négatives possibles), groupes (deux séries
-côte à côte), frise (lignes « - date | événement | statut »).
+côte à côte), frise (lignes « - date | événement | statut »), et trois schémas :
+  etapes   procédure ou mécanisme en étapes successives (organigramme linéaire) :
+           « - Intitulé court | explication | statut facultatif »
+  arbre    arbre de décision ou organigramme hiérarchique ; l'indentation (deux espaces
+           par niveau) donne la hiérarchie : « - Question ? », «  - Oui : conséquence »
+  tableau  tableau comparatif toujours visible : « colonnes: A | B | C » puis
+           « - ligne | valeur B | valeur C » (la première cellule sert d'en-tête de ligne)
+Les schémas ne contiennent que des éléments déjà établis et sourcés dans le texte.
 Règles de la charte : barres partant de zéro, une seule échelle, étiquettes directes,
 légende dès deux séries, tableau des données, source et date toujours visibles.
 """
@@ -34,11 +41,12 @@ def _fr(v, modele):
 
 def lire(bloc):
     lignes = bloc.split("\n")
-    fig = {"type": lignes[0].split("]", 1)[1].strip() or "barres", "donnees": []}
+    fig = {"type": lignes[0].split("]", 1)[1].strip() or "barres", "donnees": [], "niveaux": []}
     dans_donnees = False
     for l in lignes[1:]:
-        if l.startswith("- ") and dans_donnees:
-            fig["donnees"].append([c.strip() for c in l[2:].split("|")])
+        if dans_donnees and l.lstrip().startswith("- "):
+            fig["niveaux"].append((len(l) - len(l.lstrip(" "))) // 2)
+            fig["donnees"].append([c.strip() for c in l.lstrip()[2:].split("|")])
             continue
         cle, _, val = l.partition(":")
         cle = cle.strip()
@@ -55,7 +63,37 @@ def rendre(fig, numero, inline):
     corps, tableau, legende = "", "", ""
     prevision = any(c.endswith("*") for r in fig["donnees"] for c in r[1:])
 
-    if t == "frise":
+    if t == "etapes":
+        items = []
+        for n, r in enumerate(fig["donnees"], 1):
+            nom, expl = r[0], r[1] if len(r) > 1 else ""
+            statut = r[2] if len(r) > 2 else ""
+            cls = " fait-etabli" if statut.lower() == "fait établi" else ""
+            badge = f'<span class="frise-statut{cls}">{html.escape(statut)}</span>' if statut else ""
+            items.append(f'<li><span class="etape-num" aria-hidden="true">{n}</span><div class="etape-boite"><strong>{inline(nom)}</strong>{f"<span>{inline(expl)}</span>" if expl else ""}{badge}</div></li>')
+        corps = f'<ol class="etapes">{"".join(items)}</ol>'
+    elif t == "arbre":
+        noeuds = [(niv, inline(" | ".join(r))) for niv, r in zip(fig["niveaux"], fig["donnees"])]
+
+        def branche(i, niv):
+            h = "<ul>"
+            while i < len(noeuds) and noeuds[i][0] == niv:
+                texte = noeuds[i][1]
+                i += 1
+                enfants = ""
+                if i < len(noeuds) and noeuds[i][0] > niv:
+                    enfants, i = branche(i, noeuds[i][0])
+                h += f'<li><span class="arbre-noeud">{texte}</span>{enfants}</li>'
+            return h + "</ul>", i
+
+        corps = f'<div class="arbre">{branche(0, noeuds[0][0] if noeuds else 0)[0]}</div>'
+    elif t == "tableau":
+        cols = [c.strip() for c in fig.get("colonnes", "").split("|")]
+        tete = "".join(f'<th scope="col">{inline(c)}</th>' for c in cols)
+        corps_t = "".join("<tr>" + f'<th scope="row">{inline(r[0])}</th>' + "".join(f'<td data-label="{html.escape(re.sub(r"<[^>]+>", "", cols[k + 1]) if k + 1 < len(cols) else "")}">{inline(c)}</td>' for k, c in enumerate(r[1:])) + "</tr>"
+                          for r in fig["donnees"])
+        corps = f'<div class="tableau-defilant"><table class="tableau-donnees tableau-comparatif"><thead><tr>{tete}</tr></thead><tbody>{corps_t}</tbody></table></div>'
+    elif t == "frise":
         items = []
         for r in fig["donnees"]:
             date, evt = r[0], r[1] if len(r) > 1 else ""
@@ -118,9 +156,10 @@ def rendre(fig, numero, inline):
         pied.append(f'<p><strong>Note :</strong> {inline(fig["note"])}</p>')
     if fig.get("source"):
         pied.append(f'<p><strong>Source :</strong> {inline(fig["source"])}</p>')
-    classe = "graphique graphique-frise" if t == "frise" else "graphique"
+    classe = "graphique graphique-frise" if t == "frise" else f"graphique graphique-{t}"
+    etiquette = {"frise": "Chronologie", "etapes": "Schéma", "arbre": "Schéma", "tableau": "Tableau"}.get(t, "Figure")
     return f'''        <figure class="{classe}">
-          <figcaption class="graphique-tete"><span class="graphique-num">{"Chronologie" if t == "frise" else "Figure"} {numero:02d}</span><span class="graphique-titre">{titre}</span>{f'<span class="graphique-unite">{unite}</span>' if unite else ""}</figcaption>
+          <figcaption class="graphique-tete"><span class="graphique-num">{etiquette} {numero:02d}</span><span class="graphique-titre">{titre}</span>{f'<span class="graphique-unite">{unite}</span>' if unite else ""}</figcaption>
           {legende}{corps}
           <div class="graphique-pied">{"".join(pied)}</div>
           {tableau}

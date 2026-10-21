@@ -51,7 +51,7 @@ Le référentiel complet est `outils/bible-editoriale-v1.0.md`. Il s'applique à
 
 ## Graphiques et chronologies
 
-- Les graphiques s'écrivent dans le fichier du dossier avec un bloc `[Figure] barres`, `barres-h`, `groupes` ou `frise` (syntaxe détaillée en tête de `outils/figures.py`).
+- Les graphiques et schémas s'écrivent dans le fichier du dossier avec un bloc `[Figure] barres`, `barres-h`, `groupes`, `frise`, `etapes` (procédure, organigramme linéaire), `arbre` (arbre de décision, organigramme hiérarchique) ou `tableau` (tableau comparatif) ; syntaxe détaillée en tête de `outils/figures.py`. Chaque dossier doit comporter au moins un visuel informatif, sauf impossibilité motivée dans son registre.
 - Une figure ne reprend que des chiffres déjà vérifiés et sourcés dans le texte du dossier, avec les mêmes appels de note. Elle porte un titre informatif, son unité, son champ et sa période, une phrase de lecture, sa source datée et, si besoin, une note de limite.
 - Barres partant de zéro, une seule échelle, pas d'effet 3D. Les prévisions sont hachurées et signalées en légende. Un axe non continu (années manquantes) est signalé en note.
 - Ne pas mettre côte à côte des chiffres de méthodes ou de périmètres différents sans le dire dans la note.
