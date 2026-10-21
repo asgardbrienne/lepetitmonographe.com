@@ -312,6 +312,7 @@ livres = tete_visuel("Monographies", "Monographies",
         <p>Une monographie est une « étude détaillée et complète d'un sujet particulier relativement restreint et se présentant normalement en un seul ouvrage », selon la définition de l'<a href="https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8353257/monographie" rel="noopener">Office québécois de la langue française</a>. Autrement dit : un livre entier consacré à un seul sujet, traité à fond.</p>
         <p>Le mot a aussi un sens plus courant dans le monde de l'art : un ouvrage <a href="https://www.lalanguefrancaise.com/dictionnaire/definition/monographie" rel="noopener">consacré à une personne</a>, par exemple à l'œuvre d'un peintre ou d'un photographe. C'est pourquoi une recherche sur Internet fait surtout apparaître de beaux livres illustrés. <strong>Les monographies du Petit Monographe ne sont pas des livres de photographies.</strong></p>
         <p>Ce sont des livres documentaires : un sujet d'actualité ou une affaire judiciaire, repris dans son ensemble, avec la chronologie, les chiffres, les décisions, les arguments de chaque camp et toutes les sources. Ils suivent la même <a href="methode.html">méthode</a> que les dossiers du site : faits établis et interprétations séparés, sources citées et datées, incertitudes signalées.</p>
+        <p>Les monographies sont écrites par la directrice de la publication du site, S. Enault, qui perçoit les revenus de leurs ventes.</p>
       </div>""", "definition") + "\n" + section(f"""      <div class="collection c-pouvoirs">
         <div class="titre-section"><h2>Collection Pouvoirs &amp; Société</h2></div>
         <p class="intro">Politique, économie, institutions et grands débats français.</p>
@@ -402,6 +403,7 @@ page("methode.html", "Notre méthode", "Les douze règles éditoriales du Petit 
 # ---------- À propos ----------
 apropos = tete("À propos", "Le Petit Monographe", "Une publication indépendante, sans affiliation partisane.") + "\n" + section("""      <div class="prose">
         <p>Le Petit Monographe publie des dossiers et des monographies documentaires consacrés aux grands sujets politiques, économiques, sociaux et judiciaires contemporains. Une monographie est un livre consacré à un seul sujet, étudié en détail ; ce ne sont pas des livres de photographies (<a href="livres.html#definition">en savoir plus</a>).</p>
+        <p>Le site est dirigé par S. Enault, directrice de la publication, qui écrit aussi les monographies et perçoit les revenus de leurs ventes. Les dossiers sont signés Le Petit Monographe.</p>
         <p>Il n'est lié à aucun parti, mouvement, syndicat ou candidat, et ne soutient aucune candidature. Traiter un sujet politique n'est pas prendre parti : les mêmes règles s'appliquent quel que soit le camp concerné.</p>
         <p>La méthode repose sur un principe simple : distinguer ce qui est établi de ce qui relève de l'interprétation, du débat ou de l'hypothèse. Chaque dossier s'appuie sur des sources identifiées et datées : données publiques, rapports officiels, décisions de justice, travaux parlementaires, archives, auditions et autres documents vérifiables. Lorsque les sources divergent ou qu'un élément demeure incertain, cette incertitude est signalée.</p>
         <p>Dans les affaires judiciaires, les faits établis, les accusations, les témoignages, les expertises et les hypothèses sont présentés séparément, dans le respect de la présomption d'innocence et de l'état réel des procédures.</p>
@@ -435,15 +437,15 @@ page("contact.html", "Contact", "Contacter Le Petit Monographe : questions de le
 
 # ---------- Mentions légales ----------
 mentions = tete("Informations légales", "Mentions légales", "") + "\n" + section(f"""      <div class="prose">
-        <h2>Éditeur du site</h2>
-        <p>Ce site est édité par une personne physique, à titre non professionnel. Conformément à la loi pour la confiance dans l'économie numérique, son identité a été communiquée à l'hébergeur et n'est pas rendue publique.</p>
-        <p>Contact : voir la page <a href="contact.html">Contact</a>.</p>
+        <h2>Éditeur et directrice de la publication</h2>
+        <p>Le Petit Monographe est édité par une personne physique. Directrice de la publication : S. Enault.</p>
+        <p>Contact : <a href="mailto:lepetitmonographe@gmail.com">lepetitmonographe@gmail.com</a> (voir aussi la page <a href="contact.html">Contact</a>).</p>
         <h2>Hébergement</h2>
         <p>GitHub, Inc. (service GitHub Pages), 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, États-Unis. Site : <a href="https://github.com">github.com</a>.</p>
         <h2>Crédits photographiques</h2>
         <p>Les photographies proviennent de Wikimedia Commons et de Flickr, sous licence libre (domaine public, CC0, CC BY ou CC BY-SA). L'auteur, la licence et la source de chaque photo sont indiqués sous celle-ci, avec un lien vers sa page d'origine.</p>
-        <h2>Liens vers Amazon</h2>
-        <p>Les liens vers Amazon présents sur la page Livres et dans certains dossiers ne sont pas des liens affiliés : le site ne perçoit aucune commission sur les achats effectués à partir de ces liens.</p>
+        <h2>Monographies et liens vers Amazon</h2>
+        <p>Les monographies présentées sur ce site sont écrites par sa directrice de la publication, qui perçoit les revenus de leurs ventes. Les liens vers Amazon ne sont pas des liens affiliés : le site ne perçoit aucune commission sur les autres achats effectués à partir de ces liens.</p>
       </div>""")
 page("mentions-legales.html", "Mentions légales", "Mentions légales du site Le Petit Monographe.", mentions, noindex=True)
 
