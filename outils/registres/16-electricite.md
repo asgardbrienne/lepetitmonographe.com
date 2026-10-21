@@ -17,3 +17,23 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitre 8). 
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Rendu HTML non régénéré ni testé (generer.py non lancé, consigne) ; lecture des blocs testée avec figures.lire et figures.rendre ; verifier_dossier.py : OK.
+
+- V01
+  - Emplacement : fin de la section « Le tarif réglementé ».
+  - Question pour le lecteur : Comment le tarif réglementé a-t-il évolué en 2026 ?
+  - Type : [Figure] frise.
+  - Informations montrées et appels de note : propositions de la CRE, décisions et entrées en vigueur des 1er février et 1er août 2026 [1][4][5][6].
+  - Limite : variations moyennes ; intervalles non à l'échelle.
+  - Statut : données vérifiées dans le texte du dossier, mêmes appels de note.
+
+- V02
+  - Emplacement : après le paragraphe sur les revenus estimés du nucléaire en 2026.
+  - Question pour le lecteur : Quand le versement nucléaire universel reverse-t-il quelque chose ?
+  - Type : [Figure] arbre.
+  - Informations montrées et appels de note : tarifs de 78 et 110 euros le MWh, revenus estimés de 66,08 euros le MWh, réduction nulle en 2026 [2].
+  - Limite : schéma simplifié ; calcul de la taxe non détaillé.
+  - Statut : données vérifiées dans le texte du dossier, mêmes appels de note.

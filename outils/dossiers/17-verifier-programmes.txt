@@ -28,6 +28,18 @@ corrections: Citation attribuée à l'Institut Montaigne non retrouvée, remplac
 
 [Interprétation] Les écarts entre chiffrages viennent le plus souvent de quatre choix : la période retenue (première année ou régime de croisière), le point de comparaison (situation actuelle ou évolution prévue sans la mesure), la prise en compte des réactions des ménages et des entreprises, et le traitement des recettes annoncées, souvent incertaines.
 
+[Figure] tableau
+titre: Quatre choix qui font varier le chiffrage d'un même programme
+colonnes: Choix | Question à poser | Choix annoncé par l'Institut Montaigne pour les législatives de 2024
+donnees:
+- Période | Première année ou régime de croisière ? | Impact immédiat sur les finances publiques, en priorité [3]
+- Point de comparaison | Situation actuelle ou évolution prévue sans la mesure ? | Non repris dans ce dossier
+- Comportements | Les réactions des ménages et des entreprises sont-elles prises en compte ? | Certains effets macroéconomiques, dans la mesure du possible [3]
+- Recettes annoncées | Sont-elles chiffrées, réalistes, déjà comptées par d'autres mesures ? | Non repris dans ce dossier
+source: Analyse du Petit Monographe (section « Pourquoi les chiffrages divergent ») ; Institut Montaigne, communiqué du 5 juillet 2024 [3]
+lecture: Deux chiffrages d'une même mesure peuvent différer sans erreur de calcul si leurs auteurs ne font pas les mêmes choix sur ces quatre points.
+note: Ces quatre choix relèvent de l'interprétation du Petit Monographe, pas d'une classification officielle.
+
 ## La grille que nous appliquerons
 
 - **Le coût brut** : ce que coûte la mesure la première année et en régime de croisière, avant tout effet sur l'économie.

@@ -18,3 +18,31 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitre 8). 
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Rendu HTML non régénéré ni testé (generer.py non lancé, consigne) ; lecture des blocs testée avec figures.lire et figures.rendre ; verifier_dossier.py : OK.
+
+- V01
+  - Emplacement : après le [À noter] de la section « La santé ».
+  - Question pour le lecteur : Quel épisode de l'été 2026 s'est accompagné du plus de décès en excès ?
+  - Type : [Figure] barres-h.
+  - Informations montrées et appels de note : 5 764, 1 243 et 817 décès en excès au moins, par épisode [1][2].
+  - Limite : estimations préliminaires, périodes et départements différents, non additionnables ; décès en excès pas tous dus à la chaleur.
+  - Statut : données vérifiées dans le texte du dossier, mêmes appels de note.
+
+- V02
+  - Emplacement : après le paragraphe sur les projections de France Assureurs.
+  - Question pour le lecteur : De combien les assureurs projettent-ils la hausse des sinistres ?
+  - Type : [Figure] barres (projection hachurée).
+  - Informations montrées et appels de note : 73,4 milliards (1989-2019) et 143 milliards projetés (2020-2050) [4] ; chiffres revus sur la page de France Assureurs le 21 octobre 2026.
+  - Limite : projection et non mesure ; euros courants ou constants non précisés par la source.
+  - Statut : données vérifiées dans le texte du dossier, mêmes appels de note.
+
+- V03
+  - Emplacement : après le paragraphe sur le retrait-gonflement des argiles et la surprime.
+  - Question pour le lecteur : Comment la surprime catastrophes naturelles a-t-elle changé ?
+  - Type : [Figure] tableau.
+  - Informations montrées et appels de note : taux de 12 à 20 % et de 6 à 9 % au 1er janvier 2025 ; 1,2 milliard attendu [6].
+  - Limite : le montant de 1,2 milliard est une prévision du Gouvernement.
+  - Statut : données vérifiées dans le texte du dossier, mêmes appels de note.

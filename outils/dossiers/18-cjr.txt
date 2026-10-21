@@ -26,11 +26,33 @@ corrections: Le 13 octobre 2026, le chiffre de « plus de 22 000 requêtes » at
 
 [Fait établi] La CJR a été instaurée par la révision constitutionnelle du 27 juillet 1993 [3]. Elle est composée de quinze juges : douze parlementaires (six députés et six sénateurs) et trois magistrats du siège de la Cour de cassation, dont l'un la préside [3]. Les plaintes de toute personne s'estimant lésée sont d'abord examinées par une commission des requêtes (trois magistrats de la Cour de cassation, deux conseillers d'État, deux conseillers maîtres à la Cour des comptes), qui peut les classer ou les transmettre au procureur général ; une commission d'instruction de trois conseillers à la Cour de cassation instruit ensuite les affaires retenues [3].
 
+[Figure] etapes
+titre: Le parcours d'une plainte devant la Cour de justice de la République
+donnees:
+- Plainte | Déposée par toute personne s'estimant lésée [3]
+- Commission des requêtes | Sept magistrats et conseillers (Cour de cassation, Conseil d'État, Cour des comptes) ; elle classe la plainte ou la transmet au procureur général [3]
+- Commission d'instruction | Trois conseillers à la Cour de cassation instruisent les affaires retenues [3]
+- Jugement par la Cour | Quinze juges : six députés, six sénateurs et trois magistrats du siège de la Cour de cassation, dont le président [3]
+source: Sénat, avis n° 114 (2017-2018), tome XI, 23 novembre 2017 [3]
+lecture: Une plainte n'arrive devant les quinze juges de la Cour qu'après le filtre de la commission des requêtes et une instruction.
+note: Schéma simplifié : il ne détaille ni le rôle du procureur général entre les étapes ni le pourvoi en cassation. De la création de la Cour au 1er novembre 2017, la commission des requêtes a reçu 1 439 plaintes et émis 40 avis favorables à la saisine de la commission d'instruction [3].
+
 [Fait établi] Selon un avis du Sénat de novembre 2017, la commission des requêtes avait été saisie, entre la création de la Cour et le 1er novembre 2017, de 1 439 plaintes et avait émis 40 avis favorables à la saisine de la commission d'instruction, sans compter les requêtes déclarées irrecevables d'emblée par le secrétariat général [3]. Selon Cécile Guérin-Bargues, professeure de droit public, la CJR est « sollicitée de manière croissante » et reçoit depuis la fin de la pandémie de Covid-19 un flux quasi continu de plaintes [7] ; mais nous n'avons pas trouvé de bilan chiffré récent publié sur une source accessible : ce total actualisé n'est donc pas établi ici.
 
 ## Les décisions
 
 [Fait établi] Selon France 24, la CJR a rendu quatorze jugements en trente ans : sept relaxes, deux condamnations assorties d'une dispense de peine et cinq condamnations à de la prison avec sursis, sans aucune peine de prison ferme [1]. L'INA, qui compte douze ministres et secrétaires d'État jugés, relève six relaxes, deux dispenses de peine et quatre condamnations avec sursis [4]. Nous n'avons pas pu identifier, dans les décisions connues, la cinquième condamnation avec sursis du décompte de France 24 ; ce point n'est pas établi. Les décomptes varient selon qu'on compte les personnes ou les affaires : en 2010, par exemple, un même ancien ministre a été condamné dans une affaire et relaxé dans deux autres [5]. Un décompte par personne, publié par Le Club des juristes au début du procès de novembre 2023, recensait dix anciens membres du gouvernement jugés : quatre relaxes et six condamnations, dont deux avec dispense de peine [5].
+
+[Figure] tableau
+titre: Les décisions de la CJR : trois décomptes publiés en novembre 2023
+colonnes: Décompte | Ce qui est compté | Relaxes | Condamnations
+donnees:
+- France 24, novembre 2023 [1] | 14 jugements | 7 | 7 : 5 avec sursis, 2 avec dispense de peine
+- INA, mis à jour le 29 novembre 2023 [4] | 12 ministres et secrétaires d'État jugés | 6 | 6 : 4 avec sursis, 2 avec dispense de peine
+- Le Club des juristes, 7 novembre 2023 [5] | 10 anciens membres du gouvernement jugés | 4 | 6, dont 2 avec dispense de peine
+source: France 24 [1], INA [4], Le Club des juristes [5]
+lecture: Les décomptes diffèrent selon qu'ils comptent des jugements ou des personnes ; aucune peine de prison ferme n'a été prononcée, selon France 24 et l'INA.
+note: Le décompte du Club des juristes a été publié au début du procès de novembre 2023, avant la relaxe du 29 novembre. La cinquième condamnation avec sursis du décompte de France 24 n'a pas été identifiée.
 
 [Fait établi] Parmi les décisions connues : en 1999, dans l'affaire du sang contaminé, deux anciens ministres ont été relaxés et un ancien secrétaire d'État reconnu coupable mais dispensé de peine [5] ; le 4 mars 2021, dans le volet financier de l'affaire Karachi, un ancien Premier ministre a été relaxé et un ancien ministre de la Défense condamné à deux ans d'emprisonnement avec sursis et 100 000 euros d'amende pour complicité d'abus de biens sociaux [6]. Le 29 novembre 2023, le garde des Sceaux en exercice a été relaxé du chef de prise illégale d'intérêts : la Cour a jugé l'élément matériel établi, mais non l'élément intentionnel [2][4]. Le procureur général près la Cour de cassation ayant annoncé qu'il ne formerait pas de pourvoi, la décision est définitive [2].
 

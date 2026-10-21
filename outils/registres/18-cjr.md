@@ -17,3 +17,23 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitre 8). 
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Rendu HTML non régénéré ni testé (generer.py non lancé, consigne) ; lecture des blocs testée avec figures.lire et figures.rendre ; verifier_dossier.py : OK.
+
+- V01
+  - Emplacement : après le premier paragraphe de la section « Le fonctionnement ».
+  - Question pour le lecteur : Quel chemin suit une plainte devant la CJR ?
+  - Type : [Figure] etapes.
+  - Informations montrées et appels de note : plainte, commission des requêtes, commission d'instruction, jugement par quinze juges ; 1 439 plaintes et 40 avis favorables jusqu'au 1er novembre 2017 en note [3].
+  - Limite : schéma simplifié (rôle du procureur général et pourvoi non détaillés) ; chiffres de l'avis du Sénat non recontrôlés lors de ce passage (page en 503 lors de l'audit précédent).
+  - Statut : données vérifiées dans le texte du dossier, mêmes appels de note.
+
+- V02
+  - Emplacement : après le paragraphe sur les décomptes de France 24, de l'INA et du Club des juristes.
+  - Question pour le lecteur : Pourquoi les bilans de la CJR divergent-ils ?
+  - Type : [Figure] tableau.
+  - Informations montrées et appels de note : trois décomptes de novembre 2023 : unité comptée, relaxes, condamnations [1][4][5].
+  - Limite : unités différentes (jugements, personnes) ; cinquième condamnation avec sursis de France 24 non identifiée ; aucun nom de personne dans le visuel.
+  - Statut : données vérifiées dans le texte du dossier, mêmes appels de note.

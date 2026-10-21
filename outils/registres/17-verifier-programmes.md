@@ -17,3 +17,15 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitre 8). 
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Rendu HTML non régénéré ni testé (generer.py non lancé, consigne) ; lecture des blocs testée avec figures.lire et figures.rendre ; verifier_dossier.py : OK.
+
+- V01
+  - Emplacement : après le paragraphe [Interprétation] sur les écarts entre chiffrages.
+  - Question pour le lecteur : Pourquoi deux chiffrages d'un même programme diffèrent-ils ?
+  - Type : [Figure] tableau.
+  - Informations montrées et appels de note : quatre choix de méthode, questions de la grille, choix annoncés par l'Institut Montaigne en 2024 [3].
+  - Limite : classification propre au Petit Monographe ; deux cases « non repris dans ce dossier ». Pas de visuel sur l'appréciation de 2022 par candidat, pour ne pas en faire un classement graphique au-delà de ce que dit la source.
+  - Statut : données vérifiées dans le texte du dossier, mêmes appels de note.

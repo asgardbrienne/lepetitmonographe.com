@@ -17,3 +17,23 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitre 8). 
 
 ## Verdict
 Publiable ; source à ajouter sur la détection (amélioration).
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Rendu HTML non régénéré ni testé (generer.py non lancé, consigne) ; lecture des blocs testée avec figures.lire et figures.rendre ; verifier_dossier.py : OK.
+
+- V01
+  - Emplacement : après le [À noter] de la section « Le droit pénal français ».
+  - Question pour le lecteur : Quelle différence entre l'article 226-8 et l'article 226-8-1 ?
+  - Type : [Figure] tableau.
+  - Informations montrées et appels de note : objet, peines (hors ligne et en ligne), effet d'une mention du caractère fabriqué [1][3].
+  - Limite : peines de l'article 226-8-1 issues d'une source secondaire [3] ; aucune statistique de poursuites.
+  - Statut : données vérifiées dans le texte du dossier, mêmes appels de note.
+
+- V02
+  - Emplacement : après le paragraphe sur l'article 50 du règlement européen.
+  - Question pour le lecteur : Qui doit signaler un contenu généré par IA ?
+  - Type : [Figure] arbre.
+  - Informations montrées et appels de note : fournisseurs (marquage, délai au 2 décembre 2026), déployeurs (signalement, régime allégé des œuvres), particuliers non visés [2].
+  - Limite : schéma simplifié ; ne dit rien de l'efficacité du marquage.
+  - Statut : données vérifiées dans le texte du dossier, mêmes appels de note.

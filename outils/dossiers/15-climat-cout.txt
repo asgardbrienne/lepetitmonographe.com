@@ -30,13 +30,44 @@ corrections: Ajout des estimations de Santé publique France pour les canicules 
 
 [À noter] Les décès « en excès » sont ceux observés au-delà du nombre attendu. Ils ne sont pas tous directement causés par la chaleur. Additionner les trois estimations, qui sont préliminaires et portent sur des périodes et des départements différents, ne donne pas un bilan officiel de l'été [2]. Les bornes des deux premiers épisodes varient d'ailleurs de quelques jours selon les passages du bulletin (17 ou 19 juin, 20 ou 22 juillet) [2].
 
+[Figure] barres-h
+titre: Décès en excès pendant les trois canicules de l'été 2026, selon les premières estimations
+unite: Nombre minimal de décès en excès toutes causes, par épisode, estimations préliminaires
+donnees:
+- 17 juin au 2 juillet | 5 764
+- 3 au 20 juillet | 1 243
+- 27 juillet au 20 août | 817
+source: Santé publique France, communiqué du 22 juillet 2026 [1] et bulletin du 16 septembre 2026 [2]
+lecture: Selon ces premières estimations, la canicule de fin juin et de début juillet est celle qui s'est accompagnée du plus grand nombre de décès en excès.
+note: Épisodes de durées différentes et départements touchés différents ; les trois estimations ne s'additionnent pas en un bilan officiel. Les décès en excès ne sont pas tous directement causés par la chaleur. Les bornes des deux premiers épisodes varient de quelques jours selon les passages du bulletin [2].
+
 ## Les sinistres assurés
 
 [Fait établi] Selon France Assureurs, le coût des événements naturels a atteint 5,2 milliards d'euros en France en 2025, dont 2,2 milliards pour la grêle, deuxième année la plus coûteuse pour ce risque depuis 1984. La sécheresse a coûté près d'un milliard d'euros selon la Caisse centrale de réassurance [3]. Pour 2024, la fédération chiffre la sinistralité liée aux événements naturels à 3,87 milliards d'euros, dans une publication distincte dont le périmètre n'est pas forcément identique [5].
 
 [Estimation] Dans des projections établies en 2021, France Assureurs estime que le montant cumulé des sinistres dus aux événements naturels pourrait doubler sur la période 2020-2050 par rapport à 1989-2019, de 73,4 à 143 milliards d'euros [4].
 
+[Figure] barres
+titre: Sinistres dus aux événements naturels : un doublement projeté par les assureurs
+unite: Montant cumulé des sinistres dus aux événements naturels, en milliards d'euros, sur chaque période
+donnees:
+- 1989-2019 | 73,4
+- 2020-2050 | 143*
+source: France Assureurs, dossier « Risques climatiques et assurance », projections établies en 2021 [4]
+lecture: France Assureurs estime que le montant cumulé des sinistres pourrait passer de 73,4 milliards d'euros sur 1989-2019 à 143 milliards sur 2020-2050.
+note: La barre hachurée est une projection, pas une mesure. La page de France Assureurs ne précise pas s'il s'agit d'euros courants ou constants.
+
 [Fait établi] Un rapport de la commission des finances du Sénat de mai 2024 indique que la charge liée au retrait-gonflement des argiles, provoqué par les sécheresses, a dépassé 1 milliard d'euros par an en moyenne entre 2015 et 2023, contre 445 millions en moyenne depuis 1982 [7]. Le taux de la surprime « catastrophes naturelles » est passé au 1er janvier 2025 de 12 % à 20 % sur les contrats habitation et professionnels, et de 6 % à 9 % sur les garanties vol et incendie automobiles ; le Gouvernement en attend 1,2 milliard d'euros de capacité de couverture supplémentaire par an [6].
+
+[Figure] tableau
+titre: Surprime « catastrophes naturelles » : les taux relevés au 1er janvier 2025
+colonnes: Contrats | Taux jusqu'en 2024 | Taux depuis le 1er janvier 2025
+donnees:
+- Habitation et professionnels | 12 % | 20 % [6]
+- Garanties vol et incendie automobiles | 6 % | 9 % [6]
+source: Réponse du ministère de l'Économie, Journal officiel du 4 février 2025 [6]
+lecture: Le taux de la surprime a augmenté de 8 points sur les contrats habitation et professionnels et de 3 points sur les garanties automobiles.
+note: Le Gouvernement en attend 1,2 milliard d'euros par an de capacité de couverture supplémentaire [6] ; ce montant est une prévision.
 
 ## L'agriculture en 2026
 

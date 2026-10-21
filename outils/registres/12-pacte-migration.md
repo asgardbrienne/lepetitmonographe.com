@@ -17,3 +17,31 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitre 8). 
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Rendu HTML non régénéré ni testé (generer.py non lancé, consigne) ; lecture des blocs testée avec figures.lire et figures.rendre ; verifier_dossier.py : OK.
+
+- V01
+  - Emplacement : fin de la section « Le calendrier ».
+  - Question pour le lecteur : Dans quel ordre le pacte a-t-il été adopté et appliqué en France ?
+  - Type : [Figure] frise.
+  - Informations montrées et appels de note : dates du 10 avril 2024 au 12 août 2026 [1][2][3][5][6][7].
+  - Limite : intervalles non à l'échelle ; le recours est connu par le seul Gisti (source secondaire, partie au débat).
+  - Statut : données vérifiées dans le texte du dossier, mêmes appels de note.
+
+- V02
+  - Emplacement : après le paragraphe sur le règlement « filtrage ».
+  - Question pour le lecteur : Que se passe-t-il pour une personne arrivée irrégulièrement ?
+  - Type : [Figure] etapes.
+  - Informations montrées et appels de note : arrivée, filtrage (contrôles, 7 jours au plus à la frontière), orientation vers l'asile ou le retour [1][2][6].
+  - Limite : schéma simplifié ; les trois contrôles du filtrage sont regroupés en une étape faute d'ordre établi entre eux.
+  - Statut : données vérifiées dans le texte du dossier, mêmes appels de note.
+
+- V03
+  - Emplacement : après le paragraphe sur la solidarité, avant le [Débat] sur l'« amende ».
+  - Question pour le lecteur : Comment fonctionne la solidarité obligatoire ?
+  - Type : [Figure] tableau.
+  - Informations montrées et appels de note : formes de contribution, 30 000 relocalisations, 20 000 euros, réserve 2026, engagement français de 3 361, absence d'amende selon la Commission [1][2][4].
+  - Limite : fonctionnement réel non évaluable à ce stade.
+  - Statut : données vérifiées dans le texte du dossier, mêmes appels de note.

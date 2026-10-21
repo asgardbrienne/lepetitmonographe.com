@@ -20,3 +20,23 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitre 8). 
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Rendu HTML non régénéré ni testé (generer.py non lancé, consigne) ; lecture des blocs testée avec figures.lire et figures.rendre ; verifier_dossier.py : OK.
+
+- V01
+  - Emplacement : après le paragraphe [Estimation] Coface et OEM (section « Exposition, transformation, suppression »).
+  - Question pour le lecteur : Que mesure exactement le chiffre de 16 % ?
+  - Type : [Figure] tableau.
+  - Informations montrées et appels de note : définitions des trois notions ; 16 % du contenu du travail potentiellement automatisable ; citation « ne préjuge nullement » [1].
+  - Limite : la transformation n'est pas chiffrée dans le dossier ; le tableau ne mesure aucun effet sur l'emploi.
+  - Statut : données vérifiées dans le texte du dossier, mêmes appels de note.
+
+- V02
+  - Emplacement : après le paragraphe [Fait établi] sur l'étude du LIFT.
+  - Question pour le lecteur : Le recul des embauches de jeunes est-il plus fort dans les métiers exposés ?
+  - Type : [Figure] groupes (barres horizontales, valeurs négatives).
+  - Informations montrées et appels de note : embauches en CDI -28,3 % / -7,5 % ; fins de CDI environ -23 % / -6 % ; 21-29 ans, mars 2026 par rapport à novembre 2022 [5].
+  - Limite : résultats descriptifs, pas de causalité ; valeurs des fins de CDI approchées. Donnée précisée dans le texte : la période des fins de CDI (même période que les embauches), vérifiée le 21 octobre 2026 dans le PDF du LIFT (p. 1 et 4), phrase ajoutée dans corrections.
+  - Statut : données vérifiées dans le texte du dossier, mêmes appels de note.

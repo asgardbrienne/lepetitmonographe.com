@@ -17,3 +17,23 @@ Document interne, non publié sur le site (Bible éditoriale v1.0, chapitre 8). 
 
 ## Verdict
 Publiable.
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Rendu HTML non régénéré ni testé (generer.py non lancé, consigne) ; lecture des blocs testée avec figures.lire et figures.rendre ; verifier_dossier.py : OK.
+
+- V01
+  - Emplacement : après le paragraphe [Estimation] sur les scénarios alternatifs.
+  - Question pour le lecteur : Pourquoi la même étude donne-t-elle des résultats opposés ?
+  - Type : [Figure] tableau.
+  - Informations montrées et appels de note : trois scénarios du CEPII, choix de méthode et résultats [1].
+  - Limite : les auteurs jugent les scénarios alternatifs discutables ; données arrêtées à 2011.
+  - Statut : données vérifiées dans le texte du dossier, mêmes appels de note.
+
+- V02
+  - Emplacement : après le [À noter] sur la nature des sources.
+  - Question pour le lecteur : D'où viennent les chiffres cités dans le débat ?
+  - Type : [Figure] tableau.
+  - Informations montrées et appels de note : CEPII, OCDE (2013 et 2021), OID : nature, résultat, période [1][2][3][4].
+  - Limite : chiffres non comparables entre eux (périodes, populations, dépenses) ; rapport OCDE 2021 non consulté directement ; période de l'estimation OCDE citée en 2013 non reprise.
+  - Statut : données vérifiées dans le texte du dossier, mêmes appels de note.

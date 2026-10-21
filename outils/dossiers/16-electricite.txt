@@ -30,6 +30,19 @@ corrections: Le détail des composantes de la baisse de février 2026 a été co
 
 [Fait établi] Le 15 juillet 2026, la CRE a proposé une hausse moyenne de 2,50 % TTC au 1er août 2026, due principalement à l'intégration du nouveau mécanisme de capacité (+1,73 % TTC), qui rémunère les exploitants de capacités de production, de stockage ou d'effacement de consommation, et à la hausse du tarif d'utilisation des réseaux publics d'électricité (TURPE, +1,14 % TTC) ; l'accise a légèrement baissé, de 30,85 à 30,62 euros le mégawattheure [5]. Cette hausse a été actée par une décision publiée au Journal officiel du 31 juillet 2026 [6].
 
+[Figure] frise
+titre: Le tarif réglementé de l'électricité en 2026 : deux mouvements
+donnees:
+- 14 janvier 2026 | La CRE propose une baisse moyenne de 0,83 % TTC au 1er février [1] | Fait établi
+- 28 janvier 2026 | Le ministre fixe les tarifs conformément à cette proposition [4] | Fait établi
+- 1er février 2026 | Baisse moyenne de 0,83 % TTC ; l'option Tempo augmente de 6,2 % TTC [1] | Fait établi
+- 15 juillet 2026 | La CRE propose une hausse moyenne de 2,50 % TTC au 1er août, due surtout au mécanisme de capacité et au tarif de réseau [5] | Fait établi
+- 31 juillet 2026 | Décision publiée au Journal officiel [6] | Fait établi
+- 1er août 2026 | Hausse moyenne de 2,5 % TTC [5][6] | Fait établi
+source: CRE, délibérations du 14 janvier et du 15 juillet 2026 [1][5] ; CRE, « L'énergie du droit » n° 92 [4] ; Moneyvox, source secondaire [6]
+lecture: Après une légère baisse en février, le tarif réglementé a augmenté de 2,5 % en moyenne au 1er août 2026.
+note: Variations moyennes : l'effet sur une facture dépend de l'option et de la consommation. Les intervalles entre les dates ne sont pas représentés à l'échelle.
+
 ## La fin de l'Arenh et le versement nucléaire universel
 
 [Fait établi] L'accès régulé à l'électricité nucléaire historique (Arenh) permettait aux fournisseurs d'acheter une partie de la production nucléaire d'EDF à 42 euros le mégawattheure, prix inchangé depuis 2012. En 2025, il couvrait 43,8 % de la consommation d'un client au tarif réglementé. Il a pris fin le 31 décembre 2025 ; depuis, les fournisseurs s'approvisionnent entièrement sur les marchés ou par leurs propres moyens de production [1].
@@ -37,6 +50,18 @@ corrections: Le détail des composantes de la baisse de février 2026 a été co
 [Fait établi] Le versement nucléaire universel (VNU), créé par l'article 17 de la loi de finances pour 2025, ne fixe pas de prix. Il repose sur une taxe sur l'utilisation du combustible nucléaire, qui ne s'applique que lorsque les revenus du nucléaire historique dépassent un tarif de taxation, avec un prélèvement plus fort au-delà d'un tarif d'écrêtement ; le produit de cette taxe est reversé aux consommateurs sous forme de réduction sur la facture. Un arrêté du 11 février 2026 a fixé ces deux tarifs à 78 et 110 euros le mégawattheure [2].
 
 [Fait établi] La CRE a estimé, le 1er décembre 2025, les revenus du nucléaire historique pour 2026 à 66,08 euros le mégawattheure. Ce niveau étant inférieur au tarif de taxation, elle a proposé le 26 février 2026 un montant de réduction nul pour 2026 [2].
+
+[Figure] arbre
+titre: Versement nucléaire universel : quand une réduction est reversée sur la facture
+donnees:
+- Revenus du nucléaire historique estimés pour l'année
+  - Inférieurs au tarif de taxation (78 euros le MWh) : la taxe ne s'applique pas, aucune réduction n'est reversée [2]
+    - Cas de 2026 : revenus estimés à 66,08 euros le MWh par la CRE, réduction nulle [2]
+  - Supérieurs à 78 euros le MWh : la taxe s'applique et son produit est reversé aux consommateurs en réduction sur la facture [2]
+    - Au-delà du tarif d'écrêtement (110 euros le MWh) : prélèvement plus fort [2]
+source: CRE, délibération n° 2026-52 du 26 février 2026 [2]
+lecture: En 2026, les revenus estimés du nucléaire restent sous le seuil de 78 euros le MWh : le versement nucléaire universel ne reverse rien aux consommateurs.
+note: Schéma simplifié : il ne détaille pas le calcul de la taxe. Les deux tarifs ont été fixés par un arrêté du 11 février 2026 [2].
 
 ## Le débat
 

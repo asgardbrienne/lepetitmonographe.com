@@ -32,6 +32,17 @@ corrections: Ajout de la conclusion exacte du CEPII (contribution plutôt négat
 
 [Estimation] Le même travail présente deux scénarios alternatifs que ses auteurs jugent discutables. Si l'on rattache aux immigrés leurs enfants nés en France (scénario « seconde génération »), la contribution devient nettement négative, entre -1 % et -1,6 % du PIB, soit près de -30 milliards d'euros en 2011. Si les dépenses collectives (défense, sécurité) sont attribuées aux seuls natifs (scénario « biens publics »), elle devient positive chaque année [1].
 
+[Figure] tableau
+titre: Une même étude du CEPII, trois résultats selon le scénario retenu
+colonnes: Scénario | Choix de méthode | Contribution nette estimée (1979-2011)
+donnees:
+- Référence | Scénario principal des auteurs | Entre -0,5 % et +0,05 % du PIB selon les années ; de +0,62 milliard d'euros en 1989 à -8,8 milliards en 2011 [1]
+- Seconde génération | Les enfants d'immigrés nés en France sont rattachés aux immigrés | Entre -1 % et -1,6 % du PIB ; près de -30 milliards d'euros en 2011 [1]
+- Biens publics | Les dépenses collectives (défense, sécurité) sont attribuées aux seuls natifs | Positive chaque année [1]
+source: CEPII, Chojnicki, Ragot et Sokhna, La Lettre du CEPII n° 394, décembre 2018 [1]
+lecture: Avec les mêmes données, la contribution estimée passe de légèrement négative à nettement négative ou à positive selon le scénario.
+note: Les auteurs jugent les deux scénarios alternatifs discutables. Les données s'arrêtent en 2011.
+
 [Fait établi] Dans une réponse ministérielle publiée au Journal officiel le 24 septembre 2013, le Gouvernement indiquait que l'OCDE estimait l'impact budgétaire de l'immigration en France légèrement négatif, en soulignant une difficulté de périmètre : l'OCDE comptait comme immigrées des personnes nées françaises à l'étranger, dont des rapatriés. La même réponse précisait qu'il n'existe pas d'estimation officielle du coût de l'immigration en France [2].
 
 [Fait établi] Selon une vérification de l'AFP, le rapport de l'OCDE de 2021, qui couvre la période 2006-2018, note que dans tous les pays de l'OCDE les impôts et cotisations versés par les immigrés dépassent les dépenses consacrées à leur protection sociale, leur santé et leur éducation [3]. Source secondaire : le rapport lui-même n'a pas pu être consulté directement.
@@ -41,6 +52,18 @@ corrections: Ajout de la conclusion exacte du CEPII (contribution plutôt négat
 [Expertise] Interrogés par l'AFP en mars 2024, les économistes auteurs des travaux cités contestent ce chiffre. Xavier Chojnicki (CEPII) indique que sa dernière estimation, pour 2011, était de -0,49 % du PIB, soit 8,8 milliards d'euros. Jean-Christophe Dumont (OCDE) parle d'une « interprétation fallacieuse » : selon lui, on ne peut pas appliquer une moyenne pluriannuelle au PIB d'une année ultérieure, et le pourcentage retenu de l'OCDE porte sur toutes les personnes nées à l'étranger, y compris des Français, en incluant des dépenses comme la défense ou la dette [3]. La divergence porte sur le choix du scénario, de la population et des dépenses attribuées, pas sur les données de base.
 
 [À noter] Le CEPII est un centre de recherche public rattaché aux services du Premier ministre ; l'OID est une association qui défend une position sur la politique migratoire ; l'article de l'AFP est une vérification journalistique. Chaque chiffre doit être lu avec le scénario dont il provient.
+
+[Figure] tableau
+titre: D'où viennent les chiffres cités dans le débat
+colonnes: Source | Nature | Résultat | Période ou base de calcul
+donnees:
+- CEPII, 2018 [1] | Centre de recherche public rattaché aux services du Premier ministre | Entre -0,5 % et +0,05 % du PIB selon les années (scénario de référence) | 1979-2011
+- OCDE, cité par le Gouvernement en 2013 [2] | Rapport cité dans une réponse ministérielle | Impact légèrement négatif, avec une définition large des immigrés | Non indiquée dans ce dossier
+- OCDE, rapport de 2021, d'après l'AFP [3] | Rapport non consulté directement (source secondaire) | Dans tous les pays de l'OCDE, impôts et cotisations des immigrés supérieurs aux dépenses de protection sociale, santé et éducation | 2006-2018
+- OID, 2020 et 2024 [3][4] | Association qui défend une position sur la politique migratoire | Environ 40 milliards d'euros (2020), puis 35 à 40 milliards par an (2024) | Pourcentage de 2011 du scénario « seconde génération » appliqué au PIB de 2019
+source: CEPII [1], réponse ministérielle du 24 septembre 2013 [2], AFP via De Facto, 9 avril 2024 [3], OID, 23 juillet 2020 [4]
+lecture: Ces chiffres ne portent ni sur la même période, ni sur la même population, ni sur les mêmes dépenses : ils ne se comparent pas directement.
+note: Le résultat de l'OCDE pour 2006-2018 porte sur l'ensemble des pays de l'OCDE et sur certaines dépenses seulement. Le chiffre de l'OID est contesté par les économistes auteurs des travaux qu'il cite [3].
 
 ## Ce qu'on ne sait pas
 - **Une estimation récente pour la France.** L'étude du CEPII s'arrête en 2011 et le rapport de l'OCDE de 2021 en 2018 ; la composition de l'immigration a changé depuis.
