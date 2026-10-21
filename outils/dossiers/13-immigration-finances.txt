@@ -13,8 +13,8 @@ image: assets/images/immigration-finances.jpg
 image_alt: L'entrée de la Cour des comptes, rue Cambon, à Paris
 image_credit: Tangopaso, domaine public, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Cour_des_Comptes2.jpg
-verifie: 13 octobre 2026
-corrections: Ajout de la conclusion exacte du CEPII (contribution plutôt négative mais faible) et de son scénario « seconde génération » ; origine du chiffre de 35 à 40 milliards précisée ; suppression d'une affirmation non retrouvée dans la source du CEPII et d'une mention de la Fondation Jean-Jaurès, qui n'était pas citée.
+verifie: 21 octobre 2026
+corrections: Ajout de la conclusion exacte du CEPII (contribution plutôt négative mais faible) et de son scénario « seconde génération » ; origine du chiffre de 35 à 40 milliards précisée ; suppression d'une affirmation non retrouvée dans la source du CEPII et d'une mention de la Fondation Jean-Jaurès, qui n'était pas citée. Le 21 octobre 2026, la présentation de l'Observatoire de l'immigration et de la démographie a été alignée sur la source : la qualification « qui défend une forte réduction de l'immigration », non sourcée, a été remplacée par sa présentation propre et par la description qu'en donne l'AFP.
 ---
 ## Essentiel
 - L'étude du CEPII publiée en 2018, portant sur 1979-2011, estime dans son scénario de référence la contribution budgétaire nette des immigrés entre -0,5 % et +0,05 % du PIB selon les années ; ses auteurs la jugent « plutôt négative » mais faible [1].
@@ -36,7 +36,7 @@ corrections: Ajout de la conclusion exacte du CEPII (contribution plutôt négat
 
 [Fait établi] Selon une vérification de l'AFP, le rapport de l'OCDE de 2021, qui couvre la période 2006-2018, note que dans tous les pays de l'OCDE les impôts et cotisations versés par les immigrés dépassent les dépenses consacrées à leur protection sociale, leur santé et leur éducation [3]. Source secondaire : le rapport lui-même n'a pas pu être consulté directement.
 
-[Débat] L'Observatoire de l'immigration et de la démographie (OID), association qui défend une forte réduction de l'immigration, a calculé en 2020 un « coût » d'environ 40 milliards d'euros en appliquant au PIB de 2019 le pourcentage de 2011 du scénario « seconde génération » du CEPII (1,64 point de PIB) [4]. Il reproche aux études existantes un périmètre trop étroit, l'exclusion de l'immigration irrégulière et des données anciennes [4]. En 2024, son directeur a avancé un coût de 35 à 40 milliards par an [3].
+[Débat] L'Observatoire de l'immigration et de la démographie (OID), association créée en 2020 qui dit vouloir offrir une « vision rationnelle et dépassionnée » des questions migratoires et dont le conseil d'orientation réunit, selon l'AFP, des universitaires et hauts fonctionnaires « proches de l'extrême droite » [3], a calculé en 2020 un « coût » d'environ 40 milliards d'euros en appliquant au PIB de 2019 le pourcentage de 2011 du scénario « seconde génération » du CEPII (1,64 point de PIB) [4]. Il reproche aux études existantes un périmètre trop étroit, l'exclusion de l'immigration irrégulière et des données anciennes [4]. En mars 2024, son directeur, Nicolas Pouvreau-Monti, a avancé dans une tribune un « coût annuel net » de 35 à 40 milliards d'euros [3].
 
 [Expertise] Interrogés par l'AFP en mars 2024, les économistes auteurs des travaux cités contestent ce chiffre. Xavier Chojnicki (CEPII) indique que sa dernière estimation, pour 2011, était de -0,49 % du PIB, soit 8,8 milliards d'euros. Jean-Christophe Dumont (OCDE) parle d'une « interprétation fallacieuse » : selon lui, on ne peut pas appliquer une moyenne pluriannuelle au PIB d'une année ultérieure, et le pourcentage retenu de l'OCDE porte sur toutes les personnes nées à l'étranger, y compris des Français, en incluant des dépenses comme la défense ou la dette [3]. La divergence porte sur le choix du scénario, de la population et des dépenses attribuées, pas sur les données de base.
 

@@ -13,12 +13,12 @@ image: assets/images/verifier-programmes.jpg
 image_alt: Panneau indiquant un bureau de vote
 image_credit: Benoît Prieur, CC0, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Panneau_%22Bureau_de_vote_num%C3%A9ro_22_%C3%A0_Courbevoie_(Hauts-de-Seine,_France).JPG
-verifie: 13 octobre 2026
-corrections: Citation attribuée à l'Institut Montaigne non retrouvée, remplacée par la description de sa méthode publiée en 2024 ; précision que l'institut distinguait en 2022 des degrés de risque selon les programmes ; dates et auteurs des sources ajoutés.
+verifie: 21 octobre 2026
+corrections: Citation attribuée à l'Institut Montaigne non retrouvée, remplacée par la description de sa méthode publiée en 2024 ; précision que l'institut distinguait en 2022 des degrés de risque selon les programmes ; dates et auteurs des sources ajoutés. Le 21 octobre 2026, l'Essentiel a été aligné sur les propos de l'Institut Montaigne : le mot « irréalistes » figure dans le chapô de l'article d'Acteurs publics, non dans les réponses de son directeur des publications, qui dit qu'aucun programme ne prévoit des financements à la hauteur des mesures.
 ---
 ## Essentiel
 - Un même programme peut recevoir des chiffrages très différents selon la méthode : coût immédiat ou à terme, avec ou sans effets sur les comportements.
-- Lors de la présidentielle de 2022, l'Institut Montaigne a jugé irréalistes les projections financières des cinq principaux candidats, tout en distinguant des degrés de risque pour les finances publiques selon les programmes [1].
+- Lors de la présidentielle de 2022, l'Institut Montaigne a estimé qu'aucun des programmes des cinq principaux candidats ne prévoyait des financements à la hauteur des mesures annoncées, tout en distinguant des degrés de risque pour les finances publiques selon les programmes [1].
 - Le Petit Monographe appliquera la même grille à chaque candidat déclaré, sans exception, et publiera ses hypothèses.
 - À la date de ce dossier, les programmes complets et chiffrés des candidats pour 2027 ne sont pas connus.
 
@@ -40,7 +40,7 @@ corrections: Citation attribuée à l'Institut Montaigne non retrouvée, remplac
 
 ## Les précédents
 
-[Fait établi] En 2022, l'Institut Montaigne a estimé qu'aucun des programmes des cinq principaux candidats qu'il avait étudiés ne prévoyait des financements à la hauteur des mesures annoncées [1]. Cette appréciation visait l'ensemble de ces candidats. L'institut distinguait toutefois deux groupes : selon lui, les programmes d'Emmanuel Macron et de Valérie Pécresse ne permettaient pas d'améliorer les finances publiques, tandis que ceux de Marine Le Pen, Éric Zemmour et Jean-Luc Mélenchon mettaient plus sérieusement en danger la soutenabilité de la dette [1].
+[Expertise] En 2022, selon son directeur des publications, Victor Poirier, interrogé par Acteurs publics, l'Institut Montaigne a estimé qu'aucun des programmes des cinq principaux candidats qu'il avait étudiés ne prévoyait des financements à la hauteur des mesures annoncées [1]. Cette appréciation visait l'ensemble de ces candidats. L'institut distinguait toutefois deux groupes : selon lui, les programmes d'Emmanuel Macron et de Valérie Pécresse ne permettaient pas d'améliorer les finances publiques, tandis que ceux de Marine Le Pen, Éric Zemmour et Jean-Luc Mélenchon mettaient plus sérieusement en danger la soutenabilité de la dette [1].
 
 [À noter] Les organismes qui chiffrent les programmes ont des orientations et des méthodes différentes ; l'Institut Montaigne est un think tank privé, qui publie sa méthode. Un chiffrage doit être lu avec ses hypothèses, quel que soit son auteur.
 

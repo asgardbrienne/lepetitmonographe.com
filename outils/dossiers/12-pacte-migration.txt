@@ -13,8 +13,8 @@ image: assets/images/pacte-migration.jpg
 image_alt: Le Berlaymont, siège de la Commission européenne à Bruxelles
 image_credit: EmDee, CC BY-SA 4.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg
-verifie: 13 octobre 2026
-corrections: Le texte français en discussion est un projet de loi d'habilitation à légiférer par ordonnances, rejeté par la commission des lois de l'Assemblée nationale le 22 juillet 2026 ; les dates des décrets, de la circulaire et les chiffres de la réserve de solidarité 2026 ont été précisés, et des sources non vérifiables ont été remplacées.
+verifie: 21 octobre 2026
+corrections: Le texte français en discussion est un projet de loi d'habilitation à légiférer par ordonnances, rejeté par la commission des lois de l'Assemblée nationale le 22 juillet 2026 ; les dates des décrets, de la circulaire et les chiffres de la réserve de solidarité 2026 ont été précisés, et des sources non vérifiables ont été remplacées. Le 21 octobre 2026, l'état de la procédure législative a été revérifié sur le dossier du Sénat (sans changement depuis le rejet en commission) et les décrets des 9 et 11 juin 2026 ont été mentionnés.
 ---
 ## Essentiel
 - Le pacte, approuvé par le Parlement européen le 10 avril 2024 et adopté par le Conseil le 14 mai 2024, s'applique depuis le 12 juin 2026 [1][2].
@@ -26,7 +26,7 @@ corrections: Le texte français en discussion est un projet de loi d'habilitatio
 
 [Fait établi] Le pacte est un ensemble de neuf règlements et d'une directive. Il a été approuvé par le Parlement européen le 10 avril 2024 ; les textes adoptés par le Conseil portent la date du 14 mai 2024. Il s'applique, pour l'essentiel, depuis le 12 juin 2026 [1][2].
 
-[Fait établi] En France, plusieurs décrets datés des 3 et 6 juin 2026 adaptent la partie réglementaire du code de l'entrée et du séjour des étrangers et du droit d'asile (Ceseda) ; ils ont été publiés au Journal officiel du 7 juin 2026 selon le recensement du Gisti [6][7]. Le ministère de l'Intérieur a publié le 11 juin 2026 la circulaire INTV2615721C, qui précise le droit applicable à compter du 12 juin [3][7]. Le Conseil d'État, consulté, a rappelé qu'une circulaire peut interpréter le droit mais ne peut ni créer de règles nouvelles ni combler les lacunes qui relèvent de la loi [6].
+[Fait établi] En France, plusieurs décrets datés des 3 et 6 juin 2026 adaptent la partie réglementaire du code de l'entrée et du séjour des étrangers et du droit d'asile (Ceseda) ; ils ont été publiés au Journal officiel du 7 juin 2026 selon le recensement du Gisti [6][7]. D'autres décrets, datés des 9 et 11 juin 2026, complètent ce dispositif [6]. Le ministère de l'Intérieur a publié le 11 juin 2026 la circulaire INTV2615721C, qui précise le droit applicable à compter du 12 juin [3][7]. Le Conseil d'État, consulté sur ces décrets comme sur le projet de loi, a rappelé qu'une circulaire peut interpréter le droit mais ne peut ni créer de règles nouvelles ni combler les lacunes qui relèvent de la loi [6].
 
 [État de la procédure] Le projet de loi n° 526, déposé au Sénat le 8 avril 2026, habilite le Gouvernement à prendre par ordonnances les adaptations nécessaires. Il a été adopté par le Sénat le 20 mai 2026, puis rejeté par la commission des lois de l'Assemblée nationale le 22 juillet 2026. À la date de vérification, aucune adoption définitive n'est enregistrée sur le dossier législatif [5].
 
@@ -59,6 +59,6 @@ corrections: Le texte français en discussion est un projet de loi d'habilitatio
 - Sénat, commission des affaires européennes, Ronan Le Gleut et Audrey Linkenheld, rapport d'information n° 606 (2025-2026) portant observations sur le projet de loi n° 526, 7 mai 2026. | https://www.senat.fr/rap/r25-606/r25-606_mono.html
 - Ministère de l'Intérieur, circulaire INTV2615721C relative au pacte européen sur la migration et l'asile, 11 juin 2026. | https://www.immigration.interieur.gouv.fr/documentation/guides-textes-et-brochures/circulaire-intv2615721c-relative-au-pacte-europeen-sur-migration-et-lasile.html
 - Euronews, « Non, l'UE n'infligera pas d'amendes aux États qui refusent d'accueillir des migrants », 16 juin 2026. | https://fr.euronews.com/my-europe/2026/06/16/non-lue-ninfligera-pas-damendes-aux-etats-qui-refusent-daccueillir-des-migrants
-- Sénat, dossier législatif « Mise en oeuvre du Pacte sur la migration et l'asile » (projet de loi n° 526, 2025-2026), consulté le 13 octobre 2026. | https://www.senat.fr/dossier-legislatif/pjl25-526.html
+- Sénat, dossier législatif « Mise en oeuvre du Pacte sur la migration et l'asile » (projet de loi n° 526, 2025-2026), consulté le 21 octobre 2026. | https://www.senat.fr/dossier-legislatif/pjl25-526.html
 - Conseil d'État, « [Décryptage] Le Pacte européen sur la migration et l'asile et la justice administrative », 12 juin 2026. | https://conseil-etat.fr/publications-colloques/decryptages/decryptage-le-pacte-europeen-sur-la-migration-et-l-asile-et-la-justice-administrative
 - Source secondaire (association partie au débat) : Gisti, « Tout savoir sur le Nouveau Pacte sur la migration et l'asile », chronologie mise à jour en continu, consultée le 13 octobre 2026. | https://www.gisti.org/article7046

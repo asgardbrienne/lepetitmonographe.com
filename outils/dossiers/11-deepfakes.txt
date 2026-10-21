@@ -19,8 +19,8 @@ corrections: Les sources du droit pénal ont été complétées par une réponse
 ## Essentiel
 - Depuis la loi du 21 mai 2024 dite SREN, diffuser sans le consentement de la personne un contenu fabriqué par algorithme la représentant, sans que son caractère artificiel soit évident ou mentionné, est un délit [1].
 - Les deepfakes à caractère sexuel font l'objet d'une infraction spécifique, plus sévèrement punie [3].
-- Depuis le 2 août 2026, le règlement européen sur l'IA impose aux utilisateurs professionnels de signaler les deepfakes et aux fournisseurs de marquer les contenus générés par IA [2].
-- La détection automatique reste imparfaite : aucun outil ne garantit de distinguer un contenu authentique d'un contenu fabriqué.
+- Depuis le 2 août 2026, le règlement européen sur l'IA impose aux utilisateurs professionnels de signaler les deepfakes et aux fournisseurs de marquer les contenus générés par IA, avec un délai jusqu'au 2 décembre 2026 pour les systèmes déjà sur le marché [2].
+- La détection automatique a des limites : la recherche d'artefacts perd en efficacité à mesure que les générateurs progressent, et le marquage ne sert que s'il a été appliqué par le créateur du contenu.
 
 ## Le droit pénal français
 

@@ -13,8 +13,8 @@ image: assets/images/majorite.jpg
 image_alt: Le banc des ministres dans l'hémicycle de l'Assemblée nationale
 image_credit: Sunala, CC BY-SA 3.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Assembl%C3%A9e_Nationale_-_H%C3%A9micycle.JPG
-verifie: 13 octobre 2026
-corrections: Chapeau précisé (trois nominations à Matignon entre septembre 2024 et septembre 2025) ; dates et résultats des votes vérifiés sur LCP et le texte de la Constitution ; champ de l'article 49, alinéa 3, corrigé (projets de loi de finances et de financement de la sécurité sociale, plus un autre texte par session) ; source secondaire comportant des erreurs de date remplacée.
+verifie: 21 octobre 2026
+corrections: Chapeau précisé (trois nominations à Matignon entre septembre 2024 et septembre 2025) ; dates et résultats des votes vérifiés sur LCP et le texte de la Constitution ; champ de l'article 49, alinéa 3, corrigé (projets de loi de finances et de financement de la sécurité sociale, plus un autre texte par session) ; source secondaire comportant des erreurs de date remplacée. Le 21 octobre 2026, le nombre de députés du Rassemblement national élus en 2024 a été présenté avec ses divergences : les décomptes publiés varient de 123 à 126 selon les sources et la date.
 ---
 ## Essentiel
 - Le président de la République a annoncé la dissolution de l'Assemblée nationale le 9 juin 2024, au soir des élections européennes ; les élections législatives ont eu lieu les 30 juin et 7 juillet 2024 [1][3].
@@ -24,7 +24,7 @@ corrections: Chapeau précisé (trois nominations à Matignon entre septembre 20
 
 ## La chronologie
 
-[Fait établi] Le 9 juin 2024, le président de la République annonce la dissolution de l'Assemblée nationale. Les élections législatives ont lieu les 30 juin et 7 juillet 2024 [1][3]. Aucun bloc n'obtient la majorité absolue ; le Rassemblement national devient le parti le plus représenté, avec 123 députés selon CNews [1].
+[Fait établi] Le 9 juin 2024, le président de la République annonce la dissolution de l'Assemblée nationale. Les élections législatives ont lieu les 30 juin et 7 juillet 2024 [1][3]. Aucun bloc n'obtient la majorité absolue ; le Rassemblement national devient le parti le plus représenté, avec 123 députés selon CNews [1] ; les décomptes publiés varient de quelques sièges (de 123 à 126) selon les sources et la date retenue, et nous n'avons pas pu consulter les résultats archivés du ministère de l'Intérieur.
 
 [Fait établi] Michel Barnier est nommé Premier ministre le 5 septembre 2024 [1]. Le 2 décembre 2024, il engage la responsabilité de son gouvernement sur le budget de la sécurité sociale en recourant à l'article 49, alinéa 3, de la Constitution. Le 4 décembre, la motion de censure déposée par le Nouveau Front populaire est adoptée par 331 députés, avec les voix du Rassemblement national, la majorité requise étant alors de 288 voix [2]. C'est la deuxième censure adoptée sous la Ve République, après celle de 1962 contre le gouvernement de Georges Pompidou [2].
 

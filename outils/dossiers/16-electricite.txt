@@ -13,12 +13,12 @@ image: assets/images/electricite.jpg
 image_alt: Pylônes et lignes à haute tension
 image_credit: St_A_Sh, CC BY 2.0, recadrée, Flickr
 image_lien: https://www.flickr.com/photos/51655688@N00/488399852
-verifie: 11 octobre 2026
-corrections: Le détail des composantes de la baisse de février 2026 a été corrigé d'après la CRE, les seuils du versement nucléaire universel (78 et 110 euros le mégawattheure) et l'estimation de 66,08 euros sont désormais sourcés à la délibération de la CRE, et la hausse de 2,5 % TTC du 1er août 2026 a été ajoutée.
+verifie: 21 octobre 2026
+corrections: Le détail des composantes de la baisse de février 2026 a été corrigé d'après la CRE, les seuils du versement nucléaire universel (78 et 110 euros le mégawattheure) et l'estimation de 66,08 euros sont désormais sourcés à la délibération de la CRE, et la hausse de 2,5 % TTC du 1er août 2026 a été ajoutée. Le 21 octobre 2026, l'ordre des causes de cette hausse a été corrigé d'après la délibération de la CRE : le nouveau mécanisme de capacité y contribue davantage (+1,73 % TTC) que le tarif de réseau (+1,14 % TTC).
 ---
 ## Essentiel
 - Le tarif réglementé de l'électricité a baissé en moyenne de 0,83 % TTC au 1er février 2026, conformément à la proposition de la Commission de régulation de l'énergie (CRE) [1][4].
-- Il a ensuite augmenté en moyenne de 2,5 % TTC au 1er août 2026, en raison surtout de la hausse du tarif de réseau et du nouveau mécanisme de capacité [5][6].
+- Il a ensuite augmenté en moyenne de 2,5 % TTC au 1er août 2026, en raison surtout du nouveau mécanisme de capacité et de la hausse du tarif de réseau [5][6].
 - L'Arenh, qui permettait aux fournisseurs d'acheter une partie de l'électricité nucléaire d'EDF à 42 euros le mégawattheure, a pris fin le 31 décembre 2025 [1].
 - Son remplaçant, le versement nucléaire universel, ne reverse rien aux consommateurs en 2026 : les revenus estimés du nucléaire restent sous le seuil de déclenchement [2].
 
@@ -28,7 +28,7 @@ corrections: Le détail des composantes de la baisse de février 2026 a été co
 
 [Fait établi] Selon la CRE, la baisse du coût d'approvisionnement en énergie a été en grande partie compensée par la hausse des coûts de commercialisation d'EDF, liée aux certificats d'économie d'énergie, et par la fin d'un rattrapage tarifaire. Côté taxes, l'accise est passée de 29,98 à 30,85 euros le mégawattheure, tandis que la contribution tarifaire d'acheminement baissait de 21,93 % à 15 % [1][3]. L'option Tempo a augmenté de 6,2 % TTC [1].
 
-[Fait établi] Le 15 juillet 2026, la CRE a proposé une hausse moyenne de 2,50 % TTC au 1er août 2026, due principalement à la hausse du tarif d'utilisation des réseaux (TURPE) et à l'intégration du nouveau mécanisme de capacité ; l'accise a légèrement baissé, de 30,85 à 30,62 euros le mégawattheure [5]. Cette hausse a été actée par une décision publiée au Journal officiel du 31 juillet 2026 [6].
+[Fait établi] Le 15 juillet 2026, la CRE a proposé une hausse moyenne de 2,50 % TTC au 1er août 2026, due principalement à l'intégration du nouveau mécanisme de capacité (+1,73 % TTC), qui rémunère les exploitants de capacités de production, de stockage ou d'effacement de consommation, et à la hausse du tarif d'utilisation des réseaux publics d'électricité (TURPE, +1,14 % TTC) ; l'accise a légèrement baissé, de 30,85 à 30,62 euros le mégawattheure [5]. Cette hausse a été actée par une décision publiée au Journal officiel du 31 juillet 2026 [6].
 
 ## La fin de l'Arenh et le versement nucléaire universel
 

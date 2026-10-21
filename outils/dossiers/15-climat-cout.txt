@@ -13,12 +13,12 @@ image: assets/images/climat-cout.jpg
 image_alt: Sol craquelé par la sécheresse
 image_credit: Derek T's Photos, CC BY 2.0, recadrée, Flickr
 image_lien: https://www.flickr.com/photos/40849443@N00/5834862318
-verifie: 13 octobre 2026
-corrections: Ajout des estimations de Santé publique France pour les canicules de juillet et août 2026 ; chiffre 2024 de France Assureurs corrigé (3,87 milliards, périmètre différent) ; affirmation non sourcée d'un régime catastrophes naturelles « déficitaire depuis 2015 » et fourchette de pertes de rendement de 25 à 75 % retirées ; plan gouvernemental précisé (plus d'un milliard d'euros, 7 septembre 2026).
+verifie: 21 octobre 2026
+corrections: Ajout des estimations de Santé publique France pour les canicules de juillet et août 2026 ; chiffre 2024 de France Assureurs corrigé (3,87 milliards, périmètre différent) ; affirmation non sourcée d'un régime catastrophes naturelles « déficitaire depuis 2015 » et fourchette de pertes de rendement de 25 à 75 % retirées ; plan gouvernemental précisé (plus d'un milliard d'euros, 7 septembre 2026). Le 21 octobre 2026, la date des projections de France Assureurs à l'horizon 2050 (établies en 2021) a été ajoutée, ainsi qu'une note sur les bornes des épisodes de canicule, qui varient selon les passages du bulletin de Santé publique France.
 ---
 ## Essentiel
 - Santé publique France estime à au moins 5 764 les décès en excès toutes causes pendant la canicule du 17 juin au 2 juillet 2026, puis à au moins 1 243 et 817 pour les épisodes du 3 au 20 juillet et du 27 juillet au 20 août. Ces estimations sont préliminaires [1][2].
-- Le coût des événements naturels pour les assureurs a atteint 5,2 milliards d'euros en France en 2025, selon France Assureurs [3].
+- Le coût des événements naturels pour les assureurs, tous événements confondus, dont la grêle et la sécheresse, a atteint 5,2 milliards d'euros en France en 2025, selon France Assureurs [3].
 - Les pertes agricoles liées à la sécheresse et aux canicules de 2026 ne sont pas encore consolidées ; le Gouvernement a annoncé le 7 septembre 2026 plus d'un milliard d'euros d'aides [8][9].
 - Aucune estimation officielle ne chiffre le coût global des événements climatiques pour la France ; attribuer un épisode précis au changement climatique relève d'études spécifiques.
 
@@ -28,13 +28,13 @@ corrections: Ajout des estimations de Santé publique France pour les canicules 
 
 [Estimation] Dans un bulletin du 16 septembre 2026, l'agence estime à au moins 817 les décès en excès (+5,2 %) pendant la canicule du 27 juillet au 20 août 2026, presque exclusivement chez les 75 ans et plus. Elle rappelle une estimation d'au moins 1 243 décès en excès pour l'épisode du 3 au 20 juillet. Le bilan consolidé de l'été, détaillé par vague, doit être publié après la période de surveillance [2].
 
-[À noter] Les décès « en excès » sont ceux observés au-delà du nombre attendu. Ils ne sont pas tous directement causés par la chaleur. Additionner les trois estimations, qui sont préliminaires et portent sur des périodes et des départements différents, ne donne pas un bilan officiel de l'été [2].
+[À noter] Les décès « en excès » sont ceux observés au-delà du nombre attendu. Ils ne sont pas tous directement causés par la chaleur. Additionner les trois estimations, qui sont préliminaires et portent sur des périodes et des départements différents, ne donne pas un bilan officiel de l'été [2]. Les bornes des deux premiers épisodes varient d'ailleurs de quelques jours selon les passages du bulletin (17 ou 19 juin, 20 ou 22 juillet) [2].
 
 ## Les sinistres assurés
 
 [Fait établi] Selon France Assureurs, le coût des événements naturels a atteint 5,2 milliards d'euros en France en 2025, dont 2,2 milliards pour la grêle, deuxième année la plus coûteuse pour ce risque depuis 1984. La sécheresse a coûté près d'un milliard d'euros selon la Caisse centrale de réassurance [3]. Pour 2024, la fédération chiffre la sinistralité liée aux événements naturels à 3,87 milliards d'euros, dans une publication distincte dont le périmètre n'est pas forcément identique [5].
 
-[Estimation] France Assureurs projette que le montant cumulé des sinistres dus aux événements naturels pourrait doubler sur la période 2020-2050 par rapport à 1989-2019, de 73,4 à 143 milliards d'euros [4].
+[Estimation] Dans des projections établies en 2021, France Assureurs estime que le montant cumulé des sinistres dus aux événements naturels pourrait doubler sur la période 2020-2050 par rapport à 1989-2019, de 73,4 à 143 milliards d'euros [4].
 
 [Fait établi] Un rapport de la commission des finances du Sénat de mai 2024 indique que la charge liée au retrait-gonflement des argiles, provoqué par les sécheresses, a dépassé 1 milliard d'euros par an en moyenne entre 2015 et 2023, contre 445 millions en moyenne depuis 1982 [7]. Le taux de la surprime « catastrophes naturelles » est passé au 1er janvier 2025 de 12 % à 20 % sur les contrats habitation et professionnels, et de 6 % à 9 % sur les garanties vol et incendie automobiles ; le Gouvernement en attend 1,2 milliard d'euros de capacité de couverture supplémentaire par an [6].
 
