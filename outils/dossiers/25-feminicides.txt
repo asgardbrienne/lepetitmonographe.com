@@ -1,5 +1,6 @@
 fichier: dossier-feminicides-chiffres.html
 rubrique: affaires
+format: Analyse
 titre: Féminicides : ce que mesurent les chiffres officiels et associatifs
 titre_court: Les chiffres des féminicides
 titre_seo: Féminicides : comprendre les chiffres

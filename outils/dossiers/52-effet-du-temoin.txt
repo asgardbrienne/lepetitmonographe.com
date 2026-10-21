@@ -1,5 +1,6 @@
 fichier: dossier-effet-du-temoin.html
 rubrique: psychologie
+format: Explicatif
 titre: L'effet du témoin : pourquoi la présence d'autres personnes peut retarder l'aide, et pourquoi l'aide vient pourtant le plus souvent
 titre_court: L'effet du témoin
 titre_seo: L'effet du témoin : ce que montrent les études

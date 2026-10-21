@@ -1,5 +1,6 @@
 fichier: dossier-fraudes.html
 rubrique: economie
+format: Explicatif
 titre: Fraude fiscale et fraude sociale : ce que l'on mesure et ce que l'on estime
 titre_court: Fraude fiscale et sociale
 titre_seo: Fraude fiscale et sociale : les montants

@@ -1,5 +1,6 @@
 fichier: dossier-budget-2027.html
 rubrique: economie
+format: Explicatif
 titre: Budget 2027 : ce que contient le projet et ce qu'en dit le Haut Conseil des finances publiques
 titre_court: Budget 2027
 titre_seo: Budget 2027 : le projet et l'avis du HCFP

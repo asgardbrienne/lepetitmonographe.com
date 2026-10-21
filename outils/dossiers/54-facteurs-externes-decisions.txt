@@ -1,5 +1,6 @@
 fichier: dossier-facteurs-externes-decisions.html
 rubrique: psychologie
+format: Analyse
 titre: Fatigue, heure, actualité : ce que les études mesurent sur les facteurs étrangers au dossier dans les décisions de justice
 titre_court: Les facteurs étrangers au dossier
 titre_seo: Fatigue, heure : les juges sont-ils influencés ?

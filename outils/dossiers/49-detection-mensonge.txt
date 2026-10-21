@@ -1,5 +1,6 @@
 fichier: dossier-detection-mensonge.html
 rubrique: psychologie
+format: Explicatif
 titre: Détecter le mensonge : ce que la science établit sur le comportement, les micro-expressions et le polygraphe
 titre_court: Détecter le mensonge
 titre_seo: Détecter le mensonge : ce que dit la science

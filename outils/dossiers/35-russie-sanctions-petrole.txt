@@ -1,5 +1,6 @@
 fichier: dossier-russie-sanctions-petrole.html
 rubrique: monde
+format: Explicatif
 titre: Sanctions contre la Russie : ce que Washington a suspendu en octobre 2026
 titre_court: Russie, sanctions et diesel
 titre_seo: Russie : les sanctions suspendues par Washington

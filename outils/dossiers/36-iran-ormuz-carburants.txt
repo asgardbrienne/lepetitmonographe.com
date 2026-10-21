@@ -1,5 +1,6 @@
 fichier: dossier-iran-ormuz-carburants.html
 rubrique: monde
+format: Explicatif
 titre: Guerre avec l'Iran et détroit d'Ormuz : pourquoi le carburant coûte si cher
 titre_court: Iran, Ormuz et carburants
 titre_seo: Iran, Ormuz : pourquoi le carburant coûte cher

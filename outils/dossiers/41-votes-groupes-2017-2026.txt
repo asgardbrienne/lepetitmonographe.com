@@ -1,5 +1,6 @@
 fichier: dossier-votes-groupes-2017-2026.html
 rubrique: politique
+format: Enquête documentaire
 titre: Comment les groupes ont voté à l'Assemblée sous les deux mandats d'Emmanuel Macron
 titre_court: Les votes des groupes, 2017-2026
 titre_seo: Votes des groupes à l'Assemblée, 2017-2026

@@ -1,5 +1,6 @@
 fichier: dossier-climat-cout.html
 rubrique: economie
+format: Explicatif
 titre: Canicules et sécheresses : ce que l'on sait de leur coût pour la France
 titre_court: Le coût des événements climatiques
 titre_seo: Canicules et sécheresses : quel coût ?

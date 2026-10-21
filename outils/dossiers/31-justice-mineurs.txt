@@ -1,5 +1,6 @@
 fichier: dossier-justice-mineurs.html
 rubrique: affaires
+format: Explicatif
 titre: Justice des mineurs : ce qu'a changé le code de 2021
 titre_court: La justice des mineurs
 titre_seo: Justice des mineurs : le code de 2021

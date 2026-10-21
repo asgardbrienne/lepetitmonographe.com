@@ -1,5 +1,6 @@
 fichier: dossier-cour-justice-republique.html
 rubrique: politique
+format: Explicatif
 titre: La Cour de justice de la République : bilan d'une juridiction contestée
 titre_court: La Cour de justice de la République
 titre_seo: Cour de justice de la République : bilan

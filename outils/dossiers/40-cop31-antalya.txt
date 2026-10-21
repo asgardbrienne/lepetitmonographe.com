@@ -1,5 +1,6 @@
 fichier: dossier-cop31-antalya.html
 rubrique: monde
+format: Explicatif
 titre: COP31 à Antalya : ce que les pays ont promis pour le climat, et où ils en sont
 titre_court: COP31 Antalya
 titre_seo: COP31 à Antalya : engagements et enjeux

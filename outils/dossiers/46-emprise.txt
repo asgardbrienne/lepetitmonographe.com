@@ -1,5 +1,6 @@
 fichier: dossier-emprise.html
 rubrique: psychologie
+format: Explicatif
 titre: Pourquoi reste-t-on parfois sous l'emprise d'une personne ou d'un groupe ? Ce que le droit et la recherche permettent d'établir
 titre_court: L'emprise
 titre_seo: L'emprise : ce que dit la recherche

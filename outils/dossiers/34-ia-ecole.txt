@@ -1,5 +1,6 @@
 fichier: dossier-ia-ecole.html
 rubrique: economie
+format: Explicatif
 titre: L'intelligence artificielle à l'école : ce que dit le cadre officiel et ce que montrent les études
 titre_court: L'IA à l'école
 titre_seo: L'IA à l'école : cadre officiel et études

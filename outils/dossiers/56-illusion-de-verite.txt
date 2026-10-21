@@ -1,5 +1,6 @@
 fichier: dossier-illusion-de-verite.html
 rubrique: psychologie
+format: Explicatif
 titre: L'illusion de vérité : pourquoi une affirmation répétée paraît plus vraie, même quand elle a été démentie
 titre_court: L'illusion de vérité
 titre_seo: L'illusion de vérité : l'effet de la répétition

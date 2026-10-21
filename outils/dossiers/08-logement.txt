@@ -1,5 +1,6 @@
 fichier: dossier-logement.html
 rubrique: economie
+format: Explicatif
 titre: Logement : pourquoi il reste cher malgré 46 milliards d'aides par an
 titre_court: Le logement
 titre_seo: Logement : pourquoi il reste si cher

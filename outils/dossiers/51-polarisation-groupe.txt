@@ -1,5 +1,6 @@
 fichier: dossier-polarisation-groupe.html
 rubrique: psychologie
+format: Explicatif
 titre: La polarisation de groupe : pourquoi un groupe qui délibère prend souvent une position plus tranchée que ses membres
 titre_court: La polarisation de groupe
 titre_seo: La polarisation de groupe expliquée

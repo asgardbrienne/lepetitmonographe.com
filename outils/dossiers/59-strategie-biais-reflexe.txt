@@ -1,5 +1,6 @@
 fichier: dossier-strategie-biais-reflexe.html
 rubrique: politique
+format: Enquête documentaire
 titre: Stratégie, biais institutionnel ou réflexe : ce que les sources permettent de dire de la réponse sécuritaire aux mouvements sociaux
 titre_court: Stratégie, biais ou réflexe ?
 titre_seo: Réponse sécuritaire : stratégie ou réflexe ?

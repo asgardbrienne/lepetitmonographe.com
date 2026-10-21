@@ -1,5 +1,6 @@
 fichier: dossier-prix-electricite.html
 rubrique: economie
+format: Explicatif
 titre: Prix de l'électricité : ce qui a changé avec la fin de l'Arenh
 titre_court: Le prix de l'électricité
 titre_seo: Prix de l'électricité après la fin de l'Arenh

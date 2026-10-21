@@ -1,5 +1,6 @@
 fichier: dossier-theories-du-complot.html
 rubrique: psychologie
+format: Explicatif
 titre: Les théories du complot : ce que la recherche en psychologie établit sur les besoins qui y conduisent, et ce qu'elle ne confirme pas
 titre_court: Les théories du complot
 titre_seo: Théories du complot : ce que dit la psychologie

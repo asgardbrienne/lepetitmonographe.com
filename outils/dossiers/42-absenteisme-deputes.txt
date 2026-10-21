@@ -1,5 +1,6 @@
 fichier: dossier-absenteisme-deputes.html
 rubrique: politique
+format: Analyse
 titre: Les députés sont-ils plus absents qu'avant ? Ce que mesurent les chiffres depuis 2007
 titre_court: Absentéisme des députés
 titre_seo: Absentéisme des députés : les chiffres

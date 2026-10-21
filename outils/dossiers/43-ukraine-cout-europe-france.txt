@@ -1,5 +1,6 @@
 fichier: dossier-ukraine-cout-europe-france.html
 rubrique: monde
+format: Analyse
 titre: Guerre en Ukraine : ce que l'aide coûte à l'Europe et à la France, et ce que coûterait un retrait
 titre_court: Ukraine, le coût pour l'Europe et la France
 titre_seo: Aide à l'Ukraine : le coût pour la France

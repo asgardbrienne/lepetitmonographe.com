@@ -1,5 +1,6 @@
 fichier: dossier-acquittement-prescription.html
 rubrique: affaires
+format: Explicatif
 titre: Acquittement, relaxe, non-lieu, classement, prescription : ce que ces décisions disent, et ce qu'elles ne disent pas
 titre_court: Ce que dit un acquittement
 titre_seo: Acquittement, relaxe, prescription : le sens

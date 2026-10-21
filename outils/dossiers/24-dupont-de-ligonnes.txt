@@ -1,5 +1,6 @@
 fichier: dossier-dupont-de-ligonnes.html
 rubrique: affaires
+format: Explicatif
 titre: Affaire Dupont de Ligonnès : ce qui est établi quinze ans après
 titre_court: L'affaire Dupont de Ligonnès
 titre_seo: Affaire Dupont de Ligonnès : ce qui est établi

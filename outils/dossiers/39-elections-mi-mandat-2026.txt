@@ -1,5 +1,6 @@
 fichier: dossier-elections-mi-mandat-2026.html
 rubrique: monde
+format: Explicatif
 titre: Élections de mi-mandat américaines du 3 novembre 2026 : ce qui est en jeu
 titre_court: Mi-mandat américain 2026
 titre_seo: Mi-mandat américain 2026 : les enjeux

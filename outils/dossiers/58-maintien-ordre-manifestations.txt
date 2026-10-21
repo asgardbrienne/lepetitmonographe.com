@@ -1,5 +1,6 @@
 fichier: dossier-maintien-ordre-manifestations.html
 rubrique: politique
+format: Enquête documentaire
 titre: Mouvements sociaux : comment Emmanuel Macron et ses gouvernements construisent leur réponse, des gilets jaunes au 17 octobre 2026
 titre_court: Mouvements sociaux et ordre public
 titre_seo: Macron face aux mouvements sociaux

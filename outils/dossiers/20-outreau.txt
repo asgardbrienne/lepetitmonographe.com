@@ -1,5 +1,6 @@
 fichier: dossier-outreau.html
 rubrique: affaires
+format: Analyse
 titre: Outreau : comment une erreur judiciaire collective s'est produite
 titre_court: L'affaire d'Outreau
 titre_seo: Affaire d'Outreau : l'erreur judiciaire

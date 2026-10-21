@@ -1,5 +1,6 @@
 fichier: dossier-niches-fiscales.html
 rubrique: economie
+format: Explicatif
 titre: Les niches fiscales : combien elles coûtent et ce que l'on sait de leur efficacité
 titre_court: Les niches fiscales
 titre_seo: Niches fiscales : coût et efficacité

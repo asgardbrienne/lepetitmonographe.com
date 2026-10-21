@@ -1,5 +1,6 @@
 fichier: dossier-temoignage-erreur-sincere.html
 rubrique: psychologie
+format: Explicatif
 titre: Peut-on se tromper sincèrement dans un témoignage ? Ce que la recherche sur la mémoire permet d'établir
 titre_court: L'erreur sincère du témoin
 titre_seo: Témoignage : peut-on se tromper de bonne foi ?

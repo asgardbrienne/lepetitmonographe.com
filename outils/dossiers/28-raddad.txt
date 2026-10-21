@@ -1,5 +1,6 @@
 fichier: dossier-omar-raddad.html
 rubrique: affaires
+format: Explicatif
 titre: Affaire Omar Raddad : pourquoi la révision a été refusée
 titre_court: L'affaire Omar Raddad
 titre_seo: Affaire Omar Raddad : la révision refusée

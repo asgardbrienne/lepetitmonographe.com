@@ -1,5 +1,6 @@
 fichier: dossier-gregory.html
 rubrique: affaires
+format: Explicatif
 titre: Affaire Grégory : l'état de la procédure en octobre 2026
 titre_court: L'affaire Grégory
 titre_seo: Affaire Grégory : l'état de la procédure

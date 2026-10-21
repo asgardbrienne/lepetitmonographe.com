@@ -1,5 +1,6 @@
 fichier: dossier-vision-en-tunnel.html
 rubrique: psychologie
+format: Explicatif
 titre: La vision en tunnel : comment des enquêteurs et des experts de bonne foi écartent les éléments qui contredisent leur hypothèse
 titre_court: La vision en tunnel
 titre_seo: La vision en tunnel dans les enquêtes

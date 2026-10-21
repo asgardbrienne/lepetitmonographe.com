@@ -1,5 +1,6 @@
 fichier: dossier-deserts-medicaux.html
 rubrique: economie
+format: Explicatif
 titre: Déserts médicaux : pourquoi certains territoires manquent de médecins
 titre_court: Déserts médicaux
 titre_seo: Déserts médicaux : causes et remèdes

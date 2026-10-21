@@ -1,5 +1,6 @@
 fichier: dossier-delais-justice-penale.html
 rubrique: affaires
+format: Explicatif
 titre: Combien de temps faut-il pour être jugé en France ?
 titre_court: Les délais de la justice pénale
 titre_seo: Délais de la justice pénale en France

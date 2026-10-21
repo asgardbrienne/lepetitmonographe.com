@@ -1,5 +1,6 @@
 fichier: dossier-immigration-finances-publiques.html
 rubrique: politique
+format: Analyse
 titre: Immigration et finances publiques : ce que disent les études
 titre_court: Immigration et finances publiques
 titre_seo: Immigration et finances publiques

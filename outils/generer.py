@@ -5,7 +5,7 @@ OUT = sys.argv[1]
 
 NAV = [  # (page, libellé, pages rattachées)
     ("index.html", "Accueil", ()),
-    ("dossiers.html", "Enquêtes", ("dossier-",)),
+    ("dossiers.html", "Dossiers", ("dossier-",)),
     ("livres.html", "Monographies", ("livre-",)),
     ("#rubriques", "Rubriques", ("politique-institutions.html", "economie-societe.html", "monde.html", "affaires-enquetes.html", "psychologie-societe-justice.html")),
     ("methode.html", "Méthode", ()),
@@ -379,7 +379,14 @@ methode = tete_visuel("Méthode", "Notre méthode",
       <p class="intro">Elles s'appliquent à chaque dossier, quel que soit le sujet ou le camp concerné.</p>
       <ol class="regles">
 {regles}
-      </ol>""") + "\n" + section(f"""      <h2>Cinq statuts d'information</h2>
+      </ol>""") + "\n" + section("""      <h2>Trois formats</h2>
+      <p class="intro">Chaque dossier indique son format sous son titre. Le mot « enquête » est réservé aux textes qui en sont : un texte n'est pas une enquête parce qu'il est long ou très sourcé.</p>
+      <div class="etiquettes">
+        <div><span class="etiquette">Explicatif</span><p>Répond à une question précise à partir de sources fiables : ce que dit un texte, ce que mesure un chiffre, où en est une procédure.</p></div>
+        <div><span class="etiquette">Analyse</span><p>Compare des mécanismes, des études ou des lectures concurrentes d'un même sujet, et dit ce que chacune permet ou non de conclure.</p></div>
+        <div><span class="etiquette">Enquête documentaire</span><p>Examine un ensemble de documents, les recoupe et reconstruit un objet : un discours sur plusieurs années, des votes, une situation territoriale.</p></div>
+      </div>
+      <p>Une investigation originale, fondée sur des documents inédits ou des entretiens, est signalée comme telle ; les personnes et organisations mises en cause sont alors sollicitées avant publication, et leur réponse est indiquée.</p>""") + "\n" + section(f"""      <h2>Cinq statuts d'information</h2>
       <p class="intro">Dans chaque dossier, les passages décisifs portent leur statut, écrit en toutes lettres : la couleur ne suffit jamais. Un statut indique la nature d'une information, pas un tampon de vérité.</p>
       <div class="etiquettes">
 {liste_etiq(ETIQ)}
@@ -425,7 +432,7 @@ apropos = tete("À propos", "Le Petit Monographe", "Une publication indépendant
         <p>Cette méthode n'empêche pas toute erreur. En octobre 2026, tous les dossiers publiés ont été relus sur leurs sources d'origine ; les corrections qui en ont résulté sont listées, une par une, dans l'<a href="methode.html#errata">historique des corrections</a>.</p>
         <p class="signature">Les faits d'abord. L'opinion reste au lecteur.</p>
       </div>""")
-page("a-propos.html", "À propos", "Le Petit Monographe, publication indépendante d'enquêtes et de dossiers documentaires sourcés sur la politique, l'économie, la société et la justice.", apropos)
+page("a-propos.html", "À propos", "Le Petit Monographe, publication indépendante de dossiers documentaires sourcés sur la politique, l'économie, la société et la justice.", apropos)
 
 # ---------- Contact ----------
 contact = tete("Contact", "Écrire au Petit Monographe",
@@ -695,7 +702,7 @@ _CHOMAGE_HISTORIQUE = '''
         '''
 DOSSIER_CHOMAGE = {"fichier": "dossier-chomage-emploi.html", "rubrique": "economie",
     "titre": "Le chômage remonte, l'emploi reste élevé : comment lire les deux chiffres",
-    "titre_court": "Chômage et emploi",
+    "titre_court": "Chômage et emploi", "format": "Explicatif",
     "chapeau": "Après trois années de quasi-stabilité, le taux de chômage augmente depuis début 2025 alors que le taux d'emploi a atteint en 2025 son plus haut niveau depuis 1975. Les deux chiffres sont exacts. Ils ne mesurent pas la même chose.",
     "resume": "Deux indicateurs qui semblent se contredire et mesurent des choses différentes. Données arrêtées au 8 octobre 2026.",
     "arret": "8 octobre 2026", "publication": "8 octobre 2026", "verifie": "13 octobre 2026",
@@ -811,7 +818,7 @@ def gabarit_dossier(meta, essentiel, corps_html, inconnues_html, sources_html, n
     corps = f'''  <article class="article {c}">
     <header class="article-tete conteneur-article">
       <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a><span aria-hidden="true">›</span><a href="{RUB_PAGES[c]}">{RUB_NOMS[meta["rubrique"]]}</a><span aria-hidden="true">›</span><span aria-current="page">{_inline(meta.get("titre_court", meta["titre"]))}</span></nav>
-      <p class="article-meta"><a class="article-rubrique" href="{RUB_PAGES[c]}">{RUB_COURTS[c]}</a><time datetime="{date_iso(meta["publication"])}">{date_courte(meta["publication"])}</time><span><!--LECTURE--> min<span class="mobile-cache"> de lecture</span></span></p>
+      <p class="article-meta"><a class="article-rubrique" href="{RUB_PAGES[c]}">{RUB_COURTS[c]}</a><span class="article-format">{meta.get("format", "Dossier")}</span><time datetime="{date_iso(meta["publication"])}">{date_courte(meta["publication"])}</time><span><!--LECTURE--> min<span class="mobile-cache"> de lecture</span></span></p>
       <h1>{_inline(meta["titre"])}</h1>
       <p class="article-chapeau">{_inline(meta["chapeau"])}</p>
       <div class="article-signature">
@@ -963,8 +970,8 @@ _lignes_toutes = "\n".join(ligne(h, f' data-rubrique="{RUB_INFO[c][2]}" data-fic
 _filtres = "".join(f'<button type="button" class="filtre" data-filtre="{k}" aria-pressed="false">{n}</button>' for _, (n, _p, k) in RUB_INFO.items())
 dossiers_page = f'''  <section class="tete-simple">
     <div class="conteneur">
-      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a><span aria-hidden="true">›</span><span aria-current="page">Enquêtes</span></nav>
-      <h1>Toutes les enquêtes</h1>
+      <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a><span aria-hidden="true">›</span><span aria-current="page">Dossiers</span></nav>
+      <h1>Tous les dossiers</h1>
       <p class="chapeau">{len(_liste)} dossiers documentés. Cherchez par mot-clé ou filtrez par rubrique : chaque dossier sépare les faits établis, les débats et ce qu'on ne sait pas.</p>
     </div>
   </section>
@@ -984,8 +991,8 @@ dossiers_page = f'''  <section class="tete-simple">
       <p class="vide-bloc" id="aucun-resultat" hidden>Aucun dossier ne correspond. Essayez un autre mot ou une autre rubrique.</p>
     </div>
   </section>'''
-page("dossiers.html", "Toutes les enquêtes", "Tous les dossiers d'actualité sourcés du Petit Monographe : politique, économie, monde, affaires judiciaires et psychologie. Recherche par mot-clé et par rubrique.", dossiers_page,
-     titre_seo="Toutes les enquêtes et dossiers sourcés · Le Petit Monographe")
+page("dossiers.html", "Tous les dossiers", "Tous les dossiers d'actualité sourcés du Petit Monographe : politique, économie, monde, affaires judiciaires et psychologie. Recherche par mot-clé et par rubrique.", dossiers_page,
+     titre_seo="Tous les dossiers sourcés · Le Petit Monographe")
 
 # ---------- Dossiers : temps de lecture, sommaire numéroté, « À lire aussi » ----------
 for c, h, t, d, m in _liste:
@@ -1063,7 +1070,7 @@ for h, c, t, d in RUBRIQUES:
     <div class="conteneur bandeau-contenu">
       <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a><span aria-hidden="true">›</span><span>Rubriques</span><span aria-hidden="true">›</span><span aria-current="page">{t}</span></nav>
       <h1>{t.split(" &amp; ")[0] if c == "c-pouvoirs" else t}</h1>
-      <p>{d}<br>{len(DOSSIERS.get(c, []))} enquête{"s" if len(DOSSIERS.get(c, [])) > 1 else ""} pour comprendre les décisions, les chiffres et les procédures.</p>
+      <p>{d}<br>{len(DOSSIERS.get(c, []))} dossier{"s" if len(DOSSIERS.get(c, [])) > 1 else ""} pour comprendre les décisions, les chiffres et les procédures.</p>
     </div>
     <p class="credit-bandeau">{_html.escape(b["meta"].get("image_alt", ""))}. {credit_photo(b["meta"])}</p>
   </section>
@@ -1101,21 +1108,21 @@ for n, h in enumerate(UNE):
     _diapos.append(f'''      <article class="une-diapo" id="une-{n + 1}" aria-roledescription="diapositive" aria-label="{n + 1} sur {len(UNE)}">
         <img class="une-fond" src="{i["image"]}" alt="" width="1600" height="700"{' loading="lazy"' if n else ""}>
         <div class="conteneur une-contenu">
-          <p class="une-surtitre">Enquête à la une</p>
+          <p class="une-surtitre">À la une<span class="une-format"> · {i["meta"].get("format", "Dossier")}</span></p>
           <h2 class="une-titre"><a href="{h}">{i["titre"]}</a></h2>
           <p class="une-chapeau">{_inline(i["meta"].get("description") or i["meta"].get("chapeau") or i["resume"])}</p>
-          <a class="bouton-or" href="{h}" tabindex="-1" aria-hidden="true">Lire l'enquête{FLECHE}</a>
+          <a class="bouton-or" href="{h}" tabindex="-1" aria-hidden="true">Lire le dossier{FLECHE}</a>
           <p class="une-meta"><span>{RUB_COURTS[i["c"]]}</span><span aria-hidden="true">|</span>{meta_carte(h)}</p>
         </div>
         <p class="une-credit">{credit_photo(i["meta"])}</p>
       </article>''')
-_points = "".join(f'<button type="button" class="une-point" data-cible="une-{n + 1}" aria-label="Enquête {n + 1}"{" aria-current=\"true\"" if n == 0 else ""}></button>' for n in range(len(UNE)))
+_points = "".join(f'<button type="button" class="une-point" data-cible="une-{n + 1}" aria-label="Dossier {n + 1}"{" aria-current=\"true\"" if n == 0 else ""}></button>' for n in range(len(UNE)))
 PILIERS = [
     ("Une méthode transparente", "Cinq statuts pour distinguer les faits, les témoignages et les interprétations.",
      '<path d="M12 3 5 6v5c0 4.5 3 8 7 10 4-2 7-5.5 7-10V6z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="m9 12 2.2 2.2L15.5 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>'),
     ("Des sources vérifiables", "Documents publics, décisions et rapports, cités avec leur date et un lien.",
      '<path d="M7 3h7l4 4v14H7z M14 3v4h4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="m9.5 14 2 2 3.5-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>'),
-    ("Des enquêtes accessibles", "Des sujets complexes expliqués clairement, sans simplification abusive.",
+    ("Des dossiers accessibles", "Des sujets complexes expliqués clairement, sans simplification abusive.",
      '<rect x="4" y="4" width="16" height="16" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="11" cy="11" r="3.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m13.4 13.4 3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>'),
 ]
 _piliers = "\n".join(f'''        <li><span class="pilier-icone"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">{ic}</svg></span><span><strong>{t}</strong> {d}</span></li>''' for t, d, ic in PILIERS)
@@ -1130,7 +1137,7 @@ EXPLORER = [
 _explorer = "\n".join(f'''        <a class="tuile" href="{h}"><span class="tuile-texte"><strong>{t}</strong> <span>{d}</span>{FLECHE}</span><span class="tuile-image{" tuile-livre" if "couverture" in img else ""}"><img src="{img}" alt="" width="160" height="160" loading="lazy"></span></a>''' for h, t, d, img in EXPLORER)
 _nb_rub = {c: len(DOSSIERS.get(c, [])) for c in RUB_INFO}
 PRESENTATION = [
-    ("dossiers.html", "Des enquêtes documentées", f"{len(_liste)} dossiers qui séparent les faits établis, les témoignages, les débats et les hypothèses. Chaque chiffre est sourcé, avec un lien."),
+    ("dossiers.html", "Des dossiers documentés", f"{len(_liste)} dossiers qui séparent les faits établis, les témoignages, les débats et les hypothèses. Chaque chiffre est sourcé, avec un lien."),
     ("#rubriques", "Cinq rubriques", f"Politique et institutions ({_nb_rub['c-pouvoirs']}), économie et société ({_nb_rub['c-economie']}), monde ({_nb_rub['c-monde']}), affaires judiciaires ({_nb_rub['c-affaires']}), psychologie, société et justice ({_nb_rub['c-psycho']})."),
     ("livres.html", "Des monographies", "Pour aller plus loin : un sujet traité en profondeur, en un volume."),
     ("methode.html", "Une méthode publique", "Les règles appliquées à chaque dossier, et la liste datée des corrections."),
@@ -1138,11 +1145,11 @@ PRESENTATION = [
 _presentation = "\n".join(f'''        <li><a href="{h}"><strong>{t}</strong> <span>{d}</span>{FLECHE}</a></li>''' for h, t, d in PRESENTATION)
 _statuts_bande = "".join(f'<li><span class="statut-icone">{ICONES_STATUTS[k]}</span><strong>{t}</strong></li>' for k, t, d in STATUTS_ACCUEIL)
 accueil = f'''  <h1 class="visuellement-cache">Le Petit Monographe : les faits d'abord, l'opinion reste au lecteur</h1>
-  <section class="une" aria-roledescription="carrousel" aria-label="Enquêtes à la une">
+  <section class="une" aria-roledescription="carrousel" aria-label="Dossiers à la une">
     <div class="une-diapos" id="une-diapos" tabindex="-1">
 {chr(10).join(_diapos)}
     </div>
-    <div class="conteneur une-points" role="group" aria-label="Choisir une enquête à la une">{_points}</div>
+    <div class="conteneur une-points" role="group" aria-label="Choisir un dossier à la une">{_points}</div>
   </section>
 
   <section class="presentation" aria-labelledby="presentation-titre">
@@ -1150,7 +1157,7 @@ accueil = f'''  <h1 class="visuellement-cache">Le Petit Monographe : les faits d
       <div class="presentation-texte">
         <p class="surtitre">Le Petit Monographe</p>
         <h2 id="presentation-titre">L'actualité factuelle</h2>
-        <p>Des enquêtes de fond sur la politique, l'économie, l'actualité internationale, les affaires judiciaires et les mécanismes psychologiques et sociaux qui les traversent, fondées sur des sources identifiées et datées : textes officiels, données publiques, décisions de justice, rapports, presse de référence.</p>
+        <p>Des dossiers de fond sur la politique, l'économie, l'actualité internationale, les affaires judiciaires et les mécanismes psychologiques et sociaux qui les traversent, fondées sur des sources identifiées et datées : textes officiels, données publiques, décisions de justice, rapports, presse de référence.</p>
         <p>Faits établis, témoignages, débats et hypothèses y sont présentés séparément, selon les mêmes règles pour tous les camps, avec ce qui reste inconnu. Au lecteur d'en tirer ses conclusions.</p>
         <a class="lien-fleche" href="a-propos.html">À propos du Petit Monographe{FLECHE}</a>
       </div>
@@ -1171,7 +1178,7 @@ accueil = f'''  <h1 class="visuellement-cache">Le Petit Monographe : les faits d
 
   <section class="section" id="dernieres">
     <div class="conteneur">
-      <div class="titre-section"><h2>Les dernières enquêtes</h2><a class="lien-fleche" href="dossiers.html">Toutes les enquêtes{FLECHE}</a></div>
+      <div class="titre-section"><h2>Les derniers dossiers</h2><a class="lien-fleche" href="dossiers.html">Tous les dossiers{FLECHE}</a></div>
       <div class="grille-cartes grille-4">
 {chr(10).join(carte(h) for h in DERNIERES)}
       </div>
@@ -1216,8 +1223,8 @@ accueil = f'''  <h1 class="visuellement-cache">Le Petit Monographe : les faits d
     </div>
   </section>'''
 page("index.html", "Accueil",
-     "Enquêtes indépendantes et dossiers d'actualité sourcés : politique, économie, justice, monde. Faits vérifiés, sources datées, aucune consigne d'opinion.",
-     accueil, classe="page-accueil", titre_seo="Le Petit Monographe · Enquêtes et dossiers d'actualité sourcés")
+     "Dossiers d'actualité indépendants et sourcés : politique, économie, justice, monde. Faits vérifiés, sources datées, aucune consigne d'opinion.",
+     accueil, classe="page-accueil", titre_seo="Le Petit Monographe · Dossiers d'actualité sourcés")
 
 # ---------- Errata : corrections datées, reprises de chaque dossier ----------
 _errata = [(m.get("verifie", ""), m["fichier"], m.get("titre_court") or m["titre"], m["corrections"]) for m in _dossiers_simples if m.get("corrections")]

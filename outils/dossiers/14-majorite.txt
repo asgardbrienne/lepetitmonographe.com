@@ -1,5 +1,6 @@
 fichier: dossier-assemblee-sans-majorite.html
 rubrique: politique
+format: Explicatif
 titre: Une Assemblée sans majorité : de la dissolution de 2024 à aujourd'hui
 titre_court: Une Assemblée sans majorité
 titre_seo: Une Assemblée sans majorité depuis 2024

@@ -1,5 +1,6 @@
 fichier: dossier-troadec.html
 rubrique: affaires
+format: Explicatif
 titre: Affaire Troadec : ce que le procès a tranché
 titre_court: L'affaire Troadec
 titre_seo: Affaire Troadec : ce que le procès a tranché

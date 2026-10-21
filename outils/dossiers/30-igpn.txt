@@ -1,5 +1,6 @@
 fichier: dossier-usage-force-police.html
 rubrique: affaires
+format: Explicatif
 titre: Usage de la force par la police : ce que disent les chiffres de l'IGPN
 titre_court: L'usage de la force par la police
 titre_seo: Usage de la force par la police : chiffres IGPN

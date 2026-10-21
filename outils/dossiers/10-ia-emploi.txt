@@ -1,5 +1,6 @@
 fichier: dossier-ia-emploi.html
 rubrique: economie
+format: Analyse
 titre: Intelligence artificielle et emploi : ce que montrent les premières études
 titre_court: IA et emploi
 titre_seo: IA et emploi : ce que montrent les études

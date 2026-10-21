@@ -1,5 +1,6 @@
 fichier: dossier-pacte-migration-asile.html
 rubrique: politique
+format: Explicatif
 titre: Le pacte européen sur la migration et l'asile : ce qui a changé le 12 juin 2026
 titre_court: Le pacte migration et asile
 titre_seo: Pacte migration et asile : ce qui change

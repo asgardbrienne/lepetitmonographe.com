@@ -1,5 +1,6 @@
 fichier: dossier-deepfakes.html
 rubrique: economie
+format: Explicatif
 titre: Deepfakes : ce que dit le droit et ce que permet la technique
 titre_court: Les deepfakes
 titre_seo: Deepfakes : ce que dit le droit

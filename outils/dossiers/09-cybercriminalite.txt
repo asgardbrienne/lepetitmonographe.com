@@ -1,5 +1,6 @@
 fichier: dossier-cybercriminalite.html
 rubrique: economie
+format: Explicatif
 titre: Cybercriminalité : ce que mesurent les chiffres officiels
 titre_court: La cybercriminalité
 titre_seo: Cybercriminalité : ce que disent les chiffres

@@ -1,5 +1,6 @@
 fichier: dossier-fiona.html
 rubrique: affaires
+format: Explicatif
 titre: Affaire Fiona : trois procès pour établir les responsabilités
 titre_court: L'affaire Fiona
 titre_seo: Affaire Fiona : trois procès d'assises

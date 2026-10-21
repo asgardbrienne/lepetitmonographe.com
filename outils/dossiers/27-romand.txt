@@ -1,5 +1,6 @@
 fichier: dossier-romand.html
 rubrique: affaires
+format: Explicatif
 titre: Affaire Romand : ce que la justice a établi
 titre_court: L'affaire Romand
 titre_seo: Affaire Romand : ce que la justice a établi

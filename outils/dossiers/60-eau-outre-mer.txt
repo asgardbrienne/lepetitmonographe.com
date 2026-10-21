@@ -1,5 +1,6 @@
 fichier: dossier-eau-outre-mer.html
 rubrique: politique
+format: Enquête documentaire
 titre: Eau potable en outre-mer : ce qui est établi sur les coupures en Guadeloupe, en Martinique, à Mayotte et à La Réunion
 titre_court: L'eau potable en outre-mer
 titre_seo: Eau potable en outre-mer : coupures et causes

@@ -1,5 +1,6 @@
 fichier: dossier-soumission-autorite.html
 rubrique: psychologie
+format: Explicatif
 titre: La soumission à l'autorité : ce que les expériences de Milgram et leurs réplications établissent, et ce qu'elles n'établissent pas
 titre_court: La soumission à l'autorité
 titre_seo: Milgram et la soumission à l'autorité

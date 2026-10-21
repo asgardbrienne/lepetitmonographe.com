@@ -1,5 +1,6 @@
 fichier: dossier-retraites-financement.html
 rubrique: economie
+format: Explicatif
 titre: Qui finance les retraites ?
 titre_court: Le financement des retraites
 titre_seo: Qui finance les retraites en France ?

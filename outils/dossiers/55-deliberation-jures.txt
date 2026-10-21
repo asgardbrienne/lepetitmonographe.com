@@ -1,5 +1,6 @@
 fichier: dossier-deliberation-jures.html
 rubrique: psychologie
+format: Explicatif
 titre: La délibération des jurés d'assises : ce que la recherche sait de la construction de l'intime conviction
 titre_court: La délibération des jurés
 titre_seo: La délibération des jurés d'assises

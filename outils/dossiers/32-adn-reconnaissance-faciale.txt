@@ -1,5 +1,6 @@
 fichier: dossier-adn-reconnaissance-faciale.html
 rubrique: affaires
+format: Explicatif
 titre: ADN et reconnaissance faciale : ce que ces preuves peuvent et ne peuvent pas établir
 titre_court: ADN et reconnaissance faciale
 titre_seo: ADN et reconnaissance faciale : limites

@@ -1,5 +1,6 @@
 fichier: dossier-parole-violences-sexuelles.html
 rubrique: psychologie
+format: Explicatif
 titre: Violences sexuelles : pourquoi la parole des plaignants est mise en doute, et ce que la recherche en dit
 titre_court: La parole mise en doute
 titre_seo: Violences sexuelles : la parole mise en doute

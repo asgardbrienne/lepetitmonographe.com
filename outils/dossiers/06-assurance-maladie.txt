@@ -1,5 +1,6 @@
 fichier: dossier-assurance-maladie.html
 rubrique: economie
+format: Explicatif
 titre: Assurance maladie : où va l'argent, et ce que l'on sait des arrêts de travail
 titre_court: Assurance maladie et arrêts de travail
 titre_seo: Assurance maladie et arrêts de travail

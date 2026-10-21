@@ -1,5 +1,6 @@
 fichier: dossier-flactif.html
 rubrique: affaires
+format: Explicatif
 titre: Affaire Flactif : ce que la justice a établi
 titre_court: L'affaire Flactif
 titre_seo: Affaire Flactif : ce que la justice a établi

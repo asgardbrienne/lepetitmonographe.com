@@ -1,5 +1,6 @@
 fichier: dossier-verifier-programmes.html
 rubrique: politique
+format: Analyse
 titre: Présidentielle 2027 : comment vérifier un programme économique
 titre_court: Vérifier un programme
 titre_seo: Présidentielle 2027 : vérifier un programme

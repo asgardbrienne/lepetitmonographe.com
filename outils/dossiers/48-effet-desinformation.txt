@@ -1,5 +1,6 @@
 fichier: dossier-effet-desinformation.html
 rubrique: psychologie
+format: Explicatif
 titre: L'effet de désinformation : comment une question ou un article peut modifier le souvenir d'un témoin de bonne foi
 titre_court: L'effet de désinformation
 titre_seo: L'effet de désinformation sur le témoin

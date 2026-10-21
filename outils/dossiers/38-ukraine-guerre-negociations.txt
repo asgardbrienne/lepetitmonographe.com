@@ -1,5 +1,6 @@
 fichier: dossier-ukraine-guerre-negociations.html
 rubrique: monde
+format: Explicatif
 titre: Guerre en Ukraine : où en sont le front et les négociations en octobre 2026
 titre_court: Ukraine, front et négociations
 titre_seo: Guerre en Ukraine : front et négociations
