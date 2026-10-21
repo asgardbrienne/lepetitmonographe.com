@@ -599,10 +599,6 @@ a:hover .fleche { transform: translateX(3px); }
 .regles li::before { content: counter(regle, decimal-leading-zero); position: absolute; left: 0; top: 18px; font: 400 1.25rem/1 var(--display); color: var(--or); }
 .regles h3 { font-size: 1.0625rem; margin: 0 0 6px; }
 .regles p { margin: 0; font-size: .875rem; color: var(--encre-douce); }
-.test-inversion { background: var(--nuit); color: var(--sur-nuit); padding: 36px 40px; }
-.test-inversion .surtitre { color: var(--or-bouton); }
-.test-inversion .question { font: italic 400 clamp(1.25rem, 2.4vw, 1.625rem)/1.4 var(--display); color: #fff; margin: 0 0 10px; }
-.test-inversion p { margin: 0; color: var(--sur-nuit-doux); }
 .etiquettes { display: grid; }
 .etiquettes div { border-top: 1px solid var(--filet); padding: 16px 0; display: grid; gap: 6px; }
 @media (min-width: 720px) { .etiquettes div { grid-template-columns: 220px 1fr; gap: 32px; } }
@@ -613,7 +609,6 @@ a:hover .fleche { transform: translateX(3px); }
   .statuts-cartes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .statut-carte:last-child { grid-column: 1 / -1; }
   .deux-encarts, .regles { grid-template-columns: 1fr; }
-  .test-inversion { padding: 26px 22px; }
 }
 
 /* Pages de texte (à propos, mentions…) et fiche livre */

@@ -376,11 +376,7 @@ methode = tete_visuel("Méthode", "Notre méthode",
       <p class="intro">Elles s'appliquent à chaque dossier, quel que soit le sujet ou le camp concerné.</p>
       <ol class="regles">
 {regles}
-      </ol>""") + "\n" + section("""      <div class="test-inversion">
-        <p class="surtitre">Le test avant publication</p>
-        <p class="question">« Si le nom ou le camp était inversé, appliquerions-nous exactement les mêmes critères ? »</p>
-        <p>Si la réponse est non, l'article n'est pas prêt.</p>
-      </div>""") + "\n" + section(f"""      <h2>Cinq statuts d'information</h2>
+      </ol>""") + "\n" + section(f"""      <h2>Cinq statuts d'information</h2>
       <p class="intro">Dans chaque dossier, les passages décisifs portent leur statut, écrit en toutes lettres : la couleur ne suffit jamais. Un statut indique la nature d'une information, pas un tampon de vérité.</p>
       <div class="etiquettes">
 {liste_etiq(ETIQ)}
@@ -419,7 +415,7 @@ apropos = tete("À propos", "Le Petit Monographe", "Une publication indépendant
           <li><strong>Des sources que l'on peut ouvrir.</strong> Chaque source porte son titre, son auteur ou son média, sa date et un lien. Les liens sont contrôlés avant la mise en ligne.</li>
           <li><strong>Un statut pour chaque passage.</strong> Fait établi, témoignage, interprétation, hypothèse ou proposition : le lecteur sait toujours ce qu'il lit.</li>
           <li><strong>Ce qui ne se vérifie pas ne se publie pas.</strong> Une information sans source vérifiable est retirée, ou présentée explicitement comme non établie.</li>
-          <li><strong>Le test du camp inversé.</strong> Avant publication, une question : si le nom ou le camp était inversé, appliquerions-nous exactement les mêmes critères ? Si la réponse est non, le dossier n'est pas prêt.</li>
+          <li><strong>La même grille pour tous.</strong> Avant publication, chaque dossier est relu pour vérifier que les mêmes critères de preuve s'appliquent à toutes les personnes et à tous les camps concernés.</li>
           <li><strong>Une date et un historique.</strong> Chaque dossier indique la date d'arrêt de ses données et la date de sa dernière vérification.</li>
         </ol>
         <p>Cette méthode n'empêche pas toute erreur. En octobre 2026, tous les dossiers publiés ont été relus sur leurs sources d'origine ; les corrections qui en ont résulté sont listées, une par une, dans l'<a href="methode.html#errata">historique des corrections</a>.</p>
