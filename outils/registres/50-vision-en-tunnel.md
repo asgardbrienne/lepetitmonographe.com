@@ -30,3 +30,33 @@ Document interne, non publié (Bible v1.0, chapitres 8 et 10). Mode : AUDIT puis
 
 ## Verdict
 Publiable.
+
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Aucune donnée ajoutée au texte : chaque visuel reprend des éléments déjà sourcés, avec les mêmes appels de note. Contrôle : verifier_dossier.py OK ; lecture des blocs par figures.lire et figures.rendre sans erreur. Rendu mobile non testé (generer.py non lancé, consigne).
+
+### V01
+- Emplacement : après l'interprétation « Le mécanisme se renforce lui-même ».
+- Question pour le lecteur : Comment une attente peut-elle produire ce qui semble la confirmer ?
+- Type : etapes (schéma conceptuel à statuts).
+- Information montrée et appels de note : attente induite, questions présumant la culpabilité et pression, suspects perçus plus défensifs [2] (Fait établi) ; bouclage (Interprétation).
+- Limite : vol simulé, 52 suspects et 52 interrogateurs ; pas de fréquence réelle ; la dernière étape est une interprétation, signalée par son statut.
+- Statut : données vérifiées dans le texte du dossier.
+
+### V02
+- Emplacement : après l'interprétation qui suit « Le meilleur argument contraire ».
+- Question pour le lecteur : Qui a été étudié, comment, et que retenir ?
+- Type : tableau d'études.
+- Information montrée et appels de note : Ask et Granhag 2005 [7] et 2007 [1], Kassin et al. 2003 [2], Rassin et al. 2010 [5][14], Rassin 2020 [14].
+- Limite : protocoles et participants différents ; expériences sur dossiers ou faits simulés.
+- Statut : données vérifiées dans le texte du dossier.
+- Remarque : L'étude Dror 2006 (5 experts) reste dans le texte, sa section suit.
+
+### V03
+- Emplacement : après la proposition sur l'enregistrement des interrogatoires.
+- Question pour le lecteur : Dans quel ordre les réformes citées sont-elles intervenues ?
+- Type : frise.
+- Information montrée et appels de note : 2000 mineurs [15], 6 juin 2006 rapport Outreau [9], 5 mars 2007 loi [10][12][15], 1er mars 2008 pôles [10], 1er juin 2008 enregistrement criminel [15], 6 avril 2012 décision QPC [15], 12 mai 2016 amendement [12].
+- Limite : intervalles non à l'échelle ; sort de l'amendement de 2016 non vérifié, dit en note ; séquence, pas causalité (sauf lien loi 2007 / commission, établi dans le texte).
+- Statut : données vérifiées dans le texte du dossier.

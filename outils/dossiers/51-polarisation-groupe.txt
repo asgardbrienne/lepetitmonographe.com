@@ -46,6 +46,17 @@ corrections: Le 21 octobre 2026, précision que la comparaison entre Facebook et
 
 [Débat] Le phénomène est-il une pathologie de la délibération ? Pour Cass Sunstein, il appelle des garde-fous dans les institutions qui délibèrent : juridictions collégiales, commissions, assemblées [1]. L'objection la plus sérieuse, que formule ici Le Petit Monographe sans source dédiée, est qu'un groupe peut aussi corriger des erreurs individuelles, et que le résultat dépend de sa composition et des informations disponibles. Sunstein relève lui-même que les sondages délibératifs du politiste James Fishkin, où des documents présentent les faits et arguments de chaque camp à des participants d'opinions variées, ne produisent pas de polarisation systématique [1].
 
+[Figure] arbre
+titre: Un constat observé, deux explications avancées
+donnees:
+- Constat observé : après discussion, un groupe se déplace vers une position plus extrême, dans la direction où il penchait déjà [1][2]
+  - Explication avancée, sociale : chacun ajuste sa position vers ce qui semble valorisé dans le groupe [1][8]
+  - Explication avancée, par les arguments : la plupart des arguments échangés vont dans le sens dominant, ceux de l'autre camp manquent [1][8]
+- Contre-exemple relevé : les sondages délibératifs, avec informations contradictoires et participants d'opinions variées, ne produisent pas de polarisation systématique [1]
+source: Cass Sunstein, 1999 [1] ; David Myers et Helmut Lamm, 1976 [2] ; Daniel Isenberg, méta-analyse de 1986 [8]
+lecture: La polarisation est un résultat observé dans de nombreuses expériences ; ses deux explications sont des hypothèses, qui peuvent se combiner.
+note: Schéma simplifié : le poids respectif des deux explications varie selon les études et n'est pas représenté [8].
+
 ## Les réseaux sociaux
 
 [Fait établi] Une étude publiée en 2021, portant sur plus de 100 millions de contenus sur des sujets controversés (armes à feu, vaccination, avortement) publiés sur Gab, Facebook, Reddit et Twitter, conclut que les interactions entre utilisateurs aux opinions proches dominent sur Facebook et Twitter ; en comparant la consommation d'informations sur Facebook et sur Reddit, les auteurs relèvent une ségrégation plus forte sur Facebook [10].
@@ -55,6 +66,17 @@ corrections: Le 21 octobre 2026, précision que la comparaison entre Facebook et
 [Fait établi] En 2023, une expérience menée pendant la présidentielle américaine de 2020 auprès de 23 377 utilisateurs de Facebook a réduit d'environ un tiers leur exposition aux contenus de sources proches de leurs opinions. Leur exposition à d'autres points de vue a augmenté et leur exposition aux propos incivils a diminué, mais aucun effet mesurable n'a été constaté sur huit indicateurs préenregistrés, dont la polarisation affective et l'extrémité des opinions [6].
 
 [Interprétation] Ces trois études ne se contredisent pas nécessairement : les chambres d'écho existent, mais en sortir ne suffit pas à rendre les opinions plus modérées, et une exposition à l'autre camp peut même durcir certaines positions. Elles portent toutes sur les États-Unis, avec des plateformes et des algorithmes qui ont changé depuis.
+
+[Figure] tableau
+titre: Réseaux sociaux et polarisation : trois études, trois questions différentes
+colonnes: Étude | Participants et méthode | Résultat | Limite
+donnees:
+- Cinelli et al., 2021 | Plus de 100 millions de contenus sur Gab, Facebook, Reddit et Twitter, sujets controversés [10] | Interactions entre opinions proches dominantes sur Facebook et Twitter ; consommation plus ségréguée sur Facebook que sur Reddit [10] | Mesure les échanges et la consommation, pas l'évolution des opinions
+- Bail et al., 2018 | Utilisateurs américains de Twitter, démocrates et républicains, rémunérés pour suivre un mois un compte du camp opposé [5] | Républicains nettement plus conservateurs ; légère hausse non significative chez les démocrates [5] | Incitation financière ; États-Unis
+- Nyhan et al., 2023 | 23 377 utilisateurs de Facebook pendant la présidentielle américaine de 2020, exposition à leur camp réduite d'un tiers [6] | Aucun effet mesurable sur huit indicateurs préenregistrés, dont la polarisation affective [6] | États-Unis ; plateformes et algorithmes ont changé depuis
+source: Cinelli et al., PNAS, 2021 [10] ; Bail et al., PNAS, 2018 [5] ; Nyhan et al., Nature, 2023 [6]
+lecture: Les chambres d'écho existent, mais en sortir n'a pas modéré les opinions dans ces études, et l'exposition à l'autre camp a durci certaines positions.
+note: Les trois études ne mesurent pas la même chose (structure des échanges, exposition à l'autre camp, réduction de l'exposition à son propre camp) ; leurs résultats ne se comparent pas directement.
 
 ## Ce qu'on ne sait pas
 - **L'existence d'un effet de polarisation dans les délibérés des cours d'assises françaises** : le secret du délibéré empêche de l'étudier directement.

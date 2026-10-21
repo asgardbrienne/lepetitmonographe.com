@@ -37,6 +37,20 @@ voir_aussi: dossier-parole-violences-sexuelles.html, dossier-temoignage-erreur-s
 
 [Fait établi] **La prescription** est l'expiration du délai pendant lequel des poursuites peuvent être engagées : en règle générale un an pour une contravention, six ans pour un délit, vingt ans pour un crime, trente ans pour certains crimes graves ; les crimes contre l'humanité sont imprescriptibles. Pour un viol commis sur un mineur, le délai est de trente ans à compter de la majorité de la victime, soit jusqu'à ses 48 ans. Une fois les faits prescrits, le procureur ne peut plus engager de poursuites [3][4][9].
 
+[Figure] tableau
+titre: Délais de prescription cités dans ce dossier, en règle générale
+colonnes: Infraction | Délai pour engager des poursuites
+donnees:
+- Contravention | 1 an [3][4]
+- Délit | 6 ans [3][4]
+- Crime | 20 ans [3][4]
+- Certains crimes graves | 30 ans [3][4]
+- Viol commis sur un mineur | 30 ans à compter de la majorité de la victime, soit jusqu'à ses 48 ans [9]
+- Crime contre l'humanité | Imprescriptible [3][4]
+source: Service public, fiches sur les poursuites, les délais de prescription et les infractions sexuelles sur mineur [3][4][9]
+lecture: Une fois le délai écoulé, le procureur ne peut plus engager de poursuites ; le délai ne dit rien de l'existence ou de l'inexistence des faits.
+note: Tableau limité aux règles générales citées dans le texte ; il ne détaille pas les autres régimes particuliers.
+
 [Interprétation] Seules la relaxe et l'acquittement sont des jugements sur la culpabilité rendus après un procès. Le classement sans suite et le non-lieu interviennent avant tout procès. La prescription n'est pas un jugement sur les faits : elle constate qu'il est trop tard pour poursuivre. Présenter une affaire prescrite comme une affaire dans laquelle la personne aurait été « blanchie », ou une affaire classée comme un acquittement, est donc inexact.
 
 [Figure] arbre

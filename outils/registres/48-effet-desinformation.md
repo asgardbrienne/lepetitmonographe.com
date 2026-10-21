@@ -21,3 +21,25 @@ Document interne, non publié (Bible v1.0, chapitres 8 et 10). Mode : AUDIT puis
 
 ## Verdict
 Publiable.
+
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Aucune donnée ajoutée au texte : chaque visuel reprend des éléments déjà sourcés, avec les mêmes appels de note. Contrôle : verifier_dossier.py OK ; lecture des blocs par figures.lire et figures.rendre sans erreur. Rendu mobile non testé (generer.py non lancé, consigne).
+
+### V01
+- Emplacement : après le paragraphe sur l'expérience de 1974.
+- Question pour le lecteur : Comment une simple question peut-elle modifier un souvenir ?
+- Type : etapes (protocole d'expérience).
+- Information montrée et appels de note : film, question avec « heurtés » ou « fracassés », estimations de vitesse, verre brisé déclaré une semaine plus tard [2].
+- Limite : expérience de laboratoire avec des étudiants ; la reconstruction du souvenir reste une interprétation (signalée en note) ; rien sur un témoignage particulier.
+- Statut : données vérifiées dans le texte du dossier.
+
+### V02
+- Emplacement : après le paragraphe sur la revue systématique de 2016.
+- Question pour le lecteur : Pourquoi les taux de faux souvenirs publiés varient-ils autant ?
+- Type : tableau d'études (échantillon, méthode, résultat, limite).
+- Information montrée et appels de note : Loftus et Pickrell 1995 [8][3], Murphy et al. 2023 [3], Andrews et Brewin 2024 [4] avec la réponse de Murphy et Greene [5], Brewin et Andrews 2016 [9].
+- Limite : pourcentages fondés sur des codages différents, non comparables entre lignes (note) ; études de laboratoire.
+- Statut : données vérifiées dans le texte du dossier.
+- Remarque : Pas de barres : les taux viennent d'études et de codages différents (bible 6.4).

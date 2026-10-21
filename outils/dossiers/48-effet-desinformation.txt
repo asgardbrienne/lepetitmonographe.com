@@ -29,6 +29,17 @@ image_lien: https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_Library_-_South
 
 [Fait établi] Dans une expérience publiée en 1974, Elizabeth Loftus et John Palmer ont montré à des étudiants un film d'accident de voiture, puis leur ont demandé à quelle vitesse roulaient les véhicules quand ils « se sont heurtés » ou « se sont fracassés ». Le verbe le plus fort a produit des estimations plus élevées. Une semaine plus tard, les participants interrogés avec ce verbe étaient plus nombreux à déclarer avoir vu du verre brisé, absent du film [2].
 
+[Figure] etapes
+titre: L'expérience de 1974 : un verbe change dans la question, le souvenir change
+donnees:
+- Un film | Des étudiants regardent le film d'un accident de voiture [2] | Fait établi
+- Une question | On leur demande la vitesse des véhicules quand ils « se sont heurtés » ou « se sont fracassés », selon le groupe [2] | Fait établi
+- Une estimation | Le verbe le plus fort produit des estimations de vitesse plus élevées [2] | Fait établi
+- Une semaine plus tard | Les participants interrogés avec ce verbe sont plus nombreux à déclarer avoir vu du verre brisé, absent du film [2] | Fait établi
+source: Elizabeth Loftus et John Palmer, Journal of Verbal Learning and Verbal Behavior, octobre 1974 [2]
+lecture: Changer le verbe de la question a suffi à modifier l'estimation de vitesse puis, une semaine plus tard, le souvenir d'un détail absent du film.
+note: Schéma simplifié d'une expérience de laboratoire menée avec des étudiants. L'explication par la reconstruction du souvenir est une interprétation généralement avancée ; le schéma ne dit rien de l'exactitude d'un témoignage particulier.
+
 [Fait établi] Dans une revue publiée en 2005, Elizabeth Loftus résume trente ans de travaux : l'effet a été observé dans de nombreuses conditions et chez plusieurs espèces ; certaines personnes y sont plus sensibles que d'autres ; les avertissements ne le réduisent que dans certaines circonstances. Les recherches plus récentes portent sur la façon dont des personnes en viennent à croire avoir vécu des événements complexes qui ne se sont jamais produits [1].
 
 [Interprétation] Le mécanisme généralement avancé pour expliquer ces résultats peut se résumer ainsi : la mémoire ne fonctionne pas comme un enregistrement fidèle, un souvenir est en partie reconstruit lorsqu'on le rappelle. Une information ajoutée entre les faits et le témoignage, par une question, une discussion avec d'autres témoins ou un article, peut être intégrée à ce récit et attribuée par erreur à l'événement lui-même. Le témoin n'a pas l'impression d'inventer : c'est ce qui distingue l'erreur sincère du mensonge.
@@ -42,6 +53,18 @@ image_lien: https://commons.wikimedia.org/wiki/File:ASC_Leiden_-_Library_-_South
 [Débat] Les psychologues Bernice Andrews et Chris Brewin ont réanalysé en 2024 les transcriptions de cette réplication. Ils relèvent qu'en moyenne, moins de deux des six détails suggérés étaient explicitement rappelés, et que 20 % des participants classés comme ayant un faux souvenir « complet » ne se souvenaient pas d'avoir été perdus. Ils en concluent que les jugements des chercheurs surestiment les faux souvenirs par rapport à ce que les participants déclarent eux-mêmes [4]. Gillian Murphy et Ciara Greene répondent que cette réanalyse, qui ramène selon eux le taux à 4 %, repose sur un codage trop étroit, et qu'un taux de 4 % aurait encore des implications importantes pour la justice [5].
 
 [Fait établi] Une revue systématique publiée en 2016 par Chris Brewin et Bernice Andrews sur les études d'implantation de souvenirs d'enfance relève qu'une forme d'expérience de souvenir est induite chez 47 % des participants en moyenne, mais que seuls 15 % ont des souvenirs qui peuvent être considérés comme complets [9].
+
+[Figure] tableau
+titre: Faux souvenirs d'enfance : quatre études, plusieurs façons de compter
+colonnes: Étude | Échantillon et méthode | Résultat | Limite
+donnees:
+- Loftus et Pickrell, 1995 | 24 participants ; trois souvenirs réels fournis par un proche et un inventé [8][3] | Environ un quart considérés comme se souvenant, en partie ou entièrement, de l'événement inventé [8][3] | Petit échantillon, critiqué pour cette raison [3]
+- Murphy et al., 2023 | 123 participants en Irlande, réplication préenregistrée [3] | 35 % codés comme faux souvenir ; 14 % disent s'en souvenir, 52 % croient qu'il a eu lieu [3] | Codage des chercheurs contesté en 2024 [4]
+- Andrews et Brewin, 2024 | Réanalyse des transcriptions de la réplication de 2023 [4] | Moins de 2 des 6 détails suggérés rappelés en moyenne ; faux souvenirs jugés surestimés [4] | Environ 4 % selon Murphy et Greene, qui jugent ce codage trop étroit [5]
+- Brewin et Andrews, 2016 | Revue systématique des études d'implantation de souvenirs d'enfance [9] | Une forme d'expérience de souvenir chez 47 % en moyenne ; souvenirs complets chez 15 % [9] | Études de laboratoire, sans enjeu comparable à un crime vécu
+source: Loftus et Pickrell, 1995 [8] ; Murphy et al., 2023 [3] ; Andrews et Brewin, 2024 [4] ; Murphy et Greene, 2025 [5] ; Brewin et Andrews, 2017, publié en ligne en 2016 [9]
+lecture: Toutes ces études amènent une partie des participants à croire qu'ils ont vécu un événement inventé ; les taux publiés vont de quelques pour cent à plus d'un tiers selon la façon de coder les réponses.
+note: Les pourcentages reposent sur des critères de codage différents et ne se comparent pas directement d'une ligne à l'autre.
 
 [Interprétation] Les deux camps s'accordent sur l'essentiel : il est possible, en laboratoire, de faire croire à une partie des participants qu'ils ont vécu un événement inventé. Ils divergent sur la proportion et sur ce qu'il faut appeler un « souvenir ». Ce débat de méthode a une portée pratique : présenter devant un tribunal un taux élevé ou un taux faible comme « le » taux de faux souvenirs revient à choisir un camp.
 

@@ -30,6 +30,17 @@ corrections: Le 21 octobre 2026, ajout de l'issue du recours contre la loi belge
 
 [Fait établi] Charles Bond et Bella DePaulo ont regroupé en 2006 les études où des personnes devaient dire, en temps réel et sans aide, si quelqu'un mentait. Sur 24 483 juges, la précision moyenne est de 54 % : 47 % des mensonges sont reconnus comme tels et 61 % des vérités. Les mensonges sont mieux détectés à l'écoute qu'à la vue, et les gens tendent à croire leurs interlocuteurs honnêtes [1].
 
+[Figure] barres-h
+titre: Juger sans aide : 54 % de bonnes réponses, et un penchant à croire
+unite: Part des jugements corrects, en %, méta-analyse publiée en 2006 (206 documents, 24 483 juges)
+donnees:
+- Vérités reconnues comme vraies | 61
+- Ensemble des jugements | 54
+- Mensonges reconnus comme tels | 47
+source: Charles Bond et Bella DePaulo, Personality and Social Psychology Review, août 2006 [1]
+lecture: Les juges reconnaissent mieux les vérités que les mensonges et tendent à croire leurs interlocuteurs honnêtes ; dans l'ensemble, ils font à peine mieux que le hasard, qui donnerait 50 %.
+note: Les trois chiffres viennent de la même méta-analyse : jugements en temps réel, sans aide ni formation particulière, pour l'essentiel en laboratoire avec des mensonges à faible enjeu.
+
 [Fait établi] En 2008, les mêmes auteurs ont étudié les différences entre juges sur 247 échantillons. Une fois l'erreur de mesure corrigée, les écarts d'aptitude sont « minuscules » : les meilleurs juges ne dépassent pas ce que produirait un mécanisme aléatoire. Les juges diffèrent surtout par leur tendance à croire ou non ce qu'on leur dit, et les personnes jugées diffèrent par leur crédibilité, qu'elles mentent ou non [2].
 
 [Débat] Le psychologue Paul Ekman a soutenu le contraire. Dans une étude de 1991 sur 509 personnes, dont des membres des services de police et de renseignement américains, des juges et des psychiatres, seul le groupe des agents du Secret Service a fait mieux que le hasard [9]. Les méta-analyses ultérieures n'ont pas confirmé l'existence de groupes ou d'individus nettement plus doués que les autres [2].
@@ -65,6 +76,19 @@ corrections: Le 21 octobre 2026, ajout de l'issue du recours contre la loi belge
 [Débat] Une méta-analyse publiée en 2017 par Aldert Vrij, Ronald Fisher et Hartmut Blank conclut qu'une approche « cognitive » de l'entretien (augmenter la charge mentale, inciter la personne à en dire plus, poser des questions inattendues) atteint 71 % de bonnes réponses, contre 56 % pour une approche classique [7]. Timothy Levine et ses coauteurs ont réanalysé les mêmes données : selon eux, l'avantage est « bien plus faible » qu'annoncé, les conditions de comparaison avaient des précisions anormalement basses et les résultats les plus favorables venaient des données les moins fiables [8].
 
 [Interprétation] Le désaccord entre les deux équipes porte sur l'ampleur du gain. L'idée que le contenu d'un récit, sa cohérence avec des éléments vérifiables et la façon dont il évolue quand on pose des questions inattendues renseignent davantage que les gestes est cohérente avec les synthèses citées plus haut sur la faiblesse des indices non verbaux [3][4] ; les sources consultées ne permettent pas de dire si Timothy Levine et ses coauteurs la partagent. Aucune méthode ne transforme un entretien en détecteur fiable du mensonge pour un cas particulier.
+
+[Figure] tableau
+titre: Cinq façons de chercher le mensonge, et ce qu'en disent les études
+colonnes: Méthode | Études | Résultat | Limite
+donnees:
+- Juger à l'œil, sans aide | Méta-analyses de 2006 (24 483 juges) et de 2008 (247 échantillons) [1][2] | 54 % de bonnes réponses ; écarts entre juges minuscules [1][2] | Surtout en laboratoire, avec des mensonges à faible enjeu
+- Indices du comportement | Méta-analyse de 2003 (158 indices) et revue de 2019 [3][4] | Beaucoup d'indices sans lien ou faiblement liés au mensonge ; indices non verbaux « faibles et peu fiables » [3][4] | Différences faibles en moyenne, qui ne permettent pas de classer une personne
+- Formation aux micro-expressions | Étude de 2019, 90 participants répartis au hasard [10] | Pas mieux que sans formation ; précision légèrement inférieure au hasard [10] | Une étude, sur des vidéos
+- Polygraphe | 57 études examinées par l'Académie nationale des sciences américaine en 2003 [6] | Pour un fait précis, « bien au-dessus du hasard, mais bien en dessous de la perfection » [6] | Estimations « presque certainement » supérieures à la précision sur le terrain [6]
+- Entretien « cognitif » | Méta-analyse de 2017 et réanalyse de 2018 [7][8] | 71 % de bonnes réponses contre 56 % pour une approche classique [7] | Avantage « bien plus faible » selon la réanalyse [8]
+source: Bond et DePaulo, 2006 et 2008 [1][2] ; DePaulo et al., 2003 [3] ; Vrij, Hartwig et Granhag, 2019 [4] ; National Research Council, 2003 [6] ; Vrij, Fisher et Blank, 2017 [7] ; Levine, Blair et Carpenter, 2018 [8] ; Jordan et al., 2019 [10]
+lecture: Aucune de ces méthodes ne permet de dire si une personne donnée ment ; celles qui s'appuient sur le contenu du récit obtiennent les meilleurs résultats en laboratoire, dans une mesure contestée.
+note: Les pourcentages viennent d'études différentes, aux protocoles différents, et ne se comparent pas directement d'une ligne à l'autre.
 
 ## Ce qu'on ne sait pas
 - **La précision des enquêteurs et des magistrats français** dans l'évaluation de la sincérité : aucune étude consultée ne la mesure.

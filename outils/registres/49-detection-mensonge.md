@@ -25,3 +25,26 @@ Document interne, non publié (Bible v1.0, chapitres 8 et 10). Mode : AUDIT puis
 
 ## Verdict
 Publiable.
+
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Aucune donnée ajoutée au texte : chaque visuel reprend des éléments déjà sourcés, avec les mêmes appels de note. Contrôle : verifier_dossier.py OK ; lecture des blocs par figures.lire et figures.rendre sans erreur. Rendu mobile non testé (generer.py non lancé, consigne).
+
+### V01
+- Emplacement : après le paragraphe sur la méta-analyse de 2006.
+- Question pour le lecteur : Les gens repèrent-ils mieux les mensonges ou les vérités ?
+- Type : barres-h.
+- Information montrée et appels de note : 61 % des vérités, 47 % des mensonges, 54 % au total, même méta-analyse (24 483 juges) [1].
+- Limite : jugements sans aide, surtout en laboratoire, mensonges à faible enjeu (note).
+- Statut : données vérifiées dans le texte du dossier.
+- Remarque : Trois chiffres d'une même étude, même unité.
+
+### V02
+- Emplacement : après l'interprétation de la section « Ce qui marche mieux ».
+- Question pour le lecteur : Quelle méthode de détection résiste aux études ?
+- Type : tableau (méthode, études, résultat, limite).
+- Information montrée et appels de note : jugement sans aide [1][2], indices du comportement [3][4], micro-expressions [10], polygraphe [6], entretien cognitif [7][8].
+- Limite : pourcentages d'études différentes non comparables (note) ; aucune méthode ne dit si une personne donnée ment.
+- Statut : données vérifiées dans le texte du dossier.
+- Remarque : Ekman 1991 non repris : résultat isolé, déjà discuté dans le texte.

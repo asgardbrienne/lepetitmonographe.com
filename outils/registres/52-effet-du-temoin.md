@@ -26,3 +26,25 @@ Document interne, non publié (Bible v1.0, chapitres 8 et 10). Mode : AUDIT puis
 
 ## Verdict
 Publiable avec réserve : formulation prudente en place ; la vérification sur Légifrance reste à faire.
+
+
+## Visuels ajoutés le 21 octobre 2026
+
+Mode : RÉNOVATION (narration visuelle). Aucune donnée ajoutée au texte : chaque visuel reprend des éléments déjà sourcés, avec les mêmes appels de note. Contrôle : verifier_dossier.py OK ; lecture des blocs par figures.lire et figures.rendre sans erreur. Rendu mobile non testé (generer.py non lancé, consigne).
+
+### V01
+- Emplacement : après le paragraphe « Débat » sur l'étude de 2020.
+- Question pour le lecteur : Pourquoi les expériences et les vidéos réelles semblent-elles se contredire ?
+- Type : tableau d'études.
+- Information montrée et appels de note : Darley et Latané 1968 [1], Fischer et al. 2011 [2], Philpot et al. 2020 [3].
+- Limite : aucune étude française ; conflits filmés dans l'espace public seulement pour 2020.
+- Statut : données vérifiées dans le texte du dossier.
+- Remarque : Schéma des « obstacles successifs » écarté : le paragraphe correspondant n'a pas d'appel de note.
+
+### V02
+- Emplacement : après le paragraphe sur la proposition de loi de 2024.
+- Question pour le lecteur : Que punit exactement l'article 223-6 ?
+- Type : tableau de règles.
+- Information montrée et appels de note : deux abstentions, condition d'absence de risque, 5 ans et 75 000 euros, 7 ans et 100 000 euros si mineur de quinze ans [5][7][8].
+- Limite : texte cité d'après la proposition de loi de 2024, Légifrance non consulté (note).
+- Statut : données vérifiées dans le texte du dossier.

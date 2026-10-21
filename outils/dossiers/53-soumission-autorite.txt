@@ -45,6 +45,18 @@ image_lien: https://commons.wikimedia.org/wiki/File:Apollo_Control_Display_Panel
 
 [Fait établi] En France, le documentaire « Le Jeu de la mort », diffusé par France 2, a transposé le dispositif à un faux jeu télévisé, l'autorité scientifique étant remplacée par une animatrice ; le psychologue Jean-Léon Beauvois en était le directeur scientifique [9]. Les résultats ont fait l'objet d'un article scientifique publié en 2012 [10].
 
+[Figure] tableau
+titre: Obéissance jusqu'au bout : un taux qui dépend de la condition et du protocole
+colonnes: Étude | Échantillon et méthode | Résultat | Limite
+donnees:
+- Milgram, 1963 | 40 participants, une condition, générateur de 30 interrupteurs, élève complice [1] | 26 sur 40, soit 65 %, vont jusqu'à la décharge maximale [1] | Une condition parmi plus de vingt variantes [2]
+- Haslam, Loughnan et Perry, 2014 | Synthèse de 21 conditions, 740 participants [2] | Taux moyen de 43,6 %, variable selon huit facteurs, dont la légitimité de l'expérimentateur et la proximité de la victime [2] | Petits échantillons ; une seule variante avec des femmes ; presque toutes à Yale [2]
+- Burger, 2006 | 70 adultes, arrêt à 150 volts, à la première protestation de l'élève [3] | Obéissance « seulement légèrement inférieure » à celle de Milgram [3] | Différences de procédure : pas de comparaison stricte [8]
+- Doliński et al., 2015 | Procédure de Burger, sexe des participants et de l'élève contrôlé [4] | Obéissance « aussi élevée » que dans les études originales [4] | Reprend une procédure différente de celle de Milgram [4]
+source: Milgram, 1963 [1] ; Haslam, Loughnan et Perry, 2014 [2] ; Burger, 2009 [3] ; Doliński et al., 2017 [4] ; Miller, 2009 [8]
+lecture: Le taux de 65 % est celui d'une condition ; la moyenne sur 21 conditions est de 43,6 %, et les réplications ne se comparent qu'approximativement aux études originales.
+note: Les années indiquées pour Burger et Doliński sont celles des expériences ; les articles ont été publiés en 2009 et 2017. Les réplications ne mesurent pas l'obéissance jusqu'à la décharge maximale.
+
 ## Ce que les archives remettent en cause
 
 [Débat] La psychologue Gina Perry et ses coauteurs ont analysé en 2019 une étude non publiée de l'assistant de Milgram, Taketo Murata. Dans 18 des 23 variantes, les participants qui croyaient pleinement infliger une douleur ont administré en moyenne des décharges plus faibles que ceux qui n'y croyaient pas pleinement. Selon les auteurs, la perception de la douleur augmentait la désobéissance et le scepticisme augmentait l'obéissance, ce qui oblige à revoir l'interprétation classique de l'expérience et sa portée pour expliquer les atrocités d'État [5].
@@ -52,6 +64,18 @@ image_lien: https://commons.wikimedia.org/wiki/File:Apollo_Control_Display_Panel
 [Débat] Les psychologues Alexander Haslam et Stephen Reicher contestent aussi l'idée d'une soumission passive et irréfléchie. Selon eux, la disposition à suivre une autorité dépend de l'identification à cette autorité et de la conviction qu'elle a raison ; ils y voient une adhésion plutôt qu'une obéissance aveugle [11].
 
 [Interprétation] Ces critiques ne nient pas les résultats : beaucoup de participants ont bien administré ce qu'ils pouvaient croire être des décharges dangereuses. Elles en changent l'explication, de l'obéissance automatique vers l'adhésion à une cause jugée légitime, et soulignent qu'une partie des participants doutait de la réalité de la mise en scène.
+
+[Figure] tableau
+titre: Ce qui est observé, et trois façons de l'expliquer
+colonnes: Élément | Contenu | Appui | Statut
+donnees:
+- Observé | Beaucoup de participants administrent des décharges qu'ils peuvent croire dangereuses ; le taux varie selon les conditions [1][2] | Expérience de 1963 et synthèse de 21 variantes | Fait établi
+- Lecture classique | Des gens ordinaires peuvent faire du mal sur ordre, par obéissance | Lecture répandue de l'expérience | Interprétation
+- Adhésion | Suivre une autorité dépend de l'identification à elle et de la conviction qu'elle a raison [11] | Haslam et Reicher, 2012 | Interprétation (débat)
+- Crédibilité de la mise en scène | Ceux qui croyaient pleinement à la douleur donnaient des décharges plus faibles dans 18 des 23 variantes [5] | Réanalyse d'une étude non publiée, 2019 | Interprétation (débat)
+source: Milgram, 1963 [1] ; Haslam, Loughnan et Perry, 2014 [2] ; Perry et al., 2019 [5] ; Haslam et Reicher, 2012 [11]
+lecture: Les critiques ne nient pas les résultats observés ; elles en contestent l'explication par une obéissance automatique.
+note: Toutes ces lectures reposent sur des expériences de laboratoire brèves ; aucune ne dit comment une personne réelle agirait dans une institution ou un conflit.
 
 ## Ce que disent les neurosciences
 

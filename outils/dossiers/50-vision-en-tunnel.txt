@@ -36,11 +36,35 @@ corrections: Le 21 octobre 2026, précision de la taille de l'échantillon de l'
 
 [Interprétation] Le mécanisme se renforce lui-même : l'hypothèse oriente les questions, les questions modifient le comportement du suspect, et ce comportement semble confirmer l'hypothèse. Aucune mauvaise foi n'est nécessaire pour qu'il fonctionne.
 
+[Figure] etapes
+titre: L'interrogatoire orienté par une attente : ce que l'expérience de 2003 a mesuré, et ce qui en est déduit
+donnees:
+- Une attente | On laisse croire aux interrogateurs que la plupart des suspects sont coupables [2] | Fait établi
+- Des questions | Ils choisissent davantage de questions présumant la culpabilité et exercent plus de pression, surtout face aux innocents [2] | Fait établi
+- Une impression | Des auditeurs neutres perçoivent ensuite ces suspects comme plus défensifs, et un peu plus coupables [2] | Fait établi
+- Une confirmation apparente | Ce comportement semble confirmer l'hypothèse de départ, sans qu'aucune mauvaise foi soit nécessaire | Interprétation
+source: Saul Kassin, Christine Goldstein et Kenneth Savitsky, Law and Human Behavior, avril 2003 [2]
+lecture: Les trois premières étapes ont été mesurées dans l'expérience ; la quatrième, qui referme la boucle, est une interprétation.
+note: Expérience sur un vol simulé, avec 52 suspects et 52 interrogateurs ; elle ne mesure pas la fréquence de ce mécanisme dans les enquêtes réelles.
+
 ## Le meilleur argument contraire
 
 [Débat] Formuler tôt une hypothèse n'est pas une faute : c'est la condition d'une enquête efficace. Les sources consultées ne disent pas quelle part des hypothèses initiales se révèle juste ou fausse dans les enquêtes réelles. Plusieurs études sont menées avec des étudiants ou sur des dossiers simulés, sans les enjeux et les moyens d'une enquête réelle. Surtout, en 2010, Eric Rassin et ses coauteurs ont montré dans trois expériences, menées avec des étudiants à partir d'un dossier simulé [14], que la recherche d'investigations supplémentaires était guidée par l'évaluation initiale de la culpabilité et devenait plus orientée à charge quand le crime était grave ou les preuves fortes ; mais en moyenne, les participants ne privilégiaient pas les investigations à charge, qui représentaient à peine 50 % de leurs choix [5]. En 2020, Eric Rassin a soumis une version développée du même dossier à 105 juges pénaux professionnels néerlandais : des détails sans valeur probante, comme la gravité du crime ou l'apparence du suspect, modifiaient leur conviction et, à sa suite, leur préférence pour des investigations à charge [14].
 
 [Interprétation] La recherche ne décrit donc pas des enquêteurs qui cherchent systématiquement à charge. Elle décrit un risque, plus fort dans certaines conditions : crime grave, pression du temps, preuves apparemment solides, hypothèse unique. Ces conditions peuvent être réunies dans des affaires très médiatisées, mais les études citées ne mesurent pas ce lien.
+
+[Figure] tableau
+titre: Le biais de confirmation dans cinq expériences : qui, comment, quel résultat
+colonnes: Étude | Participants et méthode | Résultat | Limite
+donnees:
+- Ask et Granhag, 2005 | 50 enquêteurs et 68 étudiants, dossier préliminaire d'une affaire d'homicide [7] | Les enquêteurs attribuent la culpabilité au suspect principal quelle que soit l'hypothèse présentée [7] | Expérience : ne mesure pas la fréquence du biais dans les enquêtes réelles
+- Ask et Granhag, 2007 | 49 enquêteurs expérimentés, témoin qui confirme ou contredit l'hypothèse principale [1] | Le témoin qui la contredit est jugé moins fiable, à conditions d'observation identiques [1] | Expérience : ne mesure pas la fréquence du biais dans les enquêtes réelles
+- Kassin et al., 2003 | 52 interrogateurs et 52 suspects, coupables ou innocents d'un vol simulé [2] | Plus de questions présumant la culpabilité et plus de pression chez ceux qui attendaient des coupables [2] | Vol simulé
+- Rassin et al., 2010 | Trois expériences avec des étudiants, dossier simulé [5][14] | Investigations à charge à peine 50 % des choix, davantage si le crime est grave ou les preuves fortes [5] | Étudiants, et non enquêteurs [14]
+- Rassin, 2020 | 105 juges pénaux néerlandais, version développée du même dossier [14] | Des détails sans valeur probante modifient la conviction et la préférence pour les investigations à charge [14] | Dossier simulé
+source: Ask et Granhag, 2005 et 2007 [7][1] ; Kassin, Goldstein et Savitsky, 2003 [2] ; Rassin, Eerland et Kuijpers, 2010 [5] ; Rassin, 2020 [14]
+lecture: Ces expériences décrivent un risque qui augmente dans certaines conditions, et non une recherche systématique à charge.
+note: Les protocoles et les participants diffèrent d'une étude à l'autre ; les résultats ne s'additionnent pas.
 
 ## Les experts ne sont pas à l'abri
 
@@ -67,6 +91,20 @@ corrections: Le 21 octobre 2026, précision de la taille de l'échantillon de l'
 [Proposition] Faire examiner une affaire par un regard extérieur, chargé de chercher activement les hypothèses alternatives ; c'était l'objet de la collégialité de l'instruction prévue par la loi de 2007, dont l'entrée en vigueur a été reportée à plusieurs reprises ; un amendement adopté en commission en 2016 a proposé de la supprimer [12]. Les sources consultées pour ce dossier ne permettent pas d'indiquer le sort définitif de cet amendement. Objection avancée par cet amendement : le dispositif exigeait plus de trois cents postes de juges d'instruction supplémentaires et aurait éloigné l'instruction de nombreux tribunaux [12].
 
 [Proposition] Enregistrer les interrogatoires, pour permettre de vérifier après coup la manière dont les questions ont été posées. L'enregistrement audiovisuel est déjà prévu pour les mineurs placés en garde à vue depuis 2000 et, depuis le 1er juin 2008, en application de la loi du 5 mars 2007, pour les majeurs gardés à vue ou mis en examen en matière criminelle, avec des exceptions ; en 2012, le Conseil constitutionnel a censuré l'exclusion de la criminalité organisée et du terrorisme [15]. L'extension aux autres affaires est la proposition en débat.
+
+[Figure] frise
+titre: Enregistrement des interrogatoires et instruction : les dates citées dans ce dossier, de 2000 à 2016
+donnees:
+- 2000 | Enregistrement audiovisuel prévu pour les mineurs placés en garde à vue [15] | Fait établi
+- 6 juin 2006 | Rapport de la commission d'enquête parlementaire sur l'affaire d'Outreau [9] | Fait établi
+- 5 mars 2007 | Loi prévoyant les pôles de l'instruction, la collégialité de l'instruction et l'enregistrement en matière criminelle [10][12][15] | Fait établi
+- 1er mars 2008 | Entrée en vigueur des pôles de l'instruction [10] | Fait établi
+- 1er juin 2008 | Enregistrement des majeurs gardés à vue ou mis en examen en matière criminelle, avec des exceptions [15] | Fait établi
+- 6 avril 2012 | Le Conseil constitutionnel censure l'exclusion de la criminalité organisée et du terrorisme [15] | Fait établi
+- 12 mai 2016 | Amendement adopté en commission proposant de supprimer la collégialité, dont l'entrée en vigueur avait été reportée [12] | Fait établi
+source: Assemblée nationale, rapport n° 3125, 6 juin 2006 [9] ; circulaire DACG du 25 mai 2007 [10] ; amendement n° 392, 12 mai 2016 [12] ; La Revue des droits de l'homme, 10 avril 2012 [15]
+lecture: L'enregistrement des mineurs gardés à vue précède l'affaire d'Outreau ; les pôles, la collégialité et l'enregistrement en matière criminelle viennent de la loi de 2007, adoptée à la suite de la commission d'enquête.
+note: Intervalles non représentés à l'échelle. Le sort définitif de l'amendement de 2016 n'a pas pu être vérifié : la frise ne dit pas que la collégialité a été supprimée.
 
 ## Ce qu'on ne sait pas
 - **La fréquence de la vision en tunnel dans les enquêtes françaises** : aucune étude publique consultée ne la mesure.
