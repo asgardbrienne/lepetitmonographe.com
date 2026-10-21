@@ -133,7 +133,7 @@
       c.hidden = !ok;
       if (ok) n++;
     });
-    compteur.textContent = n;
+    if (compteur) compteur.textContent = n;
     vide.hidden = n !== 0;
   }
   champ.addEventListener('focus', charger);

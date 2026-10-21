@@ -972,7 +972,7 @@ dossiers_page = f'''  <section class="tete-simple">
     <div class="conteneur">
       <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a><span aria-hidden="true">›</span><span aria-current="page">Dossiers</span></nav>
       <h1>Tous les dossiers</h1>
-      <p class="chapeau">{len(_liste)} dossiers documentés. Cherchez par mot-clé ou filtrez par rubrique : chaque dossier sépare les faits établis, les débats et ce qu'on ne sait pas.</p>
+      <p class="chapeau">Cherchez par mot-clé ou filtrez par rubrique : chaque dossier sépare les faits établis, les débats et ce qu'on ne sait pas.</p>
     </div>
   </section>
   <section class="section">
@@ -983,7 +983,6 @@ dossiers_page = f'''  <section class="tete-simple">
         <div class="onglets" role="group" aria-label="Filtrer par rubrique">
           <button type="button" class="filtre" data-filtre="tous" aria-pressed="true">Tous</button>{_filtres}
         </div>
-        <p class="compteur" aria-live="polite"><span id="nb-resultats">{len(_liste)}</span> dossiers</p>
       </div>
       <div class="liste-lignes" id="liste-dossiers">
 {_lignes_toutes}
@@ -1070,7 +1069,7 @@ for h, c, t, d in RUBRIQUES:
     <div class="conteneur bandeau-contenu">
       <nav class="ariane" aria-label="Fil d'Ariane"><a href="./">Accueil</a><span aria-hidden="true">›</span><span>Rubriques</span><span aria-hidden="true">›</span><span aria-current="page">{t}</span></nav>
       <h1>{t.split(" &amp; ")[0] if c == "c-pouvoirs" else t}</h1>
-      <p>{d}<br>{len(DOSSIERS.get(c, []))} dossier{"s" if len(DOSSIERS.get(c, [])) > 1 else ""} pour comprendre les décisions, les chiffres et les procédures.</p>
+      <p>{d}</p>
     </div>
     <p class="credit-bandeau">{_html.escape(b["meta"].get("image_alt", ""))}. {credit_photo(b["meta"])}</p>
   </section>
@@ -1137,8 +1136,8 @@ EXPLORER = [
 _explorer = "\n".join(f'''        <a class="tuile" href="{h}"><span class="tuile-texte"><strong>{t}</strong> <span>{d}</span>{FLECHE}</span><span class="tuile-image{" tuile-livre" if "couverture" in img else ""}"><img src="{img}" alt="" width="160" height="160" loading="lazy"></span></a>''' for h, t, d, img in EXPLORER)
 _nb_rub = {c: len(DOSSIERS.get(c, [])) for c in RUB_INFO}
 PRESENTATION = [
-    ("dossiers.html", "Des dossiers documentés", f"{len(_liste)} dossiers qui séparent les faits établis, les témoignages, les débats et les hypothèses. Chaque chiffre est sourcé, avec un lien."),
-    ("#rubriques", "Cinq rubriques", f"Politique et institutions ({_nb_rub['c-pouvoirs']}), économie et société ({_nb_rub['c-economie']}), monde ({_nb_rub['c-monde']}), affaires judiciaires ({_nb_rub['c-affaires']}), psychologie, société et justice ({_nb_rub['c-psycho']})."),
+    ("dossiers.html", "Des dossiers documentés", "Des dossiers qui séparent les faits établis, les témoignages, les débats et les hypothèses. Chaque chiffre est sourcé, avec un lien."),
+    ("#rubriques", "Cinq rubriques", "Politique et institutions, économie et société, monde, affaires judiciaires, psychologie, société et justice."),
     ("livres.html", "Des monographies", "Pour aller plus loin : un sujet traité en profondeur, en un volume."),
     ("methode.html", "Une méthode publique", "Les règles appliquées à chaque dossier, et la liste datée des corrections."),
 ]
