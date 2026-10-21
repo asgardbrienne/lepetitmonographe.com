@@ -20,11 +20,11 @@ corrections: La charge de la dette de l'État prévue pour 2026 est corrigée (6
 - Fin juin 2026, la dette publique au sens de Maastricht atteint 3 595,5 milliards d'euros, soit 119,0 % du PIB [1].
 - Les intérêts versés par l'ensemble des administrations publiques atteindraient 91,2 milliards d'euros en 2027, selon la présentation gouvernementale du projet de budget ; la seule charge de la dette de l'État est estimée à 72,9 milliards dans le projet de loi de finances [2][9].
 - Le taux d'emprunt à 10 ans de la France est d'environ 4,8 % début octobre 2026, avec un écart de plus d'un point avec l'Allemagne [4].
-- Aucun seuil de dette ne fait consensus au-delà duquel un pays ferait défaut : le risque dépend surtout du coût du refinancement et de la confiance des prêteurs.
+- Aucun seuil de dette ne fait consensus au-delà duquel un pays ferait défaut ; les analyses mettent surtout en avant le coût du refinancement et la confiance des prêteurs.
 
 ## Ce que mesure la dette « de Maastricht »
 
-[Fait établi] La dette au sens de Maastricht est la dette brute de l'ensemble des administrations publiques : l'État, les administrations de sécurité sociale et les collectivités locales. Elle est publiée chaque trimestre par l'Insee et sert aux comparaisons européennes. Fin juin 2026, elle s'établit à 3 595,5 milliards d'euros, soit 119,0 % du PIB, contre 117,5 % fin mars 2026 [1].
+[Fait établi] La dette au sens de Maastricht est la dette brute de l'ensemble des administrations publiques : l'État, les administrations de sécurité sociale et les collectivités locales. Elle est publiée chaque trimestre par l'Insee et sert aux comparaisons européennes. Fin juin 2026, elle s'établit à 3 595,5 milliards d'euros, soit 119,0 % du produit intérieur brut (PIB, la richesse produite en un an), contre 117,5 % fin mars 2026 [1].
 
 [Fait établi] La dette a augmenté de 59,6 milliards d'euros au deuxième trimestre 2026, après 75,8 milliards au premier. L'État porte l'essentiel de la hausse du deuxième trimestre [1].
 
@@ -47,7 +47,7 @@ lecture: La charge de la dette de l'État passerait de 51,6 milliards d'euros ex
 note: 2026 : prévision révisée ; 2027 : prévision du projet de loi de finances. Ne pas confondre avec les intérêts de l'ensemble des administrations publiques (91,2 milliards prévus en 2027), qui couvrent un périmètre plus large.
 source: Projet de loi de finances pour 2027, déposé le 1er octobre 2026 [2]
 
-[Estimation] En comptabilité nationale, qui couvre l'ensemble des administrations publiques, les intérêts atteindraient 91,2 milliards d'euros en 2027, contre 79,2 milliards en 2026, selon le dossier de presse du Gouvernement repris par la presse spécialisée [9]. Le rapport sur la dette des administrations publiques exprime la même prévision en part de richesse produite : 2,6 % du PIB en 2026, 2,9 % en 2027 et 3,7 % en 2030 [7]. Les deux chiffres, 72,9 et 91,2 milliards, sont exacts : ils ne portent pas sur le même périmètre. Le chiffre de 91 milliards cité dans le débat public correspond au second.
+[Estimation] En comptabilité nationale, qui couvre l'ensemble des administrations publiques, les intérêts atteindraient 91,2 milliards d'euros en 2027, contre 79,2 milliards en 2026, selon le dossier de presse du Gouvernement repris par la presse spécialisée [9]. Le rapport sur la dette des administrations publiques exprime la même prévision en part de richesse produite : 2,6 % du PIB en 2026, 2,9 % en 2027 et 3,7 % en 2030 [7]. Les deux prévisions, 72,9 et 91,2 milliards, ne se contredisent pas : elles ne portent pas sur le même périmètre. Le chiffre de 91 milliards cité dans le débat public correspond au second.
 
 [Estimation] Le tableau de financement du projet de loi de finances prévoit un besoin de financement de l'État de 339,7 milliards d'euros en 2027 [2]. Selon l'Agence France Trésor, citée par l'AFP, c'est 28 milliards de plus que le besoin de financement 2026 actualisé [3]. Ce besoin couvre le déficit de l'année et le remboursement des emprunts qui arrivent à échéance.
 
@@ -55,7 +55,7 @@ source: Projet de loi de finances pour 2027, déposé le 1er octobre 2026 [2]
 
 ## Les taux d'emprunt et l'écart avec l'Allemagne
 
-[Fait établi] Le 7 octobre 2026, le taux à 10 ans de la France s'établit à environ 4,83 %, contre 3,49 % pour l'Allemagne, soit un écart de 134 points de base. En septembre 2026, cet écart avait franchi 100 points de base pour la première fois depuis 2012 [4]. Les valeurs exactes varient selon l'heure et le fournisseur de données : il s'agit de sources secondaires (presse financière et site agrégeant les séries de la Banque de France et de la Bundesbank).
+[Fait établi] Le 7 octobre 2026, le taux à 10 ans de la France s'établit à environ 4,83 %, contre 3,49 % pour l'Allemagne, soit un écart de 134 points de base (un point de base vaut 0,01 point de pourcentage : 134 points de base font donc 1,34 point). En septembre 2026, cet écart avait franchi 100 points de base pour la première fois depuis 2012 [4]. Les valeurs exactes varient selon l'heure et le fournisseur de données : il s'agit de sources secondaires (presse financière et site agrégeant les séries de la Banque de France et de la Bundesbank).
 
 L'écart avec l'Allemagne, souvent appelé « spread », mesure le supplément que les prêteurs exigent pour prêter à la France plutôt qu'à l'Allemagne. Il reflète la perception du risque, mais aussi d'autres facteurs comme la liquidité des titres.
 
@@ -81,7 +81,7 @@ source: Eurostat, communiqué du 21 juillet 2026 [5]
 
 [Débat] Une première position souligne que la France emprunte sans difficulté, que sa dette est longue et que les prêteurs restent nombreux : le risque d'un défaut est jugé très faible. Une seconde position souligne que la charge d'intérêts croît plus vite que les autres dépenses et réduit les marges de l'État, que le ratio français augmente de nouveau depuis 2024 [7] et reste bien supérieur à la moyenne de la zone euro [5], et qu'une hausse des taux peut devenir auto-entretenue. Les deux positions s'appuient sur des faits exacts ; elles diffèrent surtout sur l'horizon considéré et le poids donné au risque de perte de confiance.
 
-[Expertise] Le Haut Conseil des finances publiques juge « très peu vraisemblable » le retour du déficit public sous 3 % du PIB en 2029, sauf amélioration nette de la conjoncture [6].
+[Expertise] Le Haut Conseil des finances publiques, organisme indépendant placé auprès de la Cour des comptes, juge « très peu vraisemblable » le retour du déficit public sous 3 % du PIB en 2029, sauf évolutions conjoncturelles très favorables [6].
 
 ## Ce qu'on ne sait pas
 - **L'évolution des taux.** Elle dépend de la conjoncture, de la politique de la Banque centrale européenne et de la confiance des prêteurs, notamment pendant la campagne présidentielle de 2027.

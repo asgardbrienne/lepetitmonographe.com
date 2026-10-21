@@ -1,11 +1,11 @@
 fichier: dossier-logement.html
 rubrique: economie
 format: Explicatif
-titre: Logement : pourquoi il reste cher malgré 46 milliards d'aides par an
+titre: Logement : 46 milliards d'aides par an, une construction basse, des prix discutés
 titre_court: Le logement
-titre_seo: Logement : pourquoi il reste si cher
-description: 46 milliards d'aides par an, une construction basse, des prix et un crédit qui bougent en 2026 : pourquoi le logement reste cher en France, chiffres sourcés.
-chapeau: La collectivité consacre environ 1,5 % du PIB aux aides au logement. La construction reste basse, les prix des logements anciens baissent légèrement en 2026 et le crédit renchérit.
+titre_seo: Logement : aides, construction et prix
+description: 46 milliards d'aides par an, une construction basse, des prix et un crédit qui bougent en 2026 : ce que disent les chiffres et les explications en débat.
+chapeau: La collectivité consacre environ 1,5 % du PIB aux aides au logement. La construction reste basse, les prix des logements anciens baissent légèrement en 2026 et le crédit renchérit un peu.
 resume: Aides publiques, construction, prix et loyers : les chiffres du logement et les explications en débat. Données arrêtées au 8 octobre 2026.
 arret: 8 octobre 2026
 publication: 8 octobre 2026
@@ -24,7 +24,7 @@ corrections: La comparaison des taux de crédit avec juillet 2025, non vérifiab
 
 ## Ce que dépense la collectivité
 
-[Fait établi] Selon le compte du logement publié en septembre 2026, les aides publiques au logement atteignent 45,9 milliards d'euros en 2025, en hausse de 5,5 %, soit 1,5 % du PIB, contre 1,9 % dix ans auparavant [1]. Elles comprennent les aides personnelles versées aux ménages (APL, ALS, ALF), en hausse de 3 % en 2025, les aides au logement social, les avantages fiscaux et de taux, et les aides aux propriétaires, dont MaPrimeRénov' [1].
+[Fait établi] Selon le compte du logement publié en septembre 2026, les aides publiques au logement atteignent 45,9 milliards d'euros en 2025, en hausse de 5,5 %, soit 1,5 % du PIB, contre 1,9 % dix ans auparavant [1]. Elles comprennent les aides personnelles versées aux ménages (aide personnalisée au logement, allocations de logement sociale et familiale), en hausse de 3 % en 2025, les aides au logement social, les avantages fiscaux et de taux, et les aides aux propriétaires, dont MaPrimeRénov' [1].
 
 [Fait établi] Le projet de loi de finances pour 2026 prévoyait une baisse d'environ 590 millions d'euros (-3,5 %) des crédits des aides personnelles au logement, à 16,1 milliards d'euros [3].
 
@@ -50,9 +50,9 @@ source: Ministère chargé du logement, compte du logement, septembre 2026 [1]
 
 [Fait établi] Selon la Banque de France, citée par Meilleurtaux, le taux moyen des nouveaux crédits à l'habitat hors renégociations atteint 3,30 % en juillet 2026, après 3,27 % en juin [4]. Une autre série de la Banque de France, reprise par Boursedescrédits, donne 3,18 % en juillet après 3,16 % en juin [6]. Les deux séries, dont la méthode diffère, indiquent une légère hausse.
 
-## Pourquoi c'est cher : les explications en débat
+## Le coût du logement : les explications en débat
 
-[Interprétation] Les explications les plus souvent avancées sont : l'insuffisance de la construction dans les zones où la population augmente, le coût du foncier, la hausse des coûts de construction et des normes, la baisse du pouvoir d'achat immobilier liée à la remontée des taux depuis 2022, la place des résidences secondaires et des locations touristiques dans certaines villes.
+[Interprétation] Les explications le plus souvent avancées dans le débat public, dont le poids respectif n'est pas établi par les sources citées ici, sont : l'insuffisance de la construction dans les zones où la population augmente, le coût du foncier, la hausse des coûts de construction et des normes, la baisse du pouvoir d'achat immobilier liée à la remontée des taux depuis 2022, la place des résidences secondaires et des locations touristiques dans certaines villes.
 
 [Débat] Une partie des économistes estime que certaines aides, notamment les aides personnelles et les avantages fiscaux à l'investissement locatif, sont en partie captées par les propriétaires sous forme de loyers ou de prix plus élevés, surtout là où l'offre est rare. Une étude publiée par l'Insee en 2005 estime ainsi qu'entre 50 % et 80 % des allocations logement perçues par les ménages à bas revenus auraient été absorbées par la hausse des loyers, sur la période 1973-2002 [5]. D'autres soulignent que ces aides rendent le logement accessible à des millions de ménages modestes et que les supprimer dégraderait d'abord leur situation. L'ampleur de l'effet sur les prix dépend des marchés locaux et de la période étudiée, et reste discutée.
 

@@ -13,8 +13,8 @@ image: assets/images/niches-fiscales.jpg
 image_alt: Une main remplit une déclaration fiscale au stylo
 image_credit: GoSimpleTax, CC BY 2.0, recadrée, Flickr
 image_lien: https://www.flickr.com/photos/143133125@N02/45041565075
-verifie: 13 octobre 2026
-corrections: Les données sur la fiabilité des chiffrages sont corrigées d'après le rapport de la Cour des comptes (13 % des dépenses fiscales sans coût connu et 42 % sans nombre de bénéficiaires connu, au lieu de « 55 % chiffrées » et « 42 % au coût définitif connu »), le coût selon l'ancienne convention TVA est rattaché à la bonne année (103,1 milliards pour 2024, 105,6 milliards pour 2025), le chiffre non vérifiable de 82 dispositifs en extinction est retiré, et les premiers chiffres de l'annexe au projet de loi de finances pour 2027 sont ajoutés.
+verifie: 21 octobre 2026
+corrections: Les données sur la fiabilité des chiffrages sont corrigées d'après le rapport de la Cour des comptes (13 % des dépenses fiscales sans coût connu et 42 % sans nombre de bénéficiaires connu, au lieu de « 55 % chiffrées » et « 42 % au coût définitif connu »), le coût selon l'ancienne convention TVA est rattaché à la bonne année (103,1 milliards pour 2024, 105,6 milliards pour 2025), le chiffre non vérifiable de 82 dispositifs en extinction est retiré, et les premiers chiffres de l'annexe au projet de loi de finances pour 2027 sont ajoutés. Le 21 octobre 2026, la rubrique « Ce qu'on ne sait pas » est alignée sur les chiffres de la Cour des comptes : elle affirmait que « près de la moitié des dispositifs » n'était pas chiffrée ou l'était mal, alors que 13 % n'ont pas de coût connu et que 42 % n'ont pas de nombre de bénéficiaires connu.
 ---
 ## Essentiel
 - Le projet de loi de finances pour 2026 recensait 465 dépenses fiscales pour un coût prévu de 88,3 milliards d'euros en 2026 [1].
@@ -36,7 +36,7 @@ La frontière entre une niche et la « norme » est en partie conventionnelle. C
 
 [Fait établi] Dans son rapport d'avril 2026 sur le budget de l'État en 2025, la Cour des comptes relève un coût définitif de 89,4 milliards d'euros pour 2024 et un coût estimé de 91,8 milliards pour 2025, soit 25,8 % des recettes fiscales nettes et 3,1 % du PIB [2].
 
-[À noter] Les chiffrages initiaux sont régulièrement inférieurs aux coûts constatés : pour 2025, le budget prévoyait 85,1 milliards, le chiffrage a ensuite été porté à 91,8 milliards. Près de la moitié de cet écart (3,2 milliards) vient de la révision du coût du pacte Dutreil [2].
+[À noter] Les chiffrages initiaux se sont révélés inférieurs aux coûts constatés ces dernières années : les dépenses fiscales de 2024, estimées à 78,4 milliards d'euros dans le projet de loi de finances pour 2024, ont été chiffrées définitivement à 89,4 milliards ; pour 2025, le budget prévoyait 85,1 milliards, le chiffrage a ensuite été porté à 91,8 milliards. Près de la moitié de cet écart (3,2 milliards) vient de la révision du coût du pacte Dutreil, un allègement des droits de donation et de succession sur la transmission d'entreprises [2].
 
 [À noter] Selon la Cour des comptes, sur les 474 dépenses fiscales recensées en 2025, 13 % n'ont pas de coût connu et, pour 42 %, le nombre de bénéficiaires est inconnu. Depuis le projet de loi de finances pour 2024, les dépenses fiscales liées à la TVA ne sont plus comptées que pour la part de TVA revenant à l'État : avec l'ancienne convention, le coût atteindrait 103,1 milliards d'euros pour 2024 et 105,6 milliards pour 2025 [2]. Le total publié est donc un ordre de grandeur, pas une mesure exacte.
 
@@ -51,7 +51,7 @@ La frontière entre une niche et la « norme » est en partie conventionnelle. C
 [À noter] L'annexe sur les dépenses fiscales jointe au projet de loi de finances pour 2027 chiffre leur coût total à plus de 91 milliards d'euros, un montant présenté comme stable de 2025 à 2027, selon une dépêche de l'AFP [4]. Le 30 septembre 2026, le Conseil des prélèvements obligatoires, rattaché à la Cour des comptes, a publié une analyse jugeant ces dispositifs trop nombreux et trop instables [5].
 
 ## Ce qu'on ne sait pas
-- **Le coût exact.** Près de la moitié des dispositifs n'est pas chiffrée ou l'est mal.
+- **Le coût exact.** Selon la Cour des comptes, 13 % des dépenses fiscales de 2025 n'ont pas de coût connu et 42 % n'ont pas de nombre de bénéficiaires connu ; le total dépend en outre de la convention retenue pour la TVA [2].
 - **L'effet de la plupart des dispositifs** sur les comportements qu'ils visent : embauche, investissement, construction, dons.
 - **Le gain réel d'une suppression.** Supprimer une niche ne rapporte pas mécaniquement son coût affiché, car les contribuables modifient leurs comportements.
 

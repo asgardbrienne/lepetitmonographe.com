@@ -13,8 +13,8 @@ image: assets/images/retraites.jpg
 image_alt: Un immeuble de la Caisse des dépôts et consignations, à Paris
 image_credit: GFreihalter, CC BY-SA 4.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Paris_7e_Caisse_des_D%C3%A9p%C3%B4ts_et_Consignations_550.jpg
-verifie: 13 octobre 2026
-corrections: Les ressources sont actualisées avec le rapport du COR de juin 2026 (417 milliards d'euros en 2025), la fourchette de déficit 2025 non vérifiable (1,3 à 5,1 milliards) est retirée au profit du chiffre du COR, la comparaison avec le rapport précédent est corrigée (trajectoire comparable jusqu'en 2045, plus dégradée ensuite), et la mention d'une réforme de 2023 « dont l'application se poursuit » est corrigée : le COR intègre sa suspension.
+verifie: 21 octobre 2026
+corrections: Les ressources sont actualisées avec le rapport du COR de juin 2026 (417 milliards d'euros en 2025), la fourchette de déficit 2025 non vérifiable (1,3 à 5,1 milliards) est retirée au profit du chiffre du COR, la comparaison avec le rapport précédent est corrigée (trajectoire comparable jusqu'en 2045, plus dégradée ensuite), et la mention d'une réforme de 2023 « dont l'application se poursuit » est corrigée : le COR intègre sa suspension. Le 21 octobre 2026, l'affirmation non sourcée selon laquelle « certains économistes » jugent le déficit réel plus important est remplacée par l'analyse de la Cour des comptes sur les conventions de calcul de la contribution de l'État, et le déficit de 2025 est présenté comme une estimation du COR, et non comme un montant constaté.
 ---
 ## Essentiel
 - En 2025, le système de retraite a disposé d'environ 417 milliards d'euros de ressources, hors produits financiers, soit 13,9 % du PIB (405 milliards en 2024) [1][2].
@@ -24,19 +24,19 @@ corrections: Les ressources sont actualisées avec le rapport du COR de juin 202
 
 ## D'où vient l'argent
 
-[Fait établi] Le système de retraite est financé principalement par répartition : les cotisations versées une année servent à payer les pensions de la même année. En 2025, ses ressources hors produits financiers atteignent environ 417 milliards d'euros, soit 13,9 % du PIB, dont 277 milliards, près des deux tiers, proviennent des cotisations assises sur les revenus d'activité ; le reste correspond à des transferts de l'État ou d'autres organismes publics [2]. En 2024, ces ressources étaient de 405 milliards [1].
+[Fait établi] Le système de retraite est financé principalement par répartition : les cotisations versées une année servent à payer les pensions de la même année. En 2025, ses ressources hors produits financiers atteignent environ 417 milliards d'euros, soit 13,9 % du produit intérieur brut (PIB), dont 277 milliards, près des deux tiers, proviennent des cotisations assises sur les revenus d'activité ; le reste correspond à des transferts de l'État ou d'autres organismes publics [2]. En 2024, ces ressources étaient de 405 milliards [1].
 
 [Fait établi] Selon la Cour des comptes, les ressources consacrées aux retraites se composent aux deux tiers de cotisations sociales, complétées par la CSG et d'autres impôts et taxes dont la part a augmenté. Dans les régimes de base, la part des impôts et taxes affectés a doublé depuis 2004, de 7 % à 14 % des ressources [3].
 
 [Estimation] Une analyse syndicale du rapport 2025 du COR (UNSA Retraités) donne la répartition suivante pour 2024 : 65,1 % de cotisations sociales, 11,7 % de contributions de l'État en tant qu'employeur, 15 % d'impôts et taxes affectés et de transferts de TVA, 8,2 % de subventions d'équilibre de certains régimes spéciaux [4]. Cette ventilation est un calcul du syndicat, cohérent avec les ordres de grandeur du COR mais non publié sous cette forme par le COR.
 
-[Fait établi] Une partie des impôts affectés compense des exonérations de cotisations décidées par l'État. Le COR souligne que le montant de ces ressources dépend de décisions publiques et présente donc un caractère conventionnel [1][2].
+[Fait établi] Une partie des impôts affectés compense des exonérations de cotisations décidées par l'État : selon la Cour des comptes, c'est notamment ce qui explique la hausse de leur part [3]. Le COR souligne que le montant de ces ressources dépend de décisions publiques et présente donc un caractère conventionnel [1][2].
 
 ## Le solde
 
-[Fait établi] Selon le rapport annuel du COR publié en juin 2026, les ressources du système représentent 13,9 % du PIB en 2025 et les dépenses 14,1 % [2]. En 2025, le système serait déficitaire de 5,1 milliards d'euros, hors charges et produits financiers [2].
+[Estimation] Selon le rapport annuel du COR publié en juin 2026, les ressources du système représentent 13,9 % du PIB en 2025 et les dépenses 14,1 % [2]. Le COR estime qu'en 2025 le système, régimes de base et complémentaires compris, « serait déficitaire » de 5,1 milliards d'euros, soit 0,2 point de PIB, hors charges et produits financiers [2].
 
-[Estimation] Dans le scénario de référence du COR, le déficit atteindrait 0,2 % du PIB en 2030 (6,8 milliards d'euros), 0,9 % en 2045 et 2,4 % en 2070 [2]. Jusqu'en 2045, cette trajectoire est comparable à celle du rapport précédent : les nouvelles hypothèses de migrations et d'espérance de vie compensent le coût de la suspension de la réforme de 2023 (1,8 milliard d'euros par an en moyenne jusqu'en 2032). Au-delà, elle est plus dégradée, principalement en raison de la baisse de l'hypothèse de fécondité (1,45 enfant par femme contre 1,8) [2].
+[Estimation] Dans le scénario de référence du COR, le déficit atteindrait 0,2 % du PIB en 2030 (6,8 milliards d'euros), 0,9 % en 2045 et 2,4 % en 2070 [2]. Jusqu'en 2045, cette trajectoire est comparable à celle du rapport précédent : les nouvelles hypothèses de migrations et d'espérance de vie compensent le coût de la suspension de la réforme de 2023, qui relevait progressivement l'âge légal de départ (1,8 milliard d'euros par an en moyenne jusqu'en 2032). Au-delà, elle est plus dégradée, principalement en raison de la baisse de l'hypothèse de fécondité (1,45 enfant par femme contre 1,8) [2].
 
 [Figure] barres
 titre: Déficit projeté du système de retraite, scénario de référence du COR
@@ -46,10 +46,10 @@ donnees:
 - 2045 | 0,9*
 - 2070 | 2,4*
 lecture: Dans son scénario de référence, le COR projette un déficit de 0,2 % du PIB en 2030 et de 2,4 % en 2070.
-note: Projections : elles dépendent d'hypothèses de productivité, de chômage, de fécondité et de solde migratoire. Le déficit constaté en 2025 est de 5,1 milliards d'euros, hors charges et produits financiers.
+note: Projections : elles dépendent d'hypothèses de productivité, de chômage, de fécondité et de solde migratoire. Les années représentées ne se suivent pas : l'axe n'est pas continu. Pour 2025, le COR estime le déficit à 5,1 milliards d'euros, hors charges et produits financiers.
 source: Conseil d'orientation des retraites, rapport annuel de juin 2026 [2]
 
-[Débat] Le niveau du déficit dépend du traitement des produits financiers et de la contribution de l'État au régime de ses fonctionnaires, qui est par construction à l'équilibre. Le COR relève lui-même que ce cadre comptable « tend à masquer la fragilité persistante du régime des fonctionnaires de l'État », qui comptait 1,29 cotisant par retraité en 2020 [2] ; certains économistes en concluent que le déficit réel est plus important. À l'inverse, l'UNSA Retraités juge que « le système des retraites français est solide » et dénonce « l'alarmisme » qui a entouré la réforme de 2023 [4]. Ces lectures ne s'opposent pas sur les chiffres mais sur la convention retenue et l'horizon considéré.
+[Débat] Le niveau du déficit dépend du traitement des produits financiers et de la contribution de l'État au régime de ses fonctionnaires, qui est par construction à l'équilibre. Le COR relève lui-même que ce cadre comptable « tend à masquer la fragilité persistante du régime des fonctionnaires de l'État », qui comptait 1,29 cotisant par retraité en 2020, contre 2,05 pour l'ensemble des régimes [2]. La Cour des comptes observe que la contribution de l'État mêle une cotisation d'employeur, le financement de dépenses non contributives et un solde d'équilibre, « sans qu'il soit possible de les distinguer » : il existe donc « autant de formules de calcul que de conventions comptables », ces présentations étant sans incidence sur la charge totale supportée par les finances publiques [3]. À l'inverse, l'UNSA Retraités juge que « le système des retraites français est solide » et dénonce « l'alarmisme » qui a entouré la réforme de 2023 [4]. Ces lectures ne s'opposent pas sur les chiffres mais sur la convention retenue et l'horizon considéré.
 
 ## Ce qu'on ne sait pas
 - **L'équilibre à long terme.** Les projections du COR à 2070 dépendent d'hypothèses de productivité, de chômage, de natalité et de solde migratoire dont chacune peut changer fortement le résultat.

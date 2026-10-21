@@ -34,7 +34,7 @@ corrections: Les revendications d'attaques par rançongiciel visant la France n'
 
 ## Les attaques contre les organisations
 
-[Fait établi] Le commandement du ministère de l'Intérieur dans le cyberespace (COMCYBER-MI) a recensé 1 347 revendications ou annonces de cyberattaques visant la France en 2025, contre 1 062 en 2024, soit une hausse de 27 % [2]. Les attaques par déni de service, principalement revendiquées par des groupes se réclamant de l'hacktivisme, arrivent en tête, devant les vols et reventes de données et les attaques par rançongiciel [2].
+[Fait établi] Le commandement du ministère de l'Intérieur dans le cyberespace (COMCYBER-MI) a recensé 1 347 revendications ou annonces de cyberattaques visant la France en 2025, contre 1 062 en 2024, soit une hausse de 27 % [2]. Les attaques par déni de service, qui saturent un site ou un service pour le rendre inaccessible, principalement revendiquées par des groupes se réclamant de l'hacktivisme (piratage à visée politique ou militante), arrivent en tête, devant les vols et reventes de données et les attaques par rançongiciel, un logiciel qui bloque ou chiffre les données d'une victime pour exiger une rançon [2].
 
 [Fait établi] Selon le même rapport, les revendications d'attaques par rançongiciel ciblant la France ont augmenté de 36 % en 2025, avec 177 revendications recensées ; les groupes Qilin et Brain Cypher concentrent 55,6 % de ces revendications [2].
 
