@@ -9,19 +9,20 @@ chapeau: Jurys, comités, partis, groupes en ligne : après discussion, un group
 resume: Expériences fondatrices, jurys fictifs et sévérité des sanctions, expérience du Colorado, mécanismes d'influence sociale et d'arguments, conditions qui évitent la polarisation, chambres d'écho et résultats contradictoires sur Facebook et Twitter. Données arrêtées au 19 octobre 2026.
 arret: 19 octobre 2026
 publication: 19 octobre 2026
-verifie: 19 octobre 2026
+verifie: 21 octobre 2026
 voir_aussi: dossier-acquittement-prescription.html, dossier-votes-groupes-2017-2026.html
 image: assets/images/polarisation-groupe.jpg
 image_alt: Une salle de réunion vide, chaises autour d'une table
 image_credit: Breather, CC0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Quiet_meeting_room_(Unsplash).jpg
+corrections: Le 21 octobre 2026, précision que la comparaison entre Facebook et Reddit de l'étude de 2021 porte sur la consommation d'informations, et que l'expérience Twitter publiée en 2018 reposait sur une incitation financière ; l'objection à Sunstein, non sourcée, est désormais présentée comme formulée par Le Petit Monographe ; l'Essentiel ne parle plus de résultats « divergents », pour rester cohérent avec le corps du texte.
 ---
 ## Essentiel
 - La polarisation de groupe désigne la tendance des membres d'un groupe qui délibère à se déplacer vers une position plus extrême, dans la direction où ils penchaient déjà. Elle a été observée dans plusieurs pays, dont la France [1][2].
 - Dans une étude portant sur plus de 500 jurys fictifs américains et plus de 3 000 citoyens, le montant des dommages-intérêts décidé par le jury était systématiquement supérieur à la médiane des avis individuels avant délibération : un « effet de sévérité » [3].
 - Dans une expérience menée dans le Colorado et publiée en 2007, des groupes de citoyens d'une ville progressiste et d'une ville conservatrice ont délibéré séparément sur trois sujets : chaque groupe est devenu plus homogène et plus éloigné de l'autre [4].
 - Le phénomène n'est pas inévitable : les sondages délibératifs, où des informations contradictoires sont fournies aux participants, ne produisent pas de polarisation systématique [1].
-- Sur les réseaux sociaux, les résultats divergent : une expérience sur Twitter a accru la polarisation de certains participants exposés à l'autre camp, tandis qu'une expérience sur 23 377 utilisateurs de Facebook réduisant d'un tiers les contenus de leur camp n'a eu aucun effet mesurable sur leurs opinions [5][6].
+- Sur les réseaux sociaux, les résultats sont contrastés : une expérience sur Twitter a accru la polarisation de certains participants exposés à l'autre camp, tandis qu'une expérience sur 23 377 utilisateurs de Facebook réduisant d'un tiers les contenus de leur camp n'a eu aucun effet mesurable sur leurs opinions [5][6].
 
 [À noter] Ce dossier décrit un phénomène statistique observé sur des groupes ; il ne dit pas qu'un groupe donné, ou une juridiction donnée, a pris une décision trop sévère ou trop indulgente. Polarisation de groupe : déplacement de la position moyenne d'un groupe, après discussion, dans la direction initiale. Elle ne désigne pas la division d'une société en camps opposés, même si les deux phénomènes peuvent se combiner. Chambre d'écho : environnement où une personne est surtout exposée à des opinions proches des siennes.
 
@@ -43,17 +44,17 @@ image_lien: https://commons.wikimedia.org/wiki/File:Quiet_meeting_room_(Unsplash
 
 [Interprétation] Les chercheurs avancent deux explications, qui peuvent se combiner [1][8]. La première est sociale : chacun veut être perçu favorablement par le groupe et ajuste sa position vers ce qui semble y être valorisé, d'autant plus quand il découvre que d'autres pensent comme lui. La seconde tient aux arguments : dans un groupe qui penche d'un côté, la plupart des arguments échangés vont dans ce sens, et chacun en entend de nouveaux qui le confortent, sans entendre ceux de l'autre camp.
 
-[Débat] Le phénomène est-il une pathologie de la délibération ? Pour Cass Sunstein, il appelle des garde-fous dans les institutions qui délibèrent : juridictions collégiales, commissions, assemblées [1]. Les partisans de la délibération répondent qu'un groupe peut aussi corriger des erreurs individuelles, et que le résultat dépend de sa composition et des informations disponibles. Sunstein relève lui-même que les sondages délibératifs du politiste James Fishkin, où des documents présentent les faits et arguments de chaque camp à des participants d'opinions variées, ne produisent pas de polarisation systématique [1].
+[Débat] Le phénomène est-il une pathologie de la délibération ? Pour Cass Sunstein, il appelle des garde-fous dans les institutions qui délibèrent : juridictions collégiales, commissions, assemblées [1]. L'objection la plus sérieuse, que formule ici Le Petit Monographe sans source dédiée, est qu'un groupe peut aussi corriger des erreurs individuelles, et que le résultat dépend de sa composition et des informations disponibles. Sunstein relève lui-même que les sondages délibératifs du politiste James Fishkin, où des documents présentent les faits et arguments de chaque camp à des participants d'opinions variées, ne produisent pas de polarisation systématique [1].
 
 ## Les réseaux sociaux
 
-[Fait établi] Une étude publiée en 2021, portant sur plus de 100 millions de contenus sur des sujets controversés (armes à feu, vaccination, avortement) publiés sur Gab, Facebook, Reddit et Twitter, conclut que les interactions entre utilisateurs aux opinions proches dominent sur Facebook et Twitter, avec une ségrégation plus forte sur Facebook que sur Reddit [10].
+[Fait établi] Une étude publiée en 2021, portant sur plus de 100 millions de contenus sur des sujets controversés (armes à feu, vaccination, avortement) publiés sur Gab, Facebook, Reddit et Twitter, conclut que les interactions entre utilisateurs aux opinions proches dominent sur Facebook et Twitter ; en comparant la consommation d'informations sur Facebook et sur Reddit, les auteurs relèvent une ségrégation plus forte sur Facebook [10].
 
-[Fait établi] En 2018, une expérience a incité des utilisateurs américains de Twitter à suivre pendant un mois un compte diffusant les messages du camp politique opposé. Les républicains exposés à des messages progressistes sont devenus nettement plus conservateurs ; chez les démocrates exposés à des messages conservateurs, la légère hausse des positions progressistes n'était pas statistiquement significative [5].
+[Fait établi] Dans une expérience publiée en 2018, des chercheurs ont proposé une rémunération à des utilisateurs américains de Twitter, démocrates et républicains, pour qu'ils suivent pendant un mois un compte automatisé diffusant les messages du camp politique opposé. Les républicains exposés à des messages progressistes sont devenus nettement plus conservateurs ; chez les démocrates exposés à des messages conservateurs, la légère hausse des positions progressistes n'était pas statistiquement significative [5].
 
 [Fait établi] En 2023, une expérience menée pendant la présidentielle américaine de 2020 auprès de 23 377 utilisateurs de Facebook a réduit d'environ un tiers leur exposition aux contenus de sources proches de leurs opinions. Leur exposition à d'autres points de vue a augmenté et leur exposition aux propos incivils a diminué, mais aucun effet mesurable n'a été constaté sur huit indicateurs préenregistrés, dont la polarisation affective et l'extrémité des opinions [6].
 
-[Interprétation] Ces trois études ne se contredisent pas : les chambres d'écho existent, mais en sortir ne suffit pas à rendre les opinions plus modérées, et une exposition à l'autre camp peut même durcir certaines positions. Elles portent toutes sur les États-Unis, avec des plateformes et des algorithmes qui ont changé depuis.
+[Interprétation] Ces trois études ne se contredisent pas nécessairement : les chambres d'écho existent, mais en sortir ne suffit pas à rendre les opinions plus modérées, et une exposition à l'autre camp peut même durcir certaines positions. Elles portent toutes sur les États-Unis, avec des plateformes et des algorithmes qui ont changé depuis.
 
 ## Ce qu'on ne sait pas
 - **L'existence d'un effet de polarisation dans les délibérés des cours d'assises françaises** : le secret du délibéré empêche de l'étudier directement.

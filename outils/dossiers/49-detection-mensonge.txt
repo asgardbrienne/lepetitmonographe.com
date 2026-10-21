@@ -9,16 +9,17 @@ chapeau: Regard fuyant, gestes nerveux, micro-expressions, machine qui mesure le
 resume: Précision moyenne des jugements humains, absence d'indice fiable, mythe du regard fuyant, micro-expressions et synergologie, polygraphe selon l'Académie des sciences américaine, approches verbales et leurs critiques. Données arrêtées au 19 octobre 2026.
 arret: 19 octobre 2026
 publication: 19 octobre 2026
-verifie: 19 octobre 2026
+verifie: 21 octobre 2026
 voir_aussi: dossier-temoignage-erreur-sincere.html, dossier-parole-violences-sexuelles.html, dossier-acquittement-prescription.html
 image: assets/images/detection-mensonge.jpg
 image_alt: Un polygraphe ancien, conservé par le FBI
 image_credit: Federal Bureau of Investigation (FBI), domaine public, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:November_2016-_Polygraph_Machine_-_Jack_Ruby.jpg
+corrections: Le 21 octobre 2026, ajout de l'issue du recours contre la loi belge sur le polygraphe (rejeté comme manifestement irrecevable par la Cour constitutionnelle le 1er octobre 2020, sans examen au fond), précision de la phrase de l'Essentiel sur les différences entre juges, qui pouvait laisser croire que les meilleurs juges ne font pas mieux que 50 %, et retrait d'un accord attribué sans source à l'équipe de Timothy Levine.
 ---
 ## Essentiel
 - Une méta-analyse de 2006 portant sur 206 documents et 24 483 juges établit que, sans aide ni formation particulière, les personnes distinguent le vrai du faux dans 54 % des cas en moyenne, à peine mieux que le hasard (50 %) [1].
-- Les différences entre individus sont minimes : selon une seconde méta-analyse, les meilleurs juges ne sont pas plus précis que ce que produirait le hasard. Le résultat dépend davantage de la crédibilité de la personne jugée que du talent de celui qui juge [2].
+- Les différences entre individus sont minimes : selon une seconde méta-analyse, les écarts de précision entre juges ne dépassent pas ce que produirait la simple variation aléatoire, si bien que les « meilleurs » juges ne se distinguent pas des autres de façon mesurable. Le résultat dépend davantage de la crédibilité de la personne jugée que du talent de celui qui juge [2].
 - Sur 158 indices étudiés, beaucoup n'ont aucun lien, ou un lien faible, avec le mensonge [3]. Une revue de 2019 qualifie les indices non verbaux découverts à ce jour de « faibles et peu fiables » [4]. La croyance la plus répandue au monde, « le menteur évite le regard », a été relevée dans 75 pays [5].
 - Pour le polygraphe, l'Académie nationale des sciences américaine concluait en 2003 que, dans des enquêtes portant sur un fait précis, il distingue le mensonge de la vérité « bien au-dessus du hasard, mais bien en dessous de la perfection », et que son usage pour le dépistage n'est pas justifié par les études [6].
 - Les méthodes d'entretien qui s'appuient sur le contenu du récit obtiennent de meilleurs résultats en laboratoire ; l'ampleur de ce gain est contestée [7][8].
@@ -33,7 +34,7 @@ image_lien: https://commons.wikimedia.org/wiki/File:November_2016-_Polygraph_Mac
 
 [Débat] Le psychologue Paul Ekman a soutenu le contraire. Dans une étude de 1991 sur 509 personnes, dont des membres des services de police et de renseignement américains, des juges et des psychiatres, seul le groupe des agents du Secret Service a fait mieux que le hasard [9]. Les méta-analyses ultérieures n'ont pas confirmé l'existence de groupes ou d'individus nettement plus doués que les autres [2].
 
-[Interprétation] Pour une enquête ou un procès, la conséquence est directe : l'impression qu'une personne « a l'air de mentir » ou « a l'air sincère » dit surtout quelque chose de la façon dont elle se présente. Une personne anxieuse, maladroite ou d'une autre culture peut paraître moins crédible tout en disant vrai.
+[Interprétation] Ces résultats viennent pour l'essentiel d'études menées en laboratoire, avec des mensonges à faible enjeu ; leur transposition aux auditions réelles n'est pas mesurée directement. S'ils s'y appliquent, la conséquence est nette pour une enquête ou un procès : l'impression qu'une personne « a l'air de mentir » ou « a l'air sincère » dit surtout quelque chose de la façon dont elle se présente. Une personne anxieuse, maladroite ou d'une autre culture peut paraître moins crédible tout en disant vrai.
 
 ## Pas de nez de Pinocchio
 
@@ -57,17 +58,18 @@ image_lien: https://commons.wikimedia.org/wiki/File:November_2016-_Polygraph_Mac
 
 [Fait établi] En 2003, un comité de l'Académie nationale des sciences américaine a examiné les études sur le polygraphe. Il conclut que, chez des personnes non entraînées à le déjouer, les tests portant sur un fait précis distinguent le mensonge de la vérité « bien au-dessus du hasard, mais bien en dessous de la perfection ». Les 57 études retenues portaient toutes sur des faits précis, souvent des crimes simulés ; leurs estimations sont « presque certainement » supérieures à la précision réelle sur le terrain. Pour le dépistage du personnel, la précision est « presque certainement » plus faible, et la généralisation n'est pas justifiée. Toutes les mesures physiologiques peuvent être modifiées volontairement [6].
 
-[Fait établi] Les sources consultées ne décrivent pas d'usage du polygraphe dans la procédure pénale française. En Belgique, une loi du 4 février 2020 a inscrit le test polygraphique dans le code d'instruction criminelle : le procureur du Roi ou le juge d'instruction peut le proposer à un suspect, un témoin ou une victime, qui peuvent aussi le demander ; la loi a fait l'objet d'un recours devant la Cour constitutionnelle belge [12].
+[Fait établi] En Belgique, une loi du 4 février 2020 a inscrit le test polygraphique dans le code d'instruction criminelle : lorsqu'il existe des indices sérieux d'un crime ou d'un délit, le procureur du Roi ou le juge d'instruction peut le proposer à un suspect, un témoin ou une victime, qui peuvent aussi le demander. Le test repose sur le consentement de la personne, et ses résultats ne peuvent être pris en considération qu'à titre de preuve corroborant d'autres moyens de preuve. Un recours en annulation contre cette loi a été rejeté par la Cour constitutionnelle belge le 1er octobre 2020, comme manifestement irrecevable faute d'intérêt du requérant ; la Cour ne s'est donc pas prononcée sur le fond [12].
 
 ## Ce qui marche mieux : écouter plutôt que regarder
 
 [Débat] Une méta-analyse publiée en 2017 par Aldert Vrij, Ronald Fisher et Hartmut Blank conclut qu'une approche « cognitive » de l'entretien (augmenter la charge mentale, inciter la personne à en dire plus, poser des questions inattendues) atteint 71 % de bonnes réponses, contre 56 % pour une approche classique [7]. Timothy Levine et ses coauteurs ont réanalysé les mêmes données : selon eux, l'avantage est « bien plus faible » qu'annoncé, les conditions de comparaison avaient des précisions anormalement basses et les résultats les plus favorables venaient des données les moins fiables [8].
 
-[Interprétation] Les deux équipes s'accordent sur l'orientation générale de la recherche : le contenu d'un récit, sa cohérence avec des éléments vérifiables et la façon dont il évolue quand on pose des questions inattendues renseignent davantage que les gestes. Elles divergent sur l'ampleur du gain. Aucune méthode ne transforme un entretien en détecteur fiable du mensonge pour un cas particulier.
+[Interprétation] Le désaccord entre les deux équipes porte sur l'ampleur du gain. L'idée que le contenu d'un récit, sa cohérence avec des éléments vérifiables et la façon dont il évolue quand on pose des questions inattendues renseignent davantage que les gestes est cohérente avec les synthèses citées plus haut sur la faiblesse des indices non verbaux [3][4] ; les sources consultées ne permettent pas de dire si Timothy Levine et ses coauteurs la partagent. Aucune méthode ne transforme un entretien en détecteur fiable du mensonge pour un cas particulier.
 
 ## Ce qu'on ne sait pas
 - **La précision des enquêteurs et des magistrats français** dans l'évaluation de la sincérité : aucune étude consultée ne la mesure.
 - **L'usage réel de méthodes non validées**, comme la synergologie, dans les formations des professionnels français de la sécurité et de la justice : les sources consultées ne le documentent pas.
+- **La place du polygraphe dans la procédure pénale française** : les sources consultées n'en décrivent aucun usage, sans en exposer le cadre juridique.
 - **La précision du polygraphe dans les conditions réelles** : selon l'Académie américaine, les études disponibles la surestiment, sans qu'on puisse dire de combien [6].
 
 ## Sources

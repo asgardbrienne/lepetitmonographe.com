@@ -429,7 +429,7 @@ apropos = tete("À propos", "Le Petit Monographe", "Une publication indépendant
           <li><strong>La même grille pour tous.</strong> Avant publication, chaque dossier est relu pour vérifier que les mêmes critères de preuve s'appliquent à toutes les personnes et à tous les camps concernés.</li>
           <li><strong>Une date et un historique.</strong> Chaque dossier indique la date d'arrêt de ses données et la date de sa dernière vérification.</li>
         </ol>
-        <p>Cette méthode n'empêche pas toute erreur. En octobre 2026, tous les dossiers publiés ont été relus sur leurs sources d'origine ; les corrections qui en ont résulté sont listées, une par une, dans l'<a href="methode.html#errata">historique des corrections</a>.</p>
+        <p>Cette méthode n'empêche pas toute erreur. En octobre 2026, tous les dossiers publiés ont été relus sur leurs sources d'origine, puis audités le 21 octobre selon la bible éditoriale du site : statuts, attributions, contexte des chiffres, sources secondaires. Les corrections de fond qui en ont résulté sont listées, une par une, dans l'<a href="methode.html#errata">historique des corrections</a>.</p>
         <p class="signature">Les faits d'abord. L'opinion reste au lecteur.</p>
       </div>""")
 page("a-propos.html", "À propos", "Le Petit Monographe, publication indépendante de dossiers documentaires sourcés sur la politique, l'économie, la société et la justice.", apropos)
