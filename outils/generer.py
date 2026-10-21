@@ -664,6 +664,7 @@ _CHOMAGE_CORPS = f'''        <h2>Deux chiffres, deux dénominateurs</h2>
         <p>Le taux d'emploi des 55-64 ans est passé de 41 % en 2010 à 61,7 % en 2025, selon le Conseil d'orientation des retraites.{note(6)}</p>
 {encadre("À noter", f"<p>À partir du deuxième trimestre 2026, l'Insee publie ses indicateurs sur le champ « France », qui inclut désormais Mayotte. Les séries ont été recalculées sur ce nouveau champ. L'inclusion de Mayotte relève le taux de chômage de 0,06 point et abaisse le taux d'emploi des 15-64 ans de 0,17 point.{note(1)} Les moyennes annuelles 2025 du tableau ont été publiées avant ce changement : les comparer directement aux chiffres de 2026 mélange deux champs. Les évolutions sur un an indiquées par l'Insee dans sa publication d'août 2026 sont, elles, calculées sur le même champ.</p>")}
 {encadre("À noter", f"<p>Le taux de chômage est estimé à partir d'une enquête, l'enquête Emploi, et non compté exhaustivement. L'Insee indique une précision de plus ou moins 0,3 point, sur le niveau comme sur la variation d'un trimestre à l'autre.{note(1)}{note(7)} Une hausse de 0,2 point en un trimestre est donc compatible avec une stabilité. C'est la succession de six hausses qui rend la tendance significative.</p>")}
+@@FIG_CHOMAGE@@
 
         <h2>L'emploi salarié et l'emploi non salarié</h2>
 {encadre("Fait établi", f"<p>L'emploi salarié recule de 23 500 postes (-0,1 %) au deuxième trimestre 2026. Dans le secteur privé, la baisse atteint 0,4 % sur un an, soit 80 900 emplois.{note(3)}</p>")}
@@ -872,6 +873,18 @@ def rendre_dossier(chemin):
         f'<li>{meta["verifie"]} : chiffres, dates et décisions relus sur les sources d\'origine.{(" " + _inline(meta["corrections"])) if meta.get("corrections") else ""}</li>' if meta.get("verifie") else "")
     return gabarit_dossier(meta, essentiel, _blocs(texte), _blocs(sp.get("Ce qu'on ne sait pas", "").strip()), src_html, len(sources), historique)
 
+_FIG_CHOMAGE = """[Figure] barres-h
+titre: Près de la moitié de la hausse du chômage depuis fin 2024 vient, en comptabilité, des publics visés par la loi pour le plein emploi
+unite: Points de taux de chômage (BIT), hausse depuis fin 2024, Insee (publication d'août 2026)
+donnees:
+- Hausse totale du taux de chômage | 0,98
+- Contribution des publics visés par la loi | 0,44
+- dont bénéficiaires du RSA | 0,31
+source: Insee, Informations rapides n° 192, 7 août 2026 [1]
+lecture: Sur une hausse de 0,98 point, 0,44 point est imputé aux bénéficiaires du RSA et aux jeunes inscrits à France Travail, dont 0,31 point aux seuls bénéficiaires du RSA.
+note: Contribution comptable : selon l'Insee, elle est fragile du fait des aléas d'enquête et ne distingue pas l'effet de la loi de celui de la conjoncture. La troisième barre est une partie de la deuxième."""
+_NUM_FIG.update(frise=0, fig=0)
+_CHOMAGE_CORPS = _CHOMAGE_CORPS.replace("@@FIG_CHOMAGE@@", _blocs(_FIG_CHOMAGE))
 gabarit_dossier(DOSSIER_CHOMAGE, _CHOMAGE_ESSENTIEL, _CHOMAGE_CORPS, _CHOMAGE_INCONNUES, sources_html, len(SOURCES_CHOMAGE), _CHOMAGE_HISTORIQUE)
 _dossiers_simples = [rendre_dossier(f) for f in sorted(glob.glob(os.path.join(os.environ.get("LPM_DOSSIERS") or os.path.join(os.path.dirname(os.path.abspath(__file__)), "dossiers"), "*.txt")))]
 for m in _dossiers_simples:
