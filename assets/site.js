@@ -108,15 +108,26 @@
   var compteur = document.getElementById('nb-resultats');
   var vide = document.getElementById('aucun-resultat');
   var rubrique = 'tous';
+  var index = null, chargement = null;
 
   function sansAccents(t) {
-    return t.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+    return t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  }
+  // Texte intégral des dossiers : chargé une seule fois, à la première recherche.
+  function charger() {
+    if (chargement) return;
+    chargement = fetch('assets/recherche.json').then(function (r) { return r.json(); }).then(function (j) {
+      index = {};
+      Object.keys(j).forEach(function (k) { index[k] = sansAccents(j[k]); });
+      appliquer();
+    }).catch(function () { chargement = null; });
   }
   function appliquer() {
     var mots = sansAccents(champ.value.trim()).split(/\s+/).filter(Boolean);
     var n = 0;
     cartes.forEach(function (c) {
-      var texte = sansAccents(c.getAttribute('data-texte') || '');
+      var texte = sansAccents(c.getAttribute('data-texte') || '') +
+        (index ? ' ' + (index[c.getAttribute('data-fichier')] || '') : '');
       var ok = (rubrique === 'tous' || c.getAttribute('data-rubrique') === rubrique) &&
         mots.every(function (m) { return texte.indexOf(m) !== -1; });
       c.hidden = !ok;
@@ -125,9 +136,10 @@
     compteur.textContent = n;
     vide.hidden = n !== 0;
   }
-  champ.addEventListener('input', appliquer);
+  champ.addEventListener('focus', charger);
+  champ.addEventListener('input', function () { charger(); appliquer(); });
   var q = new URLSearchParams(window.location.search).get('q');
-  if (q) { champ.value = q; appliquer(); }
+  if (q) { champ.value = q; charger(); appliquer(); }
   filtres.forEach(function (f) {
     f.addEventListener('click', function () {
       rubrique = f.getAttribute('data-filtre');

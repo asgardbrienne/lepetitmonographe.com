@@ -1,5 +1,6 @@
 import sys, os, re
 import html as _html
+import json
 OUT = sys.argv[1]
 
 NAV = [  # (page, libellé, pages rattachées)
@@ -60,7 +61,7 @@ def meta_description(texte, limite=165):
     coupe = texte[:limite - 1].rsplit(" ", 1)[0].rstrip(" ,;:")
     return coupe + "…"
 
-def page(fichier, titre, description, corps, noindex=False, classe="", titre_seo=None, image=None, type_og="website"):
+def page(fichier, titre, description, corps, noindex=False, classe="", titre_seo=None, image=None, type_og="website", tete_extra=""):
     liens = []
     for h, l, r in NAV:
         cur = ' aria-current="page"' if _actif(fichier, h, r) else ""
@@ -97,7 +98,7 @@ def page(fichier, titre, description, corps, noindex=False, classe="", titre_seo
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap">
   <link rel="stylesheet" href="assets/style.css?v={V_CSS}">
-  <script>try{{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}}catch(e){{}}</script>
+  <script>try{{var t=localStorage.getItem("lpm-theme");if(t)document.documentElement.setAttribute("data-theme",t)}}catch(e){{}}</script>{tete_extra}
 </head>
 <body{f' class="{classe}"' if classe else ""}>
 
@@ -240,11 +241,11 @@ LIVRES = {
     "c-pouvoirs": [('<a href="livre-emmanuel-macron-le-bilan.html">Emmanuel Macron, le bilan</a>',
                     "Promesses, réformes, crises et affaires : la présidence passée au crible des faits (2017-2026).",
                     AMAZON_MACRON, "assets/couverture-macron.png")],
-    "c-economie": [("Comment redresser les comptes de la France",
+    "c-economie": [('<a href="livre-comment-redresser-les-comptes-de-la-france.html">Comment redresser les comptes de la France</a>',
                     "Dette, déficit, retraites, dépenses publiques : 17 mesures chiffrées pour agir d'ici 2036. Faits, débats, calculs et propositions séparés.",
                     AMAZON_COMPTES, "assets/couverture-comptes.png")],
     "c-affaires": [("Grégory : pourquoi l'affaire n'a jamais été résolue",
-                    "Les erreurs des premières 48 heures qui ont tout fait échouer. Volume 4 de la collection « Affaires qui ont choqué la France », environ 60 minutes de lecture.",
+                    "Les premières 48 heures de l'enquête : ce qui a été fait, ce qui a manqué. Environ 60 minutes de lecture.",
                     AMAZON_GREGORY, "assets/couverture-gregory.jpg")],
 }
 COLLECTION = {"c-pouvoirs": "Pouvoirs &amp; Société", "c-economie": "Pouvoirs &amp; Société", "c-affaires": "Affaires &amp; Enquêtes"}
@@ -322,7 +323,8 @@ livres = tete_visuel("Monographies", "Monographies",
 {grille_livres(["c-affaires"])}
       </div>""")
 page("livres.html", "Monographies", "Une monographie est un livre consacré à un seul sujet, étudié en détail. Ici, pas de livres de photographies : des dossiers documentaires complets et sourcés.", livres,
-     titre_seo="Monographies : un sujet traité à fond · Le Petit Monographe")
+     titre_seo="Monographies : un sujet traité à fond · Le Petit Monographe",
+     tete_extra="".join(f'\n  <script type="application/ld+json">{json.dumps({"@context": "https://schema.org", "@type": "Book", "name": re.sub(r"<[^>]+>", "", t), "description": r, "image": f"https://lepetitmonographe.com/{cv}", "inLanguage": "fr", "isPartOf": {"@type": "BookSeries", "name": _html.unescape(COLLECTION[c])}, "publisher": {"@type": "Organization", "name": "Le Petit Monographe"}, "sameAs": u}, ensure_ascii=False)}</script>' for c in LIVRES for t, r, u, cv in LIVRES[c]))
 
 # ---------- Méthode ----------
 ETIQ = [
@@ -427,7 +429,7 @@ page("a-propos.html", "À propos", "Le Petit Monographe, publication indépendan
 contact = tete("Contact", "Écrire au Petit Monographe",
                "Presse, lecteurs, signalement d'une erreur ou d'une source : toute remarque argumentée et sourcée est lue.") + "\n" + section(f"""      <div class="prose">
         <p>Pour signaler une erreur, merci d'indiquer la publication, le passage concerné et, si possible, la source qui permet de la corriger.</p>
-        <p><a class="bouton" href="#">{A("Adresse e-mail de contact")}</a></p>
+        <p><a class="bouton" href="mailto:lepetitmonographe@gmail.com">lepetitmonographe@gmail.com</a></p>
       </div>""")
 page("contact.html", "Contact", "Contacter Le Petit Monographe : questions de lecteurs, demandes de la presse, signalement d'une erreur ou d'une source plus récente.", contact)
 
@@ -531,8 +533,72 @@ macron = f'''  <section class="tete-page c-pouvoirs">
       <div class="portes" style="gap:32px">
 {parties}
       </div>""")
+def donnees_livre(fichier, titre, resume, lien_achat, couverture, date_parution, collection):
+    """Fiche schema.org Book, pour que les moteurs reconnaissent les monographies comme des livres."""
+    import json as _json
+    editeur = {"@type": "Organization", "name": "Le Petit Monographe", "url": "https://lepetitmonographe.com/"}
+    livre = {"@context": "https://schema.org", "@type": "Book", "name": titre, "description": resume,
+             "url": f"https://lepetitmonographe.com/{fichier}", "image": f"https://lepetitmonographe.com/{couverture}",
+             "inLanguage": "fr", "datePublished": date_parution, "isPartOf": {"@type": "BookSeries", "name": collection},
+             "author": editeur, "publisher": editeur, "sameAs": lien_achat,
+             "offers": {"@type": "Offer", "url": lien_achat, "availability": "https://schema.org/InStock"}}
+    if not date_parution:
+        del livre["datePublished"]
+    return f'\n  <script type="application/ld+json">{_json.dumps(livre, ensure_ascii=False)}</script>'
+
 page("livre-emmanuel-macron-le-bilan.html", "Emmanuel Macron, le bilan",
-     "Emmanuel Macron, le bilan. Promesses, réformes, crises et affaires : la présidence passée au crible des faits (2017-2026).", macron)
+     "Emmanuel Macron, le bilan. Promesses, réformes, crises et affaires : la présidence passée au crible des faits (2017-2026).", macron,
+     image="assets/couverture-macron.png", type_og="book",
+     tete_extra=donnees_livre("livre-emmanuel-macron-le-bilan.html", "Emmanuel Macron, le bilan",
+                              "Promesses, réformes, crises et affaires : la présidence passée au crible des faits (2017-2026).",
+                              AMAZON_MACRON, "assets/couverture-macron.png", "2026-10", "Pouvoirs & Société"))
+
+# ---------- Livre : Comment redresser les comptes de la France ----------
+MESURES_COMPTES = [
+    "mettre en place une règle durable d'équilibre des retraites",
+    "réexaminer les dépenses et les opérateurs de l'État",
+    "évaluer les niches fiscales et supprimer celles qui ne démontrent pas leur efficacité",
+    "agir sur les dépenses de santé évitables et les arrêts longs",
+    "renforcer le recouvrement de la fraude et du travail dissimulé",
+    "augmenter le taux d'emploi des seniors",
+    "restaurer une trajectoire budgétaire crédible jusqu'en 2036",
+]
+comptes = f'''  <section class="tete-page c-economie">
+    <div class="conteneur">
+      <div class="livre-entete">
+      <img class="couverture-grande" src="assets/couverture-comptes.png" alt="Couverture du livre Comment redresser les comptes de la France" width="142" height="231">
+      <div>
+      <p class="surtitre">Collection Pouvoirs &amp; Société</p>
+      <h1>Comment redresser les comptes de la France</h1>
+      <p class="chapeau">Dette, déficit, retraites, dépenses publiques : 17 mesures chiffrées pour agir d'ici 2036.</p>
+      <p style="margin:20px 0 0"><a class="bouton" href="{AMAZON_COMPTES}" target="_blank" rel="noopener">Voir sur Amazon</a></p>
+      </div>
+      </div>
+    </div>
+  </section>
+''' + section("""      <div class="prose">
+        <p>La dette publique atteint 119 % du PIB. Le déficit reste durablement élevé et la charge d'intérêts augmente rapidement. Dans le même temps, la France doit financer ses retraites, sa santé, ses services publics et faire face au vieillissement de sa population.</p>
+        <p>Faut-il augmenter les impôts, réduire les dépenses, réformer les retraites, travailler davantage, ou existe-t-il une autre voie ? Ce livre part des chiffres pour examiner les solutions possibles, leurs effets et leurs limites.</p>
+        <h2>Un diagnostic des finances publiques</h2>
+        <p>Dette publique, déficit, fiscalité, retraites, santé, niches fiscales, fraude sociale, emploi des seniors, dépenses de l'État : le livre suit l'argent public et identifie les principales sources de dérive. L'analyse s'appuie notamment sur les données de l'Insee, de la Cour des comptes, de la Banque de France, de l'OCDE, d'Eurostat et sur des rapports parlementaires.</p>
+      </div>""") + "\n" + section(f"""      <h2>Des mesures chiffrées</h2>
+      <p class="intro">Le livre détaille 17 mesures. Parmi elles :</p>
+      <ul class="liste-mesures">
+{chr(10).join(f"        <li>{m_}</li>" for m_ in MESURES_COMPTES)}
+      </ul>
+      <p>Il étudie aussi les expériences du Canada, de la Suède, du Danemark, des Pays-Bas et du Portugal, pour déterminer ce qui pourrait être transposé en France.</p>""") + "\n" + section("""      <div class="prose">
+        <h2>Pas de solution miracle, des choix mesurables</h2>
+        <p>Pour chaque proposition sont présentés le coût ou le gain attendu, le calendrier, les difficultés de mise en œuvre, les personnes susceptibles d'en supporter l'effort et les principaux arguments contraires.</p>
+        <p>Un tableau de bord de 12 indicateurs, avec des jalons pour 2029 et des objectifs jusqu'en 2036, permet de suivre année après année l'évolution des comptes publics, de l'emploi, de la productivité et des services publics.</p>
+        <p>Comme les dossiers du site, le livre sépare les faits, les débats, les calculs et les propositions. Pour approfondir certains points, voir les dossiers sur <a href="dossier-dette-publique.html">la dette publique</a>, <a href="dossier-niches-fiscales.html">les niches fiscales</a>, <a href="dossier-retraites-financement.html">le financement des retraites</a> et <a href="dossier-fraudes.html">la fraude fiscale et sociale</a>.</p>
+      </div>""")
+page("livre-comment-redresser-les-comptes-de-la-france.html", "Comment redresser les comptes de la France",
+     "Dette, déficit, retraites, dépenses publiques : 17 mesures chiffrées pour redresser les comptes de la France d'ici 2036, avec coûts, calendrier et arguments contraires.", comptes,
+     titre_seo="Redresser les comptes de la France : 17 mesures · Le Petit Monographe",
+     image="assets/couverture-comptes.png", type_og="book",
+     tete_extra=donnees_livre("livre-comment-redresser-les-comptes-de-la-france.html", "Comment redresser les comptes de la France",
+                              "Dette, déficit, retraites, dépenses publiques : 17 mesures chiffrées pour agir d'ici 2036.",
+                              AMAZON_COMPTES, "assets/couverture-comptes.png", None, "Pouvoirs & Société"))
 
 # ---------- Dossier : chômage et emploi ----------
 def encadre(etiquette, contenu):
@@ -887,7 +953,11 @@ def ligne(h, attributs=""):
 
 # ---------- Page « Tous les dossiers » ----------
 _liste = [(c, h, t, d, INFOS[h]["min"]) for c in ["c-monde", "c-pouvoirs", "c-economie", "c-affaires", "c-psycho"] for h, t, d in DOSSIERS.get(c, [])]
-_lignes_toutes = "\n".join(ligne(h, f' data-rubrique="{RUB_INFO[c][2]}" data-texte="{_texte_recherche(h, t, d)}"') for c, h, t, d, m in _liste)
+# Le texte intégral sert à la recherche ; il est chargé à part, à la première frappe, pour alléger la page.
+_index_recherche = {h: _html.unescape(_texte_recherche(h, t, d)) for c, h, t, d, m in _liste}
+with open(os.path.join(OUT, "assets", "recherche.json"), "w", encoding="utf-8") as _f:
+    json.dump(_index_recherche, _f, ensure_ascii=False, separators=(",", ":"))
+_lignes_toutes = "\n".join(ligne(h, f' data-rubrique="{RUB_INFO[c][2]}" data-fichier="{h}" data-texte="{_html.escape(_texte_brut(t + " " + d).lower())}"') for c, h, t, d, m in _liste)
 _filtres = "".join(f'<button type="button" class="filtre" data-filtre="{k}" aria-pressed="false">{n}</button>' for _, (n, _p, k) in RUB_INFO.items())
 dossiers_page = f'''  <section class="tete-simple">
     <div class="conteneur">
@@ -1021,8 +1091,8 @@ for h, c, t, d in RUBRIQUES:
     page(h, t.replace("&amp;", "&"), RUB_SEO[h][1], corps, titre_seo=RUB_SEO[h][0])
 
 # ---------- Accueil ----------
-UNE = ["dossier-iran-ormuz-carburants.html", "dossier-russie-sanctions-petrole.html", "dossier-budget-2027.html", "dossier-assemblee-sans-majorite.html", "dossier-delais-justice-penale.html"]
-DERNIERES = ["dossier-eau-outre-mer.html", "dossier-strategie-biais-reflexe.html", "dossier-maintien-ordre-manifestations.html", "dossier-detection-mensonge.html"]
+UNE = ["dossier-eau-outre-mer.html", "dossier-budget-2027.html", "dossier-iran-ormuz-carburants.html"]
+DERNIERES = ["dossier-strategie-biais-reflexe.html", "dossier-maintien-ordre-manifestations.html", "dossier-theories-du-complot.html", "dossier-detection-mensonge.html"]
 _diapos = []
 for n, h in enumerate(UNE):
     i = INFOS[h]
@@ -1031,7 +1101,7 @@ for n, h in enumerate(UNE):
         <div class="conteneur une-contenu">
           <p class="une-surtitre">Enquête à la une</p>
           <h2 class="une-titre"><a href="{h}">{i["titre"]}</a></h2>
-          <p class="une-chapeau">{i["resume"]}</p>
+          <p class="une-chapeau">{_inline(i["meta"].get("description") or i["meta"].get("chapeau") or i["resume"])}</p>
           <a class="bouton-or" href="{h}" tabindex="-1" aria-hidden="true">Lire l'enquête{FLECHE}</a>
           <p class="une-meta"><span>{RUB_COURTS[i["c"]]}</span><span aria-hidden="true">|</span>{meta_carte(h)}</p>
         </div>

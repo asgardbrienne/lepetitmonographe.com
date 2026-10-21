@@ -766,3 +766,5 @@ a:hover .fleche { transform: translateX(3px); }
 .definition-monographie { max-width: 760px; }
 .definition-monographie p { margin: 0 0 12px; }
 .definition-monographie p:last-child { margin-bottom: 0; }
+
+.liste-mesures { margin: 0 0 18px; padding-left: 1.2em; display: grid; gap: 8px; max-width: 760px; }
