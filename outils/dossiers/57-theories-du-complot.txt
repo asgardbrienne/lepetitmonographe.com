@@ -6,19 +6,20 @@ titre_court: Les théories du complot
 titre_seo: Théories du complot : ce que dit la psychologie
 description: Besoin de comprendre, de sécurité, d'être unique : ce que la recherche confirme, et ne confirme pas, sur l'adhésion aux théories du complot. Synthèses et enquêtes.
 chapeau: Besoin de comprendre, de se sentir en sécurité, d'être unique : la psychologie sociale propose plusieurs explications à l'adhésion aux théories du complot. Certaines sont confirmées par de nombreuses études, d'autres beaucoup moins qu'on ne le dit, comme le besoin de contrôle. Ce que disent les synthèses, les enquêtes françaises, et la frontière entre doute légitime et pensée conspirationniste.
-resume: Les trois motifs identifiés par la recherche, le besoin d'unicité, le besoin de contrôle et la méta-analyse qui le remet en cause, la synthèse de 170 études, les enquêtes Ifop de 2018 et 2019 en France, la question de la mesure, et ce qui réduit la vulnérabilité aux manipulations. Données arrêtées au 19 octobre 2026.
+resume: Les trois motifs identifiés par la recherche, le besoin d'unicité, le besoin de contrôle et la méta-analyse qui le remet en cause, la synthèse de 170 études, l'enquête Ifop de décembre 2018 en France, publiée en 2019, la question de la mesure, et ce qui réduit la vulnérabilité aux manipulations. Données arrêtées au 19 octobre 2026.
 arret: 19 octobre 2026
 publication: 19 octobre 2026
-verifie: 19 octobre 2026
+verifie: 21 octobre 2026
 voir_aussi: dossier-illusion-de-verite.html, dossier-effet-desinformation.html, dossier-deepfakes.html
 image: assets/images/theories-du-complot.jpg
 image_alt: Des pièces de puzzle éparses
 image_credit: Patafisik, CC BY-SA 3.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Puzzle_pieces_1.JPG
+corrections: Le 21 octobre 2026, le résumé mentionnait à tort deux enquêtes Ifop (2018 et 2019) : il s'agit d'une seule enquête, réalisée en décembre 2018 et publiée en 2019 ; l'Essentiel distingue désormais les deux études de 2017 sur le besoin d'unicité.
 ---
 ## Essentiel
 - Une synthèse publiée en 2017 classe les motifs de l'adhésion aux théories du complot en trois familles : comprendre son environnement (motifs épistémiques), s'y sentir en sécurité et en contrôle (motifs existentiels), garder une image positive de soi et de son groupe (motifs sociaux). Les auteurs relèvent que rien n'indique, à ce jour, que ces croyances satisfont réellement ces besoins [1].
-- Le besoin de se sentir unique est associé à l'adhésion de façon « modeste mais solide », et le provoquer expérimentalement l'augmente, selon deux séries d'études publiées en 2017 [2][3].
+- Le besoin de se sentir unique est associé à l'adhésion de façon « modeste mais solide » selon une série d'études publiée en 2017 [3] ; dans deux expériences d'une autre équipe, la même année, le renforcer augmentait l'adhésion [2].
 - Le besoin de contrôle, souvent présenté comme établi, l'est beaucoup moins : une méta-analyse de 2020 conclut que l'effet expérimental d'un manque de contrôle sur les croyances complotistes est faible et non significatif [4][5].
 - Une méta-analyse de 2023 portant sur 170 études et 158 473 participants trouve que les corrélats les plus forts sont la perception de dangers et de menaces, le recours à l'intuition et les croyances inhabituelles, et une attitude d'antagonisme et de supériorité [6].
 - En France, dans une enquête Ifop de décembre 2018, 21 % des personnes interrogées se déclaraient d'accord avec au moins cinq des dix énoncés complotistes proposés, 35 % avec aucun [7].
@@ -59,11 +60,11 @@ image_lien: https://commons.wikimedia.org/wiki/File:Puzzle_pieces_1.JPG
 
 ## Ce qui réduit la vulnérabilité
 
-[Fait établi] En 2022, Jon Roozenbeek et ses coauteurs ont testé de courtes vidéos expliquant cinq techniques de manipulation fréquentes (langage émotionnel, incohérence, faux dilemmes, désignation de boucs émissaires, attaques personnelles). Dans six expériences contrôlées sur 6 464 personnes et une étude de terrain sur YouTube auprès de 22 632 personnes, elles amélioraient la reconnaissance de ces techniques et la capacité à distinguer les contenus fiables, quel que soit le bord politique [8].
+[Fait établi] En 2022, Jon Roozenbeek et ses coauteurs ont testé de courtes vidéos expliquant cinq techniques de manipulation fréquentes (langage émotionnel, incohérence, faux dilemmes, désignation de boucs émissaires, attaques personnelles). Dans six expériences contrôlées sur 6 464 personnes et une étude de terrain sur YouTube auprès de 22 632 personnes, elles amélioraient la reconnaissance de ces techniques et la capacité à distinguer les contenus fiables, quel que soit le bord politique [8]. Ces travaux portent sur la désinformation en général : ils ne mesurent pas directement l'effet de ces vidéos sur l'adhésion aux théories du complot.
 
 ## Ce qu'on ne sait pas
 - **L'effet causal de la plupart des facteurs associés** au complotisme : la majorité des études sont des corrélations [6].
-- **L'évolution de l'adhésion en France depuis 2019** : les sources consultées ne fournissent pas de vague plus récente de la même enquête.
+- **L'évolution de l'adhésion en France depuis 2019** : des enquêtes plus récentes existent, avec d'autres questionnaires ou d'autres publics ; elles n'ont pas été exploitées pour ce dossier et ne se comparent pas directement à celle de 2018 sans examen de leur méthode.
 - **L'effet durable des formations à la reconnaissance des manipulations** au-delà de quelques semaines [8].
 
 ## Sources

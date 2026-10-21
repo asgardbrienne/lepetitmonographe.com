@@ -9,15 +9,16 @@ chapeau: Tours d'eau, eau en bouteille, réseaux qui perdent plus de la moitié 
 resume: Les pertes des réseaux, les coupures et leur ancienneté en Guadeloupe et en Martinique ; la dépendance à la pluie, les tours d'eau, le choléra et l'objectif de fin des coupures en 2026 à Mayotte ; la qualité de l'eau et les cyclones à La Réunion ; le partage des responsabilités entre collectivités et État ; les plaintes et l'information judiciaire ouverte à Paris ; la vérification des chiffres qui circulent. Données arrêtées au 20 octobre 2026.
 arret: 20 octobre 2026
 publication: 20 octobre 2026
-verifie: 20 octobre 2026
+verifie: 21 octobre 2026
 voir_aussi: dossier-maintien-ordre-manifestations.html, dossier-strategie-biais-reflexe.html, dossier-usage-force-police.html
 image: assets/images/eau-outre-mer.jpg
 image_alt: La retenue collinaire de Dzoumogné, à Mayotte, bordée de berges de terre rouge découvertes
 image_credit: Plg56, CC BY-SA 3.0, recadrée, Wikimedia Commons
 image_lien: https://commons.wikimedia.org/wiki/File:Retenue_collinaire_de_Dzoumogn%C3%A9.JPG
+corrections: Le 21 octobre 2026, les taux de renouvellement de La Réunion et de Mayotte, déjà présents dans le graphique, sont désormais aussi donnés et sourcés dans le texte (Cour des comptes), avec le rendement du réseau mahorais ; la comparaison entre les pertes guadeloupéennes et le rendement national est explicitée.
 ---
 ## Essentiel
-- En Guadeloupe, 58 % de l'eau produite en 2023 n'est pas arrivée jusqu'aux usagers, fuites et volumes non comptés confondus ; la moyenne nationale du rendement des réseaux est de 79 % en 2024 [4][33]. Les « tours d'eau », des coupures alternées planifiées, se sont imposés « progressivement comme un mode de gestion à part entière » après 2014, selon la Cour des comptes [1].
+- En Guadeloupe, 58 % de l'eau produite en 2023 n'est pas arrivée jusqu'aux usagers, fuites et volumes non comptés confondus, soit un rendement d'environ 42 % ; en France, le rendement moyen des réseaux est de 79 % en 2024, une comparaison indicative puisque les années et les sources diffèrent [4][33]. Les « tours d'eau », des coupures alternées planifiées, se sont imposés « progressivement comme un mode de gestion à part entière » après 2014, selon la Cour des comptes [1].
 - À Mayotte, les coupures sont en cours à la date d'arrêt des données : depuis le 15 juillet 2026, les abonnés reçoivent l'eau 30 heures sur 72, pour des besoins de 47 500 m³ par jour et une capacité de 37 000 m³ [27]. L'État s'est fixé dans la loi de 2025 l'objectif de mettre fin aux tours d'eau « d'ici la fin de l'année 2026 » [26]. Début 2024, 25 % des ménages mahorais n'avaient pas l'eau courante dans leur logement [22].
 - À La Réunion, l'eau du robinet est en majorité conforme, mais en 2021 la moitié des abonnés étaient desservis par des réseaux « ne garantissant pas une sécurité sanitaire suffisante », selon l'ARS [30].
 - La distribution de l'eau est une compétence des communes et de leurs groupements, pas de l'État [35]. La Cour des comptes relève cependant que la fin de l'appui technique de l'État a contribué, depuis la fin des années 1990, à une longue période de sous-investissement des collectivités [1]. Le plan Eau DOM de 2016 a engagé 889 millions d'euros, pour des besoins estimés à 2,3 milliards [1].
@@ -59,6 +60,8 @@ image_lien: https://commons.wikimedia.org/wiki/File:Retenue_collinaire_de_Dzoumo
 
 [Fait établi] Début 2024, avant Chido, 25 % des ménages ne disposaient pas d'eau courante dans leur logement, selon l'enquête Logement de l'Insee [22].
 
+[Fait établi] Le réseau lui-même est récent et, selon la Cour des comptes, « peu fuyard » comparé aux autres départements d'outre-mer, avec un rendement de 74 % en 2020 ; mais il n'est renouvelé qu'à un rythme d'environ 0,06 % par an, et la connaissance du patrimoine par le gestionnaire est jugée « excessivement faible » [1].
+
 [Fait établi] En 2024, une épidémie de choléra a touché Mayotte : 221 cas et 5 décès attribués au choléra au 29 juillet, selon Santé publique France [23]. L'agence situait les premiers foyers à Koungou, « dans un quartier précaire avec des difficultés d'accès à l'eau potable et des défauts d'assainissement » [24].
 
 [Fait établi] La loi de programmation pour la refondation de Mayotte du 11 août 2025 programme 730 millions d'euros pour l'eau et l'assainissement. L'État s'y engage à réaliser une deuxième usine de dessalement à Ironi Bé, « opérationnelle en 2026 », et une troisième retenue collinaire, et poursuit un objectif de fin des tours d'eau « d'ici la fin de l'année 2026 » [26]. Le 15 juillet 2026, les tours d'eau sont au contraire durcis [27]. Le 31 juillet 2026, le tribunal administratif de Mayotte a suspendu l'autorisation environnementale de l'usine d'Ironi Bé, saisi par trois associations de protection de la nature, et donné six mois au syndicat des eaux et au préfet pour corriger trois illégalités [28].
@@ -67,7 +70,7 @@ image_lien: https://commons.wikimedia.org/wiki/File:Retenue_collinaire_de_Dzoumo
 
 ## La Réunion : de l'eau, mais pas toujours sûre
 
-[Fait établi] La Réunion dispose de ressources plus abondantes et d'un réseau dont le rendement atteint 61 % en 2023. La même année, 96 % des analyses étaient conformes en microbiologie et 98 % en physico-chimie, selon l'Office de l'eau [29]. Mais selon l'ARS, en 2021, seuls 45 % des abonnés recevaient une eau ayant fait l'objet d'un « traitement de potabilisation adapté » ; 50 % étaient desservis par des réseaux « ne garantissant pas une sécurité sanitaire suffisante » et 5 % étaient exposés à un « risque microbiologique avéré » [30].
+[Fait établi] La Réunion dispose de ressources plus abondantes et d'un réseau dont le rendement atteint 61 % en 2023. La même année, 96 % des analyses étaient conformes en microbiologie et 98 % en physico-chimie, selon l'Office de l'eau [29]. Le taux moyen de renouvellement des réseaux avoisine l'objectif national de 0,5 % par an, avec de fortes différences entre intercommunalités, de 0,37 % à 1,05 % en 2022 [1]. Mais selon l'ARS, en 2021, seuls 45 % des abonnés recevaient une eau ayant fait l'objet d'un « traitement de potabilisation adapté » ; 50 % étaient desservis par des réseaux « ne garantissant pas une sécurité sanitaire suffisante » et 5 % étaient exposés à un « risque microbiologique avéré » [30].
 
 [Fait établi] Les coupures y sont liées aux sécheresses et aux cyclones. En février 2025, en pleine sécheresse, 28 240 personnes restaient approvisionnées en eau embouteillée [31]. Après le cyclone Garance, le 2 mars 2025, plus de 36 % de la population n'avait pas encore accès à l'eau potable, soit plus de 300 000 personnes selon la préfecture [32].
 
@@ -82,7 +85,7 @@ donnees:
 - Objectif national | 0,5
 source: Cour des comptes, La gestion de l'eau potable et de l'assainissement en outre-mer, janvier 2025 [1]
 lecture: Au rythme de 0,06 % par an, renouveler l'ensemble du réseau de Mayotte prendrait plus de 1 600 ans, contre 200 ans au rythme de l'objectif national.
-note: Valeurs arrondies par la Cour pour la Martinique, La Réunion et Mayotte ; les durées de la phrase de lecture sont un calcul du Petit Monographe (100 divisé par le taux annuel). Un taux de renouvellement proche de l'objectif ne garantit pas un bon service : la Cour le souligne pour la Guadeloupe.
+note: Valeurs arrondies par la Cour pour la Martinique, La Réunion et Mayotte ; pour la Guadeloupe, la valeur ne concerne que le territoire en régie du SMGEAG (0,21 % à Marie-Galante) ; les durées de la phrase de lecture sont un calcul du Petit Monographe (100 divisé par le taux annuel). Un taux de renouvellement proche de l'objectif ne garantit pas un bon service : la Cour le souligne pour la Guadeloupe.
 
 ## Qui est responsable ?
 

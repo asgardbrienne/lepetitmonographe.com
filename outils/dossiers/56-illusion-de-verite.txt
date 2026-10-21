@@ -35,7 +35,7 @@ image_lien: https://commons.wikimedia.org/wiki/File:Pole_loudspeaker,_Maria_Elle
 
 [Fait établi] En 2015, Lisa Fazio et ses coauteurs ont testé l'hypothèse selon laquelle la connaissance limite l'effet : répéter que « l'océan Atlantique est le plus grand océan de la Terre » ne devrait pas le faire croire. Contrairement à cette hypothèse, l'effet apparaissait même lorsque les participants connaissaient la bonne réponse. Selon les auteurs, les personnes se fient parfois à la fluidité alors que la connaissance leur est disponible [4].
 
-[Interprétation] L'effet ne transforme pas tout le monde en crédule : il augmente la crédibilité perçue, il ne la fait pas passer du faux au vrai pour chacun. Mais il opère y compris chez des personnes informées, ce qui contredit l'idée qu'il ne toucherait que les moins instruits.
+[Interprétation] L'effet ne transforme pas tout le monde en crédule : il augmente la crédibilité perçue, il ne la fait pas passer du faux au vrai pour chacun. Mais il opère y compris chez des personnes qui connaissent la bonne réponse, ce qui contredit l'idée qu'il ne toucherait que celles qui l'ignorent. L'étude porte sur des connaissances générales de type quiz, et non sur le niveau d'études des participants [4].
 
 ## Les fausses informations en ligne
 
